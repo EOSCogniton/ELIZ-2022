@@ -1,0 +1,138 @@
+\documentclass{EPSA-rap-template}
+
+\usepackage{listings}
+
+\newcommand{\TitreCarte}[1]{\renewcommand{\TitreCarte}{#1}}
+\newcommand{\SectionPrimaire}[1]{\renewcommand{\SectionPrimaire}{#1}}
+\newcommand{\Vehicule}[1]{\renewcommand{\Vehicule}{#1}}
+\newcommand{\OrRule}[1]{\renewcommand{\OrRule}{#1}}
+\newcommand{\entree}[1]{\renewcommand{\entree}{#1}}
+\newcommand{\sortie}[1]{\renewcommand{\sortie}{#1}}
+\newcommand{\descDet}[1]{\renewcommand{\descDet}{#1}}
+\newcommand{\lienSchema}[1]{\renewcommand{\lienSchema}{#1}}
+\newcommand{\verRegle}[1]{\renewcommand{\verRegle}{#1}}
+\newcommand{\secAnn}[1]{\renewcommand{\secAnn}{#1}}
+\newcommand{\specAn}[1]{\renewcommand{\specAn}{#1}}
+\newcommand{\comLog}[1]{\renewcommand{\comLog}{#1}}
+\newcommand{\lienSchemaRl}[1]{\renewcommand{\lienSchemaRl}{#1}}
+\newcommand{\lienSchemaPl}[1]{\renewcommand{\lienSchemaPl}{#1}}
+\newcommand{\listecomp}[1]{\renewcommand{\listecomp}{#1}}
+\newcommand{\lienData}[1]{\renewcommand{\lienData}{#1}}
+
+\usepackage{CarteElec}
+
+
+\type{Clarification Objectif Carte Electroniques}
+
+\titre{\TitreCarte}
+
+\departement{BASTIE}
+\version{v0.1}
+
+
+
+
+\setuppack
+
+\begin{document}
+
+\fairemarges
+\fairepagedegarde
+
+\newpage
+
+\tableofcontents
+
+\section{Introduction}
+
+Le présent document va résumer le fonctionnement la carte \TitreCarte \ présent dans le réglement à la section \SectionPrimaire. Cette rédaction s'est faite sous la direction du véhicule \Vehicule \ et sous la version des régles suivantes : \verRegle 
+
+\section{Description du fonctionnement}
+
+La logique de cette carte obéit aux règles suivantes : 
+
+{
+\scriptsize	
+\lstinputlisting[breaklines,mathescape=true]{Regle.txt}
+
+}
+
+\bigskip
+
+De ces règles nous pouvons sortir une liste d'entrée sortie que devra posséder notre carte :
+
+\textbf{Entrée :}
+
+\begin{itemize}
+
+\entree
+
+\end{itemize}
+
+\textbf{Sortie :}
+
+\begin{itemize}
+
+\sortie
+
+\end{itemize}
+
+\section{Description détaillé du fonctionnement de la carte}
+
+Le fonctionnement détaillé de la carte \TitreCarte \ est résumé ci-dessous : 
+
+\descDet
+
+\section{Schéma Logique}
+
+La carte \TitreCarte , devra suivre le schéma logique Figure \ref{fig:sch_log}. Ce schéma pose les bases pour la conception détaillé de la carte. 
+
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=\textwidth]{\lienSchema}
+\caption{Schéma logique de la carte \TitreCarte}
+\label{fig:sch_log}
+\end{figure}
+
+\comLog
+
+\section{Réalisation de la carte \TitreCarte \ durant le projet \Vehicule}
+
+\specAn
+
+La carte de l'année actuelle possède un circuit réelle représenté Figure \ref{fig:sch_rl} et une optimisation d'espace Figure \ref{fig:sch_crly}. Toute les données concernant cette carte sont trouvables au lien suivant : \href{\lienData}{Itération \Vehicule \ de la carte \TitreCarte }
+
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=\textwidth]{\lienSchemaRl}
+\caption{Schéma Réelle de la carte \TitreCarte \ du projet \Vehicule}
+\label{fig:sch_rl}
+\end{figure}
+
+\begin{figure}[hbt!]
+\centering
+\includegraphics[width=\textwidth]{\lienSchemaPl}
+\caption{Schéma position de la carte \TitreCarte \ du projet \Vehicule}
+\label{fig:sch_crly}
+\end{figure}
+
+La carte possède les composants suivants :
+
+\begin{center}
+{
+\centering
+\noindent
+\renewcommand*{\arraystretch}{1.4}
+\begin{tabular}{lll}
+
+Pièce & Référence & Quantité \\
+\hline
+\listecomp
+
+\end{tabular}
+}
+\end{center}
+
+\secAnn
+
+\end{document}

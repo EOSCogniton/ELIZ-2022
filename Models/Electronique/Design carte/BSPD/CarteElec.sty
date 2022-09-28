@@ -1,0 +1,111 @@
+% Toutes les valeurs du document sont à rentrer ici
+
+%Véhicule qui a fait émerger ce résumé
+\Vehicule{Artemiz V1.0}
+%Nom du fichier régle
+\verRegle{
+FS-Rules\_2022\_v1.0
+}
+%Auteurs
+\auteurs{Thomas \textbf{Fassin}}
+%Titre de la carte
+\TitreCarte{BSPD}
+%Section primaire du réglement 
+\SectionPrimaire {$X.0.0$}
+
+%Règle original (copier l'intégralité de la régle de fonctionnement dans regles.txt (faire en sorte que latex gueule pas : remplacer les signes par du latex (inférieur ou égale etc)))
+
+
+%Entrée de la carte (quel tension ,d'ou,quelle plage de valeur qui vient de quel capteur etc...)
+\entree{
+
+\item Première entrée : signal du capteur de freinage
+\item Deuxième entrée : signal du capteur de puissance délivrée aux moteurs
+
+}
+
+%Sortie de la carte (quel tension ,d'ou,quelle plage de valeur qui vient de quel capteur etc...)
+\sortie{
+
+\item Première sortie : interrupteur ouvrant ou fermant le shotgun circuit.
+
+}
+
+%Description Détaillé. Elle est globalement une traduction des règles en anglais avec des ajouts
+% ayant pour but de clarifier le fonctionnement
+\descDet{
+
+le BSPD ouvre le shutdown circuit lorsque'il capte un gros freinage alors que plus de 5kW est délivré aux moteurs pendant plus de 500ms
+Le shutdown circuit ne se referme que quand les conditions de fermeture ne sont pas validées pendant plus de 10 secondes.
+
+Il ne doit comporter que des circuits imprimés non programmables et n'être reliée à aucun système en amont.
+
+Un système de pression des freins doit être utilisé tel que cette pression ne dépasse pas 30 bar.
+
+Seul un capteur de courant DC doit être utilisé. Il doit être choisi tel que la puissance de dépasse pas 5kW à la tension maximale.
+
+Il faut pouvoir déconnecter chaque capteur en cas d'inspection.
+
+Il ne doit pas être dans la TSAC.
+
+Tous les signaux associés doivent être des SCS.
+
+Le fonctionnement du BSPD doit être prouvé en réalisant les conditions d'activation.
+
+}
+
+%Lien du fichier du schéma logique
+\lienSchema{schéma.png}
+
+%Commentaire sur la logique (ne pas hésiter a ajouter des figures ou autres)
+\comLog{
+
+
+}
+
+%Réalisation Actuelle ----------------
+
+%Spécification sur la réalisation de l'année actuelle
+\specAn{
+Cette année l'itération de la carte possède quelques particularité : 
+
+\begin{itemize}
+\item Première spécificité 
+\item Deuxième spécificité 
+\end{itemize}
+
+}
+
+%lien des données (un lien Drive, EpsaBox ou autre)
+\lienData{http://google.com}
+
+%Lien du schéma de conception réelle de la carte (un screen de protheus ou LtSpice)
+\lienSchemaRl{schéma.png}
+%Lien du schéma de placement réelle de la carte (un screen de Eagle)
+\lienSchemaPl{schéma.png}
+
+%Liste des composants
+\listecomp{
+
+\textbf{NE555} & \texttt{?} & 1 \\
+
+\textbf{resistance de ?ohms} & \texttt{?} & 1 \\
+
+\textbf{Condensateur de ?mF} & \texttt{?} & 2 \\
+
+\textbf{Porte ET} & \texttt{?} & 1 \\
+
+\textbf{Transistor MOS} & \texttt{?} & 1 \\
+
+\textbf{Amplificateur opérationnel} & \texttt{?} & 1 \\
+
+}
+
+%Fin Réalisation Actuelle -----------------
+
+%Section annexe à la discrétion de l'auteur (ne pas oublier de commencer par \section{} )
+\secAnn{
+
+}
+
+%----------------------------------------------------

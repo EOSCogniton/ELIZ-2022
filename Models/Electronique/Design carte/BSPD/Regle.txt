@@ -1,0 +1,26 @@
+T 11.6 Brake System Plausibility Device
+
+T 11.6.1 A standalone non-programmable circuit, the BSPD, must open the shutdown circuit, see
+EV 6.1 and CV 4.1, when hard braking occurs, whilst
+$\bullet$ [EV ONLY] $\geq$5 kW power is delivered to the motors.
+$\bullet$ [CV ONLY] the throttle position is more than 25 % over idle position.
+The shutdown circuit must remain open until power cycling the LVMS or the BSPD may
+reset itself if the opening condition is no longer present for more than 10 s.
+T 11.6.2 The action of opening the shutdown circuit must occur if the implausibility is persistent for
+more than 500 ms.
+T 11.6.3 The BSPD must be directly supplied, see T 1.3.1, from the LVMS, see T 11.3.
+T 11.6.4 Standalone is defined as there is no additional functionality implemented on all required
+Printed Circuit Boards (PCBs). The interfaces must be reduced to the minimum necessary
+signals,i.e. power supply, required sensors and the shutdown circuit. Supply and sensor
+signals must not be routed through any other devices before entering the BSPD.
+T 11.6.5 To detect hard braking, a brake system pressure sensor must be used. The threshold must be
+chosen such that there are no locked wheels and the brake pressure is $\leq$ 30 bar.
+T 11.6.6 [EV ONLY] To measure power delivery, a DC circuit current sensor only must be used. The
+threshold must be chosen to an equivalent of $\leq$5 kW for maximum TS voltage.
+T 11.6.7 It must be possible to separately disconnect each sensor signal wire for technical inspection.
+T 11.6.8 All necessary signals are System Critical Signal (SCS), see T 11.9.
+T 11.6.9 [EV ONLY] The team must prove the function of the BSPD during technical inspection by
+sending an appropriate signal that represents the current, in order to achieve $\leq$ 5 kW whilst
+pressing the brake pedal. This test must prove the functionality of the complete BSPD except
+for any commercially available current sensors.
+T 11.6.10 [EV ONLY] The BSPD including all required sensors must not be installed inside the TSAC.

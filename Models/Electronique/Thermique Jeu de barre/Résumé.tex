@@ -1,0 +1,130 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{CHAIPE 2021}
+\title{Résumé de la thermique des conducteurs}
+\date{18 octobre 2021}
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+
+Dans le cadre du dimensionnement des câbles et de l'électronique de puissance pour les voitures électriques de l'EPSA il a fallut se renseigner sur la manière dont les conducteurs peuvent chauffer sous l'effet d'un courant.
+
+J'ai donc résumé des ressources élémentaires mais pratique pour la suite du projet. 
+
+\section{ Principe fondamentaux de la thermodynamique }
+
+Il y a plusieurs lois thermique qui régissent le comportements des matériaux suivant la chaleur. 
+
+\subsection{Première lois de la thermodynamique}
+
+La loi la plus importante quand on parle de thermique des conducteurs est le premier principe de la thermodynamique.
+
+Si on considère un système fermé on a alors :
+\begin{equation*}
+dH = \partial Q + \partial W_{autre}
+\end{equation*}
+
+Ou $W_{autre}$ représente le travail des forces qui ne sont pas de pressions. 
+
+Dans notre cas on s'intéresse principalement à des conducteurs on pourra donc utiliser l'expression pour une phase condensée. De plus on écrit ce principe de la thermodynamique durant une variation de temps $dt$
+
+\begin{equation}
+C_p \frac{\partial T}{\partial t} = \Phi_{th} + P_{elec}
+\end{equation}
+Ou $\Phi_{th}$ est le flux thermique orienté de l'intérieur vers l'extérieur du solide
+
+\subsection{Convection}
+
+La manière la plus commune qu'a un conducteur pour échanger de la chaleur avec le milieu extérieur est par convection naturelle avec l'air (ou un autre milieu). La loi s'énonce comme tel : 
+
+\begin{equation}
+\Phi_{th} = h( T - T_{\infty}  )
+\end{equation}
+
+$h$ est le coefficient de transfert thermique, en watt par mètre carré-kelvin ($W/(m^2 K)$). $h$ est entre 5 et 20 $W/(m^2 K)$ pour une convection naturelle. On peut donc supposer qu'il sera un peu plus petit dans une boite étanche dans la voiture mais qu'il sera bien plus grand pour des composants à l'air libre lorsque la voiture roule. 
+
+\section{Les conducteurs}
+
+Il est bon de rappeler quelques notions essentiels autour des conducteurs. 
+
+\subsection{Vitesse de propagation d'une onde et mobilité}
+
+Tout d'abord il est bon de rappeler que la vitesse de propagation des porteurs de charges n'est pas égales a la vitesse de propagation de l'onde électrique.
+
+Dans la plupart des cas l'onde électrique se propage a $90\%$ de la vitesse de la lumière cependant un rapide calcul nous permet de nous rappeler qu'il en est différent pour les porteurs de charges. 
+
+\begin{equation*}
+j = v n e
+\end{equation*}
+Ou $j$ est le vecteur densité de courant $v$ est la vitesse de la charge $n$ est le nombre de porteur de charges et $e$ est la charge d'un porteur.
+
+On a donc que : 
+\begin{equation*}
+v = \frac{j}{n e}
+\end{equation*}
+
+Sachant que l'on dispose de la loi d'Ohm dans les conducteurs on a.
+
+\begin{equation}
+j = \sigma E
+\end{equation}
+
+Ainsi on peut définir une constante $\mu$ appelé mobilité tel que 
+
+\begin{equation*}
+v = \mu E
+\end{equation*}
+
+On peut donc en déduire une expression de $\mu$
+
+\begin{equation}
+\mu = \frac{\sigma}{n e}
+\end{equation}
+
+Sachant que $\mu$ est égale à $30 cm^2 / (Vs)$ on peut en déduire que la vitesse des porteur de charges est de l'ordre de $1 m/s$ pour des tensions de l'ordre du secteur et une longueur du mètre.
+
+
+\subsection{Résistances des conducteur}
+
+Chaque conducteur possède une résistance propre qui s'exprime suivant cette loi.
+
+\begin{equation}
+R = \frac{ l}{A \rho}
+\end{equation}
+
+Ou $\rho$ est la conductivité du matériaux (dépend de la chaleur) $l$ la longueur du conducteur et $A$ sa surface de coupe.
+
+\subsection{distribution des courants}
+
+Suivant la nature des courants que l'on impose à l'intérieur d'un conducteur on peut obtenir différentes distribution des courants au sein du conducteur
+
+\subsubsection{Courant continu}
+
+Lorsque un conducteur est soumis à un courant continue la distribution des courants est uniforme au sein du conducteur.
+
+\textbf{Élément de démonstration :}
+
+Dans un conducteur on a l'existence d'un champ magnétique tournant ce qui pourrait faire croire que les charge sous l'effet de la force de Lorentz magnétique se retrouverait attirer vers le milieu cependant ce déséquilibre entre les charges négative mobile et les ions positifs du réseaux crées un champ de Hall radiale qui contre l'effet du champ magnétique ce qui mène à l'uniformité des courants.
+
+\subsubsection{Courant Alternatif et Effet de peau}
+
+Cependant à haute fréquence l'agitation périodique des électrons tend a créer des boucles de courant dans le conducteur ce qui va forcées les porteurs de charges à ce situer sur les bords extérieurs du conducteurs. Cette effet est néfaste car en plus de rendre inutile une partie du conducteur (car il ne conduit plus de charge) cela tend à réduire la taille de la section effective du transfert des charges et donc à augmenter la résistance du matériaux. Cette effet est a prendre en compte absolument quand on utilise des courants alternatifs. 
+
+A finir... si besoin (formules etc)
+
+
+
+
+\end{document}
