@@ -1,0 +1,37 @@
+********************************
+* Copyright:                   *
+* Vishay Intertechnology, Inc. *
+********************************
+*Dec 22, 2014
+*ECN S14-2498, Rev. A
+*This document is intended as a SPICE modeling guideline and does not
+*constitute a commercial product datasheet. Designers should refer to the
+*appropriate datasheet of the same number for guaranteed specification
+*limits.
+.SUBCKT SQ2348ES D G S 
+M1 3 GX S S NMOS W= 1017308u L= 0.3u 
+M2 S GX S D PMOS W= 1017308u L= 0.15u 
+R1 D 3 1.727e-02 4.288e-03 9.511e-06 
+CGS GX S 1.005e-10 
+CGD GX D 1.454e-11 
+RG G GY 1m 
+RTCV 100 S 1e6 1.082e-04 3.468e-07 
+ETCV GX GY 100 200 1 
+ITCV S 100 1u 
+VTCV 200 S 1 
+DBD S D DBD 1017308u 
+**************************************************************** 
+.MODEL NMOS NMOS ( LEVEL = 3 TOX = 3e-8 
++ RS = 0 KP = 1.372e-05 NSUB = 3.200e+17 
++ KAPPA = 1.546e-01 NFS = 1.000e+12 
++ LD = 0 IS = 0 TPG = 1 CAPOP = 12 ) 
+*************************************************************** 
+.MODEL PMOS PMOS ( LEVEL = 3 TOX = 3e-8 
++NSUB = 6.310e+16 IS = 0 TPG = -1 CAPOP = 12 ) 
+**************************************************************** 
+.MODEL DBD D ( 
++FC = 0.1 TT = 4.719e-09 TREF = 25 BV = 31 
++RS = 1.073e-02 N = 1.019e+00 IS = 6.496e-13 
++EG = 1.202e+00 XTI = -5.261e-01 TRS = 3.211e-03 
++CJO = 2.573e-10 VJ = 7.104e-01 M = 4.782e-01 ) 
+.ENDS 

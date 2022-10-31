@@ -1,0 +1,70 @@
+(ExpressProject "TLC555"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "TLC555.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "TLC555.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tlc555-pspicefiles\astable_reference_design\tran.sim"
+        (DisplayName "astable_reference_design-TRAN")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\tlc555-pspicefiles\mono_reference_design\tran.sim"
+        (DisplayName "mono_reference_design-TRAN")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\tlc555-pspicefiles\astable_reference_design\tran.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\TLC555.lib"
+        (Type "List")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (TLC555
+      (FullPartName "TLC555.Normal")
+      (LibraryName
+         "C:\ELABTRANS_WS\ELABTRANS_DS\PART_NUMBERS\TLC555\RELEASE_SANKALP\PSPICE\TLC555_PSPICE_AIO\TLC555.OLB")
+      (DeviceIndex "0"))
+    (D_1N4148
+      (FullPartName "D_1N4148.Normal")
+      (LibraryName ".\TLC555.OLB")
+      (DeviceIndex "0"))
+    (VPULSE
+      (FullPartName "VPULSE.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VPWL
+      (FullPartName "VPWL.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VSRC
+      (FullPartName "VSRC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.0\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "x0146067")
+  (GlobalState
+    (FileView
+      (Path "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 320 829 -4 -23 92 368 117 696"))
+      (Tab 0))))

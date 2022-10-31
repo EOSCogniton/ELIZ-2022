@@ -1,0 +1,197 @@
+
+**** 09/30/21 13:04:18 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test1"  [ C:\Modeling\LM393_ti\lm393-pspicefiles\schematic1\test1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "test1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../lm393.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_DATA\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 30u 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LM393
+.EXTERNAL INPUT IN-
+.EXTERNAL INPUT OUT
+.EXTERNAL INPUT Vcc
+.EXTERNAL INPUT GND
+.EXTERNAL INPUT IN+
+V_VINN4         IN- 0 5
+R_R5         0 GND  1m TC=0,0 
+R_R4         VCC OUT  10k TC=0,0 
+V_VINN3         VCC 0 37
+V_V2         IN+ 0  
++SIN 5 100m 100k 0 0 0
+X_U1         IN+ IN- VCC GND OUT LM2903B
+
+**** RESUMING test1.cir ****
+.END
+
+**** 09/30/21 13:04:18 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test1"  [ C:\Modeling\LM393_ti\lm393-pspicefiles\schematic1\test1.sim ] 
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_U5.X_SMID._SMID 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON    0            
+        VOFF    1            
+
+
+               X_U1.X_U5.X_SHIZ._SHIZ 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON    0            
+        VOFF    1            
+
+
+               X_U1.X_U5.X_SVOL._SVOL 
+         RON    1            
+        ROFF    1.000000E+12 
+         VON    0            
+        VOFF    1            
+
+
+**** 09/30/21 13:04:18 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test1"  [ C:\Modeling\LM393_ti\lm393-pspicefiles\schematic1\test1.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  GND) 550.0E-09  (  IN+)    5.0000  (  IN-)    5.0000  (  OUT)   18.5020      
+
+(  VCC)   37.0000  (X_U1.N21103)   36.6340               (X_U1.N21168) 550.0E-09
+
+(X_U1.N21237)    1.0000               (X_U1.IN+BUFF)    5.0000                  
+
+(X_U1.IN-BUFF)    5.0000              (X_U1.N785573)    5.0004                  
+
+(X_U1.N843683)   37.0000              (X_U1.N852568)    0.0000                  
+
+(X_U1.N858868)   18.3170              (X_U1.N858872)   36.6340                  
+
+(X_U1.X_U3.VH)    0.0000              (X_U1.X_U5.1V)    1.0000                  
+
+(X_U1.X_U7.1V)    1.0000              (X_U1.X_U3.OUT)   37.0000                 
+
+(X_U1.X_U5.MID)   18.5000             (X_U1.V+_BUFFER)   37.0000                
+
+(X_U1.V-_BUFFER) 550.0E-09            (X_U1.X_U3.VMID)   18.5000                
+
+(X_U1.X_U2.N20155)   35.0000          (X_U1.X_U2.N20415)    -.1100              
+
+(X_U1.X_U2.N20531) 550.0E-09          (X_U1.X_U2.N20539)    -.1100              
+
+(X_U1.X_U2.N20826) 550.0E-09          (X_U1.X_U2.N20833) 550.0E-09              
+
+(X_U1.X_U2.N20840) 550.0E-09          (X_U1.X_U3.INNNEW)    5.0000              
+
+(X_U1.X_U4.N03175)   18.3170          (X_U1.X_U5.X_U3.3)   37.0000              
+
+(X_U1.X_U5.X_U8.6)    1.0000          (X_U1.X_U2.N202710)   35.0000             
+
+(X_U1.X_U2.X_U24.6) 550.0E-09         (X_U1.X_U5.N774212)   37.0000             
+
+(X_U1.X_U5.N774290)   36.0000         (X_U1.X_U5.N778484)   18.5020             
+
+(X_U1.X_U5.N778496)    9.2509         (X_U1.X_U5.N789513)    0.0000             
+
+(X_U1.X_U5.N850209)    9.2509         (X_U1.X_U5.X_U10.4)    0.0000             
+
+(X_U1.X_U7.N779976)   36.0100         (X_U1.X_U7.N780066)   37.0000             
+
+(X_U1.X_U7.N780086)    1.0000         (X_U1.X_U7.N780252)    1.9900             
+
+(X_U1.X_U7.X_U16.4)    1.0000         (X_U1.X_U2.X_U1.OUT2) 550.0E-09           
+
+(X_U1.X_U5.X_U7.VMID)   18.5000       (X_U1.X_U7.X_U5.OUT2)    1.0000           
+
+(X_U1.X_U2.X_U21.OUT2) 550.0E-09      (X_U1.X_U2.X_U22.OUT2) 550.0E-09          
+
+(X_U1.X_U2.X_U23.OUT2) 550.0E-09      (X_U1.X_U7.X_U13.OUT1)   37.0000          
+
+(X_U1.X_U7.X_U15.OUT2)    0.0000      (X_U1.X_U5.CONTROL_HIZ)    1.0000         
+
+(X_U1.X_U5.CONTROL_MID)    0.0000     
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_VINN4      3.495E-09
+    V_VINN3     -2.400E-03
+    V_V2         3.495E-09
+    X_U1.V_VOS   0.000E+00
+    X_U1.V_VHYST   0.000E+00
+    X_U1.X_U2.V_VCMNP   0.000E+00
+    X_U1.X_U2.V_VCMPN   0.000E+00
+    X_U1.X_U2.V_VCMPP   0.000E+00
+    X_U1.X_U2.V_VCMNN   0.000E+00
+    X_U1.X_U5.V_VLOGIC   0.000E+00
+    X_U1.X_U5.V_V1  -1.001E-09
+    X_U1.X_U7.V_VLOGIC   0.000E+00
+    X_U1.X_U7.V_VS_MIN_SET   0.000E+00
+    X_U1.X_U7.V_VS_MAX_SET   0.000E+00
+
+    TOTAL POWER DISSIPATION   8.88E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 09/30/21 13:04:18 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-test1"  [ C:\Modeling\LM393_ti\lm393-pspicefiles\schematic1\test1.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  License check-out time            =       22.55
+  Total job time (using Solver 1)   =         .05
+

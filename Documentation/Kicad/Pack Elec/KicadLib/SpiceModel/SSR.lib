@@ -1,0 +1,28 @@
+* Modèle de SSR fait par l'EPSA saison 2023
+** Eymeric Chauchat eymeric.chauchat@ecl21.ec-lyon.fr
+* Fait pour les résistances variables Bourns 3296
+**************************************************
+*
+**************************************************
+*Modèle
+.SUBCKT SWITCH CONT+ CONT- LOAD1 LOAD2
+VWS1 A CONT- 0
+D1 CONT+ A DRFN1VWM2STF
+W1 LOAD1 LOAD2 VWS1 switch1
+.MODEL DRFN1VWM2STF D
++ IS=308.39E-12
++ N=3
++ RS=20.975E-3
++ IKF=88.635E-3
++ EG=0.92
++ CJO=38.623E-12
++ M=0.3905
++ VJ=0.5
++ ISR=28.491E-12
++ NR=3
++ BV=200
++ TT=32.728E-9
++ TRS1=-0.002
++ TIKF=0.014
+.model switch1 ISWITCH (RON=26 IT = 1m )
+.ENDS

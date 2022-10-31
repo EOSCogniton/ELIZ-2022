@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 0805Y1000104JXT
+#/15523812/663195/2.49/2/5/Capacitor
+DEF 0805Y1000104JXT C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "0805Y1000104JXT" 350 150 50 H V L CNN
+F2 "CAPC2012X130N" 350 50 50 H I L CNN
+F3 "http://docs-europe.electrocomponents.com/webdocs/119d/0900766b8119d7bc.pdf" 350 -50 50 H I L CNN
+F4 "Syfer 0805 Ceramic Chip Capacitors" 350 -150 50 H I L CNN "Description"
+F5 "1.3" 350 -250 50 H I L CNN "Height"
+F6 "Syfer" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "0805Y1000104JXT" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 350 -550 50 H I L CNN "Mouser Part Number"
+F9 "" 350 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "0805Y1000104JXT" 350 -750 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/0805y1000104jxt/syfer-technology?region=europe" 350 -850 50 H I L CNN "Arrow Price/Stock"
+F12 "" 350 -950 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 350 -1050 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library

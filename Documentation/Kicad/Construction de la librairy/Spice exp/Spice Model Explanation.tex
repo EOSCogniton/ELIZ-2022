@@ -1,0 +1,90 @@
+\documentclass{EPSA-rap-template}
+
+
+\type{Guide}
+
+\titresize{\large} % ne pas hésiter a changer la taille :
+%\normalsize
+%\large
+%\Large
+%\LARGE
+%\huge
+%\Huge
+%\HUGE
+
+\titre{ Explication des modèles de simulation proteus}
+\titresh{Model Explanation} % Titre réduit pour les en-tête et bas de page
+
+\departement{BASTIE et CHAIPE}
+\departementsh{Elec}% Département réduit pour les en-tête et bas de page
+
+\auteurs{Eymeric \textbf{Chauchat}}
+
+\version{V1}
+
+\versionnement{
+\ver{V1}{22 Octobre 2022}{ECT}{Rédaction initiale.}{1} 
+}
+
+
+
+\setuppack
+
+
+
+\begin{document}
+
+\fairepagedegarde
+\newpage
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+
+Ce présent document vise a fournir un guide sur l'installation de tout les composants dans un simulateur (proteus, LTspice ou autre).
+
+\section{Recherche des modèles de simulation}
+
+\subsection{Résistance, condensateur et trimmers}
+
+Hormis les empreintes qui doivent être correctement rentré, il n'y a pas de modèle spécifique.
+
+\subsection{Timer 555}
+
+On utilise le modèle Spice du NE555 (suffisant pour nos applications)
+
+\subsection{Comparateur}
+
+Texas Instrument propose les modèles Spice de leur composant : 
+\begin{itemize}
+\item TS391
+\item LM393B
+\end{itemize}
+
+\subsection{Alimentation}
+
+Il n'y a pas de besoin de modèle de simulation, on considère qu'elles sont idéales
+
+\subsection{Porte logique}
+
+Chaque porte logique possède son modèle de simulation trouvable sur Texas Instrument.
+
+\subsection{Solid State}
+
+Un modèle de Relays suffit
+
+\subsection{Bascule D}
+
+Le modèle spice est celui de la bascule D SN74HCS72
+
+\subsection{Diode}
+
+On utilise le modèle Spice de la diode RFN1VWM2STF
+
+\subsection{Mosfet}
+
+Pour le mosfet P, il y a un modèle spice pour Si2365EDS
+Pour le mosfet N, on a choisit un modèle spice légerement différent
+
+\end{document}

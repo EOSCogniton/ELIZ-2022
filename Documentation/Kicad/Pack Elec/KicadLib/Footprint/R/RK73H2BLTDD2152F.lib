@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model RK73H2BLTDD2152F
+#/11797831/663195/2.49/2/5/Resistor
+DEF RK73H2BLTDD2152F R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "RK73H2BLTDD2152F" 550 150 50 H V L CNN
+F2 "RESC3216X70N" 550 50 50 H I L CNN
+F3 "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf" 550 -50 50 H I L CNN
+F4 "Thick Film Resistors - SMD" 550 -150 50 H I L CNN "Description"
+F5 "0.7" 550 -250 50 H I L CNN "Height"
+F6 "KOA Speer" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "RK73H2BLTDD2152F" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "N/A" 550 -550 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F10 "" 550 -750 50 H I L CNN "Arrow Part Number"
+F11 "" 550 -850 50 H I L CNN "Arrow Price/Stock"
+F12 "" 550 -950 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 550 -1050 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#End Library

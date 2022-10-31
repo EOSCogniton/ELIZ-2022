@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SN74AHCT1G08DBVR
+#/1906/663195/2.49/5/3/Integrated Circuit
+DEF SN74AHCT1G08DBVR IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "SN74AHCT1G08DBVR" 850 200 50 H V L CNN
+F2 "SOT95P280X145-5N" 850 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-6/sf-000128638.pdf" 850 0 50 H I L CNN
+F4 "SN74AHCT1G08DBVR, Logic Gate 2 Input AND, AHCT, 8mA 5V 5-Pin SOT-23" 850 -100 50 H I L CNN "Description"
+F5 "1.45" 850 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "SN74AHCT1G08DBVR" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-SN74AHCT1G08DBVR" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G08DBVR?qs=8Pd2FuFSoMGY9AK%2Ftqwbcw%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "SN74AHCT1G08DBVR" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/sn74ahct1g08dbvr/texas-instruments?region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 850 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 850 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X A 1 0 0 200 R 50 50 0 0 P
+X B 2 0 -100 200 R 50 50 0 0 P
+X GND 3 0 -200 200 R 50 50 0 0 P
+X Y 4 1000 0 200 L 50 50 0 0 P
+X VCC 5 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

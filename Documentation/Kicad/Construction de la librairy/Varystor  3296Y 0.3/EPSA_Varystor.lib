@@ -1,0 +1,17 @@
+* Modèle de Résistance fait par l'EPSA saison 2023
+** Eymeric Chauchat eymeric.chauchat@ecl21.ec-lyon.fr
+* Fait pour les résistances variables Bourns 3296
+**************************************************
+* Il suffit de changer les valeurs des deux paramètres :
+* - Rtot la valeur de la résistance
+* - Part le rapport de répartition :
+*		1 = résistance nul entre CW et Wiper et Rtot entre CCW et Wiper
+*		0 = résistance nul entre CCW et Wiper et Rtot entre CW et Wiper
+**************************************************
+*Modèle
+.SUBCKT VARYSTOR CCW Wiper CW Rtot = 10e3 Part = 0.5
+*.param Rtot = {10e3}
+*.param Part = {0.5}
+R1 CCW Wiper {Rtot*Part}
+R2 CW Wiper {Rtot * (1-Part)}
+.ENDS

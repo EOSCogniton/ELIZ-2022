@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TSR_0.5-2450
+#/298685/663195/2.49/3/2/Undefined or Miscellaneous
+DEF TSR_0.5-2450 U 0 30 Y Y 1 F N
+F0 "U" 850 300 50 H V L CNN
+F1 "TSR_0.5-2450" 850 200 50 H V L CNN
+F2 "TSR-0.5-2433" 850 100 50 H I L CNN
+F3 "https://tracopower.com/tsr0-5-datasheet/" 850 0 50 H I L CNN
+F4 "0.5 Amp POL switching regulator, 4.75 to -32 VDC input, pos.-pos. circuit, LM78 compatible, SIP-3" 850 -100 50 H I L CNN "Description"
+F5 "" 850 -200 50 H I L CNN "Height"
+F6 "Traco Power" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TSR 0.5-2450" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "495-TSR0.5-2450" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TRACO-Power/TSR-0.5-2450?qs=ckJk83FOD0XpEgQBSwF%2FIw%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TSR 0.5-2450" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tsr0.5-2450/traco-electronic-ag?region=europe" 850 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 850 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 850 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X +VIN 1 0 0 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X +VOUT 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
