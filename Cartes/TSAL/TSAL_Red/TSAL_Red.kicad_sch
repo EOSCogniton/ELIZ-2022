@@ -1378,7 +1378,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 02443c91-536c-4465-8bb8-2834b1efaf43)
   )
+<<<<<<< refs/remotes/origin/master
   (wire (pts (xy 58.42 78.74) (xy 58.42 90.17))
+=======
+  (wire (pts (xy 58.42 78.74) (xy 58.42 96.52))
+>>>>>>> TSAL RED
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 024ffa9f-1430-405e-8e15-0961e1cc51c2)
   )
@@ -2627,6 +2631,7 @@
   )
 
   (symbol (lib_id "EPSA_lib:Timer 555 LM555CMX_NOPB") (at 191.77 83.82 0) (unit 1)
+<<<<<<< refs/remotes/origin/master
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7ded9a5b-04f5-4ee3-abdf-0720598b3d24)
     (property "Reference" "TI1" (id 0) (at 214.63 76.2 0))
@@ -2693,6 +2698,8 @@
   )
 
   (symbol (lib_name "Condensateur 0805Y1000104JXT_1") (lib_id "EPSA_lib:Condensateur 0805Y1000104JXT") (at 111.76 86.36 180) (unit 1)
+=======
+>>>>>>> TSAL RED
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 8194bd4c-38b6-4337-8e11-380578fe1be8)
     (property "Reference" "C4" (id 0) (at 105.41 76.2 0))
@@ -3814,6 +3821,9 @@
     (path "/065fda23-f99a-40d9-9711-a3931ee4c759"
       (reference "#PWR0101") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/065fda23-f99a-40d9-9711-a3931ee4c759"
+      (reference "#PWR0101") (unit 1) (value "+5V") (footprint "")
+    )
     (path "/b25ec34b-264a-44d3-bdb8-4c8d200491ad"
       (reference "C1") (unit 1) (value "Condensateur 0805Y1000104JXT") (footprint "EPSA_lib:CAPC2012X130N")
     )
@@ -3865,9 +3875,12 @@
     (path "/411f3f25-ef36-4ad1-b0d4-ffc4ea9db7e0"
       (reference "R3") (unit 1) (value "Résistance RK73H2BLTDD2152F") (footprint "EPSA_lib:RESC3216X70N")
     )
+<<<<<<< refs/remotes/origin/master
     (path "/9cd51571-d82d-4038-8fe8-f704e869b97c"
       (reference "R4") (unit 1) (value "Résistance RK73H2BLTDD2152F") (footprint "EPSA_lib:RESC3216X70N")
     )
+=======
+>>>>>>> TSAL RED
     (path "/42b7fa18-f0db-4929-801f-6dc92164ea62"
       (reference "R5") (unit 1) (value "Résistance RK73H2BLTDD2152F") (footprint "EPSA_lib:RESC3216X70N")
     )
