@@ -1,0 +1,79 @@
+//--------------------------------------------------------------
+//--------------------------------------------------------------
+function fn_default
+  global.DeviceFam=       "..."
+  global.DeviceTxt=       "..."
+  global.VdcBusDPoint=       0
+  global.VdcBatDPoint=       0
+  global.VdcBusDivisor=    1.0
+  global.VdcBatDivisor=    1.0
+  global.VdcBusVisible=      0
+  global.VdcBatVisible=      0
+end function
+//--------------------------------------------------------------
+
+state init
+  call fn_default
+end state
+
+//--------------------------------------------------------------
+
+state start
+  in=file.openForRead "settings/states/TypNrTable.csv"
+  in.nextline						// read the CSV table header
+  goto nextline
+end state
+
+//--------------------------------------------------------------
+
+state nextline
+  if in.nextline                                                // read a CSV table row
+    iTypNr=                     in.read "iDeviceNr"             // extract data from cell of column "iXXX"
+    if global.TypNr==           iTypNr                          // matches global variable
+      goto found
+    end if
+    continue                                                    // look further, stay in state
+  end if
+  goto stop	                                                    // not found (end of file), so quit
+end state
+
+//--------------------------------------------------------------
+
+state found
+  global.DeviceFam=             in.read "iDeviceFam"
+  global.DeviceTxt=             in.read "iDeviceTxt"
+
+  iVdcBusFDiv_s=                "abc"
+//  iVdcBusFDiv_s=                in.read "iVdcBusFDiv"
+  iVdcBusFDiv=                  in.read "iVdcBusFDiv"
+  if iVdcBusFDiv!=""
+    global.VdcBusVisible=       1
+    global.VdcBusDivisor=       iVdcBusFDiv
+    global.VdcBusDPoint=        in.read "iVdcBusDP"
+  else
+    global.VdcBusVisible=       0
+    global.VdcBusDivisor=       1.0                             // not to have a zero
+    global.VdcBusDPoint=        0
+  end if
+
+  iVdcBatFDiv=                  in.read "iVdcBatFDiv"
+  if iVdcBatFDiv!=""
+    global.VdcBatVisible=       1
+    global.VdcBatDivisor=       iVdcBatFDiv
+    global.VdcBatDPoint=        global.VdcBusDPoint             // the same as VdcBus
+ else
+    global.VdcBatVisible=       0
+    global.VdcBatDivisor=       1.0                             // not to have a zero
+  end if
+  global.VdcBatDPoint=          global.VdcBusDPoint             // the same as VdcBus
+
+  goto stop                                                     // finished, so quit
+end state
+
+//--------------------------------------------------------------
+
+state stop
+  in.close
+end state
+
+//--------------------------------------------------------------

@@ -1,0 +1,230 @@
+//----------------------------------------------------------------------------------------------------------------------
+// setup requirements/limitations / about
+//
+softwareVersion=3.03.62                // minimum required "exe" to work with these settings
+
+aboutBuildID= "   1.3.03.21w49.004"
+
+aboutIcon=logo.bmp
+aboutVisit="\n- Homepage\t https://www.unitek-industrie-elektronik.de/"
+aboutVisit+="\n- Download\t https://www.unitek-industrie-elektronik.de/download"
+//aboutVisit+="\n- PDF     \t https://www.unitek-industrie-elektronik.de/images/pdf/NDrive/NDrive_DE.pdf"
+//aboutVisit+="\n- Lang    \t before_%lang%_after"
+//aboutVisit+="\n- Var     \t before_%var:tApp:%_after"
+
+copyright= "(c) 2005-2022    UniTek Industrie Elektronik GmbH"
+
+
+showVersionInTitle=0
+title=NDrive Utility Software          // to override "versionites" in displaying title
+//iniFile=IMDman                       // to override NDrive.ini for cosmetic reasons/multiple variant parallel versions
+//logFile=                             //           & NDrive.log
+
+
+//----------------------------------------------------------------------------------------------------------------------
+// initial expectations
+//
+defaultFirmware=478                    // set "look" if not connected, and no seeding osci file available
+defaultLanguage=en;de                  // expected
+defaultBaudrate= 115200                // default if no setting in iniFile found
+
+
+//----------------------------------------------------------------------------------------------------------------------
+// adjusting  some COMxxx CANxxx settings
+//
+COMFair=1                              // enables the fair and/or priority access of threads to COM register transfers
+COMFlushAfterWrite=0                   // forces a flush file command after writing data to the COM port
+COMFlushBeforeCommand=1                // test for unexpected read data left over from previous command   (default:   0)
+COMReadTimeout=200                     // maximum delay  in ms   before a reply fail                      (default: 200)
+COMReadTimeoutPerChar=5                // extra timeout  in ms   for each expected char from drive        (default:   5)
+COMWaitCommand=0                       // waits (sleeps) in ms   before sending each command to the drive
+COMWaitReply=5                         // waits (sleeps) in ms   before reading a reply from the drive
+
+CANFlushBeforeCommand=1                // test for unexpected read data left over from previous command   (default:   0)
+COMReadTimeout=100                     // maximum delay  in ms   before a reply fail                      (default: 200)
+CANReadTimeoutPerWord=5.0              // extra timeout  in ms   for each expected message from drive     (default: 5.0)
+CANWaitCommand=0                       // waits (sleeps) in ms   before sending each command to the drive (default:  20)
+CANWaitReply=5                         // waits (sleeps) in ms   before reading a reply from the drive    (default:   0)
+
+refreshPageAfterConnect=false          // after (re)-connecting force the current page to be "refreshed"
+
+sleepGranularity=2
+preventPCEnergySaving=1
+
+
+//----------------------------------------------------------------------------------------------------------------------
+// comboExtraDroppedWidth      - defaults to 5
+//                             0 : original non-adaptive scaling
+//                             >0: the "minimum allowable width" of the selection list for a drop down is set as follows:
+//                                 min= largest width from all strings + comboExtraDroppedWidth + system scroll bar width
+//                             --  windows will use the maximum of this "minimum allowable width" and the width of the
+//                                 drop down button when it pops up the selection list
+comboExtraDroppedWidth= 5
+
+
+//----------------------------------------------------------------------------------------------------------------------
+// translateStringMode         - defaults to 0
+//                             0: standard language translation
+//                             1: no translation at all
+//                             2: standard language translation followed by escape sequence translation (eg HTML)
+translateStringMode=2
+
+
+//----------------------------------------------------------------------------------------------------------------------
+// progressInit                - defaults to false (0), backward compatible
+//                             1: during the app initialisation (first appears AFTER parsing all the settings.txt files)
+progressInit=1
+
+
+//----------------------------------------------------------------------------------------------------------------------
+// progressConnect             - defaults to false (0), backward compatible
+//                             1: show a progress bar during COM/CAN connection
+progressConnect=1
+
+
+//----------------------------------------------------------------------------------------------------------------------
+// messageBoxDialog            - defaults to 0, backward compatible
+//                             0: always use the  "modal"(application-blocking) dialog
+//                             1: question popups "modal"(application-blocking) dialog,
+//                                otherwise "non modal" parallel dialog
+//                             2: always use the  "non modal" (non-application-blocking) parallel dialog
+messageBoxDialog=2
+
+
+//----------------------------------------------------------------------------------------------------------------------
+// directory structure / access
+//
+// imagesPath=...                                   relative paths of all image subdirectories    (needs termination "\")
+// languagePath=...                                 relative intermediate path befoe en\ de\ etc. (needs termination "\")
+// languageFilePrefix=Drive;Shared;User;HKx         last in list takes precedence
+//
+languagePath=languages\
+languageFilePrefix=NDrive;Shared                 // reduce/extend    NDrive;Shared     NDrive;Shared;User
+
+imagesPath=images\unitek\;images\;images\pictograms\;images\leds\;images\logos\;images\messageBox\
+
+
+//----------------------------------------------------------------------------------------------------------------------
+// versionRegisterFile         - defaults to 1.0
+//                             1.0: original version (older NDrive's will produce an error box on reading any other version)
+//                             1.1: each entry has a regid size value type as a single byte
+versionRegisterFile=1.1
+
+translation="Register File (*.urf)|*.urf"="Register File (*.urf)|*.urf|Register File (*.txt)|*.txt"
+
+
+//----------------------------------------------------------------------------------------------------------------------
+// browserMode                 - defaults to 0, backward compatible
+//                             0: if (wxURL(url).IsOk()) wxLaunchDefaultBrowser(url)
+//                             1: wxLaunchDefaultBrowser(url)
+//                             2: doViewFileInBrowser(url) as a workaround
+//                             3: disables following of links
+browserMode=1
+
+
+//----------------------------------------------------------------------------------------------------------------------
+// helpMenuMode                - default to 0  - generates the top menu->Help as follows
+//                             0: Manual\tF1            1: Manual\tF1            2: Manuals  >--sub-menu--> Manual\tF1
+//                                &About...                Se&lect man...           &About...               Se&lect man...
+//                                &Info...                 &Online man...           &Info...                &Online man...
+//                                ---------                ---------                ---------
+//                                Change Language...       &About...                Change Language...
+//                                                         &Info...
+//                                                         ---------
+//                                                        Change Language...
+//
+// helpMenuFolderMode          - default to 0  - adds (replaces) new entry the top menu->Help as follows
+//                             0: no change
+//                             1: replaces the "Se&lect man..." item with the "&Folder man..." item
+//                             2: adds after   "Se&lect man..." item      the "&Folder man..." item
+//
+//                             -- Manual\tF1    : opens the file directly helpPath+helpFilePrefix+lang+helpFileExtension
+//                                                for the chosen lang, retries with "en" if lang fails
+//                             -- Se&lect man...: opens the folder helpPath as a windows file dialog to select a file
+//                             -- &Folder man...: opens the folder helpPath (usually explorer)
+//                             -- &Online man...: follows the link generated by helpOnline
+helpMenuMode=1
+helpMenuFolderMode=1
+
+helpPath=manuals\
+helpFileExtension=".pdf"
+
+helpFilePrefix="NDrive_"                         // "NDrive_"   "NDrive_XXXX_"
+
+helpOnline="https://www.unitek-industrie-elektronik.de/menu-ndrive-%lang%/menu-ndrive-manual-%lang%"
+//          https://www.unitek-industrie-elektronik.de/download
+//          https://www.unitek-industrie-elektronik.de/menu-ndrive-de/menu-ndrive-manual-%lang%
+//          https://www.unitek-industrie-elektronik.de/menu-ndrive-en/menu-ndrive-manual-en
+
+
+//----------------------------------------------------------------------------------------------------------------------
+// Send Settings extra         - defaults to false (0), backward compatible
+//                             1: appends the translated about text to the email message text
+emailAbout=0
+
+emailRecipient="info@unitek.eu"
+
+
+//----------------------------------------------------------------------------------------------------------------------
+// bitListTooltip              - default 0   - as bit values (can be or'ed together)
+//                             -- 0x01   tooltip shown when hovering over the LED
+//                             -- 0x02   tooltip shown when hovering over the text
+bitListTooltip=0x03
+
+
+//----------------------------------------------------------------------------------------------------------------------
+pageOrder= Home,Settings,Logic,Position,Speed,BUS,Monitor,Device,Diagnostic,Oszilloskop,Extra
+pageOrder= defined
+
+homeURLClick= 0,0,0,0
+startPage= "Settings"
+
+
+//----------------------------------------------------------------------------------------------------------------------
+// oscilloscope settings / access
+//
+
+translation="Oscilloscope File (*.uof)|*.uof"="Oscilloscope File (*.uof)|*.uof|Oscilloscope File (*.txt)|*.txt"
+
+startupOscilloscopeFile=lastused;settings\UniTek_default.uof
+
+outputFilesFolder=  outputfiles\                 // relative
+//outputFilesFolder=c:\outputfiles\              // absolute e.g. c:\somewhere\else\for\files\
+
+osciCSVSep=";"
+osciCSVDecimal=",."
+osciCSVTimestamp="Time"                          // apply Timestamp Column Header to osci CSV file
+
+osciCaptureChunk=32            //=50 default     // captures per chunck,  smaller reduces variance of other transfers (stepGen, readOnly, status)
+
+
+//----------------------------------------------------------------------------------------------------------------------
+// osciCaptureCombos           - defaults to false (0), backward compatible
+//                             1: forces an internal "stop" followed by "run"
+//                                applies to drop down changes (mode, timescale etc.) while capturing
+osciCaptureCombos=1
+
+
+//----------------------------------------------------------------------------------------------------------------------
+// oscilloScaleChannelMode     - defaults to 0
+//                             - changes to pos and/or unit/div of a channel keeps the display position constant
+//                               for that channel at the reference marker set by the LEFT mouse button
+//
+variable= oscilloScaleChannelMode= 0x00          // initial value to off
+
+
+//----------------------------------------------------------------------------------------------------------------------
+// some predefining default conditions
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//  ossPsel                    - seeding for (osci) parameter expansion dropdown (must be valid)
+//                             - default to 0     shows -off-
+//
+//
+//
+variable= canFlgX=0                              // display canFlags from "device" on "bus" page
+variable= oscPsel=1                              // do not change
+
+variable= psDisp=1                               // seed index for (user) IMD psu
+
+
+//----------------------------------------------------------------------------------------------------------------------
