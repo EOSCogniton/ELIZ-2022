@@ -1,0 +1,386 @@
+//--------------------------------------------------------------
+state init
+	outFormatCSV=  1
+	outFormatHTML= 2
+	outFormat=     outFormatHTML
+//	outFormat=     outFormatCSV
+
+	idStart=      1
+	idEnd=      254
+
+	log.writeln "INFO urfCompare init"
+	global.urfCompBtn=   0
+	global.urfCompTj1=   0
+end state
+
+//--------------------------------------------------------------
+
+state catchAll				// all interpreter file are closed
+	goto          cleanUp
+end state
+
+state cleanUp
+	script.turbo=        1
+	global.urfCompBtn=   0
+//	global.urfCompTj1=   0
+	goto                 idle
+end state
+
+state idle
+end state
+
+//--------------------------------------------------------------
+state driveWithFile
+	log.writeln "INFO urfCompare driveWithFile"
+	script.turbo=        1
+	global.urfCompBtn=   1
+
+	if !global.driveOnline							//prevent script exit
+		popup "error: driveWithFile - drive not online"
+		goto cancel
+	end if
+
+	filenameA= pick.loadRegisterFile "File for compare with drive"
+	if filenameA==""
+		goto cancel
+	end if
+	registersA= registers.fromFile filenameA
+	fileversionA= registersA.read "version"
+
+	progressWindow= window.progress "driveWithFile compare"
+
+	registersB= registers.fromDrive
+	fileversionB= "drive"
+
+	goto start
+end state
+
+//--------------------------------------------------------------
+state fileWithFile
+	log.writeln "INFO urfCompare fileWithFile"
+	script.turbo=        1
+	global.urfCompBtn=   1
+
+	filenameA= pick.loadRegisterFile "First file for compare"
+	if filenameA==""
+		goto cancel
+	end if
+	registersA= registers.fromFile filenameA
+	fileversionA= registersA.read "version"
+
+	filenameB= pick.loadRegisterFile "Second file for compare"
+	if filenameB==""
+		goto cancel
+	end if
+	registersB= registers.fromFile filenameB
+	fileversionB= registersB.read "version"
+
+	progressWindow= window.progress "fileWithFile compare"
+	goto start
+end state
+
+//--------------------------------------------------------------
+state cancel
+end state
+
+//--------------------------------------------------------------
+state start
+	//extract versions in case they are needed
+	id=            intern.REGID_KERN_VERSION
+	foundA=        registersA.find     "id"      id
+	foundB=        registersB.find     "id"      id
+	firmwareA=     registersA.read     "value"
+	firmwareB=     registersB.read     "value"
+
+	verMajorA=     ( firmwareA    & 0xFFF)
+	verMinorA=     ((firmwareA>>12) & 0xF)
+	verMajorB=     ( firmwareB    & 0xFFF)
+	verMinorB=     ((firmwareB>>12) & 0xF)
+
+	strFirmwareA1= string.format       "fw %u"   verMajorA
+	strFirmwareA2= string.format       ".%u"     verMinorA
+	strFirmwareA=  strFirmwareA1+strFirmwareA2
+
+	strFirmwareB1= string.format       "fw %u"   verMajorB
+	strFirmwareB2= string.format       ".%u"     verMinorB
+	strFirmwareB=  strFirmwareB1+strFirmwareB2
+
+	//open out file
+	BaseFile=           string.format            "_URFCompare_output_(%date%)_(%time_%)"		// time_ prevents ":"
+	if outFormat==outFormatCSV
+		out=file.openForWrite               BaseFile+".csv"
+
+		out.write       "id;textC;textR;valueA;hexA;valueB;hexB;comment"       // make headers
+		out.nextline
+
+		out.write       "textC"             "source"
+		out.write       "valueA"  "%s"      registersA
+		out.write       "valueB"  "%s"      registersB
+		out.nextline
+
+		out.write       "textC"             "file version"
+		out.write       "valueA"  "%0.1f"   fileversionA
+		out.write       "valueB"  "%0.1f"   fileversionB
+		out.nextline
+
+		out.write       "textC"             "firmware"
+		out.write       "valueA" "%s"       strFirmwareA
+		out.write       "valueB" "%s"       strFirmwareB
+		out.nextline
+
+	else if outFormat==outFormatHTML
+		out=file.openForWrite               BaseFile+".html"
+
+		out.write       "<!DOCTYPE html>"
+		out.write       "<html lang='en'>"
+		out.write       "<head>"
+		out.write       "  <title>Compare   %s</title>"    registersA+___+registersB
+		out.write       "  <style>table, th, td {  border: 1px dotted gray; padding: 3px; font-family: Monospace; }</style>"
+		out.write       "</head>"
+		out.write       "<body>"
+		out.write       "<table>"
+
+		out.write       "<tr>"                                                 // make headers
+		out.write       " <th>id</th>"                               // id
+		out.write       " <th>textC</th>"                            // textC
+		out.write       " <th>textR</th>"                            // textR
+		out.write       " <th>comment</th>"                          // comment
+		out.write       " <th>hexA</th>"                             // hexA
+		out.write       " <th>valueA</th>"                           // valueA
+		out.write       " <th>hexB</th>"                             // hexB
+		out.write       " <th>valueB</th>"                           // valueB
+		out.write       "</tr>"
+
+		out.write       "<tr>"
+		out.write       " <td></td>"                                 // id
+		out.write       " <td>source</td>"                           // textC
+		out.write       " <td></td>"                                 // textR
+		if registersA==registersB
+			out.write   " <td>same file</td>"                        // comment
+		else
+			out.write   " <td></td>"                                 // comment
+		end if
+		out.write       " <td></td>"                                 // hexA
+		out.write       " <td>%s</td>"      registersA               // valueA
+		out.write       " <td></td>"                                 // hexB
+		out.write       " <td>%s</td>"      registersB               // valueB
+		out.write       "</tr>"
+
+		out.write       "<tr>"
+		out.write       " <td></td>"                                 // id
+		out.write       " <td>file_version</td>"                     // textC
+		out.write       " <td></td>"                                 // testR
+		if fileversionA==fileversionB
+			out.write   " <td></td>"                                 // comment
+		else if fileversionB=="drive"
+			out.write   " <td></td>"                                 // comment
+		else
+			out.write   " <td><b>different</b></td>"                 // comment
+		end if
+		out.write       " <td></td>"                                 // hexA
+		out.write       " <td>%0.1f</td>"   fileversionA             // valueA
+		out.write       " <td></td>"                                 // hexB
+		if fileversionB=="drive"
+			out.write   " <td></td>"                                 // valueB
+		else
+			out.write   " <td>%0.1f</td>"   fileversionB             // valueB
+		end if
+		out.write       "</tr>"
+
+		out.write       "<tr>"
+		out.write       " <td></td>"                                 // id
+		out.write       " <td>firmware</td>"                         // textC
+		out.write       " <td></td>"                                 // testR
+		if firmwareA==firmwareB
+			out.write   " <td></td>"                                 // comment
+		else
+			out.write   " <td><b>different</b></td>"                 // comment
+		end if
+		out.write       " <td></td>"                                 // hexA
+		out.write       " <td>%s</td>"      strFirmwareA             // valueA
+		out.write       " <td></td>"                                 // hexB
+		out.write       " <td>%s</td>"      strFirmwareB             // valueB
+		out.write       "</tr>"
+
+		out.write       "<tr>"                                 // add horiz. rule (line/separator)
+		out.write       " <td><hr> </td>"                            // id
+		out.write       " <td><hr> </td>"                            // textC
+		out.write       " <td><hr></td>"                             // textR
+		out.write       " <td><hr></td>"                             // comment
+		out.write       " <td><hr></td>"                             // hexA
+		out.write       " <td><hr></td>"                             // valueA
+		out.write       " <td><hr></td>"                             // hexB
+		out.write       " <td><hr></td>"                             // valueB
+		out.write       "</tr>"
+
+		out.nextline
+	end if
+
+	script.turbo=       10
+	goto compare
+end state
+
+//--------------------------------------------------------------
+
+function extractValue   id found  value  size  isSigned  isHighLow
+    //initialise results
+    strValue=                     ""
+    hexValue=                     ""
+    valueHigh=                    0
+    valueLow=                     0
+
+    if !found
+        return
+    end if
+
+    //hexValue
+    if size==2
+        hexValue=                 string.format       "0x%04x"  value
+    else
+        hexValue=                 string.format       "0x%08x"  value
+    end if
+
+    //strValue
+    if isHighLow
+        valueHigh=                (value>>16) & 0x0000ffff                     //unsigned after &
+        valueLow=                 value & 0x0000ffff                           //unsigned after &
+        if isSigned
+            if valueHigh & 0x00008000                                          //MSBit set
+                valueHigh=        valueHigh|0xffff0000                         //sign extend 32 bit
+            end if
+
+            if valueLow & 0x00008000                                           //MSBit set
+                valueLow=         valueLow|0xffff0000                          //sign extend 32 bit
+            end if
+
+            strValueHigh=         string.format       "%d"      valueHigh
+            strValueLow=          string.format       "%d"      valueLow
+        else
+            strValueHigh=         string.format       "%u"      valueHigh
+            strValueLow=          string.format       "%u"      valueLow
+        end if
+        strValue=                 strValueHigh+"&nbsp;&nbsp;"+strValueLow               // &nbsp              non-break space
+    else if isSigned
+        if id==0x7c
+           xid= id
+        end if
+        if size==2 && (value & 0x00008000)                                     //MSBit set
+            value=                value|0xffff0000     	                       //sign extend 32 bit
+        else
+            value=                value|0                                      //sign reduce 32 bit  (side effect)
+        end if
+        strValue=                 string.format       "%d"      value
+    else
+        strValue=                 string.format       "%u"      value
+    end if
+end function
+
+//--------------------------------------------------------------
+function compare_id     id
+    foundA=                       registersA.find     "id"      id
+    foundB=                       registersB.find     "id"      id
+    if foundA || foundB
+        //extract info for id
+        sizeA=                    registersA.read     "size"                   // 2 or 4 (bytes)
+        sizeB=                    registersB.read     "size"
+        valueA=                   registersA.read     "value"                  // raw unsigned
+        valueB=                   registersB.read     "value"
+        typeA=                    registersA.read     "type"                   // intern.REGID_TYPE_xxx
+        typeB=                    registersB.read     "type"
+        isSignedA=                registersA.read     "isSigned"
+        isSignedB=                registersB.read     "isSigned"
+        isHighLowA=               registersA.read     "isHighLow"
+        isHighLowB=               registersB.read     "isHighLow"
+
+        if typeA==intern.REGID_TYPE_READWRITE||typeB==intern.REGID_TYPE_READWRITE
+            textR=                string.format       "Text reg 0x%02x"   id
+            textC=                string.format       "RegComment_0x%02x" id
+
+            //generate comment
+            if !foundA && foundB
+                comment=          "missing in A"
+            else if foundA && !foundB
+                comment=          "missing in B"
+            else if typeA!=intern.REGID_TYPE_READWRITE
+                comment=          "A not a parameter"
+            else if typeB!=intern.REGID_TYPE_READWRITE
+                comment=          "B not a parameter"
+            else if valueA==valueB
+                if sizeA==sizeB
+                    comment=      ""
+                else
+                    comment=      "size ?"
+                end if
+            else
+                if sizeA==sizeB
+                    comment=      "different"
+                else
+                    comment=      "diff. / size ?"
+                end if
+            end if
+
+            //generate strValue, hexValue
+            extractValue          id  foundA  valueA  sizeA  isSignedA  isHighLowA
+            strValueA=            strValue
+            hexValueA=            hexValue
+
+            extractValue          id  foundB  valueB  sizeB  isSignedB  isHighLowB
+            strValueB=            strValue
+            hexValueB=            hexValue
+
+
+            //output a line to the file
+            if outFormat==outFormatCSV                                         // uses column names     -  "column" "format" expression
+                out.write         "id"           "0x%02X"  id
+                out.write         "textC"        "%s"      textC
+                out.write         "textR"        "%s"      textR
+                out.write         "valueA"       "%s"      strValueA
+                out.write         "hexA"         "%s"      hexValueA
+                out.write         "valueB"       "%s"      strValueB
+                out.write         "hexB"         "%s"      hexValueB
+                out.write         "comment"      "%s"      comment
+                out.nextline
+            else if outFormat==outFormatHTML                                   // needs column order    -  "format" expression
+                // consider     &nbsp              non-break space
+                // consider     <pre> .. </pre>    preserve spaces in text
+
+                out.write         "<tr>"
+                out.write         " <td><b>0x%02X</b></td>"     id             // id
+                out.write         " <td>   %s    </td>"         textC          // textC
+                out.write         " <td>   %s    </td>"         textR          // textR
+                out.write         " <td><b>%s</b></td>"         comment        // comment
+                out.write         " <td>   %s    </td>"         hexValueA      // hexA
+                out.write         " <td><b>%s</b></td>"         strValueA      // valueA
+                out.write         " <td>   %s    </td>"         hexValueB      // hexB
+                out.write         " <td><b>%s</b></td>"         strValueB      // valueB
+                out.write         "</tr>"
+                out.nextline
+            end if
+        end if
+    end if
+end function
+
+//--------------------------------------------------------------
+state compare
+    for id=idStart id<=idEnd id+=1
+        progressWindow.write      (100.0*id)/idEnd
+        compare_id                id
+    end for
+    goto end
+end state
+
+//--------------------------------------------------------------
+state end
+    if outFormat==outFormatHTML
+        out.write       "</table>"
+        out.write       "</body>"
+        out.write       "</html>"
+        out.nextline
+    end if
+
+    out.close
+    system.startFile    out
+    progressWindow.close
+end state
+
+//--------------------------------------------------------------

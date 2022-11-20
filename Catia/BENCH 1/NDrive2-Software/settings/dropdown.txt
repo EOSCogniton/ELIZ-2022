@@ -1,0 +1,43 @@
+//--------------------------------------------------------------
+//                           options:
+// sharedDropDown=
+// extraTrackDropDown=
+// extraOsciDropDown=
+//--------------------------------------------------------------
+//
+// see also <optional>settings\user\dropdown_usr.txt
+//
+//--------------------------------------------------------------
+
+sharedDropDown=		regid="0x8a h"		name=REGID_VOUT_Vxxx			firmware=478-599
+sharedDropDown=		regid="0x8a h"		name=REGID_VOUT_Vxxx			firmware=1075-9999
+
+sharedDropDown=		regid="0xa1"		name=REGID_I1_ADC			firmware=620-999
+sharedDropDown=		regid="0xa1"		name=REGID_I1_ADC			firmware=1040-9999
+
+sharedDropDown=		regid="0xeb h"		name=REGID_VDC_BUS			firmware=0-100
+sharedDropDown=		regid="0xeb h"		name=REGID_VDC_BUS			firmware=200-9999
+
+sharedDropDown=		regid="0x66 h"		name=REGID_VDC_BAT			firmware=0-100
+sharedDropDown=		regid="0x66 h"		name=REGID_VDC_BAT			firmware=1004-9999
+
+sharedDropDown=		regid="0x61 l"		name=REGID_VDC_MID			firmware=0-100
+sharedDropDown=		regid="0x61 l"		name=REGID_VDC_MID			firmware=1067-9999
+
+sharedDropDown=		regid="0x61 h"		name=REGID_VDC_MID			firmware=0-100
+sharedDropDown=		regid="0x61 h"		name=REGID_VDC_MID			firmware=1067-9999
+
+
+sharedDropDown=		regid="0x03"		name=REGID_USER_SPECIFIC_SPECIALS	firmware=0-9999
+sharedDropDown=		regid="0x40"		name=REGID_STATUS			firmware=0-9999
+sharedDropDown=		regid="0x45"		name=REGID_IT_RG_MONITOR		firmware=0-9999
+sharedDropDown=		regid="0xeb"		name=REGID_VDC_BUS			firmware=0-9999
+sharedDropDown=		regid="0x61"		name=REGID_VDC_BAT			firmware=0-9999
+sharedDropDown=		regid="0x66"		name=REGID_VDC_MID			firmware=0-9999
+
+sharedDropDown=		regid="0xb7"		name=REGID_DBG_TEMP1_PTR		firmware=0-9999
+sharedDropDown=		regid="0xb9"		name=REGID_DBG_TEMP2_PTR		firmware=0-9999
+
+sharedDropDown=		regid="0x9b"		name=REGID_LOGIC_I_BLOCK		firmware=0-9999
+
+//--------------------------------------------------------------

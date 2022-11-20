@@ -1,0 +1,21 @@
+//-------------------------------- keep order--------------------
+include=settings\units.txt
+include=settings\regid.txt
+
+include=settings\globals.txt
+include=settings\default_style.txt
+include=<optional>..\debug\debug.txt
+
+include=settings\pages.txt
+
+//-------------------------------- keep order--------------------
+include=settings\dropdown.txt
+include=<optional>settings\user\dropdown_usr.txt
+include=<optional>..\debug\settings\dropdown_dbg.txt
+
+include=<optional>settings\_specials\versionitis.txt
+//--------------------------------------------------------------
+minMaxFile=""
+regListFile= settings\Reglist.txt
+//--------------------------------------------------------------
+

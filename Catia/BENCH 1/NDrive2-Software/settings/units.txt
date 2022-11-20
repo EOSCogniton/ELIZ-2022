@@ -1,0 +1,33 @@
+units=decimal   system=-1   text=dec
+units=hex       system=-1   text=hex   isHex=3
+units=bit0      system=-1   text=b0              fromRaw="(x>>0)  &   0x01"
+units=bit1      system=-1   text=b1              fromRaw="(x>>1)  &   0x01"
+units=bit2      system=-1   text=b2              fromRaw="(x>>2)  &   0x01"
+units=bit3      system=-1   text=b3              fromRaw="(x>>3)  &   0x01"
+units=bit4      system=-1   text=b4              fromRaw="(x>>4)  &   0x01"
+units=bit5      system=-1   text=b5              fromRaw="(x>>5)  &   0x01"
+units=bit6      system=-1   text=b6              fromRaw="(x>>6)  &   0x01"
+units=bit7      system=-1   text=b7              fromRaw="(x>>7)  &   0x01"
+units=bit8      system=-1   text=b8              fromRaw="(x>>8)  &   0x01"
+units=bit9      system=-1   text=b9              fromRaw="(x>>9)  &   0x01"
+units=bit10     system=-1   text=b10             fromRaw="(x>>10) &   0x01"
+units=bit11     system=-1   text=b11             fromRaw="(x>>11) &   0x01"
+units=bit12     system=-1   text=b12             fromRaw="(x>>12) &   0x01"
+units=bit13     system=-1   text=b13             fromRaw="(x>>13) &   0x01"
+units=bit14     system=-1   text=b14             fromRaw="(x>>14) &   0x01"
+units=bit15     system=-1   text=b15             fromRaw="(x>>15) &   0x01"
+units=nibble0   system=-1   text=n0    isHex=3   fromRaw="(x>>0)  &   0x0f"
+units=nibble1   system=-1   text=n1    isHex=3   fromRaw="(x>>4)  &   0x0f"
+units=nibble2   system=-1   text=n2    isHex=3   fromRaw="(x>>8)  &   0x0f"
+units=nibble3   system=-1   text=n3    isHex=3   fromRaw="(x>>12) &   0x0f"
+units=byte0     system=-1   text=by0   isHex=3   fromRaw="(x>>0)  & 0x00ff"
+units=byte1     system=-1   text=by1   isHex=3   fromRaw="(x>>8)  & 0x00ff"
+
+unitsList=bits16List    bit0,bit1,bit2,bit3,bit4,bit5,bit6,bit7,bit8,bit9,bit10,bit11,bit12,bit13,bit14,bit15
+unitsList=nibbles16List nibble0,nibble1,nibble2,nibble3
+unitsList=bytes16List   byte0,byte1
+unitsList=hex16List	decimal,hex
+unitsList=map16List     decimal,hex,bits16List,nibbles16List,bytes16List
+
+// usage: units=map16List unitsLow=map16List unitsHigh=map16List
+

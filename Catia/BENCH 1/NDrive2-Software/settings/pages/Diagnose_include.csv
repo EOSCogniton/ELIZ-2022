@@ -1,0 +1,21 @@
+item;regid;regidExtension;bit;bits;bitNums;invert;pos;size;expand;isSigned;isHex;visible;enable;clickable;percent100;floatdivisor;decimals;parent;label;format;image;imageOff;condition;expression;descText;tooltip;fontName;fontDesc;fontHeight;fontWidth;fontGap;fontWeight;fontFamily;border;onTop;isCaption;isUnit;colourText;colourBack;where;textOff;textOn;URL;command;script;action;descColour;unitsColour;descWidth;unitsWidth;spacing;descLeft;descOffsetX;descOffsetY;unitsOffsetX;unitsOffsetY;step;style;units
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+background;;;;;;;;;;;;;;;;;;;;;blank_1-page;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+button;;;;;;;[-1,-1];[150,20];;;;;;;;;;;Manual Read/Write;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+button;;;;;;;[-1,-1];[150,20];;;;;;;;;;;Track;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+button;;;;;;;[-1,-1];[150,20];;;;;;;;;;;Information;;;;;diagnoseInformation=!diagnoseInformation;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+button;;;;;;;[-1,-1];[150,20];;;;;;;;;;;Show all registers;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+button;;;;;;;[-1,-1];[150,20];;;;;;;;;;;Show selection of registers;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+button;;;;;;;[-1,-1];[150,20];;;;;;;;;;;Auto-Reso;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+button;;;;;;;[-1,-1];[150,20];;;;;;;;;;;Auto-Optimize;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+button;;;;;;;[-1,-1];[150,20];;;;;;;;;;;Script;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+button;;;;;;;[-1,-1];[150,20];;;;;;;;;;;Error-Log;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+staticBox;;;;;;;[665,0];[158,150];;;;diagnoseInformation;;;;;;;Information;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+editRead;0xab;;;;;;[78,20];[44,15];;;;diagnoseInformation;;;;;;Information;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;70;;;;;;;;;;
+editRead;0x99;;;;;;[78,38];[44,15];;;;diagnoseInformation;;;;;;Information;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;70;;;;;;;;;;
+editRead;0x94;;;;;;[78,56];[44,15];;;3;diagnoseInformation;;;;;;Information;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;70;;;;;;;;;;
+editRead;0x63;;;;;;[78,74];[44,15];;;3;diagnoseInformation;;;;;;Information;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;70;;;;;;;;;;
+editRead;0x51;;;;;;[78,92];[44,15];;;3;diagnoseInformation;;;;;;Information;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;70;;;;;;;;;;
+button;;;;;;;[78,130];[50,15];;;;diagnoseInformation;;;;;;Information;Close;;;;;diagnoseInformation=0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
