@@ -1084,7 +1084,7 @@
     (property "Spice_Primitive" "V" (id 4) (at 62.23 30.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Spice_Model" "dc 5 pulse(0 5 1 100m 100m 4 8)" (id 5) (at 24.13 40.64 90)
+    (property "Spice_Model" "dc 5 pulse(0 5 1 100m 100m 6 10)" (id 5) (at 24.13 40.64 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Spice_Netlist_Enabled" "Y" (id 6) (at 62.23 31.75 0)
@@ -1270,7 +1270,7 @@
   (symbol (lib_id "EPSA_lib:VSOURCE") (at 80.01 109.22 90) (unit 1)
     (in_bom no) (on_board no)
     (uuid 2e19b890-def1-46b7-90db-2dc9818c6942)
-    (property "Reference" "V?" (id 0) (at 86.36 107.9499 90)
+    (property "Reference" "V3" (id 0) (at 86.36 107.9499 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "VSOURCE" (id 1) (at 72.39 97.79 0)
@@ -1932,7 +1932,7 @@
   (symbol (lib_id "pspice:0") (at 80.01 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9c6f2383-b4d9-4674-a66f-7d0371cc409d)
-    (property "Reference" "#GND?" (id 0) (at 80.01 124.46 0)
+    (property "Reference" "#GND06" (id 0) (at 80.01 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "0" (id 1) (at 80.01 119.38 0))
@@ -2105,11 +2105,11 @@
     (path "/73243e13-7402-4c1d-917c-bf156fb37436"
       (reference "#GND05") (unit 1) (value "0") (footprint "")
     )
+    (path "/9c6f2383-b4d9-4674-a66f-7d0371cc409d"
+      (reference "#GND06") (unit 1) (value "0") (footprint "")
+    )
     (path "/9b32fc1f-ecce-4122-96db-b2c4aabc3dcf"
       (reference "#GND07") (unit 1) (value "0") (footprint "")
-    )
-    (path "/9c6f2383-b4d9-4674-a66f-7d0371cc409d"
-      (reference "#GND?") (unit 1) (value "0") (footprint "")
     )
     (path "/2c808e78-506e-45ae-a5fa-759694e35b21"
       (reference "#PWR01") (unit 1) (value "+5V") (footprint "")
@@ -2172,7 +2172,7 @@
       (reference "V2") (unit 1) (value "VSOURCE") (footprint "")
     )
     (path "/2e19b890-def1-46b7-90db-2dc9818c6942"
-      (reference "V?") (unit 1) (value "VSOURCE") (footprint "")
+      (reference "V3") (unit 1) (value "VSOURCE") (footprint "")
     )
   )
 )
