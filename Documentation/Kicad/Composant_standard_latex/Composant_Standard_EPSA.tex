@@ -161,6 +161,28 @@ Les mosfet sont des interrupteurs asservis électriquement. Ils nous permettent 
 
 L'encapsulation est en SOT-23.
 
+\section{Diode Zener}
+
+BZX8450-C3V0-QR
+
+BZY55B2V7 RBG mieux
+
+TZM5224B-GS08 encore mieux
+
+Model
+[BZT52C2V4]
+*SRC=BZT52C2V4;DI_BZT52C2V4;Diodes;Zener <=10V; 2.40V  0.500W   Diodes Inc. 
+*SYM=HZEN
+.SUBCKT DI_BZT52C2V4  1 2
+*        Terminals    A   K
+D1 1 2 DF
+DZ 3 1 DR
+VZ 2 3 0
+.MODEL DF D ( IS=85.8p RS=37.1 N=1.10
++ CJO=461p VJ=0.750 M=0.330 TT=50.1n )
+.MODEL DR D ( IS=17.2f RS=84.5 N=3.00 )
+.ENDS
+
 \section{Connecteur}
 
 A l'EPSA nous utilisons des connecteurs \href{https://www.mouser.fr/c/connectors/headers-wire-housings/?contact\%20gender=Pin\%20\%28Male\%29&contact\%20plating=Gold&m=Molex&mating\%20post\%20length=7.49\%20mm&mounting\%20angle=Straight&number\%20of\%20rows=1\%20Row&pitch=2.54\%20mm&termination\%20post\%20length=3.56\%20mm&type=Locking}{Molex KK avec blocage}. Contrairement aux autres composants il peut être demandé de commander un connecteur avec un nombre de socket spécifique tant qu'il fait parti de la gamme KK ci-dessus. Les pins males sont de la série 6373 pour les droits et 171857 (7478 pour 3P) pour les angles. Les connecteurs sont de la série 2695.  Nous avons pour le moment en stock les suivants :
