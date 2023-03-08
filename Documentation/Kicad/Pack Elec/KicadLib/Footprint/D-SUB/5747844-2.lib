@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 5747844-2
+#/354807/663195/2.49/11/2/Connector
+DEF 5747844-2 J 0 30 Y Y 1 F N
+F0 "J" 850 500 50 H V L CNN
+F1 "5747844-2" 850 400 50 H V L CNN
+F2 "57478442" 850 300 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F5747844%7FP%7Fpdf%7FEnglish%7FENG_CD_5747844_P.pdf%7F5747844-2" 850 200 50 H I L CNN
+F4 "09 MSFL RCPT RA 318 (FM,BL)" 850 100 50 H I L CNN "Description"
+F5 "12.9286" 850 0 50 H I L CNN "Height"
+F6 "TE Connectivity" 850 -100 50 H I L CNN "Manufacturer_Name"
+F7 "5747844-2" 850 -200 50 H I L CNN "Manufacturer_Part_Number"
+F8 "571-5747844-2" 850 -300 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5747844-2?qs=DUjmvCJSYRCtNU6HMUj1IQ%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F10 "5747844-2" 850 -500 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/5747844-2/te-connectivity?region=nac" 850 -600 50 H I L CNN "Arrow Price/Stock"
+F12 "" 850 -700 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 850 -800 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X 1 1 700 500 200 D 50 50 0 0 P
+X 2 2 600 500 200 D 50 50 0 0 P
+X 3 3 500 500 200 D 50 50 0 0 P
+X 4 4 400 500 200 D 50 50 0 0 P
+X 5 5 300 500 200 D 50 50 0 0 P
+X 6 6 600 -500 200 U 50 50 0 0 P
+X 7 7 500 -500 200 U 50 50 0 0 P
+X 8 8 400 -500 200 U 50 50 0 0 P
+X 9 9 300 -500 200 U 50 50 0 0 P
+X MH1 MH1 1000 0 200 L 50 50 0 0 P
+X MH2 MH2 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 300 800 300 800 -300 200 -300 200 300 N
+ENDDRAW
+ENDDEF
+#
+#End Library
