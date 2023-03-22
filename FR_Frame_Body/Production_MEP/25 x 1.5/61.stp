@@ -2,7 +2,7 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('CATIA V5 STEP Exchange'),'2;1');
 
-FILE_NAME('C:\\Users\\loics\\Documents\\Centrale Lyon\\EPSA\\2023\\Artemiz\\ELIZ-2022\\FR_Frame_Body\\Production_MEP\\25 x 1.5\\Tube 61.stp','2023-03-22T15:41:15+00:00',('none'),('none'),'CATIA Version 5 Release 19 SP 2 (IN-10)','CATIA V5 STEP AP203','none');
+FILE_NAME('C:\\Users\\loics\\Documents\\Centrale Lyon\\EPSA\\2023\\Artemiz\\ELIZ-2022\\FR_Frame_Body\\Production_MEP\\25 x 1.5\\61.stp','2023-03-22T15:34:27+00:00',('none'),('none'),'CATIA Version 5 Release 19 SP 2 (IN-10)','CATIA V5 STEP AP203','none');
 
 FILE_SCHEMA(('CONFIG_CONTROL_DESIGN'));
 
@@ -459,7 +459,7 @@ DATA;
 #20=APPROVAL_STATUS('not_yet_approved') ;
 #19=APPROVAL_ROLE('APPROVER') ;
 #13=DATE_AND_TIME(#11,#12) ;
-#12=LOCAL_TIME(16,41,15.,#10) ;
+#12=LOCAL_TIME(16,34,26.,#10) ;
 #10=COORDINATED_UNIVERSAL_TIME_OFFSET(0,0,.AHEAD.) ;
 #127=ORIENTED_EDGE('',*,*,#67,.T.) ;
 #128=ORIENTED_EDGE('',*,*,#76,.T.) ;
