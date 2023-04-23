@@ -744,7 +744,7 @@ regid=0xbc        name=                                isSigned=0  is32Bit=0  is
   regid=0xbc      name=REGID_MOTOR_STATOR_R            isSigned=0  is32Bit=1  isHighLow=0  type=RW   firmware=1006-1199
   regid=0xbc      name=REGID_MOTOR_STATOR_R            isSigned=0  is32Bit=1  isHighLow=0  type=RW   firmware=1200-9999
 
-regid=0xbd        name=REGID_MOTOR_SPECS_INERTIA       isSigned=0  is32Bit=0  isHighLow=0  type=RW   firmware=100-1005
+regid=0xbd        name=REGID_MOTOR_SPECS_INERTIA       isSigned=0  is32Bit=0  isHighLow=0  type=RO   firmware=100-1005
   regid=0xbd      name=REGID_MOTOR_TC_STATOR           isSigned=0  is32Bit=1  isHighLow=0  type=RW   firmware=1006-1199
   regid=0xbd      name=REGID_MOTOR_TC_STATOR           isSigned=0  is32Bit=1  isHighLow=0  type=RW   firmware=1200-9999
 
@@ -962,19 +962,23 @@ regid=0xf7        name=REGID_WORK                      isSigned=0  is32Bit=0  is
 regid=0xf8        name=REGID_ASCII_USER                isSigned=0  is32Bit=0  isHighLow=0  type=RW   firmware=100-299
    regid=0xf8     name=REGID_ASCII_USER                isSigned=0  is32Bit=1  isHighLow=0  type=RW   firmware=300-9999
 
-regid=0xf9        name=REGID_ASCII_WR_EEP              isSigned=0  is32Bit=0  isHighLow=0  type=FN   firmware=100-9999
+regid=0xf9        name=REGID_ASCII_WR_EEP              isSigned=0  is32Bit=0  isHighLow=0  type=FN   firmware=100-479
+  regid=0xf9      name=REGID_SC_FEEDBACK               isSigned=1  is32Bit=1  isHighLow=1  type=RO   firmware=480-9999
 
-regid=0xfa        name=REGID_ASCII_RD_EEP              isSigned=0  is32Bit=0  isHighLow=0  type=FN   firmware=100-9999
+regid=0xfa        name=REGID_ASCII_RD_EEP              isSigned=0  is32Bit=0  isHighLow=0  type=FN   firmware=100-479
+  regid=0xfa      name=REGID_IDC_ACTUAL                isSigned=1  is32Bit=1  isHighLow=1  type=RO   firmware=480-9999
 
 regid=0xfb        name=                                isSigned=1  is32Bit=0  isHighLow=0  type=RO   firmware=100-299
-  regid=0xfb      name=REGID_AIN1_CALC                 isSigned=1  is32Bit=0  isHighLow=0  type=RO   firmware=300-899
+  regid=0xfb      name=REGID_AIN1_CALC                 isSigned=1  is32Bit=0  isHighLow=0  type=RO   firmware=300-479
+  regid=0xfb      name=REGID_IDC_ACTUAL_EXT            isSigned=1  is32Bit=1  isHighLow=1  type=RW   firmware=480-899
   regid=0xfb      name=REGID_AIN1_CALC                 isSigned=1  is32Bit=0  isHighLow=0  type=RO   firmware=900-999
   regid=0xfb      name=REGID_AIN1_CALC                 isSigned=1  is32Bit=0  isHighLow=0  type=RO   firmware=1000-1035
   regid=0xfb      name=REGID_SPEED_CALIB_EXTRA_A       isSigned=0  is32Bit=1  isHighLow=0  type=RW   firmware=1036-1199
   regid=0xfb      name=                                isSigned=0  is32Bit=1  isHighLow=0  type=RW   firmware=1200-9999
 
 regid=0xfc        name=                                isSigned=1  is32Bit=0  isHighLow=0  type=RO   firmware=100-299
-  regid=0xfc      name=REGID_AIN2_CALC                 isSigned=1  is32Bit=0  isHighLow=0  type=RO   firmware=300-899
+  regid=0xfc      name=REGID_AIN2_CALC                 isSigned=1  is32Bit=0  isHighLow=0  type=RO   firmware=300-479
+  regid=0xfc      name=REGID_FC__free                  isSigned=1  is32Bit=1  isHighLow=0  type=RO   firmware=480-899
   regid=0xfc      name=REGID_AIN2_CALC                 isSigned=1  is32Bit=0  isHighLow=0  type=RO   firmware=900-999
   regid=0xfc      name=REGID_AIN2_CALC                 isSigned=1  is32Bit=0  isHighLow=0  type=RO   firmware=1000-1035
   regid=0xfc      name=REGID_SPEED_CALIB_EXTRA_B       isSigned=0  is32Bit=1  isHighLow=0  type=RW   firmware=1036-1199
