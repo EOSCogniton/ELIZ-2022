@@ -1,4 +1,4 @@
-(kicad_sch (version 20211123) (generator eeschema)
+(kicad_sch (version 20230121) (generator eeschema)
 
   (uuid dc968a87-0440-405f-af95-92fe3e4e40fa)
 
@@ -8,19 +8,19 @@
   )
 
 
-  (hierarchical_label "+ out" (shape output) (at 107.95 74.93 0)
+  (hierarchical_label "+ out" (shape output) (at 107.95 74.93 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 4a244b2b-4cd8-4606-a240-03765f655f5d)
   )
-  (hierarchical_label "- out" (shape output) (at 107.95 82.55 0)
+  (hierarchical_label "- out" (shape output) (at 107.95 82.55 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 6a347812-6a5b-4502-ae44-f22bf10cf73f)
   )
-  (hierarchical_label "+ in" (shape input) (at 107.95 71.12 0)
+  (hierarchical_label "+ in" (shape input) (at 107.95 71.12 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 9a570dc8-8afe-4029-923a-61df5efa0e9b)
   )
-  (hierarchical_label "- in" (shape input) (at 107.95 78.74 0)
+  (hierarchical_label "- in" (shape input) (at 107.95 78.74 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid faa27a0a-e09e-47a6-8a98-a79e65cb98a5)
   )
