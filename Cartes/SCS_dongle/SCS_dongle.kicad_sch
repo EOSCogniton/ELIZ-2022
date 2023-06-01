@@ -1059,7 +1059,7 @@
   (symbol (lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F") (at 148.59 73.66 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 32be16c6-2cee-41ac-87e0-b46b397b9d22)
-    (property "Reference" "R?" (id 0) (at 151.13 80.0099 90)
+    (property "Reference" "R6" (id 0) (at 151.13 80.0099 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Résistance RK73H2BLTDD2152F" (id 1) (at 151.13 99.06 0)
@@ -1120,7 +1120,7 @@
   (symbol (lib_id "power:GND") (at 148.59 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 48fea4b0-88b2-4bec-a5d1-109698fa1c7e)
-    (property "Reference" "#PWR?" (id 0) (at 148.59 99.06 0)
+    (property "Reference" "#PWR013" (id 0) (at 148.59 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 148.59 97.79 0))
@@ -1398,7 +1398,7 @@
   (symbol (lib_id "power:GND") (at 115.57 77.47 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid aafc9e7d-213d-48b8-92ef-5bc2f0d23354)
-    (property "Reference" "#PWR?" (id 0) (at 115.57 83.82 0)
+    (property "Reference" "#PWR01" (id 0) (at 115.57 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 119.38 77.47 0))
@@ -1539,7 +1539,7 @@
   (symbol (lib_id "EPSA_lib:Condensateur 0805Y1000104JXT") (at 101.6 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d05c2b1e-4370-4833-8134-8f915870026c)
-    (property "Reference" "C?" (id 0) (at 107.95 66.04 0))
+    (property "Reference" "C1" (id 0) (at 107.95 66.04 0))
     (property "Value" "Condensateur 0805Y1000104JXT" (id 1) (at 121.92 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
@@ -1834,6 +1834,9 @@
   )
 
   (symbol_instances
+    (path "/aafc9e7d-213d-48b8-92ef-5bc2f0d23354"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
     (path "/60317f1f-9c0e-405a-b9d1-bbbfb76429cd"
       (reference "#PWR02") (unit 1) (value "+5V") (footprint "")
     )
@@ -1867,17 +1870,14 @@
     (path "/7a00878e-17b7-49b2-a689-90a3e6ff1c28"
       (reference "#PWR012") (unit 1) (value "+5V") (footprint "")
     )
+    (path "/48fea4b0-88b2-4bec-a5d1-109698fa1c7e"
+      (reference "#PWR013") (unit 1) (value "GND") (footprint "")
+    )
     (path "/8b81ee69-d544-4697-9bec-3249a0842d0c"
       (reference "#PWR017") (unit 1) (value "GND") (footprint "")
     )
-    (path "/48fea4b0-88b2-4bec-a5d1-109698fa1c7e"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/aafc9e7d-213d-48b8-92ef-5bc2f0d23354"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/d05c2b1e-4370-4833-8134-8f915870026c"
-      (reference "C?") (unit 1) (value "Condensateur 0805Y1000104JXT") (footprint "EPSA_lib:CAPC2012X130N")
+      (reference "C1") (unit 1) (value "Condensateur 0805Y1000104JXT") (footprint "EPSA_lib:CAPC2012X130N")
     )
     (path "/3069eaa4-1e23-415a-9eee-fda16a3f15d9"
       (reference "CP1") (unit 1) (value "Comparateur Double LM393LVDR") (footprint "EPSA_lib:SOIC127P600X175-8N")
@@ -1910,7 +1910,7 @@
       (reference "R5") (unit 1) (value "Résistance RK73H2BLTDD2152F") (footprint "EPSA_lib:RESC3216X70N")
     )
     (path "/32be16c6-2cee-41ac-87e0-b46b397b9d22"
-      (reference "R?") (unit 1) (value "Résistance RK73H2BLTDD2152F") (footprint "EPSA_lib:RESC3216X70N")
+      (reference "R6") (unit 1) (value "Résistance RK73H2BLTDD2152F") (footprint "EPSA_lib:RESC3216X70N")
     )
   )
 )
