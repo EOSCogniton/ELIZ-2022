@@ -1,5 +1,5 @@
 (module "SOP50P780X200-48N" (layer F.Cu)
-  (descr "48-Lead Plastic SSOP (5.3mm)")
+  (descr "48-Lead Plastic SSOP (5.3mm")
   (tags "Integrated Circuit")
   (attr smd)
   (fp_text reference IC** (at 0 0) (layer F.SilkS)
@@ -73,7 +73,7 @@
   (pad 46 smd rect (at 3.55 -4.75 90) (size 0.3 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 47 smd rect (at 3.55 -5.25 90) (size 0.3 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 48 smd rect (at 3.55 -5.75 90) (size 0.3 1.8) (layers F.Cu F.Paste F.Mask))
-  (model LTC6811HG-2#PBF.stp
+  (model LTC6811IG-1#PBF.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
