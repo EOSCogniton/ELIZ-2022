@@ -2003,7 +2003,7 @@
     (uuid fefdda77-1320-444e-83b4-b660199219f8)
   )
 
-  (text "Module architecture : 12S 6P * 12 = 7 776 Wh\n\nNominal voltage  : 3.6 V \nNominal Capacity : 2.5 Ah\nNominal Discharge Rate : 10 C\n\nCell serie : INR18650-25R\n\nNominal Amp of the module : 100A \n\nNominal Voltage of TSAC : 518.4 V\nMaximal Voltage of TSAC : 604.8 V"
+  (text "Module architecture : 12S 6P * 12 = 7 776 Wh\n\nNominal voltage  : 3.6 V \nNominal Capacity : 2.5 Ah\nNominal Discharge Rate : 8 C\n\nCell serie : INR18650-25R\n\nNominal Amp of the module : 100A \n\nNominal Voltage of TSAC : 518.4 V\nMaximal Voltage of TSAC : 604.8 V"
     (at 130.81 39.37 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 010c5664-1e29-4821-9005-e358c858a3ca)
@@ -2019,6 +2019,16 @@
   (text "Signal Transformer and EMI filter\n" (at 250.19 16.51 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5e39f067-2f43-47a0-960e-c83856a8e4e0)
+  )
+  (text "https://www.desmith.net/NMdS/Electronics/TraceWidth.html\ntrace width"
+    (at 95.25 8.89 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c2673505-b2b9-4b46-a879-c152b53a694b)
+  )
+  (text "https://www.copper.org/applications/electrical/busbar/busbar_ampacities.html#1\nBusbar sizing\n"
+    (at 10.16 8.89 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d361a85c-81cf-4400-a794-c7d5bbba1eb5)
   )
   (text "ISOMD HIGH = Two ISO-SPI output\n" (at 236.22 107.95 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
