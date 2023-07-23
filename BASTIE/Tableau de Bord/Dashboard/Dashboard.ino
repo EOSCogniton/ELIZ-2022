@@ -194,6 +194,8 @@ void loop() {
         else{
           APPS_FAULT=nmsg;
           if(APPS_FAULT==0 and APPS_FAULT_not_active==0){
+            SendToScreen("listissues.pic_APPS.aph=0");
+            SendToScreen("listissues.text_APPS.aph=0");
             APPS_FAULT_not_active=1;
           }
         }
@@ -223,6 +225,8 @@ void loop() {
     SendToScreen("bat_HV_temp.pco=1632");
 
     if(T_HV_high_not_active==0){
+      SendToScreen("listissues.pic_HV_temp.aph=0");
+      SendToScreen("listissues.text_HV_temp.aph=0");
       T_HV_high_not_active=1;
     }
   }
@@ -234,6 +238,8 @@ void loop() {
 
     if(T_HV_high_not_active==1){
       ShowIssue("Temp Batterie HV > 50°C",2);
+      SendToScreen("listissues.pic_HV_temp.aph=127");
+      SendToScreen("listissues.text_HV_temp.aph=127");
       T_HV_high_not_active=0;
     }
   }
@@ -244,6 +250,8 @@ void loop() {
 
     if(lvl_HV_low_not_active==1){
       ShowIssue("Batterie HV < 20 %",9);
+      SendToScreen("listissues.pic_HV.aph=127");
+      SendToScreen("listissues.text_HV.aph=127");
       lvl_HV_low_not_active=0;
     }
   }
@@ -260,6 +268,8 @@ void loop() {
 
     if(lvl_LV_low_not_active==1){
       ShowIssue("Batterie LV < 20 %",9);
+      SendToScreen("listissues.pic_LV.aph=127");
+      SendToScreen("listissues.text_LV.aph=127");
       lvl_LV_low_not_active=0;
     }
 
@@ -276,19 +286,25 @@ void loop() {
   if(APPS_FAULT==1){ //Traitement APPS FAULT
     if(APPS_FAULT_not_active==1){
       ShowIssue("APPS Fault", 7);
+      SendToScreen("listissues.pic_APPS.aph=127");
+      SendToScreen("listissues.text_APPS.aph=127");
       APPS_FAULT_not_active=0;
     }
   }
   if(noPb==1){
-    SendToScreen("p1.aph=0");
-
-    SendToScreen("t1.aph=0");
+    SendToScreen("main.p1.aph=0");
+    SendToScreen("speed.p1.aph=0");
+    
+    SendToScreen("main.t1.aph=0");
+    SendToScreen("speed.t1.aph=0");
 
   }
   else{
-    SendToScreen("p1.aph=127");
+    SendToScreen("main.p1.aph=127");
+    SendToScreen("speed.p1.aph=127");
 
-    SendToScreen("t1.aph=127");
+    SendToScreen("main.t1.aph=127");
+    SendToScreen("speed.t1.aph=127");
   }
   noPb=APPS_FAULT_not_active && T_HV_high_not_active && lvl_HV_low_not_active && lvl_LV_low_not_active;
 }
