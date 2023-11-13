@@ -1,0 +1,23 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid a187d183-be2e-4b61-ac84-465f60e82554)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "U" (shape input) (at 114.3 83.82 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 423f288d-c6bc-4258-87b6-889424249ee3)
+  )
+  (hierarchical_label "W" (shape input) (at 114.3 91.44 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 42a126b2-45c7-4d49-8796-9e0ec31f5138)
+  )
+  (hierarchical_label "V" (shape input) (at 114.3 87.63 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 5fa0689b-ec91-419c-aa6f-d566b434dd9f)
+  )
+)
