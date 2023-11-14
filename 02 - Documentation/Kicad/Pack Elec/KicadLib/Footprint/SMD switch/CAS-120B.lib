@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CAS-120B
+#/13893579/663195/2.50/3/3/Switch
+DEF CAS-120B S 0 30 Y Y 1 F N
+F0 "S" 850 300 50 H V L CNN
+F1 "CAS-120B" 850 200 50 H V L CNN
+F2 "CAS120B" 850 100 50 H I L CNN
+F3 "http://www.nidec-copal-electronics.com/e/catalog/switch/cas.pdf" 850 0 50 H I L CNN
+F4 "SPDT, ON-ON  Slide, 100mA @ 6V DC Gull Wing SMD Terminal, Bulk Packaging, Washable with seal tape - Bulk" 850 -100 50 H I L CNN "Description"
+F5 "2.5" 850 -200 50 H I L CNN "Height"
+F6 "NIDEC COPAL" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "CAS-120B" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "229-CAS-120B" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Nidec-Copal/CAS-120B?qs=XeJtXLiO41SFQrNWr8fvAQ%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X NO 1 0 0 200 R 50 50 0 0 P
+X COM 2 1000 0 200 L 50 50 0 0 P
+X NC 3 0 -100 200 R 50 50 0 0 N
+P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
