@@ -1,0 +1,923 @@
+'COPYRIGHT DASSAULT SYSTEMES 2001
+
+' ****************************************************************************
+' Purpose:       To draw a Frame and TitleBlock
+'
+' Assumptions:   A Drafting document should be active
+'
+' Author:        GDG\DU\PYW
+' Languages:     VBScript
+' Version:       V5R18
+' Reg. Settings: English (United States)
+' ****************************************************************************
+Public ActiveDoc     As Document
+Public Sheets
+Public Sheet
+Public Views
+Public View
+Public Texts         As DrawingTexts
+Public Text          As DrawingText
+Public Fact          As Factory2D
+Public Selection     As Selection
+
+Function Col(idx As Integer) As Variant
+  Col=Array(-190, -145, -125, -110, -95, -50, -30, -15)(idx-1)
+End Function
+
+Function Row(idx As Integer) As Variant
+  Row=Array( 10, 12, 24, 36, 40, 60)(idx-1)  
+End Function
+
+Function GetRulerLength() as Double
+  GetRulerLength = 200.
+End Function
+
+Function GetMacroID() as String
+  GetMacroID = "Drawing_Titleblock_Sample2"
+End Function
+
+Function GetNbOfRevision() as Integer
+  GetNbOfRevision = 9
+End Function
+
+Function GetRevRowHeight() as Double
+  GetRevRowHeight = 10.
+End Function
+
+Function GetDisplayFormat() as String
+  GetDisplayFormat = Array("Letter","Legal","A0","A1","A2","A3","A4","A","B","C","D","E","F","User")( Sheet.PaperSize )
+End Function
+
+Function GetOffset() as Double  
+  If Sheet.PaperSize  = CatPaperA0 Or Sheet.PaperSize  = CatPaperA1 Or ( Sheet.PaperSize  = CatPaperUser And (GetWidth() > 594. Or GetHeight() > 594.)) Then
+    GetOffset = 20.
+  Else
+    GetOffset = 10.
+  End If
+End Function
+
+Function GetWidth() as Double
+  Select Case TypeName(Sheet)
+    Case "DrawingSheet" : GetWidth=Sheet.GetPaperWidth
+    Case "Layout2DSheet": GetWidth=Sheet.PaperWidth  
+  End Select
+End Function
+  
+Function GetHeight() as Double
+  Select Case TypeName(Sheet)
+    Case "DrawingSheet" : GetHeight=Sheet.GetPaperHeight
+    Case "Layout2DSheet": GetHeight=Sheet.PaperHeight  
+  End Select
+End Function
+  
+Function GetOH() as Double
+  GetOH = GetWidth() - GetOffset()
+End Function
+
+Function GetOV() as Double
+  GetOV = GetOffset()
+End Function
+
+Function GetColRev(index As Integer)
+  GetColRev = Array(-190, -175, -140, -20)(index-1)
+End Function
+
+Function GetRevLetter(index As Integer)
+   GetRevLetter = Chr(Asc("A")+index-1)
+End Function
+
+Function CreateLine( iX1 As Double, iY1 As Double, iX2 As Double, iY2 As Double, iName As String) As Curve2D  
+  '-------------------------------------------------------------------------------
+  ' Creates a sketcher lines thanks to the current 2D factory set to the global variable Fact
+  ' The created line is reneamed to the given iName
+  ' Start point  and End point are created and renamed iName&"_start", iName&"_end"
+  '-------------------------------------------------------------------------------
+  Set CreateLine = Fact.CreateLine( iX1, iY1, iX2, iY2)
+  CreateLine.Name = iName
+  Set point=CreateLine.StartPoint 'Create the start point
+  point.Name = iName&"_start"
+  Set point=CreateLine.EndPoint 'Create the start point
+  point.Name = iName&"_end"
+End Function
+
+Function CreateText(iCaption as String, iX as Double, iY As Double, iName As String) As DrawingText
+  '-------------------------------------------------------------------------------
+  'How to create a text
+  '-------------------------------------------------------------------------------
+  Set CreateText = Texts.Add(iCaption, iX, iY)
+  CreateText.Name= iName
+  CreateText.AnchorPosition = catMiddleCenter
+End Function
+
+Function CreateTextAF(iCaption as String, iX as Double, iY As Double, iName As String, iAnchorPosition As CatTextAnchorPosition, iFontSize As Double) As DrawingText
+  '-------------------------------------------------------------------------------
+  'How to create a text
+  '-------------------------------------------------------------------------------
+  Set CreateTextAF = Texts.Add(iCaption, iX, iY)
+  CreateTextAF.Name           = iName
+  CreateTextAF.AnchorPosition = iAnchorPosition
+  CreateTextAF.SetFontSize      0, 0, iFontSize  
+End Function
+
+Sub SelectAll( iQuery as String )
+  Selection.Clear
+  Selection.Add(View)
+  'MsgBox iQuery
+  Selection.Search iQuery&",sel"  
+End Sub
+
+Sub DeleteAll( iQuery as String )
+  '-------------------------------------------------------------------------------
+  'Delete all elements  matching the query string iQuery
+  'Pay attention no to provide a localized query string.
+  '-------------------------------------------------------------------------------
+  Selection.Clear
+  Selection.Add(View)
+  'MsgBox iQuery
+  Selection.Search iQuery&",sel"  
+  ' Avoid Delete failure in case of an empty query result
+  If Selection.Count2<>0 Then Selection.Delete      
+End Sub
+
+Sub CATMain()
+  If Not CATInit(targetSheet) Then Exit Sub
+  On Error Resume Next
+    name = Texts.GetItem("Reference_" + GetMacroID()).Name
+  If Err.Number <> 0 Then
+    Err.Clear
+    name = "none"
+  End If
+  On Error Goto 0
+  If (name = "none") Then
+    CATDrw_Creation
+  Else   
+    CATDrw_Resizing
+    CATDrw_Update
+  End If
+  CATExit
+End Sub
+
+Sub CATDrw_Creation( targetSheet as CATIABase )
+  '-------------------------------------------------------------------------------
+  'How to create the FTB
+  '-------------------------------------------------------------------------------
+  If Not CATInit(targetSheet) Then Exit Sub  
+  If CATCheckRef(1) Then Exit Sub 'To check whether a FTB exists already in the sheet
+  CATCreateReference          'To place on the drawing a reference point
+  CATFrame      'To draw the frame  
+  CATCreateTitleBlockStandard 'To draw the standard representation
+  CATCreateTitleBlockFrame    'To draw the geometry
+  CATTitleBlockText     'To fill in the title block
+  CATColorGeometry 'To change the geometry color 
+  CATExit targetSheet      'To save the sketch edition
+End Sub
+
+Sub CATDrw_Deletion( targetSheet as CATIABase )
+  '-------------------------------------------------------------------------------
+  'How to delete the FTB
+  '-------------------------------------------------------------------------------
+  If Not CATInit(targetSheet) Then Exit Sub  
+  If CATCheckRef(0) Then Exit Sub
+  DeleteAll "..Name=Frame_*"
+  DeleteAll "..Name=TitleBlock_*"
+  DeleteAll "..Name=RevisionBlock_*"
+  DeleteAll "..Name=Reference_*"
+  CATExit targetSheet
+End Sub
+
+Sub CATDrw_Resizing( targetSheet as CATIABase )
+  '-------------------------------------------------------------------------------
+  'How to resize the FTB
+  '-------------------------------------------------------------------------------
+  If Not CATInit(targetSheet) Then Exit Sub
+  If CATCheckRef(0) Then Exit Sub  
+  Dim TbTranslation(2)
+  ComputeTitleBlockTranslation TbTranslation
+  Dim RbTranslation(2)
+  ComputeRevisionBlockTranslation RbTranslation
+  If TbTranslation(0) <> 0 Or TbTranslation(1) <> 0 Then
+    ' Redraw Sheet Frame
+    DeleteAll "CATDrwSearch.DrwText.Name=Frame_Text_*"
+    DeleteAll "CATDrwSearch.2DGeometry.Name=Frame_*"    
+    CATFrame    
+    
+    ' Redraw Title Block Frame
+    CATDeleteTitleBlockFrame
+    CATCreateTitleBlockFrame    
+    CATMoveTitleBlockText TbTranslation
+    ' Redraw revision block    
+    CATDeleteRevisionBlockFrame
+    CATCreateRevisionBlockFrame    
+    CATMoveRevisionBlockText RbTranslation
+    
+    ' Move the views
+    CATColorGeometry 
+    CATMoveViews TbTranslation
+    CATLinks
+    
+  End If
+  CATExit targetSheet
+End Sub
+
+Sub CATDrw_Update( targetSheet as CATIABase )
+  '-------------------------------------------------------------------------------
+  'How to update the FTB
+  '-------------------------------------------------------------------------------
+  If Not CATInit(targetSheet) Then Exit Sub  
+  If CATCheckRef(0) Then Exit Sub
+  CATLinks
+  CATColorGeometry 
+  CATExit targetSheet
+
+End Sub
+
+Function GetContext()
+  ' Find execution context  
+  Select Case TypeName( Sheet )
+    Case "DrawingSheet"
+      Select Case TypeName( ActiveDoc )
+        Case "DrawingDocument": GetContext="DRW"
+        Case "ProductDocument": GetContext="SCH"
+        Case Else: GetContext="Unexpected"
+      End Select         
+      
+    Case "Layout2DSheet" : GetContext="LAY"
+    Case Else : GetContext="Unexpected"
+  End Select
+End Function
+
+Sub CATDrw_CheckedBy( targetSheet as CATIABase )
+  '-------------------------------------------------------------------------------
+  'How to update a bit more the FTB
+  '-------------------------------------------------------------------------------
+  If Not CATInit(targetSheet) Then Exit Sub  
+  If CATCheckRef(0) Then Exit Sub
+  CATFillField "TitleBlock_Text_Check_1", "TitleBlock_Text_CDate_1", "checked"
+  CATExit targetSheet
+End Sub
+
+Sub CATDrw_AddRevisionBlock( targetSheet as CATIABase )
+  '-------------------------------------------------------------------------------
+  'How to create or modify a revison block
+  '-------------------------------------------------------------------------------
+  If Not CATInit(targetSheet) Then Exit Sub 
+  If CATCheckRef(0) Then Exit Sub
+  
+  CATAddRevisionBlockText 'To fill in the title block
+  CATDeleteRevisionBlockFrame
+  CATCreateRevisionBlockFrame 'To draw the geometry
+    
+  CATColorGeometry 
+  CATExit targetSheet
+End Sub
+
+Function CATInit( targetSheet as CATIABase )
+  '-------------------------------------------------------------------------------
+  'How to init the dialog and create main objects
+  '-------------------------------------------------------------------------------
+  Set Selection    = CATIA.ActiveDocument.Selection
+  Set Sheet        = targetSheet
+  Set Sheets       = Sheet.Parent
+  Set ActiveDoc    = Sheets.Parent
+  Set Views        = Sheet.Views
+  Set View         = Views.Item(2)'Get the background view
+  Set Texts        = View.Texts
+  Set Fact         = View.Factory2D
+  
+  If GetContext()="Unexpected" Then
+      Msg = "The macro runs in an inappropriate environment."&chr(13)&"The script will terminate wihtout finishing the current action."
+      Title ="Unexpected environement error"
+      MsgBox Msg,16, Title
+    CATInit=FALSE 'Exit with error
+      Exit Function
+  End If
+
+  Selection.Clear
+  CATIA.HSOSynchronized=False
+
+  'Exit without error
+  CATInit=TRUE 'Exit without error
+End Function
+
+Sub CATExit( targetSheet as CATIABase )
+  '-------------------------------------------------------------------------------
+  'How to restore the document working mode
+  '-------------------------------------------------------------------------------
+  Selection.Clear
+  CATIA.HSOSynchronized=True
+
+  View.SaveEdition
+End Sub
+
+
+Sub CATCreateReference()
+  '-------------------------------------------------------------------------------
+  'How to create a reference text
+  '-------------------------------------------------------------------------------
+  Set Text = Texts.Add("", GetWidth() - GetOffset(), GetOffset())
+  Text.Name = "Reference_" + GetMacroID
+End Sub
+
+Function CATCheckRef(Mode As Integer) As Integer
+  '-------------------------------------------------------------------------------
+  'How to check that the called macro is the right one
+  '-------------------------------------------------------------------------------
+  nbTexts = Texts.Count
+  i = 0
+  notFound = 0
+  While (notFound = 0 And i<nbTexts)
+    i = i + 1    
+    Set Text = Texts.Item(i)
+    WholeName = Text.Name
+    leftText = Left(WholeName, 10)
+    If (leftText = "Reference_") Then
+      notFound = 1
+      refText = "Reference_" + GetMacroID()
+      If (Mode = 1) Then 
+        MsgBox "Frame and Titleblock already created!"
+        CATCheckRef = 1
+        Exit Function
+      ElseIf (Text.Name <> refText) Then
+        MsgBox "Frame and Titleblock created using another style:" + Chr(10) + "        " + GetMacroID()
+        CATCheckRef = 1
+        Exit Function
+      Else
+        CATCheckRef = 0
+        Exit Function        
+      End If
+    End If
+  Wend
+
+  If Mode = 1 Then
+    CATCheckRef = 0
+  Else
+    MsgBox "No Frame and Titleblock!"
+    CATCheckRef = 1    
+  End If
+
+End Function
+
+Function CATCheckRev() As Integer
+  '-------------------------------------------------------------------------------
+  'How to check that a revision block alredy exists
+  '-------------------------------------------------------------------------------
+  SelectAll "CATDrwSearch.DrwText.Name=RevisionBlock_Text_Rev_*"
+  CATCheckRev = Selection.Count2
+End Function
+
+Sub CATFrame()
+  '-------------------------------------------------------------------------------
+  'How to create the Frame
+  '-------------------------------------------------------------------------------
+  Dim Cst_1   As Double  'Length (in cm) between 2 horinzontal marks
+  Dim Cst_2   As Double  'Length (in cm) between 2 vertical marks
+  Dim Nb_CM_H As Integer 'Number/2 of horizontal centring marks
+  Dim Nb_CM_V As Integer 'Number/2 of vertical centring marks
+  Dim Ruler   As Integer 'Ruler length (in cm)
+
+  CATFrameStandard     Nb_CM_H, Nb_CM_V, Ruler, Cst_1, Cst_2
+  CATFrameBorder
+  CATFrameCentringMark Nb_CM_H, Nb_CM_V, Ruler, Cst_1, Cst_2
+  CATFrameText         Nb_CM_H, Nb_CM_V, Ruler, Cst_1, Cst_2
+  CATFrameRuler        Ruler, Cst_1
+End Sub
+
+Sub CATFrameStandard(Nb_CM_H As Integer, Nb_CM_V As Integer, Ruler As Integer, Cst_1 As Double, Cst_2 As Double)
+  '-------------------------------------------------------------------------------
+  'How to compute standard values
+  '-------------------------------------------------------------------------------
+  Cst_1 = 74.2 '297, 594, 1189 are multiples of 74.2
+  Cst_2 = 52.5 '210, 420, 841  are multiples of 52.2
+
+  If Sheet.Orientation = CatPaperPortrait And _
+     (Sheet.PaperSize  = CatPaperA0 Or _
+      Sheet.PaperSize  = CatPaperA2 Or _
+      Sheet.PaperSize  = CatPaperA4) Or _
+      Sheet.Orientation = CatPaperLandscape And _
+     (Sheet.PaperSize  = CatPaperA1 Or _
+      Sheet.PaperSize  = CatPaperA3) Then
+    Cst_1 = 52.5
+    Cst_2 = 74.2
+  End If
+
+  Nb_CM_H = CInt(.5 * GetWidth() / Cst_1)
+  Nb_CM_V = CInt(.5 * GetHeight() / Cst_2)
+  Ruler   = CInt((Nb_CM_H - 1) * Cst_1 / 50) * 100 'here is computed the maximum ruler length
+  If GetRulerLength() < Ruler Then Ruler = GetRulerLength()
+End Sub
+
+Sub CATFrameBorder()
+  '-------------------------------------------------------------------------------
+  'How to draw the frame border
+  '-------------------------------------------------------------------------------
+  On Error Resume Next
+    CreateLine GetOV(),  GetOV()             ,  GetOH(),  GetOV()             , "Frame_Border_Bottom"
+    CreateLine GetOH(),  GetOV()             ,  GetOH(),  GetHeight() - GetOffset(), "Frame_Border_Left"
+    CreateLine GetOH(),  GetHeight() - GetOffset(),  GetOV(),  GetHeight() - GetOffset(), "Frame_Border_Top"
+    CreateLine GetOV(),  GetHeight() - GetOffset(),  GetOV(),  GetOV()             , "Frame_Border_Right"
+    If Err.Number <> 0 Then Err.Clear
+  On Error Goto 0
+End Sub
+
+Sub CATFrameCentringMark(Nb_CM_H As Integer, Nb_CM_V As Integer, Ruler As Integer, Cst_1 As Double, Cst_2 As Double)
+  '-------------------------------------------------------------------------------
+  'How to draw the centring marks
+  '-------------------------------------------------------------------------------
+  On Error Resume Next
+    CreateLine .5 * GetWidth()    ,  GetHeight() - GetOffset(),  .5 * GetWidth(),  GetHeight()     , "Frame_CentringMark_Top"
+    CreateLine .5 * GetWidth()    ,  GetOV()             ,  .5 * GetWidth(),  .0         , "Frame_CentringMark_Bottom"
+    CreateLine GetOV()            ,  .5 * GetHeight()    ,  .0        ,  .5 * GetHeight(), "Frame_CentringMark_Left"
+    CreateLine GetWidth() - GetOffset(),  .5 * GetHeight()    ,  GetWidth()     ,  .5 * GetHeight(), "Frame_CentringMark_Right"
+    For i = Nb_CM_H To Ruler/2/Cst_1 Step -1
+      If (i * Cst_1 < .5 * GetWidth() - 1.) Then
+        x=.5 * GetWidth() + i * Cst_1
+        CreateLine x,  GetOV(),  x,  .25 * GetOffset(), "Frame_CentringMark_Bottom_"&Int(x)
+        x=.5 * GetWidth() - i * Cst_1
+        CreateLine x,  GetOV(),  x,  .25 * GetOffset(), "Frame_CentringMark_Bottom_"&Int(x)
+      End If
+    Next
+    For i = 1 To Nb_CM_H
+      If (i * Cst_1 < .5 * GetWidth() - 1.) Then
+        x=.5 * GetWidth() + i * Cst_1
+        CreateLine x,  GetHeight() - GetOffset(),  x,  GetHeight() - .25 * GetOffset(), "Frame_CentringMark_Top_"&Int(x)
+        x=.5 * GetWidth() - i * Cst_1
+        CreateLine x,  GetHeight() - GetOffset(),  x,  GetHeight() - .25 * GetOffset(), "Frame_CentringMark_Top_"&Int(x)
+      End If
+    Next
+
+    For i = 1 To Nb_CM_V
+      If (i * Cst_2 < .5 * GetHeight() - 1.) Then
+        y= .5 * GetHeight() + i * Cst_2
+        CreateLine GetOV(), y,              .25 * GetOffset(),  y, "Frame_CentringMark_Left_"&Int(y)
+        CreateLine GetOH(), y, GetWidth() - .25 * GetOffset(),  y, "Frame_CentringMark_Right_"&Int(y)
+        y= .5 * GetHeight() - i * Cst_2
+        CreateLine GetOV(), y,               .25 * GetOffset(), y, "Frame_CentringMark_Left_"&Int(y)
+        CreateLine GetOH(), y,  GetWidth() - .25 * GetOffset(), y, "Frame_CentringMark_Right_"&Int(y)
+      End If
+    Next
+    If Err.Number <> 0 Then Err.Clear
+  On Error Goto 0
+End Sub
+
+Sub CATFrameText(Nb_CM_H As Integer, Nb_CM_V As Integer, Ruler As Integer, Cst_1 As Double, Cst_2 As Double)
+  '-------------------------------------------------------------------------------
+  'How to create coordinates
+  '-------------------------------------------------------------------------------
+  On Error Resume Next
+
+    For i = Nb_CM_H To (Ruler/2/Cst_1 + 1) Step -1
+      CreateText Chr(65 + Nb_CM_H - i) ,.5 * GetWidth() + (i - .5) * Cst_1,.5 * GetOffset(),"Frame_Text_Bottom_1_"&Chr(65 + Nb_CM_H - i)
+      CreateText Chr(64 + Nb_CM_H + i) ,.5 * GetWidth() - (i - .5) * Cst_1,.5 * GetOffset(),"Frame_Text_Bottom_2_"&Chr(65 + Nb_CM_H + i)
+    Next
+  
+    For i = 1 To Nb_CM_H
+      t=Chr(65 + Nb_CM_H - i)
+      CreateText(t,.5 * GetWidth() + (i - .5) * Cst_1,GetHeight() - .5 * GetOffset(),"Frame_Text_Top_1_"&t).Angle=-90
+      t=Chr(64 + Nb_CM_H + i)
+      CreateText(t,.5 * GetWidth() - (i - .5) * Cst_1,GetHeight() - .5 * GetOffset(),"Frame_Text_Top_2_"&t).Angle=-90
+    Next
+
+    For i = 1 To Nb_CM_V
+      t=CStr(Nb_CM_V + i)
+      CreateText t ,GetWidth() - .5 * GetOffset(),.5 * GetHeight() + (i - .5) * Cst_2,"Frame_Text_Right_1_"&t
+      CreateText(t  ,.5 * GetOffset() ,.5 * GetHeight() + (i - .5) * Cst_2,"Frame_Text_Left_1_"&t).Angle=-90
+      
+      t=CStr(Nb_CM_V - i + 1)
+      CreateText t ,GetWidth() - .5 * GetOffset(),.5 * GetHeight() - (i - .5) * Cst_2,"Frame_Text_Right_1_"&t
+      CreateText(t  ,.5 * GetOffset() ,.5 * GetHeight() - (i - .5) * Cst_2,"Frame_Text_Left_2"&t).Angle=-90
+    Next
+
+    If Err.Number <> 0 Then Err.Clear  
+  On Error Goto 0
+End Sub
+
+Sub CATFrameRuler(Ruler As Integer, Cst_1 As Single)
+  '-------------------------------------------------------------------------------
+  'How to create a ruler
+  '-------------------------------------------------------------------------------
+  'Frame_Ruler_Guide -----------------------------------------------
+  'Frame_Ruler_1cm   | | | | | | | | | | | | | | | | | | | | | | | |
+  'Frame_Ruler_5cm   |         |         |         |         |      
+  
+  On Error Resume Next
+    CreateLine .5 * GetWidth() - Ruler/2 ,  .75 * GetOffset(),  .5 * GetWidth() + Ruler/2,  .75 * GetOffset(), "Frame_Ruler_Guide"
+
+    For i = 1 To Ruler/100
+      CreateLine .5 * GetWidth() - 50 * i,  GetOV(),  .5 * GetWidth() - 50 * i,  .5 * GetOffset() , "Frame_Ruler_1_"&i
+      CreateLine .5 * GetWidth() + 50 * i,  GetOV(),  .5 * GetWidth() + 50 * i,  .5 * GetOffset() , "Frame_Ruler_2_"&i
+      For j = 1 To 4
+        CreateLine .5 * GetWidth() - 50 * i + 10 * j,  GetOV(),  .5 * GetWidth() - 50 * i + 10 * j,  .75 * GetOffset(), "Frame_Ruler_3"&i&"_"&j
+        CreateLine .5 * GetWidth() + 50 * i - 10 * j,  GetOV(),  .5 * GetWidth() + 50 * i - 10 * j,  .75 * GetOffset(), "Frame_Ruler_4"&i&"_"&j
+      Next
+    Next
+
+    If Err.Number <> 0 Then Err.Clear  
+  On Error Goto 0
+End Sub
+Sub CATDeleteTitleBlockFrame()
+    DeleteAll "CATDrwSearch.2DGeometry.Name=TitleBlock_Line_*"
+End Sub
+Sub CATCreateTitleBlockFrame()
+  '-------------------------------------------------------------------------------
+  'How to draw the title block geometry
+  '-------------------------------------------------------------------------------
+    CreateLine GetOH() + Col(1),  GetOV()         ,  GetOH()         ,  GetOV()         , "TitleBlock_Line_Bottom"
+    CreateLine GetOH() + Col(1),  GetOV()         ,  GetOH() + Col(1),  GetOV() + Row(6), "TitleBlock_Line_Left"
+    CreateLine GetOH() + Col(1),  GetOV() + Row(6),  GetOH()         ,  GetOV() + Row(6), "TitleBlock_Line_Top"
+    CreateLine GetOH()         ,  GetOV() + Row(6),  GetOH()         ,  GetOV()         , "TitleBlock_Line_Right"
+    CreateLine GetOH() + Col(3),  GetOV() + Row(1),  GetOH()         ,  GetOV() + Row(1), "TitleBlock_Line_Row_1"
+    CreateLine GetOH() + Col(1),  GetOV() + Row(2),  GetOH() + Col(3),  GetOV() + Row(2), "TitleBlock_Line_Row_2"
+    CreateLine GetOH() + Col(3),  GetOV() + Row(3),  GetOH()         ,  GetOV() + Row(3), "TitleBlock_Line_Row_3"
+    CreateLine GetOH() + Col(1),  GetOV() + Row(5)+3,  GetOH() + Col(3),  GetOV() + Row(5)+3, "TitleBlock_Line_Row_4"
+    CreateLine GetOH() + Col(3),  GetOV() + Row(5),  GetOH(),  GetOV() + Row(5), "TitleBlock_Line_Row_5"
+    CreateLine GetOH() + Col(1),  GetOV() + .5*(Row(3)+Row(5)) -1 ,  GetOH() + Col(3) ,  GetOV() + .5*(Row(3)+Row(5)) -1 , "TitleBlock_Line_Row_6"
+    CreateLine GetOH() + Col(3),  GetOV()         ,  GetOH() + Col(3),  GetOV() + Row(6), "TitleBlock_Line_Column_2"
+    CreateLine GetOH() + Col(5),  GetOV() + Row(1),  GetOH() + Col(5),  GetOV() + Row(3), "TitleBlock_Line_Column_3"
+    CreateLine GetOH() + Col(5),  GetOV()         ,  GetOH() + Col(5),  GetOV() + Row(1), "TitleBlock_Line_Column_4"
+    CreateLine GetOH() + Col(7),  GetOV()         ,  GetOH() + Col(7),  GetOV() + Row(3), "TitleBlock_Line_Column_6"
+    CreateLine GetOH() + Col(2),  GetOV() + .5*(Row(3)+Row(5)) -1        ,  GetOH() + Col(2),  GetOV() + Row(5)+3, "TitleBlock_Line_Column_7"
+    CreateLine GetOH() + .5*(Col(1)+Col(2)),  GetOV() +Row(5)  +3      ,  GetOH() + .5*(Col(1)+Col(2)),  GetOV() + Row(6), "TitleBlock_Line_Column_8"
+End Sub
+
+
+Sub CATTitleBlockText()
+  '-------------------------------------------------------------------------------
+  'How to fill in the title block
+  '-------------------------------------------------------------------------------
+  Text_01 = "Plan vérifié par"
+  Text_02 = CATIA.SystemService.Environ("LOGNAME")
+  If Text_02 = "" Then Text_02 = CATIA.SystemService.Environ("USERNAME")  
+  Text_03 = "Date"
+  Text_04 = "XXX"
+  Text_05 = "Coordonnées"
+  Text_06 = "Dessiné par"
+  Text_07 =  ""
+
+  Text_08 = "Echelle"
+  Text_09 = "Numéro du plan"
+  Text_10 = "Feuille"
+  Text_11 = "Taille"
+  Text_12 = "XXX ' Paper Format"
+  Text_13 = "Matériau"
+  Text_14 = "Version"
+  Text_15 = "Quantité"
+  Text_16 = "Désignation"
+  Text_17 = "Ecurie Piston Sport Auto"
+
+  CreateTextAF Text_01,GetOH() + Col(1) + 1.       ,GetOV() + Row(2)            ,"TitleBlock_Text_Date_livraison"      ,catTopLeft   ,2.5
+ CreateTextAF Text_04,GetOH() + Col(2) -1     ,GetOV() + .5*Row(1)            ,"TitleBlock_Date_livraison"      ,catMiddleRight   ,2.5
+  CreateTextAF Text_05,GetOH() + Col(1) + 1.       ,GetOV() + .5*(Row(3) + Row(4))         ,"TitleBlock_Text_Coordonnees"       ,catTopLeft   ,2.5
+  CreateTextAF Text_04,GetOH() + Col(1) + 1.       ,GetOV() + .5*Row(4) +1      ,"TitleBlock_Text_Check_1"       ,catBottomLeft   ,2.5
+  CreateTextAF Text_04,GetOH() + Col(1) + 1.       ,GetOV() + .5*Row(4)       ,"TitleBlock_Text_Check_2"       ,catTopLeft   ,2
+  CreateTextAF Text_06,GetOH() + Col(1) + 1.       ,GetOV() + Row(5)            ,"TitleBlock_Text_Drawn_by"       ,catMiddleLeft   ,2.5
+  CreateTextAF Text_02,GetOH() + Col(1) + 1.       ,GetOV() + Row(4)            ,"TitleBlock_Text_Drawn_1"     ,catTopLeft,2.5
+  CreateTextAF Text_03,GetOH() + Col(2) + 1.       ,GetOV() + Row(5)            ,"TitleBlock_Text_DrDate"      ,catMiddleLeft  ,2.5
+  CreateTextAF ""&Date,GetOH() + .5*(Col(2)+Col(3)),GetOV() + Row(4)            ,"TitleBlock_Text_DrDate_1"    ,catTopCenter,2
+  CreateTextAF Text_07,GetOH() + .5*(Col(1)+Col(3)),GetOV() + .5*(Row(6)+Row(5))  ,"TitleBlock_Text_Rights"      ,catMiddleCenter,2
+  CreateTextAF Text_08,GetOH() + Col(3) + 1        ,GetOV() + .5*Row(1)         ,"TitleBlock_Text_Scale"      ,catMiddleLeft,3
+  ' Insert Text Attribute link on sheet's scale
+  Set Text=CreateTextAF(""     ,GetOH() + Col(5) - 1        ,GetOV() + .5*Row(1)         ,"TitleBlock_Text_Scale_1"    ,catMiddleRight,3)
+  Select Case GetContext():
+    Case "LAY": Text.InsertVariable 0, 0, ActiveDoc.Part.GetItem("CATLayoutRoot").Parameters.Item(ActiveDoc.Part.GetItem("CATLayoutRoot").Name+"\"+Sheet.Name+"\ViewMakeUp2DL.1\Scale")
+    Case "DRW": Text.InsertVariable 0, 0, ActiveDoc.DrawingRoot.Parameters.Item("Drawing\"+Sheet.Name+"\ViewMakeUp.1\Scale")    
+    Case Else:Text.Text = "XX"
+  End Select
+  
+  CreateTextAF Text_09,GetOH() + Col(5) + 1        ,GetOV() + .5*Row(1)         ,"TitleBlock_Text_Numero_Plan"     ,catMiddleLeft,3
+  CreateTextAF Text_04,GetOH() + Col(7) - 3        ,GetOV() + .5*Row(1)         ,"TitleBlock_Text_Numero_plan_xxx"   ,catMiddleRight,3
+  CreateTextAF Text_10,GetOH() + Col(7) + 1        ,GetOV() + .5*Row(1)         ,"TitleBlock_Text_Sheet"       ,catMiddleLeft,3
+  CreateTextAF Text_04,GetOH() - 1                 ,GetOV() + .5*Row(1)         ,"TitleBlock_Text_Sheet_1"     ,catMiddleRight,3
+  CreateTextAF Text_15,GetOH() + Col(3) + 1        ,GetOV() + Row(3)            ,"TitleBlock_Text_quantite"        ,catTopLeft   ,2.5
+  CreateTextAF Text_04,GetOH()+.5*(Col(3)+Col(4))+5  ,GetOV() + Row(1) +1           ,"TitleBlock_quantite_1"      ,catBottomCenter,5
+  CreateTextAF Text_12,GetOH() +Col(1)+4,GetOV() + .5*(Row(5)+Row(6)) -1 ,"TitleBlock_Text_Size_1"      ,catMiddleLeft,4
+  CreateTextAF Text_13,GetOH() + Col(5) + 1           ,GetOV() + Row(3)            ,"TitleBlock_Text_Materiau"      ,catTopLeft  ,2.5
+  CreateTextAF Text_04,GetOH()+Col(5) + 1 ,GetOV() + Row(1) +1           ,"TitleBlock_Text_Materiau_xxx"    ,catBottomLeft,4
+  CreateTextAF Text_14,GetOH() + Col(7) + 3           ,GetOV() + Row(3)            ,"TitleBlock_Text_Version"         ,catTopLeft  ,2.5
+  CreateTextAF Text_04,GetOH() + Col(7) + 4         ,GetOV() + Row(1) +1           ,"TitleBlock_Text_Version_1"         ,catBottomLeft,4
+  CreateTextAF Text_16,GetOH() + Col(3) + 1           ,GetOV() + Row(5)            ,"TitleBlock_Text_Designation"       ,catTopLeft  ,2.5
+  CreateTextAF Text_04,GetOH()+.5*Col(3) + 1              ,GetOV() + Row(3)            ,"TitleBlock_Text_Designation_1"     ,catBottomCenter,4.5
+  CreateTextAF Text_17,GetOH()+.5*Col(3)              ,GetOV()+.5*(Row(5)+Row(6))  ,"TitleBlock_Text_Company"     ,catMiddleCenter,5
+  CreateTextAF Text_11,GetOH() +Col(1)+1,           GetOV() +Row(6)-1  ,     "TitleBlock_Text_Size"      ,catTopLeft,3
+
+  CATLinks
+End Sub
+
+Sub CATDeleteRevisionBlockFrame
+    DeleteAll "CATDrwSearch.2DGeometry.Name=RevisionBlock_Line_*"
+End Sub
+
+Sub CATCreateTitleBlockStandard()
+  '-------------------------------------------------------------------------------
+  'How to create the standard representation
+  '-------------------------------------------------------------------------------
+  Dim R1   As Double
+  Dim R2   As Double
+  Dim X(5) As Double
+  Dim Y(7) As Double
+
+  R1   = 2.
+  R2   = 4.
+  X(1) = GetOH()   +  .5*(Col(1)+Col(2)) + 8
+  X(2) = X(1) + 1.5
+  X(3) = X(1) + 9.5
+  X(4) = X(1) + 15.5
+  X(5) = X(1) + 21.
+  Y(1) = GetOV()   + .5*(Row(5)+Row(6)) +1
+  Y(2) = Y(1) + R1
+  Y(3) = Y(1) + R2
+  Y(4) = Y(1) + 5.5
+  Y(5) = Y(1) - R1
+  Y(6) = Y(1) - R2
+  Y(7) = 2*Y(1) - Y(4)
+
+  If Sheet.ProjectionMethod  <> CatFirstAngle Then
+    Xtmp = X(2)
+    X(2) = X(1) + X(5) - X(3)
+    X(3) = X(1) + X(5) - Xtmp
+    X(4) = X(1) + X(5) - X(4)
+  End If
+
+  On Error Resume Next
+    CreateLine X(1),  Y(1),  X(5),  Y(1), "TitleBlock_Standard_Line_Axis_1"
+    CreateLine X(4),  Y(7),  X(4),  Y(4), "TitleBlock_Standard_Line_Axis_2"
+    CreateLine X(2),  Y(5),  X(2),  Y(2), "TitleBlock_Standard_Line_1"
+    CreateLine X(2),  Y(2),  X(3),  Y(3), "TitleBlock_Standard_Line_2"
+    CreateLine X(3),  Y(3),  X(3),  Y(6), "TitleBlock_Standard_Line_3"
+    CreateLine X(3),  Y(6),  X(2),  Y(5), "TitleBlock_Standard_Line_4"
+    Set circle = Fact.CreateClosedCircle(X(4), Y(1), R1)
+    circle.Name = "TitleBlock_Standard_Circle_1"
+    Set circle = Fact.CreateClosedCircle(X(4), Y(1), R2)
+    circle.Name = "TitleBlock_Standard_Circle_2"
+    If Err.Number <> 0 Then Err.Clear   
+  On Error Goto 0
+
+End Sub
+
+Sub CATDeleteTitleBlockStandard()
+  '-------------------------------------------------------------------------------
+  'How to remove the standard representation
+  '-------------------------------------------------------------------------------
+  DeleteAll "CATDrwSearch.2DGeometry.Name=TitleBlock_Standard*"    
+End Sub
+
+Sub CATCreateRevisionBlockFrame
+  '-------------------------------------------------------------------------------
+  'How to draw the revision block geometry
+  '-------------------------------------------------------------------------------
+  
+  revision = CATCheckRev()
+  If revision=0 Then Exit Sub
+  For ii=0 To revision
+    iX = GetOH()
+    iY1 = GetHeight() - GetOV() - GetRevRowHeight()*ii
+    iY2 = GetHeight() - GetOV() - GetRevRowHeight()*(ii+1)
+    CreateLine iX + GetColRev(1),  iY1,  iX + GetColRev(1), iY2, "RevisionBlock_Line_Column_" + GetRevLetter(ii) + "_1"
+    CreateLine iX + GetColRev(2),  iY1,  iX + GetColRev(2), iY2, "RevisionBlock_Line_Column_" + GetRevLetter(ii) + "_2"
+    CreateLine iX + GetColRev(3),  iY1,  iX + GetColRev(3), iY2, "RevisionBlock_Line_Column_" + GetRevLetter(ii) + "_3"
+    CreateLine iX + GetColRev(4),  iY1,  iX + GetColRev(4), iY2, "RevisionBlock_Line_Column_" + GetRevLetter(ii) + "_4"
+    CreateLine iX + GetColRev(1),  iY2,  iX               , iY2, "RevisionBlock_Line_Row_" + GetRevLetter(ii)
+  Next
+End Sub
+
+Sub CATAddRevisionBlockText
+  '-------------------------------------------------------------------------------
+  'How to fill in the revision block
+  '-------------------------------------------------------------------------------
+  revision = CATCheckRev()+1
+  X = GetOH()
+  Y = GetHeight() - GetOV() - GetRevRowHeight()*(revision-.5)
+
+  Init        = InputBox("This review has been done by:", "Reviewer's name", "XXX")
+  Description = InputBox("Comment to be inserted:", "Description", "None")
+
+  If revision = 1 Then
+    CreateTextAF "REV"        ,X + GetColRev(1) + 1.,Y ,"RevisionBlock_Text_Rev"          ,catMiddleLeft,5
+    CreateTextAF "DATE"       ,X + GetColRev(2) + 1.,Y ,"RevisionBlock_Text_Date"         ,catMiddleLeft,5
+    CreateTextAF "DESCRIPTION",X + GetColRev(3) + 1.,Y ,"RevisionBlock_Text_Description"  ,catMiddleLeft,5
+    CreateTextAF "INIT"       ,X + GetColRev(4) + 1.,Y ,"RevisionBlock_Text_Init"         ,catMiddleLeft,5
+  End If
+
+  CreateTextAF GetRevLetter(revision)  ,X + .5*(GetColRev(1)+GetColRev(2)),Y - GetRevRowHeight(),"RevisionBlock_Text_Rev_" + GetRevLetter(revision)        ,catMiddleCenter,5
+  CreateTextAF ""&Date                 ,X + .5*(GetColRev(2)+GetColRev(3)),Y - GetRevRowHeight(),"RevisionBlock_Text_Date_" + GetRevLetter(revision)       ,catMiddleCenter,3.5
+  CreateTextAF Description             ,X + GetColRev(3) + 1.             ,Y - GetRevRowHeight(),"RevisionBlock_Text_Description_" + GetRevLetter(revision),catMiddleLeft, 2.5
+  CreateTextAF Init                    ,X + .5*GetColRev(4)               ,Y - GetRevRowHeight(),"RevisionBlock_Text_Init_" + GetRevLetter(revision)       ,catMiddleCenter,5
+
+  On Error Resume Next
+    Texts.GetItem("TitleBlock_Text_MDate_" + GetRevLetter(revision)).Text = ""&Date
+    If Err.Number <> 0 Then Err.Clear
+  On Error Goto 0
+End Sub
+
+Sub ComputeTitleBlockTranslation(TranslationTab As Variant)
+  TranslationTab(0) = 0.
+  TranslationTab(1) = 0.
+  
+  On Error Resume Next
+    Set Text = Texts.GetItem("Reference_" + GetMacroID()) 'Get the reference text
+    If Err.Number <> 0 Then
+      Err.Clear
+    Else
+      TranslationTab(0) = GetWidth() - GetOffset() - Text.x
+      TranslationTab(1) = GetOffset() - Text.y
+      Text.x = Text.x + TranslationTab(0)
+      Text.y = Text.y + TranslationTab(1)
+    End If
+  On Error Goto 0
+End Sub
+
+Sub ComputeRevisionBlockTranslation(TranslationTab As Variant)
+  TranslationTab(0) = 0.
+  TranslationTab(1) = 0.
+
+  On Error Resume Next
+    Set Text= Texts.GetItem("RevisionBlock_Text_Init") 'Get the reference text
+    If Err.Number <> 0 Then
+      Err.Clear
+    Else
+      TranslationTab(0) = GetWidth() - GetOffset() + GetColRev(4) - Text.x
+      TranslationTab(1) = GetHeight() - GetOffset() - .5*GetRevRowHeight() - Text.y
+    End If
+  On Error Goto 0
+End Sub
+
+
+
+Sub CATRemoveFrame()
+  '-------------------------------------------------------------------------------
+  'How to remove the whole frame
+  '-------------------------------------------------------------------------------
+  DeleteAll "CATDrwSearch.DrwText.Name=Frame_Text_*"
+  DeleteAll "CATDrwSearch.2DGeometry.Name=Frame_*"
+  DeleteAll "CATDrwSearch.2DPoint.Name=TitleBlock_Line_*"
+End Sub
+
+
+Sub CATMoveTitleBlockText(Translation As Variant)
+  '-------------------------------------------------------------------------------
+  'How to translate the whole title block after changing the page setup
+  '-------------------------------------------------------------------------------
+  SelectAll "CATDrwSearch.DrwText.Name=TitleBlock_Text_*"
+  count = Selection.Count2
+  For ii = 1 To count
+    Set Text=Selection.Item2(ii).Value
+    Text.x  = Text.x + Translation(0)
+    Text.y  = Text.y + Translation(1)
+  Next  
+End Sub
+
+Sub CATMoveViews(Translation As Variant)
+  '-------------------------------------------------------------------------------
+  'How to translate the views after changing the page setup
+  '-------------------------------------------------------------------------------   
+  For i = 3 To Views.Count
+    Views.Item(i).UnAlignedWithReferenceView
+  Next
+  For i = 3 To Views.Count
+      Set View = Views.Item(i)
+      View.X = View.X + Translation(0)
+      View.Y = View.Y + Translation(1)
+      View.AlignedWithReferenceView   
+  Next
+End Sub
+
+Sub CATMoveRevisionBlockText(Translation As Varient)
+  '-------------------------------------------------------------------------------
+  'How to translate the whole revision block after changing the page setup
+  '-------------------------------------------------------------------------------
+  SelectAll "CATDrwSearch.DrwText.Name=RevisionBlock_Text_*"
+  count = Selection.Count2
+  For ii = 1 To count
+    Set Text=Selection.Item2(ii).Value
+    Text.x = Text.x + Translation(0)
+    Text.y = Text.y + Translation(1)  
+  Next
+End Sub
+
+Sub CATLinks()
+  '-------------------------------------------------------------------------------
+  'How to fill in texts with data of the part/product linked with current sheet
+  '-------------------------------------------------------------------------------
+  On Error Resume Next
+  Dim ViewDocument
+  
+  Select Case GetContext():
+    Case "LAY": Set ViewDocument = CATIA.ActiveDocument.Product
+    Case "DRW": 
+      If Views.Count>=3 Then 
+        Set ViewDocument = Views.Item(3).GenerativeBehavior.Document
+      Else
+        Set ViewDocument = Nothing
+      End If      
+    Case Else:Set ViewDocument = Nothing
+  End Select
+  
+  'Find the product document
+  Dim ProductDrawn
+  Set ProductDrawn=Nothing
+  For i = 1 to 8    
+    If TypeName(ViewDocument)="PartDocument" Then
+      Set ProductDrawn=ViewDocument.Product
+      Exit For
+    End If
+    If TypeName(ViewDocument)="Product" Then
+      Set ProductDrawn=ViewDocument
+      Exit For
+    End If
+    Set ViewDocument = ViewDocument.Parent
+  Next
+    
+  If ProductDrawn <> Nothing Then
+    Texts.GetItem("TitleBlock_Text_Title_1").Text = ProductDrawn.PartNumber
+    Texts.GetItem("TitleBlock_Text_Title_1").Text  = ProductDrawn.Definition
+    Dim ProductAnalysis As Analyze
+    Set ProductAnalysis = ProductDrawn.Analyze
+    Texts.GetItem("TitleBlock_Text_Weight_1").Text = FormatNumber(ProductAnalysis.Mass,2)
+  End If
+
+  '-------------------------------------------------------------------------------
+  'Display sheet format
+  '-------------------------------------------------------------------------------
+  Dim textFormat As DrawingText
+  Set textFormat = Texts.GetItem("TitleBlock_Text_Size_1")
+  textFormat.Text = GetDisplayFormat() 
+  If Len(GetDisplayFormat()) > 4 Then
+    textFormat.SetFontSize 0, 0, 2.5
+  Else
+    textFormat.SetFontSize 0, 0, 4.
+  End If
+
+  '-------------------------------------------------------------------------------
+  'Display sheet numbering
+  '-------------------------------------------------------------------------------
+  Dim nbSheet  As Integer
+  Dim curSheet As Integer
+  If Not DrwSheet.IsDetail Then
+    For Each itSheet In Sheets
+      If Not itSheet.IsDetail Then nbSheet = nbSheet + 1
+    Next
+    For Each itSheet In Sheets
+      If Not itSheet.IsDetail Then
+        curSheet = curSheet + 1        
+        itSheet.Views.Item(2).Texts.GetItem("TitleBlock_Text_Sheet_1").Text = CStr(curSheet) & "/" & CStr(nbSheet)
+      End If
+    Next
+  End If    
+  On Error Goto 0
+End Sub
+
+Sub CATFillField(string1 As String, string2 As String, string3 As String)
+  '-------------------------------------------------------------------------------
+  'How to call a dialog to fill in manually a given text
+  '-------------------------------------------------------------------------------
+  Dim TextToFill_1 As DrawingText
+  Dim TextToFill_2 As DrawingText
+  Dim Person As String
+
+  Set TextToFill_1 = Texts.GetItem(string1)
+  Set TextToFill_2 = Texts.GetItem(string2)
+
+  Person = TextToFill_1.Text
+  If Person = "XXX" Then Person = "John Smith"
+  
+  Person = InputBox("This Document has been " + string3 + " by:", "Controller's name", Person)
+  If Person = "" Then Person = "XXX"
+  
+  TextToFill_1.Text = Person
+  TextToFill_2.Text = ""&Date
+End Sub
+
+
+Sub CATColorGeometry()
+  '-------------------------------------------------------------------------------
+  'How to color all geometric elements of the active view
+  '-------------------------------------------------------------------------------
+  
+  ' Uncomment the following sections if needed
+  Select Case GetContext():
+    'Case "DRW": 
+    '    SelectAll "CATDrwSearch.2DGeometry"
+    '    Selection.VisProperties.SetRealColor 0,0,0,0
+    '    Selection.Clear
+    Case "LAY":  
+        SelectAll "CATDrwSearch.2DGeometry"
+        Selection.VisProperties.SetRealColor 255,255,255,0
+        Selection.Clear
+    'Case "SCH": 
+    '    SelectAll "CATDrwSearch.2DGeometry"
+    '    Selection.VisProperties.SetRealColor 0,0,0,0
+    '    Selection.Clear
+    
+  End Select  
+End Sub
+
+Sub CATDrw_DesignedBy( targetSheet as CATIABase )
+  '-------------------------------------------------------------------------------
+  'How to update a bit more the FTB
+  '-------------------------------------------------------------------------------  
+  If Not CATInit(targetSheet) Then Exit Sub
+  
+  If CATCheckRef(0) Then Exit Sub
+  CATFillField "TitleBlock_Text_Design_1", "TitleBlock_Text_DeDate_1", "designed"
+  CATExit targetSheet
+End Sub
+
