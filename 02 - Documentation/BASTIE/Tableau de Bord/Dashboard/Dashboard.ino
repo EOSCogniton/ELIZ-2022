@@ -7,10 +7,10 @@
 const int ledPin=13;
 
 //Variable VCU
-int T_HV = 0; //temp batterie HV
-int progressbar_T_HV = 0; //ProgressBar temp batterie HV
-int pct_HV = 0;//pct batterie HV
-int pct_LV = 0;//pct batterie LV
+int T_HV = 45; //temp batterie HV
+int progressbar_T_HV = 50; //ProgressBar temp batterie HV
+int pct_HV = 50;//pct batterie HV
+int pct_LV = 50;//pct batterie LV
 int spd = 0;//vitesse
 int spd_meter = 0;//affichage vitesse sur cadran
 
