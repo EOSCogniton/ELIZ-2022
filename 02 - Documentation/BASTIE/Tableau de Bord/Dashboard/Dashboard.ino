@@ -17,8 +17,8 @@ int spd_meter = 0;//affichage vitesse sur cadran
 bool APPS_FAULT = 0;
 
 bool DISP_BTN = 0;
-int PAGE=1;
-int nPAGE=2;
+int PAGE=1; //Page de démarrage
+int nPAGE=2; //Nombre total de pages
 bool DISP_BTN_not_active = 1;
 
 bool APPS_FAULT_not_active = 1;
@@ -31,10 +31,13 @@ bool lvl_LV_low_not_active = 1;
 
 bool noPb = 1;
 
-int msglen=5; //longueur message can +1
+int msglen=5; //longueur message can +1 ATTENTION A BIEN MODIFIER AUSSI LA LONGUEUR DU MESSAGE DANS VCU
+
+int timer=0;
+int latence=5; // Temps entre chaque maj en unité inconnue
 
 //Variables CAN
-// static uint8_t hex[17] = "0123456789abcdef"; //Nécessaire pour hexDump
+//static uint8_t hex[17] = "0123456789abcdef"; //Nécessaire pour hexDump
 
 // CAN functions-------------------------------------------------------------
 // static void hexDump(uint8_t dumpLen, uint8_t *bytePtr) //Permet d'afficher dans le Serial Menitor le message Hex reçu
@@ -94,7 +97,7 @@ static int StrToHex(String msgstr) //Obtiens un entier hex depuis un hex en stri
   return (int) CharToHex(msgchar);
 }
 
-static void SendToScreenData(String instruction,int value)
+static void SendToScreenData(String instruction,int value) // Envoie une commande avec une donnée
 {
   Serial1.print(instruction);
   Serial1.print(value);
@@ -103,7 +106,7 @@ static void SendToScreenData(String instruction,int value)
   Serial1.write(0xff);
 }
 
-static void SendToScreen(String instruction)
+static void SendToScreen(String instruction) //Envoie juste une commande
 {
   Serial1.print(instruction);
   Serial1.write(0xff); // We always have to send this three lines after each command sent to the nextion display.
@@ -111,7 +114,7 @@ static void SendToScreen(String instruction)
   Serial1.write(0xff);
 }
 
-static void ShowIssue(String Issuename, int Picnum)
+static void ShowIssue(String Issuename, int Picnum) //Envoie les commandes nécessaires pour afficher un problème à l'écran
 { 
   SendToScreen("issue.t1.txt=\""+Issuename+"\"");
 
@@ -187,147 +190,148 @@ void loop() {
 // Mise à jour des valeurs si Message Can disponible
   if(Can0.available()){
     Can0.read(inMsg);
-    Serial.print("APPS_FAULT=");
-    Serial.print(APPS_FAULT);
-    Serial.print("\n APPS_FAULT_not_active=");
-    Serial.print(APPS_FAULT_not_active);
-    Serial.print("\n");
-    if(String(inMsg.id,HEX)=="38"){
-      Can0.end();
-      for (int i=0; i<msglen;i++){
-        msgread=hex2msgpoint(msglen,inMsg.buf,i);
-        nmsg=StrToHex(msgread);
-        Serial.print(nmsg);
-        Serial.print("\n");
-        if(i==0){ //Attention, le i correspondant à la variable adéquate doit être vu du côté du code du VCU, au niveau Main/CAN/Dashboard
-          pct_LV=nmsg;
-        }
-        else if(i==1){
-          pct_HV=nmsg;
-        }
-        else if(i==2){
-          T_HV=nmsg;
-        }
-        else if(i==3){
-          APPS_FAULT=nmsg;
-          if(APPS_FAULT==0 and APPS_FAULT_not_active==0){
-            SendToScreen("listissues.pic_APPS.aph=0");
-            SendToScreen("listissues.text_APPS.aph=0");
-            APPS_FAULT_not_active=1;
+    if (timer<latence){
+      delay(1);
+      timer=timer+1;
+      if(String(inMsg.id,HEX)=="38"){
+        for (int i=0; i<msglen;i++){
+          msgread=hex2msgpoint(msglen,inMsg.buf,i);
+          nmsg=StrToHex(msgread);
+          if(i==0){ //Attention, le i correspondant à la variable adéquate doit être vu du côté du code du VCU, au niveau Main/CAN/Dashboard
+            pct_LV=nmsg;
           }
-        }
-        else{
-          DISP_BTN=nmsg;
-          if(DISP_BTN==0 and DISP_BTN_not_active==0){
-            DISP_BTN_not_active=1;
+          else if(i==1){
+            pct_HV=nmsg;
           }
-          else if(DISP_BTN==1 and DISP_BTN_not_active==1){
-            if(PAGE==nPAGE){
-              PAGE=1;
+          else if(i==2){
+            T_HV=nmsg;
+          }
+          else if(i==3){
+            APPS_FAULT=nmsg;
+            if(APPS_FAULT==0 and APPS_FAULT_not_active==0){
+              SendToScreen("listissues.pic_APPS.aph=0");
+              SendToScreen("listissues.text_APPS.aph=0");
+              APPS_FAULT_not_active=1;
             }
-            else{
-              PAGE++;
-            }
-            SendToScreenData("page=",PAGE);
           }
+          else{
+            DISP_BTN=nmsg;
+            if(DISP_BTN==1 and DISP_BTN_not_active==1){
+              DISP_BTN_not_active=0;
+              if(PAGE==nPAGE){
+                Serial.print("HELLO");
+                PAGE=1;
+              }
+              else{
+                Serial.print("NOPE");
+                PAGE++;
+              }
+              SendToScreenData("page ",PAGE);
+              
+            }
+            else if(DISP_BTN==0 and DISP_BTN_not_active==0){
+              DISP_BTN_not_active=1;
+            }
+          }
+        }
+        //msgread = hex2msg(msglen, inMsg.buf);
+        //Serial.print("CAN bus 0: ID= "+String(inMsg.id,HEX)+" -- Hex= "+msgread+'\n');
+      }
+    }
+    else{
+      timer=0;
+    //Maj des valeurs sur l'écran
+      progressbar_T_HV = round(T_HV*100/60);//Change progressbar HV temp
+      SendToScreenData("bat_HV_temp.val=",progressbar_T_HV);// This is sent to the nextion display to set what object name (before the dot) and what atribute (after the dot) are you going to change.
+
+      SendToScreenData("temp_HV.val=",T_HV);//Change value HV temp
+
+      SendToScreenData("bat_HV_pct.val=",pct_HV);//Change progressbar HV lvl percentage
+
+      SendToScreenData("pct_HV.val=",pct_HV);//Change value HV lvl percentage
+
+      SendToScreenData("bat_LV_pct.val=",pct_LV);//Change progressbar LV lvl percentage
+      
+      SendToScreenData("pct_LV.val=",pct_LV);//Change value LV lvl percentage
+      
+
+      if(T_HV<40){//Change color progressbar HV temp
+        SendToScreen("bat_HV_temp.pco=1632");
+
+        if(T_HV_high_not_active==0){
+          SendToScreen("listissues.pic_HV_temp.aph=0");
+          SendToScreen("listissues.text_HV_temp.aph=0");
+          T_HV_high_not_active=1;
         }
       }
-      //msgread = hex2msg(msglen, inMsg.buf);
-      //Serial.print("CAN bus 0: ID= "+String(inMsg.id,HEX)+" -- Hex= "+msgread+'\n');
-      Can0.begin(500000);
+      else if(T_HV>=40 && T_HV<=50){
+        SendToScreen("bat_HV_temp.pco=64512");
+      }
+      else{
+        SendToScreen("bat_HV_temp.pco=63488");
+
+        if(T_HV_high_not_active==1){
+          ShowIssue("Temp Batterie HV > 50°C",2);
+          SendToScreen("listissues.pic_HV_temp.aph=127");
+          SendToScreen("listissues.text_HV_temp.aph=127");
+          T_HV_high_not_active=0;
+        }
+      }
+      
+
+      if(pct_HV<20){ //Change color progressbar HV lvl percentage
+        SendToScreen("bat_HV_pct.pco=63488");
+
+        if(lvl_HV_low_not_active==1){
+          ShowIssue("Batterie HV < 20 %",9);
+          SendToScreen("listissues.pic_HV.aph=127");
+          SendToScreen("listissues.text_HV.aph=127");
+          lvl_HV_low_not_active=0;
+        }
+      }
+      else if(pct_HV>=20 && pct_HV<=40){
+        SendToScreen("bat_HV_pct.pco=64512");
+      }
+      else{
+        SendToScreen("bat_HV_pct.pco=1632");
+      }
+
+
+      if(pct_LV<20){ //Change color progressbar LV lvl percentage
+        SendToScreen("bat_LV_pct.pco=63488");
+
+        if(lvl_LV_low_not_active==1){
+          ShowIssue("Batterie LV < 20 %",9);
+          SendToScreen("listissues.pic_LV.aph=127");
+          SendToScreen("listissues.text_LV.aph=127");
+          lvl_LV_low_not_active=0;
+        }
+
+      }
+      else if(pct_LV>=20 && pct_LV<=40){
+        SendToScreen("bat_LV_pct.pco=64512");
+      }
+      else{
+        SendToScreen("bat_LV_pct.pco=1632");
+      }
+
+
+    //Changement de page en cas de probleme
+      if(APPS_FAULT==1){ //Traitement APPS FAULT
+        if(APPS_FAULT_not_active==1){
+          ShowIssue("APPS Fault", 7);
+          SendToScreen("listissues.pic_APPS.aph=127");
+          SendToScreen("listissues.text_APPS.aph=127");
+          APPS_FAULT_not_active=0;
+      
+          SendToScreen("main.p1.aph=127");
+          SendToScreen("speed.p1.aph=127");
+
+          SendToScreen("main.t1.aph=127");
+          SendToScreen("speed.t1.aph=127");
+        }
+      }
+      noPb=APPS_FAULT_not_active && T_HV_high_not_active && lvl_HV_low_not_active && lvl_LV_low_not_active;
     }
   }
-
-//Maj des valeurs sur l'écran
-  progressbar_T_HV = round(T_HV*(100/60));//Change progressbar HV temp
-  SendToScreenData("bat_HV_temp.val=",progressbar_T_HV);// This is sent to the nextion display to set what object name (before the dot) and what atribute (after the dot) are you going to change.
-
-  SendToScreenData("temp_HV.val=",T_HV);//Change value HV temp
-
-  SendToScreenData("bat_HV_pct.val=",pct_HV);//Change progressbar HV lvl percentage
-
-  SendToScreenData("pct_HV.val=",pct_HV);//Change value HV lvl percentage
-
-  SendToScreenData("bat_LV_pct.val=",pct_LV);//Change progressbar LV lvl percentage
-  
-  SendToScreenData("pct_LV.val=",pct_LV);//Change value LV lvl percentage
-  
-
-  if(T_HV<40){//Change color progressbar HV temp
-    SendToScreen("bat_HV_temp.pco=1632");
-
-    if(T_HV_high_not_active==0){
-      SendToScreen("listissues.pic_HV_temp.aph=0");
-      SendToScreen("listissues.text_HV_temp.aph=0");
-      T_HV_high_not_active=1;
-    }
-  }
-  else if(T_HV>=40 && T_HV<=50){
-    SendToScreen("bat_HV_temp.pco=64512");
-  }
-  else{
-    SendToScreen("bat_HV_temp.pco=63488");
-
-    if(T_HV_high_not_active==1){
-      ShowIssue("Temp Batterie HV > 50°C",2);
-      SendToScreen("listissues.pic_HV_temp.aph=127");
-      SendToScreen("listissues.text_HV_temp.aph=127");
-      T_HV_high_not_active=0;
-    }
-  }
-  
-
-  if(pct_HV<20){ //Change color progressbar HV lvl percentage
-    SendToScreen("bat_HV_pct.pco=63488");
-
-    if(lvl_HV_low_not_active==1){
-      ShowIssue("Batterie HV < 20 %",9);
-      SendToScreen("listissues.pic_HV.aph=127");
-      SendToScreen("listissues.text_HV.aph=127");
-      lvl_HV_low_not_active=0;
-    }
-  }
-  else if(pct_HV>=20 && pct_HV<=40){
-    SendToScreen("bat_HV_pct.pco=64512");
-  }
-  else{
-    SendToScreen("bat_HV_pct.pco=1632");
-  }
-
-
-  if(pct_LV<20){ //Change color progressbar LV lvl percentage
-    SendToScreen("bat_LV_pct.pco=63488");
-
-    if(lvl_LV_low_not_active==1){
-      ShowIssue("Batterie LV < 20 %",9);
-      SendToScreen("listissues.pic_LV.aph=127");
-      SendToScreen("listissues.text_LV.aph=127");
-      lvl_LV_low_not_active=0;
-    }
-
-  }
-  else if(pct_LV>=20 && pct_LV<=40){
-    SendToScreen("bat_LV_pct.pco=64512");
-  }
-  else{
-    SendToScreen("bat_LV_pct.pco=1632");
-  }
-
-
-//Changement de page en cas de probleme
-  if(APPS_FAULT==1){ //Traitement APPS FAULT
-    if(APPS_FAULT_not_active==1){
-      ShowIssue("APPS Fault", 7);
-      SendToScreen("listissues.pic_APPS.aph=127");
-      SendToScreen("listissues.text_APPS.aph=127");
-      APPS_FAULT_not_active=0;
-  
-      SendToScreen("main.p1.aph=127");
-      SendToScreen("speed.p1.aph=127");
-
-      SendToScreen("main.t1.aph=127");
-      SendToScreen("speed.t1.aph=127");
-    }
-  }
-  noPb=APPS_FAULT_not_active && T_HV_high_not_active && lvl_HV_low_not_active && lvl_LV_low_not_active;
 }
