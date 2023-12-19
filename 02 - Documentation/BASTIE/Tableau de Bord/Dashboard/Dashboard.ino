@@ -17,9 +17,15 @@ int spd_meter = 0;//affichage vitesse sur cadran
 bool APPS_FAULT = 0;
 
 bool DISP_BTN = 0;
-int PAGE=1; //Page de démarrage
-int nPAGE=2; //Nombre total de pages
+int PAGE=0; //Page de démarrage
+int nPAGE=3; //Nombre total de pages
 bool DISP_BTN_not_active = 1;
+
+bool TS_ON=0;
+bool TS_not_active=1;
+
+bool R2D_ON=0;
+bool R2D_not_active=1;
 
 bool APPS_FAULT_not_active = 1;
 
@@ -31,7 +37,7 @@ bool lvl_LV_low_not_active = 1;
 
 bool noPb = 1;
 
-int msglen=5; //longueur message can +1 ATTENTION A BIEN MODIFIER AUSSI LA LONGUEUR DU MESSAGE DANS VCU
+int msglen=7; //longueur message can +1 ATTENTION A BIEN MODIFIER AUSSI LA LONGUEUR DU MESSAGE DANS VCU
 
 int timer=0;
 int latence=5; // Temps entre chaque maj en unité inconnue
@@ -127,12 +133,11 @@ static void ShowIssue(String Issuename, int Picnum) //Envoie les commandes néce
 void setup(void)
 {
   //Code NSC
-  Serial1.begin(9600);
+  Serial1.begin(115200);
   pinMode(ledPin,OUTPUT);
   delay(1000);
 
   //Code CAN
-  delay(1000);
   Serial.println(F("Bienvenue dans la console de la Teensy du Dashboard"));
 
   //if using enable pins on a transceiver they need to be set on
@@ -141,6 +146,8 @@ void setup(void)
 
   digitalWrite(2, HIGH);
   digitalWrite(35, HIGH);
+
+  delay(1500);
 
   Can0.begin(500000);// On lance la communication CAN à 500000 baud
 }
@@ -214,16 +221,14 @@ void loop() {
               APPS_FAULT_not_active=1;
             }
           }
-          else{
+          else if(i==4){
             DISP_BTN=nmsg;
             if(DISP_BTN==1 and DISP_BTN_not_active==1){
               DISP_BTN_not_active=0;
               if(PAGE==nPAGE){
-                Serial.print("HELLO");
                 PAGE=1;
               }
               else{
-                Serial.print("NOPE");
                 PAGE++;
               }
               SendToScreenData("page ",PAGE);
@@ -233,8 +238,29 @@ void loop() {
               DISP_BTN_not_active=1;
             }
           }
+          else if(i==5){
+            TS_ON=nmsg;
+            if(TS_ON==1 and TS_not_active==1){
+              TS_not_active=0;
+              SendToScreenData("debug.pic_TS.pic=",14);
+            }
+            else if(TS_ON==0 and TS_not_active==0){
+              TS_not_active=1;
+              SendToScreenData("debug.pic_TS.pic=",15);
+            }
+          }
+          else{
+            R2D_ON=nmsg;
+            if(R2D_ON==1 and R2D_not_active==1){
+              R2D_not_active=0;
+              SendToScreenData("debug.pic_R2D.pic=",14);
+            }
+            else if(R2D_ON==0 and R2D_not_active==0){
+              R2D_not_active=1;
+              SendToScreenData("debug.pic_R2D.pic=",15);
+            }
+          }
         }
-        //msgread = hex2msg(msglen, inMsg.buf);
         //Serial.print("CAN bus 0: ID= "+String(inMsg.id,HEX)+" -- Hex= "+msgread+'\n');
       }
     }
@@ -242,21 +268,35 @@ void loop() {
       timer=0;
     //Maj des valeurs sur l'écran
       progressbar_T_HV = round(T_HV*100/60);//Change progressbar HV temp
-      SendToScreenData("bat_HV_temp.val=",progressbar_T_HV);// This is sent to the nextion display to set what object name (before the dot) and what atribute (after the dot) are you going to change.
+      SendToScreenData("main.bat_HV_temp.val=",progressbar_T_HV);// This is sent to the nextion display to set what object name (before the dot) and what atribute (after the dot) are you going to change.
+      SendToScreenData("speed.bat_HV_temp.val=",progressbar_T_HV);
+      SendToScreenData("issue.bat_HV_temp.val=",progressbar_T_HV);
 
-      SendToScreenData("temp_HV.val=",T_HV);//Change value HV temp
+      SendToScreenData("main.temp_HV.val=",T_HV);//Change value HV temp
+      SendToScreenData("speed.temp_HV.val=",T_HV);
+      SendToScreenData("issue.temp_HV.val=",T_HV);
 
-      SendToScreenData("bat_HV_pct.val=",pct_HV);//Change progressbar HV lvl percentage
+      SendToScreenData("main.bat_HV_pct.val=",pct_HV);//Change progressbar HV lvl percentage
+      SendToScreenData("speed.bat_HV_pct.val=",pct_HV);
+      SendToScreenData("issue.bat_HV_pct.val=",pct_HV);
 
-      SendToScreenData("pct_HV.val=",pct_HV);//Change value HV lvl percentage
+      SendToScreenData("main.pct_HV.val=",pct_HV);//Change value HV lvl percentage
+      SendToScreenData("speed.pct_HV.val=",pct_HV);
+      SendToScreenData("issue.pct_HV.val=",pct_HV);
 
-      SendToScreenData("bat_LV_pct.val=",pct_LV);//Change progressbar LV lvl percentage
+      SendToScreenData("main.bat_LV_pct.val=",pct_LV);//Change progressbar LV lvl percentage
+      SendToScreenData("speed.bat_LV_pct.val=",pct_LV);
+      SendToScreenData("issue.bat_LV_pct.val=",pct_LV);
       
-      SendToScreenData("pct_LV.val=",pct_LV);//Change value LV lvl percentage
+      SendToScreenData("main.pct_LV.val=",pct_LV);//Change value LV lvl percentage
+      SendToScreenData("speed.pct_LV.val=",pct_LV);
+      SendToScreenData("issue.pct_LV.val=",pct_LV);
       
 
       if(T_HV<40){//Change color progressbar HV temp
-        SendToScreen("bat_HV_temp.pco=1632");
+        SendToScreen("main.bat_HV_temp.pco=1632");
+        SendToScreen("speed.bat_HV_temp.pco=1632");
+        SendToScreen("issue.bat_HV_temp.pco=1632");
 
         if(T_HV_high_not_active==0){
           SendToScreen("listissues.pic_HV_temp.aph=0");
@@ -265,10 +305,14 @@ void loop() {
         }
       }
       else if(T_HV>=40 && T_HV<=50){
-        SendToScreen("bat_HV_temp.pco=64512");
+        SendToScreen("main.bat_HV_temp.pco=64512");
+        SendToScreen("speed.bat_HV_temp.pco=64512");
+        SendToScreen("issue.bat_HV_temp.pco=64512");
       }
       else{
-        SendToScreen("bat_HV_temp.pco=63488");
+        SendToScreen("main.bat_HV_temp.pco=63488");
+        SendToScreen("speed.bat_HV_temp.pco=63488");
+        SendToScreen("issue.bat_HV_temp.pco=63488");
 
         if(T_HV_high_not_active==1){
           ShowIssue("Temp Batterie HV > 50°C",2);
@@ -280,7 +324,9 @@ void loop() {
       
 
       if(pct_HV<20){ //Change color progressbar HV lvl percentage
-        SendToScreen("bat_HV_pct.pco=63488");
+        SendToScreen("main.bat_HV_pct.pco=63488");
+        SendToScreen("speed.bat_HV_pct.pco=63488");
+        SendToScreen("issue.bat_HV_pct.pco=63488");
 
         if(lvl_HV_low_not_active==1){
           ShowIssue("Batterie HV < 20 %",9);
@@ -290,15 +336,21 @@ void loop() {
         }
       }
       else if(pct_HV>=20 && pct_HV<=40){
-        SendToScreen("bat_HV_pct.pco=64512");
+        SendToScreen("main.bat_HV_pct.pco=64512");
+        SendToScreen("speed.bat_HV_pct.pco=64512");
+        SendToScreen("issue.bat_HV_pct.pco=64512");
       }
       else{
-        SendToScreen("bat_HV_pct.pco=1632");
+        SendToScreen("main.bat_HV_pct.pco=1632");
+        SendToScreen("speed.bat_HV_pct.pco=1632");
+        SendToScreen("issue.bat_HV_pct.pco=1632");
       }
 
 
       if(pct_LV<20){ //Change color progressbar LV lvl percentage
-        SendToScreen("bat_LV_pct.pco=63488");
+        SendToScreen("main.bat_LV_pct.pco=63488");
+        SendToScreen("speed.bat_LV_pct.pco=63488");
+        SendToScreen("issue.bat_LV_pct.pco=63488");
 
         if(lvl_LV_low_not_active==1){
           ShowIssue("Batterie LV < 20 %",9);
@@ -309,10 +361,14 @@ void loop() {
 
       }
       else if(pct_LV>=20 && pct_LV<=40){
-        SendToScreen("bat_LV_pct.pco=64512");
+        SendToScreen("main.bat_LV_pct.pco=64512");
+        SendToScreen("speed.bat_LV_pct.pco=64512");
+        SendToScreen("issue.bat_LV_pct.pco=64512");
       }
       else{
-        SendToScreen("bat_LV_pct.pco=1632");
+        SendToScreen("main.bat_LV_pct.pco=1632");
+        SendToScreen("speed.bat_LV_pct.pco=1632");
+        SendToScreen("issue.bat_LV_pct.pco=1632");
       }
 
 
@@ -324,13 +380,14 @@ void loop() {
           SendToScreen("listissues.text_APPS.aph=127");
           APPS_FAULT_not_active=0;
       
-          SendToScreen("main.p1.aph=127");
-          SendToScreen("speed.p1.aph=127");
+          SendToScreen("main.pix_pb.aph=127");
+          SendToScreen("speed.pic_pb.aph=127");
 
-          SendToScreen("main.t1.aph=127");
-          SendToScreen("speed.t1.aph=127");
+          SendToScreen("main.text_pb.aph=127");
+          SendToScreen("speed.text.aph=127");
         }
       }
+
       noPb=APPS_FAULT_not_active && T_HV_high_not_active && lvl_HV_low_not_active && lvl_LV_low_not_active;
     }
   }
