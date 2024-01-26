@@ -1,0 +1,90 @@
+\documentclass{EPSA-rap-template}
+
+\type{Notice}
+
+\titresize{\LARGE} % ne pas hésiter a changer la taille :
+%\normalsize
+%\large
+%\Large
+%\LARGE
+%\huge
+%\Huge
+%\HUGE
+
+\titre{ TSAL design explanation}
+\titresh{TSAL } % Titre réduit pour les en-tête et bas de page
+
+\departement{BASTIE}
+\departementsh{BASTIE}% Département réduit pour les en-tête et bas de page
+
+\auteurs{Eymeric \textbf{Chauchat}}
+
+\version{V1.0}
+
+\vertrue
+%\verfalse
+
+\versionnement{
+\ver{V1.0}{2 Décembre 2023}{ ECT }{Rédaction initiale.}{1}
+}
+
+\setuppack
+
+\begin{document}
+
+\fairepagedegarde
+\newpage
+\tableofcontents
+
+\section{Introduction}
+
+This document goal is to explain everything about the TSAL.
+
+\section{Rule clarification}
+
+The TSAL is composed of two separate component. The Red light circuit and the Green light circuit.
+
+\subsection{Red light}
+
+The red light is the simplest component, if the inverter detect more than 60V accross any of its DC-link capacitor, it triggers the red light circuit. This circuit consist of make the red light flash at a rate between 2Hz and 5Hz with a duty cycle of 50\% .
+
+\subsection{Green light}
+
+The green light is active continuously if :
+\begin{itemize}
+\item LVS active
+\item all AIR opened
+\item pre-charge relays openend
+\item Voltage at vehicle side of the AIRs inside the TSAC does not exceed 60V DC \textit{(this detection must be done inside the TS enclosure)}
+\end{itemize}
+
+Each states of the relays need to be actual mechanical states. (it can differs from intentionnal states ie.\textit{Relays stucks})
+
+\section{Latching mechanism and clarification}
+
+TSAL guarentee the security of the vehicle. In this sense it needs to cover any failure, because one can be electrotuded if the TSAL mislead somebody into thinking that the vehicle is safe ! for this aim two seemingly complex rule are written, the EV4.10.13 and EV4.10.14. I will explain how to implement it and why are they here. 
+
+Without the Latching mechanism, as an exemple we will break each component at a time and see if we can notice a problem thanks to the TSAL.
+
+\begin{itemize}
+\item Red light voltage detect signal is always below 60V : TSAL is off, when green goes off. We can detect failure.
+\item Red light voltage detect signal is always over 60V : TSAL is flashing orange and green at startup. We can detect failure.
+\item one AIR signal is always opened : We cannot proceed to detect this failure !
+\item one AIR signal is always closed : the TSAL green is off at start. We can detect failure.
+\item The green voltage detect signal is always below 60V : We cannot proceed to detect this failure !
+\item The green voltage detect signal is always over 60V : The TSAL green is off at start. We can detect failure.
+\end{itemize}
+
+Following the list up here, at startup we cannot detect already two cases of the 6 breakout. The thing that we want to be sure is that we don't want that the TSAL show green if there is still voltage outside of the TSAC. This case can become dangerous if chained with other issue. So we need to detect this state, but the only way to decide wether the AIR is opened or if the cable is not connected is to compare AIR state when we want it to be closed.
+
+To do this we need to have the intentionnal state of the AIR coming to the TSAL. Since the intentionnal state are SCS compliant we can detect if they are shorted to ground to supply or open circuit. So we erase any issue with it concerning connectivity. (We need to have this feature on the VCU)
+
+\subsection{VCU SCS intentionnal relay signal}
+
+It is necessary to have a logic behind VCU SCS intentionnal signal. VCU output 12V to control the relays the TSAL works on 5V. One of the best ways to do it in my opinion, is to make main VCU output between 0V and 12V and to have a direct auxiliary output between 1V and 4V. This low power output can be separated by optocoupler in the VCU side but won't be separated in the TSAL (it will be more conveniant to make comparison)
+
+\section{SCS Truth table}
+
+This Truth table aim is to prove the SCS latching mechanism
+
+\end{document}
