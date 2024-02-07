@@ -2527,7 +2527,7 @@
       (net 66 "/dis1") (pintype "passive") (tstamp e659c0f8-1ab6-4a36-adff-cd04c40707cf))
     (pad "3" smd roundrect (at 1.1375 0) (size 1.325 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 68 "Net-(Q3-Pad3)") (pintype "passive") (tstamp 87b69a68-baac-4049-8e04-967faf843bac))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-3.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -10108,7 +10108,7 @@
       (net 65 "/dis2") (pintype "passive") (tstamp 99768e54-e7b3-4004-a0e8-41ba23902f7f))
     (pad "3" smd roundrect (at 1.1375 0) (size 1.325 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 68 "Net-(Q3-Pad3)") (pintype "passive") (tstamp f80b4e3f-5c5b-463e-9daa-f35df9ce1cd7))
-    (model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-3.wrl"
+    (model "${KICAD7_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -12862,9 +12862,6 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp f6490793-fcaa-4de0-b842-202ab937703c))
   (gr_arc (start 98.75 30.25) (mid 99.921573 27.421573) (end 102.75 26.25)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp fbd01c6c-e5db-4920-a3fb-106bd65ae59b))
-  (gr_text "EPSA" (at 149.225 64.897) (layer "F.SilkS") (tstamp 001eac08-d22e-46e4-9163-26797fdda23b)
-    (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left bottom))
-  )
   (gr_text "DCi" (at 138.303 52.705) (layer "F.SilkS") (tstamp 09a4f4bc-9515-4864-b164-ab24531e2b52)
     (effects (font (size 0.7 0.7) (thickness 0.14) bold))
   )
