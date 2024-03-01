@@ -1168,6 +1168,9 @@
   (junction (at 26.67 49.53) (diameter 0) (color 0 0 0 0)
     (uuid 06250330-bc0c-4b3e-b836-4205b3a29b77)
   )
+  (junction (at 184.15 92.71) (diameter 0) (color 0 0 0 0)
+    (uuid 4aa75d0c-4c23-48dd-ae6d-bb863ea92546)
+  )
   (junction (at 99.06 82.55) (diameter 0) (color 0 0 0 0)
     (uuid 76efe6b7-44f3-4e99-8b92-8ef6055e7245)
   )
@@ -1384,6 +1387,10 @@
     (stroke (width 0) (type default))
     (uuid 86a48e49-415d-49e1-a94c-d77f9eb38002)
   )
+  (wire (pts (xy 184.15 92.71) (xy 184.15 91.44))
+    (stroke (width 0) (type default))
+    (uuid 88f80ec0-0cb8-4e15-a78c-2b06cbaf0f46)
+  )
   (wire (pts (xy 85.09 48.26) (xy 85.09 50.8))
     (stroke (width 0) (type default))
     (uuid 8de723f9-4ee9-40e1-ad48-7fbbf4380f06)
@@ -1414,6 +1421,14 @@
     (uuid 9f41a0a7-1839-434d-80d3-a326655c8abb)
   )
 
+  (wire (pts (xy 162.56 92.71) (xy 165.1 92.71))
+    (stroke (width 0) (type default))
+    (uuid 9fee46cc-f087-4c49-8a91-e9b4134e7ffc)
+  )
+  (wire (pts (xy 184.15 92.71) (xy 186.69 92.71))
+    (stroke (width 0) (type default))
+    (uuid a0e8cee7-15da-46a4-b672-f5f3ab47c850)
+  )
   (wire (pts (xy 113.03 38.1) (xy 113.03 41.91))
     (stroke (width 0) (type default))
     (uuid a2c229e7-fba9-4a8c-a83b-b023156293d6)
@@ -1466,6 +1481,10 @@
   (wire (pts (xy 140.97 90.17) (xy 142.24 90.17))
     (stroke (width 0) (type default))
     (uuid d53bfb49-f65a-4c0e-8e99-14d48c32abae)
+  )
+  (wire (pts (xy 184.15 92.71) (xy 184.15 93.98))
+    (stroke (width 0) (type default))
+    (uuid d555b740-84b8-47bd-bca5-b007109a0945)
   )
   (polyline (pts (xy 261.62 63.5) (xy 261.62 20.32))
     (stroke (width 0) (type default))
@@ -1521,6 +1540,10 @@
     (stroke (width 0) (type default))
     (uuid e93e3a6c-7d28-4efd-8c51-546e27ce68a7)
   )
+  (wire (pts (xy 182.88 92.71) (xy 184.15 92.71))
+    (stroke (width 0) (type default))
+    (uuid ea1a83ef-23af-4060-b25e-e8d20fe71548)
+  )
   (wire (pts (xy 88.9 121.92) (xy 77.47 121.92))
     (stroke (width 0) (type default))
     (uuid ecb35416-8a75-43c9-afae-11315ed28ea7)
@@ -1573,6 +1596,12 @@
     (uuid faa882a0-61bc-4484-bc0f-59558b4c902a)
   )
 
+  (rectangle (start 149.86 66.04) (end 195.58 119.38)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 8c217332-80b6-486c-b050-49cedce3d3a4)
+  )
+
   (text "Connector" (at 105.41 22.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0b1b1fde-bad1-4743-8327-d0494dbdb284)
@@ -1597,11 +1626,22 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e78a6de6-1b17-4056-bbe0-23add7345f0f)
   )
+  (text "SCS" (at 151.13 68.58 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid eab9c74e-bc5a-4529-ae55-b1337e26a7c7)
+  )
   (text "Logic " (at 67.31 59.69 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f3c38fe5-41d3-492b-9f87-763bf231e42e)
   )
 
+  (global_label "Raw_Exit" (shape input) (at 162.56 92.71 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 4beaeb55-7de4-4c1f-bbd1-2704cd4e7ad9)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 151.3501 92.71 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "Exit" (shape input) (at 116.84 44.45 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 59f210fd-5361-4328-8a9d-08e13afe215a)
@@ -1616,10 +1656,17 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "Exit" (shape input) (at 246.38 30.48 0) (fields_autoplaced)
+  (global_label "Raw_Exit" (shape input) (at 246.38 30.48 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid b4aaed74-068f-4ced-a322-6eede522850c)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 252.3007 30.5594 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 257.5899 30.48 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "Exit" (shape input) (at 186.69 92.71 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid bbff17d5-eab3-43dd-be6c-1877f011f7cb)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 192.6107 92.7894 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1661,7 +1708,7 @@
     (pin "1" (uuid 0840cad2-0b24-41d4-9438-0bafbe2af2eb))
     (pin "2" (uuid fe658a68-3602-429c-bf7b-7f9d6f386e95))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "V3") (unit 1)
         )
@@ -1686,7 +1733,7 @@
     )
     (pin "1" (uuid fea923d3-86be-461e-8e64-684d7347436a))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#FLG0105") (unit 1)
         )
@@ -1757,7 +1804,7 @@
     (pin "1" (uuid bdf6d9e1-1f2f-4cbb-9f44-f6ca762a34e5))
     (pin "2" (uuid 947bb64e-7171-41a9-81f8-a0b578e6e112))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "C1") (unit 1)
         )
@@ -1811,7 +1858,7 @@
     (pin "2" (uuid c258d772-afe9-478a-a1e9-709e5f29b2bb))
     (pin "3" (uuid 88e49c82-edf2-4087-af2e-419af5114953))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "J1") (unit 1)
         )
@@ -1836,7 +1883,7 @@
     )
     (pin "1" (uuid 08ffba4b-cea7-4f04-bda9-e0a037e0f7cd))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#GND05") (unit 1)
         )
@@ -1861,7 +1908,7 @@
     )
     (pin "1" (uuid 0e3e6c24-0793-4dce-aad1-723daf055a43))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#PWR012") (unit 1)
         )
@@ -1886,7 +1933,7 @@
     )
     (pin "1" (uuid 5a2d25ac-685f-4d0b-962e-9397cec31d57))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#GND09") (unit 1)
         )
@@ -1911,7 +1958,7 @@
     )
     (pin "1" (uuid 08e6a7ac-014f-42e5-8e7f-56ddbe39593b))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#PWR011") (unit 1)
         )
@@ -1979,9 +2026,34 @@
     (pin "1" (uuid 325a4ac1-7aa0-4036-9c57-acad942a5f4d))
     (pin "2" (uuid 94fe2f14-c625-478f-a61a-6d1e3ea5efb1))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "Z1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5VA") (at 184.15 73.66 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1c8a7277-c6e1-44ca-b885-6e4234463bfe)
+    (property "Reference" "#PWR017" (at 184.15 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5VA" (at 184.15 68.58 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 184.15 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 184.15 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4ff5d494-60c4-4c39-bc64-c87cbc96e24a))
+    (instances
+      (project "TSAC_Voltage_Sensor"
+        (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -2017,7 +2089,7 @@
     (pin "1" (uuid 3f522610-e400-4723-94e9-75170da7f71e))
     (pin "2" (uuid 498b0519-61df-43b5-a7f5-88acb2b738c7))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "V1") (unit 1)
         )
@@ -2042,7 +2114,7 @@
     )
     (pin "1" (uuid 3e849cd7-8b67-423c-9b48-f5967509b118))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#GND04") (unit 1)
         )
@@ -2053,11 +2125,11 @@
   (symbol (lib_id "EPSA_lib:TestPoint") (at 138.43 35.56 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b001174-6d31-4dd9-8ec9-d8b16afbd199)
-    (property "Reference" "TP1" (at 135.89 40.1321 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Reference" "TP1" (at 140.97 38.862 0)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "${SIM.PARAMS}" (at 135.89 37.5921 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm" (at 133.35 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2079,7 +2151,7 @@
     )
     (pin "1" (uuid a95372de-e991-4cbe-951b-9bd5516a6ce6))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "TP1") (unit 1)
         )
@@ -2105,7 +2177,7 @@
     (pin "1" (uuid 35a5be48-ed77-4b13-b388-f7581fae5767))
     (pin "2" (uuid 90b2eded-53f8-4bfb-9253-0be2e532acb9))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "F1") (unit 1)
         )
@@ -2170,7 +2242,7 @@
     (pin "1" (uuid a6727a1b-a475-4b4d-a7e0-1c527788442a))
     (pin "2" (uuid 07df08cf-aaa5-4627-9ff0-56d6fa0a3e8d))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "R2") (unit 1)
         )
@@ -2195,7 +2267,7 @@
     )
     (pin "1" (uuid 320e3312-61f9-4437-8af5-d06e3be7371b))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#PWR08") (unit 1)
         )
@@ -2220,7 +2292,7 @@
     )
     (pin "1" (uuid 483c1326-c329-444e-94b0-94c800b9670d))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#FLG0102") (unit 1)
         )
@@ -2285,7 +2357,7 @@
     (pin "1" (uuid bacdbc20-8dd7-4e1f-bccb-c79770d6e772))
     (pin "2" (uuid 48ea8554-1b64-4351-8333-a1fd3b4edb77))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "R3") (unit 1)
         )
@@ -2353,9 +2425,89 @@
     (pin "1" (uuid 3bc3aaeb-04d7-4109-bc9d-80566b43794e))
     (pin "2" (uuid 1954581d-079b-4f37-9eea-33daa339c766))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "R6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F") (at 184.15 111.76 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 59ea8ae8-b363-4a06-9cac-e3186fa09366)
+    (property "Reference" "R14" (at 184.15 101.6 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "8k2" (at 186.69 101.6 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "EPSA_lib:RESC3216X70N" (at 184.15 86.36 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf" (at 181.61 86.36 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Sim.Pins" "1=+ 2=-" (at 186.69 81.534 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Device" "R" (at 189.23 86.36 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Description" "Thick Film Resistors - SMD" (at 179.07 86.36 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Height" "0.7" (at 176.53 86.36 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Manufacturer_Name" "KOA Speer" (at 173.99 86.36 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Manufacturer_Part_Number" "RK73H2BLTDD2152F" (at 171.45 86.36 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Part Number" "N/A" (at 168.91 86.36 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D" (at 166.37 86.36 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Arrow Part Number" "" (at 165.1 97.79 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Arrow Price/Stock" "" (at 162.56 97.79 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Testing Part Number" "" (at 160.02 97.79 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Testing Price/Stock" "" (at 157.48 97.79 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Render Name" "Résistance" (at 181.61 97.79 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (pin "2" (uuid da57e522-5c42-4fd4-9107-672bd30b0f04))
+    (pin "1" (uuid b08ecabd-4a0c-49fb-8b38-3aef163aac5b))
+    (instances
+      (project "VCU_Bis"
+        (path "/798daf13-6b9d-4f65-a404-3e81a7236ea2"
+          (reference "R14") (unit 1)
+        )
+      )
+      (project "AMS_IMD_Reset"
+        (path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
+          (reference "R14") (unit 1)
+        )
+      )
+      (project "TSAC_Voltage_Sensor"
+        (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
+          (reference "R9") (unit 1)
+        )
+      )
+      (project "SCS Maker"
+        (path "/de225555-08be-4d3e-9386-335957d2813a"
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2378,7 +2530,7 @@
     )
     (pin "1" (uuid 2904cdee-72f0-48ac-b430-af9e75115ab5))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#PWR02") (unit 1)
         )
@@ -2403,7 +2555,7 @@
     )
     (pin "1" (uuid e9ffda3a-d9fe-435f-98d1-c6c757d6d6dd))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#PWR01") (unit 1)
         )
@@ -2428,9 +2580,89 @@
     )
     (pin "1" (uuid 19360aa4-04d8-45e5-9da5-97d5e2074e65))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#GND08") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F") (at 184.15 91.44 270) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 66777ca0-0cd0-4f76-91c2-dd33c5c9684b)
+    (property "Reference" "R13" (at 184.15 81.28 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "8k2" (at 186.69 81.28 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "EPSA_lib:RESC3216X70N" (at 184.15 66.04 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf" (at 181.61 66.04 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Sim.Pins" "1=+ 2=-" (at 186.69 61.214 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Device" "R" (at 189.23 66.04 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Description" "Thick Film Resistors - SMD" (at 179.07 66.04 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Height" "0.7" (at 176.53 66.04 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Manufacturer_Name" "KOA Speer" (at 173.99 66.04 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Manufacturer_Part_Number" "RK73H2BLTDD2152F" (at 171.45 66.04 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Part Number" "N/A" (at 168.91 66.04 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D" (at 166.37 66.04 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Arrow Part Number" "" (at 165.1 77.47 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Arrow Price/Stock" "" (at 162.56 77.47 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Testing Part Number" "" (at 160.02 77.47 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Testing Price/Stock" "" (at 157.48 77.47 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Render Name" "Résistance" (at 181.61 77.47 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (pin "2" (uuid e8fb80d5-0ffc-4f5a-b20b-fc7b431ca95f))
+    (pin "1" (uuid b038f5da-afce-4512-ad41-ce85c2af366c))
+    (instances
+      (project "VCU_Bis"
+        (path "/798daf13-6b9d-4f65-a404-3e81a7236ea2"
+          (reference "R13") (unit 1)
+        )
+      )
+      (project "AMS_IMD_Reset"
+        (path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
+          (reference "R13") (unit 1)
+        )
+      )
+      (project "TSAC_Voltage_Sensor"
+        (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
+          (reference "R8") (unit 1)
+        )
+      )
+      (project "SCS Maker"
+        (path "/de225555-08be-4d3e-9386-335957d2813a"
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2453,7 +2685,7 @@
     )
     (pin "1" (uuid 27608bd7-6a04-4a65-b52b-531f0c699663))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#GND03") (unit 1)
         )
@@ -2478,7 +2710,7 @@
     )
     (pin "1" (uuid f44bac81-5b7a-4e2d-ad47-30f3759e1bca))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#PWR013") (unit 1)
         )
@@ -2503,7 +2735,7 @@
     )
     (pin "1" (uuid bcd7ddb6-918e-41f6-9cdb-1663edb5cc66))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#FLG0104") (unit 1)
         )
@@ -2528,7 +2760,7 @@
     )
     (pin "1" (uuid 7822eec5-e10f-4d53-be62-d9d676dd0298))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#GND01") (unit 1)
         )
@@ -2553,7 +2785,7 @@
     )
     (pin "1" (uuid 68779ee4-2883-456a-80a5-2fba223275ca))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#PWR016") (unit 1)
         )
@@ -2627,7 +2859,7 @@
     (pin "5" (uuid eebdac03-3afc-4381-8181-69467c99843a))
     (pin "6" (uuid 177f9ed2-8b5c-4f63-948a-6b34cfcf8455))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "PS1") (unit 1)
         )
@@ -2652,7 +2884,7 @@
     )
     (pin "1" (uuid a4e0dea6-4a80-486f-9483-8475e6a03a80))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#PWR04") (unit 1)
         )
@@ -2677,7 +2909,7 @@
     )
     (pin "1" (uuid 5bc489a1-f9a4-44c6-a840-c0e088478ac8))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#PWR014") (unit 1)
         )
@@ -2715,7 +2947,7 @@
     (pin "1" (uuid a4a20f98-8a47-4231-a95d-5745cc891347))
     (pin "2" (uuid 7620167c-1bc2-46f3-8415-6fddd3846787))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "V2") (unit 1)
         )
@@ -2783,7 +3015,7 @@
     (pin "1" (uuid cef486db-8387-4795-a804-3dae7b24f35f))
     (pin "2" (uuid 22a6207b-bcdb-4db9-aea7-5df82ee78b9b))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "R1") (unit 1)
         )
@@ -2808,7 +3040,7 @@
     )
     (pin "1" (uuid 5d1dccfb-1847-4fa2-a0f0-281586d703b9))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#PWR010") (unit 1)
         )
@@ -2833,7 +3065,7 @@
     )
     (pin "1" (uuid 24de9ca4-6476-419f-ada5-8db4306cb829))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#FLG0103") (unit 1)
         )
@@ -2858,7 +3090,7 @@
     )
     (pin "1" (uuid dd64ef36-3f5a-4927-8508-ffb16b9ba370))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#GND07") (unit 1)
         )
@@ -2926,7 +3158,7 @@
     (pin "1" (uuid e4b83f1c-8eb2-43b8-a335-27b931c8cad6))
     (pin "2" (uuid 232050e8-9876-4044-9152-263542575cf9))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "R5") (unit 1)
         )
@@ -2951,7 +3183,7 @@
     )
     (pin "1" (uuid b44f6541-0902-4d8c-9347-e124f46748e8))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#PWR05") (unit 1)
         )
@@ -2976,9 +3208,89 @@
     )
     (pin "1" (uuid e16c4a8f-ed24-4446-8bdb-048997e6c9c0))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#FLG0101") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F") (at 165.1 92.71 0) (mirror x) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b4edddc6-56d1-443b-98f5-8ea5692dbe55)
+    (property "Reference" "R15" (at 173.99 92.71 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "3k9" (at 173.99 95.25 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "EPSA_lib:RESC3216X70N" (at 190.5 92.71 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf" (at 190.5 90.17 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Sim.Pins" "1=+ 2=-" (at 195.326 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Device" "R" (at 190.5 97.79 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Description" "Thick Film Resistors - SMD" (at 190.5 87.63 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Height" "0.7" (at 190.5 85.09 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Manufacturer_Name" "KOA Speer" (at 190.5 82.55 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Manufacturer_Part_Number" "RK73H2BLTDD2152F" (at 190.5 80.01 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Part Number" "N/A" (at 190.5 77.47 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D" (at 190.5 74.93 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Arrow Part Number" "" (at 179.07 73.66 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Arrow Price/Stock" "" (at 179.07 71.12 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Testing Part Number" "" (at 179.07 68.58 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Testing Price/Stock" "" (at 179.07 66.04 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Render Name" "Résistance" (at 173.99 90.17 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "2" (uuid ce54b34a-485c-4c30-aa03-75cb4f806a26))
+    (pin "1" (uuid 941bd18b-4a14-4374-b410-e59fd5834c88))
+    (instances
+      (project "VCU_Bis"
+        (path "/798daf13-6b9d-4f65-a404-3e81a7236ea2"
+          (reference "R15") (unit 1)
+        )
+      )
+      (project "AMS_IMD_Reset"
+        (path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
+          (reference "R15") (unit 1)
+        )
+      )
+      (project "TSAC_Voltage_Sensor"
+        (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
+          (reference "R4") (unit 1)
+        )
+      )
+      (project "SCS Maker"
+        (path "/de225555-08be-4d3e-9386-335957d2813a"
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -3046,7 +3358,7 @@
     (pin "3" (uuid 3023dc1d-5e12-4542-a3f7-5e8716194137))
     (pin "4" (uuid 924cab49-db31-455f-8abd-e463e11114ee))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "K1") (unit 1)
         )
@@ -3071,7 +3383,7 @@
     )
     (pin "1" (uuid 4dadf195-9813-46ef-b3c9-44c865c62519))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#GND06") (unit 1)
         )
@@ -3096,7 +3408,7 @@
     )
     (pin "1" (uuid 4cc6c54c-3abe-4dfc-ae3d-ec1d026c6a46))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#PWR09") (unit 1)
         )
@@ -3121,7 +3433,7 @@
     )
     (pin "1" (uuid 34443761-c043-4d99-bb44-5e8957f4820f))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#GND02") (unit 1)
         )
@@ -3146,7 +3458,7 @@
     )
     (pin "1" (uuid 94fa9975-76f6-44d4-95ae-67ebd54aa676))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#PWR015") (unit 1)
         )
@@ -3157,11 +3469,11 @@
   (symbol (lib_id "EPSA_lib:TestPoint") (at 152.4 35.56 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d6bd6022-6b8d-4bc2-a56c-a8ee6f720252)
-    (property "Reference" "TP2" (at 154.94 30.9879 0)
+    (property "Reference" "TP2" (at 154.94 32.258 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "${SIM.PARAMS}" (at 154.94 33.5279 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm" (at 157.48 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3183,9 +3495,34 @@
     )
     (pin "1" (uuid 32347f57-2292-4db4-a38c-40c734a26788))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "TP2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 184.15 111.76 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid db66045b-c606-4d0f-b908-ae78b15d81f5)
+    (property "Reference" "#PWR018" (at 184.15 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 184.15 116.84 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 184.15 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 184.15 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 70ee2f4d-150a-4ad2-ab13-e6a7a50a909b))
+    (instances
+      (project "TSAC_Voltage_Sensor"
+        (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -3208,7 +3545,7 @@
     )
     (pin "1" (uuid f23e6f6f-4348-4c49-9994-062dd30137ab))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#PWR07") (unit 1)
         )
@@ -3279,7 +3616,7 @@
     (pin "4" (uuid 5a2a33ca-7a37-40f3-baa9-9990a6b7a716))
     (pin "5" (uuid 0c436fbb-7f06-4d87-93b4-377dfd1b2ff8))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "CP1") (unit 1)
         )
@@ -3304,7 +3641,7 @@
     )
     (pin "1" (uuid f80e8ab3-cef7-4f12-9f4c-58fd51e107b0))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#PWR03") (unit 1)
         )
@@ -3329,7 +3666,7 @@
     )
     (pin "1" (uuid 413e8140-0cf2-4910-a537-4959aed0015e))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "#PWR06") (unit 1)
         )
@@ -3397,7 +3734,7 @@
     (pin "1" (uuid 75456ed4-2778-478b-88b9-a3048d5ea653))
     (pin "2" (uuid 0ca93f68-22d4-4627-85d0-f778af5307f0))
     (instances
-      (project "TSAL_Voltage_Sensor"
+      (project "TSAC_Voltage_Sensor"
         (path "/971b6361-63fc-4fc1-a808-fbb51433f36d"
           (reference "R7") (unit 1)
         )
