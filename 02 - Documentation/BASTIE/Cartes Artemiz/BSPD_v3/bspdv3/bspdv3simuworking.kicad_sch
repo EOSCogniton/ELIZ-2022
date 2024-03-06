@@ -965,6 +965,9 @@
   (junction (at 360.68 38.354) (diameter 0) (color 0 0 0 0)
     (uuid 90113f2a-0d95-4ed1-920f-ebc3b4d06d40)
   )
+  (junction (at 247.269 118.11) (diameter 0) (color 0 0 0 0)
+    (uuid 92ffdd22-effa-4563-a4f6-54c417d2c8f8)
+  )
   (junction (at 160.782 26.67) (diameter 0) (color 0 0 0 0)
     (uuid a5c55786-1f28-4d77-9246-0df70ac3749f)
   )
@@ -1071,9 +1074,17 @@
     (stroke (width 0) (type default))
     (uuid 1d1a9ea4-3670-4805-bfd0-47676ed2e215)
   )
+  (wire (pts (xy 265.557 118.11) (xy 290.957 118.11))
+    (stroke (width 0) (type default))
+    (uuid 1ec8803e-5088-4d20-9e98-4c2792078401)
+  )
   (wire (pts (xy 95.25 72.136) (xy 79.756 72.136))
     (stroke (width 0) (type default))
     (uuid 1ee42e1b-269e-4240-81ad-2a457b91595e)
+  )
+  (wire (pts (xy 247.269 116.84) (xy 247.269 118.11))
+    (stroke (width 0) (type default))
+    (uuid 214ee7be-983e-4b7b-b749-8e15b87bd31e)
   )
   (wire (pts (xy 386.08 38.862) (xy 386.08 39.624))
     (stroke (width 0) (type default))
@@ -1127,6 +1138,10 @@
     (stroke (width 0) (type default))
     (uuid 38b735cb-cbbd-40ec-bca0-30d8fb431b9c)
   )
+  (wire (pts (xy 247.269 118.11) (xy 247.269 119.38))
+    (stroke (width 0) (type default))
+    (uuid 3aa01b22-0603-4d99-8a9d-482d21c92e8d)
+  )
   (wire (pts (xy 207.772 111.506) (xy 207.772 113.03))
     (stroke (width 0) (type default))
     (uuid 41e8bbff-5747-41d1-b617-8cb26e8b6cf4)
@@ -1179,6 +1194,10 @@
     (stroke (width 0) (type default))
     (uuid 655d4228-664a-46e3-921a-bd576da0f445)
   )
+  (wire (pts (xy 214.122 118.11) (xy 247.269 118.11))
+    (stroke (width 0) (type default))
+    (uuid 66be7071-f21e-49be-b594-9eb06219617f)
+  )
   (wire (pts (xy 80.264 122.428) (xy 80.264 146.558))
     (stroke (width 0) (type default))
     (uuid 66c73bae-472a-43d7-95e2-ccb5bf870e65)
@@ -1190,10 +1209,6 @@
   (wire (pts (xy 57.912 110.49) (xy 57.912 113.03))
     (stroke (width 0) (type default))
     (uuid 6c07fbf5-9c15-4577-9fd5-3ce35857cc1f)
-  )
-  (wire (pts (xy 236.474 118.11) (xy 214.122 118.11))
-    (stroke (width 0) (type default))
-    (uuid 6c1e6d26-717a-4ca7-99a8-e45e2d31f4be)
   )
   (wire (pts (xy 95.25 50.038) (xy 109.728 50.038))
     (stroke (width 0) (type default))
@@ -1271,10 +1286,6 @@
     (stroke (width 0) (type default))
     (uuid 99447b62-f28d-42f5-ba9d-d6761158f42f)
   )
-  (wire (pts (xy 236.728 117.856) (xy 236.474 117.856))
-    (stroke (width 0) (type default))
-    (uuid 9e1adc2f-d3a4-4360-b2d6-581eeb4dd23f)
-  )
   (wire (pts (xy 99.822 146.558) (xy 99.822 164.846))
     (stroke (width 0) (type default))
     (uuid a1dc7135-7db4-4dfb-ac40-4af00a18c613)
@@ -1282,6 +1293,10 @@
   (wire (pts (xy 45.974 116.84) (xy 45.974 118.11))
     (stroke (width 0) (type default))
     (uuid a766bd63-f8a4-4ae1-857c-96fd29a6ac27)
+  )
+  (wire (pts (xy 247.269 119.38) (xy 250.317 119.38))
+    (stroke (width 0) (type default))
+    (uuid a8b4cc61-742d-4fb6-8041-50ca27348631)
   )
   (wire (pts (xy 30.988 26.67) (xy 46.736 26.67))
     (stroke (width 0) (type default))
@@ -1323,6 +1338,10 @@
     (stroke (width 0) (type default))
     (uuid c66fc9f2-1d75-49fb-8705-20ab20381d26)
   )
+  (wire (pts (xy 256.667 123.19) (xy 256.667 123.952))
+    (stroke (width 0) (type default))
+    (uuid caf4c152-c16f-4012-a297-94ccababe041)
+  )
   (wire (pts (xy 145.288 24.13) (xy 140.97 24.13))
     (stroke (width 0) (type default))
     (uuid cc893533-b860-4943-94ee-f4720412a9ef)
@@ -1331,6 +1350,10 @@
     (stroke (width 0) (type default))
     (uuid d3e97170-3b61-4eb3-b4b5-54dfb3027b54)
   )
+  (wire (pts (xy 250.317 116.84) (xy 247.269 116.84))
+    (stroke (width 0) (type default))
+    (uuid d51c2c48-709a-4b12-ac59-17dd9b8e88ea)
+  )
   (wire (pts (xy 91.44 32.766) (xy 91.44 25.4))
     (stroke (width 0) (type default))
     (uuid da960c8b-60ee-4e10-a48a-25d5eede588c)
@@ -1338,10 +1361,6 @@
   (wire (pts (xy 155.194 118.11) (xy 155.194 119.38))
     (stroke (width 0) (type default))
     (uuid e2b4d4fe-b4ea-45a5-9439-b65ce40c3de4)
-  )
-  (wire (pts (xy 236.474 117.856) (xy 236.474 118.11))
-    (stroke (width 0) (type default))
-    (uuid e2f7e384-dc7b-43a8-a877-127ab66041fd)
   )
   (wire (pts (xy 140.97 26.67) (xy 149.86 26.67))
     (stroke (width 0) (type default))
@@ -1362,6 +1381,10 @@
   (wire (pts (xy 67.31 146.558) (xy 67.31 148.336))
     (stroke (width 0) (type default))
     (uuid efb3f6a8-3e48-4e00-bed1-13d0476458bb)
+  )
+  (wire (pts (xy 259.207 110.49) (xy 259.207 113.03))
+    (stroke (width 0) (type default))
+    (uuid f1e38b45-8c3a-40b9-84ba-18e57b96c271)
   )
   (wire (pts (xy 179.07 26.67) (xy 204.47 26.67))
     (stroke (width 0) (type default))
@@ -1427,10 +1450,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "BSPD out" (shape input) (at 236.728 117.856 0) (fields_autoplaced)
+  (global_label "BSPD out" (shape input) (at 290.957 118.11 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a2fb91e0-e18f-412e-93ef-0b9bd1b802d1)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 248.724 117.856 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 302.953 118.11 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1452,10 +1475,10 @@
   (symbol (lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F") (at 69.85 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 00d62e33-8c52-4437-9c3a-0f9d7a399329)
-    (property "Reference" "R1" (at 78.74 16.256 0)
+    (property "Reference" "R1" (at 78.74 16.51 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "1M" (at 78.74 18.796 0)
+    (property "Value" "470k" (at 78.74 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "EPSA_lib:RESC3216X70N" (at 95.25 25.4 0)
@@ -1500,13 +1523,13 @@
     (property "Mouser Testing Price/Stock" "" (at 83.82 52.07 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Render Name" "Résistance" (at 78.74 21.336 0)
+    (property "Render Name" "Résistance" (at 78.74 21.59 0)
       (effects (font (size 1.27 1.27)))
     )
     (pin "1" (uuid f0ade214-0728-483f-a59a-4a29403e9021))
     (pin "2" (uuid 1abc417b-d78e-4699-bf0a-55d6b3d25d30))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "R1") (unit 1)
         )
@@ -1531,7 +1554,7 @@
     )
     (pin "1" (uuid 188f79fd-9f49-4b3a-a416-fd53d15c109c))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#FLG03") (unit 1)
         )
@@ -1556,7 +1579,7 @@
     )
     (pin "1" (uuid 89edec00-17e1-4801-b410-64ce3c3e5983))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR012") (unit 1)
         )
@@ -1621,7 +1644,7 @@
     (pin "2" (uuid 625976c5-e3a7-4013-8195-6b49d3454813))
     (pin "1" (uuid 2b46dfba-ca5a-48df-8ea3-eee6c9a38257))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "R2") (unit 1)
         )
@@ -1646,9 +1669,74 @@
     )
     (pin "1" (uuid 14b0342e-3724-49be-b354-a4b97d2b763b))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#FLG04") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "EPSA_lib:Gate NAND SN74AHCT1G00DBVR") (at 254.127 118.11 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0de40819-b970-497f-ae38-e6027b72f1b1)
+    (property "Reference" "G6" (at 268.605 114.1731 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Gate NAND SN74AHCT1G00DBVR" (at 289.687 111.76 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "EPSA_lib:SOT95P280X145-5N" (at 289.687 114.3 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahct1g00" (at 289.687 116.84 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Sim.Pins" "4=1 1=2 2=3 5=4 3=5" (at 310.007 106.68 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Sim.Device" "SPICE" (at 293.497 109.22 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Sim.Params" "type=\"X\" model=\"SN74AHCT1G00\" lib=\"${EPSA}\\SpiceModel\\NAND_SN74AHCT1G00.lib\"" (at 332.867 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "Single 2-Input Positive-NAND Gate" (at 289.687 119.38 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Height" "1.45" (at 289.687 121.92 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Manufacturer_Name" "Texas Instruments" (at 289.687 124.46 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Manufacturer_Part_Number" "SN74AHCT1G00DBVR" (at 289.687 127 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Part Number" "595-SN74AHCT1G00DBVR" (at 289.687 129.54 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G00DBVR?qs=w32V8uFkMxnwwXcMH%2F61Dg%3D%3D" (at 289.687 132.08 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Arrow Part Number" "SN74AHCT1G00DBVR" (at 289.687 134.62 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahct1g00dbvr/texas-instruments" (at 289.687 137.16 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Render Name" "Gate NAND" (at 268.605 116.7131 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (pin "1" (uuid 1dcaf09b-f637-4f7e-a4ab-3b1c3467f39f))
+    (pin "4" (uuid 3ff74c94-150a-4c3d-b11c-29eadba3ae86))
+    (pin "2" (uuid 521fc54e-5710-4801-8941-6170b4bd5fa2))
+    (pin "3" (uuid 8a4d2dd3-e165-4b27-acdf-20792dcfe588))
+    (pin "5" (uuid efc23b39-3917-413f-bd45-d4b5530e1e10))
+    (instances
+      (project "bspdv3simuworking"
+        (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
+          (reference "G6") (unit 1)
         )
       )
     )
@@ -1671,7 +1759,7 @@
     )
     (pin "1" (uuid 42c4014a-6a52-4773-bdac-ba5218c83b10))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR014") (unit 1)
         )
@@ -1696,7 +1784,7 @@
     )
     (pin "1" (uuid 35bc8845-f28b-477b-aebc-f4cde2f2d52b))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR018") (unit 1)
         )
@@ -1761,9 +1849,34 @@
     (pin "2" (uuid 7290b162-f194-4143-896d-b8495ed0f140))
     (pin "1" (uuid 8b6b10ef-69a1-4391-8c9c-3fb5ded8308f))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "R6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 259.207 110.49 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 12ab1316-f321-41a8-a58d-cd6e58ca46d1)
+    (property "Reference" "#PWR024" (at 259.207 114.3 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 259.207 105.918 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 259.207 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 259.207 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d4dad7f6-83a1-4c63-9acc-d7022e962b3b))
+    (instances
+      (project "bspdv3simuworking"
+        (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -1786,7 +1899,7 @@
     )
     (pin "1" (uuid 1c667991-f538-4a86-bbc7-fbb41a1a5cde))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR010") (unit 1)
         )
@@ -1839,7 +1952,7 @@
     (pin "2" (uuid 674dc082-615d-4a8e-9a3f-30298dedd3f6))
     (pin "1" (uuid 75a3ff8e-95a7-47bf-a974-f412b9f23aaf))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "C2") (unit 1)
         )
@@ -1864,7 +1977,7 @@
     )
     (pin "1" (uuid 11f0612d-6f5c-4a87-8f02-6a0e879b949c))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR02") (unit 1)
         )
@@ -1889,7 +2002,7 @@
     )
     (pin "1" (uuid 401879af-8421-4776-98e8-b7398973b482))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR01") (unit 1)
         )
@@ -1903,7 +2016,7 @@
     (property "Reference" "R9" (at 83.058 95.504 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1M" (at 83.058 98.044 90)
+    (property "Value" "470k" (at 83.058 98.044 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "EPSA_lib:RESC3216X70N" (at 85.598 81.534 0)
@@ -1954,7 +2067,7 @@
     (pin "2" (uuid e8325a91-6a68-4690-8921-a77ee5e78ea6))
     (pin "1" (uuid 1d89972e-aa0f-4921-8014-1ccb527c3c38))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "R9") (unit 1)
         )
@@ -1979,7 +2092,7 @@
     )
     (pin "1" (uuid f49e916b-bde5-4f7c-a288-7ceb85c887ec))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR022") (unit 1)
         )
@@ -2044,7 +2157,7 @@
     (pin "3" (uuid 8a09fb2c-ec4c-4cc5-9ff7-2fa77bdfbc77))
     (pin "5" (uuid 639b2e1b-78ca-4e44-a1c9-55ae1fa32115))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "G4") (unit 1)
         )
@@ -2109,7 +2222,7 @@
     (pin "1" (uuid 87bfb9eb-73a2-4890-aba4-318e68dfe67a))
     (pin "4" (uuid d58461c8-c894-4fa4-95eb-8ad340f5819b))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "G2") (unit 1)
         )
@@ -2134,7 +2247,7 @@
     )
     (pin "1" (uuid caacc13e-fa84-4f12-943f-b1db0d2b7364))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR07") (unit 1)
         )
@@ -2159,7 +2272,7 @@
     )
     (pin "1" (uuid 7a4d09c7-6d83-42e9-8a70-b3ae0f799ede))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR020") (unit 1)
         )
@@ -2200,7 +2313,7 @@
     (pin "1" (uuid 972624b1-c749-4e40-9feb-2673ede232f9))
     (pin "2" (uuid eb8d2e94-570e-41d5-b237-d58161a79e75))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "V2") (unit 1)
         )
@@ -2265,7 +2378,7 @@
     (pin "2" (uuid cfc587e5-97be-4834-9044-52aa9f91df65))
     (pin "1" (uuid c52c1129-92d4-4299-878f-ef716a1c6c29))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "R7") (unit 1)
         )
@@ -2330,7 +2443,7 @@
     (pin "2" (uuid 54df3ebb-8d4a-4940-8b51-ec87da65c2f7))
     (pin "1" (uuid 63a6d2c2-703d-4e57-ac07-5bfac45951af))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "R5") (unit 1)
         )
@@ -2368,7 +2481,7 @@
     (pin "1" (uuid bc824ec5-23f6-40ef-9b00-59ba9fb3a3a6))
     (pin "2" (uuid a5bb60aa-699c-401f-ab8c-e0d20c1c51ef))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "V3") (unit 1)
         )
@@ -2393,7 +2506,7 @@
     )
     (pin "1" (uuid d70309cf-65a8-4e24-94da-ecb727ea29b0))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR015") (unit 1)
         )
@@ -2418,7 +2531,7 @@
     )
     (pin "1" (uuid 19380178-53c4-4942-9313-e1343c490086))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR013") (unit 1)
         )
@@ -2443,7 +2556,7 @@
     )
     (pin "1" (uuid 469b5c88-9f7d-4dfc-b032-037f1c158dc9))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR011") (unit 1)
         )
@@ -2508,7 +2621,7 @@
     (pin "2" (uuid b5e67421-af68-4585-bd27-173eaf682414))
     (pin "4" (uuid 11c84eb4-0c72-4b13-a9c8-2c409cc7012f))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "G1") (unit 1)
         )
@@ -2561,7 +2674,7 @@
     (pin "2" (uuid 5a100462-5498-4e77-8985-7ac0063189b0))
     (pin "1" (uuid 8334bf5b-4983-4a96-afc5-8d2da7f2f043))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "C3") (unit 1)
         )
@@ -2626,7 +2739,7 @@
     (pin "2" (uuid 8f1dd74b-eb2f-45da-81e1-22cbd8b6f04f))
     (pin "1" (uuid bfac8205-1db7-401c-988b-c42b0320e4fd))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "R3") (unit 1)
         )
@@ -2651,7 +2764,7 @@
     )
     (pin "1" (uuid af6334c1-a5b8-47b5-841b-9f6d736b14bc))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#FLG02") (unit 1)
         )
@@ -2716,7 +2829,7 @@
     (pin "2" (uuid 8e20abbb-3f5a-4657-97d9-58aa15ec3a23))
     (pin "1" (uuid c1f3467d-4b03-4b1f-8d6d-582cf5809668))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "R4") (unit 1)
         )
@@ -2741,7 +2854,7 @@
     )
     (pin "1" (uuid a67a8f27-4e07-41be-a280-d5cd94e14041))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR04") (unit 1)
         )
@@ -2812,7 +2925,7 @@
     (pin "2" (uuid f84b2585-99d1-4826-b8d4-0f6829b36671))
     (pin "1" (uuid 89484416-521d-457e-a5b5-f55b59d9cfb7))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "CP2") (unit 1)
         )
@@ -2837,7 +2950,7 @@
     )
     (pin "1" (uuid 5633af9d-b6fa-484d-a321-57ad9434002e))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR05") (unit 1)
         )
@@ -2862,7 +2975,7 @@
     )
     (pin "1" (uuid d74aaced-aa85-49a2-b6dd-bf193d565a5c))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR019") (unit 1)
         )
@@ -2887,7 +3000,7 @@
     )
     (pin "1" (uuid cc59a512-86f9-492d-9fd5-648e277fa546))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR08") (unit 1)
         )
@@ -2912,7 +3025,7 @@
     )
     (pin "1" (uuid e82c9458-5af9-4d3b-beba-d1314bdc62af))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR03") (unit 1)
         )
@@ -2977,7 +3090,7 @@
     (pin "2" (uuid 3341547c-0a0d-47dd-a79f-325cff2215d2))
     (pin "1" (uuid 0085cee1-3c2d-4895-8640-14f2e03a0572))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "R8") (unit 1)
         )
@@ -3002,7 +3115,7 @@
     )
     (pin "1" (uuid 8ebd86e9-fdd5-42bd-ad08-677420ca08d8))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#FLG01") (unit 1)
         )
@@ -3073,7 +3186,7 @@
     (pin "3" (uuid 3f88b93d-e9ba-48ae-acc1-0a4df48f46f8))
     (pin "4" (uuid 33e3cf8d-b402-4273-989f-d3f89fb39af1))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "G5") (unit 1)
         )
@@ -3130,7 +3243,7 @@
     (pin "3" (uuid 9003da19-2347-43d0-8f9b-32c26f2f4670))
     (pin "1" (uuid 0f34e772-0939-4bc6-955b-895d9c915893))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "Q2") (unit 1)
         )
@@ -3155,7 +3268,7 @@
     )
     (pin "1" (uuid d6270bb8-fa99-44f4-8fe6-f3cee0f02ded))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR023") (unit 1)
         )
@@ -3226,9 +3339,34 @@
     (pin "2" (uuid b833c238-0340-41dd-9557-8ed9af7e11e4))
     (pin "1" (uuid 1f55ebd6-eaec-4c50-9202-79b2e8d54a32))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "CP1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 256.667 123.952 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid cb53d660-f099-4f9a-83c0-06a35e888be8)
+    (property "Reference" "#PWR025" (at 256.667 130.302 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 256.667 128.27 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 256.667 123.952 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 256.667 123.952 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ee0f3a55-2006-42a8-a863-8d8afd55f7b3))
+    (instances
+      (project "bspdv3simuworking"
+        (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -3267,7 +3405,7 @@
     (pin "1" (uuid 6a892535-fbd1-41c9-8f4a-eb7c1bd7976a))
     (pin "2" (uuid 7306aff7-a00d-4e74-af33-c59d5a936308))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "V1") (unit 1)
         )
@@ -3332,7 +3470,7 @@
     (pin "3" (uuid 9f221154-0956-4e14-85d0-b3b9ff339336))
     (pin "5" (uuid a4d1f823-6678-4b2d-9b04-523f222cc84a))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "G3") (unit 1)
         )
@@ -3357,7 +3495,7 @@
     )
     (pin "1" (uuid 15cec4b6-f705-415c-a42c-e5aa3e856643))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR09") (unit 1)
         )
@@ -3382,7 +3520,7 @@
     )
     (pin "1" (uuid 9db8f100-c717-4eb0-8594-34f69fd47104))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR06") (unit 1)
         )
@@ -3435,7 +3573,7 @@
     (pin "2" (uuid f54d7911-18a0-4ccf-866c-8c7520c580b3))
     (pin "1" (uuid a3acad00-82f9-4212-a6cd-95382272c2cb))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "C1") (unit 1)
         )
@@ -3460,7 +3598,7 @@
     )
     (pin "1" (uuid 4200cc9c-104d-41ca-86ac-261e507565a4))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR016") (unit 1)
         )
@@ -3485,7 +3623,7 @@
     )
     (pin "1" (uuid 5f97abec-4f24-4986-bd75-ddc18ee7024f))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR017") (unit 1)
         )
@@ -3510,7 +3648,7 @@
     )
     (pin "1" (uuid 8b79bd59-8fec-4b87-89ab-663e60dee512))
     (instances
-      (project "bspdv3"
+      (project "bspdv3simuworking"
         (path "/c2cb6538-8df8-40d1-ba63-d73be22d9ab8"
           (reference "#PWR021") (unit 1)
         )

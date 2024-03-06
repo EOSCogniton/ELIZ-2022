@@ -1,14 +1,5 @@
 version 2
 1
 9
-.tran 100m 100 0{return}.kicad adjustpaths{return}.save all{return}.probe alli
-3
-1
-V(Net-_CP2-IN+_)
- 
-1
-V(Net-_CP2-OUT_)
- 
-1
-V(Output_w/_50msdelay)
- 
+.tran 10m 100 0{return}.kicad adjustpaths{return}.save all{return}.probe alli
+0
