@@ -114,6 +114,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "2P Angle 171857-4002_0_0"
@@ -240,6 +241,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
@@ -443,6 +445,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "3P Angle 22-12-2034_0_0"
@@ -587,6 +590,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
@@ -631,8 +635,8 @@
 		)
 		(symbol "3P Droit 22-11-2032_0_0"
 			(rectangle
-				(start -5.08 -5.08)
-				(end 5.08 5.08)
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -809,6 +813,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "4P Angle 171857-4004_0_0"
@@ -961,6 +966,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
@@ -1201,6 +1207,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "6P Angle 171857-4006_0_0"
@@ -1440,6 +1447,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "6P Droit 22-11-2062_0_0"
@@ -1572,7 +1580,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "PS"
-			(at 0 0 0)
+			(at 18.542 -10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,15 +1588,16 @@
 			)
 		)
 		(property "Value" "AIV alim AE40-UW-S12"
-			(at 8.89 6.35 0)
+			(at 57.15 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "EPSA_lib:AE40UWS12"
-			(at 10.16 13.97 0)
+			(at 55.88 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1597,7 +1606,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/CUIS/CUIS-S-A0016126072/CUIS-S-A0016126072-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0"
-			(at 26.67 11.43 0)
+			(at 121.666 11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1606,7 +1615,7 @@
 			)
 		)
 		(property "Description" "Isolated DC/DC Converters - Through Hole 200-1500Vin12V 3.33A 40W Iso Reg DIP"
-			(at 0 0 0)
+			(at 87.122 8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1662,6 +1671,14 @@
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(property "Render Name" "Alim Iso HP"
+			(at 14.478 4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(symbol "AIV alim AE40-UW-S12_1_1"
@@ -2133,7 +2150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Render Name" "Alim Iso"
+		(property "Render Name" "Alim Iso LP"
 			(at 12.7 3.81 0)
 			(effects
 				(font
@@ -7084,7 +7101,7 @@
 			)
 		)
 		(property "Description" "TE CONNECTIVITY / AXICOM - V23079B1201B301 - RELAY, SIGNAL, DPDT, 250VAC, 220VDC, 2A"
-			(at 0 0 0)
+			(at 90.932 -14.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7378,10 +7395,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "EPSA_lib:CAN_Transceiver"
+			(at 13.97 0.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7419,7 +7437,7 @@
 					(type background)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 8.89 -6.35 180)
 				(length 2.54)
 				(name "3V3"
@@ -7437,7 +7455,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at 8.89 -8.89 180)
 				(length 2.54)
 				(name "GND"
@@ -7537,7 +7555,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 1.5 -1.8 0)
+			(at 0.476 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7546,7 +7564,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 11.43 -2.54 0)
+			(at 8.35 -2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7654,16 +7672,67 @@
 			)
 		)
 		(property "Render Name" "Condensateur"
-			(at 6.35 3.81 0)
+			(at 3.27 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(symbol "Condensateur 0805Y1000104JXT_0_0"
+		(symbol "Condensateur 0805Y1000104JXT_0_1"
+			(polyline
+				(pts
+					(xy 2 0) (xy 2.508 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.508 2.54) (xy 2.508 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.032 0) (xy 4.54 0)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.032 2.54) (xy 4.032 -2.54)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Condensateur 0805Y1000104JXT_1_0"
 			(pin passive line
-				(at 0 0 0)
+				(at -2.54 0 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -7681,7 +7750,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 0 180)
+				(at 9.08 0 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -7696,56 +7765,6 @@
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(symbol "Condensateur 0805Y1000104JXT_0_1"
-			(polyline
-				(pts
-					(xy 5.08 0) (xy 5.588 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 5.588 2.54) (xy 5.588 -2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.112 0) (xy 7.62 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.112 2.54) (xy 7.112 -2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
 				)
 			)
 		)
@@ -8078,7 +8097,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "CP"
-			(at 11.43 -3.81 0)
+			(at 12.192 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8245,11 +8264,12 @@
 			)
 		)
 		(property "Render Name" "Comparateur Double"
-			(at 13.97 3.81 0)
+			(at 13.97 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "Dep_ Comparateur Double LM393LVDR_0_0"
@@ -8421,7 +8441,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "CP"
-			(at 11.43 -5.08 0)
+			(at 12.446 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8589,11 +8609,12 @@
 			)
 		)
 		(property "Render Name" "Comparateur"
-			(at 13.97 3.81 0)
+			(at 13.97 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "Dep_Comparateur TS391ILT_0_0"
@@ -8711,7 +8732,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 10.5 -1.8 0)
+			(at 5.842 3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8838,16 +8859,17 @@
 			)
 		)
 		(property "Render Name" "Diode"
-			(at 8.89 3.81 0)
+			(at 7.874 6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "Diode RFN1VWM2STFTR_0_0"
 			(pin passive line
-				(at 0 0 0)
+				(at 2.54 0 0)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -8865,7 +8887,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 0 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -8886,31 +8908,7 @@
 		(symbol "Diode RFN1VWM2STFTR_0_1"
 			(polyline
 				(pts
-					(xy 2.54 0) (xy 5.08 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
 					(xy 5.08 2.54) (xy 5.08 -2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 10.16 0) (xy 12.7 0)
 				)
 				(stroke
 					(width 0.1524)
@@ -9095,6 +9093,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "Gate AND SN74AHCT1G08DBVR_1_1"
@@ -9164,7 +9163,7 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
@@ -9200,7 +9199,7 @@
 				(name "VCC"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
@@ -9375,6 +9374,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "Gate NAND SN74AHCT1G00DBVR_1_1"
@@ -9444,7 +9444,7 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
@@ -9480,7 +9480,7 @@
 				(name "VCC"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
@@ -9675,6 +9675,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "Gate NOR SN74AHCT1G02DBVR_0_1"
@@ -9806,7 +9807,7 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
@@ -9842,7 +9843,7 @@
 				(name "VCC"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
@@ -10037,6 +10038,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "Gate OR SN74AHCT1G32DBVR_0_1"
@@ -10168,7 +10170,7 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
@@ -10204,7 +10206,7 @@
 				(name "VCC"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
@@ -10399,6 +10401,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "Gate XOR SN74AHCT1G86DBVR_0_1"
@@ -10542,7 +10545,7 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
@@ -10578,7 +10581,7 @@
 				(name "VCC"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1 1)
 						)
 					)
 				)
@@ -10608,11 +10611,12 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 0 -2.54 0)
+			(at 0.254 4.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -10634,7 +10638,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 0 0 0)
+			(at 0.254 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10735,7 +10739,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					(xy -1.27 -2.54) (xy -2.794 -4.064) (xy -2.032 -4.064) (xy -2.794 -4.064) (xy -2.794 -3.302)
 				)
 				(stroke
 					(width 0)
@@ -10747,7 +10751,7 @@
 			)
 			(polyline
 				(pts
-					(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					(xy 0 -2.54) (xy -1.524 -4.064) (xy -0.762 -4.064) (xy -1.524 -4.064) (xy -1.524 -3.302)
 				)
 				(stroke
 					(width 0)
@@ -11082,7 +11086,7 @@
 			)
 		)
 		(property "Sim.Enable" "0"
-			(at 0 0 0)
+			(at 20.066 8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11730,7 +11734,7 @@
 			)
 		)
 		(property "Value" "${SIM.PARAMS}"
-			(at 13.97 -5.08 0)
+			(at 18.034 7.874 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11740,7 +11744,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering"
-			(at 35.56 -15.24 0)
+			(at 45.466 0.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11749,7 +11753,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9064-q1"
-			(at 29.21 -12.7 0)
+			(at 37.846 3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11758,7 +11762,7 @@
 			)
 		)
 		(property "Description" "Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-"
-			(at 0 0 0)
+			(at 52.832 10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11767,7 +11771,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 10.16 -10.16 0)
+			(at 17.78 5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11777,7 +11781,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TLV9061QDCKRQ1 "
-			(at 8.89 -21.59 0)
+			(at 18.288 -3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11787,7 +11791,7 @@
 			)
 		)
 		(property "Mouser Part Number" " 595-TLV9061QDCKRQ1 "
-			(at 8.89 -19.05 0)
+			(at 17.272 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11925,7 +11929,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
+		(property "Reference" "DU"
 			(at 7.62 -2.54 0)
 			(effects
 				(font
@@ -11935,16 +11939,17 @@
 			)
 		)
 		(property "Value" "Opamp_Dual"
-			(at 10.16 -3.81 0)
+			(at 21.59 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
-			(at -1.27 -16.51 0)
+			(at 42.164 -1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11953,7 +11958,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9064-q1"
-			(at 16.51 -11.43 0)
+			(at 41.402 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11962,7 +11967,7 @@
 			)
 		)
 		(property "Description" "Dual operational amplifier"
-			(at 0 0 0)
+			(at 34.544 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11971,7 +11976,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 0 -10.16 0)
+			(at 21.844 5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11981,7 +11986,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TLV9062QPWRQ1 "
-			(at -2.54 -13.97 0)
+			(at 22.098 1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11991,7 +11996,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-TLV9062QPWRQ1 "
-			(at -1.27 -19.05 0)
+			(at 22.098 -3.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12205,8 +12210,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "U"
-			(at 3.81 2.54 0)
+		(property "Reference" "QU"
+			(at 3.81 4.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12215,16 +12220,17 @@
 			)
 		)
 		(property "Value" "Opamp_Quad"
-			(at 0 -5.08 0)
+			(at 20.828 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 0 -12.7 0)
+			(at 41.91 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12233,7 +12239,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9064-q1"
-			(at 0 -8.89 0)
+			(at 40.894 4.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12242,7 +12248,7 @@
 			)
 		)
 		(property "Description" "Quad operational amplifier"
-			(at 0 0 0)
+			(at 34.29 14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12251,7 +12257,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 5.08 10.16 0)
+			(at 21.336 12.192 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12261,7 +12267,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TLV9064QPWRQ1 "
-			(at 5.08 7.62 0)
+			(at 21.336 9.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12271,7 +12277,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-TLV9064QPWRQ1 "
-			(at 5.08 5.08 0)
+			(at 21.336 7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13424,7 +13430,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 7.62 -2.54 0)
+			(at 7.366 2.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13572,14 +13578,29 @@
 			)
 		)
 		(property "Render Name" "Résistance"
-			(at 8.89 2.54 0)
+			(at 8.89 6.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(symbol "Résistance RK73H2BLTDD2152F_0_0"
+		(symbol "Résistance RK73H2BLTDD2152F_0_1"
+			(polyline
+				(pts
+					(xy 5.08 1.27) (xy 12.7 1.27) (xy 12.7 -1.27) (xy 5.08 -1.27) (xy 5.08 1.27)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Résistance RK73H2BLTDD2152F_1_0"
 			(pin passive line
 				(at 0 0 0)
 				(length 5.08)
@@ -13614,20 +13635,6 @@
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(symbol "Résistance RK73H2BLTDD2152F_0_1"
-			(polyline
-				(pts
-					(xy 5.08 1.27) (xy 12.7 1.27) (xy 12.7 -1.27) (xy 5.08 -1.27) (xy 5.08 1.27)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
 				)
 			)
 		)
@@ -13766,7 +13773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Render Name" "SSR"
+		(property "Render Name" "Optocoupleur"
 			(at 19.05 3.81 0)
 			(effects
 				(font
@@ -15955,7 +15962,7 @@
 		(in_bom no)
 		(on_board no)
 		(property "Reference" "V"
-			(at 8.89 12.7 0)
+			(at -1.27 -2.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15963,7 +15970,7 @@
 			)
 		)
 		(property "Value" "5"
-			(at 11.43 7.62 0)
+			(at 16.51 10.414 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15981,7 +15988,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 -7.62 90)
+			(at 14.986 3.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15990,7 +15997,7 @@
 			)
 		)
 		(property "Description" "Voltage source symbol for simulation only"
-			(at 0 0 0)
+			(at 34.798 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15999,7 +16006,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 0 -10.16 0)
+			(at 19.05 5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16008,7 +16015,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 0 -12.7 0)
+			(at 15.494 1.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16017,7 +16024,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 8.89 12.7 0)
+			(at 14.732 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
