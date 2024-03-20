@@ -1,0 +1,22 @@
+ Name of file when it was written   : bof.nox                       
+ 19-Mar-24    17:10:12    6DAD96CF    93C09888
+ 
+ SYSTEM EQUILIBRIUM IS VERIFIED    
+  
+ 
+ Type linkage-load   	First part          	Second part         	Name                	Coord X   	Coord Y   	Coord Z   	Direct U  	Direct V  	Direct W  	Real/2ddir	2d dir V  	2d dir W  
+ 	 	 	 	 	 	 	 	 	 	 	 	 	Result /X	Result /Y	Result /Z	Moment /X	Moment /Y	Moment /Z
+ 
+ FORCE               	chassis             	verte               	                    	10.000	30.000	60.000	1.000	0.000	0.000	100.000	 	 
+ 	 	 	 	 	 	 	 	 	 	 	 	 	100.000	0.000	0.000	0.000	0.000	0.000
+ 
+ BALL JOINT          	chassis             	verte               	                    	20.000	50.000	0.000	 	 	 	 	 	 
+ 	 	 	 	 	 	 	 	 	 	 	 	 	0.000	0.000	0.000	0.000	0.000	0.000
+ BALL JOINT          	verte               	rouge               	raccord 1           	10.000	30.000	60.000	 	 	 	 	 	 
+ 	 	 	 	 	 	 	 	 	 	 	 	 	100.000	0.000	0.000	0.000	0.000	0.000
+ BALL JOINT          	chassis             	rouge               	raccord 1           	0.000	0.000	0.000	 	 	 	 	 	 
+ 	 	 	 	 	 	 	 	 	 	 	 	 	-33.333	-100.000	-200.000	0.000	0.000	0.000
+ BALL JOINT          	chassis             	jaune               	                    	30.000	0.000	0.000	 	 	 	 	 	 
+ 	 	 	 	 	 	 	 	 	 	 	 	 	-66.667	100.000	200.000	0.000	0.000	0.000
+ BALL JOINT          	rouge               	jaune               	                    	10.000	30.000	60.000	 	 	 	 	 	 
+ 	 	 	 	 	 	 	 	 	 	 	 	 	66.667	-100.000	-200.000	0.000	0.000	0.000

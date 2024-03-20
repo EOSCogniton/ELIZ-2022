@@ -1,0 +1,145 @@
+ Name of file when it was written   : bof.not                       
+ 19-Mar-24    17:10:12    6DAD96CF    93C09876
+ 
+ 
+ Loads applied    :| coord X | coord Y | coord Z | direc U | direc V | direc W
+ --|-------|-------|---------|---------|---------|---------|---------|---------
+ FO chassis verte      10.000    30.000    60.000     1.000      .000      .000
+ ------------------------------------------------------------------------------
+  
+ Tolerances:       | coord X | coord Y | coord Z | direc U | direc V | direc W
+ --|-------|-------|---------|---------|---------|---------|---------|---------
+ ------------------------------------------------------------------------------
+  
+ Linkages:         | coord X | coord Y | coord Z | direc U | direc V | direc W
+ --|-------|-------|---------|---------|---------|---------|---------|---------
+ BJ chassis verte      20.000    50.000      .000 
+ BJ verte   rouge      10.000    30.000    60.000 
+ BJ chassis rouge        .000      .000      .000 
+ BJ chassis jaune      30.000      .000      .000 
+ BJ rouge   jaune      10.000    30.000    60.000 
+ ------------------------------------------------------------------------------
+  
+ Groups :          | coord X | coord Y | coord Z | direc U | direc V | direc W
+ --|-------|-------|---------|---------|---------|---------|---------|---------
+ ------------------------------------------------------------------------------
+ 
+ 
+ SYSTEM EQUILIBRIUM IS VERIFIED    
+  
+ MOBILITY of jaune               in   Rotation    on    .286 -.429 -.857
+  
+ MOBILITY of rouge               in   Rotation    on    .147  .442  .885
+  
+ MOBILITY of verte               in   Rotation    on   -.156 -.312  .937
+  
+                                    ********
+                    MECAmaster, and its results, can only      
+                    be used by the owner of a user licence           
+                       (C)  COPYRIGHT  Paul CLOZEL  2022   
+                                    ********
+  
+ Applied  loads   :                    |    Fx   |    Fy   |    Fz   |    Cx   |    Cy   |    Cz
+ --|-----------------|-----------------|---------|---------|---------|---------|---------|---------
+ FO chassis           verte               100.000      .000      .000      .000      .000      .000
+ --------------------------------------------------------------------------------------------------
+  
+ Loads in the linkages:                |    Rx   |    Ry   |    Rz   |    Mx   |    My   |    Mz
+ --|-----------------|-----------------|---------|---------|---------|---------|---------|---------
+ BJ chassis           verte                  .000      .000      .000      .000      .000      .000
+ BJ verte             rouge               100.000      .000      .000      .000      .000      .000
+ BJ chassis           rouge               -33.333  -100.000  -200.000      .000      .000      .000
+ BJ chassis           jaune               -66.667   100.000   200.000      .000      .000      .000
+ BJ rouge             jaune                66.667  -100.000  -200.000      .000      .000      .000
+ --------------------------------------------------------------------------------------------------
+ 
+****  DATA number      1  *** ------.---------.---------.---     -----
+ Loads in the Linkage ....... BALL JOINT          
+       exerted by ........... chassis
+       onto ................. verte
+ Name of Ball joint .........  
+ Centre of the Ball joint ...     20.000    50.000      .000          
+ Precision(s) of the linkage. 0 0 0
+ 
+ Loads in Ball Joint      .000      on vector         .000  .000  .000
+ 
+ Result. on  x,y,z        .000      .000      .000
+ Moment  on  x,y,z        .000      .000      .000
+                                at point    20.000    50.000      .000
+ 
+****  DATA number      2  *** ------.---------.---------.---     -----
+ Loads in the Linkage ....... BALL JOINT          
+       exerted by ........... verte
+       onto ................. rouge
+ Name of Ball joint ......... raccord 1
+ Centre of the Ball joint ...     10.000    30.000    60.000          
+ Precision(s) of the linkage. 0 0 0
+ 
+ Loads in Ball Joint   100.000      on vector        1.000  .000  .000
+ 
+ Result. on  x,y,z     100.000      .000      .000
+ Moment  on  x,y,z        .000      .000      .000
+                                at point    10.000    30.000    60.000
+ 
+****  DATA number      3  *** ------.---------.---------.---     -----
+ Loads in the Linkage ....... BALL JOINT          
+       exerted by ........... chassis
+       onto ................. rouge
+ Name of Ball joint ......... raccord 1
+ Centre of the Ball joint ...       .000      .000      .000          
+ Precision(s) of the linkage. 0 0 0
+ 
+ Loads in Ball Joint   226.078      on vector        -.147 -.442 -.885
+ 
+ Result. on  x,y,z     -33.333  -100.000  -200.000
+ Moment  on  x,y,z        .000      .000      .000
+                                at point      .000      .000      .000
+ 
+****  DATA number      4  *** ------.---------.---------.---     -----
+ Loads in the Linkage ....... BALL JOINT          
+       exerted by ........... chassis
+       onto ................. jaune
+ Name of Ball joint .........  
+ Centre of the Ball joint ...     30.000      .000      .000          
+ Precision(s) of the linkage. 0 0 0
+ 
+ Loads in Ball Joint   233.333      on vector        -.286  .429  .857
+ 
+ Result. on  x,y,z     -66.667   100.000   200.000
+ Moment  on  x,y,z        .000      .000      .000
+                                at point    30.000      .000      .000
+ 
+****  DATA number      5  *** ------.---------.---------.---     -----
+ Loads in the Linkage ....... BALL JOINT          
+       exerted by ........... rouge
+       onto ................. jaune
+ Name of Ball joint .........  
+ Centre of the Ball joint ...     10.000    30.000    60.000          
+ Precision(s) of the linkage. 0 0 0
+ 
+ Loads in Ball Joint   233.333      on vector         .286 -.429 -.857
+ 
+ Result. on  x,y,z      66.667  -100.000  -200.000
+ Moment  on  x,y,z        .000      .000      .000
+                                at point    10.000    30.000    60.000
+ 
+****  DATA number      6  *** ------.---------.---------.---     -----
+ Load of type ............... FORCE               
+       exerted by ........... chassis
+       onto ................. verte
+ Name of force ..............  
+ Point of passage ...........     10.000    30.000    60.000          
+ Direction of the Force .....      1.000      .000      .000          
+ Magnitude ..................    100.000
+ 
+ Load Magnitude        100.000      on vector        1.000  .000  .000
+ 
+ Result. on  x,y,z     100.000      .000      .000
+ Moment  on  x,y,z        .000      .000      .000
+                                at point    10.000    30.000    60.000
+ 
+ 
+ 
+ 
+                              SCHEMA
+ 
