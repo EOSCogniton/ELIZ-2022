@@ -3403,7 +3403,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 88.9) (xy 63.5 88.9)
+			(xy 50.8 88.9) (xy 43.18 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3493,7 +3493,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 86.36) (xy 63.5 86.36)
+			(xy 50.8 86.36) (xy 43.18 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3573,7 +3573,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 83.82) (xy 63.5 83.82)
+			(xy 50.8 83.82) (xy 43.18 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3643,7 +3643,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 81.28) (xy 63.5 81.28)
+			(xy 50.8 81.28) (xy 43.18 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3785,13 +3785,13 @@
 		(uuid "18563726-35e6-49a6-ab68-abdf88ffa997")
 	)
 	(label "CAN L"
-		(at 63.5 88.9 180)
+		(at 43.18 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "201f473d-0b36-457f-9f48-c3561b9466f3")
 	)
@@ -3807,13 +3807,13 @@
 		(uuid "21856f89-f346-4186-844a-84c51f1afca4")
 	)
 	(label "CRx"
-		(at 63.5 83.82 180)
+		(at 43.18 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "235d4b0e-e68b-4e0d-b96b-d0ed072849de")
 	)
@@ -3928,13 +3928,13 @@
 		(uuid "7ee08ec6-2bd0-4adf-a81c-26215b1d6eae")
 	)
 	(label "CTx"
-		(at 63.5 81.28 180)
+		(at 43.18 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "8a87b4af-e83a-44f1-8b80-2fd347b77fe0")
 	)
@@ -4027,13 +4027,13 @@
 		(uuid "e52b4b9a-b613-46c9-9a5e-5b628215ad1c")
 	)
 	(label "CAN H"
-		(at 63.5 86.36 180)
+		(at 43.18 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ebed22b0-a081-4c96-bdd3-f2c9197ddc4a")
 	)

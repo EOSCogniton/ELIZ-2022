@@ -1972,24 +1972,6 @@
 			)
 		)
 		(symbol "Alim HP TSR_2-2450_0_0"
-			(pin input line
-				(at 0 0 0)
-				(length 5.08)
-				(name "+VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at 0 -2.54 0)
 				(length 5.08)
@@ -2024,6 +2006,24 @@
 			)
 		)
 		(symbol "Alim HP TSR_2-2450_1_0"
+			(pin power_in line
+				(at 0 0 0)
+				(length 5.08)
+				(name "+VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
 				(at 0 -5.08 0)
 				(length 5.08)
@@ -2379,8 +2379,22 @@
 				)
 			)
 		)
-		(symbol "Alim LP TSR_0.5-2450_0_0"
-			(pin passive line
+		(symbol "Alim LP TSR_0.5-2450_0_1"
+			(polyline
+				(pts
+					(xy 3.81 7.62) (xy 19.05 7.62) (xy 19.05 -2.54) (xy 3.81 -2.54) (xy 3.81 7.62)
+				)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Alim LP TSR_0.5-2450_1_0"
+			(pin power_in line
 				(at -1.27 5.08 0)
 				(length 5.08)
 				(name "+VIN"
@@ -2398,7 +2412,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -1.27 2.54 0)
 				(length 5.08)
 				(name "GND"
@@ -2416,7 +2430,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at -1.27 0 0)
 				(length 5.08)
 				(name "+VOUT"
@@ -2432,20 +2446,6 @@
 							(size 1.27 1.27)
 						)
 					)
-				)
-			)
-		)
-		(symbol "Alim LP TSR_0.5-2450_0_1"
-			(polyline
-				(pts
-					(xy 3.81 7.62) (xy 19.05 7.62) (xy 19.05 -2.54) (xy 3.81 -2.54) (xy 3.81 7.62)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
 				)
 			)
 		)
@@ -7555,7 +7555,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0.476 -1.524 0)
+			(at 3.048 -1.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7564,7 +7564,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 8.35 -2.54 0)
+			(at 10.414 -2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7672,7 +7672,7 @@
 			)
 		)
 		(property "Render Name" "Condensateur"
-			(at 3.27 3.81 0)
+			(at 6.604 4.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7683,7 +7683,7 @@
 		(symbol "Condensateur 0805Y1000104JXT_0_1"
 			(polyline
 				(pts
-					(xy 2 0) (xy 2.508 0)
+					(xy 5.08 2.54) (xy 5.08 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -7695,31 +7695,7 @@
 			)
 			(polyline
 				(pts
-					(xy 2.508 2.54) (xy 2.508 -2.54)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.032 0) (xy 4.54 0)
-				)
-				(stroke
-					(width 0.1524)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 4.032 2.54) (xy 4.032 -2.54)
+					(xy 6.35 2.54) (xy 6.35 -2.54)
 				)
 				(stroke
 					(width 0.1524)
@@ -7732,7 +7708,7 @@
 		)
 		(symbol "Condensateur 0805Y1000104JXT_1_0"
 			(pin passive line
-				(at -2.54 0 0)
+				(at 0 0 0)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -7750,7 +7726,7 @@
 				)
 			)
 			(pin passive line
-				(at 9.08 0 180)
+				(at 11.43 0 180)
 				(length 5.08)
 				(name "~"
 					(effects
@@ -13409,6 +13385,387 @@
 							(size 1.27 1.27)
 						)
 					)
+				)
+			)
+		)
+	)
+	(symbol "Relais PCB"
+		(pin_names
+			(offset 0.762)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "K"
+			(at 11.938 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Relais PCB"
+			(at 7.62 9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EPSA_lib:CP112V"
+			(at 35.56 11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www3.panasonic.biz/ac/e/uacs/download/index.jsp?c=vehicle_download"
+			(at 35.56 9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "PANASONIC ELECTRIC WORKS - CP1-12V - RELAY, AUTOMOTIVE, SPDT, 14VDC, 20A"
+			(at 35.56 6.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "9.5"
+			(at 35.56 4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "769-CP1-12V"
+			(at 35.56 1.778 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/CP1-12V?qs=mTeSeKeuVA7dPPafy7M16g%3D%3D"
+			(at 35.56 -0.762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 35.56 -3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CP1-12V"
+			(at 35.56 -5.842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(symbol "Relais PCB_0_1"
+			(polyline
+				(pts
+					(xy 7.62 7.874) (xy 17.78 7.874) (xy 17.78 -5.842) (xy 7.62 -5.842) (xy 7.62 7.874)
+				)
+				(stroke
+					(width 0.1524)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Relais PCB_1_0"
+			(pin passive line
+				(at 2.54 3.81 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -3.81 0)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 22.86 -1.27 180)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -5.08 180)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 3.81 180)
+				(length 5.08)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Relais PCB_1_1"
+			(polyline
+				(pts
+					(xy 8.89 -3.81) (xy 7.62 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.89 -3.81) (xy 16.51 -2.032)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.668 3.81) (xy 7.62 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.668 6.858) (xy 14.478 1.778)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -2.286) (xy 12.7 -2.921)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -1.016) (xy 12.7 -1.651)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 0.254) (xy 12.7 -0.381)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 1.524) (xy 12.7 0.889)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 17.78 -5.08) (xy 16.51 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 17.78 -1.27) (xy 16.51 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 17.78 3.81) (xy 14.478 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 15.24 -5.08) (xy 16.51 -5.08) (xy 15.875 -4.445) (xy 15.24 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 16.51 -1.27) (xy 15.24 -1.27) (xy 15.875 -1.905) (xy 16.51 -1.27)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 10.668 7.112)
+				(end 14.478 1.524)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
 				)
 			)
 		)

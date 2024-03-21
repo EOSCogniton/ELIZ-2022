@@ -255,767 +255,6 @@
 				)
 			)
 		)
-		(symbol "Basic_SPICE:Comparator_Dual"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CP"
-				(at 7.62 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Comparator_Dual"
-				(at 10.16 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
-				(at -1.27 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/lmv339"
-				(at 16.51 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual comparator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at -2.54 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "LMV393IPWR"
-				(at -2.54 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-LMV393IPWR"
-				(at -1.27 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Sim.Library" "${SP_BASIC}\\Comp_lm393lv.lib"
-				(at -34.29 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Name" "LM393LV_Dual"
-				(at -43.18 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "SUBCKT"
-				(at -46.99 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=OUT1 2=IN1- 3=IN1+ 4=GND 5=IN2+ 6=IN2- 7=OUT2 8=V+"
-				(at -17.78 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SSOP*2.95x2.8mm*P0.65mm* TSSOP*3x3mm*P0.65mm* VSSOP*P0.5mm* TO?99*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Comparator_Dual_1_1"
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -1.27 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 1.27 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Comparator_Dual_2_1"
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 7.62 0) (xy 0 -3.81) (xy 0 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -2.54 1.27 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -1.27 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Comparator_Dual_3_1"
-				(pin power_in line
-					(at 0 -6.35 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 6.35 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Basic_SPICE:Comparator_Quad"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CP"
-				(at 3.81 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Comparator_Quad"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9064-q1"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Quad operational amplifier"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 5.08 10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "LMV339IPWR"
-				(at 5.08 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-LMV339IPWR"
-				(at 5.08 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Sim.Library" "${SP_BASIC}\\Comp_lm393lv.lib"
-				(at -43.18 12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Name" "LM393LV_Quad"
-				(at -50.8 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "SUBCKT"
-				(at -54.61 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=OUT2 2=OUT1 3=V+ 4=IN1- 5=IN1+ 6=IN2- 7=IN2+ 8=IN3- 9=IN3+ 10=IN4- 11=IN4+ 12=GND 13=OUT4 14=OUT3"
-				(at 2.54 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "quad opamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Comparator_Quad_1_1"
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 7.62 0) (xy 0 -3.81) (xy 0 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -1.27 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 1.27 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Comparator_Quad_2_1"
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 7.62 0) (xy 0 -3.81) (xy 0 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -1.27 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 1.27 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Comparator_Quad_3_1"
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 7.62 0) (xy 0 -3.81) (xy 0 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -1.27 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 1.27 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Comparator_Quad_4_1"
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 7.62 0) (xy 0 -3.81) (xy 0 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -2.54 -1.27 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 1.27 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Comparator_Quad_5_1"
-				(pin power_in line
-					(at 0 -6.35 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 6.35 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Basic_SPICE:PMOS SI2343CDS-T1-GE3"
 			(pin_names
 				(offset 0.762)
@@ -2191,6 +1430,423 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EPSA_Lib:Opamp_Quad"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "QU"
+				(at 3.81 4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Opamp_Quad"
+				(at 20.828 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
+				(at 41.91 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9064-q1"
+				(at 40.894 4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quad operational amplifier"
+				(at 34.29 14.478 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 21.336 12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TLV9064QPWRQ1 "
+				(at 21.336 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-TLV9064QPWRQ1 "
+				(at 21.336 7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quad opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm* SSOP*5.3x6.2mm*P0.65mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Opamp_Quad_1_1"
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 7.62 0) (xy 0 -3.81) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 1.27 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Opamp_Quad_2_1"
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 7.62 0) (xy 0 -3.81) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -2.54 1.27 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Opamp_Quad_3_1"
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 7.62 0) (xy 0 -3.81) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -2.54 1.27 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Opamp_Quad_4_1"
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 7.62 0) (xy 0 -3.81) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -2.54 1.27 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Opamp_Quad_5_1"
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 6.35 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7966,6 +7622,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 22.86) (xy 273.05 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a73d01e-3ee4-434d-9c1b-7f126b423caf")
+	)
+	(wire
+		(pts
 			(xy 383.54 220.98) (xy 383.54 222.25)
 		)
 		(stroke
@@ -9636,6 +9302,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 58.42) (xy 264.16 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "711f5b58-2de1-4fae-a0ca-1d348737367f")
+	)
+	(wire
+		(pts
 			(xy 77.47 77.47) (xy 77.47 82.55)
 		)
 		(stroke
@@ -9776,6 +9452,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 58.42) (xy 281.94 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79f34dd6-25a0-4b76-a10a-07afa48380ed")
+	)
+	(wire
+		(pts
 			(xy 322.58 148.59) (xy 322.58 149.86)
 		)
 		(stroke
@@ -9803,6 +9489,16 @@
 			(type default)
 		)
 		(uuid "7a903161-583e-410f-9e4e-6629e99b402f")
+	)
+	(wire
+		(pts
+			(xy 281.94 22.86) (xy 281.94 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abe1d63-19cf-4df0-a657-3d39217dae8b")
 	)
 	(wire
 		(pts
@@ -10853,6 +10549,16 @@
 			(type default)
 		)
 		(uuid "b0894111-2561-47fa-8a98-9d4364eca62f")
+	)
+	(wire
+		(pts
+			(xy 273.05 58.42) (xy 273.05 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0ba3e1b-cf05-4c10-816d-31360d4335a5")
 	)
 	(wire
 		(pts
@@ -12356,17 +12062,6 @@
 		)
 		(uuid "0f4ed73e-deac-4609-be77-a96498ee0639")
 	)
-	(text "Filtrage ?"
-		(exclude_from_sim no)
-		(at 213.36 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2356d405-1377-4818-932a-005200ff2ecc")
-	)
 	(text "Flashing mecanic\n"
 		(exclude_from_sim no)
 		(at 62.23 195.58 0)
@@ -12389,17 +12084,6 @@
 		)
 		(uuid "37fc0879-812d-4b1e-942a-d383b88e8d51")
 	)
-	(text "Strange behavior on Rising edge"
-		(exclude_from_sim no)
-		(at 260.35 186.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3b011673-5512-4f63-80c4-bdb46ef6ee64")
-	)
 	(text "Changed to 5V"
 		(exclude_from_sim no)
 		(at 215.9 181.61 0)
@@ -12421,39 +12105,6 @@
 			(justify left bottom)
 		)
 		(uuid "57f036b3-6d14-42bf-9458-a912eadca6d1")
-	)
-	(text "Ajouter Init State"
-		(exclude_from_sim no)
-		(at 275.59 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "662ac76f-38fd-425d-9cf6-74d275adbb2a")
-	)
-	(text "Pull down en sortie ou en entré du buffer ? "
-		(exclude_from_sim no)
-		(at 257.81 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "673e47aa-88d3-47a5-be04-a6c16ef2ccad")
-	)
-	(text "Est-ce que il faut décharger ca ? pour reset"
-		(exclude_from_sim no)
-		(at 297.18 245.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6dc8ac9c-1ba8-4e8e-b6ad-14deb8902711")
 	)
 	(text "ADDED"
 		(exclude_from_sim no)
@@ -12487,17 +12138,6 @@
 			(justify left bottom)
 		)
 		(uuid "a82e9f64-8726-41a9-8463-f54076afb182")
-	)
-	(text "A voir si il y en a besoin :O"
-		(exclude_from_sim no)
-		(at 243.84 245.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b4c12aa2-2eb2-4db9-b26d-07e759a15bb6")
 	)
 	(text "SCS compliance"
 		(exclude_from_sim no)
@@ -12863,6 +12503,17 @@
 		(uuid "321f841c-c624-45eb-b48a-f06ccfa6350d")
 	)
 	(label "Int_AIR_2"
+		(at 273.05 41.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "383a957a-d83a-45d8-853a-8d011fa63828")
+	)
+	(label "Int_AIR_2"
 		(at 36.83 156.21 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12993,6 +12644,17 @@
 			(justify right bottom)
 		)
 		(uuid "625054b0-0ce9-457a-97da-3fc11faf1cab")
+	)
+	(label "DC-Link_In"
+		(at 281.94 78.74 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "645c3f69-07d3-4fb6-85b3-dea4fdf78764")
 	)
 	(label "DC-Link_In"
 		(at 339.09 113.03 180)
@@ -13147,6 +12809,17 @@
 			(justify right bottom)
 		)
 		(uuid "89f6c62b-44f9-477b-bb71-6e695576e996")
+	)
+	(label "VoltageAIR"
+		(at 264.16 77.47 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8af11ab5-b51c-45c2-ae32-ffcc74e85e6d")
 	)
 	(label "dis1"
 		(at 251.46 214.63 180)
@@ -13303,6 +12976,17 @@
 		(uuid "aaf1709b-b953-4baf-a0d3-a73abad5db4f")
 	)
 	(label "Int_AIR_1"
+		(at 281.94 41.91 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b465d30e-a575-4cc5-8321-73220041b221")
+	)
+	(label "Int_AIR_1"
 		(at 339.09 39.37 180)
 		(fields_autoplaced yes)
 		(effects
@@ -13455,6 +13139,17 @@
 			(justify right bottom)
 		)
 		(uuid "d09b7de1-7407-4edc-8c51-bd349e5b01b3")
+	)
+	(label "Int_PreCharge"
+		(at 273.05 77.47 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d20a3abe-8755-43eb-a925-6424eaba0ca1")
 	)
 	(label "mid_Pot"
 		(at 364.49 223.52 180)
@@ -13840,7 +13535,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Basic_SPICE:Comparator_Quad")
+		(lib_id "EPSA_Lib:Opamp_Quad")
 		(at 342.9 48.26 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -13866,7 +13561,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 342.9 60.96 0)
+			(at 384.81 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13875,7 +13570,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9064-q1"
-			(at 342.9 57.15 0)
+			(at 383.794 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13883,8 +13578,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 342.9 48.26 0)
+		(property "Description" "Quad operational amplifier"
+			(at 377.19 33.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13893,7 +13588,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 347.98 38.1 0)
+			(at 364.236 36.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13902,8 +13597,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LMV339IPWR"
-			(at 347.98 40.64 0)
+		(property "Manufacturer_Part_Number" "TLV9064QPWRQ1 "
+			(at 364.236 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13912,8 +13607,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-LMV339IPWR"
-			(at 347.98 43.18 0)
+		(property "Mouser Part Number" "595-TLV9064QPWRQ1 "
+			(at 364.236 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14546,6 +14241,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 273.05 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "12289da2-a44c-433c-a4a2-346a212e71b9")
+		(property "Reference" "#PWR0112"
+			(at 273.05 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 275.59 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 273.05 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0c2edcf-d34c-4412-b5a3-a6a05209ec68")
+		)
+		(instances
+			(project "TSAL"
+				(path "/f0d44685-e08f-48bd-a87c-317f0cd486b0"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EPSA_Lib:Opamp")
 		(at 240.03 74.93 0)
 		(unit 1)
@@ -14755,7 +14515,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Basic_SPICE:Comparator_Quad")
+		(lib_id "EPSA_Lib:Opamp_Quad")
 		(at 342.9 95.25 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -14781,7 +14541,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 342.9 107.95 0)
+			(at 384.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14790,7 +14550,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9064-q1"
-			(at 342.9 104.14 0)
+			(at 383.794 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14798,8 +14558,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 342.9 95.25 0)
+		(property "Description" "Quad operational amplifier"
+			(at 377.19 80.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14808,7 +14568,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 347.98 85.09 0)
+			(at 364.236 83.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14817,8 +14577,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LMV339IPWR"
-			(at 347.98 87.63 0)
+		(property "Manufacturer_Part_Number" "TLV9064QPWRQ1 "
+			(at 364.236 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14827,8 +14587,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-LMV339IPWR"
-			(at 347.98 90.17 0)
+		(property "Mouser Part Number" "595-TLV9064QPWRQ1 "
+			(at 364.236 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15770,7 +15530,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Basic_SPICE:Comparator_Quad")
+		(lib_id "EPSA_Lib:Opamp_Quad")
 		(at 358.14 40.64 0)
 		(unit 5)
 		(exclude_from_sim no)
@@ -15780,7 +15540,7 @@
 		(fields_autoplaced yes)
 		(uuid "1bc898ae-7b9e-49fa-8127-219bd0a47e80")
 		(property "Reference" "CP3"
-			(at 359.41 40.64 0)
+			(at 359.41 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15799,7 +15559,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 358.14 53.34 0)
+			(at 400.05 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15808,7 +15568,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9064-q1"
-			(at 358.14 49.53 0)
+			(at 399.034 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15816,8 +15576,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 358.14 40.64 0)
+		(property "Description" "Quad operational amplifier"
+			(at 392.43 26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15826,7 +15586,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 363.22 30.48 0)
+			(at 379.476 28.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15835,8 +15595,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LMV339IPWR"
-			(at 363.22 33.02 0)
+		(property "Manufacturer_Part_Number" "TLV9064QPWRQ1 "
+			(at 379.476 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15845,8 +15605,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-LMV339IPWR"
-			(at 363.22 35.56 0)
+		(property "Mouser Part Number" "595-TLV9064QPWRQ1 "
+			(at 379.476 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16827,7 +16587,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Basic_SPICE:Comparator_Quad")
+		(lib_id "EPSA_Lib:Opamp_Quad")
 		(at 358.14 82.55 0)
 		(unit 5)
 		(exclude_from_sim no)
@@ -16837,7 +16597,7 @@
 		(fields_autoplaced yes)
 		(uuid "24565445-44b2-4ddb-8c5c-6c5ca107b814")
 		(property "Reference" "CP4"
-			(at 359.41 82.55 0)
+			(at 359.41 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16856,7 +16616,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 358.14 95.25 0)
+			(at 400.05 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16865,7 +16625,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9064-q1"
-			(at 358.14 91.44 0)
+			(at 399.034 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16873,8 +16633,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 358.14 82.55 0)
+		(property "Description" "Quad operational amplifier"
+			(at 392.43 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16883,7 +16643,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 363.22 72.39 0)
+			(at 379.476 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16892,8 +16652,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LMV339IPWR"
-			(at 363.22 74.93 0)
+		(property "Manufacturer_Part_Number" "TLV9064QPWRQ1 "
+			(at 379.476 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16902,8 +16662,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-LMV339IPWR"
-			(at 363.22 77.47 0)
+		(property "Mouser Part Number" "595-TLV9064QPWRQ1 "
+			(at 379.476 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17124,6 +16884,71 @@
 			(project "TSAL"
 				(path "/f0d44685-e08f-48bd-a87c-317f0cd486b0"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 281.94 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25d07fda-04c8-45ce-ab4f-2d1e75e7c6d9")
+		(property "Reference" "#PWR0110"
+			(at 281.94 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 284.48 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 281.94 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5839dd9f-9422-4591-908b-52cb3b0f46df")
+		)
+		(instances
+			(project "TSAL"
+				(path "/f0d44685-e08f-48bd-a87c-317f0cd486b0"
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -19147,7 +18972,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Basic_SPICE:Comparator_Dual")
+		(lib_id "EPSA_Lib:Opamp_Dual")
 		(at 358.14 109.22 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -19175,7 +19000,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
-			(at 356.87 125.73 0)
+			(at 400.304 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19183,8 +19008,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/lmv339"
-			(at 374.65 120.65 0)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9064-q1"
+			(at 399.542 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19192,8 +19017,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 358.14 109.22 0)
+		(property "Description" "Dual operational amplifier"
+			(at 392.684 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19202,7 +19027,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 355.6 118.11 0)
+			(at 379.984 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19211,8 +19036,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LMV393IPWR"
-			(at 355.6 123.19 0)
+		(property "Manufacturer_Part_Number" "TLV9062QPWRQ1 "
+			(at 380.238 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19221,8 +19046,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-LMV393IPWR"
-			(at 356.87 128.27 0)
+		(property "Mouser Part Number" "595-TLV9062QPWRQ1 "
+			(at 380.238 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21330,6 +21155,205 @@
 		)
 	)
 	(symbol
+		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
+		(at 264.16 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "459d3ae0-ca28-4c8a-8a29-ea5dba1f457c")
+		(property "Reference" "R43"
+			(at 266.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 261.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EPSA:RESC3216X70N"
+			(at 264.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 261.62 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 259.08 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 256.54 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 254 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 251.46 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 248.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 246.38 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 245.11 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 242.57 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 240.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 237.49 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 266.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 269.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"10k\" lib=\"\""
+			(at 96.52 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 96.52 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9bae00f-d9be-4b9d-a3e8-cd395c94b0ea")
+		)
+		(pin "2"
+			(uuid "5151e549-8084-452e-a8f3-e9ed014881a2")
+		)
+		(instances
+			(project "TSAL"
+				(path "/f0d44685-e08f-48bd-a87c-317f0cd486b0"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EPSA_lib:NMOS SQ2348ES-T1_GE3")
 		(at 225.425 243.205 90)
 		(unit 1)
@@ -22663,6 +22687,205 @@
 		)
 	)
 	(symbol
+		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
+		(at 273.05 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50dda22d-42e0-4391-8304-8de2ac36ec37")
+		(property "Reference" "R44"
+			(at 275.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 270.51 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EPSA:RESC3216X70N"
+			(at 273.05 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 270.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 267.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 265.43 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 262.89 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 260.35 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 257.81 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 255.27 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 254 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 251.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 248.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 246.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 275.59 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 278.13 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"10k\" lib=\"\""
+			(at 105.41 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 105.41 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87c58e01-768a-4fac-86eb-f5fecb926299")
+		)
+		(pin "2"
+			(uuid "505f53cf-f0dc-493b-990f-b783ea8d650b")
+		)
+		(instances
+			(project "TSAL"
+				(path "/f0d44685-e08f-48bd-a87c-317f0cd486b0"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 302.26 195.58 0)
 		(unit 1)
@@ -22787,6 +23010,71 @@
 			(project "TSAL"
 				(path "/f0d44685-e08f-48bd-a87c-317f0cd486b0"
 					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 264.16 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55947187-95fb-4943-b98a-fad902c225c0")
+		(property "Reference" "#PWR0113"
+			(at 264.16 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 266.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 264.16 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4919bdce-1f66-4dbe-8789-ffb5e9b6c498")
+		)
+		(instances
+			(project "TSAL"
+				(path "/f0d44685-e08f-48bd-a87c-317f0cd486b0"
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -23755,7 +24043,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Basic_SPICE:Comparator_Quad")
+		(lib_id "EPSA_Lib:Opamp_Quad")
 		(at 342.9 57.15 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -23781,7 +24069,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 342.9 69.85 0)
+			(at 384.81 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23790,7 +24078,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9064-q1"
-			(at 342.9 66.04 0)
+			(at 383.794 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23798,8 +24086,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 342.9 57.15 0)
+		(property "Description" "Quad operational amplifier"
+			(at 377.19 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23808,7 +24096,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 347.98 46.99 0)
+			(at 364.236 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23817,8 +24105,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LMV339IPWR"
-			(at 347.98 49.53 0)
+		(property "Manufacturer_Part_Number" "TLV9064QPWRQ1 "
+			(at 364.236 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23827,8 +24115,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-LMV339IPWR"
-			(at 347.98 52.07 0)
+		(property "Mouser Part Number" "595-TLV9064QPWRQ1 "
+			(at 364.236 50.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25417,6 +25705,205 @@
 		)
 	)
 	(symbol
+		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
+		(at 281.94 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c0ed1b3-7f85-48f9-8a88-5314be5c491e")
+		(property "Reference" "R41"
+			(at 284.48 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 279.4 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EPSA:RESC3216X70N"
+			(at 281.94 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 279.4 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 276.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 274.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 271.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 269.24 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 266.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 264.16 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 262.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 260.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 257.81 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 255.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 284.48 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 287.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"10k\" lib=\"\""
+			(at 114.3 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 114.3 -15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83c0eb4d-bed8-4f0c-b295-1d92d4ca7d06")
+		)
+		(pin "2"
+			(uuid "8d046f9c-ff2d-43fa-b5f9-66875a8051f5")
+		)
+		(instances
+			(project "TSAL"
+				(path "/f0d44685-e08f-48bd-a87c-317f0cd486b0"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EPSA_lib:3P Droit 22-11-2032")
 		(at 181.61 24.13 90)
 		(unit 1)
@@ -25949,7 +26436,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Basic_SPICE:Comparator_Quad")
+		(lib_id "EPSA_Lib:Opamp_Quad")
 		(at 342.9 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25975,7 +26462,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 342.9 41.91 0)
+			(at 384.81 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25984,7 +26471,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9064-q1"
-			(at 342.9 38.1 0)
+			(at 383.794 24.384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25992,8 +26479,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 342.9 29.21 0)
+		(property "Description" "Quad operational amplifier"
+			(at 377.19 14.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26002,7 +26489,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 347.98 19.05 0)
+			(at 364.236 17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26011,8 +26498,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LMV339IPWR"
-			(at 347.98 21.59 0)
+		(property "Manufacturer_Part_Number" "TLV9064QPWRQ1 "
+			(at 364.236 19.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26021,49 +26508,13 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-LMV339IPWR"
-			(at 347.98 24.13 0)
+		(property "Mouser Part Number" "595-TLV9064QPWRQ1 "
+			(at 364.236 22.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${SP_BASIC}\\Comp_lm393lv.lib"
-			(at 299.72 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "LM393LV_Quad"
-			(at 292.1 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 288.29 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=OUT2 2=OUT1 3=V+ 4=IN1- 5=IN1+ 6=IN2- 7=IN2+ 8=IN3- 9=IN3+ 10=IN4- 11=IN4+ 12=GND 13=OUT4 14=OUT3"
-			(at 345.44 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -27565,7 +28016,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Basic_SPICE:Comparator_Quad")
+		(lib_id "EPSA_Lib:Opamp_Quad")
 		(at 342.9 86.36 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -27591,7 +28042,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 342.9 99.06 0)
+			(at 384.81 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27600,7 +28051,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9064-q1"
-			(at 342.9 95.25 0)
+			(at 383.794 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27608,8 +28059,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 342.9 86.36 0)
+		(property "Description" "Quad operational amplifier"
+			(at 377.19 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27618,7 +28069,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 347.98 76.2 0)
+			(at 364.236 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27627,8 +28078,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LMV339IPWR"
-			(at 347.98 78.74 0)
+		(property "Manufacturer_Part_Number" "TLV9064QPWRQ1 "
+			(at 364.236 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27637,8 +28088,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-LMV339IPWR"
-			(at 347.98 81.28 0)
+		(property "Mouser Part Number" "595-TLV9064QPWRQ1 "
+			(at 364.236 79.248 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28008,7 +28459,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Basic_SPICE:Comparator_Quad")
+		(lib_id "EPSA_Lib:Opamp_Quad")
 		(at 342.9 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28034,7 +28485,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 342.9 80.01 0)
+			(at 384.81 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28043,7 +28494,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9064-q1"
-			(at 342.9 76.2 0)
+			(at 383.794 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28051,8 +28502,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 342.9 67.31 0)
+		(property "Description" "Quad operational amplifier"
+			(at 377.19 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28061,7 +28512,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 347.98 57.15 0)
+			(at 364.236 55.118 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28070,8 +28521,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LMV339IPWR"
-			(at 347.98 59.69 0)
+		(property "Manufacturer_Part_Number" "TLV9064QPWRQ1 "
+			(at 364.236 57.658 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28080,8 +28531,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-LMV339IPWR"
-			(at 347.98 62.23 0)
+		(property "Mouser Part Number" "595-TLV9064QPWRQ1 "
+			(at 364.236 60.198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28442,7 +28893,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Basic_SPICE:Comparator_Quad")
+		(lib_id "EPSA_Lib:Opamp_Quad")
 		(at 342.9 38.1 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -28468,7 +28919,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 342.9 50.8 0)
+			(at 384.81 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28477,7 +28928,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9064-q1"
-			(at 342.9 46.99 0)
+			(at 383.794 33.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28485,8 +28936,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 342.9 38.1 0)
+		(property "Description" "Quad operational amplifier"
+			(at 377.19 23.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28495,7 +28946,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 347.98 27.94 0)
+			(at 364.236 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28504,8 +28955,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LMV339IPWR"
-			(at 347.98 30.48 0)
+		(property "Manufacturer_Part_Number" "TLV9064QPWRQ1 "
+			(at 364.236 28.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28514,8 +28965,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-LMV339IPWR"
-			(at 347.98 33.02 0)
+		(property "Mouser Part Number" "595-TLV9064QPWRQ1 "
+			(at 364.236 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33786,7 +34237,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Basic_SPICE:Comparator_Quad")
+		(lib_id "EPSA_Lib:Opamp_Quad")
 		(at 342.9 76.2 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -33812,7 +34263,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-14_4.4x5mm_P0.65mm"
-			(at 342.9 88.9 0)
+			(at 384.81 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33821,7 +34272,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9064-q1"
-			(at 342.9 85.09 0)
+			(at 383.794 71.374 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33829,8 +34280,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 342.9 76.2 0)
+		(property "Description" "Quad operational amplifier"
+			(at 377.19 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33839,7 +34290,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 347.98 66.04 0)
+			(at 364.236 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33848,8 +34299,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LMV339IPWR"
-			(at 347.98 68.58 0)
+		(property "Manufacturer_Part_Number" "TLV9064QPWRQ1 "
+			(at 364.236 66.548 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33858,8 +34309,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-LMV339IPWR"
-			(at 347.98 71.12 0)
+		(property "Mouser Part Number" "595-TLV9064QPWRQ1 "
+			(at 364.236 69.088 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35108,7 +35559,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Basic_SPICE:Comparator_Dual")
+		(lib_id "EPSA_Lib:Opamp_Dual")
 		(at 342.9 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35134,7 +35585,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
-			(at 341.63 121.92 0)
+			(at 385.064 106.426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35142,8 +35593,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/lmv339"
-			(at 359.41 116.84 0)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9064-q1"
+			(at 384.302 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35151,8 +35602,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 342.9 105.41 0)
+		(property "Description" "Dual operational amplifier"
+			(at 377.444 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35161,7 +35612,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 340.36 114.3 0)
+			(at 364.744 99.568 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35170,8 +35621,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LMV393IPWR"
-			(at 340.36 119.38 0)
+		(property "Manufacturer_Part_Number" "TLV9062QPWRQ1 "
+			(at 364.998 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35180,8 +35631,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-LMV393IPWR"
-			(at 341.63 124.46 0)
+		(property "Mouser Part Number" "595-TLV9062QPWRQ1 "
+			(at 364.998 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38616,6 +39067,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 281.94 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d09433be-db72-47ae-bb80-ca306e328351")
+		(property "Reference" "#PWR0111"
+			(at 281.94 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 284.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 281.94 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 281.94 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 281.94 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca9222e5-9fa9-4216-b30e-a59f4d21b47a")
+		)
+		(instances
+			(project "TSAL"
+				(path "/f0d44685-e08f-48bd-a87c-317f0cd486b0"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
 		(at 313.69 219.71 270)
 		(mirror x)
@@ -41256,6 +41772,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 273.05 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1917a32-a19d-45e3-bfe1-d3b8292df646")
+		(property "Reference" "#PWR0114"
+			(at 273.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 275.59 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 273.05 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b2869f0-7bd1-46bf-8780-f89d1cbcbe13")
+		)
+		(instances
+			(project "TSAL"
+				(path "/f0d44685-e08f-48bd-a87c-317f0cd486b0"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EPSA_lib:LED")
 		(at 64.77 44.45 90)
 		(mirror x)
@@ -42407,7 +42988,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Basic_SPICE:Comparator_Dual")
+		(lib_id "EPSA_Lib:Opamp_Dual")
 		(at 342.9 114.3 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -42433,7 +43014,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
-			(at 341.63 130.81 0)
+			(at 385.064 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42441,8 +43022,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/lmv339"
-			(at 359.41 125.73 0)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9064-q1"
+			(at 384.302 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42450,8 +43031,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 342.9 114.3 0)
+		(property "Description" "Dual operational amplifier"
+			(at 377.444 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42460,7 +43041,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 340.36 123.19 0)
+			(at 364.744 108.458 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42469,8 +43050,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LMV393IPWR"
-			(at 340.36 128.27 0)
+		(property "Manufacturer_Part_Number" "TLV9062QPWRQ1 "
+			(at 364.998 112.776 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42479,8 +43060,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "595-LMV393IPWR"
-			(at 341.63 133.35 0)
+		(property "Mouser Part Number" "595-TLV9062QPWRQ1 "
+			(at 364.998 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44155,6 +44736,205 @@
 	)
 	(symbol
 		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
+		(at 281.94 24.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f681b058-1c56-4383-bab8-9ec0d3b8e3de")
+		(property "Reference" "R39"
+			(at 284.48 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 279.4 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EPSA:RESC3216X70N"
+			(at 281.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 279.4 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 276.86 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 274.32 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 271.78 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 269.24 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 266.7 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 264.16 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 262.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 260.35 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 257.81 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 255.27 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 284.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 287.02 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"10k\" lib=\"\""
+			(at 114.3 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 114.3 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e751bea5-dc84-4fa8-9a5c-50f66cf55457")
+		)
+		(pin "2"
+			(uuid "0e2239a8-2d79-4fc7-ace4-a2e995fdbadf")
+		)
+		(instances
+			(project "TSAL"
+				(path "/f0d44685-e08f-48bd-a87c-317f0cd486b0"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
 		(at 138.43 205.74 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -44566,6 +45346,205 @@
 			(project "TSAL"
 				(path "/f0d44685-e08f-48bd-a87c-317f0cd486b0"
 					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
+		(at 273.05 24.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb06219f-4596-4eb4-8852-1f7accc37dde")
+		(property "Reference" "R42"
+			(at 275.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 270.51 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EPSA:RESC3216X70N"
+			(at 273.05 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 270.51 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 267.97 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 265.43 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 262.89 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 260.35 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 257.81 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 255.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 254 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 251.46 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 248.92 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 246.38 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 275.59 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 278.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"10k\" lib=\"\""
+			(at 105.41 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 105.41 -52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b76a7fc1-4317-4057-87e1-4735d8cdde7d")
+		)
+		(pin "2"
+			(uuid "69e58e3a-817b-4192-b7bc-19ef42626090")
+		)
+		(instances
+			(project "TSAL"
+				(path "/f0d44685-e08f-48bd-a87c-317f0cd486b0"
+					(reference "R42")
 					(unit 1)
 				)
 			)
