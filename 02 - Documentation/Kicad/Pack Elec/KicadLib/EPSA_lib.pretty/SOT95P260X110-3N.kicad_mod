@@ -1,36 +1,248 @@
-(module "SOT95P260X110-3N" (layer F.Cu)
-  (descr "BSS308PE H6327")
-  (tags "MOSFET (P-Channel)")
-  (attr smd)
-  (fp_text reference Q** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "SOT95P260X110-3N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.975 -1.75) (end 1.975 -1.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.975 -1.75) (end 1.975 1.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.975 1.75) (end -1.975 1.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.975 1.75) (end -1.975 -1.75) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.65 -1.45) (end 0.65 -1.45) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.65 -1.45) (end 0.65 1.45) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.65 1.45) (end -0.65 1.45) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.65 1.45) (end -0.65 -1.45) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.65 -0.5) (end 0.3 -1.45) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.225 -1.45) (end 0.225 -1.45) (layer F.SilkS) (width 0.2))
-  (fp_line (start 0.225 -1.45) (end 0.225 1.45) (layer F.SilkS) (width 0.2))
-  (fp_line (start 0.225 1.45) (end -0.225 1.45) (layer F.SilkS) (width 0.2))
-  (fp_line (start -0.225 1.45) (end -0.225 -1.45) (layer F.SilkS) (width 0.2))
-  (fp_line (start -1.725 -1.5) (end -0.575 -1.5) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -1.15 -0.95 90) (size 0.6 1.15) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at -1.15 0.95 90) (size 0.6 1.15) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at 1.15 0 90) (size 0.6 1.15) (layers F.Cu F.Paste F.Mask))
-  (model BSS308PE_H6327.stp
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SOT95P260X110-3N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "BSS308PE H6327")
+	(tags "MOSFET (P-Channel)")
+	(property "Reference" "Q**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "fd7e51e4-da65-4ac6-ba55-2d2eb40f111d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SOT95P260X110-3N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "85bbd91e-777b-443b-9707-e9f77863a513")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6648a267-53e0-4a6e-9145-203ef97cf4ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbd4b8b3-5c06-402e-8b54-f3d536d8ce47")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ab14c13a-b8b5-4c40-b8cb-ee0541446847")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.725 -1.5)
+		(end -0.575 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea47545c-14ba-4987-a54f-ee63593a06bf")
+	)
+	(fp_line
+		(start -0.225 -1.45)
+		(end 0.225 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15a10696-1ac9-4a3f-88d0-14039f61f482")
+	)
+	(fp_line
+		(start -0.225 1.45)
+		(end -0.225 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b7c248d3-c605-4069-8efe-bc62684f8d6e")
+	)
+	(fp_line
+		(start 0.225 -1.45)
+		(end 0.225 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ee33dec-d982-4f4a-b331-c86acdf137ac")
+	)
+	(fp_line
+		(start 0.225 1.45)
+		(end -0.225 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cff7feb2-ee72-42c4-bb10-a4bdfc9c95ba")
+	)
+	(fp_line
+		(start -1.975 -1.75)
+		(end 1.975 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5db5e394-ae75-44b4-8d05-83d7a4d8f3d5")
+	)
+	(fp_line
+		(start -1.975 1.75)
+		(end -1.975 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bc4c0ed2-cd74-474b-b03d-f8d6dfaac282")
+	)
+	(fp_line
+		(start 1.975 -1.75)
+		(end 1.975 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "40ae3ec1-a573-45e6-a91e-7ac6f16c08f4")
+	)
+	(fp_line
+		(start 1.975 1.75)
+		(end -1.975 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d52c8376-288a-43b1-a769-07038b2f800c")
+	)
+	(fp_line
+		(start -0.65 -1.45)
+		(end 0.65 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "43aec83a-dd95-49b2-be4f-0f5ffd04ce70")
+	)
+	(fp_line
+		(start -0.65 -0.5)
+		(end 0.3 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa121408-879d-4167-be70-4800ff7b9e38")
+	)
+	(fp_line
+		(start -0.65 1.45)
+		(end -0.65 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "34904af4-0f42-434d-81b3-327be14abbf9")
+	)
+	(fp_line
+		(start 0.65 -1.45)
+		(end 0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab978525-2cc7-4da4-a6f5-95d2c624ab42")
+	)
+	(fp_line
+		(start 0.65 1.45)
+		(end -0.65 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7210246-ecbf-462a-b054-304c5ae5a53b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "65072be8-6018-4264-937e-c28fc914dd34")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.15 -0.95 90)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0b989fdf-2901-4272-a4d3-1c4389995cb1")
+	)
+	(pad "2" smd rect
+		(at -1.15 0.95 90)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "660b089c-30d2-432b-8e00-6b8855c00455")
+	)
+	(pad "3" smd rect
+		(at 1.15 0 90)
+		(size 0.6 1.15)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "32308b0c-5046-4aed-8251-0c01cf305595")
+	)
+	(model "${EPSA3D}/BSS308PE_H6327.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
