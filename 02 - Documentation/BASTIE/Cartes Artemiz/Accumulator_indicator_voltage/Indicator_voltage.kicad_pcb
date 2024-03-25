@@ -133,6 +133,8 @@
 	(net 12 "Net-(R12-Pad2)")
 	(net 13 "Net-(R13-Pad2)")
 	(net 14 "Net-(R14-Pad1)")
+	(net 15 "unconnected-(PS1-TRIM-Pad4)")
+	(net 16 "unconnected-(PS1-REMOTE_ON{slash}OFF-Pad6)")
 	(footprint "EPSA_lib:RESC3216X70N"
 		(layer "F.Cu")
 		(uuid "29ab16aa-093d-4bcf-b20b-beff2471a463")
@@ -368,6 +370,8 @@
 			)
 		)
 		(path "/ba8a0c9d-b5ce-42f4-81a3-569854ce6d05")
+		(sheetname "Racine")
+		(sheetfile "Indicator_voltage.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -0.7)
@@ -733,6 +737,8 @@
 			)
 		)
 		(path "/8b947b4d-abe7-4008-8040-6c448db9f072")
+		(sheetname "Racine")
+		(sheetfile "Indicator_voltage.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -0.7)
@@ -1098,6 +1104,8 @@
 			)
 		)
 		(path "/b94668e5-3563-4cd5-b294-05838bbc0e37")
+		(sheetname "Racine")
+		(sheetfile "Indicator_voltage.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -0.7)
@@ -1395,6 +1403,8 @@
 			)
 		)
 		(path "/38438eef-c517-4e76-af1f-6e8f486ebd87")
+		(sheetname "Racine")
+		(sheetfile "Indicator_voltage.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.195 -3.1)
@@ -1807,6 +1817,8 @@
 			)
 		)
 		(path "/95daf9e7-32d7-433b-b6f8-daa0307e1e67")
+		(sheetname "Racine")
+		(sheetfile "Indicator_voltage.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -0.7)
@@ -2172,6 +2184,8 @@
 			)
 		)
 		(path "/52d67014-18dd-4558-94e0-39ca6515d3e9")
+		(sheetname "Racine")
+		(sheetfile "Indicator_voltage.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -0.7)
@@ -2311,7 +2325,7 @@
 		(property "Reference" "PS1"
 			(at 8 15.18 180)
 			(layer "F.SilkS")
-			(uuid "3bbe3e42-f2b2-46bf-885b-997723c1f4a7")
+			(uuid "77f37fca-1dab-4817-9ac6-de1a1171bb73")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2323,7 +2337,7 @@
 			(at 8 30.18 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "5f273f21-666e-43e1-8062-1f599c0bef90")
+			(uuid "00a8d36f-e30f-4955-b5a0-f6e49a014195")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2350,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e9a5cc17-b5c0-42aa-9c33-aba364cf49d2")
+			(uuid "dd88e15c-ccc3-4927-9e34-14315fc69f4e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,7 +2362,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "758d3fcf-841f-4bab-b4f8-b17a66df3d91")
+			(uuid "351a1b75-104a-414a-b9b7-1a3eb2626e5b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2360,7 +2374,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "06456ea8-7c6a-4807-897b-0f05e3ea569a")
+			(uuid "f6df8f63-c4c8-484e-a9e7-e3bf81c5ac99")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2433,6 +2447,8 @@
 			)
 		)
 		(path "/9404015f-41c4-4eb4-858c-b8e6d1b1dd00")
+		(sheetname "Racine")
+		(sheetfile "Indicator_voltage.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 32.72 35.56)
@@ -2442,7 +2458,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1a1c0124-769f-4ee4-88f8-2ea2a8761eec")
+			(uuid "3c7f50f7-6a7a-43bb-b5a4-aaef35822994")
 		)
 		(fp_line
 			(start 32.72 10.18)
@@ -2452,7 +2468,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6c12a055-5837-4c58-8ff3-335257383355")
+			(uuid "5deaf5df-2861-4f88-9234-eb38e324abeb")
 		)
 		(fp_line
 			(start -15.5 36.2)
@@ -2462,7 +2478,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0dd7eb39-d2cb-4a06-b2e9-60d9916036be")
+			(uuid "8ac63829-de95-4cb2-9249-7c3ecac950b6")
 		)
 		(fp_line
 			(start -15.5 36.1)
@@ -2472,7 +2488,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "61d68588-6cf5-4f99-9cef-730d2f3a7189")
+			(uuid "5c4ef215-93bc-4304-bca3-ecf2b6a46132")
 		)
 		(fp_line
 			(start -18.08 35.56)
@@ -2482,7 +2498,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d287f525-d25a-45c7-b71f-2a0daf190112")
+			(uuid "13806856-79a5-4ea5-9798-c7d7ddb2aea4")
 		)
 		(fp_line
 			(start -18.08 10.18)
@@ -2492,7 +2508,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "18671f26-2a8c-4a66-8505-7e932346a0a2")
+			(uuid "e1f43f1b-cd79-4017-a799-4b674d6dbdca")
 		)
 		(fp_arc
 			(start -15.5 36.2)
@@ -2503,7 +2519,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "10e4930c-1e89-4ee2-b64f-5584568d04b3")
+			(uuid "efce725f-06f4-4e91-b943-7e25972e4d5c")
 		)
 		(fp_arc
 			(start -15.5 36.1)
@@ -2514,7 +2530,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b77cc381-03fc-493b-9c6e-0649f30a32a5")
+			(uuid "7f4bf660-b68b-4ee9-8b83-4fa08ef576b7")
 		)
 		(fp_line
 			(start 33.72 36.56)
@@ -2524,7 +2540,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3a73abd9-95d8-4110-8c50-cd769c94ade2")
+			(uuid "6faa85ec-c869-4257-b0b7-3c04d3e96f86")
 		)
 		(fp_line
 			(start 33.72 9.16)
@@ -2534,7 +2550,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b6d0c722-c1e4-4ac0-beec-92586c6542d4")
+			(uuid "8d29340a-286e-46a8-a2b2-c974460f6369")
 		)
 		(fp_line
 			(start -19.08 36.56)
@@ -2544,7 +2560,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9f65f2a4-d047-41b1-bdd7-b782755339bf")
+			(uuid "b3db00dd-25a0-4f2e-be7d-27017b3b7713")
 		)
 		(fp_line
 			(start -19.08 9.16)
@@ -2554,7 +2570,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "03910239-2bd9-4f9f-804d-f7387a8346ca")
+			(uuid "3dab5eb7-4ade-4a4f-8cff-4a997f47d154")
 		)
 		(fp_line
 			(start 32.72 35.56)
@@ -2564,7 +2580,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dd15b4be-fd12-4b40-859a-879136f6f736")
+			(uuid "27056919-c871-4358-8a90-71bced757e0a")
 		)
 		(fp_line
 			(start 32.72 10.16)
@@ -2574,7 +2590,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "af3689b5-cba7-40b6-ac7b-0ca45c762fcd")
+			(uuid "37d17c5e-77ac-4b34-af07-c6b9b43ebda9")
 		)
 		(fp_line
 			(start -18.08 35.56)
@@ -2584,7 +2600,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "15dbdf47-1db5-4f30-afa0-a01ce3a8c2f9")
+			(uuid "7205176d-3777-4c41-b03f-8b53c1e1731a")
 		)
 		(fp_line
 			(start -18.08 10.16)
@@ -2594,12 +2610,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "603002a6-ec9e-4fc8-9847-19cfac409ada")
+			(uuid "ce1b29fe-6dab-430e-aab2-e6470faec973")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 8 22 180)
 			(layer "F.Fab")
-			(uuid "ff556476-daa9-45d6-b87a-cd06c683c4cc")
+			(uuid "46335ae4-a0d3-4671-9a8a-0ec2143ea0b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +2632,7 @@
 			(net 6 "/150V")
 			(pinfunction "+V_INPUT")
 			(pintype "passive")
-			(uuid "08932638-ee76-4b7d-b265-feda03e8884c")
+			(uuid "91f74ef8-7b44-4a56-90a2-3157ca309038")
 		)
 		(pad "2" thru_hole circle
 			(at -15.5 25.42 270)
@@ -2627,7 +2643,7 @@
 			(net 2 "0")
 			(pinfunction "-V_INPUT")
 			(pintype "passive")
-			(uuid "d40ac111-f7b7-4777-a445-925bb0cb63a8")
+			(uuid "0424adaf-59fa-4111-ae21-6a0703351a99")
 		)
 		(pad "3" thru_hole circle
 			(at 30.22 33.04 270)
@@ -2638,7 +2654,7 @@
 			(net 7 "12V")
 			(pinfunction "+V_OUTPUT")
 			(pintype "passive")
-			(uuid "57f2b5c8-b586-461c-a292-e9664fdaace6")
+			(uuid "c6a69e78-554c-42fe-a1d0-edb87a76185b")
 		)
 		(pad "4" thru_hole circle
 			(at 30.22 12.72 270)
@@ -2646,10 +2662,10 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "0")
+			(net 15 "unconnected-(PS1-TRIM-Pad4)")
 			(pinfunction "TRIM")
 			(pintype "passive")
-			(uuid "c7964186-2ef1-4a38-91e6-e5bdf9707a02")
+			(uuid "3d8209c7-6351-4f3d-bd65-4723985288ce")
 		)
 		(pad "5" thru_hole circle
 			(at 30.22 22.88 270)
@@ -2660,7 +2676,7 @@
 			(net 2 "0")
 			(pinfunction "-V_OUTPUT")
 			(pintype "passive")
-			(uuid "a6beb508-44c8-46a1-876e-3aabc8a4959f")
+			(uuid "9649dcd4-f95c-4d4e-8f64-a60bef2fb788")
 		)
 		(pad "6" thru_hole circle
 			(at -15.5 15.26 270)
@@ -2668,10 +2684,10 @@
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 2 "0")
+			(net 16 "unconnected-(PS1-REMOTE_ON{slash}OFF-Pad6)")
 			(pinfunction "REMOTE_ON/OFF")
 			(pintype "passive")
-			(uuid "4dc21978-24d8-4f99-8594-5e589545af9e")
+			(uuid "bb2d41e7-4b2e-4f5a-89c4-c2febaec680c")
 		)
 		(model "${EPSA}/3Dmodel/EC7BW18-72S12.stp"
 			(offset
@@ -2920,6 +2936,8 @@
 			)
 		)
 		(path "/8283669b-bd3b-475a-96ad-66a25836bad0")
+		(sheetname "Racine")
+		(sheetfile "Indicator_voltage.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -0.7)
@@ -3285,6 +3303,8 @@
 			)
 		)
 		(path "/12dcfe7b-abea-46b7-8801-46fad344d4e5")
+		(sheetname "Racine")
+		(sheetfile "Indicator_voltage.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -0.7)
@@ -3708,6 +3728,8 @@
 			)
 		)
 		(path "/ef307db1-e6ac-44c5-8113-11aafb0b2026")
+		(sheetname "Racine")
+		(sheetfile "Indicator_voltage.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.7 -1.5)
@@ -4131,6 +4153,8 @@
 			)
 		)
 		(path "/d6f59b25-bd0c-4b34-b277-957290ddfe2c")
+		(sheetname "Racine")
+		(sheetfile "Indicator_voltage.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -0.7)
@@ -4364,7 +4388,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/86ba3744-1226-4b6b-9934-bb27a8c68e2b")
+		(sheetname "Racine")
+		(sheetfile "Indicator_voltage.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start -2.55 -2.5)
@@ -4687,6 +4714,8 @@
 			)
 		)
 		(path "/b2333d69-5668-478f-9587-bba535e05858")
+		(sheetname "Racine")
+		(sheetfile "Indicator_voltage.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -0.7)
@@ -5123,6 +5152,8 @@
 			)
 		)
 		(path "/cc168798-8931-4984-a994-eed144d17f99")
+		(sheetname "Racine")
+		(sheetfile "Indicator_voltage.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -0.7)
@@ -5488,6 +5519,8 @@
 			)
 		)
 		(path "/f9adf745-d417-44ff-b17a-926f64d2dad2")
+		(sheetname "Racine")
+		(sheetfile "Indicator_voltage.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -0.7)
@@ -5721,7 +5754,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/ca2581e9-c515-43ff-ac6a-cfc742bcccd0")
+		(sheetname "Racine")
+		(sheetfile "Indicator_voltage.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start -2.55 -2.5)
@@ -6115,6 +6151,8 @@
 			)
 		)
 		(path "/084e2dab-3df2-45a0-b0cd-158a18fb58d7")
+		(sheetname "Racine")
+		(sheetfile "Indicator_voltage.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -0.7)
@@ -6467,6 +6505,8 @@
 			)
 		)
 		(path "/168ca7cb-1b64-468d-83ed-e654339fdad1")
+		(sheetname "Racine")
+		(sheetfile "Indicator_voltage.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.875 -1.5)
@@ -6911,6 +6951,8 @@
 			)
 		)
 		(path "/bac5a1af-1abe-403e-98a5-aa3f1b9eb0d9")
+		(sheetname "Racine")
+		(sheetfile "Indicator_voltage.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -0.7)
@@ -7129,14 +7171,6 @@
 		(uuid "d964c2c4-9561-4c8d-8c8b-d3f80a323434")
 	)
 	(segment
-		(start 106.85 113.71)
-		(end 110.6 117.46)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "089dd6a7-ce80-4414-813e-cbdccebaf706")
-	)
-	(segment
 		(start 94.05 124.55)
 		(end 94 124.5)
 		(width 0.6)
@@ -7153,12 +7187,20 @@
 		(uuid "13c816b4-b405-40ae-a543-9e457dc17818")
 	)
 	(segment
-		(start 137.53 114.92)
-		(end 128 124.45)
+		(start 104.95 112.05)
+		(end 105.85 112.05)
 		(width 0.6)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "24e6294a-3c01-465f-ad66-f7e63d5ecd88")
+		(uuid "22fa2f8b-0062-4156-baa1-c76f9864d06b")
+	)
+	(segment
+		(start 105.85 118.225)
+		(end 110.6 122.975)
+		(width 0.6)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "2f990959-a570-42d3-821a-15a94d05afc0")
 	)
 	(segment
 		(start 98.5 124.55)
@@ -7167,14 +7209,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "33ac4820-87f4-4a3f-a73e-42033cf08eed")
-	)
-	(segment
-		(start 156.32 114.92)
-		(end 137.53 114.92)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "351785fe-c3cd-4364-9b07-ebd58d0350a5")
 	)
 	(segment
 		(start 98.5 124.55)
@@ -7193,20 +7227,12 @@
 		(uuid "570ce16b-408d-4cb4-8998-1ab4c9d7f67c")
 	)
 	(segment
-		(start 104.95 112.05)
-		(end 105.85 112.05)
+		(start 105.85 112.05)
+		(end 110.6 107.3)
 		(width 0.6)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "6d59cc01-1935-4990-a04b-df3ea958356f")
-	)
-	(segment
-		(start 110.6 117.46)
-		(end 110.6 122.975)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "6edf7654-83ef-47bb-badc-aae875f546ea")
+		(uuid "6d109c4c-b6d4-4d1b-bc24-43aa538b5147")
 	)
 	(segment
 		(start 159.16 107.6)
@@ -7217,20 +7243,12 @@
 		(uuid "6ff04883-12fd-493f-9cf2-16c6c26dfd89")
 	)
 	(segment
-		(start 162.5 108.74)
-		(end 156.32 114.92)
+		(start 147.69 104.76)
+		(end 128 124.45)
 		(width 0.6)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "7955c4ed-576b-4f1d-ad4f-f1ef79abb767")
-	)
-	(segment
-		(start 106.85 111.05)
-		(end 110.6 107.3)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "87ba6029-788c-49c9-b1ff-afc25d911d60")
+		(uuid "85197b06-d657-415f-98b3-3738a5c188ed")
 	)
 	(segment
 		(start 162.5 107.6)
@@ -7249,12 +7267,12 @@
 		(uuid "a1941843-8e2f-490d-952b-51809a7c64d6")
 	)
 	(segment
-		(start 105.85 112.05)
-		(end 106.85 111.05)
+		(start 156.32 104.76)
+		(end 147.69 104.76)
 		(width 0.6)
 		(layer "F.Cu")
 		(net 2)
-		(uuid "ca3d6a3f-d961-4d88-96b4-b9dcad17fe48")
+		(uuid "c3f0bf20-3f74-42d9-ae3b-c92e809a3fa5")
 	)
 	(segment
 		(start 97.95 127.5)
@@ -7281,14 +7299,6 @@
 		(uuid "d417ec13-a958-4528-a4f7-78f5b137cd9b")
 	)
 	(segment
-		(start 106.85 111.05)
-		(end 106.85 113.71)
-		(width 0.6)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "de80cde2-f22d-4809-ad92-2aeef0957d64")
-	)
-	(segment
 		(start 112.2 124)
 		(end 127.55 124)
 		(width 0.6)
@@ -7303,6 +7313,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "e180ac31-3904-4053-81dc-cedd5e0fc684")
+	)
+	(segment
+		(start 105.85 112.05)
+		(end 105.85 118.225)
+		(width 0.6)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "ebf505e7-a27f-487f-8812-41aa22222a2e")
 	)
 	(segment
 		(start 106.5 127.5)
