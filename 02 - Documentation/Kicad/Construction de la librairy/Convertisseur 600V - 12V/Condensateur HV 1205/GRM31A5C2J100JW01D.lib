@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model GRM31A5C2J100JW01D
+#/408661/1357958/2.50/2/2/Capacitor
+DEF GRM31A5C2J100JW01D C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "GRM31A5C2J100JW01D" 350 150 50 H V L CNN
+F2 "CAPC3216X100N" 350 50 50 H I L CNN
+F3 "https://psearch.en.murata.com/capacitor/product/GRM31A5C2J100JW01%23.html" 350 -50 50 H I L CNN
+F4 "Capacitor GRM31_0.20 L=3.2mm W=1.6mm T=1.0mm" 350 -150 50 H I L CNN "Description"
+F5 "1" 350 -250 50 H I L CNN "Height"
+F6 "81-GRM31A5C2J100JW1D" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM31A5C2J100JW01D?qs=18WYLvqSxEqgP%2FN9N3NKJQ%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Murata Electronics" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "GRM31A5C2J100JW01D" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library
