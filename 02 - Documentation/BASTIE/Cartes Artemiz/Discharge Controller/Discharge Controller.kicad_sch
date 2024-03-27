@@ -5500,7 +5500,7 @@
 		(uuid "fadb61eb-b310-44f6-93c2-c05631ef0b2d")
 	)
 	(rectangle
-		(start 66.04 48.26)
+		(start 64.516 48.26)
 		(end 110.49 66.04)
 		(stroke
 			(width 0)
@@ -5610,6 +5610,17 @@
 			)
 		)
 		(uuid "af33612a-add9-47c4-9274-876027dd3249")
+	)
+	(label "SC in"
+		(at 82.55 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18ece836-badf-4665-a38c-82e09dd9c7ba")
 	)
 	(label "Relay_Closed"
 		(at 88.9 90.17 180)
@@ -5744,6 +5755,17 @@
 		(uuid "918b112f-fa96-4050-b54b-73deb5d05cd0")
 	)
 	(label "Raw_Relay_Closed"
+		(at 82.55 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b82369be-0b8f-409a-a083-de07c01227a8")
+	)
+	(label "Raw_Relay_Closed"
 		(at 43.18 93.98 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5776,17 +5798,6 @@
 		)
 		(uuid "db1e523f-b323-45cd-84b6-face1ebdc4d5")
 	)
-	(label "SC in"
-		(at 82.55 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ec4c32c5-f5d9-4985-94cc-f56e27e4aed6")
-	)
 	(label "SC out"
 		(at 254 101.6 0)
 		(fields_autoplaced yes)
@@ -5808,17 +5819,6 @@
 			(justify left bottom)
 		)
 		(uuid "fd98713e-a094-4281-b42a-33d65d84031b")
-	)
-	(label "Raw_Relay_On"
-		(at 82.55 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ffdf7a1b-8eb1-4db4-914c-fbac8e5349d7")
 	)
 	(symbol
 		(lib_id "power:GND")

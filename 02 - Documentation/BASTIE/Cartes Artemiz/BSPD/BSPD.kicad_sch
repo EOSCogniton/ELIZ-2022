@@ -7375,6 +7375,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 125.73) (xy 262.89 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cb50168-d4db-464a-9f45-3cbb0636878a")
+	)
+	(wire
+		(pts
 			(xy 160.02 92.71) (xy 160.02 95.25)
 		)
 		(stroke
@@ -7843,6 +7853,16 @@
 		)
 		(uuid "3ac965b8-03a8-45eb-aee4-18f2fc42bea7")
 	)
+	(wire
+		(pts
+			(xy 255.27 133.35) (xy 255.27 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad8eb19-e781-4708-a974-0b4ea7c1d2a4")
+	)
 	(polyline
 		(pts
 			(xy 163.83 198.12) (xy 15.24 198.12)
@@ -7912,6 +7932,16 @@
 			(type default)
 		)
 		(uuid "3ebe666f-c9df-4169-a7a9-5a6711e1db09")
+	)
+	(wire
+		(pts
+			(xy 255.27 134.62) (xy 252.73 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f8b0753-e5b7-4f14-9cdb-b841e8cbfccc")
 	)
 	(wire
 		(pts
@@ -8283,16 +8313,6 @@
 		)
 		(uuid "5d65fa58-a81f-4464-a246-96de21fa2ff2")
 	)
-	(wire
-		(pts
-			(xy 252.73 116.84) (xy 255.27 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d743549-afde-4acf-aa64-c25a7846853e")
-	)
 	(polyline
 		(pts
 			(xy 212.09 49.53) (xy 284.48 49.53)
@@ -8462,6 +8482,16 @@
 			(type default)
 		)
 		(uuid "6a09f1b5-1ca3-43e0-a1e7-45a80acc2b7d")
+	)
+	(wire
+		(pts
+			(xy 254 113.03) (xy 255.27 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b110ae4-b527-4633-9ec6-93dcce6624db")
 	)
 	(wire
 		(pts
@@ -8725,7 +8755,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 102.87) (xy 46.99 102.87)
+			(xy 54.61 102.87) (xy 49.53 102.87)
 		)
 		(stroke
 			(width 0)
@@ -8745,7 +8775,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 102.87) (xy 41.91 101.6)
+			(xy 54.61 102.87) (xy 54.61 100.33)
 		)
 		(stroke
 			(width 0)
@@ -8992,16 +9022,6 @@
 			(type default)
 		)
 		(uuid "8fc138f1-27f4-42a2-9b6c-612558d7e6e2")
-	)
-	(wire
-		(pts
-			(xy 261.62 125.73) (xy 262.89 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90cf2264-ac3a-4f60-9dc9-7abff9ef292a")
 	)
 	(wire
 		(pts
@@ -9362,6 +9382,16 @@
 			(type default)
 		)
 		(uuid "b0e59655-5198-40b6-ad24-210b2cef8f9b")
+	)
+	(wire
+		(pts
+			(xy 260.35 125.73) (xy 262.89 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b21ecdb2-5882-45e5-bc34-a365fd852e70")
 	)
 	(wire
 		(pts
@@ -10285,16 +10315,6 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 125.73) (xy 262.89 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd240570-cdf9-47bc-af4e-2a5b64cd5649")
-	)
-	(wire
-		(pts
 			(xy 245.11 77.47) (xy 245.11 78.74)
 		)
 		(stroke
@@ -10302,16 +10322,6 @@
 			(type default)
 		)
 		(uuid "feb79967-461c-4606-aef5-a3f0884c1a9f")
-	)
-	(wire
-		(pts
-			(xy 255.27 116.84) (xy 255.27 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffca2dc6-3904-43b2-9eec-26283f326884")
 	)
 	(rectangle
 		(start 210.82 87.63)
@@ -10490,6 +10500,17 @@
 		(uuid "0785f7a2-5e5e-4aaa-873e-25ef5684da63")
 	)
 	(label "0.75V"
+		(at 260.35 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "330f5742-8931-4179-abdf-2c26bff796da")
+	)
+	(label "0.75V"
 		(at 215.9 118.11 0)
 		(fields_autoplaced yes)
 		(effects
@@ -10500,8 +10521,8 @@
 		)
 		(uuid "41312aca-b0ec-4762-ae2b-2fc9560e4ca2")
 	)
-	(label "0.75V"
-		(at 252.73 116.84 180)
+	(label "4.25V"
+		(at 254 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10509,10 +10530,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "75482082-a06f-4139-9ff0-c1d4aaedf66c")
+		(uuid "942b5b24-9c49-44c4-893a-5336295488bc")
 	)
 	(label "0.75V"
-		(at 261.62 125.73 180)
+		(at 252.73 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10520,7 +10541,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "b3d471c8-4694-4ab3-9d3b-c0f27b22926b")
+		(uuid "cef6928b-13be-49bb-ba2c-3594b4d8d656")
 	)
 	(label "4.25V"
 		(at 224.79 118.11 0)
@@ -10532,17 +10553,6 @@
 			(justify left bottom)
 		)
 		(uuid "e62901e8-ebcf-40be-8620-91db3d43fc6b")
-	)
-	(label "4.25V"
-		(at 254 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "edb8afe7-e868-49fb-90cc-edc1df84d631")
 	)
 	(global_label "SC"
 		(shape input)
@@ -10584,6 +10594,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Current Sensor IN"
+		(shape input)
+		(at 254 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "291bcc75-77a6-440c-bfa4-b4dc15f713e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.7792 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10986,7 +11018,7 @@
 	)
 	(global_label "BPS Signal"
 		(shape input)
-		(at 255.27 113.03 180)
+		(at 262.89 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10994,9 +11026,9 @@
 			)
 			(justify right)
 		)
-		(uuid "827c29d8-5686-4763-876d-07d35de3b11a")
+		(uuid "7dba127b-815d-4a4f-9757-0d281fdc86e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.6412 113.03 0)
+			(at 249.2612 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11138,28 +11170,6 @@
 			)
 		)
 	)
-	(global_label "BPS Signal"
-		(shape input)
-		(at 255.27 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ad2ed2a8-2061-42a3-ac4c-72c8b732268b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.6412 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Raw BPS Signal"
 		(shape input)
 		(at 44.45 106.68 0)
@@ -11222,28 +11232,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Current Sensor IN"
-		(shape input)
-		(at 262.89 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cd17cfe3-9071-405a-b93f-c53965c48a36")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.6692 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -11371,6 +11359,28 @@
 		(uuid "f5c715e8-b7a6-41c1-a6f1-294ef8666c5e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 283.21 146.9183 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BPS Signal"
+		(shape input)
+		(at 255.27 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9947f9f-72c4-4b2a-a5f9-4e0f91c530c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.6412 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12044,85 +12054,6 @@
 			(project "BSPD"
 				(path "/53018f2f-ebd5-40f5-b48c-4f49e6ef5d44"
 					(reference "#GND014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 275.59 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08644ddd-b895-473b-be15-1a3e568eb090")
-		(property "Reference" "#GND035"
-			(at 278.13 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 279.4 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.59 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 275.59 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 275.59 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f10a33b-ef9a-4fa0-9385-99393c6e7f0e")
-		)
-		(instances
-			(project "BSPD"
-				(path "/53018f2f-ebd5-40f5-b48c-4f49e6ef5d44"
-					(reference "#GND035")
-					(unit 1)
-				)
-			)
-			(project "AMS_IMD_Reset"
-				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
-					(reference "#GND030")
-					(unit 1)
-				)
-			)
-			(project "Discharge Controller"
-				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
-					(reference "#GND06")
 					(unit 1)
 				)
 			)
@@ -13870,6 +13801,71 @@
 		)
 	)
 	(symbol
+		(lib_id "pspice:0")
+		(at 275.59 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21bf55eb-2d12-4290-a467-340f15deaf59")
+		(property "Reference" "#GND035"
+			(at 278.13 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 276.86 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "320d9e4b-60a0-4f13-b66b-61eef9701d7d")
+		)
+		(instances
+			(project "BSPD"
+				(path "/53018f2f-ebd5-40f5-b48c-4f49e6ef5d44"
+					(reference "#GND035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 34.29 52.07 0)
 		(unit 1)
@@ -14605,84 +14601,6 @@
 			(project "BSPD"
 				(path "/53018f2f-ebd5-40f5-b48c-4f49e6ef5d44"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 223.52 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c6512f1-4e00-4e49-9136-ba52818a0de9")
-		(property "Reference" "#GND032"
-			(at 223.52 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 223.52 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 223.52 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca7cea84-4bb6-4813-bbe0-c165ec91abaf")
-		)
-		(instances
-			(project "BSPD"
-				(path "/53018f2f-ebd5-40f5-b48c-4f49e6ef5d44"
-					(reference "#GND032")
-					(unit 1)
-				)
-			)
-			(project "AMS_IMD_Reset"
-				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
-					(reference "#GND026")
-					(unit 1)
-				)
-			)
-			(project "Discharge Controller"
-				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
-					(reference "#GND08")
 					(unit 1)
 				)
 			)
@@ -19239,84 +19157,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 215.9 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f4c9057-20b0-4878-8120-65628f58d8dd")
-		(property "Reference" "#GND034"
-			(at 215.9 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.9 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b1fcb47-3206-45cb-b7fb-14dd4e273ba7")
-		)
-		(instances
-			(project "BSPD"
-				(path "/53018f2f-ebd5-40f5-b48c-4f49e6ef5d44"
-					(reference "#GND034")
-					(unit 1)
-				)
-			)
-			(project "AMS_IMD_Reset"
-				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
-					(reference "#GND030")
-					(unit 1)
-				)
-			)
-			(project "Discharge Controller"
-				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
-					(reference "#GND05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pspice:0")
 		(at 29.21 21.59 0)
 		(unit 1)
@@ -20908,6 +20748,71 @@
 		)
 	)
 	(symbol
+		(lib_id "pspice:0")
+		(at 275.59 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8ac04649-996a-4a9e-b7a8-100486be5fac")
+		(property "Reference" "#GND029"
+			(at 278.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 276.86 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 275.59 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5384098-5f00-4e80-b4b6-987b70590e32")
+		)
+		(instances
+			(project "BSPD"
+				(path "/53018f2f-ebd5-40f5-b48c-4f49e6ef5d44"
+					(reference "#GND029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EPSA_lib:3P Droit 22-11-2032")
 		(at 25.4 91.44 90)
 		(unit 1)
@@ -22400,6 +22305,71 @@
 		)
 	)
 	(symbol
+		(lib_id "pspice:0")
+		(at 234.95 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9dc01bf5-665a-4997-af26-146d12e076c8")
+		(property "Reference" "#GND031"
+			(at 234.95 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 236.22 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 234.95 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59c92abb-a116-41de-9f15-69a09bd75dec")
+		)
+		(instances
+			(project "BSPD"
+				(path "/53018f2f-ebd5-40f5-b48c-4f49e6ef5d44"
+					(reference "#GND031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EPSA_lib:Condensateur 0805Y1000104JXT")
 		(at 87.63 182.88 270)
 		(unit 1)
@@ -22722,71 +22692,6 @@
 			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pspice:0")
-		(at 49.53 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a180f59e-7d61-42e1-8318-ae44596e66f7")
-		(property "Reference" "#GND015"
-			(at 49.53 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 50.8 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d1b1144-03dd-4804-917d-3e093514c51c")
-		)
-		(instances
-			(project "BSPD"
-				(path "/53018f2f-ebd5-40f5-b48c-4f49e6ef5d44"
-					(reference "#GND015")
 					(unit 1)
 				)
 			)
@@ -23400,7 +23305,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 41.91 101.6 0)
+		(at 54.61 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23408,7 +23313,7 @@
 		(dnp no)
 		(uuid "b1c161e0-c9e0-49b8-a21f-e45fe0ad2190")
 		(property "Reference" "#PWR011"
-			(at 41.91 105.41 0)
+			(at 54.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23417,7 +23322,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 38.1 97.79 0)
+			(at 50.8 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23426,7 +23331,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 101.6 0)
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23435,7 +23340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 101.6 0)
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23444,7 +23349,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 101.6 0)
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24849,6 +24754,71 @@
 			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:0")
+		(at 46.99 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c30517fa-5d20-46ab-a26d-5ab244e1a524")
+		(property "Reference" "#GND015"
+			(at 46.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 48.26 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afbb0172-23bd-42b8-b90d-96dde2a3738b")
+		)
+		(instances
+			(project "BSPD"
+				(path "/53018f2f-ebd5-40f5-b48c-4f49e6ef5d44"
+					(reference "#GND015")
 					(unit 1)
 				)
 			)
@@ -26418,6 +26388,71 @@
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "U3")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:0")
+		(at 223.52 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2649460-9061-4bac-8972-68c741e8fb3a")
+		(property "Reference" "#GND034"
+			(at 223.52 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 224.79 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 223.52 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cfd54b7f-94ce-4976-8505-02c2bcfade05")
+		)
+		(instances
+			(project "BSPD"
+				(path "/53018f2f-ebd5-40f5-b48c-4f49e6ef5d44"
+					(reference "#GND034")
+					(unit 1)
 				)
 			)
 		)
@@ -28480,84 +28515,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 234.95 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e21819a5-ca5d-4076-a701-e90510b37805")
-		(property "Reference" "#GND033"
-			(at 234.95 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 234.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 234.95 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 234.95 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 234.95 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6bf45b4-b907-42a1-bb63-e2e914cda06e")
-		)
-		(instances
-			(project "BSPD"
-				(path "/53018f2f-ebd5-40f5-b48c-4f49e6ef5d44"
-					(reference "#GND033")
-					(unit 1)
-				)
-			)
-			(project "AMS_IMD_Reset"
-				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
-					(reference "#GND030")
-					(unit 1)
-				)
-			)
-			(project "Discharge Controller"
-				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
-					(reference "#GND05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EPSA_lib:Condensateur 0805Y1000104JXT")
 		(at 36.83 182.88 270)
 		(unit 1)
@@ -29395,17 +29352,16 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 275.59 100.33 90)
+		(lib_id "pspice:0")
+		(at 215.9 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea3e3ccb-fecf-4c39-ba8f-c1cf55e1bb77")
-		(property "Reference" "#GND037"
-			(at 278.13 100.33 0)
+		(uuid "ec10229a-2f43-47fa-bd92-f83c9b85b8e6")
+		(property "Reference" "#GND032"
+			(at 215.9 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29413,17 +29369,16 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 279.4 100.33 90)
+		(property "Value" "0"
+			(at 217.17 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 275.59 100.33 0)
+			(at 215.9 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29432,7 +29387,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 275.59 100.33 0)
+			(at 215.9 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29441,7 +29396,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 275.59 100.33 0)
+			(at 215.9 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29450,102 +29405,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "15ce76cf-a379-4ead-9c5e-0fb0a385aa64")
+			(uuid "e3f24a69-b6ae-455f-be6e-7a1780457f35")
 		)
 		(instances
 			(project "BSPD"
 				(path "/53018f2f-ebd5-40f5-b48c-4f49e6ef5d44"
-					(reference "#GND037")
-					(unit 1)
-				)
-			)
-			(project "AMS_IMD_Reset"
-				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
-					(reference "#GND030")
-					(unit 1)
-				)
-			)
-			(project "Discharge Controller"
-				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
-					(reference "#GND06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 214.63 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea8dfbc3-61af-49ed-8900-5bc786bb2055")
-		(property "Reference" "#GND031"
-			(at 214.63 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 214.63 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 214.63 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7266783-6513-4e41-8ba2-44a1e364fd8d")
-		)
-		(instances
-			(project "BSPD"
-				(path "/53018f2f-ebd5-40f5-b48c-4f49e6ef5d44"
-					(reference "#GND031")
-					(unit 1)
-				)
-			)
-			(project "AMS_IMD_Reset"
-				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
-					(reference "#GND025")
-					(unit 1)
-				)
-			)
-			(project "Discharge Controller"
-				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
-					(reference "#GND07")
+					(reference "#GND032")
 					(unit 1)
 				)
 			)
@@ -30280,6 +30145,71 @@
 			(project "BSPD"
 				(path "/53018f2f-ebd5-40f5-b48c-4f49e6ef5d44"
 					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:0")
+		(at 214.63 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f2779657-eb1d-4589-9d51-e7327d12dff8")
+		(property "Reference" "#GND033"
+			(at 214.63 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 215.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91f5b354-025d-46b2-aebb-be239f038076")
+		)
+		(instances
+			(project "BSPD"
+				(path "/53018f2f-ebd5-40f5-b48c-4f49e6ef5d44"
+					(reference "#GND033")
 					(unit 1)
 				)
 			)
