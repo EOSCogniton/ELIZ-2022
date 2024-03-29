@@ -1482,6 +1482,287 @@
 				)
 			)
 		)
+		(symbol "EPSA_Lib:Gate NAND SN74AHCT1G00DBVR"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "G"
+				(at 2.54 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Gate NAND SN74AHCT1G00DBVR"
+				(at 35.56 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "EPSA_lib:SOT95P280X145-5N"
+				(at 35.56 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahct1g00"
+				(at 35.56 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single 2-Input Positive-NAND Gate"
+				(at 35.56 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "4=1 1=2 2=3 5=4 3=5"
+				(at 55.88 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "SPICE"
+				(at 39.37 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Params" "type=\"X\" model=\"SN74AHCT1G00\" lib=\"${EPSA_lib}\\SpiceModel\\NAND_SN74AHCT1G00.lib\""
+				(at 78.74 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 35.56 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 35.56 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SN74AHCT1G00DBVR"
+				(at 35.56 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-SN74AHCT1G00DBVR"
+				(at 35.56 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G00DBVR?qs=w32V8uFkMxnwwXcMH%2F61Dg%3D%3D"
+				(at 35.56 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "SN74AHCT1G00DBVR"
+				(at 35.56 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahct1g00dbvr/texas-instruments"
+				(at 35.56 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "Gate NAND"
+				(at -2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Gate NAND SN74AHCT1G00DBVR_1_1"
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 0 -2.54) (xy 0 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.1025 -2.54)
+					(mid 7.6201 0)
+					(end 5.1025 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 1.27 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -3.81 -1.27 0)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 11.43 0 180)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 5.08 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "EPSA_Lib:Gate OR SN74AHCT1G32DBVR"
 			(pin_names
 				(offset 0.762)
@@ -4499,6 +4780,12 @@
 		(uuid "3668273f-51fc-4ec8-b89a-c7556098ae89")
 	)
 	(junction
+		(at 69.85 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4276362b-65b5-4bcf-81e9-c4eabbe42322")
+	)
+	(junction
 		(at 142.24 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4541,22 +4828,10 @@
 		(uuid "789a499f-8d60-465f-84dd-27e7ec0b3621")
 	)
 	(junction
-		(at 69.85 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7c96a6e9-4410-4d24-8518-6ae134911a94")
-	)
-	(junction
 		(at 52.07 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8513274b-ccf5-4457-8e71-50b9011721d9")
-	)
-	(junction
-		(at 66.04 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8acff877-2126-4fb7-88f6-09c8db56df01")
 	)
 	(junction
 		(at 34.29 167.64)
@@ -4569,6 +4844,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f05ab89-392a-4480-8b8c-63ea382b101c")
+	)
+	(junction
+		(at 66.04 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92ea4b3f-4981-45e6-bfba-b3382d67f0ac")
 	)
 	(junction
 		(at 63.5 43.18)
@@ -4666,7 +4947,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 22.86) (xy 46.99 22.86)
+			(xy 46.99 22.86) (xy 66.04 22.86)
 		)
 		(stroke
 			(width 0)
@@ -4773,16 +5054,6 @@
 			(type default)
 		)
 		(uuid "0e1cd838-4d59-45ce-a05d-27c2161b26da")
-	)
-	(wire
-		(pts
-			(xy 76.2 22.86) (xy 69.85 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f4d5412-f82e-4f55-baa9-49a113e5d74f")
 	)
 	(wire
 		(pts
@@ -4923,6 +5194,16 @@
 			(type default)
 		)
 		(uuid "217221f7-5d9c-4e5f-b93d-4d9ba9ef8946")
+	)
+	(wire
+		(pts
+			(xy 66.04 22.86) (xy 69.85 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2667cc69-11c2-4d65-937c-5c91d6618b88")
 	)
 	(wire
 		(pts
@@ -5113,6 +5394,16 @@
 			(type default)
 		)
 		(uuid "47b819c9-b2c9-4883-97b7-f98c192229ee")
+	)
+	(wire
+		(pts
+			(xy 69.85 20.32) (xy 69.85 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d95a811-c5e1-4951-a59e-df28ba6d61ca")
 	)
 	(wire
 		(pts
@@ -5516,6 +5807,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 19.05) (xy 66.04 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cd36723-bf29-473e-b7d7-2d65cb389e37")
+	)
+	(wire
+		(pts
 			(xy 160.02 71.12) (xy 171.45 71.12)
 		)
 		(stroke
@@ -5563,6 +5864,16 @@
 			(type default)
 		)
 		(uuid "9527e61c-e59a-45b7-92fd-c86e1ea895ec")
+	)
+	(wire
+		(pts
+			(xy 69.85 33.02) (xy 76.2 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c449da6-0f09-4176-87c3-39b08285e1d0")
 	)
 	(wire
 		(pts
@@ -5616,16 +5927,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 19.05) (xy 66.04 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4b8035b-167c-45b1-869c-52435dede7c9")
-	)
-	(wire
-		(pts
 			(xy 191.77 50.8) (xy 191.77 58.42)
 		)
 		(stroke
@@ -5673,16 +5974,6 @@
 			(type default)
 		)
 		(uuid "afaa4fad-6867-450e-9788-600303afa39a")
-	)
-	(wire
-		(pts
-			(xy 76.2 30.48) (xy 69.85 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b07dd8fb-a127-42d4-b4f8-2b582238c4ee")
 	)
 	(polyline
 		(pts
@@ -5753,6 +6044,16 @@
 			(type default)
 		)
 		(uuid "ba9fc79d-865c-4567-8abd-a312739e542e")
+	)
+	(wire
+		(pts
+			(xy 76.2 20.32) (xy 69.85 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd9ebd4e-37f8-4739-a8ce-4ea0c227e0b4")
 	)
 	(wire
 		(pts
@@ -5876,7 +6177,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 22.86) (xy 69.85 30.48)
+			(xy 69.85 22.86) (xy 69.85 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6154,16 +6455,6 @@
 		)
 		(uuid "fd6c0b64-7046-46a0-8e50-a8940f1b2f55")
 	)
-	(wire
-		(pts
-			(xy 69.85 22.86) (xy 66.04 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe59d4b4-9af1-45ee-bdb6-9bdf909448e9")
-	)
 	(polyline
 		(pts
 			(xy 123.19 97.79) (xy 123.19 60.96)
@@ -6363,7 +6654,7 @@
 		)
 		(uuid "25c551c9-4c81-47fb-a62f-110367192062")
 	)
-	(label "Raw_IMD_Error"
+	(label "Raw_IMD_OK"
 		(at 60.96 118.11 90)
 		(fields_autoplaced yes)
 		(effects
@@ -6374,7 +6665,7 @@
 		)
 		(uuid "2e57a26f-9088-454b-9a25-33b386df8f30")
 	)
-	(label "IMD_SCS_Failure"
+	(label "IMD_SCS_Compliance"
 		(at 144.78 33.02 180)
 		(fields_autoplaced yes)
 		(effects
@@ -6395,6 +6686,17 @@
 			(justify left bottom)
 		)
 		(uuid "345bae4d-bf61-4e54-ac09-3084f7aeb589")
+	)
+	(label "0.75V"
+		(at 76.2 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a3d7af6-26d5-4734-b183-d5f4ac9fe8b1")
 	)
 	(label "SC out"
 		(at 231.14 134.62 180)
@@ -6429,7 +6731,7 @@
 		)
 		(uuid "45306163-eb56-477e-a222-4928bd782d10")
 	)
-	(label "IMD_Error"
+	(label "IMD_OK"
 		(at 52.07 22.86 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6473,18 +6775,7 @@
 		)
 		(uuid "54515dc2-506a-4f5b-9179-c2cf6a09ad24")
 	)
-	(label "4.25V"
-		(at 76.2 33.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5592833c-3dc2-4b89-8c58-e6454ee5dabe")
-	)
-	(label "IMD_SCS_Failure"
+	(label "IMD_SCS_Compliance"
 		(at 104.14 21.59 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6539,7 +6830,7 @@
 		)
 		(uuid "7421a19c-1024-4d26-af9a-6ddd2cb29368")
 	)
-	(label "Raw_IMD_Error"
+	(label "Raw_IMD_OK"
 		(at 19.05 21.59 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6549,6 +6840,17 @@
 			(justify left bottom)
 		)
 		(uuid "78b21df5-2f8f-4fad-ac9c-8d9f29f56612")
+	)
+	(label "4.25V"
+		(at 76.2 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7b9a0148-3488-421d-963d-8f6f9d426fb1")
 	)
 	(label "SC out"
 		(at 41.91 118.11 90)
@@ -6560,17 +6862,6 @@
 			(justify left bottom)
 		)
 		(uuid "91e3ded9-9802-405f-bc4c-64e93f9887bd")
-	)
-	(label "0.75V"
-		(at 76.2 20.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "93f30d39-3f34-4448-8eaa-bae38ae0abdc")
 	)
 	(label "AMS_SCS_Failure"
 		(at 104.14 52.07 0)
@@ -6616,7 +6907,7 @@
 		)
 		(uuid "a148939c-60ce-4350-b061-f4390fa3c1d9")
 	)
-	(label "IMD_Error"
+	(label "IMD_OK"
 		(at 144.78 30.48 180)
 		(fields_autoplaced yes)
 		(effects
@@ -7962,6 +8253,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 149.86 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "167cdc93-dbb8-426d-b336-9dd1c2dfef89")
+		(property "Reference" "#GND015"
+			(at 149.86 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11f24859-d48d-46b4-a908-493c3d1a3981")
+		)
+		(instances
+			(project "AMS_IMD_Reset"
+				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
+					(reference "#GND015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 240.03 71.12 270)
 		(unit 1)
@@ -8141,73 +8499,6 @@
 				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
 					(reference "DU2")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 153.67 36.83 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2229ac00-1443-47b6-95c4-8d551e67b227")
-		(property "Reference" "#PWR011"
-			(at 153.67 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 153.67 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 153.67 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90f42b7a-46c8-4f84-b7c3-e5b7688d2b58")
-		)
-		(instances
-			(project "AMS_IMD_Reset"
-				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
-					(reference "#PWR011")
-					(unit 1)
 				)
 			)
 		)
@@ -9962,217 +10253,6 @@
 			(project "AMS_IMD_Reset"
 				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
 					(reference "#FLG0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EPSA_Lib:Gate OR SN74AHCT1G32DBVR")
-		(at 148.59 31.75 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3aa0e4bd-5f2e-4851-82bd-d6ca98d23f4b")
-		(property "Reference" "G1"
-			(at 152.4 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Gate OR SN74AHCT1G32DBVR"
-			(at 182.88 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "EPSA_lib:SOT95P280X145-5N"
-			(at 182.88 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ahct1g32.pdf"
-			(at 182.88 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-Input Positive-OR Gate SN74AHCT1G32DBV"
-			(at 182.88 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "4=1 1=2 2=3 5=4 3=5"
-			(at 204.47 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SPICE"
-			(at 186.69 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "type=\"X\" model=\"SN74AHCT1G32\" lib=\"${EPSA_lib}\\SpiceModel\\OR_SN74AHCT1G32.lib\""
-			(at 208.28 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 182.88 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 182.88 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SN74AHCT1G32DBVR"
-			(at 182.88 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-SN74AHCT1G32DBVR"
-			(at 182.88 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G32DBVR?qs=0le1rQK8zxpIB8pUTaKa9Q%3D%3D"
-			(at 182.88 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "SN74AHCT1G32DBVR"
-			(at 182.88 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahct1g32dbvr/texas-instruments"
-			(at 182.88 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Testing Part Number" ""
-			(at 170.18 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Testing Price/Stock" ""
-			(at 170.18 6.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Render Name" "Gate OR"
-			(at 147.32 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e26b90a1-afe2-49ab-bd65-b7f5a2feb12b")
-		)
-		(pin "5"
-			(uuid "a96cb086-65cc-4940-9348-31c3c5c8473f")
-		)
-		(pin "2"
-			(uuid "773bc2fc-905b-469e-8fa4-6c743c215aa0")
-		)
-		(pin "3"
-			(uuid "e1913dbc-8150-41b4-8ca2-f712cecad94e")
-		)
-		(pin "4"
-			(uuid "fea9f46f-f411-4fbe-b178-64077f4f0120")
-		)
-		(instances
-			(project "AMS_IMD_Reset"
-				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
-					(reference "G1")
 					(unit 1)
 				)
 			)
@@ -14982,6 +15062,196 @@
 		)
 	)
 	(symbol
+		(lib_id "EPSA_Lib:Gate NAND SN74AHCT1G00DBVR")
+		(at 148.59 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ca34ff8-a2e7-4519-bf92-c86f94ce59a1")
+		(property "Reference" "G1"
+			(at 158.75 30.353 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Gate NAND SN74AHCT1G00DBVR"
+			(at 184.15 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P280X145-5N"
+			(at 184.15 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahct1g00"
+			(at 184.15 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single 2-Input Positive-NAND Gate"
+			(at 184.15 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "4=1 1=2 2=3 5=4 3=5"
+			(at 204.47 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 187.96 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"SN74AHCT1G00\" lib=\"${EPSA_lib}\\SpiceModel\\NAND_SN74AHCT1G00.lib\""
+			(at 227.33 12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 184.15 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 184.15 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHCT1G00DBVR"
+			(at 184.15 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AHCT1G00DBVR"
+			(at 184.15 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G00DBVR?qs=w32V8uFkMxnwwXcMH%2F61Dg%3D%3D"
+			(at 184.15 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SN74AHCT1G00DBVR"
+			(at 184.15 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahct1g00dbvr/texas-instruments"
+			(at 184.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Gate NAND"
+			(at 146.05 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "0f98afff-c10a-45e5-81f5-ab5aebd25d7b")
+		)
+		(pin "2"
+			(uuid "ea250520-57f4-4d98-b010-fefb3510f9e6")
+		)
+		(pin "3"
+			(uuid "48b33824-11d3-4d50-bc52-d8fb27e26565")
+		)
+		(pin "1"
+			(uuid "e2add396-5a3b-4e1b-ac1c-9ac884573464")
+		)
+		(pin "5"
+			(uuid "abf048b5-b6c4-43d3-8ea9-fd2f6c00c81c")
+		)
+		(instances
+			(project "AMS_IMD_Reset"
+				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
+					(reference "G1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 114.3 179.07 180)
 		(unit 1)
@@ -15800,73 +16070,6 @@
 			(project "AMS_IMD_Reset"
 				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
 					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 151.13 26.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afe31d91-09d5-40f0-95ea-230ddd5bddad")
-		(property "Reference" "#GND015"
-			(at 151.13 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 151.13 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "863efccd-174f-4081-bccd-ea297fa343e5")
-		)
-		(instances
-			(project "AMS_IMD_Reset"
-				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
-					(reference "#GND015")
 					(unit 1)
 				)
 			)
@@ -19019,6 +19222,72 @@
 			(project "AMS_IMD_Reset"
 				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 153.67 26.67 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df30683f-ddb9-48a8-9242-cd171d2f204d")
+		(property "Reference" "#PWR011"
+			(at 153.67 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 155.956 26.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 153.67 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60a4fb64-41df-4a78-a0a1-01d3249c1f6e")
+		)
+		(instances
+			(project "AMS_IMD_Reset"
+				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)

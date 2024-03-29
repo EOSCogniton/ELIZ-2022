@@ -279,6 +279,362 @@
 				)
 			)
 		)
+		(symbol "ADG417BR_2"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U6"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "ADG417BR"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0.508 -10.668 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG417.pdf"
+				(at -0.254 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single SPST Monolithic LC²MOS Analog Switch, normally OFF, 25Ohm Ron, SOIC-8"
+				(at 0.508 -7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "CMOS Analog Switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADG417BR_2_1_1"
+				(circle
+					(center -2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy 2.54 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 0 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.254) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 2.794 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.159 0)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ADG417BR_2_2_0"
+				(pin no_connect line
+					(at -2.54 10.16 270)
+					(length 2.54) hide
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 12.7 270)
+					(length 2.54)
+					(name "VL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -12.7 90)
+					(length 2.54)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ADG417BR_2_2_1"
+				(rectangle
+					(start -3.81 10.16)
+					(end 6.35 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Analog_Switch:ADG417BR"
 			(pin_names
 				(offset 0.254)
@@ -2611,7 +2967,6 @@
 		)
 	)
 	(symbol
-		(lib_name "EPSA_Lib:Relais PCB")
 		(lib_id "EPSA_Lib:Relais PCB")
 		(at 49.53 88.9 0)
 		(unit 1)
@@ -3004,7 +3359,6 @@
 		)
 	)
 	(symbol
-		(lib_name "EPSA_Lib:NMOS SQ2348ES-T1_GE3")
 		(lib_id "EPSA_Lib:NMOS SQ2348ES-T1_GE3")
 		(at 151.765 65.405 270)
 		(unit 1)
@@ -3170,7 +3524,6 @@
 		)
 	)
 	(symbol
-		(lib_name "EPSA_Lib:NMOS SQ2348ES-T1_GE3")
 		(lib_id "EPSA_Lib:NMOS SQ2348ES-T1_GE3")
 		(at 151.765 121.285 270)
 		(unit 1)
@@ -3526,7 +3879,6 @@
 		)
 	)
 	(symbol
-		(lib_name "EPSA_Lib:Relais PCB")
 		(lib_id "EPSA_Lib:Relais PCB")
 		(at 168.91 45.72 0)
 		(unit 1)
@@ -3649,92 +4001,6 @@
 			(project "SDC"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "K3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Analog_Switch:ADG417BR")
-		(lib_id "Analog_Switch:ADG417BR")
-		(at 147.32 63.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29796ea9-f758-495e-afb6-625c3672625d")
-		(property "Reference" "U5"
-			(at 147.32 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "ADG417BR"
-			(at 147.32 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 146.812 52.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG417.pdf"
-			(at 147.32 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single SPST Monolithic LC²MOS Analog Switch, normally OFF, 25Ohm Ron, SOIC-8"
-			(at 147.32 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "a476e4e4-f84e-4fce-b519-d31f08adbb49")
-		)
-		(pin "4"
-			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d32")
-		)
-		(pin "2"
-			(uuid "23bbf7cb-d91e-485e-9985-11c6e8463704")
-		)
-		(pin "5"
-			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf524")
-		)
-		(pin "3"
-			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef010")
-		)
-		(pin ""
-			(uuid "2718ce56-74c3-4761-b766-629f32aef0cf")
-		)
-		(pin "7"
-			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37310")
-		)
-		(instances
-			(project "SDC"
-				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3945,7 +4211,6 @@
 		)
 	)
 	(symbol
-		(lib_name "EPSA_Lib:NMOS SQ2348ES-T1_GE3")
 		(lib_id "EPSA_Lib:NMOS SQ2348ES-T1_GE3")
 		(at 47.625 61.595 270)
 		(unit 1)
@@ -4170,22 +4435,22 @@
 			(uuid "3664e750-c14b-49f5-a9ca-d47ba987119e")
 		)
 		(pin "4"
-			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d32")
+			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d33")
 		)
 		(pin "2"
-			(uuid "23bbf7cb-d91e-485e-9985-11c6e8463704")
+			(uuid "23bbf7cb-d91e-485e-9985-11c6e8463705")
 		)
 		(pin "5"
-			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf524")
+			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf525")
 		)
 		(pin "3"
-			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef010")
+			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef011")
 		)
 		(pin ""
 			(uuid "0b3bf8cd-11ad-429a-8ff4-f1f101fc2a4f")
 		)
 		(pin "7"
-			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37310")
+			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37311")
 		)
 		(instances
 			(project "SDC"
@@ -4362,6 +4627,92 @@
 		)
 	)
 	(symbol
+		(lib_name "ADG417BR_2")
+		(lib_id "Analog_Switch:ADG417BR")
+		(at 147.32 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4daa2913-ea7a-41a6-b56e-b71c41530eb4")
+		(property "Reference" "U5"
+			(at 147.32 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ADG417BR"
+			(at 147.32 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 146.812 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG417.pdf"
+			(at 147.574 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single SPST Monolithic LC²MOS Analog Switch, normally OFF, 25Ohm Ron, SOIC-8"
+			(at 146.812 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "078ef95f-4145-46d1-862c-5e9bc55d9236")
+		)
+		(pin "4"
+			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d39")
+		)
+		(pin "2"
+			(uuid "23bbf7cb-d91e-485e-9985-11c6e846370b")
+		)
+		(pin "5"
+			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf52b")
+		)
+		(pin "3"
+			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef017")
+		)
+		(pin ""
+			(uuid "f7ea14f3-c86a-4e89-8e4a-c12df5433a9e")
+		)
+		(pin "7"
+			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37317")
+		)
+		(instances
+			(project "SDC"
+				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 190.5 125.73 90)
 		(unit 1)
@@ -4497,7 +4848,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Analog_Switch:ADG417BR")
 		(lib_id "Analog_Switch:ADG417BR")
 		(at 95.25 63.5 180)
 		(unit 1)
@@ -4556,27 +4906,113 @@
 			(uuid "de684ce2-a9fc-4ccb-869c-e7ff7960bf74")
 		)
 		(pin "4"
-			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d32")
+			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d34")
 		)
 		(pin "2"
-			(uuid "23bbf7cb-d91e-485e-9985-11c6e8463704")
+			(uuid "23bbf7cb-d91e-485e-9985-11c6e8463706")
 		)
 		(pin "5"
-			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf524")
+			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf526")
 		)
 		(pin "3"
-			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef010")
+			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef012")
 		)
 		(pin ""
 			(uuid "789f59d6-1fc8-4c74-b71c-fbf7817313c6")
 		)
 		(pin "7"
-			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37310")
+			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37312")
 		)
 		(instances
 			(project "SDC"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "ADG417BR_2")
+		(lib_id "Analog_Switch:ADG417BR")
+		(at 204.47 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5925d0c6-bde7-4600-91c9-ae46d9aef7e1")
+		(property "Reference" "U3"
+			(at 204.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ADG417BR"
+			(at 204.47 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 203.962 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG417.pdf"
+			(at 204.724 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single SPST Monolithic LC²MOS Analog Switch, normally OFF, 25Ohm Ron, SOIC-8"
+			(at 203.962 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "16474b23-b09c-472b-8e1f-eaaa4b282697")
+		)
+		(pin "4"
+			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d39")
+		)
+		(pin "2"
+			(uuid "23bbf7cb-d91e-485e-9985-11c6e846370b")
+		)
+		(pin "5"
+			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf52b")
+		)
+		(pin "3"
+			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef017")
+		)
+		(pin ""
+			(uuid "30f6e9bd-53cc-4380-b17c-24ce6129d557")
+		)
+		(pin "7"
+			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37317")
+		)
+		(instances
+			(project "SDC"
+				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -4774,7 +5210,6 @@
 		)
 	)
 	(symbol
-		(lib_name "EPSA_Lib:Relais PCB")
 		(lib_id "EPSA_Lib:Relais PCB")
 		(at 153.67 92.71 0)
 		(unit 1)
@@ -4903,92 +5338,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Analog_Switch:ADG417BR")
-		(lib_id "Analog_Switch:ADG417BR")
-		(at 232.41 63.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "697841be-f274-4f6b-8ebd-a9057d053529")
-		(property "Reference" "U2"
-			(at 232.41 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "ADG417BR"
-			(at 232.41 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 231.902 52.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG417.pdf"
-			(at 232.41 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single SPST Monolithic LC²MOS Analog Switch, normally OFF, 25Ohm Ron, SOIC-8"
-			(at 232.41 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "b64feed7-b913-441f-928a-826027687edb")
-		)
-		(pin "4"
-			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d32")
-		)
-		(pin "2"
-			(uuid "23bbf7cb-d91e-485e-9985-11c6e8463704")
-		)
-		(pin "5"
-			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf524")
-		)
-		(pin "3"
-			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef010")
-		)
-		(pin ""
-			(uuid "903c279b-70b7-4c80-a00a-09859791950b")
-		)
-		(pin "7"
-			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37310")
-		)
-		(instances
-			(project "SDC"
-				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+12V")
 		(at 113.03 39.37 270)
 		(unit 1)
@@ -5056,7 +5405,6 @@
 		)
 	)
 	(symbol
-		(lib_name "EPSA_Lib:Relais PCB")
 		(lib_id "EPSA_Lib:Relais PCB")
 		(at 153.67 148.59 0)
 		(unit 1)
@@ -5448,22 +5796,22 @@
 			(uuid "dc6cc14c-5e4e-4cb4-b3ed-41fd465e09e5")
 		)
 		(pin "4"
-			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d32")
+			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d36")
 		)
 		(pin "2"
-			(uuid "23bbf7cb-d91e-485e-9985-11c6e8463704")
+			(uuid "23bbf7cb-d91e-485e-9985-11c6e8463708")
 		)
 		(pin "5"
-			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf524")
+			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf528")
 		)
 		(pin "3"
-			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef010")
+			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef014")
 		)
 		(pin ""
 			(uuid "e3802d8c-ad44-4a24-82d0-c4043a05506a")
 		)
 		(pin "7"
-			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37310")
+			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37314")
 		)
 		(instances
 			(project "SDC"
@@ -5543,7 +5891,6 @@
 		)
 	)
 	(symbol
-		(lib_name "EPSA_Lib:Relais PCB")
 		(lib_id "EPSA_Lib:Relais PCB")
 		(at 129.54 44.45 0)
 		(unit 1)
@@ -5672,6 +6019,92 @@
 		)
 	)
 	(symbol
+		(lib_name "ADG417BR_2")
+		(lib_id "Analog_Switch:ADG417BR")
+		(at 232.41 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c836ea4-bd96-4fad-9d28-320fe5c5c1ec")
+		(property "Reference" "U4"
+			(at 232.41 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ADG417BR"
+			(at 232.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 231.902 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG417.pdf"
+			(at 232.664 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single SPST Monolithic LC²MOS Analog Switch, normally OFF, 25Ohm Ron, SOIC-8"
+			(at 231.902 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "3be1f053-4496-48c9-8340-def4d4fff7cf")
+		)
+		(pin "4"
+			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d39")
+		)
+		(pin "2"
+			(uuid "23bbf7cb-d91e-485e-9985-11c6e846370b")
+		)
+		(pin "5"
+			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf52b")
+		)
+		(pin "3"
+			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef017")
+		)
+		(pin ""
+			(uuid "76af681d-8753-4bb3-83f2-0eae3d93734f")
+		)
+		(pin "7"
+			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37317")
+		)
+		(instances
+			(project "SDC"
+				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 171.45 26.67 180)
 		(unit 1)
@@ -5740,7 +6173,6 @@
 		)
 	)
 	(symbol
-		(lib_name "EPSA_Lib:Relais PCB")
 		(lib_id "EPSA_Lib:Relais PCB")
 		(at 153.67 120.65 0)
 		(unit 1)
@@ -5869,93 +6301,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Analog_Switch:ADG417BR")
-		(lib_id "Analog_Switch:ADG417BR")
-		(at 204.47 63.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a39adc76-b3f6-48c3-8dcd-bf7b78b1ebb3")
-		(property "Reference" "U3"
-			(at 204.47 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "ADG417BR"
-			(at 204.47 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 203.962 52.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG417.pdf"
-			(at 204.47 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single SPST Monolithic LC²MOS Analog Switch, normally OFF, 25Ohm Ron, SOIC-8"
-			(at 204.47 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "d938d000-6cc8-4ad5-afcf-5ec749ea5584")
-		)
-		(pin "4"
-			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d32")
-		)
-		(pin "2"
-			(uuid "23bbf7cb-d91e-485e-9985-11c6e8463704")
-		)
-		(pin "5"
-			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf524")
-		)
-		(pin "3"
-			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef010")
-		)
-		(pin ""
-			(uuid "a48f3640-3c22-43ae-b51a-ee3db12de0c8")
-		)
-		(pin "7"
-			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37310")
-		)
-		(instances
-			(project "SDC"
-				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "EPSA_Lib:NMOS SQ2348ES-T1_GE3")
 		(lib_id "EPSA_Lib:NMOS SQ2348ES-T1_GE3")
 		(at 167.005 18.415 270)
 		(unit 1)
@@ -6189,7 +6534,6 @@
 		)
 	)
 	(symbol
-		(lib_name "EPSA_Lib:NMOS SQ2348ES-T1_GE3")
 		(lib_id "EPSA_Lib:NMOS SQ2348ES-T1_GE3")
 		(at 151.765 93.345 270)
 		(unit 1)
@@ -6355,7 +6699,6 @@
 		)
 	)
 	(symbol
-		(lib_name "EPSA_Lib:NMOS SQ2348ES-T1_GE3")
 		(lib_id "EPSA_Lib:NMOS SQ2348ES-T1_GE3")
 		(at 127.635 17.145 270)
 		(unit 1)
@@ -6521,6 +6864,92 @@
 		)
 	)
 	(symbol
+		(lib_name "ADG417BR_2")
+		(lib_id "Analog_Switch:ADG417BR")
+		(at 175.26 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbdaf09d-5a88-4a5b-96f6-e00512b3d1fd")
+		(property "Reference" "U2"
+			(at 175.26 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ADG417BR"
+			(at 175.26 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 174.752 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG417.pdf"
+			(at 175.514 58.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single SPST Monolithic LC²MOS Analog Switch, normally OFF, 25Ohm Ron, SOIC-8"
+			(at 174.752 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8fc03fc5-743d-4eb9-af72-e7dff4e8c35e")
+		)
+		(pin "4"
+			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d39")
+		)
+		(pin "2"
+			(uuid "23bbf7cb-d91e-485e-9985-11c6e846370b")
+		)
+		(pin "5"
+			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf52b")
+		)
+		(pin "3"
+			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef017")
+		)
+		(pin ""
+			(uuid "c8fe2dec-3f2b-4ba1-9496-331951893240")
+		)
+		(pin "7"
+			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37317")
+		)
+		(instances
+			(project "SDC"
+				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 38.1 92.71 270)
 		(unit 1)
@@ -6583,92 +7012,6 @@
 			(project "SDC"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Analog_Switch:ADG417BR")
-		(lib_id "Analog_Switch:ADG417BR")
-		(at 175.26 63.5 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ccaea6bd-9b67-4cd1-8dd1-6315dd1b5358")
-		(property "Reference" "U4"
-			(at 175.26 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "ADG417BR"
-			(at 175.26 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 174.752 52.832 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG417.pdf"
-			(at 175.26 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single SPST Monolithic LC²MOS Analog Switch, normally OFF, 25Ohm Ron, SOIC-8"
-			(at 175.26 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "432b5d59-99e7-4a6e-b92c-d3c42bdf9863")
-		)
-		(pin "4"
-			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d32")
-		)
-		(pin "2"
-			(uuid "23bbf7cb-d91e-485e-9985-11c6e8463704")
-		)
-		(pin "5"
-			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf524")
-		)
-		(pin "3"
-			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef010")
-		)
-		(pin ""
-			(uuid "d9375eef-ab97-460c-bf2c-2f8ac7774604")
-		)
-		(pin "7"
-			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37310")
-		)
-		(instances
-			(project "SDC"
-				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -6932,7 +7275,7 @@
 		)
 	)
 	(symbol
-		(lib_name "Analog_Switch:ADG417BR")
+		(lib_name "ADG417BR_2")
 		(lib_id "Analog_Switch:ADG417BR")
 		(at 119.38 63.5 180)
 		(unit 1)
@@ -6970,7 +7313,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG417.pdf"
-			(at 119.38 63.5 0)
+			(at 119.634 58.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6979,7 +7322,7 @@
 			)
 		)
 		(property "Description" "Single SPST Monolithic LC²MOS Analog Switch, normally OFF, 25Ohm Ron, SOIC-8"
-			(at 119.38 63.5 0)
+			(at 118.872 56.388 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6991,22 +7334,22 @@
 			(uuid "84463d2c-70c9-42c1-80b5-032b01aad8d4")
 		)
 		(pin "4"
-			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d32")
+			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d39")
 		)
 		(pin "2"
-			(uuid "23bbf7cb-d91e-485e-9985-11c6e8463704")
+			(uuid "23bbf7cb-d91e-485e-9985-11c6e846370b")
 		)
 		(pin "5"
-			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf524")
+			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf52b")
 		)
 		(pin "3"
-			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef010")
+			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef017")
 		)
 		(pin ""
 			(uuid "1992f860-c0c5-4cb9-8d48-33bfeae8a3bd")
 		)
 		(pin "7"
-			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37310")
+			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37317")
 		)
 		(instances
 			(project "SDC"
