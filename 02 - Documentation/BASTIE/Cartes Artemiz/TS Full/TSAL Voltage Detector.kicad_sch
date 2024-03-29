@@ -1,0 +1,32 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3a9f3b3b-7ef3-4c81-b6dc-cb0ae039cb19")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "TS-"
+		(shape input)
+		(at 124.46 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a47f2768-7f28-4b84-a40c-8b0b2d56f467")
+	)
+	(hierarchical_label "TS+"
+		(shape input)
+		(at 124.46 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8c6ec78-c0bb-4b17-8f89-23f2475a6ab3")
+	)
+)

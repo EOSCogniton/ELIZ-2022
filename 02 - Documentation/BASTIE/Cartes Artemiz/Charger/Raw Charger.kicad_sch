@@ -1,0 +1,116 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6b5739d9-a5e4-46c2-b5ca-f59ab3e262a4")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "PE"
+		(shape input)
+		(at 119.38 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "182b8362-075f-4633-ba9c-59ad095e6c53")
+	)
+	(hierarchical_label "Sc in"
+		(shape input)
+		(at 119.38 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24df65ff-2b5f-4227-8c89-0b63096bd101")
+	)
+	(hierarchical_label "OutHV-"
+		(shape input)
+		(at 119.38 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b6054b8-302b-49fe-99f7-f2f9427601d5")
+	)
+	(hierarchical_label "Sc out"
+		(shape input)
+		(at 119.38 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44ac5de7-461f-4f4a-ad8b-8ab9d14dced5")
+	)
+	(hierarchical_label "OutLV+"
+		(shape input)
+		(at 119.38 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61525987-1f77-4564-9890-5be079a19a65")
+	)
+	(hierarchical_label "Phase"
+		(shape input)
+		(at 119.38 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "813fba4a-4d69-47a4-84ae-c4568459e39d")
+	)
+	(hierarchical_label "Neutral"
+		(shape input)
+		(at 119.38 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8458b13c-7d32-4a27-9f28-2cdf6b84650e")
+	)
+	(hierarchical_label "OutHV+"
+		(shape input)
+		(at 119.38 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a86a3fa6-f66c-4b17-bea9-cccf34622136")
+	)
+	(hierarchical_label "PEin"
+		(shape input)
+		(at 119.38 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e67a9dd1-a486-48dd-ae49-4f5a44981601")
+	)
+)

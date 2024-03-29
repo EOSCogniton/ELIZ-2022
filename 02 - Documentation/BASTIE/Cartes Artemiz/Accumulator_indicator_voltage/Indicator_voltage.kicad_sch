@@ -6,7 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Accumulator indicator voltage")
-		(date "2023-03-30")
+		(date "2024-03-29")
+		(rev "v2.1")
 		(company "EPSA")
 	)
 	(lib_symbols
@@ -3669,6 +3670,170 @@
 				)
 			)
 		)
+		(symbol "EPSAlib:Fusible 0ADAP0200-RE"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at 13.97 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "200mA"
+				(at 13.97 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "0ADAP0200RE"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0adax-series.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fuses with Leads (Through Hole) FUSE, CERAMIC TUBE 0.2A 600VAC600VDC"
+				(at 0.762 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "7.06"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "530-0ADAP0200-RE"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bel-Fuse/0ADAP0200-RE?qs=chTDxNqvsylLbV%252B5gr9f%252Bw%3D%3D"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "BelFuse"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "0ADAP0200-RE"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "Fusible 0ADAP0200-RE_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "EPSAlib:NMOS TK3P80E_RQ"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -4672,25 +4837,25 @@
 		)
 	)
 	(junction
-		(at 76.2 38.1)
+		(at 78.74 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00f61b6e-fd90-4eba-87a5-888f5205ea49")
 	)
 	(junction
-		(at 149.86 82.55)
+		(at 152.4 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08e83afa-f12b-4b76-852d-f0e5d731e5fd")
 	)
 	(junction
-		(at 33.02 82.55)
+		(at 35.56 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "147c7e99-59e5-438a-9819-d5069e4dcfb3")
 	)
 	(junction
-		(at 72.39 82.55)
+		(at 74.93 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1970654e-48da-4dc7-84f9-cef803fbc46b")
@@ -4702,43 +4867,43 @@
 		(uuid "3013a39b-4e9d-4eb2-bd9c-4e332d931551")
 	)
 	(junction
-		(at 53.34 82.55)
+		(at 55.88 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d2898fe-cd4d-496b-8282-248aac7fd71f")
 	)
 	(junction
-		(at 184.15 97.79)
+		(at 186.69 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "454965ab-59e2-4f6f-922f-5fa5eb62c94c")
 	)
 	(junction
-		(at 162.56 97.79)
+		(at 165.1 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4aaa393f-89c0-4796-a2b4-66dde3e83932")
 	)
 	(junction
-		(at 48.26 55.88)
+		(at 50.8 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b5a4c07-17f5-481f-9777-42cbdafe29af")
 	)
 	(junction
-		(at 130.81 55.88)
+		(at 133.35 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e495e07-3d13-4185-bc6f-1d5df358ee51")
 	)
 	(junction
-		(at 25.4 29.21)
+		(at 27.94 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63924ad5-ef27-4f2d-82cf-af90b70711b4")
 	)
 	(junction
-		(at 162.56 82.55)
+		(at 165.1 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "699c59e8-ad54-49c7-a13a-d3392269205f")
@@ -4750,19 +4915,19 @@
 		(uuid "6b955c2a-4fe8-4ef7-bf69-60e3bb6859de")
 	)
 	(junction
-		(at 107.95 62.23)
+		(at 110.49 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6cdbf677-a5c7-4028-a5f8-17d5caa59ba8")
 	)
 	(junction
-		(at 115.57 82.55)
+		(at 118.11 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fa9d96d-82fa-444e-a33d-31b77e07ec32")
 	)
 	(junction
-		(at 31.75 29.21)
+		(at 34.29 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71771cde-d3dc-4255-91e2-947d9a5aafdf")
@@ -4774,49 +4939,49 @@
 		(uuid "75dda5a4-6205-48d9-8995-419146285132")
 	)
 	(junction
-		(at 115.57 43.18)
+		(at 118.11 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ead4aa6-a5ce-420c-8f02-c54a5da2fe08")
 	)
 	(junction
-		(at 137.16 82.55)
+		(at 139.7 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80e41c43-c8b7-4467-a148-77cae81927a4")
 	)
 	(junction
-		(at 107.95 76.2)
+		(at 110.49 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b0b4a88-c9ae-4210-a759-bf1f90eeea05")
 	)
 	(junction
-		(at 115.57 53.34)
+		(at 118.11 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e28650f-45e9-4f9f-9104-a254221769c0")
 	)
 	(junction
-		(at 71.12 55.88)
+		(at 73.66 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94c1dccd-2752-45e1-b579-ee0c0d237a70")
 	)
 	(junction
-		(at 115.57 55.88)
+		(at 118.11 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9696a9b7-fc67-43b7-8caf-bac3666f8a4b")
 	)
 	(junction
-		(at 72.39 48.26)
+		(at 74.93 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1684167-76fb-43c8-8675-4fbb19baea27")
 	)
 	(junction
-		(at 115.57 73.66)
+		(at 118.11 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a398befd-6071-4c70-8387-c73c0058170a")
@@ -4828,49 +4993,49 @@
 		(uuid "aa42234c-b38b-404a-92cd-5589bc6d6e0e")
 	)
 	(junction
-		(at 76.2 29.21)
+		(at 78.74 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b77d30c1-42f7-44b9-a82b-7274665af63d")
 	)
 	(junction
-		(at 149.86 97.79)
+		(at 152.4 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf3746b7-b811-4469-a562-91c988f282f0")
 	)
 	(junction
-		(at 137.16 97.79)
+		(at 139.7 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ceaa1478-8eed-4d2d-8e45-3979b3e0e730")
 	)
 	(junction
-		(at 115.57 76.2)
+		(at 118.11 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e18c8c6e-b459-4ad2-b4cd-fd1b328fef38")
 	)
 	(junction
-		(at 176.53 97.79)
+		(at 179.07 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e406683a-9e8c-4647-b2a3-e6b60755a667")
 	)
 	(junction
-		(at 176.53 82.55)
+		(at 179.07 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f12a363a-286e-45aa-a78d-4414f2ace743")
 	)
 	(junction
-		(at 76.2 40.64)
+		(at 78.74 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdf23972-1286-4d28-88dd-3ff26193d329")
 	)
 	(no_connect
-		(at 77.47 53.34)
+		(at 80.01 53.34)
 		(uuid "ba8054e6-9211-4766-a2b9-7b8e3baac3da")
 	)
 	(wire
@@ -4895,7 +5060,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 76.2) (xy 115.57 76.2)
+			(xy 110.49 76.2) (xy 118.11 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4915,7 +5080,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 62.23) (xy 33.02 55.88)
+			(xy 35.56 62.23) (xy 35.56 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4925,7 +5090,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 63.5) (xy 53.34 82.55)
+			(xy 55.88 63.5) (xy 55.88 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4935,7 +5100,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 43.18) (xy 115.57 43.18)
+			(xy 127 43.18) (xy 118.11 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4955,7 +5120,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 73.66) (xy 107.95 76.2)
+			(xy 110.49 73.66) (xy 110.49 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4965,7 +5130,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 29.21) (xy 76.2 38.1)
+			(xy 78.74 29.21) (xy 78.74 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4975,7 +5140,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 40.64) (xy 115.57 40.64)
+			(xy 115.57 40.64) (xy 118.11 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4985,7 +5150,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 36.83) (xy 52.07 36.83)
+			(xy 50.8 36.83) (xy 54.61 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4995,7 +5160,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 26.67) (xy 21.59 29.21)
+			(xy 24.13 26.67) (xy 24.13 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5015,7 +5180,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 41.91) (xy 25.4 44.45)
+			(xy 27.94 41.91) (xy 27.94 44.45)
 		)
 		(stroke
 			(width 0)
@@ -5025,7 +5190,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 55.88) (xy 48.26 55.88)
+			(xy 35.56 55.88) (xy 50.8 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5045,7 +5210,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 48.26) (xy 130.81 48.26)
+			(xy 115.57 48.26) (xy 133.35 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5075,7 +5240,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 38.1) (xy 124.46 43.18)
+			(xy 127 38.1) (xy 127 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5085,7 +5250,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 82.55) (xy 191.77 82.55)
+			(xy 179.07 82.55) (xy 194.31 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5095,7 +5260,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 50.8) (xy 77.47 50.8)
+			(xy 48.26 50.8) (xy 80.01 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5105,7 +5270,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 29.21) (xy 76.2 29.21)
+			(xy 34.29 29.21) (xy 78.74 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5115,7 +5280,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 50.8) (xy 33.02 50.8)
+			(xy 34.29 50.8) (xy 35.56 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5125,7 +5290,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 97.79) (xy 137.16 95.25)
+			(xy 139.7 97.79) (xy 139.7 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5135,7 +5300,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 82.55) (xy 137.16 82.55)
+			(xy 133.35 82.55) (xy 139.7 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5165,7 +5330,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 55.88) (xy 48.26 36.83)
+			(xy 50.8 55.88) (xy 50.8 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5185,7 +5350,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 24.13) (xy 25.4 29.21)
+			(xy 27.94 24.13) (xy 27.94 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5195,7 +5360,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 97.79) (xy 149.86 97.79)
+			(xy 139.7 97.79) (xy 152.4 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5205,7 +5370,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 45.72) (xy 77.47 45.72)
+			(xy 77.47 45.72) (xy 80.01 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5215,7 +5380,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 29.21) (xy 31.75 29.21)
+			(xy 27.94 29.21) (xy 34.29 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5225,7 +5390,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 76.2) (xy 90.17 76.2)
+			(xy 80.01 76.2) (xy 92.71 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5235,7 +5400,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 55.88) (xy 71.12 63.5)
+			(xy 73.66 55.88) (xy 73.66 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5255,7 +5420,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 50.8) (xy 134.62 50.8)
+			(xy 115.57 50.8) (xy 137.16 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5265,7 +5430,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 36.83) (xy 67.31 36.83)
+			(xy 74.93 36.83) (xy 69.85 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5275,7 +5440,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 97.79) (xy 137.16 97.79)
+			(xy 35.56 97.79) (xy 139.7 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5285,7 +5450,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 82.55) (xy 176.53 82.55)
+			(xy 165.1 82.55) (xy 179.07 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5305,7 +5470,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 97.79) (xy 189.23 97.79)
+			(xy 186.69 97.79) (xy 191.77 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5315,7 +5480,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 82.55) (xy 33.02 97.79)
+			(xy 35.56 82.55) (xy 35.56 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5325,7 +5490,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 55.88) (xy 71.12 55.88)
+			(xy 69.85 55.88) (xy 73.66 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5335,7 +5500,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 97.79) (xy 149.86 95.25)
+			(xy 152.4 97.79) (xy 152.4 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5355,7 +5520,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 62.23) (xy 107.95 62.23)
+			(xy 121.92 62.23) (xy 110.49 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5365,7 +5530,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 97.79) (xy 176.53 97.79)
+			(xy 165.1 97.79) (xy 179.07 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5375,7 +5540,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 78.74) (xy 176.53 82.55)
+			(xy 179.07 78.74) (xy 179.07 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5395,7 +5560,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 80.01) (xy 191.77 80.01)
+			(xy 186.69 80.01) (xy 194.31 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5405,7 +5570,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 77.47) (xy 33.02 82.55)
+			(xy 35.56 77.47) (xy 35.56 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5415,7 +5580,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 62.23) (xy 74.93 62.23)
+			(xy 110.49 62.23) (xy 77.47 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5435,7 +5600,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 45.72) (xy 119.38 45.72)
+			(xy 115.57 45.72) (xy 121.92 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5445,7 +5610,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 74.93) (xy 72.39 82.55)
+			(xy 74.93 74.93) (xy 74.93 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5455,7 +5620,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 55.88) (xy 77.47 55.88)
+			(xy 73.66 55.88) (xy 80.01 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5465,7 +5630,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 40.64) (xy 115.57 43.18)
+			(xy 118.11 40.64) (xy 118.11 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5485,7 +5650,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 97.79) (xy 184.15 80.01)
+			(xy 186.69 97.79) (xy 186.69 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5495,7 +5660,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 82.55) (xy 72.39 82.55)
+			(xy 55.88 82.55) (xy 74.93 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5505,7 +5670,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 48.26) (xy 130.81 55.88)
+			(xy 133.35 48.26) (xy 133.35 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5515,7 +5680,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 82.55) (xy 162.56 82.55)
+			(xy 152.4 82.55) (xy 165.1 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5525,7 +5690,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 43.18) (xy 115.57 53.34)
+			(xy 118.11 43.18) (xy 118.11 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5535,7 +5700,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 97.79) (xy 184.15 97.79)
+			(xy 179.07 97.79) (xy 186.69 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5545,7 +5710,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 48.26) (xy 72.39 63.5)
+			(xy 74.93 48.26) (xy 74.93 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5555,7 +5720,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 29.21) (xy 25.4 29.21)
+			(xy 24.13 29.21) (xy 27.94 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5565,7 +5730,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 29.21) (xy 142.24 40.64)
+			(xy 144.78 29.21) (xy 144.78 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5595,7 +5760,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 48.26) (xy 77.47 48.26)
+			(xy 74.93 48.26) (xy 80.01 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5605,7 +5770,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 29.21) (xy 142.24 29.21)
+			(xy 78.74 29.21) (xy 144.78 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5625,7 +5790,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 73.66) (xy 130.81 73.66)
+			(xy 118.11 73.66) (xy 133.35 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5635,7 +5800,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 38.1) (xy 76.2 40.64)
+			(xy 78.74 38.1) (xy 78.74 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5655,7 +5820,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 29.21) (xy 31.75 33.02)
+			(xy 34.29 29.21) (xy 34.29 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5665,7 +5830,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 53.34) (xy 115.57 55.88)
+			(xy 118.11 53.34) (xy 118.11 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5675,7 +5840,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 40.64) (xy 77.47 40.64)
+			(xy 78.74 40.64) (xy 80.01 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5685,7 +5850,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 55.88) (xy 115.57 73.66)
+			(xy 118.11 55.88) (xy 118.11 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5695,17 +5860,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 137.16) (xy 186.69 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cabdb910-6dc7-4bd8-ac42-e6e298625575")
-	)
-	(wire
-		(pts
-			(xy 115.57 76.2) (xy 115.57 82.55)
+			(xy 118.11 76.2) (xy 118.11 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5715,7 +5870,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 36.83) (xy 72.39 48.26)
+			(xy 74.93 36.83) (xy 74.93 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5735,7 +5890,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 38.1) (xy 77.47 38.1)
+			(xy 78.74 38.1) (xy 80.01 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5745,7 +5900,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 82.55) (xy 115.57 82.55)
+			(xy 74.93 82.55) (xy 118.11 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5755,7 +5910,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 43.18) (xy 115.57 43.18)
+			(xy 115.57 43.18) (xy 118.11 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5765,7 +5920,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 43.18) (xy 77.47 43.18)
+			(xy 78.74 43.18) (xy 80.01 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5785,7 +5940,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 55.88) (xy 115.57 55.88)
+			(xy 115.57 55.88) (xy 118.11 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5795,7 +5950,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 97.79) (xy 162.56 95.25)
+			(xy 165.1 97.79) (xy 165.1 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5805,7 +5960,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 82.55) (xy 149.86 82.55)
+			(xy 139.7 82.55) (xy 152.4 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5815,7 +5970,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 45.72) (xy 119.38 62.23)
+			(xy 121.92 45.72) (xy 121.92 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5845,7 +6000,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 40.64) (xy 76.2 43.18)
+			(xy 78.74 40.64) (xy 78.74 43.18)
 		)
 		(stroke
 			(width 0)
@@ -5855,7 +6010,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 53.34) (xy 115.57 53.34)
+			(xy 115.57 53.34) (xy 118.11 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5885,7 +6040,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 55.88) (xy 48.26 55.88)
+			(xy 52.07 55.88) (xy 50.8 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5895,7 +6050,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 73.66) (xy 115.57 76.2)
+			(xy 118.11 73.66) (xy 118.11 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5905,7 +6060,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 76.2) (xy 107.95 76.2)
+			(xy 104.14 76.2) (xy 110.49 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5945,7 +6100,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 62.23) (xy 74.93 45.72)
+			(xy 77.47 62.23) (xy 77.47 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5955,7 +6110,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 55.88) (xy 142.24 55.88)
+			(xy 133.35 55.88) (xy 144.78 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5965,7 +6120,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 97.79) (xy 162.56 97.79)
+			(xy 152.4 97.79) (xy 165.1 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5999,7 +6154,7 @@
 	)
 	(rectangle
 		(start 15.24 16.51)
-		(end 232.41 101.6)
+		(end 227.33 101.6)
 		(stroke
 			(width 0)
 			(type dot)
@@ -6034,7 +6189,7 @@
 	)
 	(text "Based on Analog DC2781A"
 		(exclude_from_sim no)
-		(at 187.452 25.654 0)
+		(at 179.578 25.4 0)
 		(effects
 			(font
 				(size 2 2)
@@ -6067,7 +6222,7 @@
 	)
 	(text "Converter 600V DC to 12V DC\n\n"
 		(exclude_from_sim no)
-		(at 184.912 25.4 0)
+		(at 177.038 25.146 0)
 		(effects
 			(font
 				(size 2 2)
@@ -6078,7 +6233,7 @@
 	)
 	(global_label "Input+"
 		(shape input)
-		(at 21.59 26.67 90)
+		(at 24.13 26.67 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6088,7 +6243,7 @@
 		)
 		(uuid "06674951-3144-4b46-aab2-c802f8e9ceec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.59 17.3349 90)
+			(at 24.13 17.3349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6188,7 +6343,7 @@
 	)
 	(global_label "HV+"
 		(shape input)
-		(at 25.4 24.13 90)
+		(at 27.94 24.13 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6198,7 +6353,7 @@
 		)
 		(uuid "3d4f0eb3-c494-4f88-a36b-e67027c2b44d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.3206 17.7255 90)
+			(at 27.8606 17.7255 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6276,7 +6431,7 @@
 	)
 	(global_label "5V"
 		(shape input)
-		(at 191.77 85.09 180)
+		(at 194.31 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6286,7 +6441,7 @@
 		)
 		(uuid "bd52dd6f-a2ec-47c7-bf22-0d6ec073327a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.0588 85.1694 0)
+			(at 189.5988 85.1694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6298,7 +6453,7 @@
 	)
 	(global_label "Input+"
 		(shape input)
-		(at 186.69 137.16 90)
+		(at 186.69 124.46 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6308,7 +6463,7 @@
 		)
 		(uuid "cc9aa2d6-b0a3-4e28-a243-9e3b8eff1d5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.69 127.9043 90)
+			(at 186.69 115.2043 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6342,7 +6497,7 @@
 	)
 	(global_label "12V"
 		(shape input)
-		(at 189.23 97.79 0)
+		(at 191.77 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6352,7 +6507,7 @@
 		)
 		(uuid "def41856-a45d-445b-a80c-b539cae1a51c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.1507 97.7106 0)
+			(at 197.6907 97.7106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,7 +6738,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:Condensateur 0805Y1000104JXT")
-		(at 113.03 38.1 0)
+		(at 115.57 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6591,7 +6746,7 @@
 		(dnp no)
 		(uuid "0cc777cf-c41b-4534-a503-3bf7e41ca0ca")
 		(property "Reference" "C4"
-			(at 119.126 32.512 0)
+			(at 121.666 32.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6599,7 +6754,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 119.126 34.29 0)
+			(at 121.666 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6607,7 +6762,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:CAPC2012X130N"
-			(at 133.35 38.1 0)
+			(at 135.89 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,7 +6772,7 @@
 			)
 		)
 		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/119d/0900766b8119d7bc.pdf"
-			(at 133.35 40.64 0)
+			(at 135.89 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6627,7 +6782,7 @@
 			)
 		)
 		(property "Description" "Syfer 0805 Ceramic Chip Capacitors"
-			(at 133.35 43.18 0)
+			(at 135.89 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6637,7 +6792,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 138.176 35.814 0)
+			(at 140.716 35.814 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6646,7 +6801,7 @@
 			)
 		)
 		(property "Sim.Device" "C"
-			(at 133.35 33.02 0)
+			(at 135.89 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,7 +6811,7 @@
 			)
 		)
 		(property "Height" "1.3"
-			(at 133.35 45.72 0)
+			(at 135.89 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6666,7 +6821,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Syfer"
-			(at 133.35 48.26 0)
+			(at 135.89 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6676,7 +6831,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0805Y1000104JXT"
-			(at 133.35 50.8 0)
+			(at 135.89 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6686,7 +6841,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 121.92 52.07 0)
+			(at 124.46 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6696,7 +6851,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 133.35 50.8 0)
+			(at 135.89 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6706,7 +6861,7 @@
 			)
 		)
 		(property "Render Name" "Condensateur"
-			(at 119.634 34.036 0)
+			(at 122.174 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6932,7 +7087,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:Condensateur HV GRM31A5C2J100JW01D")
-		(at 33.02 50.8 0)
+		(at 35.56 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6940,15 +7095,15 @@
 		(dnp no)
 		(uuid "179ae448-5d93-4c95-ba75-31b66f5da437")
 		(property "Reference" "C2"
-			(at 39.37 45.212 0)
+			(at 41.91 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10p"
-			(at 39.624 46.99 0)
+		(property "Value" "10p 630V"
+			(at 42.164 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6956,7 +7111,7 @@
 			)
 		)
 		(property "Footprint" "CAPC3216X100N"
-			(at 41.91 146.99 0)
+			(at 44.45 146.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6966,7 +7121,7 @@
 			)
 		)
 		(property "Datasheet" "https://psearch.en.murata.com/capacitor/product/GRM31A5C2J100JW01%23.html"
-			(at 41.91 246.99 0)
+			(at 44.45 246.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,7 +7131,7 @@
 			)
 		)
 		(property "Description" "Capacitor GRM31_0.20 L=3.2mm W=1.6mm T=1.0mm 1205"
-			(at 40.132 41.656 0)
+			(at 42.672 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6985,7 +7140,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 41.91 446.99 0)
+			(at 44.45 446.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6995,7 +7150,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM31A5C2J100JW1D"
-			(at 41.91 546.99 0)
+			(at 44.45 546.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7005,7 +7160,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM31A5C2J100JW01D?qs=18WYLvqSxEqgP%2FN9N3NKJQ%3D%3D"
-			(at 41.91 646.99 0)
+			(at 44.45 646.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7015,7 +7170,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 41.91 746.99 0)
+			(at 44.45 746.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7025,7 +7180,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM31A5C2J100JW01D"
-			(at 41.91 846.99 0)
+			(at 44.45 846.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7051,7 +7206,7 @@
 	)
 	(symbol
 		(lib_id "pspice:0")
-		(at 176.53 78.74 180)
+		(at 179.07 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7059,7 +7214,7 @@
 		(dnp no)
 		(uuid "1a567bec-9b35-4d6b-84b8-4f81d34736a5")
 		(property "Reference" "#GND06"
-			(at 176.53 76.2 0)
+			(at 179.07 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7068,7 +7223,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 176.53 80.01 0)
+			(at 179.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7076,7 +7231,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 78.74 0)
+			(at 179.07 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7085,7 +7240,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 78.74 0)
+			(at 179.07 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7094,7 +7249,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 78.74 0)
+			(at 179.07 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7332,7 +7487,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:Diode CMDSH2-3_TR_PBFREE")
-		(at 69.85 36.83 180)
+		(at 72.39 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7340,7 +7495,7 @@
 		(dnp no)
 		(uuid "39b1272e-af42-4955-9fd3-7ea863cf0141")
 		(property "Reference" "D1"
-			(at 59.69 31.242 0)
+			(at 62.23 31.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7348,7 +7503,7 @@
 			)
 		)
 		(property "Value" "Diode CMDSH2-3_TR_PBFREE"
-			(at 60.452 33.528 0)
+			(at 62.992 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,7 +7511,7 @@
 			)
 		)
 		(property "Footprint" "SOD2512X110N"
-			(at 57.15 -56.82 0)
+			(at 59.69 -56.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7366,7 +7521,7 @@
 			)
 		)
 		(property "Datasheet" "https://my.centralsemi.com/get_document.php?cmp=1&mergetype=pd&mergepath=pd&pdf_id=CMDSH2-3.PDF"
-			(at 57.15 -156.82 0)
+			(at 59.69 -156.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7376,7 +7531,7 @@
 			)
 		)
 		(property "Description" "DIODE SCHOTTKY 30V 200MA SOD323"
-			(at 61.722 48.768 0)
+			(at 64.262 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7385,7 +7540,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 57.15 -356.82 0)
+			(at 59.69 -356.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7395,7 +7550,7 @@
 			)
 		)
 		(property "Mouser Part Number" "610-CMDSH2-3"
-			(at 57.15 -456.82 0)
+			(at 59.69 -456.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7405,7 +7560,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Central-Semiconductor/CMDSH2-3-TR-PBFREE?qs=u16ybLDytRa%2FuaZxWATy%2FQ%3D%3D"
-			(at 57.15 -556.82 0)
+			(at 59.69 -556.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7415,7 +7570,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Central Semiconductor"
-			(at 57.15 -656.82 0)
+			(at 59.69 -656.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7425,7 +7580,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CMDSH2-3 TR PBFREE"
-			(at 57.15 -756.82 0)
+			(at 59.69 -756.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7451,7 +7606,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:Diode US1KFA")
-		(at 33.02 62.23 270)
+		(at 35.56 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7460,7 +7615,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a908721-10c0-4be5-be18-cde9e0150d22")
 		(property "Reference" "D2"
-			(at 36.83 68.5799 90)
+			(at 39.37 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7469,7 +7624,7 @@
 			)
 		)
 		(property "Value" "Diode US1KFA"
-			(at 36.83 71.1199 90)
+			(at 39.37 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7478,7 +7633,7 @@
 			)
 		)
 		(property "Footprint" "SODFL3618X143N"
-			(at -64.44 73.66 0)
+			(at -61.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7488,7 +7643,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/us1kfa/on-semiconductor"
-			(at -164.44 73.66 0)
+			(at -161.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7498,7 +7653,7 @@
 			)
 		)
 		(property "Description" "Diode Switching 800V 1A 2-Pin SOD-123FA T/R"
-			(at 41.148 62.992 0)
+			(at 43.688 62.992 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7507,7 +7662,7 @@
 			)
 		)
 		(property "Height" "1.43"
-			(at -364.44 73.66 0)
+			(at -361.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7517,7 +7672,7 @@
 			)
 		)
 		(property "Mouser Part Number" "512-US1KFA"
-			(at -464.44 73.66 0)
+			(at -461.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7527,7 +7682,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/US1KFA?qs=kF4zOt4%2FK7W%252BRlWbuA8gCw%3D%3D"
-			(at -564.44 73.66 0)
+			(at -561.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7537,7 +7692,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at -664.44 73.66 0)
+			(at -661.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7547,7 +7702,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "US1KFA"
-			(at -764.44 73.66 0)
+			(at -761.9 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7573,7 +7728,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:Condensateur HV GCJ43DR72J104KXJ1L")
-		(at 25.4 29.21 270)
+		(at 27.94 29.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7581,7 +7736,7 @@
 		(dnp no)
 		(uuid "3c261b80-1bc8-49dc-94e4-1179b3ebe2dd")
 		(property "Reference" "C1"
-			(at 18.542 34.798 90)
+			(at 21.082 34.798 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7589,8 +7744,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
-			(at 19.05 38.1 90)
+		(property "Value" "0.1u 630V"
+			(at 16.764 37.338 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7599,7 +7754,7 @@
 			)
 		)
 		(property "Footprint" "CAPC4532X200N"
-			(at -70.79 38.1 0)
+			(at -68.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7609,7 +7764,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/GCJ43DR72J104KXJ1L.pdf"
-			(at -170.79 38.1 0)
+			(at -168.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7619,7 +7774,7 @@
 			)
 		)
 		(property "Description" "Capacitor GCJ43 L=4.5mm W=3.2mm T=2.0mm 1812"
-			(at 36.068 36.576 0)
+			(at 38.608 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7628,7 +7783,7 @@
 			)
 		)
 		(property "Height" "2"
-			(at -370.79 38.1 0)
+			(at -368.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7638,7 +7793,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GCJ43DR72J104KX1L"
-			(at -470.79 38.1 0)
+			(at -468.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7648,7 +7803,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=81-GCJ43DR72J104KX1L"
-			(at -570.79 38.1 0)
+			(at -568.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7658,7 +7813,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at -670.79 38.1 0)
+			(at -668.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7668,7 +7823,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GCJ43DR72J104KXJ1L"
-			(at -770.79 38.1 0)
+			(at -768.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7694,7 +7849,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:Condensateur GRM32ER61C476KE15K")
-		(at 137.16 82.55 270)
+		(at 139.7 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7703,7 +7858,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c458489-b7a6-472b-99c0-b674b2d33f65")
 		(property "Reference" "C7"
-			(at 140.97 87.6299 90)
+			(at 143.51 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7712,7 +7867,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 140.97 90.1699 90)
+			(at 143.51 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7721,7 +7876,7 @@
 			)
 		)
 		(property "Footprint" "CAPC3225X270N"
-			(at 40.97 91.44 0)
+			(at 43.51 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7731,7 +7886,7 @@
 			)
 		)
 		(property "Datasheet" "http://psearch.en.murata.com/capacitor/product/GRM32ER71E226KE15%23.pdf"
-			(at -59.03 91.44 0)
+			(at -56.49 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7741,7 +7896,7 @@
 			)
 		)
 		(property "Description" "Murata 1210 GRM 47uF Ceramic Multilayer Capacitor, 16 V, +85C, X5R Dielectric, +/-10% SMD"
-			(at 147.066 81.534 0)
+			(at 149.606 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7750,7 +7905,7 @@
 			)
 		)
 		(property "Height" "2.7"
-			(at -259.03 91.44 0)
+			(at -256.49 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7760,7 +7915,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM32ER61C476KE5K"
-			(at -359.03 91.44 0)
+			(at -356.49 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7770,7 +7925,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM32ER61C476KE15K?qs=N3Kl9KD794Qv8YP5qllqqg%3D%3D"
-			(at -459.03 91.44 0)
+			(at -456.49 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7780,7 +7935,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at -559.03 91.44 0)
+			(at -556.49 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7790,7 +7945,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM32ER61C476KE15K"
-			(at -659.03 91.44 0)
+			(at -656.49 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7816,7 +7971,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:Résistance RK73H2BLTDD2152F")
-		(at 77.47 58.42 270)
+		(at 80.01 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7825,7 +7980,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c6a3337-d5bb-4259-b7ac-07295a48cba3")
 		(property "Reference" "R8"
-			(at 80.01 66.0399 90)
+			(at 82.55 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7834,7 +7989,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 80.01 68.5799 90)
+			(at 82.55 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7843,7 +7998,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:RESC3216X70N"
-			(at 77.47 83.82 0)
+			(at 80.01 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7853,7 +8008,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at 74.93 83.82 0)
+			(at 77.47 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7863,7 +8018,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD"
-			(at 72.39 83.82 0)
+			(at 74.93 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7873,7 +8028,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 80.01 88.646 0)
+			(at 82.55 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7882,7 +8037,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 82.55 83.82 0)
+			(at 85.09 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7892,7 +8047,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 69.85 83.82 0)
+			(at 72.39 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7902,7 +8057,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at 67.31 83.82 0)
+			(at 69.85 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7912,7 +8067,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
-			(at 64.77 83.82 0)
+			(at 67.31 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,7 +8077,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 62.23 83.82 0)
+			(at 64.77 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7932,7 +8087,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
-			(at 59.69 83.82 0)
+			(at 62.23 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7942,7 +8097,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 58.42 72.39 0)
+			(at 60.96 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7952,7 +8107,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 55.88 72.39 0)
+			(at 58.42 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7962,7 +8117,7 @@
 			)
 		)
 		(property "Mouser Testing Part Number" ""
-			(at 53.34 72.39 0)
+			(at 55.88 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7972,7 +8127,7 @@
 			)
 		)
 		(property "Mouser Testing Price/Stock" ""
-			(at 50.8 72.39 0)
+			(at 53.34 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7982,7 +8137,7 @@
 			)
 		)
 		(property "Render Name" "Résistance"
-			(at 84.074 67.31 0)
+			(at 86.614 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8073,7 +8228,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:Résistance RK73H2BLTDD2152F")
-		(at 71.12 63.5 180)
+		(at 73.66 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8081,7 +8236,7 @@
 		(dnp no)
 		(uuid "4af4ba42-8eca-4f53-80b2-a50c0aa3da4b")
 		(property "Reference" "R10"
-			(at 62.484 59.182 0)
+			(at 65.024 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8089,7 +8244,7 @@
 			)
 		)
 		(property "Value" "2.4k"
-			(at 62.484 61.214 0)
+			(at 65.024 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8097,7 +8252,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:RESC3216X70N"
-			(at 45.72 63.5 0)
+			(at 48.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8107,7 +8262,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at 45.72 60.96 0)
+			(at 48.26 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8117,7 +8272,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD"
-			(at 45.72 58.42 0)
+			(at 48.26 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8127,7 +8282,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 40.894 66.04 0)
+			(at 43.434 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,7 +8291,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 45.72 68.58 0)
+			(at 48.26 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8146,7 +8301,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 45.72 55.88 0)
+			(at 48.26 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8156,7 +8311,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at 45.72 53.34 0)
+			(at 48.26 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8166,7 +8321,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
-			(at 45.72 50.8 0)
+			(at 48.26 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8176,7 +8331,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 45.72 48.26 0)
+			(at 48.26 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8186,7 +8341,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
-			(at 45.72 45.72 0)
+			(at 48.26 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8196,7 +8351,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 57.15 44.45 0)
+			(at 59.69 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8206,7 +8361,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 57.15 41.91 0)
+			(at 59.69 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8216,7 +8371,7 @@
 			)
 		)
 		(property "Mouser Testing Part Number" ""
-			(at 57.15 39.37 0)
+			(at 59.69 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8226,7 +8381,7 @@
 			)
 		)
 		(property "Mouser Testing Price/Stock" ""
-			(at 57.15 36.83 0)
+			(at 59.69 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8236,7 +8391,7 @@
 			)
 		)
 		(property "Render Name" "Résistance"
-			(at 62.23 70.104 0)
+			(at 64.77 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8261,7 +8416,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:Résistance RL0816S-R22-F")
-		(at 130.81 55.88 270)
+		(at 133.35 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8270,7 +8425,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bb33681-8623-4066-b9b8-6319d7d38c1b")
 		(property "Reference" "R3"
-			(at 133.35 63.4999 90)
+			(at 135.89 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8279,7 +8434,7 @@
 			)
 		)
 		(property "Value" "0.22"
-			(at 133.35 66.0399 90)
+			(at 135.89 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8288,7 +8443,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 34.62 69.85 0)
+			(at 37.16 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8298,7 +8453,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.susumu.co.jp/common/pdf/n_catalog_partition08_en.pdf"
-			(at -65.38 69.85 0)
+			(at -62.84 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,7 +8463,7 @@
 			)
 		)
 		(property "Description" "220 mOhms +/-1% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Current Sense Thin Film"
-			(at 140.208 58.928 0)
+			(at 142.748 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8317,7 +8472,7 @@
 			)
 		)
 		(property "Height" "0.55"
-			(at -265.38 69.85 0)
+			(at -262.84 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8327,7 +8482,7 @@
 			)
 		)
 		(property "Mouser Part Number" "754-RL0816S-R22-F"
-			(at -365.38 69.85 0)
+			(at -362.84 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8337,7 +8492,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Susumu/RL0816S-R22-F?qs=nCAm%252BcMdy9wf61LcSsWBdw%3D%3D"
-			(at -465.38 69.85 0)
+			(at -462.84 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8347,7 +8502,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Susumu"
-			(at -565.38 69.85 0)
+			(at -562.84 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8357,7 +8512,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RL0816S-R22-F"
-			(at -665.38 69.85 0)
+			(at -662.84 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8580,7 +8735,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:Condensateur 0805Y1000104JXT")
-		(at 107.95 73.66 90)
+		(at 110.49 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8588,7 +8743,7 @@
 		(dnp no)
 		(uuid "57368751-05cf-4f6e-a36c-6a06e261deb7")
 		(property "Reference" "C5"
-			(at 112.014 66.548 90)
+			(at 114.554 66.548 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8596,7 +8751,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 112.268 68.58 90)
+			(at 114.808 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8604,16 +8759,6 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:CAPC2012X130N"
-			(at 107.95 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/119d/0900766b8119d7bc.pdf"
 			(at 110.49 53.34 0)
 			(effects
 				(font
@@ -8623,7 +8768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Syfer 0805 Ceramic Chip Capacitors"
+		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/119d/0900766b8119d7bc.pdf"
 			(at 113.03 53.34 0)
 			(effects
 				(font
@@ -8633,26 +8778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 105.664 48.514 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "C"
-			(at 102.87 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.3"
+		(property "Description" "Syfer 0805 Ceramic Chip Capacitors"
 			(at 115.57 53.34 0)
 			(effects
 				(font
@@ -8662,7 +8788,26 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Syfer"
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 108.204 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 105.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.3"
 			(at 118.11 53.34 0)
 			(effects
 				(font
@@ -8672,8 +8817,18 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0805Y1000104JXT"
+		(property "Manufacturer_Name" "Syfer"
 			(at 120.65 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805Y1000104JXT"
+			(at 123.19 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8683,7 +8838,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 121.92 64.77 0)
+			(at 124.46 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8693,7 +8848,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 120.65 53.34 0)
+			(at 123.19 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8703,7 +8858,7 @@
 			)
 		)
 		(property "Render Name" "Condensateur"
-			(at 103.886 67.056 0)
+			(at 106.426 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8728,7 +8883,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:Condensateur GRM32ER61C476KE15K")
-		(at 149.86 82.55 270)
+		(at 152.4 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8737,7 +8892,7 @@
 		(fields_autoplaced yes)
 		(uuid "6629b117-9bbc-42d3-88d9-739d97b2a14e")
 		(property "Reference" "C8"
-			(at 153.67 87.6299 90)
+			(at 156.21 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8746,7 +8901,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 153.67 90.1699 90)
+			(at 156.21 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8755,7 +8910,7 @@
 			)
 		)
 		(property "Footprint" "CAPC3225X270N"
-			(at 53.67 91.44 0)
+			(at 56.21 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8765,7 +8920,7 @@
 			)
 		)
 		(property "Datasheet" "http://psearch.en.murata.com/capacitor/product/GRM32ER71E226KE15%23.pdf"
-			(at -46.33 91.44 0)
+			(at -43.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8775,7 +8930,7 @@
 			)
 		)
 		(property "Description" "Murata 1210 GRM 47uF Ceramic Multilayer Capacitor, 16 V, +85C, X5R Dielectric, +/-10% SMD"
-			(at 159.766 81.534 0)
+			(at 162.306 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8784,7 +8939,7 @@
 			)
 		)
 		(property "Height" "2.7"
-			(at -246.33 91.44 0)
+			(at -243.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8794,7 +8949,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM32ER61C476KE5K"
-			(at -346.33 91.44 0)
+			(at -343.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8804,7 +8959,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM32ER61C476KE15K?qs=N3Kl9KD794Qv8YP5qllqqg%3D%3D"
-			(at -446.33 91.44 0)
+			(at -443.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8814,7 +8969,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at -546.33 91.44 0)
+			(at -543.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8824,7 +8979,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM32ER61C476KE15K"
-			(at -646.33 91.44 0)
+			(at -643.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8850,7 +9005,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:Alim LP TSR_0.5-2450")
-		(at 193.04 85.09 0)
+		(at 195.58 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8859,7 +9014,7 @@
 		(fields_autoplaced yes)
 		(uuid "6884a977-84b3-4540-96d5-6ce3c0c127d0")
 		(property "Reference" "U1"
-			(at 213.36 81.2799 0)
+			(at 215.9 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8868,7 +9023,7 @@
 			)
 		)
 		(property "Value" "Alim LP TSR_0.5-2450"
-			(at 213.36 76.2 0)
+			(at 215.9 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8878,7 +9033,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:TSR-0.5-2433"
-			(at 213.36 78.74 0)
+			(at 215.9 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8888,7 +9043,7 @@
 			)
 		)
 		(property "Datasheet" "https://tracopower.com/tsr0-5-datasheet/"
-			(at 213.36 81.28 0)
+			(at 215.9 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8898,7 +9053,7 @@
 			)
 		)
 		(property "Description" "0.5 Amp POL switching regulator, 4.75 to 32 VDC input, pos.-pos. circuit, LM78 compatible, SIP-3"
-			(at 213.36 83.82 0)
+			(at 215.9 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8908,7 +9063,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 213.36 86.36 0)
+			(at 215.9 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8918,7 +9073,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Traco Power"
-			(at 213.36 86.36 0)
+			(at 215.9 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8928,7 +9083,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TSR 0.5-2450"
-			(at 213.36 88.9 0)
+			(at 215.9 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8938,7 +9093,7 @@
 			)
 		)
 		(property "Mouser Part Number" "495-TSR0.5-2450"
-			(at 213.36 91.44 0)
+			(at 215.9 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8948,7 +9103,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TRACO-Power/TSR-0.5-2450?qs=ckJk83FOD0XpEgQBSwF%2FIw%3D%3D"
-			(at 213.36 93.98 0)
+			(at 215.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8958,7 +9113,7 @@
 			)
 		)
 		(property "Render Name" "Alim LP"
-			(at 213.36 83.8199 0)
+			(at 215.9 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8986,7 +9141,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:Diode Zener CMHZ4107_TR_PBFREE")
-		(at 176.53 97.79 90)
+		(at 179.07 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8995,7 +9150,7 @@
 		(fields_autoplaced yes)
 		(uuid "70578d59-0534-4afb-bec1-847f753cb185")
 		(property "Reference" "Z1"
-			(at 180.34 88.8999 90)
+			(at 182.88 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9004,7 +9159,7 @@
 			)
 		)
 		(property "Value" "Diode Zener CMHZ4107_TR_PBFREE"
-			(at 180.34 91.4399 90)
+			(at 182.88 91.4399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9013,7 +9168,7 @@
 			)
 		)
 		(property "Footprint" "SOD3816X135N"
-			(at 270.18 87.63 0)
+			(at 272.72 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9023,7 +9178,7 @@
 			)
 		)
 		(property "Datasheet" "https://my.centralsemi.com/datasheets/CMHZ4099-4125.PDF"
-			(at 370.18 87.63 0)
+			(at 372.72 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9033,7 +9188,7 @@
 			)
 		)
 		(property "Description" "Zener Diodes 500mW 5% Tolerance"
-			(at 164.592 96.266 0)
+			(at 167.132 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9042,7 +9197,7 @@
 			)
 		)
 		(property "Height" "1.35"
-			(at 570.18 87.63 0)
+			(at 572.72 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9052,7 +9207,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 670.18 87.63 0)
+			(at 672.72 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9062,7 +9217,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 770.18 87.63 0)
+			(at 772.72 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9072,7 +9227,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Central Semiconductor"
-			(at 870.18 87.63 0)
+			(at 872.72 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9082,7 +9237,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CMHZ4107 TR PBFREE"
-			(at 970.18 87.63 0)
+			(at 972.72 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9269,7 +9424,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:Condensateur 0805Y1000104JXT")
-		(at 90.17 76.2 0)
+		(at 92.71 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9278,7 +9433,7 @@
 		(fields_autoplaced yes)
 		(uuid "87b5c451-8d88-49a3-875c-a7ce35fa8b57")
 		(property "Reference" "C3"
-			(at 95.885 68.58 0)
+			(at 98.425 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9286,7 +9441,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 95.885 71.12 0)
+			(at 98.425 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9294,7 +9449,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:CAPC2012X130N"
-			(at 110.49 76.2 0)
+			(at 113.03 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9304,7 +9459,7 @@
 			)
 		)
 		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/119d/0900766b8119d7bc.pdf"
-			(at 110.49 78.74 0)
+			(at 113.03 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9314,7 +9469,7 @@
 			)
 		)
 		(property "Description" "Syfer 0805 Ceramic Chip Capacitors"
-			(at 110.49 81.28 0)
+			(at 113.03 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9324,7 +9479,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 115.316 73.914 0)
+			(at 117.856 73.914 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9333,7 +9488,7 @@
 			)
 		)
 		(property "Sim.Device" "C"
-			(at 110.49 71.12 0)
+			(at 113.03 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9343,7 +9498,7 @@
 			)
 		)
 		(property "Height" "1.3"
-			(at 110.49 83.82 0)
+			(at 113.03 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9353,7 +9508,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Syfer"
-			(at 110.49 86.36 0)
+			(at 113.03 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9363,7 +9518,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "0805Y1000104JXT"
-			(at 110.49 88.9 0)
+			(at 113.03 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9373,7 +9528,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 99.06 90.17 0)
+			(at 101.6 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9383,7 +9538,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 110.49 88.9 0)
+			(at 113.03 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9393,7 +9548,7 @@
 			)
 		)
 		(property "Render Name" "Condensateur"
-			(at 96.774 72.136 0)
+			(at 99.314 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9616,7 +9771,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:NMOS TK3P80E_RQ")
-		(at 134.62 50.8 0)
+		(at 137.16 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9625,7 +9780,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d6d044b-b7c8-463e-b6b2-8fbb2f2565c3")
 		(property "Reference" "Q2"
-			(at 146.05 46.9899 0)
+			(at 148.59 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9634,7 +9789,7 @@
 			)
 		)
 		(property "Value" "NMOS TK3P80E_RQ"
-			(at 146.05 49.5299 0)
+			(at 148.59 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9643,7 +9798,7 @@
 			)
 		)
 		(property "Footprint" "TK3P80ERQ"
-			(at 146.05 149.53 0)
+			(at 148.59 149.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9653,7 +9808,7 @@
 			)
 		)
 		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=14695&prodName=TK3P80E"
-			(at 146.05 249.53 0)
+			(at 148.59 249.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9663,7 +9818,7 @@
 			)
 		)
 		(property "Description" "MOSFET PWR MOS PD=80W  F=1MHZ"
-			(at 140.97 32.512 0)
+			(at 143.51 32.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9672,7 +9827,7 @@
 			)
 		)
 		(property "Height" "2.4"
-			(at 146.05 449.53 0)
+			(at 148.59 449.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9682,7 +9837,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 146.05 549.53 0)
+			(at 148.59 549.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9692,7 +9847,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 146.05 649.53 0)
+			(at 148.59 649.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9702,7 +9857,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Toshiba"
-			(at 146.05 749.53 0)
+			(at 148.59 749.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9712,7 +9867,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TK3P80E,RQ"
-			(at 146.05 849.53 0)
+			(at 148.59 849.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9741,7 +9896,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:Condensateur 0805Y1000104JXT")
-		(at 72.39 74.93 90)
+		(at 74.93 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9750,7 +9905,7 @@
 		(fields_autoplaced yes)
 		(uuid "90caf01e-87a0-4376-8c98-9e5ce3ea5036")
 		(property "Reference" "C6"
-			(at 68.58 67.9449 90)
+			(at 71.12 67.9449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9759,7 +9914,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 68.58 70.4849 90)
+			(at 71.12 70.4849 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9768,16 +9923,6 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:CAPC2012X130N"
-			(at 72.39 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/119d/0900766b8119d7bc.pdf"
 			(at 74.93 54.61 0)
 			(effects
 				(font
@@ -9787,7 +9932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Syfer 0805 Ceramic Chip Capacitors"
+		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/119d/0900766b8119d7bc.pdf"
 			(at 77.47 54.61 0)
 			(effects
 				(font
@@ -9797,26 +9942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 70.104 49.784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "C"
-			(at 67.31 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.3"
+		(property "Description" "Syfer 0805 Ceramic Chip Capacitors"
 			(at 80.01 54.61 0)
 			(effects
 				(font
@@ -9826,7 +9952,26 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Syfer"
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 72.644 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 69.85 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.3"
 			(at 82.55 54.61 0)
 			(effects
 				(font
@@ -9836,8 +9981,18 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "0805Y1000104JXT"
+		(property "Manufacturer_Name" "Syfer"
 			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805Y1000104JXT"
+			(at 87.63 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9847,7 +10002,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 86.36 66.04 0)
+			(at 88.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9857,7 +10012,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 85.09 54.61 0)
+			(at 87.63 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9867,7 +10022,7 @@
 			)
 		)
 		(property "Render Name" "Condensateur"
-			(at 68.326 68.326 0)
+			(at 70.866 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9892,7 +10047,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:Résistance RK73H2BLTDD2152F")
-		(at 67.31 55.88 180)
+		(at 69.85 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9900,7 +10055,7 @@
 		(dnp no)
 		(uuid "9586a62a-adbc-40cc-b559-b142225c3c35")
 		(property "Reference" "R9"
-			(at 58.674 51.816 0)
+			(at 61.214 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9908,7 +10063,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 58.674 53.594 0)
+			(at 61.214 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9916,7 +10071,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:RESC3216X70N"
-			(at 41.91 55.88 0)
+			(at 44.45 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9926,7 +10081,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at 41.91 53.34 0)
+			(at 44.45 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9936,7 +10091,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD"
-			(at 41.91 50.8 0)
+			(at 44.45 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9946,7 +10101,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 37.084 58.42 0)
+			(at 39.624 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9955,7 +10110,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 41.91 60.96 0)
+			(at 44.45 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9965,7 +10120,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 41.91 48.26 0)
+			(at 44.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9975,7 +10130,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at 41.91 45.72 0)
+			(at 44.45 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9985,7 +10140,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
-			(at 41.91 43.18 0)
+			(at 44.45 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9995,7 +10150,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 41.91 40.64 0)
+			(at 44.45 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10005,7 +10160,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
-			(at 41.91 38.1 0)
+			(at 44.45 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10015,7 +10170,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 53.34 36.83 0)
+			(at 55.88 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10025,7 +10180,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 53.34 34.29 0)
+			(at 55.88 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10035,7 +10190,7 @@
 			)
 		)
 		(property "Mouser Testing Part Number" ""
-			(at 53.34 31.75 0)
+			(at 55.88 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10045,7 +10200,7 @@
 			)
 		)
 		(property "Mouser Testing Price/Stock" ""
-			(at 53.34 29.21 0)
+			(at 55.88 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10055,7 +10210,7 @@
 			)
 		)
 		(property "Render Name" "Résistance"
-			(at 58.42 62.484 0)
+			(at 60.96 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10080,7 +10235,7 @@
 	)
 	(symbol
 		(lib_id "pspice:0")
-		(at 25.4 44.45 0)
+		(at 27.94 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10089,7 +10244,7 @@
 		(fields_autoplaced yes)
 		(uuid "9becd751-3efb-4913-a288-8e08e04109f1")
 		(property "Reference" "#GND01"
-			(at 25.4 46.99 0)
+			(at 27.94 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10098,7 +10253,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 25.4 41.91 0)
+			(at 27.94 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10106,7 +10261,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 44.45 0)
+			(at 27.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10115,7 +10270,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 25.4 44.45 0)
+			(at 27.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10124,7 +10279,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 44.45 0)
+			(at 27.94 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10146,7 +10301,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:Contrôleur LT8316EFE#PBF")
-		(at 77.47 38.1 0)
+		(at 80.01 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10155,7 +10310,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa888573-fc65-4816-b744-c9b1c35fb0f2")
 		(property "Reference" "IC1"
-			(at 95.25 30.48 0)
+			(at 97.79 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10163,7 +10318,7 @@
 			)
 		)
 		(property "Value" "Contrôleur LT8316EFE#PBF"
-			(at 95.25 33.02 0)
+			(at 97.79 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,7 +10326,7 @@
 			)
 		)
 		(property "Footprint" "LT8315EFEPBF"
-			(at 109.22 133.02 0)
+			(at 111.76 133.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10181,7 +10336,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/LT8316.pdf"
-			(at 109.22 233.02 0)
+			(at 111.76 233.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10191,7 +10346,7 @@
 			)
 		)
 		(property "Description" "Switching Controllers 600VIN Micropower, Isolated No-Opto Flyb"
-			(at 97.536 27.686 0)
+			(at 100.076 27.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10200,7 +10355,7 @@
 			)
 		)
 		(property "Height" "1"
-			(at 109.22 433.02 0)
+			(at 111.76 433.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10210,7 +10365,7 @@
 			)
 		)
 		(property "Mouser Part Number" "584-LT8316EFE#PBF"
-			(at 109.22 533.02 0)
+			(at 111.76 533.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10220,7 +10375,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT8316EFEPBF?qs=0lSvoLzn4L9vCHQJkSIf7Q%3D%3D"
-			(at 109.22 633.02 0)
+			(at 111.76 633.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10230,7 +10385,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Analog Devices"
-			(at 109.22 733.02 0)
+			(at 111.76 733.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10240,7 +10395,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LT8316EFE#PBF"
-			(at 109.22 833.02 0)
+			(at 111.76 833.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10508,7 +10663,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:Bobine 7447709102")
-		(at 33.02 82.55 0)
+		(at 35.56 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10517,15 +10672,15 @@
 		(fields_autoplaced yes)
 		(uuid "b6083d10-ea5e-4247-833c-eb0b72b44391")
 		(property "Reference" "L1"
-			(at 43.18 76.2 0)
+			(at 45.72 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1000u"
-			(at 43.18 78.74 0)
+		(property "Value" "1m"
+			(at 45.72 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10533,7 +10688,7 @@
 			)
 		)
 		(property "Footprint" "WE-PD_1260/1245/1280/121054"
-			(at 49.53 178.74 0)
+			(at 52.07 178.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10543,7 +10698,7 @@
 			)
 		)
 		(property "Datasheet" "http://componentsearchengine.com/Datasheets/3/7447709102.pdf"
-			(at 49.53 278.74 0)
+			(at 52.07 278.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10553,7 +10708,7 @@
 			)
 		)
 		(property "Description" "SMD-Shielded Power Inductors WE-PD"
-			(at 40.64 73.152 0)
+			(at 43.18 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10562,7 +10717,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 49.53 478.74 0)
+			(at 52.07 478.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10572,7 +10727,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-7447709102"
-			(at 49.53 578.74 0)
+			(at 52.07 578.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10582,7 +10737,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7447709102?qs=E%2F%2FhvbtCqpMi3VpSUpMneA%3D%3D"
-			(at 49.53 678.74 0)
+			(at 52.07 678.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10592,7 +10747,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 49.53 778.74 0)
+			(at 52.07 778.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10602,7 +10757,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "7447709102"
-			(at 49.53 878.74 0)
+			(at 52.07 878.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10818,6 +10973,128 @@
 			(project "Indicator_voltage"
 				(path "/54532903-b9d3-4178-837f-6df9f12dc1a2"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSAlib:Fusible 0ADAP0200-RE")
+		(at 186.69 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c176558a-fd00-49d9-b02f-6e12dcc82c7b")
+		(property "Reference" "F1"
+			(at 189.23 132.0799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "200mA"
+			(at 189.23 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "0ADAP0200RE"
+			(at 282.88 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0adax-series.pdf"
+			(at 382.88 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuses with Leads (Through Hole) FUSE, CERAMIC TUBE 0.2A 600VAC600VDC"
+			(at 177.8 141.478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.06"
+			(at 582.88 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "530-0ADAP0200-RE"
+			(at 682.88 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bel-Fuse/0ADAP0200-RE?qs=chTDxNqvsylLbV%252B5gr9f%252Bw%3D%3D"
+			(at 782.88 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "BelFuse"
+			(at 882.88 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0ADAP0200-RE"
+			(at 982.88 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f1f8cf19-8332-4436-bade-0f094b8272ca")
+		)
+		(pin "1"
+			(uuid "46805b92-eff7-4e3c-ab36-1a16be4ebfd2")
+		)
+		(instances
+			(project "Indicator_voltage"
+				(path "/54532903-b9d3-4178-837f-6df9f12dc1a2"
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -11118,7 +11395,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:Résistance RK73H2BLTDD2152F")
-		(at 31.75 33.02 270)
+		(at 34.29 33.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11127,7 +11404,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4691c7a-71a1-4fba-91b5-e3f32725b601")
 		(property "Reference" "R2"
-			(at 34.29 40.6399 90)
+			(at 36.83 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11136,7 +11413,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 34.29 43.1799 90)
+			(at 36.83 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11145,7 +11422,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:RESC3216X70N"
-			(at 31.75 58.42 0)
+			(at 34.29 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11155,7 +11432,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at 29.21 58.42 0)
+			(at 31.75 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11165,7 +11442,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD"
-			(at 26.67 58.42 0)
+			(at 29.21 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11175,7 +11452,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 34.29 63.246 0)
+			(at 36.83 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11184,7 +11461,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 36.83 58.42 0)
+			(at 39.37 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11194,7 +11471,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 24.13 58.42 0)
+			(at 26.67 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11204,7 +11481,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at 21.59 58.42 0)
+			(at 24.13 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11214,7 +11491,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
-			(at 19.05 58.42 0)
+			(at 21.59 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11224,7 +11501,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 16.51 58.42 0)
+			(at 19.05 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11234,7 +11511,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
-			(at 13.97 58.42 0)
+			(at 16.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11244,7 +11521,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 12.7 46.99 0)
+			(at 15.24 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11254,7 +11531,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 10.16 46.99 0)
+			(at 12.7 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11264,7 +11541,7 @@
 			)
 		)
 		(property "Mouser Testing Part Number" ""
-			(at 7.62 46.99 0)
+			(at 10.16 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11274,7 +11551,7 @@
 			)
 		)
 		(property "Mouser Testing Price/Stock" ""
-			(at 5.08 46.99 0)
+			(at 7.62 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11284,7 +11561,7 @@
 			)
 		)
 		(property "Render Name" "Résistance"
-			(at 38.354 41.91 0)
+			(at 40.894 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11838,7 +12115,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:Condensateur GRM32ER61C476KE15K")
-		(at 162.56 82.55 270)
+		(at 165.1 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11847,7 +12124,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9d4a14e-b01d-4f8a-86c8-00a4a96ee940")
 		(property "Reference" "C9"
-			(at 166.37 87.6299 90)
+			(at 168.91 87.6299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11856,7 +12133,7 @@
 			)
 		)
 		(property "Value" "47u"
-			(at 166.37 90.1699 90)
+			(at 168.91 90.1699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11865,7 +12142,7 @@
 			)
 		)
 		(property "Footprint" "CAPC3225X270N"
-			(at 66.37 91.44 0)
+			(at 68.91 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11875,7 +12152,7 @@
 			)
 		)
 		(property "Datasheet" "http://psearch.en.murata.com/capacitor/product/GRM32ER71E226KE15%23.pdf"
-			(at -33.63 91.44 0)
+			(at -31.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11885,7 +12162,7 @@
 			)
 		)
 		(property "Description" "Murata 1210 GRM 47uF Ceramic Multilayer Capacitor, 16 V, +85C, X5R Dielectric, +/-10% SMD"
-			(at 172.466 81.534 0)
+			(at 175.006 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11894,7 +12171,7 @@
 			)
 		)
 		(property "Height" "2.7"
-			(at -233.63 91.44 0)
+			(at -231.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11904,7 +12181,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM32ER61C476KE5K"
-			(at -333.63 91.44 0)
+			(at -331.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11914,7 +12191,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM32ER61C476KE15K?qs=N3Kl9KD794Qv8YP5qllqqg%3D%3D"
-			(at -433.63 91.44 0)
+			(at -431.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11924,7 +12201,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at -533.63 91.44 0)
+			(at -531.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11934,7 +12211,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM32ER61C476KE15K"
-			(at -633.63 91.44 0)
+			(at -631.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12155,7 +12432,7 @@
 	)
 	(symbol
 		(lib_id "EPSAlib:Diode US1KFA")
-		(at 115.57 82.55 0)
+		(at 118.11 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12163,7 +12440,7 @@
 		(dnp no)
 		(uuid "f458502e-4a17-4fd6-ac7b-f85d5641608a")
 		(property "Reference" "D3"
-			(at 123.444 77.216 0)
+			(at 125.984 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12171,7 +12448,7 @@
 			)
 		)
 		(property "Value" "Diode US1KFA"
-			(at 123.19 78.74 0)
+			(at 125.73 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12179,7 +12456,7 @@
 			)
 		)
 		(property "Footprint" "SODFL3618X143N"
-			(at 127 180.01 0)
+			(at 129.54 180.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12189,7 +12466,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/us1kfa/on-semiconductor"
-			(at 127 280.01 0)
+			(at 129.54 280.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12199,7 +12476,7 @@
 			)
 		)
 		(property "Description" "Diode Switching 800V 1A 2-Pin SOD-123FA T/R"
-			(at 116.332 74.422 0)
+			(at 118.872 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12208,7 +12485,7 @@
 			)
 		)
 		(property "Height" "1.43"
-			(at 127 480.01 0)
+			(at 129.54 480.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12218,7 +12495,7 @@
 			)
 		)
 		(property "Mouser Part Number" "512-US1KFA"
-			(at 127 580.01 0)
+			(at 129.54 580.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12228,7 +12505,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/US1KFA?qs=kF4zOt4%2FK7W%252BRlWbuA8gCw%3D%3D"
-			(at 127 680.01 0)
+			(at 129.54 680.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12238,7 +12515,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 127 780.01 0)
+			(at 129.54 780.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12248,7 +12525,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "US1KFA"
-			(at 127 880.01 0)
+			(at 129.54 880.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
