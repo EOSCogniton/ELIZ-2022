@@ -2388,7 +2388,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 46.99) (xy 41.91 46.99)
+			(xy 30.48 46.99) (xy 34.29 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2448,6 +2448,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 46.99) (xy 53.34 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "595bbc53-9ad5-4b58-9b5a-438de420e544")
+	)
+	(wire
+		(pts
 			(xy 87.63 63.5) (xy 85.09 63.5)
 		)
 		(stroke
@@ -2488,7 +2498,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 46.99) (xy 92.71 46.99)
+			(xy 88.9 46.99) (xy 92.71 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2498,7 +2508,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 46.99) (xy 78.74 46.99)
+			(xy 78.74 46.99) (xy 81.28 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2538,7 +2548,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 46.99) (xy 57.15 46.99)
+			(xy 60.96 46.99) (xy 63.5 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2784,7 +2794,7 @@
 	)
 	(text "LVMS"
 		(exclude_from_sim no)
-		(at 65.024 42.418 0)
+		(at 70.866 42.418 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2811,6 +2821,16 @@
 			)
 		)
 		(uuid "e11cdb21-bab5-4871-893f-1de3942b8b7e")
+	)
+	(text "LVS\nDashboard\nSwitch"
+		(exclude_from_sim no)
+		(at 41.656 40.132 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "edcc740f-ab60-4b75-9b31-59ed24176b42")
 	)
 	(text "Left"
 		(exclude_from_sim no)
@@ -3163,7 +3183,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 82.55 46.99 90)
+		(at 85.09 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3172,7 +3192,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cbece21-980a-461d-8dba-1c6e4dac491d")
 		(property "Reference" "F1"
-			(at 82.55 40.64 90)
+			(at 85.09 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3181,7 +3201,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 82.55 43.18 90)
+			(at 85.09 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,7 +3209,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 48.768 90)
+			(at 85.09 48.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3198,7 +3218,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 46.99 0)
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3207,7 +3227,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 82.55 46.99 0)
+			(at 85.09 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,22 +5012,22 @@
 			(uuid "16474b23-b09c-472b-8e1f-eaaa4b282697")
 		)
 		(pin "4"
-			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d39")
+			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d3a")
 		)
 		(pin "2"
-			(uuid "23bbf7cb-d91e-485e-9985-11c6e846370b")
+			(uuid "23bbf7cb-d91e-485e-9985-11c6e846370c")
 		)
 		(pin "5"
-			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf52b")
+			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf52c")
 		)
 		(pin "3"
-			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef017")
+			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef018")
 		)
 		(pin ""
 			(uuid "30f6e9bd-53cc-4380-b17c-24ce6129d557")
 		)
 		(pin "7"
-			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37317")
+			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37318")
 		)
 		(instances
 			(project "SDC"
@@ -5602,7 +5622,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 46.99 270)
+		(at 30.48 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5611,7 +5631,7 @@
 		(fields_autoplaced yes)
 		(uuid "851c5fcb-de84-4bd3-a818-2f55db9c5348")
 		(property "Reference" "#PWR01"
-			(at 30.48 46.99 0)
+			(at 24.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,7 +5640,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 46.9899 90)
+			(at 26.67 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5630,7 +5650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 46.99 0)
+			(at 30.48 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5639,7 +5659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 46.99 0)
+			(at 30.48 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5648,7 +5668,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 46.99 0)
+			(at 30.48 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5670,7 +5690,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 46.99 46.99 90)
+		(at 58.42 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5679,7 +5699,7 @@
 		(fields_autoplaced yes)
 		(uuid "872b33d1-a22a-48c4-92c7-a84e31d6cbeb")
 		(property "Reference" "BT1"
-			(at 45.1485 39.37 90)
+			(at 56.5785 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5688,7 +5708,7 @@
 			)
 		)
 		(property "Value" "LV_Battery"
-			(at 45.1485 41.91 90)
+			(at 56.5785 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +5716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.466 46.99 90)
+			(at 56.896 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +5725,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.466 46.99 90)
+			(at 56.896 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5714,7 +5734,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 46.99 46.99 0)
+			(at 58.42 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5738,8 +5758,9 @@
 		)
 	)
 	(symbol
+		(lib_name "Analog_Switch:ADG417BR")
 		(lib_id "Analog_Switch:ADG417BR")
-		(at 64.77 46.99 180)
+		(at 71.12 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5748,7 +5769,7 @@
 		(fields_autoplaced yes)
 		(uuid "9265d00d-e7d9-4ebc-93e3-48554f49c0c9")
 		(property "Reference" "U1"
-			(at 64.77 50.8 0)
+			(at 71.12 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5757,7 +5778,7 @@
 			)
 		)
 		(property "Value" "ADG417BR"
-			(at 64.77 52.07 0)
+			(at 71.12 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5766,7 +5787,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 64.262 36.322 0)
+			(at 70.612 36.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5775,7 +5796,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG417.pdf"
-			(at 64.77 46.99 0)
+			(at 71.12 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5784,7 +5805,7 @@
 			)
 		)
 		(property "Description" "Single SPST Monolithic LC²MOS Analog Switch, normally OFF, 25Ohm Ron, SOIC-8"
-			(at 64.77 46.99 0)
+			(at 71.12 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6078,22 +6099,22 @@
 			(uuid "3be1f053-4496-48c9-8340-def4d4fff7cf")
 		)
 		(pin "4"
-			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d39")
+			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d3b")
 		)
 		(pin "2"
-			(uuid "23bbf7cb-d91e-485e-9985-11c6e846370b")
+			(uuid "23bbf7cb-d91e-485e-9985-11c6e846370d")
 		)
 		(pin "5"
-			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf52b")
+			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf52d")
 		)
 		(pin "3"
-			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef017")
+			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef019")
 		)
 		(pin ""
 			(uuid "76af681d-8753-4bb3-83f2-0eae3d93734f")
 		)
 		(pin "7"
-			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37317")
+			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37319")
 		)
 		(instances
 			(project "SDC"
@@ -6923,22 +6944,22 @@
 			(uuid "8fc03fc5-743d-4eb9-af72-e7dff4e8c35e")
 		)
 		(pin "4"
-			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d39")
+			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d3c")
 		)
 		(pin "2"
-			(uuid "23bbf7cb-d91e-485e-9985-11c6e846370b")
+			(uuid "23bbf7cb-d91e-485e-9985-11c6e846370e")
 		)
 		(pin "5"
-			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf52b")
+			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf52e")
 		)
 		(pin "3"
-			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef017")
+			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef01a")
 		)
 		(pin ""
 			(uuid "c8fe2dec-3f2b-4ba1-9496-331951893240")
 		)
 		(pin "7"
-			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37317")
+			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f3731a")
 		)
 		(instances
 			(project "SDC"
@@ -7334,27 +7355,113 @@
 			(uuid "84463d2c-70c9-42c1-80b5-032b01aad8d4")
 		)
 		(pin "4"
-			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d39")
+			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d3d")
 		)
 		(pin "2"
-			(uuid "23bbf7cb-d91e-485e-9985-11c6e846370b")
+			(uuid "23bbf7cb-d91e-485e-9985-11c6e846370f")
 		)
 		(pin "5"
-			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf52b")
+			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf52f")
 		)
 		(pin "3"
-			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef017")
+			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef01b")
 		)
 		(pin ""
 			(uuid "1992f860-c0c5-4cb9-8d48-33bfeae8a3bd")
 		)
 		(pin "7"
-			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37317")
+			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f3731b")
 		)
 		(instances
 			(project "SDC"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Analog_Switch:ADG417BR")
+		(lib_id "Analog_Switch:ADG417BR")
+		(at 41.91 46.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e89823b6-ff8f-4fd1-a663-3735d366bf88")
+		(property "Reference" "U9"
+			(at 41.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "ADG417BR"
+			(at 41.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 41.402 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADG417.pdf"
+			(at 41.91 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single SPST Monolithic LC²MOS Analog Switch, normally OFF, 25Ohm Ron, SOIC-8"
+			(at 41.91 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8f4aa99a-b77f-47fc-8b8f-b02e83d5d7e7")
+		)
+		(pin "4"
+			(uuid "d5bc1ef5-20fd-4d35-ae21-71804b181d36")
+		)
+		(pin "2"
+			(uuid "23bbf7cb-d91e-485e-9985-11c6e8463708")
+		)
+		(pin "5"
+			(uuid "f48c5915-4c0e-4b2e-8c63-7c79327bf528")
+		)
+		(pin "3"
+			(uuid "f93c87fe-7a27-40ad-9101-ca3b581ef014")
+		)
+		(pin ""
+			(uuid "47c1d6fa-49bb-4202-afbb-6971166bd301")
+		)
+		(pin "7"
+			(uuid "eb9616c9-9e0a-4c90-a7cc-2db5e1f37314")
+		)
+		(instances
+			(project "SDC"
+				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
+					(reference "U9")
 					(unit 1)
 				)
 			)
