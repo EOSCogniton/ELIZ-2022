@@ -115,7 +115,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Cirly/")
+			(outputdirectory "../Cirly/Inverter Voltage/")
 		)
 	)
 	(net 0 "")
@@ -583,7 +583,7 @@
 		(descr "4-SOP")
 		(tags "Relay or Contactor")
 		(property "Reference" "K1"
-			(at 5.08 0 90)
+			(at 0.2032 -0.254 180)
 			(layer "F.SilkS")
 			(uuid "603065d1-b55a-4f02-a050-ff3584a5e1dd")
 			(effects
@@ -1891,7 +1891,7 @@
 		(descr "2B(1206)")
 		(tags "Resistor")
 		(property "Reference" "R7"
-			(at 0 -2.54 90)
+			(at 0 -2.159 90)
 			(layer "F.SilkS")
 			(uuid "90a8b579-f301-4754-9fc8-16689c0cb80b")
 			(effects
@@ -2247,7 +2247,7 @@
 		(descr "2B(1206)")
 		(tags "Resistor")
 		(property "Reference" "R9"
-			(at -0.011901 -1.701971 0)
+			(at 3.7846 0.0254 0)
 			(layer "F.SilkS")
 			(uuid "df62f77c-8fc8-4b17-a2ce-0fdde6a93dc3")
 			(effects
@@ -2955,7 +2955,7 @@
 		(descr "2B(1206)")
 		(tags "Resistor")
 		(property "Reference" "R4"
-			(at -0.011901 -1.701971 0)
+			(at 3.7592 -0.0508 0)
 			(layer "F.SilkS")
 			(uuid "e361d5d7-114b-4cdb-aec8-235fc9d26190")
 			(effects
@@ -3307,7 +3307,7 @@
 		(uuid "98a88e0e-9482-41dc-b5ef-ba77ce6f36a0")
 		(at 132.08 86.36 90)
 		(property "Reference" "J1"
-			(at 2.585 -4.489 90)
+			(at 2.2606 1.9558 90)
 			(layer "F.SilkS")
 			(uuid "f4967f9f-ff94-4733-9bbf-598bd7dedaa2")
 			(effects
@@ -5791,7 +5791,7 @@
 		(descr "2B(1206)")
 		(tags "Resistor")
 		(property "Reference" "R8"
-			(at -0.011901 -1.701971 -90)
+			(at -0.0508 -6.096 -90)
 			(layer "F.SilkS")
 			(uuid "736dad97-12d3-462a-ab0c-c985a19ca55b")
 			(effects
@@ -6850,7 +6850,7 @@
 			)
 		)
 	)
-	(gr_text "EPSA Inverter\nVoltage Sensor V1.0"
+	(gr_text "EPSA Inverter\nVoltage Sensor v1.0"
 		(at 120.65 111.125 0)
 		(layer "F.SilkS")
 		(uuid "5e72dab8-f429-4b5c-b750-875482e8e53c")

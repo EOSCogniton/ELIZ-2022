@@ -124,7 +124,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Cirly/")
+			(outputdirectory "../../Cirly/TSAL SCS/")
 		)
 	)
 	(net 0 "")
@@ -740,7 +740,7 @@
 			(at -1.4625 0 90)
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.222222)
+			(roundrect_rratio 0.2222222222)
 			(net 1 "+5V")
 			(pintype "passive")
 			(uuid "9368bf21-c7ab-4f48-8a2a-eef12738a039")
@@ -749,7 +749,7 @@
 			(at 1.4625 0 90)
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.222222)
+			(roundrect_rratio 0.2222222222)
 			(net 61 "Net-(Q3-Pad1)")
 			(pintype "passive")
 			(uuid "e3d9f887-9b71-45dd-a8a7-cebd1ccfd046")
@@ -5671,7 +5671,7 @@
 			(at -1.4625 0)
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.222222)
+			(roundrect_rratio 0.2222222222)
 			(net 61 "Net-(Q3-Pad1)")
 			(pintype "passive")
 			(uuid "075bd67c-b229-4bec-abd3-441adc3ee42d")
@@ -5680,7 +5680,7 @@
 			(at 1.4625 0)
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.222222)
+			(roundrect_rratio 0.2222222222)
 			(net 11 "GND")
 			(pintype "passive")
 			(uuid "d0aa757b-2817-46f7-a1ac-ef6199ff2e5f")
@@ -15075,7 +15075,7 @@
 		(descr "2B(1206)")
 		(tags "Resistor")
 		(property "Reference" "R48"
-			(at -0.011901 -1.701971 270)
+			(at -0.011901 -1.701971 -90)
 			(layer "F.SilkS")
 			(uuid "b9d52d9b-8d19-4f9c-9fbc-db0dfd0e1685")
 			(effects
@@ -15086,7 +15086,7 @@
 			)
 		)
 		(property "Value" "8k2"
-			(at 0 2.54 270)
+			(at 0 2.54 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c0fc4b2a-9ae2-49de-8cd5-c11535b692a2")
@@ -15384,7 +15384,7 @@
 			(uuid "b14b5f60-2121-4b73-8759-98adf7935a04")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -5.08 -2.54 270)
+			(at -5.08 -2.54 -90)
 			(layer "F.Fab")
 			(uuid "131854c0-73d5-497c-956d-a6aab5692900")
 			(effects
@@ -26696,7 +26696,7 @@
 		(descr "2B(1206)")
 		(tags "Resistor")
 		(property "Reference" "R45"
-			(at 0 -1.8796 360)
+			(at 0 -1.8796 0)
 			(layer "F.SilkS")
 			(uuid "0fa31b42-7243-4db8-8697-c62eb8798578")
 			(effects
@@ -26707,7 +26707,7 @@
 			)
 		)
 		(property "Value" "8k2"
-			(at 0 2.54 360)
+			(at 0 2.54 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "522595d0-56e2-484b-a349-c388a7f96668")
@@ -27005,7 +27005,7 @@
 			(uuid "fa55eeda-8d24-41b5-b654-cc656987d5bd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -5.08 -2.54 360)
+			(at -5.08 -2.54 0)
 			(layer "F.Fab")
 			(uuid "66d118ca-8c57-40ee-b730-68e3f87cf5ae")
 			(effects
@@ -29084,7 +29084,7 @@
 			(at -1.4625 0 180)
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.222222)
+			(roundrect_rratio 0.2222222222)
 			(net 11 "GND")
 			(pintype "passive")
 			(uuid "e43d9dbf-1947-42a4-a258-d4e465220422")
@@ -29093,7 +29093,7 @@
 			(at 1.4625 0 180)
 			(size 1.125 1.75)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.222222)
+			(roundrect_rratio 0.2222222222)
 			(net 62 "Net-(Q3-Pad3)")
 			(pintype "passive")
 			(uuid "e6eb0e2a-ceda-47cc-891d-87ba0e17a63b")

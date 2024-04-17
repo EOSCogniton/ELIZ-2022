@@ -74,9 +74,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "../Cirly/SCS Maker/")
 		)
 	)
 	(net 0 "")
@@ -462,7 +462,7 @@
 	(footprint ""
 		(layer "F.Cu")
 		(uuid "08eae4c7-a1c2-49b8-a7d3-f4b737a72cde")
-		(at 89.408 41.656)
+		(at 88.9762 41.9608)
 		(property "Reference" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -535,7 +535,7 @@
 		(uuid "19de2d37-b736-46aa-b597-4022e511d781")
 		(at 67.3165 56.706 90)
 		(property "Reference" "J1"
-			(at 1.488 -2.1 270)
+			(at 1.488 -2.1 -90)
 			(layer "F.SilkS")
 			(uuid "bc220fb9-4868-4cd9-b65e-0d8ae852f2c0")
 			(effects
@@ -546,7 +546,7 @@
 			)
 		)
 		(property "Value" "2P Droit 2-11-2022"
-			(at 7.62 4.615 270)
+			(at 7.62 4.615 -90)
 			(layer "F.Fab")
 			(uuid "45fd2528-85c0-43dc-b3b9-2d1f4653a537")
 			(effects
@@ -883,7 +883,7 @@
 		(descr "2B(1206)")
 		(tags "Resistor")
 		(property "Reference" "R3"
-			(at -3.556 0 0)
+			(at -3.9009 -0.0492 0)
 			(layer "F.SilkS")
 			(uuid "224e3f9e-0cd7-4c1a-97cd-fcf5568e624d")
 			(effects
@@ -1237,7 +1237,7 @@
 		(descr "2B(1206)")
 		(tags "Resistor")
 		(property "Reference" "R1"
-			(at -3.556 0 0)
+			(at -3.8755 0.0016 0)
 			(layer "F.SilkS")
 			(uuid "2d77b3f2-5ed7-4c8e-9c44-2593e1124ce5")
 			(effects
@@ -1879,12 +1879,12 @@
 	(footprint ""
 		(layer "F.Cu")
 		(uuid "8543ae49-0ebf-437a-b457-e75bbbb6d396")
-		(at 89.408 59.436)
+		(at 89.1032 59.1312)
 		(property "Reference" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "311a32d9-c030-4bb9-b2ad-9ff4a3c3bbba")
+			(uuid "e5e77ecf-26b2-4d51-ba4c-7efb14eb42a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1895,7 +1895,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "2652ac05-ca6f-4d1d-baec-7577d8ad0d2d")
+			(uuid "353de968-585f-4655-824b-ac29213a86e4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1944,7 +1944,7 @@
 			(drill 2.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "26e59db7-40c8-4ae5-9324-ac20f980969e")
+			(uuid "530c2a73-ea79-4ca8-92dc-e1ac3361dde7")
 		)
 	)
 	(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
@@ -1954,7 +1954,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor")
 		(property "Reference" "C1"
-			(at -1.330888 3.048 270)
+			(at -1.330888 3.048 -90)
 			(layer "F.SilkS")
 			(uuid "dc409e2d-b1eb-4755-98a5-ed623320ccbc")
 			(effects
@@ -1965,7 +1965,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 1 3.75 270)
+			(at 1 3.75 -90)
 			(layer "F.Fab")
 			(uuid "fbc386d6-d833-46c5-b0b1-26cdfc706cb8")
 			(effects
@@ -3260,7 +3260,7 @@
 			(uuid "5911074e-f923-410c-b0cd-e8769b7f13fe")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1 0 270)
+			(at 1 0 -90)
 			(layer "F.Fab")
 			(uuid "8545c822-c92c-45ee-a992-47ebd9b26108")
 			(effects
@@ -3655,7 +3655,7 @@
 		(descr "2B(1206)")
 		(tags "Resistor")
 		(property "Reference" "R2"
-			(at 3.556 0 180)
+			(at 3.9009 0.0238 180)
 			(layer "F.SilkS")
 			(uuid "894c4ff8-0555-46e5-a956-c0e52443691a")
 			(effects
@@ -4005,7 +4005,7 @@
 	(footprint ""
 		(layer "F.Cu")
 		(uuid "e21b3225-ead2-4d41-a6cd-f329c0a3bbe1")
-		(at 64.516 49.276)
+		(at 65.7352 50.292)
 		(property "Reference" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -4070,11 +4070,11 @@
 			(drill 2.6)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(uuid "26e59db7-40c8-4ae5-9324-ac20f980969e")
+			(uuid "9494b509-90f0-4f65-8749-0a4088be8263")
 		)
 	)
 	(gr_rect
-		(start 61.722 39.37)
+		(start 63.0428 39.37)
 		(end 91.694 61.722)
 		(stroke
 			(width 0.1)
