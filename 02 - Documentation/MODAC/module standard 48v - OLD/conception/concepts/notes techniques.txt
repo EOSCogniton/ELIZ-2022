@@ -1,0 +1,31 @@
+1 For "insulation cells" you should use non-conductive blanks, not dead batteries. 
+#2 Remove fuses from both sides and just have the fuses on the negative side
+#3 Reorient your batteries so the negative sides of the batteries all face outwards because it allows you to do an extra check much faster, which would be to use your infrared camera to check all batteries at the same time.
+#4 Add an insulative on both the negative and positive side of the battery, even if it's a heat resistant plastic layer. (In reality every bank should be fully enclosed and already in it's open separate container.)
+#5 Insulate some metal "fins" (dividers) between each battery bank so if one bank was to set on fire the the bank next to it would be shielded from the majority of the heat/fire and makes the whole setup safer.
+#6 Get some insulation around each power line that joins each bank together.
+#7 I would add a data acquisition module to test the batteries, that way it is measuring the voltage in real time and if there is a problem it will notify you. Also a smart smoke detector as well. After all if you don't schedule the maintenance properly, the battery pack will schedule it for you.
+
+
+Pour les fausses cellules : 18mm timber dowel (morceaux de bois)
+Scotch de haute isolation : kapton tape
+Utiliser des dummy 18650 batteries pour la maquette
+pour la caméra thermique : the Seek Shot Pro is a dank handheld thermal cam w/ 9hz refresh rate. I think the Seek Reveal does 15hz. Resolution is great on both.
+
+one tip: use a little piece of sandpaper to ruff the spot on the nicklestrip where you solder. its kinda like when you patch a bike tire, helps provide something for the solder to hold onto
+When you use the crimping tool on 13:50 you should crimp it the other way around. First crimp it on the 8mm hole side of the thing and then crimp it at the wire side. That way the copper inside the thing can expand outwards. If you don't do it like that the copper may break/rip open the thing.
+Soldering the copper busbar to the nickel sheet plate in the first place, before spot welding it to the cells, eliminates any localized cell heating caused by the soldering process; which may not be a problem, but just in case.
+For high current applications, the more number of cells you put in parallel, the higher risk of causing problems. The reason is that each individual cells have differnt internal resistance. Considering soldering quality, wiring quality, when these parallel cells receiving a shock load/high current boost, it is easy to overload the cell which has least internal resistance. Especially used cells, they tend to have high internal resistance. If this happens, you will have gradually incrase number of dead cells.
+Lol that's impressive but I would never try this just because I know I would also cheap out on the BMS boards. The BMS boards I've bought in the past for basic 12-24V banks never seemed to work properly at balance charging despite claiming that feature. They would more or less just be digitally fused and the bank would fail as soon as one cell started to go due to uneven charging.
+
+Réfléchir à l'aspect maintenance
+
+might have paid to watch whole thing.. EVERY cells was capacity tested & IR tested, all rested and tested for self discharge & excessive heat while charging and discharging.. they every battery was sorted into 50mah groups then a balanced battery was built from that. Then there is 2 cell level fuses on each battery,  There are so many layers of safety if this thing goes up the security cameras that watch it in 4k will be released on you tube also :) Lets not get into the BMS, shunt trips, shipping container its housed in, ventilation fans based on temp, fire alarm attached to the BMS.. i tire with this essay but you get the idea. efore building the battery packs each cell was processed. Charged, rested, tested for voltage drop & resistance tested. Then capacity tested checked for excessive heat while testing, recharged back to 4.17v rested and rechecked for voltage drop. After buiding the 191P battery each was charged to 4.17v again, Discharged at 30amps and recharged twice, the capacity recorded - recharged to 3.7v as a storage voltage then checked again before i'll put them into service for voltage drop. Each 30amp discharge took about 17 hours and had an average of 485ah 4.17 to 2.9v
+
+Where do you get your 18650 cell holders? I've been looking everywhere for  your large trays and can't find them
+
+I've always got all my supplies from Keith -  https://ebay.to/343VMO3  US based but is happy to ship.
+
+These videos are outstanding, I wanted to ask would you recommend batrium software for newbies
+HBPowerwall :
+I would recommend it to anyone...it does a job and does it well.. 
