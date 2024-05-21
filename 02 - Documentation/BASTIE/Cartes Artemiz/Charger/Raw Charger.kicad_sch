@@ -17,18 +17,6 @@
 		)
 		(uuid "182b8362-075f-4633-ba9c-59ad095e6c53")
 	)
-	(hierarchical_label "Sc in"
-		(shape input)
-		(at 119.38 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "24df65ff-2b5f-4227-8c89-0b63096bd101")
-	)
 	(hierarchical_label "OutHV-"
 		(shape input)
 		(at 119.38 96.52 0)
@@ -40,18 +28,6 @@
 			(justify left)
 		)
 		(uuid "3b6054b8-302b-49fe-99f7-f2f9427601d5")
-	)
-	(hierarchical_label "Sc out"
-		(shape input)
-		(at 119.38 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "44ac5de7-461f-4f4a-ad8b-8ab9d14dced5")
 	)
 	(hierarchical_label "OutLV+"
 		(shape input)
