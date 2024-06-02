@@ -1,0 +1,244 @@
+(footprint "GRM31x"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "GRM31x")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "eb6398f5-f443-419d-bdaa-c5dc884d0e1c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "GRM31x"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "25b532f8-94f4-4e0e-9cec-6c046ee6c3d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "GRM31x"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3518d6d3-fc50-4733-a132-7b1e7eb155ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "adc687df-f15c-4353-87bf-ff934b317428")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "158073f9-1506-4d15-90c3-18d0f2b46fdb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.4 -0.1)
+		(end -2.4 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "792dea11-feb0-4ea9-828d-991ddf6e8b8b")
+	)
+	(fp_line
+		(start -2.4 0.1)
+		(end -2.4 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e50735e7-34db-445d-98d8-52e73a3cfb83")
+	)
+	(fp_line
+		(start -0.7 -0.8)
+		(end 0.7 -0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e41e36c-dceb-429e-b4f4-5e86adceefd5")
+	)
+	(fp_line
+		(start -0.7 0.8)
+		(end 0.7 0.8)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eab30eb9-93f5-4279-883e-508712484dd6")
+	)
+	(fp_arc
+		(start -2.4 -0.1)
+		(mid -2.3 0)
+		(end -2.4 0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e292561c-d777-4a4b-aa56-141bc3efac70")
+	)
+	(fp_arc
+		(start -2.4 0.1)
+		(mid -2.5 0)
+		(end -2.4 -0.1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb625457-0242-4d2f-8a68-49c71d5eadda")
+	)
+	(fp_line
+		(start -2.854 -1.902)
+		(end 2.854 -1.902)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cb299061-8f3d-4248-80c7-49be51697ed5")
+	)
+	(fp_line
+		(start -2.854 1.902)
+		(end -2.854 -1.902)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "65d963f1-af2e-4573-9739-eb89cef65e14")
+	)
+	(fp_line
+		(start 2.854 -1.902)
+		(end 2.854 1.902)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "35b71df7-baea-4450-a5ea-8114f40a134e")
+	)
+	(fp_line
+		(start 2.854 1.902)
+		(end -2.854 1.902)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "21988710-dd76-48b6-8bb1-8f710f93517d")
+	)
+	(fp_line
+		(start -1.6 -0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ba760538-c00e-430b-a9ae-191b6708f113")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "18eb2e3d-a9e0-47b2-ac80-88825dd2e61b")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "071bca36-1980-4d35-a18e-8772b55f96f7")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "47a58fd1-1797-4016-b5ed-9fc418ccdf14")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5cbcbbb9-a1cb-4578-8144-ecf7f1913d39")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.475 0)
+		(size 1.05 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c73e4692-7257-4082-89f7-6dc6ac99e4e8")
+	)
+	(pad "2" smd rect
+		(at 1.475 0)
+		(size 1.05 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6144cdb0-74f3-43d2-9827-f08475df1426")
+	)
+	(model "GRM31CR71E106KA12L.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
