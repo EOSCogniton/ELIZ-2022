@@ -12116,6 +12116,26 @@
 		)
 		(uuid "57f036b3-6d14-42bf-9458-a912eadca6d1")
 	)
+	(text "Add AND gate in order to add SCS"
+		(exclude_from_sim no)
+		(at 104.902 196.596 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6623cac7-d98e-4c78-ac0c-43b89d3ed200")
+	)
+	(text "Bouger SCS Compliance apres Latching juste avant G8"
+		(exclude_from_sim no)
+		(at 118.872 120.904 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "676c4dba-88a9-4468-a05e-a8a11609e655")
+	)
 	(text "ADDED"
 		(exclude_from_sim no)
 		(at 189.23 236.22 0)
@@ -12214,6 +12234,16 @@
 			(justify left bottom)
 		)
 		(uuid "d08a80ad-3223-43f9-92c6-0fed1ecd5ab1")
+	)
+	(text "Break here"
+		(exclude_from_sim no)
+		(at 354.33 100.076 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d2075a80-83ac-4ebe-b6c8-617481b5d859")
 	)
 	(text "Logic Tab"
 		(exclude_from_sim no)
