@@ -1,0 +1,68 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b3b84284-6e1e-4d1a-91e0-fa35139fda03")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "Status Input"
+		(shape input)
+		(at 149.86 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d39737d-7216-4695-9dca-d2e20c665a62")
+	)
+	(hierarchical_label "12V"
+		(shape input)
+		(at 149.86 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e778866-ddd9-4d26-9d8c-f626976b7bb3")
+	)
+	(hierarchical_label "SCS out"
+		(shape output)
+		(at 149.86 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d40784f3-36ab-45f3-8e1d-73a87b73322b")
+	)
+	(hierarchical_label "GND"
+		(shape output)
+		(at 149.86 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8aa44d2-8832-46f1-8af2-9d40cada6654")
+	)
+	(hierarchical_label "PDU"
+		(shape input)
+		(at 149.86 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fc517c88-c3ba-4cf4-959a-a5a86634d789")
+	)
+)

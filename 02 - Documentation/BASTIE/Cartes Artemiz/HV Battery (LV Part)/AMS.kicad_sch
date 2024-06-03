@@ -1,0 +1,152 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b3b84284-6e1e-4d1a-91e0-fa35139fda03")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "MISO1"
+		(shape input)
+		(at 137.16 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05df7c03-7063-4d69-8f8f-085be5d01843")
+	)
+	(hierarchical_label "SCK0"
+		(shape output)
+		(at 149.86 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d737178-fd26-42ed-a9f6-81831a351dd3")
+	)
+	(hierarchical_label "SDA"
+		(shape output)
+		(at 149.86 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26d0ea5e-f6b3-4c33-93bf-a228b7301873")
+	)
+	(hierarchical_label "CS0"
+		(shape output)
+		(at 149.86 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3dc4304d-dc2a-474c-87af-26a769622c5c")
+	)
+	(hierarchical_label "SCLK"
+		(shape output)
+		(at 149.86 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bd75c10-163a-41a1-b021-16dab2437210")
+	)
+	(hierarchical_label "SCK1"
+		(shape output)
+		(at 137.16 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "58bc08ce-7eb1-47cf-aa30-0d892eb45d82")
+	)
+	(hierarchical_label "Status Output"
+		(shape output)
+		(at 149.86 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d39737d-7216-4695-9dca-d2e20c665a62")
+	)
+	(hierarchical_label "CS1"
+		(shape output)
+		(at 137.16 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c7ef929-0472-404c-baac-d2368fb6ece0")
+	)
+	(hierarchical_label "MOSI1"
+		(shape output)
+		(at 137.16 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8183a133-58eb-4798-b550-22c402688548")
+	)
+	(hierarchical_label "MISO0"
+		(shape input)
+		(at 149.86 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "82189777-2b3f-4aef-b9b1-ba543e63275f")
+	)
+	(hierarchical_label "Alim USB-C"
+		(shape input)
+		(at 149.86 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e778866-ddd9-4d26-9d8c-f626976b7bb3")
+	)
+	(hierarchical_label "MOSI0"
+		(shape output)
+		(at 149.86 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b97dd017-492f-4aa3-b1c7-062c02009eae")
+	)
+)

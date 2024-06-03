@@ -939,7 +939,7 @@
 				)
 			)
 		)
-		(symbol "EPSA_lib:ADW11 NC relays"
+		(symbol "EPSA_lib:NC relays"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -951,7 +951,7 @@
 					)
 				)
 			)
-			(property "Value" "ADW11"
+			(property "Value" "NC"
 				(at 13.97 1.27 0)
 				(effects
 					(font
@@ -959,7 +959,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT"
+			(property "Footprint" ""
 				(at 10.16 16.51 0)
 				(effects
 					(font
@@ -968,7 +968,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.panasonic-electric-works.com/pew/es/downloads/ds_dw_hl_en.pdf"
+			(property "Datasheet" ""
 				(at 0 19.05 0)
 				(effects
 					(font
@@ -977,7 +977,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Panasonic, 8A/16A, Small Polarized Latching Power Relays, Single coil, 1 Form A"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -986,8 +986,8 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "SPST 1P1T"
-				(at 0 0 0)
+			(property "Sim.Enable" "0"
+				(at 20.066 8.382 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1004,7 +1004,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ADW11 NC relays_1_1"
+			(symbol "NC relays_1_1"
 				(rectangle
 					(start -10.16 5.08)
 					(end 10.16 -5.08)
@@ -1558,7 +1558,7 @@
 				)
 				(polyline
 					(pts
-						(xy 11.1246 -2.6621) (xy 9.2196 3.6879)
+						(xy 11.43 -2.54) (xy 9.525 3.81)
 					)
 					(stroke
 						(width 0.508)
@@ -1570,7 +1570,7 @@
 				)
 				(polyline
 					(pts
-						(xy 11.1246 -2.6621) (xy 11.1246 -5.2021)
+						(xy 11.43 -2.54) (xy 11.43 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -1582,7 +1582,7 @@
 				)
 				(polyline
 					(pts
-						(xy 13.6646 3.6879) (xy 13.6646 4.9579)
+						(xy 13.97 3.81) (xy 13.97 5.08)
 					)
 					(stroke
 						(width 0)
@@ -1606,7 +1606,7 @@
 				)
 				(polyline
 					(pts
-						(xy 13.6646 3.6879) (xy 13.6646 2.4179) (xy 13.0296 3.0529) (xy 13.6646 3.6879)
+						(xy 13.97 3.81) (xy 13.97 2.54) (xy 13.335 3.175) (xy 13.97 3.81)
 					)
 					(stroke
 						(width 0)
@@ -1651,7 +1651,7 @@
 					)
 				)
 				(pin passive line
-					(at 13.6646 7.4979 270)
+					(at 13.97 7.62 270)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -1687,7 +1687,7 @@
 					)
 				)
 				(pin passive line
-					(at 11.1246 -7.7421 90)
+					(at 11.43 -7.62 90)
 					(length 2.54)
 					(name "~"
 						(effects
@@ -3512,7 +3512,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EPSA_lib:ADW11 NC relays")
+		(lib_id "EPSA_lib:NC relays")
 		(at 223.52 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3570,6 +3570,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 243.586 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

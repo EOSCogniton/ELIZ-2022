@@ -1,0 +1,68 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ed4cab04-cbf2-4ca4-9341-3c14179f681d")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "TS+"
+		(shape input)
+		(at 135.89 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f347469-4219-42d6-8e16-273827dc6e57")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 135.89 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79692c14-9c67-4b26-b5bf-c7cbdf6a6bd4")
+	)
+	(hierarchical_label "TS-"
+		(shape output)
+		(at 135.89 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "952c7542-d441-4cb3-a1f4-0056c818d633")
+	)
+	(hierarchical_label "Gnd"
+		(shape input)
+		(at 135.89 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d985ad8e-90fc-4f26-a826-a07d71ccce72")
+	)
+	(hierarchical_label "Exit"
+		(shape input)
+		(at 135.89 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee629b58-d24d-4728-9e3c-da2175b95b09")
+	)
+)

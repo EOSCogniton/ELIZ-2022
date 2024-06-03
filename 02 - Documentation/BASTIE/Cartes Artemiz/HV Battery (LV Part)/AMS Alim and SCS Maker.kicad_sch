@@ -1,0 +1,260 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b3b84284-6e1e-4d1a-91e0-fa35139fda03")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "CS0"
+		(shape input)
+		(at 149.86 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1191f771-f35b-428a-a1d0-10b6d1be727a")
+	)
+	(hierarchical_label "Current Input"
+		(shape input)
+		(at 149.86 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "191e123c-04c2-4e9c-96e6-350972d51df3")
+	)
+	(hierarchical_label "CS1"
+		(shape input)
+		(at 168.91 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "32d13c68-ff88-4844-9976-f7103df3c226")
+	)
+	(hierarchical_label "IP"
+		(shape output)
+		(at 149.86 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43ba2c8d-a2e0-45f2-919a-6cecfd63de9d")
+	)
+	(hierarchical_label "Status Input"
+		(shape input)
+		(at 149.86 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d39737d-7216-4695-9dca-d2e20c665a62")
+	)
+	(hierarchical_label "CAN L"
+		(shape output)
+		(at 149.86 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6198aa20-9078-46cb-847d-a534a23680e4")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 149.86 120.65 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77d1dc2f-31d7-4432-b9de-9c5325862352")
+	)
+	(hierarchical_label "IM"
+		(shape output)
+		(at 149.86 130.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7be6c652-a809-4925-a3f1-ab6da8710c7e")
+	)
+	(hierarchical_label "MISO1"
+		(shape output)
+		(at 168.91 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "800cb6fe-5755-43ab-bb72-3375935a56f5")
+	)
+	(hierarchical_label "CAN H"
+		(shape output)
+		(at 149.86 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86e80394-d7de-41ac-a5fe-111731ab8b37")
+	)
+	(hierarchical_label "12V"
+		(shape input)
+		(at 149.86 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e778866-ddd9-4d26-9d8c-f626976b7bb3")
+	)
+	(hierarchical_label "PDU"
+		(shape input)
+		(at 149.86 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b0368bf4-0b4e-43dd-a689-8f2357e06c97")
+	)
+	(hierarchical_label "MISO0"
+		(shape output)
+		(at 149.86 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c07b0f13-f01b-448b-a2f3-7cab1f225d49")
+	)
+	(hierarchical_label "SCK0"
+		(shape input)
+		(at 149.86 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5a29a19-9b68-4061-becd-5f414a47c8b1")
+	)
+	(hierarchical_label "SCK1"
+		(shape input)
+		(at 168.91 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cc6d67b0-2796-4685-ab4c-f2527fd0f218")
+	)
+	(hierarchical_label "SCS out"
+		(shape output)
+		(at 149.86 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d40784f3-36ab-45f3-8e1d-73a87b73322b")
+	)
+	(hierarchical_label "MOSI0"
+		(shape input)
+		(at 149.86 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e414c239-6f21-41de-b695-311080307331")
+	)
+	(hierarchical_label "SCLK"
+		(shape input)
+		(at 149.86 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb3d0409-ff92-441c-92cb-096da0ac366d")
+	)
+	(hierarchical_label "Alim Out"
+		(shape output)
+		(at 149.86 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4b8ab61-1e8c-4a7f-bf38-c6d0df4bc4ba")
+	)
+	(hierarchical_label "GND"
+		(shape output)
+		(at 149.86 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8aa44d2-8832-46f1-8af2-9d40cada6654")
+	)
+	(hierarchical_label "MOSI1"
+		(shape input)
+		(at 168.91 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fd331150-17d8-448a-9add-45e7048fb98d")
+	)
+)

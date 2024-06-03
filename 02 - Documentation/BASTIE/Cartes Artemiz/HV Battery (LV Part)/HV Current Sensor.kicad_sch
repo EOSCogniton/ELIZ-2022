@@ -2,12 +2,12 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "a187d183-be2e-4b61-ac84-465f60e82554")
+	(uuid "9bd1cb43-de39-4378-8c50-3cb58caf1778")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "U"
+	(hierarchical_label "GND"
 		(shape input)
-		(at 114.3 83.82 0)
+		(at 139.7 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15,11 +15,11 @@
 			)
 			(justify left)
 		)
-		(uuid "423f288d-c6bc-4258-87b6-889424249ee3")
+		(uuid "69ffb33c-c694-43d8-81c1-02248000e39c")
 	)
-	(hierarchical_label "W"
+	(hierarchical_label "12V"
 		(shape input)
-		(at 114.3 91.44 0)
+		(at 139.7 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27,11 +27,11 @@
 			)
 			(justify left)
 		)
-		(uuid "42a126b2-45c7-4d49-8796-9e0ec31f5138")
+		(uuid "a40b115b-c23f-46b7-ad2e-593d9a1ac6cd")
 	)
-	(hierarchical_label "V"
+	(hierarchical_label "Sensor Output"
 		(shape input)
-		(at 114.3 87.63 0)
+		(at 139.7 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -39,6 +39,6 @@
 			)
 			(justify left)
 		)
-		(uuid "5fa0689b-ec91-419c-aa6f-d566b434dd9f")
+		(uuid "bb1e581b-4f96-4008-b3d9-c2afd6244074")
 	)
 )

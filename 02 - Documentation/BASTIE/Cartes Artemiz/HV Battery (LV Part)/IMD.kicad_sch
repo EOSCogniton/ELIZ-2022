@@ -2,12 +2,12 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "e5ba7cf5-46b5-4f71-b3dd-18349e22d72a")
+	(uuid "b3b84284-6e1e-4d1a-91e0-fa35139fda03")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "HV +"
+	(hierarchical_label "TS+"
 		(shape input)
-		(at 91.44 83.82 0)
+		(at 135.89 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15,11 +15,11 @@
 			)
 			(justify left)
 		)
-		(uuid "09f26ac5-df57-4c5d-b4fc-5dc5e273dfac")
+		(uuid "0660ddb9-0481-4e9f-a693-91bf68e52235")
 	)
-	(hierarchical_label "BSPD Power signal"
+	(hierarchical_label "TS-"
 		(shape output)
-		(at 118.11 92.71 0)
+		(at 135.89 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27,11 +27,11 @@
 			)
 			(justify left)
 		)
-		(uuid "4e754f76-5e20-4919-8d3e-4f0353a734a6")
+		(uuid "6eeb3441-85f4-42e8-80c2-8dc9c5a92bc1")
 	)
-	(hierarchical_label "W"
+	(hierarchical_label "Electronic Gnd"
 		(shape output)
-		(at 118.11 88.9 0)
+		(at 135.89 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -39,11 +39,11 @@
 			)
 			(justify left)
 		)
-		(uuid "7ccacd66-b99b-48bb-80c5-d4019c79d137")
+		(uuid "70a3d196-89db-46cd-9275-6f7c40f8af44")
 	)
-	(hierarchical_label "TSAL inverter Voltage"
+	(hierarchical_label "Status Output"
 		(shape output)
-		(at 118.11 95.25 0)
+		(at 135.89 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -51,11 +51,11 @@
 			)
 			(justify left)
 		)
-		(uuid "7e1e98da-5b94-4e95-b542-23255e8c1f26")
+		(uuid "7bf7c5e0-6447-49d3-a67f-29b13560d81c")
 	)
-	(hierarchical_label "V"
+	(hierarchical_label "GND 1"
 		(shape output)
-		(at 118.11 86.36 0)
+		(at 135.89 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -63,11 +63,23 @@
 			)
 			(justify left)
 		)
-		(uuid "880f2764-3cda-4c9d-ba5e-d2565a3a23ee")
+		(uuid "a15c6254-67e6-43ac-83ae-4aa9b8f1b9e7")
 	)
-	(hierarchical_label "HV -"
+	(hierarchical_label "GND 2"
+		(shape output)
+		(at 135.89 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a245eafc-36e6-4a2e-b03d-d5597a4497a5")
+	)
+	(hierarchical_label "12V"
 		(shape input)
-		(at 91.44 87.63 0)
+		(at 135.89 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -75,18 +87,6 @@
 			)
 			(justify left)
 		)
-		(uuid "b27ff8fd-25e6-4591-9dd5-5e00972fb81f")
-	)
-	(hierarchical_label "U"
-		(shape output)
-		(at 118.11 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fc82d0b3-2e25-4717-90a9-54d5abc22638")
+		(uuid "f17ea059-f095-4038-a715-15e81d6f0ebf")
 	)
 )
