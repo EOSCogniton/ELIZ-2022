@@ -1,0 +1,236 @@
+(footprint "CB33C20M0000"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CB3-3C-20M0000-2")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "Y**"
+		(at -6.5 0 0)
+		(layer "F.SilkS")
+		(uuid "7aaefd64-5bcc-4348-b05d-4b8201bc06f8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CB33C20M0000"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "86d108ac-44e7-479f-bb36-81d34eb35adb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "CB33C20M0000"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc14e875-0a47-47a3-b467-a96a45ead705")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d1a4b2f-f831-4df7-b36d-781e7d5510bb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4df4a793-1a11-44a7-8887-ac05e8bba12d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.8 3.6)
+		(end -2.8 3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6f8484f-b72d-41b1-ad20-a9a5f5c09b55")
+	)
+	(fp_line
+		(start -2.6 3.6)
+		(end -2.6 3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2d9cea3-eea0-49ef-a4f8-6f4777275537")
+	)
+	(fp_arc
+		(start -2.8 3.6)
+		(mid -2.7 3.5)
+		(end -2.6 3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5020ad6-abdc-43e7-8060-b9e2bd898711")
+	)
+	(fp_arc
+		(start -2.6 3.6)
+		(mid -2.7 3.7)
+		(end -2.8 3.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0cdacc26-da0b-4cdc-91f5-88f8c23b0194")
+	)
+	(fp_line
+		(start -4.5 -4.1)
+		(end 4.5 -4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "71296ae4-484e-4853-8622-a84be6fb7a8e")
+	)
+	(fp_line
+		(start -4.5 4.1)
+		(end -4.5 -4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a7842225-2868-45a9-a727-07fec15df15e")
+	)
+	(fp_line
+		(start 4.5 -4.1)
+		(end 4.5 4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fbdf5e36-81d3-4dca-b1f7-d7380bef65bf")
+	)
+	(fp_line
+		(start 4.5 4.1)
+		(end -4.5 4.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "83996ea8-8dd8-4d21-b6e1-30c508e13ca3")
+	)
+	(fp_line
+		(start -3.5 -2.5)
+		(end 3.5 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "df95ee54-8823-49c5-b8f5-0c0c813a1a49")
+	)
+	(fp_line
+		(start -3.5 2.5)
+		(end -3.5 -2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "46f4428a-d9bc-4ad6-aa89-1980c1365525")
+	)
+	(fp_line
+		(start 3.5 -2.5)
+		(end 3.5 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "979ee649-2e03-4337-a0a9-08ed5616fffd")
+	)
+	(fp_line
+		(start 3.5 2.5)
+		(end -3.5 2.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b48f6057-7e05-4adf-8918-3cad67b1cd87")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "92f75eff-8e94-458d-a0c8-5ac133e72cea")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.54 2.1)
+		(size 1.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "91043c3a-a925-4ca6-afa7-679843ce0edc")
+	)
+	(pad "2" smd rect
+		(at 2.54 2.1)
+		(size 1.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a7e258a6-e592-4294-add4-4422875d9bf5")
+	)
+	(pad "3" smd rect
+		(at 2.54 -2.1)
+		(size 1.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7856f8f0-bb86-4e26-b827-f025ec34f6bd")
+	)
+	(pad "4" smd rect
+		(at -2.54 -2.1)
+		(size 1.8 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "54829df3-ff94-4b6f-bbe2-60fc401dd1bf")
+	)
+	(model "CB3-3C-20M0000.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

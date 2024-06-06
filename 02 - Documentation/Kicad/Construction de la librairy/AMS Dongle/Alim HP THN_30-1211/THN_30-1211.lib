@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model THN_30-1211
+#/485691/1357958/2.50/6/2/Power Supply
+DEF THN_30-1211 PS 0 30 Y Y 1 F N
+F0 "PS" 1550 300 50 H V L CNN
+F1 "THN_30-1211" 1550 200 50 H V L CNN
+F2 "THN301211" 1550 100 50 H I L CNN
+F3 "https://tracopower.com/thn30-datasheet/" 1550 0 50 H I L CNN
+F4 "30 Watt DC/DC converter, industrial, 2:1 input, encpasulated, 1.0\" x 1.0\" metal package" 1550 -100 50 H I L CNN "Description"
+F5 "10.4" 1550 -200 50 H I L CNN "Height"
+F6 "495-THN-30-1211" 1550 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TRACO-Power/THN-30-1211?qs=ckJk83FOD0XjmIpWKdS%252Buw%3D%3D" 1550 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Traco Power" 1550 -500 50 H I L CNN "Manufacturer_Name"
+F9 "THN 30-1211" 1550 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X +VIN_(VCC) 1 0 -200 200 R 50 50 0 0 P
+X -VIN_(GND) 2 0 -100 200 R 50 50 0 0 P
+X +VOUT 3 1700 -200 200 L 50 50 0 0 P
+X TRIM 4 1700 -100 200 L 50 50 0 0 P
+X -VOUT 5 1700 0 200 L 50 50 0 0 P
+X REMOTE_ON/OFF 6 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 1500 100 1500 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,39 +1,280 @@
-(module "CAS120B" (layer F.Cu)
-  (descr "CAS-120B-1")
-  (tags "Switch")
-  (attr smd)
-  (fp_text reference S** (at 0.000 -0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0.000 -0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "CAS120B" (at 0.000 -0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -2.7 -1.75) (end 2.7 -1.75) (layer F.Fab) (width 0.1))
-  (fp_line (start 2.7 -1.75) (end 2.7 1.75) (layer F.Fab) (width 0.1))
-  (fp_line (start 2.7 1.75) (end -2.7 1.75) (layer F.Fab) (width 0.1))
-  (fp_line (start -2.7 1.75) (end -2.7 -1.75) (layer F.Fab) (width 0.1))
-  (fp_line (start -3.7 -3.6) (end 3.7 -3.6) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 3.7 -3.6) (end 3.7 3.6) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 3.7 3.6) (end -3.7 3.6) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -3.7 3.6) (end -3.7 -3.6) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 0.8 -1.75) (end 2.7 -1.75) (layer F.SilkS) (width 0.2))
-  (fp_line (start 2.7 -1.75) (end 2.7 1.75) (layer F.SilkS) (width 0.2))
-  (fp_line (start -0.8 -1.75) (end -2.7 -1.75) (layer F.SilkS) (width 0.2))
-  (fp_line (start -2.7 -1.75) (end -2.7 1.75) (layer F.SilkS) (width 0.2))
-  (fp_line (start -1.8 3) (end -1.8 3) (layer F.SilkS) (width 0.1))
-  (fp_line (start -1.8 3.1) (end -1.8 3.1) (layer F.SilkS) (width 0.1))
-  (fp_line (start -1 1.75) (end 1 1.75) (layer F.SilkS) (width 0.2))
-  (fp_arc (start -1.8 3.05) (end -1.800 3) (angle -180) (layer F.SilkS) (width 0.1))
-  (fp_arc (start -1.8 3.05) (end -1.800 3.1) (angle -180) (layer F.SilkS) (width 0.1))
-  (pad 1 smd rect (at -1.750 1.95 0) (size 1.000 1.300) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.000 -1.95 0) (size 1.000 1.300) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at 1.750 1.95 0) (size 1.000 1.300) (layers F.Cu F.Paste F.Mask))
-  (model CAS-120B.stp
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "CAS120B"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "CAS-120B-1")
+	(tags "Switch")
+	(property "Reference" "S**"
+		(at -5.5 0 0)
+		(layer "F.SilkS")
+		(uuid "75d0b034-b602-487f-bf4c-765e632c4886")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CAS120B"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "048a5e62-b8d0-4014-afce-8a81beea22a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "CAS120B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cf68965-007f-4e0f-b83f-4cbcbb092240")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75bf81fc-d046-4c98-87be-fbf163e5887b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcfb3500-c6bf-4408-a4a4-6ea856493977")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.7 -1.75)
+		(end -2.7 1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b3d36f9-febb-4d20-9cea-a3bee6cb12c4")
+	)
+	(fp_line
+		(start -1.8 3)
+		(end -1.8 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c66d685-4657-4196-ab0f-73c7f96865a4")
+	)
+	(fp_line
+		(start -1.8 3.1)
+		(end -1.8 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "25e455a2-c7e9-4c22-9214-6793bf880d59")
+	)
+	(fp_line
+		(start -1 1.75)
+		(end 1 1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20ab3575-f6f0-4824-bf22-fc54fc51efae")
+	)
+	(fp_line
+		(start -0.8 -1.75)
+		(end -2.7 -1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f90dc6fa-ac95-40b5-9734-0147cc98c65a")
+	)
+	(fp_line
+		(start 0.8 -1.75)
+		(end 2.7 -1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "20013fa2-2ef1-43bb-b833-090cd0bcd5bd")
+	)
+	(fp_line
+		(start 2.7 -1.75)
+		(end 2.7 1.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bc63952a-22f4-417c-afc7-c06898bb8203")
+	)
+	(fp_arc
+		(start -1.8 3)
+		(mid -1.75 3.05)
+		(end -1.8 3.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8753e42e-0bea-45ed-895b-028a29defc9c")
+	)
+	(fp_arc
+		(start -1.8 3.1)
+		(mid -1.85 3.05)
+		(end -1.8 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b73f13c4-3d92-4d5b-b770-01c723501028")
+	)
+	(fp_line
+		(start -3.7 -3.6)
+		(end 3.7 -3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0cda4ce9-4af1-4755-b096-14158d626a6a")
+	)
+	(fp_line
+		(start -3.7 3.6)
+		(end -3.7 -3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6f09cc30-f2c1-42a6-8401-4437f4e39388")
+	)
+	(fp_line
+		(start 3.7 -3.6)
+		(end 3.7 3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e1c8ef1d-1e0c-4edb-8e5a-60b305ee3a91")
+	)
+	(fp_line
+		(start 3.7 3.6)
+		(end -3.7 3.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5dcc83ac-61b5-4103-a263-330776b45041")
+	)
+	(fp_line
+		(start -2.7 -1.75)
+		(end 2.7 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a84c7650-1e60-4d7c-bc49-cb40dc08c4b0")
+	)
+	(fp_line
+		(start -2.7 1.75)
+		(end -2.7 -1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fe44f1b5-c192-4000-950a-7cd842c23cc2")
+	)
+	(fp_line
+		(start 2.7 -1.75)
+		(end 2.7 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "55c225ca-ef45-43fd-a009-3bf2d80c684f")
+	)
+	(fp_line
+		(start 2.7 1.75)
+		(end -2.7 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e9114a76-a455-4a55-8865-c1b941b88918")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6fb895c6-c0af-4d41-b279-0aa2c217dcd2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.75 1.95)
+		(size 1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9cb74a60-70c6-4a26-97b6-f3080030d5e9")
+	)
+	(pad "2" smd rect
+		(at 0 -1.95)
+		(size 1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "98cb1349-773c-4f1d-9ec9-d426fd643944")
+	)
+	(pad "3" smd rect
+		(at 1.75 1.95)
+		(size 1 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1cb330a7-4214-411b-8d28-dbb39d248ad8")
+	)
+	(model "CAS-120B.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

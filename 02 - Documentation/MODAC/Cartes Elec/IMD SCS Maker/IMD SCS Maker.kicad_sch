@@ -2123,6 +2123,16 @@
 	)
 	(wire
 		(pts
+			(xy 229.87 88.9) (xy 227.33 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5faedb70-300a-40a6-91e6-21dc4587276c")
+	)
+	(wire
+		(pts
 			(xy 142.24 86.36) (xy 144.78 86.36)
 		)
 		(stroke
@@ -2424,7 +2434,7 @@
 		(uuid "e8bf3b31-fd39-4371-8702-5952a2d73db8")
 	)
 	(label "Output SCS"
-		(at 227.33 88.9 0)
+		(at 229.87 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
