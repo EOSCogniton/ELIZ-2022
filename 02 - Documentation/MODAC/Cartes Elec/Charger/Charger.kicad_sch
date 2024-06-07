@@ -1074,12 +1074,6 @@
 		)
 	)
 	(junction
-		(at 180.34 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0109c54d-edfd-4f2e-995f-59ee836242f0")
-	)
-	(junction
 		(at 40.64 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1110,28 +1104,10 @@
 		(uuid "33e430d9-82ea-447d-a6c8-65864b0996b4")
 	)
 	(junction
-		(at 106.68 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3886d728-61db-4278-af47-e7ffd1c68dec")
-	)
-	(junction
-		(at 168.91 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "39540675-ea90-4e23-b3a0-3fbca71c6826")
-	)
-	(junction
 		(at 132.08 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f6669b9-7ace-4304-9fd8-a7e7f7347a30")
-	)
-	(junction
-		(at 91.44 55.88)
-		(diameter 0)
-		(color 255 0 0 1)
-		(uuid "4baf3fae-7151-4da1-967e-57f3a6ced2ee")
 	)
 	(junction
 		(at 152.4 29.21)
@@ -1182,28 +1158,10 @@
 		(uuid "bb80abb5-3ba6-4600-a49d-87f0b1eed336")
 	)
 	(junction
-		(at 95.25 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bebd84a7-6a1f-44e5-96e9-2d49a8ba18bd")
-	)
-	(junction
-		(at 205.74 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca6b0e6d-3be9-4642-942c-ff5c0bc2e4fe")
-	)
-	(junction
 		(at 62.23 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0ae5c59-5a37-49c1-a1be-ca80ec552b35")
-	)
-	(junction
-		(at 166.37 53.34)
-		(diameter 0)
-		(color 255 0 0 1)
-		(uuid "e823ba51-149d-4983-b027-c24d0ecdb44e")
 	)
 	(junction
 		(at 132.08 64.77)
@@ -1366,17 +1324,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 55.88) (xy 96.52 55.88)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "0bcd19ab-b9f8-4012-b6ea-3a23f2ddd0c6")
-	)
-	(wire
-		(pts
 			(xy 119.38 120.65) (xy 260.35 120.65)
 		)
 		(stroke
@@ -1462,16 +1409,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 60.96) (xy 106.68 58.42)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "1e87a2bf-1e71-4cfd-9199-730d922d1cbd")
-	)
-	(wire
-		(pts
 			(xy 82.55 129.54) (xy 82.55 176.53)
 		)
 		(stroke
@@ -1542,16 +1479,6 @@
 			(type default)
 		)
 		(uuid "2654d3ed-787b-42bf-a142-0e77c61c89c5")
-	)
-	(wire
-		(pts
-			(xy 180.34 64.77) (xy 205.74 64.77)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "26e25cb3-b9b9-44e4-b298-b9dc0e872357")
 	)
 	(wire
 		(pts
@@ -1709,7 +1636,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 60.96) (xy 132.08 60.96)
+			(xy 92.71 60.96) (xy 132.08 60.96)
 		)
 		(stroke
 			(width 0.5)
@@ -1853,16 +1780,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 64.77) (xy 180.34 57.15)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "5059417a-d19b-4f82-b515-f644e04a9e49")
-	)
-	(wire
-		(pts
 			(xy 68.58 59.69) (xy 62.23 59.69)
 		)
 		(stroke
@@ -1917,7 +1834,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 64.77) (xy 234.95 64.77)
+			(xy 167.64 64.77) (xy 234.95 64.77)
 		)
 		(stroke
 			(width 0.5)
@@ -1999,17 +1916,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 52.07) (xy 116.84 52.07)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "641d5248-ca2f-4fcd-83cd-11795748772d")
-	)
-	(wire
-		(pts
 			(xy 55.88 123.19) (xy 55.88 139.7)
 		)
 		(stroke
@@ -2017,17 +1923,6 @@
 			(type default)
 		)
 		(uuid "6758b4c3-9fa9-4314-b0de-077deca2b3c9")
-	)
-	(wire
-		(pts
-			(xy 187.96 50.8) (xy 190.5 50.8)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "686d8f52-ffcb-43b3-a338-23a394ae32a2")
 	)
 	(wire
 		(pts
@@ -2075,7 +1970,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 67.31) (xy 168.91 50.8)
+			(xy 168.91 45.72) (xy 168.91 67.31)
 		)
 		(stroke
 			(width 0.5)
@@ -2227,7 +2122,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 39.37) (xy 116.84 39.37)
+			(xy 68.58 39.37) (xy 220.98 39.37)
 		)
 		(stroke
 			(width 0.508)
@@ -2313,28 +2208,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 38.1) (xy 190.5 38.1)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "8c71602b-d0e0-4141-bf93-252b9455709e")
-	)
-	(wire
-		(pts
-			(xy 134.62 38.1) (xy 134.62 41.91)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "905403eb-fc65-4bb4-b51b-e69def6b5e9a")
-	)
-	(wire
-		(pts
 			(xy 152.4 29.21) (xy 226.06 29.21)
 		)
 		(stroke
@@ -2376,16 +2249,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 60.96) (xy 106.68 60.96)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "99a7a243-0bc8-4156-9cee-75f051b3b58b")
-	)
-	(wire
-		(pts
 			(xy 168.91 45.72) (xy 163.83 45.72)
 		)
 		(stroke
@@ -2396,7 +2259,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 52.07) (xy 95.25 67.31)
+			(xy 95.25 48.26) (xy 95.25 67.31)
 		)
 		(stroke
 			(width 0.5)
@@ -2406,7 +2269,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 40.64) (xy 220.98 74.93)
+			(xy 220.98 39.37) (xy 220.98 74.93)
 		)
 		(stroke
 			(width 0.508)
@@ -2434,17 +2297,6 @@
 			(type default)
 		)
 		(uuid "a2015e5f-8546-4a93-b8a6-8b92e51ce03a")
-	)
-	(wire
-		(pts
-			(xy 166.37 53.34) (xy 170.18 53.34)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "a2b99700-5b51-4ef0-b33c-f2e480ff6e56")
 	)
 	(wire
 		(pts
@@ -2502,16 +2354,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 52.07) (xy 96.52 52.07)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "af9ea865-4104-470a-8fd2-40d6a74ab00f")
-	)
-	(wire
-		(pts
 			(xy 226.06 29.21) (xy 226.06 53.34)
 		)
 		(stroke
@@ -2519,17 +2361,6 @@
 			(type default)
 		)
 		(uuid "b0244caf-c5fe-4854-bb04-924e731fd960")
-	)
-	(wire
-		(pts
-			(xy 134.62 41.91) (xy 132.08 41.91)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "b2839634-7f3a-4f8e-8ebe-b080b44df1c0")
 	)
 	(wire
 		(pts
@@ -2561,37 +2392,6 @@
 			(type default)
 		)
 		(uuid "b7cb0111-cdfe-4c9b-bb32-64b3a9e1e774")
-	)
-	(wire
-		(pts
-			(xy 205.74 40.64) (xy 220.98 40.64)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "ba7b4470-9c2e-49ca-8ceb-388da4bdd24d")
-	)
-	(wire
-		(pts
-			(xy 168.91 50.8) (xy 170.18 50.8)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "bbe9ed58-1e3c-4f5a-bf11-c63a356e2ecb")
-	)
-	(wire
-		(pts
-			(xy 167.64 64.77) (xy 180.34 64.77)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "c0af3ed1-9e9a-4095-8875-8b9124a7927f")
 	)
 	(wire
 		(pts
@@ -2854,16 +2654,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 64.77) (xy 205.74 50.8)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "e24874e8-b92e-404f-b561-a1a1e7e92199")
-	)
-	(wire
-		(pts
 			(xy 137.16 48.26) (xy 137.16 69.85)
 		)
 		(stroke
@@ -2946,16 +2736,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 45.72) (xy 168.91 50.8)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "ef259dd5-5404-4016-b293-e793e2b433b8")
-	)
-	(wire
-		(pts
 			(xy 250.19 69.85) (xy 262.89 69.85)
 		)
 		(stroke
@@ -2974,16 +2754,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "f5463688-e4da-4e21-976d-5bd8e939cf15")
-	)
-	(wire
-		(pts
-			(xy 95.25 48.26) (xy 95.25 52.07)
-		)
-		(stroke
-			(width 0.5)
-			(type default)
-		)
-		(uuid "f82a9fb7-4657-469f-84f0-a9e16a336ebf")
 	)
 	(wire
 		(pts
@@ -3218,17 +2988,6 @@
 			(justify left bottom)
 		)
 		(uuid "e50e8f46-2286-4f66-b0eb-4b1c4b14c258")
-	)
-	(text "SDC+"
-		(exclude_from_sim no)
-		(at 210.312 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "ecee1236-d852-4fdd-92bf-6d651864ba38")
 	)
 	(global_label "230 V In"
 		(shape input)
@@ -3630,80 +3389,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:Relay_SPST-NO")
-		(at 198.12 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b644e69-e783-4876-a93e-d2b7bdeb0436")
-		(property "Reference" "K4"
-			(at 198.12 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SDC IMD relay"
-			(at 198.12 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 198.12 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay SPST, Normally Open, EN50005"
-			(at 198.12 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "cc7098a1-20aa-4fa9-87ae-38964698c997")
-		)
-		(pin "14"
-			(uuid "f1648bcd-20cf-4e60-a3e3-06d6a48ea6b3")
-		)
-		(pin "A1"
-			(uuid "e55c32a2-2ad2-4c80-9725-154da7ae07bb")
-		)
-		(pin "A2"
-			(uuid "2e98407c-9b34-407f-9cd7-f04b55be76ca")
-		)
-		(instances
-			(project "Charger"
-				(path "/838d80f9-9fcb-4619-9be0-dffb0c44da80"
-					(reference "K4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EPSA:LED")
 		(at 120.65 190.5 90)
 		(unit 1)
@@ -4092,80 +3777,6 @@
 			(project "Charger"
 				(path "/838d80f9-9fcb-4619-9be0-dffb0c44da80"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:Relay_SPST-NO")
-		(at 124.46 46.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "da93109a-60c6-4bae-a633-2f29d6e9e761")
-		(property "Reference" "K3"
-			(at 124.46 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SDC AMS relay"
-			(at 124.46 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Relay SPST, Normally Open, EN50005"
-			(at 124.46 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "13"
-			(uuid "7edc4eda-7bd5-4609-a06c-e428e82f9ac0")
-		)
-		(pin "14"
-			(uuid "aeaa3bb9-3682-4bee-84bb-cd135cafcfc9")
-		)
-		(pin "A1"
-			(uuid "312bccf8-4dd6-4735-aa33-c72edd9456de")
-		)
-		(pin "A2"
-			(uuid "9c1f9723-364e-4b2d-94a1-265f8628fc13")
-		)
-		(instances
-			(project "Charger"
-				(path "/838d80f9-9fcb-4619-9be0-dffb0c44da80"
-					(reference "K3")
 					(unit 1)
 				)
 			)
@@ -4662,86 +4273,6 @@
 		)
 	)
 	(sheet
-		(at 96.52 49.53)
-		(size 17.78 8.89)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 255 0 202 1)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "4abc8114-db37-4a10-bcd7-47d81a1572a4")
-		(property "Sheetname" "Power Stage AMS"
-			(at 96.52 48.8184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power Stage.kicad_sch"
-			(at 96.52 59.0046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "Ground" input
-			(at 106.68 58.42 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7a850166-6548-49b9-a96c-f6f41ef2ed91")
-		)
-		(pin "V+" input
-			(at 96.52 52.07 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "3d7882aa-debe-4def-a430-2adf556f21ac")
-		)
-		(pin "Vout" input
-			(at 114.3 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d9c5e216-fda4-4c2e-9999-9062bb096621")
-		)
-		(pin "Vin" input
-			(at 96.52 55.88 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "2ab9b2b0-a6be-4180-8f35-baeed4456350")
-		)
-		(instances
-			(project "Charger"
-				(path "/838d80f9-9fcb-4619-9be0-dffb0c44da80"
-					(page "8")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 237.49 64.77)
 		(size 12.7 17.78)
 		(stroke
@@ -4915,86 +4446,6 @@
 			(project "Charger"
 				(path "/838d80f9-9fcb-4619-9be0-dffb0c44da80"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 170.18 48.26)
-		(size 17.78 8.89)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-			(color 255 0 202 1)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "4c28b7e4-15aa-45d4-b249-5803080cf81b")
-		(property "Sheetname" "Power Stage IMD"
-			(at 170.18 47.5484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power Stage.kicad_sch"
-			(at 170.18 57.7346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "Ground" input
-			(at 180.34 57.15 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "93112b70-6677-4549-a28b-43ff88fcb2b1")
-		)
-		(pin "V+" input
-			(at 170.18 50.8 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "02c863da-ce35-45e3-ab4b-f7b1b728389a")
-		)
-		(pin "Vout" input
-			(at 187.96 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "bc9d6c12-a62a-4a10-8194-00583a412747")
-		)
-		(pin "Vin" input
-			(at 170.18 53.34 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "307c7449-2b60-4199-806a-4f04b9aebc52")
-		)
-		(instances
-			(project "Charger"
-				(path "/838d80f9-9fcb-4619-9be0-dffb0c44da80"
-					(page "7")
 				)
 			)
 		)

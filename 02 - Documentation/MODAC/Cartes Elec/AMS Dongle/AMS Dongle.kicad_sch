@@ -1249,142 +1249,6 @@
 				)
 			)
 		)
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1503,127 +1367,6 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
 					(name "~"
 						(effects
 							(font
@@ -3428,7 +3171,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "NC"
@@ -3439,6 +3182,204 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EPSA_lib:Condensateur 0805Y1000104JXT"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.048 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10u"
+				(at 10.414 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Footprint" "EPSA_lib:CAPC2012X130N"
+				(at 20.32 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/119d/0900766b8119d7bc.pdf"
+				(at 20.32 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Syfer 0805 Ceramic Chip Capacitors"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 25.146 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "C"
+				(at 20.32 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.3"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Syfer"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "0805Y1000104JXT"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 8.89 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "Condensateur"
+				(at 6.604 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Condensateur 0805Y1000104JXT_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 6.35 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Condensateur 0805Y1000104JXT_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5663,6 +5604,2266 @@
 				)
 			)
 		)
+		(symbol "Résistance RK73H2BLTDD2152F_1"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 7.62 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10"
+				(at 7.366 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "EPSA_lib:RESC3216X70N"
+				(at 25.4 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+				(at 25.4 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistors - SMD"
+				(at 25.4 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 30.226 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 25.4 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.7"
+				(at 25.4 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KOA Speer"
+				(at 25.4 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+				(at 25.4 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "N/A"
+				(at 25.4 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+				(at 25.4 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Part Number" ""
+				(at 13.97 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Price/Stock" ""
+				(at 13.97 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "Résistance"
+				(at 8.89 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Résistance RK73H2BLTDD2152F_1_0_1"
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 12.7 1.27) (xy 12.7 -1.27) (xy 5.08 -1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Résistance RK73H2BLTDD2152F_1_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Résistance RK73H2BLTDD2152F_10"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 7.62 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10"
+				(at 7.366 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "EPSA_lib:RESC3216X70N"
+				(at 25.4 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+				(at 25.4 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistors - SMD"
+				(at 25.4 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 30.226 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 25.4 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.7"
+				(at 25.4 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KOA Speer"
+				(at 25.4 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+				(at 25.4 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "N/A"
+				(at 25.4 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+				(at 25.4 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Part Number" ""
+				(at 13.97 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Price/Stock" ""
+				(at 13.97 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "Résistance"
+				(at 8.89 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Résistance RK73H2BLTDD2152F_10_0_1"
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 12.7 1.27) (xy 12.7 -1.27) (xy 5.08 -1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Résistance RK73H2BLTDD2152F_10_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Résistance RK73H2BLTDD2152F_2"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 7.62 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10"
+				(at 7.366 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "EPSA_lib:RESC3216X70N"
+				(at 25.4 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+				(at 25.4 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistors - SMD"
+				(at 25.4 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 30.226 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 25.4 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.7"
+				(at 25.4 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KOA Speer"
+				(at 25.4 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+				(at 25.4 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "N/A"
+				(at 25.4 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+				(at 25.4 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Part Number" ""
+				(at 13.97 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Price/Stock" ""
+				(at 13.97 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "Résistance"
+				(at 8.89 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Résistance RK73H2BLTDD2152F_2_0_1"
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 12.7 1.27) (xy 12.7 -1.27) (xy 5.08 -1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Résistance RK73H2BLTDD2152F_2_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Résistance RK73H2BLTDD2152F_3"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 7.62 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10"
+				(at 7.366 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "EPSA_lib:RESC3216X70N"
+				(at 25.4 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+				(at 25.4 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistors - SMD"
+				(at 25.4 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 30.226 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 25.4 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.7"
+				(at 25.4 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KOA Speer"
+				(at 25.4 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+				(at 25.4 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "N/A"
+				(at 25.4 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+				(at 25.4 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Part Number" ""
+				(at 13.97 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Price/Stock" ""
+				(at 13.97 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "Résistance"
+				(at 8.89 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Résistance RK73H2BLTDD2152F_3_0_1"
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 12.7 1.27) (xy 12.7 -1.27) (xy 5.08 -1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Résistance RK73H2BLTDD2152F_3_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Résistance RK73H2BLTDD2152F_4"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 7.62 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10"
+				(at 7.366 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "EPSA_lib:RESC3216X70N"
+				(at 25.4 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+				(at 25.4 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistors - SMD"
+				(at 25.4 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 30.226 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 25.4 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.7"
+				(at 25.4 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KOA Speer"
+				(at 25.4 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+				(at 25.4 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "N/A"
+				(at 25.4 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+				(at 25.4 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Part Number" ""
+				(at 13.97 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Price/Stock" ""
+				(at 13.97 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "Résistance"
+				(at 8.89 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Résistance RK73H2BLTDD2152F_4_0_1"
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 12.7 1.27) (xy 12.7 -1.27) (xy 5.08 -1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Résistance RK73H2BLTDD2152F_4_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Résistance RK73H2BLTDD2152F_5"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 7.62 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10"
+				(at 7.366 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "EPSA_lib:RESC3216X70N"
+				(at 25.4 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+				(at 25.4 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistors - SMD"
+				(at 25.4 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 30.226 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 25.4 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.7"
+				(at 25.4 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KOA Speer"
+				(at 25.4 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+				(at 25.4 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "N/A"
+				(at 25.4 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+				(at 25.4 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Part Number" ""
+				(at 13.97 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Price/Stock" ""
+				(at 13.97 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "Résistance"
+				(at 8.89 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Résistance RK73H2BLTDD2152F_5_0_1"
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 12.7 1.27) (xy 12.7 -1.27) (xy 5.08 -1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Résistance RK73H2BLTDD2152F_5_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Résistance RK73H2BLTDD2152F_6"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 7.62 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10"
+				(at 7.366 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "EPSA_lib:RESC3216X70N"
+				(at 25.4 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+				(at 25.4 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistors - SMD"
+				(at 25.4 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 30.226 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 25.4 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.7"
+				(at 25.4 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KOA Speer"
+				(at 25.4 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+				(at 25.4 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "N/A"
+				(at 25.4 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+				(at 25.4 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Part Number" ""
+				(at 13.97 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Price/Stock" ""
+				(at 13.97 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "Résistance"
+				(at 8.89 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Résistance RK73H2BLTDD2152F_6_0_1"
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 12.7 1.27) (xy 12.7 -1.27) (xy 5.08 -1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Résistance RK73H2BLTDD2152F_6_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Résistance RK73H2BLTDD2152F_7"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 7.62 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10"
+				(at 7.366 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "EPSA_lib:RESC3216X70N"
+				(at 25.4 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+				(at 25.4 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistors - SMD"
+				(at 25.4 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 30.226 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 25.4 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.7"
+				(at 25.4 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KOA Speer"
+				(at 25.4 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+				(at 25.4 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "N/A"
+				(at 25.4 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+				(at 25.4 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Part Number" ""
+				(at 13.97 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Price/Stock" ""
+				(at 13.97 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "Résistance"
+				(at 8.89 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Résistance RK73H2BLTDD2152F_7_0_1"
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 12.7 1.27) (xy 12.7 -1.27) (xy 5.08 -1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Résistance RK73H2BLTDD2152F_7_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Résistance RK73H2BLTDD2152F_8"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 7.62 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10"
+				(at 7.366 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "EPSA_lib:RESC3216X70N"
+				(at 25.4 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+				(at 25.4 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistors - SMD"
+				(at 25.4 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 30.226 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 25.4 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.7"
+				(at 25.4 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KOA Speer"
+				(at 25.4 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+				(at 25.4 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "N/A"
+				(at 25.4 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+				(at 25.4 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Part Number" ""
+				(at 13.97 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Price/Stock" ""
+				(at 13.97 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "Résistance"
+				(at 8.89 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Résistance RK73H2BLTDD2152F_8_0_1"
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 12.7 1.27) (xy 12.7 -1.27) (xy 5.08 -1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Résistance RK73H2BLTDD2152F_8_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Résistance RK73H2BLTDD2152F_9"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 7.62 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10"
+				(at 7.366 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "EPSA_lib:RESC3216X70N"
+				(at 25.4 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+				(at 25.4 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Thick Film Resistors - SMD"
+				(at 25.4 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 30.226 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "R"
+				(at 25.4 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.7"
+				(at 25.4 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "KOA Speer"
+				(at 25.4 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+				(at 25.4 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "N/A"
+				(at 25.4 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+				(at 25.4 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Part Number" ""
+				(at 13.97 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Testing Price/Stock" ""
+				(at 13.97 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "Résistance"
+				(at 8.89 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Résistance RK73H2BLTDD2152F_9_0_1"
+				(polyline
+					(pts
+						(xy 5.08 1.27) (xy 12.7 1.27) (xy 12.7 -1.27) (xy 5.08 -1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Résistance RK73H2BLTDD2152F_9_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -6023,6 +8224,126 @@
 				)
 			)
 		)
+		(symbol "power:+5VP"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5VP"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5VP\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5VP_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5VP_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -6217,16 +8538,16 @@
 		)
 	)
 	(junction
+		(at 96.52 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "01af929e-3a91-423a-a5f5-9c6ab98de7e7")
+	)
+	(junction
 		(at 88.9 172.72)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "0b21a65d-d20b-411e-920a-75c343ac5136")
-	)
-	(junction
-		(at 76.2 27.94)
-		(diameter 1.016)
-		(color 0 0 0 0)
-		(uuid "0eaa98f0-9565-4637-ace3-42a5231b07f7")
 	)
 	(junction
 		(at 76.2 185.42)
@@ -6235,10 +8556,10 @@
 		(uuid "0f22151c-f260-4674-b486-4710a2c42a55")
 	)
 	(junction
-		(at 128.27 85.09)
+		(at 143.51 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "15469106-41c4-4968-b1d4-b464003efd31")
+		(uuid "14985482-4f84-415a-8a1a-6719c05b1b24")
 	)
 	(junction
 		(at 76.2 43.18)
@@ -6253,16 +8574,22 @@
 		(uuid "1831fb37-1c5d-42c4-b898-151be6fca9dc")
 	)
 	(junction
-		(at 261.62 147.32)
+		(at 223.52 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "291d4002-c0fc-4b35-8b09-8b0b254fa83a")
+		(uuid "1e3fe629-e004-4699-b53e-0ccfea450826")
 	)
 	(junction
-		(at 130.81 146.05)
+		(at 76.2 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "301fcf4a-19aa-43f7-b68b-278b5294866d")
+		(uuid "2737244e-7465-4991-8ba4-540a86b5bd5f")
+	)
+	(junction
+		(at 128.27 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39bd8918-7457-4bb9-81cc-e5d4626279a8")
 	)
 	(junction
 		(at 96.52 162.56)
@@ -6271,28 +8598,34 @@
 		(uuid "3cd1bda0-18db-417d-b581-a0c50623df68")
 	)
 	(junction
-		(at 36.83 116.84)
+		(at 36.83 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e54c4f5-563b-4189-97ad-4881b33d69fe")
 	)
 	(junction
-		(at 57.15 87.63)
+		(at 198.12 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "45f9d01c-39cd-437b-a1bb-1967e97d367b")
+		(uuid "42dd0b2f-5ce7-4d52-ac3b-65aba547e6d8")
 	)
 	(junction
-		(at 220.98 68.58)
+		(at 143.51 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "553173d3-613b-40ac-b868-fc25d9924a02")
+		(uuid "58de6b30-b108-4a07-b033-f90eba66a063")
 	)
 	(junction
-		(at 144.78 77.47)
+		(at 262.89 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5e37edcd-dc26-4eba-b25e-eaa160f1f1c9")
+		(uuid "5cfaa671-38fb-4f64-a9ea-ba961c281661")
+	)
+	(junction
+		(at 205.74 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69fde007-c292-4f20-bc01-1eac19dd88aa")
 	)
 	(junction
 		(at 58.42 76.2)
@@ -6307,16 +8640,22 @@
 		(uuid "711deee8-2a13-4845-8085-5e9fcd854449")
 	)
 	(junction
-		(at 261.62 132.08)
+		(at 262.89 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7885d1f3-ab7c-4850-b99b-fd6f22bad086")
+		(uuid "76801c63-31a5-45db-959b-e6347320a4ca")
 	)
 	(junction
-		(at 261.62 139.7)
+		(at 86.36 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "806a7120-76a4-4458-aa83-9d0b49deb087")
+		(uuid "784408c0-12be-4060-9c00-2a1c79b64833")
+	)
+	(junction
+		(at 57.15 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b009149-a131-44a3-b95a-fc96b44d6c20")
 	)
 	(junction
 		(at 58.42 58.42)
@@ -6325,16 +8664,28 @@
 		(uuid "8174b4de-74b1-48db-ab8e-c8432251095b")
 	)
 	(junction
-		(at 190.5 72.39)
+		(at 196.85 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8dddfd3d-2669-41b2-b7f5-1fb7e2a21ddc")
+		(uuid "9330ab78-b494-46f0-a75a-41b67f12f40a")
 	)
 	(junction
 		(at 76.2 68.58)
 		(diameter 1.016)
 		(color 0 0 0 0)
 		(uuid "9340c285-5767-42d5-8b6d-63fe2a40ddf3")
+	)
+	(junction
+		(at 262.89 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98e6a0f3-698d-4ec0-ab12-c3f35b6e55a1")
+	)
+	(junction
+		(at 212.09 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a818c84-6e61-499c-90f5-49484e53054b")
 	)
 	(junction
 		(at 181.61 77.47)
@@ -6349,49 +8700,25 @@
 		(uuid "a062b7d4-47e1-4de7-afdd-2e3f5e6bcad7")
 	)
 	(junction
-		(at 220.98 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a062d82f-d883-4b17-a4a5-b6ddc67f0279")
-	)
-	(junction
 		(at 185.42 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a21b9500-a315-4636-ac18-fdfc0348c684")
 	)
 	(junction
-		(at 194.31 125.73)
+		(at 134.62 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a6e745c7-dd98-4c8e-a64c-888b0b96d53e")
+		(uuid "a6b070b0-e3b2-4450-a45b-a2ab70322554")
 	)
 	(junction
-		(at 220.98 77.47)
+		(at 57.15 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b9a11b1d-7a74-49b1-b4ea-f70ff7e3715f")
+		(uuid "b367b413-7b9c-428d-a859-5b9d875bcb47")
 	)
 	(junction
-		(at 57.15 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9a8eef5-6f7e-4836-9a06-3bd3d08dda0a")
-	)
-	(junction
-		(at 144.78 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c0965ed1-5580-46ba-953f-d2fee2110a73")
-	)
-	(junction
-		(at 212.09 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c1360b0b-7b5b-4d8f-a7b4-d7c6b9e1e8dd")
-	)
-	(junction
-		(at 35.56 114.3)
+		(at 35.56 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3a0f2a5-8d64-4d9e-b6d1-5074cb9c7ad6")
@@ -6403,7 +8730,13 @@
 		(uuid "c41b3c8b-634e-435a-b582-96b83bbd4032")
 	)
 	(junction
-		(at 77.47 111.76)
+		(at 96.52 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c669b32a-8d0d-4de1-bf68-463590ae2090")
+	)
+	(junction
+		(at 77.47 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c945f304-4956-4c8a-bd32-254e9dab38bf")
@@ -6421,12 +8754,6 @@
 		(uuid "ce83728b-bebd-48c2-8734-b6a50d837931")
 	)
 	(junction
-		(at 134.62 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d01b0ba2-db60-4e1b-9655-b1c59654947c")
-	)
-	(junction
 		(at 96.52 175.26)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -6439,28 +8766,34 @@
 		(uuid "dce3a0bc-3b15-4d92-98f2-731ad78bd272")
 	)
 	(junction
+		(at 130.81 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f06d90cb-3912-480e-bbc5-73c837a30215")
+	)
+	(junction
+		(at 212.09 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f153234d-0d76-4b8b-80ad-928655fac5ac")
+	)
+	(junction
 		(at 182.88 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f29d1870-7b8f-4201-b107-7c8e34564983")
 	)
 	(junction
-		(at 86.36 114.3)
+		(at 220.98 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f29ed635-30b8-4409-86f8-b7ebbaf89e16")
+		(uuid "f582aab8-7708-4018-89dd-5acb5c69534d")
 	)
 	(junction
-		(at 128.27 93.98)
+		(at 128.27 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa02eb4e-92c1-4f76-99ef-aebab1c90c1e")
-	)
-	(junction
-		(at 86.36 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc3695a5-a25b-41e5-bcf6-5f01e2500517")
 	)
 	(junction
 		(at 55.88 27.94)
@@ -6517,10 +8850,6 @@
 	(no_connect
 		(at 147.32 25.4)
 		(uuid "5640cee7-e9f3-419e-8937-b86376c166f9")
-	)
-	(no_connect
-		(at 76.2 24.13)
-		(uuid "63141959-1fd6-4481-a775-2930c20fd31b")
 	)
 	(no_connect
 		(at 147.32 38.1)
@@ -6590,7 +8919,17 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 99.06) (xy 238.76 100.33)
+			(xy 217.17 77.47) (xy 220.98 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0180088c-4e0c-4fc6-9497-7f9cf5c37aba")
+	)
+	(wire
+		(pts
+			(xy 238.76 99.06) (xy 238.76 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6620,7 +8959,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 114.3) (xy 86.36 114.3)
+			(xy 74.93 124.46) (xy 86.36 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6637,16 +8976,6 @@
 			(type default)
 		)
 		(uuid "04dd9861-ed10-4dbe-ae92-c04f30f05032")
-	)
-	(wire
-		(pts
-			(xy 182.88 99.06) (xy 182.88 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05c85775-b80c-4a60-8998-2e19000b2e4e")
 	)
 	(wire
 		(pts
@@ -6690,7 +9019,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 134.62) (xy 54.61 137.16)
+			(xy 54.61 144.78) (xy 54.61 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6720,13 +9049,23 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 76.2) (xy 220.98 77.47)
+			(xy 151.13 85.09) (xy 146.05 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e2e6f3e-da25-4220-bee1-f9a09e96d6b8")
+		(uuid "0d9ad932-5ef4-4cab-98a4-1b1ecc4a37cf")
+	)
+	(wire
+		(pts
+			(xy 203.2 151.13) (xy 203.2 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e47bbaa-dc2e-4919-8c2b-317bb64639dd")
 	)
 	(wire
 		(pts
@@ -6760,7 +9099,37 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 87.63) (xy 220.98 87.63)
+			(xy 96.52 121.92) (xy 96.52 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fdcf60a-a5ae-480c-89d7-aa74711b0fb1")
+	)
+	(wire
+		(pts
+			(xy 190.5 62.23) (xy 196.85 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e88df1-567a-43b8-b94c-938ce46f6e87")
+	)
+	(wire
+		(pts
+			(xy 182.88 72.39) (xy 182.88 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "111d1e4e-dc32-45dd-b539-d4bf418bdd38")
+	)
+	(wire
+		(pts
+			(xy 205.74 87.63) (xy 234.95 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6770,7 +9139,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 140.97) (xy 256.54 147.32)
+			(xy 256.54 140.97) (xy 256.54 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6800,7 +9169,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 119.38) (xy 39.37 134.62)
+			(xy 39.37 129.54) (xy 39.37 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6820,7 +9189,27 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 116.84) (xy 36.83 127)
+			(xy 130.81 146.05) (xy 134.62 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19caf761-8f9e-4c7d-b39f-68867d16cb31")
+	)
+	(wire
+		(pts
+			(xy 128.27 85.09) (xy 134.62 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b35495c-8e64-44b5-af83-21ff57d5b632")
+	)
+	(wire
+		(pts
+			(xy 36.83 127) (xy 36.83 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6830,13 +9219,33 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 138.43) (xy 256.54 132.08)
+			(xy 138.43 74.93) (xy 151.13 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dab8ae2-1eb0-425a-bdf3-9ec5e9508d84")
+	)
+	(wire
+		(pts
+			(xy 256.54 138.43) (xy 256.54 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "20072261-c239-458b-8aad-5649154168d1")
+	)
+	(wire
+		(pts
+			(xy 143.51 95.25) (xy 138.43 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b3d21f-d050-45ef-bd59-40b058862253")
 	)
 	(wire
 		(pts
@@ -6870,17 +9279,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 87.63) (xy 57.15 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27ce6397-c24c-4f11-8958-e33b62553c53")
-	)
-	(wire
-		(pts
-			(xy 74.93 119.38) (xy 74.93 132.08)
+			(xy 74.93 129.54) (xy 74.93 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6890,7 +9289,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 120.65) (xy 194.31 120.65)
+			(xy 175.26 120.65) (xy 198.12 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6930,17 +9329,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 114.3) (xy 88.9 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2dce6a63-0db9-462a-9b3a-b69bdc992f39")
-	)
-	(wire
-		(pts
-			(xy 215.9 140.97) (xy 215.9 147.32)
+			(xy 215.9 140.97) (xy 215.9 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6950,7 +9339,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 133.35) (xy 185.42 133.35)
+			(xy 198.12 133.35) (xy 185.42 133.35)
 		)
 		(stroke
 			(width 0)
@@ -7000,13 +9389,23 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 72.39) (xy 234.95 68.58)
+			(xy 234.95 72.39) (xy 234.95 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "35dabca5-9f76-4fd9-a3b3-9caedad16c9a")
+	)
+	(wire
+		(pts
+			(xy 57.15 87.63) (xy 96.52 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37551dc2-37e7-4ff8-af33-cfe158b32382")
 	)
 	(wire
 		(pts
@@ -7020,7 +9419,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 134.62) (xy 57.15 137.16)
+			(xy 57.15 144.78) (xy 57.15 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7040,7 +9439,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 134.62) (xy 77.47 134.62)
+			(xy 262.89 133.35) (xy 262.89 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f094792-c828-431c-abe1-050226e48dbf")
+	)
+	(wire
+		(pts
+			(xy 62.23 147.32) (xy 77.47 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7050,13 +9459,23 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 114.3) (xy 39.37 114.3)
+			(xy 35.56 124.46) (xy 39.37 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4102a9ec-4aee-43bc-ac22-a2d9171206fe")
+	)
+	(wire
+		(pts
+			(xy 196.85 62.23) (xy 196.85 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4375be7b-e033-4bb5-9269-2d3cd0c56209")
 	)
 	(wire
 		(pts
@@ -7080,13 +9499,23 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 120.65) (xy 194.31 125.73)
+			(xy 143.51 77.47) (xy 151.13 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "491d90ef-6782-4508-b552-81d04010c0a3")
+		(uuid "4861faed-5b60-4e70-b58d-e82738e938c4")
+	)
+	(wire
+		(pts
+			(xy 175.26 66.04) (xy 175.26 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "487a32a0-cca6-4748-b489-1ab5bb63a5c7")
 	)
 	(wire
 		(pts
@@ -7110,7 +9539,37 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 111.76) (xy 78.74 111.76)
+			(xy 262.89 154.94) (xy 270.51 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d77e6a6-f5a6-4f1a-95a5-977cc03cd91c")
+	)
+	(wire
+		(pts
+			(xy 190.5 62.23) (xy 190.5 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa278a7-c51e-4f4b-8ffb-1c13218a42db")
+	)
+	(wire
+		(pts
+			(xy 212.09 69.85) (xy 212.09 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fbec256-45a0-4c49-a120-71ad596e3c7c")
+	)
+	(wire
+		(pts
+			(xy 77.47 121.92) (xy 78.74 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7120,7 +9579,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 109.22) (xy 77.47 111.76)
+			(xy 77.47 119.38) (xy 77.47 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7130,17 +9589,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 143.51) (xy 220.98 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5327c91c-f64d-4186-8f54-6ef97dd72354")
-	)
-	(wire
-		(pts
-			(xy 74.93 132.08) (xy 59.69 132.08)
+			(xy 74.93 142.24) (xy 59.69 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7150,7 +9599,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 74.93) (xy 227.33 76.2)
+			(xy 223.52 74.93) (xy 223.52 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7200,7 +9649,27 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 68.58) (xy 220.98 68.58)
+			(xy 262.89 134.62) (xy 262.89 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56044ec6-fefd-4740-b7ae-987b16eb22d2")
+	)
+	(wire
+		(pts
+			(xy 182.88 66.04) (xy 175.26 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a25e55-164f-4f29-9c71-b43c0306422c")
+	)
+	(wire
+		(pts
+			(xy 200.66 59.69) (xy 220.98 59.69)
 		)
 		(stroke
 			(width 0)
@@ -7230,13 +9699,13 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 72.39) (xy 193.04 72.39)
+			(xy 146.05 95.25) (xy 143.51 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59abaf08-aca6-40e1-9a86-543f6edf9465")
+		(uuid "62008496-0e14-4cc8-9bfd-004898ae7f81")
 	)
 	(wire
 		(pts
@@ -7250,23 +9719,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 111.76) (xy 77.47 111.76)
+			(xy 74.93 121.92) (xy 77.47 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "632c60af-b553-47b7-b744-4c242d420273")
-	)
-	(wire
-		(pts
-			(xy 86.36 111.76) (xy 86.36 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63dbbe74-e940-4bdd-a4ca-bb9316485fee")
 	)
 	(wire
 		(pts
@@ -7280,7 +9739,17 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 125.73) (xy 194.31 133.35)
+			(xy 223.52 82.55) (xy 212.09 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d29cab-ebab-414e-ac72-d23d2dea1db8")
+	)
+	(wire
+		(pts
+			(xy 198.12 120.65) (xy 198.12 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7310,6 +9779,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 96.52) (xy 128.27 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a24af36-671c-41dc-91f2-3a78b1ae3af4")
+	)
+	(wire
+		(pts
 			(xy 31.75 55.88) (xy 60.96 55.88)
 		)
 		(stroke
@@ -7327,16 +9806,6 @@
 			(type default)
 		)
 		(uuid "6dceca6d-5f2d-4428-929c-b6f714eb59aa")
-	)
-	(wire
-		(pts
-			(xy 212.09 77.47) (xy 212.09 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e9ed02e-c502-4e49-9879-436d708e135b")
 	)
 	(wire
 		(pts
@@ -7360,7 +9829,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 147.32) (xy 212.09 147.32)
+			(xy 203.2 151.13) (xy 212.09 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7380,27 +9849,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 27.94) (xy 76.2 30.48)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "7645e45b-ebbd-4531-92c9-9c38081bbf8d")
-	)
-	(wire
-		(pts
-			(xy 220.98 77.47) (xy 220.98 78.74)
+			(xy 138.43 95.25) (xy 138.43 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "769d05fa-f0f6-4307-a70a-33f3a24c3200")
+		(uuid "791a0ab0-2f7f-4c3b-98c6-cc9e6904e6b3")
 	)
 	(wire
 		(pts
-			(xy 77.47 116.84) (xy 77.47 134.62)
+			(xy 77.47 127) (xy 77.47 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7430,7 +9889,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 132.08) (xy 261.62 132.08)
+			(xy 256.54 115.57) (xy 262.89 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7480,7 +9939,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 132.08) (xy 59.69 137.16)
+			(xy 59.69 142.24) (xy 59.69 147.32)
 		)
 		(stroke
 			(width 0)
@@ -7510,17 +9969,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 24.13) (xy 76.2 27.94)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "825ec672-c6b3-4524-894f-bfac8191e641")
-	)
-	(wire
-		(pts
-			(xy 39.37 134.62) (xy 54.61 134.62)
+			(xy 39.37 144.78) (xy 54.61 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7550,26 +9999,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 85.09) (xy 144.78 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86b54d74-92be-406d-bc82-8fc6c920ef4b")
-	)
-	(wire
-		(pts
-			(xy 193.04 80.01) (xy 193.04 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87093fe2-9a28-4b72-81c7-b003cb513ad1")
-	)
-	(wire
-		(pts
 			(xy 234.95 77.47) (xy 234.95 87.63)
 		)
 		(stroke
@@ -7580,7 +10009,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 111.76) (xy 36.83 111.76)
+			(xy 39.37 121.92) (xy 36.83 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7610,7 +10039,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 96.52) (xy 57.15 96.52)
+			(xy 53.34 106.68) (xy 57.15 106.68)
 		)
 		(stroke
 			(width 0)
@@ -7630,6 +10059,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 69.85) (xy 217.17 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b7bba19-e46c-47dd-ac6e-1be2c03da7ec")
+	)
+	(wire
+		(pts
 			(xy 73.66 38.1) (xy 100.33 38.1)
 		)
 		(stroke
@@ -7637,6 +10076,16 @@
 			(type solid)
 		)
 		(uuid "8ccbbafc-2cdc-415a-ac78-6ccd25489208")
+	)
+	(wire
+		(pts
+			(xy 185.42 143.51) (xy 220.98 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d7d4ba0-f690-49a3-a58a-3ca78d37e0a2")
 	)
 	(wire
 		(pts
@@ -7660,7 +10109,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 68.58) (xy 200.66 85.09)
+			(xy 200.66 59.69) (xy 200.66 85.09)
 		)
 		(stroke
 			(width 0)
@@ -7687,36 +10136,6 @@
 			(type solid)
 		)
 		(uuid "92611e1c-9e36-42b2-a6c7-1ef2cb0c90da")
-	)
-	(wire
-		(pts
-			(xy 144.78 85.09) (xy 151.13 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92717835-a36e-450b-a695-be88ebe6f637")
-	)
-	(wire
-		(pts
-			(xy 220.98 87.63) (xy 220.98 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95d69ba2-cc08-45db-a106-10519cbab6a2")
-	)
-	(wire
-		(pts
-			(xy 130.81 153.67) (xy 130.81 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "962d33a5-67eb-4701-8c76-85a445110336")
 	)
 	(wire
 		(pts
@@ -7760,17 +10179,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 134.62) (xy 62.23 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d295d11-83c1-4d30-b35a-c0f3425781a3")
-	)
-	(wire
-		(pts
-			(xy 138.43 77.47) (xy 144.78 77.47)
+			(xy 138.43 77.47) (xy 143.51 77.47)
 		)
 		(stroke
 			(width 0)
@@ -7790,7 +10199,17 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 116.84) (xy 39.37 116.84)
+			(xy 220.98 59.69) (xy 234.95 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a253be8b-61cb-4690-9ba7-23c8bdc91b61")
+	)
+	(wire
+		(pts
+			(xy 36.83 127) (xy 39.37 127)
 		)
 		(stroke
 			(width 0)
@@ -7820,13 +10239,13 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 77.47) (xy 213.36 77.47)
+			(xy 193.04 59.69) (xy 196.85 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6de524a-7f41-4cf0-b2e4-0483cd941fcd")
+		(uuid "a67262a8-d7db-47d9-b02a-bf4c3a8092fc")
 	)
 	(wire
 		(pts
@@ -7850,16 +10269,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 72.39) (xy 190.5 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8dcf274-c073-435c-a031-db0fa9f499ac")
-	)
-	(wire
-		(pts
 			(xy 185.42 125.73) (xy 185.42 130.81)
 		)
 		(stroke
@@ -7870,13 +10279,13 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 85.09) (xy 134.62 85.09)
+			(xy 146.05 85.09) (xy 146.05 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "af9ae677-3790-4522-af74-391f3af2634c")
+		(uuid "af3fcb0a-8cf0-4335-9808-d2aa63eef57f")
 	)
 	(wire
 		(pts
@@ -7890,6 +10299,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 69.85) (xy 212.09 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10a5c40-2441-415e-9465-c587974314e7")
+	)
+	(wire
+		(pts
 			(xy 137.16 171.45) (xy 137.16 187.96)
 		)
 		(stroke
@@ -7897,16 +10316,6 @@
 			(type default)
 		)
 		(uuid "b255f358-4675-4109-b985-05613afbcc1c")
-	)
-	(wire
-		(pts
-			(xy 130.81 146.05) (xy 134.62 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2a71aba-b997-4cd0-8bc5-c943001b530f")
 	)
 	(wire
 		(pts
@@ -7920,16 +10329,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 92.71) (xy 128.27 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4a24941-c8df-4868-b798-df8b204299ca")
-	)
-	(wire
-		(pts
 			(xy 148.59 82.55) (xy 151.13 82.55)
 		)
 		(stroke
@@ -7937,16 +10336,6 @@
 			(type default)
 		)
 		(uuid "b4deddc5-2f20-4d5e-a9a4-b657041bca05")
-	)
-	(wire
-		(pts
-			(xy 74.93 116.84) (xy 77.47 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b685c295-7201-4ec7-bf9d-245890162bf4")
 	)
 	(wire
 		(pts
@@ -7960,16 +10349,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 77.47) (xy 151.13 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7f2bc90-5909-4788-bad4-41266cbecdc0")
-	)
-	(wire
-		(pts
 			(xy 58.42 76.2) (xy 60.96 76.2)
 		)
 		(stroke
@@ -7980,7 +10359,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 114.3) (xy 35.56 116.84)
+			(xy 35.56 124.46) (xy 35.56 127)
 		)
 		(stroke
 			(width 0)
@@ -7990,7 +10369,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 114.3) (xy 34.29 114.3)
+			(xy 35.56 124.46) (xy 34.29 124.46)
 		)
 		(stroke
 			(width 0)
@@ -8010,13 +10389,13 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 132.08) (xy 270.51 132.08)
+			(xy 74.93 127) (xy 77.47 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0b774cf-81c2-45e2-a6ab-44128d883366")
+		(uuid "bd712192-dcb8-4b36-99fa-d2745c0e0d32")
 	)
 	(wire
 		(pts
@@ -8030,7 +10409,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 87.63) (xy 34.29 87.63)
+			(xy 34.29 87.63) (xy 57.15 87.63)
 		)
 		(stroke
 			(width 0)
@@ -8050,27 +10429,27 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 147.32) (xy 270.51 147.32)
+			(xy 196.85 59.69) (xy 196.85 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9165032-67c9-4589-addf-d53c03c0bc99")
+		(uuid "c5584e68-30c9-4431-b5bc-c440d0cf688c")
 	)
 	(wire
 		(pts
-			(xy 220.98 68.58) (xy 234.95 68.58)
+			(xy 198.12 125.73) (xy 198.12 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ca58e185-7e71-4a87-a47b-d9b1f2ed1bf0")
+		(uuid "c9f30a82-e40c-4a50-bcec-9ea0c6e6f936")
 	)
 	(wire
 		(pts
-			(xy 36.83 111.76) (xy 36.83 116.84)
+			(xy 36.83 121.92) (xy 36.83 127)
 		)
 		(stroke
 			(width 0)
@@ -8090,17 +10469,17 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 147.32) (xy 215.9 147.32)
+			(xy 212.09 69.85) (xy 217.17 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d0cd04bf-ca4b-4409-a170-b28e627147af")
+		(uuid "d02545f4-c567-470a-ba72-06b3757fc3ad")
 	)
 	(wire
 		(pts
-			(xy 86.36 114.3) (xy 86.36 111.76)
+			(xy 96.52 87.63) (xy 96.52 121.92)
 		)
 		(stroke
 			(width 0)
@@ -8110,13 +10489,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 74.93) (xy 151.13 74.93)
+			(xy 86.36 124.46) (xy 96.52 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d214bcfe-7a1f-4159-bee2-0a21aa0653c9")
+		(uuid "d23ec26b-ab00-4226-b98c-c42dd69489c3")
 	)
 	(wire
 		(pts
@@ -8200,6 +10579,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 27.94) (xy 76.2 30.48)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "d966245d-8740-42a0-842c-8b0150f60834")
+	)
+	(wire
+		(pts
 			(xy 76.2 68.58) (xy 76.2 80.01)
 		)
 		(stroke
@@ -8280,6 +10669,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 85.09) (xy 134.62 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed5f66a2-31f6-4f96-9e19-bc2fd027b06d")
+	)
+	(wire
+		(pts
 			(xy 265.43 78.74) (xy 265.43 77.47)
 		)
 		(stroke
@@ -8290,7 +10689,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 95.25) (xy 57.15 96.52)
+			(xy 57.15 105.41) (xy 57.15 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8320,13 +10719,43 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 87.63) (xy 220.98 87.63)
+			(xy 181.61 87.63) (xy 205.74 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f5f2ad44-5946-4529-8229-1c8588c05c86")
+	)
+	(wire
+		(pts
+			(xy 76.2 24.13) (xy 76.2 27.94)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f8f92254-6f90-453a-8326-af234e53f236")
+	)
+	(wire
+		(pts
+			(xy 212.09 151.13) (xy 215.9 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f98e5935-2596-4b88-9725-082e517437ae")
+	)
+	(wire
+		(pts
+			(xy 262.89 115.57) (xy 270.51 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9aa2700-a27f-478f-bde2-98a53d041814")
 	)
 	(wire
 		(pts
@@ -8370,7 +10799,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 147.32) (xy 261.62 147.32)
+			(xy 256.54 154.94) (xy 262.89 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8414,7 +10843,7 @@
 	)
 	(rectangle
 		(start 26.67 86.36)
-		(end 99.06 143.51)
+		(end 99.06 153.67)
 		(stroke
 			(width 0)
 			(type default)
@@ -8481,16 +10910,6 @@
 		)
 		(uuid "420e2736-3466-443c-82aa-6d686b38d4b2")
 	)
-	(text "5V (unused)"
-		(exclude_from_sim no)
-		(at 83.312 23.876 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "438e561e-3a28-42ff-9707-cfbd835d6cb5")
-	)
 	(text "Connecteurs"
 		(exclude_from_sim no)
 		(at 216.916 51.562 0)
@@ -8503,7 +10922,7 @@
 	)
 	(text "CAN Bus"
 		(exclude_from_sim no)
-		(at 267.97 156.718 0)
+		(at 274.574 159.512 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8535,7 +10954,7 @@
 	)
 	(text "ADC"
 		(exclude_from_sim no)
-		(at 94.742 141.732 0)
+		(at 94.742 151.892 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8620,7 +11039,7 @@
 		(uuid "0d0fb262-22f0-4610-80e5-904f0dc1a761")
 	)
 	(label "AN2"
-		(at 59.69 137.16 270)
+		(at 59.69 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8686,7 +11105,7 @@
 		(uuid "31b15bb4-e7a6-46f1-aabc-e5f3cca1ba4f")
 	)
 	(label "AN1"
-		(at 57.15 137.16 270)
+		(at 57.15 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8762,6 +11181,17 @@
 		)
 		(uuid "45550f58-81b3-4113-a98b-8910341c00d8")
 	)
+	(label "AN0"
+		(at 157.48 30.48 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "490d2efc-c1e6-4043-994e-6bb44729893d")
+	)
 	(label "IM"
 		(at 265.43 78.74 0)
 		(fields_autoplaced yes)
@@ -8772,6 +11202,17 @@
 			(justify left bottom)
 		)
 		(uuid "4ab37240-8d89-45e1-a040-7234d545c9f4")
+	)
+	(label "AN3"
+		(at 165.1 30.48 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e1e74f8-823d-48f3-bc48-dbf95c668963")
 	)
 	(label "GPIO4{slash}GPCLK0"
 		(at 31.75 35.56 0)
@@ -8805,6 +11246,17 @@
 			(justify left bottom)
 		)
 		(uuid "591fa762-d154-4cf7-8db7-a10b610ff12a")
+	)
+	(label "AN1"
+		(at 160.02 30.48 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e3bda11-b405-4f08-8566-cbe28d0d7868")
 	)
 	(label "GPIO26"
 		(at 31.75 73.66 0)
@@ -8862,7 +11314,7 @@
 		(uuid "6a63dbe8-50e2-4ffb-a55f-e0df0f695e9b")
 	)
 	(label "GPIO3{slash}SCL1"
-		(at 53.34 96.52 180)
+		(at 53.34 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8893,17 +11345,6 @@
 			(justify right bottom)
 		)
 		(uuid "722faa30-42f4-48f1-bae0-2236f47a08e0")
-	)
-	(label "AN0"
-		(at 165.1 30.48 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d7de78c-471f-4d7a-9bb6-d49504d33e40")
 	)
 	(label "POL"
 		(at 228.6 97.79 0)
@@ -9005,7 +11446,7 @@
 		(uuid "9dbd9279-a51a-41f7-880a-a1a600fe26c0")
 	)
 	(label "AN3"
-		(at 62.23 137.16 270)
+		(at 62.23 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9027,7 +11468,7 @@
 		(uuid "a1cb0f9a-5b27-4e0e-bc79-c6e0ff4c58f7")
 	)
 	(label "AN0"
-		(at 54.61 137.16 270)
+		(at 54.61 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9060,7 +11501,7 @@
 		(uuid "a4ea18c0-875f-43e7-bc38-79eed0d7f74f")
 	)
 	(label "GPIO27"
-		(at 35.56 116.84 270)
+		(at 35.56 127 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9104,7 +11545,7 @@
 		(uuid "b2ab078a-8774-4d1b-9381-5fcf23cc6a42")
 	)
 	(label "CANL"
-		(at 270.51 147.32 0)
+		(at 270.51 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9113,17 +11554,6 @@
 			(justify left bottom)
 		)
 		(uuid "b4d08608-73c9-41a7-acf4-78329058be6e")
-	)
-	(label "AN2"
-		(at 160.02 30.48 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b5f56c5a-6bdd-4909-8499-a2f32f889c28")
 	)
 	(label "GPIO20{slash}PCM.DIN{slash}SPI1.MOSI"
 		(at 106.68 73.66 180)
@@ -9180,17 +11610,6 @@
 		)
 		(uuid "bf450ab3-740c-4c4d-a3af-2b3f302b2717")
 	)
-	(label "AN1"
-		(at 162.56 30.48 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4b95175-63b2-4b0e-815c-78ab6077772b")
-	)
 	(label "PHA"
 		(at 151.13 90.17 180)
 		(fields_autoplaced yes)
@@ -9224,17 +11643,6 @@
 		)
 		(uuid "d26e212d-5e90-465f-94ae-829213fd7dd0")
 	)
-	(label "AN3"
-		(at 157.48 30.48 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d647e7b4-879c-4a2f-b3e7-1802c7946353")
-	)
 	(label "ID_SCL"
 		(at 105.41 175.26 180)
 		(fields_autoplaced yes)
@@ -9256,6 +11664,17 @@
 			(justify right bottom)
 		)
 		(uuid "e1881030-c1b1-434c-9133-2f517e4d5a5a")
+	)
+	(label "AN2"
+		(at 162.56 30.48 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e285088b-e30d-4016-9e04-14625e95ca25")
 	)
 	(label "GPIO19{slash}PCM.FS{slash}SPI1.MISO"
 		(at 134.62 140.97 180)
@@ -9291,7 +11710,7 @@
 		(uuid "f9b80c2b-5447-4c6b-b35d-cb6b75fa7978")
 	)
 	(label "CANH"
-		(at 270.51 132.08 0)
+		(at 270.51 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9302,7 +11721,7 @@
 		(uuid "fe57b41c-9a40-4e29-bbdd-3f0903468ee2")
 	)
 	(label "GPIO2{slash}SDA1"
-		(at 77.47 109.22 90)
+		(at 77.47 119.38 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9683,8 +12102,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 86.36 118.11 180)
+		(lib_id "EPSA_lib:Condensateur 0805Y1000104JXT")
+		(at 86.36 124.46 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9692,7 +12111,7 @@
 		(dnp no)
 		(uuid "01822956-47df-4237-a0da-3a8b7db564cc")
 		(property "Reference" "C6"
-			(at 82.55 118.11 90)
+			(at 86.36 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9700,15 +12119,45 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 82.55 121.92 90)
+			(at 90.17 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 85.3948 114.3 0)
+		(property "Footprint" "EPSA_lib:CAPC2012X130N"
+			(at 86.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/119d/0900766b8119d7bc.pdf"
+			(at 83.82 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Syfer 0805 Ceramic Chip Capacitors"
+			(at 81.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 88.646 149.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9716,17 +12165,68 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 86.36 118.11 0)
+		(property "Sim.Device" "C"
+			(at 91.44 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 86.36 118.11 0)
+		(property "Height" "1.3"
+			(at 78.74 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Syfer"
+			(at 76.2 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805Y1000104JXT"
+			(at 73.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 72.39 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 73.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Condensateur"
+			(at 90.424 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9751,7 +12251,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 127 0)
+		(at 36.83 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9760,7 +12260,7 @@
 		(fields_autoplaced yes)
 		(uuid "076dab60-7435-4ce5-b48f-453d90f24446")
 		(property "Reference" "#PWR025"
-			(at 36.83 133.35 0)
+			(at 36.83 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9769,7 +12269,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 132.08 0)
+			(at 36.83 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9777,7 +12277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 127 0)
+			(at 36.83 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9786,7 +12286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 127 0)
+			(at 36.83 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9795,7 +12295,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 127 0)
+			(at 36.83 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9817,7 +12317,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 78.74 0)
+		(at 223.52 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9826,7 +12326,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b5f2ef5-4d9e-4e3b-811a-6cb4fdf86be4")
 		(property "Reference" "#PWR018"
-			(at 212.09 85.09 0)
+			(at 229.87 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9835,15 +12335,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 83.82 0)
+			(at 227.33 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 78.74 0)
+			(at 223.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9852,7 +12353,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 78.74 0)
+			(at 223.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9861,7 +12362,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 78.74 0)
+			(at 223.52 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10150,7 +12651,7 @@
 	)
 	(symbol
 		(lib_id "EPSA_lib:ADC I2C ADS1115QNKSRQ1")
-		(at 39.37 111.76 0)
+		(at 39.37 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10159,7 +12660,7 @@
 		(fields_autoplaced yes)
 		(uuid "1739784e-9e55-41be-9793-dc0996ebf4a3")
 		(property "Reference" "IC2"
-			(at 59.3441 96.52 0)
+			(at 59.3441 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10168,7 +12669,7 @@
 			)
 		)
 		(property "Value" "ADC I2C ADS1115QNKSRQ1"
-			(at 59.3441 99.06 0)
+			(at 59.3441 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10177,7 +12678,7 @@
 			)
 		)
 		(property "Footprint" "ADS1115QNKSRQ1"
-			(at 71.12 199.06 0)
+			(at 71.12 209.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10187,7 +12688,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/ads1115-q1"
-			(at 71.12 299.06 0)
+			(at 71.12 309.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10197,7 +12698,7 @@
 			)
 		)
 		(property "Description" "Analog to Digital Converters - ADC Automotive 16-bit, 860-SPS, 4-ch, delta-sigma ADC with PGA, oscillator, VREF, comparator and I2C"
-			(at 39.37 111.76 0)
+			(at 39.37 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10206,7 +12707,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at 71.12 499.06 0)
+			(at 71.12 509.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10216,7 +12717,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-ADS1115QNKSRQ1"
-			(at 71.12 599.06 0)
+			(at 71.12 609.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10226,7 +12727,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ADS1115QNKSRQ1?qs=ulEaXIWI0c%252B%252BH1ufhGRAvg%3D%3D"
-			(at 71.12 699.06 0)
+			(at 71.12 709.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10236,7 +12737,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 71.12 799.06 0)
+			(at 71.12 809.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10246,7 +12747,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ADS1115QNKSRQ1"
-			(at 71.12 899.06 0)
+			(at 71.12 909.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10295,8 +12796,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 130.81 149.86 180)
+		(lib_id "EPSA_lib:Condensateur 0805Y1000104JXT")
+		(at 130.81 146.05 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10304,7 +12805,7 @@
 		(dnp no)
 		(uuid "1a3fd570-a116-48a0-950c-0deedd00ebb0")
 		(property "Reference" "C7"
-			(at 127 149.86 90)
+			(at 125.984 151.892 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10312,15 +12813,45 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 127 153.67 90)
+			(at 136.398 151.892 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 129.8448 146.05 0)
+		(property "Footprint" "EPSA_lib:CAPC2012X130N"
+			(at 130.81 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/119d/0900766b8119d7bc.pdf"
+			(at 128.27 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Syfer 0805 Ceramic Chip Capacitors"
+			(at 125.73 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 133.096 171.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10328,17 +12859,68 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 130.81 149.86 0)
+		(property "Sim.Device" "C"
+			(at 135.89 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 130.81 149.86 0)
+		(property "Height" "1.3"
+			(at 123.19 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Syfer"
+			(at 120.65 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805Y1000104JXT"
+			(at 118.11 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 116.84 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 118.11 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Condensateur"
+			(at 134.874 152.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10362,8 +12944,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 231.14 74.93 90)
+		(lib_id "EPSA_lib:Condensateur 0805Y1000104JXT")
+		(at 234.95 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10371,7 +12953,7 @@
 		(dnp no)
 		(uuid "1a62ead7-0fc1-4733-a9e4-ea48ed621f9e")
 		(property "Reference" "C5"
-			(at 233.68 73.66 90)
+			(at 226.06 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10379,15 +12961,45 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 233.68 78.74 90)
+			(at 231.648 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 234.95 73.9648 0)
+		(property "Footprint" "EPSA_lib:CAPC2012X130N"
+			(at 214.63 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/119d/0900766b8119d7bc.pdf"
+			(at 214.63 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Syfer 0805 Ceramic Chip Capacitors"
+			(at 214.63 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 209.804 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10395,17 +13007,68 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 231.14 74.93 0)
+		(property "Sim.Device" "C"
+			(at 214.63 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 231.14 74.93 0)
+		(property "Height" "1.3"
+			(at 214.63 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Syfer"
+			(at 214.63 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805Y1000104JXT"
+			(at 214.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 214.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Condensateur"
+			(at 228.346 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10430,7 +13093,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 100.33 0)
+		(at 182.88 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10439,7 +13102,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ae4dafd-936a-42ab-b77e-b77b2a385208")
 		(property "Reference" "#PWR014"
-			(at 182.88 106.68 0)
+			(at 182.88 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10448,7 +13111,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 105.41 0)
+			(at 182.88 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10456,7 +13119,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 100.33 0)
+			(at 182.88 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10465,7 +13128,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 100.33 0)
+			(at 182.88 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10474,7 +13137,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 100.33 0)
+			(at 182.88 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10905,8 +13568,10 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 34.29 110.49 0)
+		(lib_name "Résistance RK73H2BLTDD2152F_1")
+		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
+		(at 34.29 106.68 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10914,7 +13579,7 @@
 		(dnp no)
 		(uuid "301841ef-b8bf-4d21-8f25-bfd6d15f53f3")
 		(property "Reference" "R9"
-			(at 31.75 111.76 0)
+			(at 37.592 117.094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10923,7 +13588,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 33.02 109.22 0)
+			(at 31.496 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10931,8 +13596,38 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 32.512 110.49 90)
+		(property "Footprint" "EPSA_lib:RESC3216X70N"
+			(at 34.29 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 36.83 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 39.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 31.75 136.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10940,17 +13635,108 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 34.29 110.49 0)
+		(property "Sim.Device" "R"
+			(at 29.21 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 34.29 110.49 0)
+		(property "Height" "0.7"
+			(at 41.91 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 44.45 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 46.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 49.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 52.07 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 55.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 58.42 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 60.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 27.686 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11204,8 +13990,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 82.55 111.76 270)
+		(lib_name "Résistance RK73H2BLTDD2152F_2")
+		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
+		(at 78.74 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11213,7 +14000,7 @@
 		(dnp no)
 		(uuid "38a15273-f8ce-41da-abe7-e5b475ddb26d")
 		(property "Reference" "R8"
-			(at 81.28 109.22 0)
+			(at 88.9 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11222,7 +14009,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 83.82 110.49 0)
+			(at 86.614 119.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11230,8 +14017,38 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 82.55 109.982 90)
+		(property "Footprint" "EPSA_lib:RESC3216X70N"
+			(at 104.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 104.14 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 108.966 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11239,17 +14056,108 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 82.55 111.76 0)
+		(property "Sim.Device" "R"
+			(at 104.14 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 82.55 111.76 0)
+		(property "Height" "0.7"
+			(at 104.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 104.14 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 104.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 104.14 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 92.71 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 92.71 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 92.71 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 92.71 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 87.63 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11874,7 +14782,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 86.36 121.92 0)
+		(at 86.36 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11883,7 +14791,7 @@
 		(fields_autoplaced yes)
 		(uuid "4bf148f3-9a5b-4d6a-bce6-b11c20101f22")
 		(property "Reference" "#PWR024"
-			(at 86.36 128.27 0)
+			(at 86.36 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11892,7 +14800,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 86.36 127 0)
+			(at 86.36 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11900,7 +14808,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 121.92 0)
+			(at 86.36 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11909,7 +14817,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 121.92 0)
+			(at 86.36 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11918,7 +14826,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 86.36 121.92 0)
+			(at 86.36 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12075,8 +14983,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 212.09 143.51 180)
+		(lib_id "EPSA_lib:Condensateur 0805Y1000104JXT")
+		(at 212.09 139.7 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12084,7 +14992,7 @@
 		(dnp no)
 		(uuid "559c7a80-6a61-4b6c-be4f-23693d2ee4b8")
 		(property "Reference" "C8"
-			(at 208.28 143.51 90)
+			(at 207.264 147.574 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12092,15 +15000,45 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 208.28 146.05 0)
+			(at 206.756 145.288 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 211.1248 139.7 0)
+		(property "Footprint" "EPSA_lib:CAPC2012X130N"
+			(at 212.09 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/119d/0900766b8119d7bc.pdf"
+			(at 209.55 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Syfer 0805 Ceramic Chip Capacitors"
+			(at 207.01 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 214.376 164.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12108,17 +15046,68 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 212.09 143.51 0)
+		(property "Sim.Device" "C"
+			(at 217.17 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 212.09 143.51 0)
+		(property "Height" "1.3"
+			(at 204.47 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Syfer"
+			(at 201.93 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805Y1000104JXT"
+			(at 199.39 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 198.12 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 199.39 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Condensateur"
+			(at 216.154 146.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12207,8 +15196,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 217.17 77.47 90)
+		(lib_id "EPSA_lib:Condensateur 0805Y1000104JXT")
+		(at 212.09 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12216,7 +15205,7 @@
 		(dnp no)
 		(uuid "58a8d8e1-36f8-4eed-8de0-ba2243e3ee95")
 		(property "Reference" "C4"
-			(at 217.17 73.66 90)
+			(at 209.55 78.994 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12224,15 +15213,45 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 213.36 73.66 90)
+			(at 214.376 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 220.98 76.5048 0)
+		(property "Footprint" "EPSA_lib:CAPC2012X130N"
+			(at 212.09 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/119d/0900766b8119d7bc.pdf"
+			(at 214.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Syfer 0805 Ceramic Chip Capacitors"
+			(at 217.17 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 209.804 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12240,17 +15259,68 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 217.17 77.47 0)
+		(property "Sim.Device" "C"
+			(at 207.01 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 217.17 77.47 0)
+		(property "Height" "1.3"
+			(at 219.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Syfer"
+			(at 222.25 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805Y1000104JXT"
+			(at 224.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 226.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 224.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Condensateur"
+			(at 208.026 75.946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12653,8 +15723,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 128.27 88.9 180)
+		(lib_id "EPSA_lib:Condensateur 0805Y1000104JXT")
+		(at 128.27 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12662,7 +15732,7 @@
 		(dnp no)
 		(uuid "654103b8-04d2-418c-8214-398c42937279")
 		(property "Reference" "C2"
-			(at 124.46 88.9 90)
+			(at 122.936 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12670,15 +15740,45 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 124.46 92.71 90)
+			(at 123.698 92.456 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 127.3048 85.09 0)
+		(property "Footprint" "EPSA_lib:CAPC2012X130N"
+			(at 128.27 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/119d/0900766b8119d7bc.pdf"
+			(at 125.73 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Syfer 0805 Ceramic Chip Capacitors"
+			(at 123.19 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 130.556 110.236 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12686,17 +15786,68 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 128.27 88.9 0)
+		(property "Sim.Device" "C"
+			(at 133.35 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 128.27 88.9 0)
+		(property "Height" "1.3"
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Syfer"
+			(at 118.11 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805Y1000104JXT"
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 114.3 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 115.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Condensateur"
+			(at 132.334 91.694 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12721,7 +15872,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 238.76 100.33 0)
+		(at 238.76 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12730,7 +15881,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c4ed6e3-dedf-4aed-99d1-b6fd5fa96fba")
 		(property "Reference" "#PWR011"
-			(at 238.76 106.68 0)
+			(at 238.76 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12739,7 +15890,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 105.41 0)
+			(at 238.76 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12747,7 +15898,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 100.33 0)
+			(at 238.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12756,7 +15907,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 100.33 0)
+			(at 238.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12765,7 +15916,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 100.33 0)
+			(at 238.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12872,7 +16023,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 154.94 0)
+		(at 130.81 157.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12881,7 +16032,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e7109ca-abe9-4629-8d19-bd8873dc6fae")
 		(property "Reference" "#PWR029"
-			(at 130.81 161.29 0)
+			(at 137.16 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12890,15 +16041,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 160.02 0)
+			(at 134.62 157.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 154.94 0)
+			(at 130.81 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12907,7 +16059,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 154.94 0)
+			(at 130.81 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12916,7 +16068,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 154.94 0)
+			(at 130.81 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13260,8 +16412,75 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 261.62 135.89 0)
+		(lib_id "power:+5VP")
+		(at 76.2 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88ba0615-ff59-47c1-8e30-cf996053a0c3")
+		(property "Reference" "#PWR019"
+			(at 76.2 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5VP"
+			(at 76.2 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VP\""
+			(at 76.2 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cb74441-a899-4d29-ba20-88705dc5d29a")
+		)
+		(instances
+			(project "AMS Dongle"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Résistance RK73H2BLTDD2152F_9")
+		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
+		(at 262.89 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13269,7 +16488,7 @@
 		(dnp no)
 		(uuid "89bf16e9-ef03-47cc-a62b-0716fb794955")
 		(property "Reference" "R11"
-			(at 266.954 133.35 0)
+			(at 260.35 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13278,7 +16497,7 @@
 			)
 		)
 		(property "Value" "60"
-			(at 265.43 135.382 0)
+			(at 260.35 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13286,8 +16505,38 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 259.842 135.89 90)
+		(property "Footprint" "EPSA_lib:RESC3216X70N"
+			(at 262.89 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 265.43 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 267.97 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 260.35 103.124 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13295,17 +16544,108 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 261.62 135.89 0)
+		(property "Sim.Device" "R"
+			(at 257.81 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 261.62 135.89 0)
+		(property "Height" "0.7"
+			(at 270.51 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 273.05 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 275.59 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 278.13 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 280.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 281.94 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 284.48 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 287.02 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 289.56 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 256.286 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13329,8 +16669,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 220.98 82.55 180)
+		(lib_name "Résistance RK73H2BLTDD2152F_6")
+		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
+		(at 205.74 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13338,7 +16679,7 @@
 		(dnp no)
 		(uuid "8b121677-6a6b-4ae5-9086-ecd168aaf6b9")
 		(property "Reference" "R7"
-			(at 222.25 81.28 0)
+			(at 202.692 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13347,7 +16688,7 @@
 			)
 		)
 		(property "Value" "51"
-			(at 222.25 83.82 0)
+			(at 202.692 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13355,8 +16696,38 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 222.758 82.55 90)
+		(property "Footprint" "EPSA_lib:RESC3216X70N"
+			(at 205.74 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 203.2 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 200.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 208.28 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13364,17 +16735,108 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 220.98 82.55 0)
+		(property "Sim.Device" "R"
+			(at 210.82 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 220.98 82.55 0)
+		(property "Height" "0.7"
+			(at 198.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 195.58 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 193.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 190.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 187.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 186.69 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 184.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 181.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 179.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 212.344 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13527,8 +16989,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 220.98 72.39 180)
+		(lib_name "Résistance RK73H2BLTDD2152F_5")
+		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
+		(at 220.98 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13536,7 +16999,7 @@
 		(dnp no)
 		(uuid "934d49d5-f90c-47ab-b4a0-aefb0f5684b9")
 		(property "Reference" "R6"
-			(at 222.25 71.12 0)
+			(at 217.932 67.056 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13545,7 +17008,7 @@
 			)
 		)
 		(property "Value" "51"
-			(at 222.25 73.66 0)
+			(at 217.932 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13553,8 +17016,38 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 222.758 72.39 90)
+		(property "Footprint" "EPSA_lib:RESC3216X70N"
+			(at 220.98 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 218.44 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 215.9 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 223.52 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13562,17 +17055,108 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 220.98 72.39 0)
+		(property "Sim.Device" "R"
+			(at 226.06 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 220.98 72.39 0)
+		(property "Height" "0.7"
+			(at 213.36 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 210.82 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 208.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 205.74 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 203.2 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 201.93 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 199.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 196.85 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 194.31 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 227.584 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13596,8 +17180,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 186.69 72.39 270)
+		(lib_name "Résistance RK73H2BLTDD2152F_4")
+		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
+		(at 196.85 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13605,7 +17190,7 @@
 		(dnp no)
 		(uuid "93e2e5d2-704d-4864-8a33-23526f8d4577")
 		(property "Reference" "R4"
-			(at 185.42 71.12 0)
+			(at 194.564 70.866 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13614,7 +17199,7 @@
 			)
 		)
 		(property "Value" "2.8k"
-			(at 187.96 71.12 0)
+			(at 186.944 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13622,8 +17207,38 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 186.69 70.612 90)
+		(property "Footprint" "EPSA_lib:RESC3216X70N"
+			(at 196.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 194.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 191.77 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 199.39 93.726 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13631,17 +17246,108 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 186.69 72.39 0)
+		(property "Sim.Device" "R"
+			(at 201.93 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 186.69 72.39 0)
+		(property "Height" "0.7"
+			(at 189.23 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 186.69 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 184.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 181.61 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 179.07 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 175.26 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 172.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 170.18 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 203.454 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14182,8 +17888,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 57.15 91.44 0)
+		(lib_name "Résistance RK73H2BLTDD2152F_8")
+		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
+		(at 57.15 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14191,7 +17898,7 @@
 		(dnp no)
 		(uuid "9e74c4b5-fdec-450c-8970-277eca34ebd8")
 		(property "Reference" "R10"
-			(at 54.61 92.71 0)
+			(at 59.944 94.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14200,7 +17907,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 55.88 90.17 0)
+			(at 54.102 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14208,8 +17915,38 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 55.372 91.44 90)
+		(property "Footprint" "EPSA_lib:RESC3216X70N"
+			(at 57.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 59.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 54.61 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14217,17 +17954,108 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 57.15 91.44 0)
+		(property "Sim.Device" "R"
+			(at 52.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 57.15 91.44 0)
+		(property "Height" "0.7"
+			(at 64.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 67.31 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 69.85 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 72.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 74.93 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 76.2 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 78.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 81.28 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 83.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 50.546 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14394,8 +18222,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 182.88 95.25 180)
+		(lib_id "EPSA_lib:Condensateur 0805Y1000104JXT")
+		(at 182.88 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14403,7 +18231,7 @@
 		(dnp no)
 		(uuid "a451e9bd-02c8-4fe2-8af7-32a344ee3be0")
 		(property "Reference" "C3"
-			(at 179.07 95.25 90)
+			(at 185.928 94.742 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14411,15 +18239,45 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 179.07 99.06 90)
+			(at 186.436 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 181.9148 91.44 0)
+		(property "Footprint" "EPSA_lib:CAPC2012X130N"
+			(at 182.88 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/119d/0900766b8119d7bc.pdf"
+			(at 180.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Syfer 0805 Ceramic Chip Capacitors"
+			(at 177.8 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 185.166 116.586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14427,17 +18285,68 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 182.88 95.25 0)
+		(property "Sim.Device" "C"
+			(at 187.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 182.88 95.25 0)
+		(property "Height" "1.3"
+			(at 175.26 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Syfer"
+			(at 172.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805Y1000104JXT"
+			(at 170.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 168.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 170.18 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Condensateur"
+			(at 186.944 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14461,8 +18370,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 261.62 143.51 0)
+		(lib_name "Résistance RK73H2BLTDD2152F_7")
+		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
+		(at 262.89 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14470,7 +18380,7 @@
 		(dnp no)
 		(uuid "a6006714-35f4-44d0-a6f8-7224f5feb8f4")
 		(property "Reference" "R12"
-			(at 266.7 144.272 0)
+			(at 260.35 150.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14479,7 +18389,7 @@
 			)
 		)
 		(property "Value" "60"
-			(at 265.176 146.558 0)
+			(at 260.096 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14487,8 +18397,38 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 259.842 143.51 90)
+		(property "Footprint" "EPSA_lib:RESC3216X70N"
+			(at 262.89 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 260.35 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 257.81 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 265.43 167.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14496,17 +18436,108 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 261.62 143.51 0)
+		(property "Sim.Device" "R"
+			(at 267.97 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 261.62 143.51 0)
+		(property "Height" "0.7"
+			(at 255.27 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 252.73 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 250.19 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 247.65 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 245.11 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 243.84 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 241.3 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 238.76 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 236.22 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 269.494 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14598,7 +18629,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.24 139.7 90)
+		(at 274.32 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14607,7 +18638,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad4f0467-14c3-487f-9fa2-ef5291ba5b58")
 		(property "Reference" "#PWR032"
-			(at 275.59 139.7 0)
+			(at 274.32 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14616,16 +18647,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 273.05 139.6999 90)
+			(at 274.32 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 269.24 139.7 0)
+			(at 274.32 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14634,7 +18664,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.24 139.7 0)
+			(at 274.32 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14643,7 +18673,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.24 139.7 0)
+			(at 274.32 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14861,7 +18891,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 88.9 114.3 270)
+		(at 96.52 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14870,7 +18900,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd4be4c8-668d-4230-ba3f-ba3721fa7271")
 		(property "Reference" "#PWR023"
-			(at 85.09 114.3 0)
+			(at 96.52 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14879,16 +18909,15 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 92.71 114.2999 90)
+			(at 96.52 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 114.3 0)
+			(at 96.52 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14897,7 +18926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 114.3 0)
+			(at 96.52 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14906,7 +18935,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 88.9 114.3 0)
+			(at 96.52 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14928,7 +18957,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 93.98 0)
+		(at 128.27 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14937,7 +18966,7 @@
 		(fields_autoplaced yes)
 		(uuid "c163b20d-a775-46c7-9e1c-a0186080d182")
 		(property "Reference" "#PWR07"
-			(at 128.27 100.33 0)
+			(at 128.27 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14946,7 +18975,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 99.06 0)
+			(at 128.27 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14954,7 +18983,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 93.98 0)
+			(at 128.27 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14963,7 +18992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 93.98 0)
+			(at 128.27 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14972,7 +19001,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 93.98 0)
+			(at 128.27 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15136,8 +19165,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 265.43 139.7 270)
+		(lib_id "EPSA_lib:Condensateur 0805Y1000104JXT")
+		(at 262.89 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15145,7 +19174,7 @@
 		(dnp no)
 		(uuid "d11183f0-dd99-4250-a7e2-b085b10d1d1d")
 		(property "Reference" "C9"
-			(at 267.97 137.668 90)
+			(at 266.446 131.064 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15153,15 +19182,45 @@
 			)
 		)
 		(property "Value" "4.7n"
-			(at 268.732 141.986 90)
+			(at 272.034 131.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 261.62 140.6652 0)
+		(property "Footprint" "EPSA_lib:CAPC2012X130N"
+			(at 283.21 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/119d/0900766b8119d7bc.pdf"
+			(at 283.21 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Syfer 0805 Ceramic Chip Capacitors"
+			(at 283.21 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 288.036 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15169,17 +19228,68 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 265.43 139.7 0)
+		(property "Sim.Device" "C"
+			(at 283.21 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 265.43 139.7 0)
+		(property "Height" "1.3"
+			(at 283.21 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Syfer"
+			(at 283.21 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805Y1000104JXT"
+			(at 283.21 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 271.78 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 283.21 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Condensateur"
+			(at 269.494 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15528,16 +19638,15 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 128.27 93.98 270)
+		(at 128.27 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e1666b2e-6f20-4403-8583-10be1741b299")
 		(property "Reference" "#FLG01"
-			(at 130.175 93.98 0)
+			(at 130.175 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15546,7 +19655,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 132.08 93.98 90)
+			(at 130.556 101.346 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15555,7 +19664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 93.98 0)
+			(at 128.27 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15564,7 +19673,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 93.98 0)
+			(at 128.27 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15573,7 +19682,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 128.27 93.98 0)
+			(at 128.27 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15793,7 +19902,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 81.28 0)
+		(at 196.85 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15802,7 +19911,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5fec893-1151-463e-8516-88695ec0d098")
 		(property "Reference" "#PWR017"
-			(at 193.04 87.63 0)
+			(at 196.85 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15811,7 +19920,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 86.36 0)
+			(at 196.85 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15819,7 +19928,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 81.28 0)
+			(at 196.85 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15828,7 +19937,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 81.28 0)
+			(at 196.85 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15837,7 +19946,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 81.28 0)
+			(at 196.85 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15993,72 +20102,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 227.33 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6e5cf65-5005-4531-8dcc-76d6d670a267")
-		(property "Reference" "#PWR019"
-			(at 227.33 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 227.33 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 227.33 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e4d880f-0b82-4178-8197-e24b2b02f3c1")
-		)
-		(instances
-			(project "AMS Dongle"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EPSA_lib:2P Angle 171857-4002")
 		(at 217.17 30.48 270)
 		(unit 1)
@@ -16192,8 +20235,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 144.78 81.28 0)
+		(lib_name "Résistance RK73H2BLTDD2152F_10")
+		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
+		(at 143.51 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16201,7 +20245,7 @@
 		(dnp no)
 		(uuid "e9535cc4-4e13-4e27-957b-524b93056951")
 		(property "Reference" "R3"
-			(at 142.24 82.55 0)
+			(at 140.97 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16210,7 +20254,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 143.51 80.01 0)
+			(at 140.97 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16218,8 +20262,38 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 143.002 81.28 90)
+		(property "Footprint" "EPSA_lib:RESC3216X70N"
+			(at 143.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 146.05 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 148.59 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 140.97 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16227,17 +20301,108 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 144.78 81.28 0)
+		(property "Sim.Device" "R"
+			(at 138.43 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 144.78 81.28 0)
+		(property "Height" "0.7"
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 153.67 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 156.21 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 158.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 161.29 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 162.56 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 167.64 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 170.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 136.906 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16532,8 +20697,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 193.04 76.2 180)
+		(lib_name "Résistance RK73H2BLTDD2152F_3")
+		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
+		(at 193.04 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16541,7 +20707,7 @@
 		(dnp no)
 		(uuid "f93c83f6-2220-4a5d-8e00-2a9d8329a391")
 		(property "Reference" "R5"
-			(at 194.31 74.93 0)
+			(at 179.324 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16550,7 +20716,7 @@
 			)
 		)
 		(property "Value" "1.21k"
-			(at 194.31 77.47 0)
+			(at 190.754 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16558,8 +20724,38 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 194.818 76.2 90)
+		(property "Footprint" "EPSA_lib:RESC3216X70N"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 167.64 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 167.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 162.814 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16567,17 +20763,108 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 193.04 76.2 0)
+		(property "Sim.Device" "R"
+			(at 167.64 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 193.04 76.2 0)
+		(property "Height" "0.7"
+			(at 167.64 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 167.64 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 167.64 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 167.64 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 167.64 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 179.07 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 179.07 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 179.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 179.07 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 184.15 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16601,8 +20888,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 190.5 125.73 90)
+		(lib_id "EPSA_lib:Condensateur 0805Y1000104JXT")
+		(at 198.12 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16610,7 +20897,7 @@
 		(dnp no)
 		(uuid "fb7176cf-8d4b-4109-9ce8-dd53f35f5c7b")
 		(property "Reference" "C10"
-			(at 190.5 121.92 90)
+			(at 194.31 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16618,15 +20905,45 @@
 			)
 		)
 		(property "Value" "22p"
-			(at 190.754 119.634 90)
+			(at 190.246 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 194.31 124.7648 0)
+		(property "Footprint" "EPSA_lib:CAPC2012X130N"
+			(at 177.8 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/119d/0900766b8119d7bc.pdf"
+			(at 177.8 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Syfer 0805 Ceramic Chip Capacitors"
+			(at 177.8 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 172.974 128.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16634,17 +20951,68 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 190.5 125.73 0)
+		(property "Sim.Device" "C"
+			(at 177.8 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 190.5 125.73 0)
+		(property "Height" "1.3"
+			(at 177.8 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Syfer"
+			(at 177.8 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805Y1000104JXT"
+			(at 177.8 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 189.23 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 177.8 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Condensateur"
+			(at 191.516 129.794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
