@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "SOT95P280X145-5N"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -246,7 +246,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "3397316c-ca64-41a7-8592-fca699a4feb3")
 	)
-	(model "${EPSA}/3Dmodel/TS391ILT.stp"
+	(model "${EPSA3D}/TS391ILT.stp"
 		(offset
 			(xyz 0 0 0)
 		)

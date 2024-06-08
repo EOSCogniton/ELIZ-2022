@@ -286,15 +286,15 @@
 		(remove_unused_layers no)
 		(uuid "dd137e5d-241b-420b-bbb2-717a1a0434e2")
 	)
-	(model "THN_30-1211.stp"
+	(model "${EPSA3D}/THN_30-1211.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz -2.5 10 0.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 90)
 		)
 	)
 )

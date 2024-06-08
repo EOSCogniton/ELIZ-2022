@@ -4731,12 +4731,6 @@
 		(uuid "106b9900-6a51-49ed-a889-7b898ceb3ea4")
 	)
 	(junction
-		(at 220.98 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1762ff65-3e89-4b44-8d93-c19e200e3b7b")
-	)
-	(junction
 		(at 55.88 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4773,6 +4767,12 @@
 		(uuid "456f7c93-4007-4fef-9826-301d2a531e14")
 	)
 	(junction
+		(at 228.6 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4570fe1d-63ed-4c74-8362-e9b4b1bd1b15")
+	)
+	(junction
 		(at 191.77 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4797,6 +4797,12 @@
 		(uuid "6c480399-2442-46d1-aa12-229aba064938")
 	)
 	(junction
+		(at 220.98 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f2fc3a9-47f1-4b8d-9cb0-da5b98db448b")
+	)
+	(junction
 		(at 69.85 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4813,12 +4819,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "789a499f-8d60-465f-84dd-27e7ec0b3621")
-	)
-	(junction
-		(at 228.6 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78c19491-e0cf-4270-912b-8ccf108e1a54")
 	)
 	(junction
 		(at 52.07 78.74)
@@ -5818,6 +5818,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 124.46) (xy 228.6 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f17e322-1b8e-4d2d-873c-35aac88ebe96")
+	)
+	(wire
+		(pts
 			(xy 71.12 78.74) (xy 60.96 78.74)
 		)
 		(stroke
@@ -5858,7 +5868,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 119.38) (xy 222.25 132.08)
+			(xy 222.25 124.46) (xy 222.25 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5938,6 +5948,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 124.46) (xy 236.22 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a514ee7b-124c-469c-9e57-7df16007056d")
+	)
+	(wire
+		(pts
 			(xy 191.77 50.8) (xy 191.77 58.42)
 		)
 		(stroke
@@ -5945,6 +5965,16 @@
 			(type default)
 		)
 		(uuid "a5b0a87c-d878-483f-bceb-69ce854d1bbf")
+	)
+	(wire
+		(pts
+			(xy 220.98 116.84) (xy 236.22 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67c382b-6ac1-4ed7-a3b9-7e0948806871")
 	)
 	(wire
 		(pts
@@ -6018,26 +6048,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 116.84) (xy 231.14 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6c1816c-cc50-4cb5-a468-724e2bdb408b")
-	)
-	(wire
-		(pts
-			(xy 228.6 119.38) (xy 231.14 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8888f20-bd9f-4d56-bee3-7f5cc170fd8c")
-	)
-	(wire
-		(pts
 			(xy 142.24 166.37) (xy 142.24 167.64)
 		)
 		(stroke
@@ -6088,7 +6098,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 119.38) (xy 228.6 119.38)
+			(xy 222.25 124.46) (xy 228.6 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6650,12 +6660,12 @@
 	)
 	(text "AMS V+\n"
 		(exclude_from_sim no)
-		(at 235.458 128.016 90)
+		(at 240.538 122.428 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "8e2ef122-2678-4937-b30f-2dd78f2e5140")
 	)
@@ -6672,12 +6682,12 @@
 	)
 	(text "IMD V+\n"
 		(exclude_from_sim no)
-		(at 235.458 115.57 90)
+		(at 240.538 119.634 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "99762fce-8d4d-4633-91e4-d04dd3f3dc46")
 	)
@@ -12251,7 +12261,7 @@
 	)
 	(symbol
 		(lib_id "EPSA_Lib:2P Droit 2-11-2022")
-		(at 241.3 119.38 0)
+		(at 246.38 116.84 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12260,7 +12270,7 @@
 		(dnp no)
 		(uuid "67047a27-417e-4f82-b5ba-0cd96998b3e3")
 		(property "Reference" "J6"
-			(at 241.3 116.84 0)
+			(at 246.38 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12269,7 +12279,7 @@
 			)
 		)
 		(property "Value" "2P Droit 2-11-2022"
-			(at 247.65 127 0)
+			(at 252.73 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12279,7 +12289,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:MOLEX_22-11-2022"
-			(at 247.65 116.84 0)
+			(at 252.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12289,7 +12299,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112022?display=pdf"
-			(at 247.65 119.38 0)
+			(at 252.73 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12299,7 +12309,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 241.3 119.38 0)
+			(at 246.38 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12308,7 +12318,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2"
-			(at 241.3 119.38 0)
+			(at 246.38 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12317,7 +12327,7 @@
 			)
 		)
 		(property "Sim.Device" "SPICE"
-			(at 247.65 124.46 0)
+			(at 252.73 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12327,7 +12337,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"J\" model=\"22-11-2022\" lib=\"\""
-			(at 241.3 119.38 0)
+			(at 246.38 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12336,7 +12346,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "10.66mm"
-			(at 247.65 111.76 0)
+			(at 252.73 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12346,7 +12356,7 @@
 			)
 		)
 		(property "PARTREV" "BD8"
-			(at 247.65 121.92 0)
+			(at 252.73 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12356,7 +12366,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 247.65 119.38 0)
+			(at 252.73 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12366,7 +12376,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 247.65 114.3 0)
+			(at 252.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12376,7 +12386,7 @@
 			)
 		)
 		(property "Render Name" "2P Droit"
-			(at 241.3 123.19 0)
+			(at 246.38 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12385,7 +12395,7 @@
 			)
 		)
 		(property "Height" "10.66mm"
-			(at 247.65 114.3 0)
+			(at 252.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12395,7 +12405,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 247.65 121.92 0)
+			(at 252.73 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12405,7 +12415,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "22-11-2022"
-			(at 247.65 110.49 0)
+			(at 252.73 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12415,7 +12425,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-22-11-2022"
-			(at 247.65 107.95 0)
+			(at 252.73 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12425,7 +12435,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2022?qs=mrPiglD9aYLq1NGrfjXTJg%3D%3D"
-			(at 247.65 113.03 0)
+			(at 252.73 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14410,6 +14420,73 @@
 			(project "AMS_IMD_Reset"
 				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
 					(reference "#GND020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 236.22 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88939d2c-f154-4440-a0f3-107b996bf235")
+		(property "Reference" "#GND037"
+			(at 233.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc03ab47-e323-48d7-9862-2a49e46b3c76")
+		)
+		(instances
+			(project "AMS_IMD_Reset"
+				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
+					(reference "#GND037")
 					(unit 1)
 				)
 			)
@@ -16679,6 +16756,206 @@
 			(project "AMS_IMD_Reset"
 				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_Lib:2P Droit 2-11-2022")
+		(at 246.38 127 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad230d2b-3032-47f5-ad46-6e604425a7e8")
+		(property "Reference" "J8"
+			(at 246.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "2P Droit 2-11-2022"
+			(at 252.73 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:MOLEX_22-11-2022"
+			(at 252.73 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112022?display=pdf"
+			(at 252.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 246.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2"
+			(at 246.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 252.73 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"J\" model=\"22-11-2022\" lib=\"\""
+			(at 246.38 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "10.66mm"
+			(at 252.73 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "BD8"
+			(at 252.73 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 252.73 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Molex"
+			(at 252.73 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "2P Droit"
+			(at 246.38 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.66mm"
+			(at 252.73 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 252.73 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "22-11-2022"
+			(at 252.73 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-22-11-2022"
+			(at 252.73 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2022?qs=mrPiglD9aYLq1NGrfjXTJg%3D%3D"
+			(at 252.73 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "195f6ce2-db1d-4fea-82ed-883607d59c8f")
+		)
+		(pin "2"
+			(uuid "73f31ccb-b72b-421b-b982-50ea36af96c7")
+		)
+		(instances
+			(project "AMS_IMD_Reset"
+				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -19498,6 +19775,73 @@
 			(project "AMS_IMD_Reset"
 				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 236.22 114.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4fd400e-29f6-4a0e-a023-57fb8fd57799")
+		(property "Reference" "#GND036"
+			(at 233.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 236.22 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 236.22 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2346e320-72dc-47f2-8435-6aaea2fdfdda")
+		)
+		(instances
+			(project "AMS_IMD_Reset"
+				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
+					(reference "#GND036")
 					(unit 1)
 				)
 			)

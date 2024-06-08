@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "RESC3216X70N"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -178,7 +178,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "2638ed5f-08b3-4675-863c-09f946aabfca")
 	)
-	(model "${EPSA}/3Dmodel/RK73H2BLTDD2152F.stp"
+	(model "${EPSA3D}/RK73H2BLTDD2152F.stp"
 		(offset
 			(xyz 0 0 0)
 		)

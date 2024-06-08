@@ -888,15 +888,15 @@
 		(remove_unused_layers no)
 		(uuid "df7280eb-3e20-464e-9600-317f93144d4c")
 	)
-	(model "USB4720-03-A.stp"
+	(model "${EPSA3D}/USB4720-03-A.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 15 -5 0.4)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 90 180 180)
 		)
 	)
 )

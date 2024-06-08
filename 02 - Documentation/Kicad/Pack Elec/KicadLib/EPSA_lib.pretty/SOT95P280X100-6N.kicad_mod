@@ -28,7 +28,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "SOT95P280X100-6N"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -252,7 +252,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "fc0db5d6-ac19-483c-8edf-1666e170f8ec")
 	)
-	(model "${EPSA}/3Dmodel/LTC6255IS6#TRMPBF.stp"
+	(model "${EPSA3D}/LTC6255IS6#TRMPBF.stp"
 		(offset
 			(xyz 0 0 0)
 		)

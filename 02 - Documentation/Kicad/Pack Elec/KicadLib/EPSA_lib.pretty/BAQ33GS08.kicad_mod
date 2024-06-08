@@ -1,36 +1,254 @@
-(module "BAQ33GS08" (layer F.Cu)
-  (descr "MiniMELF (SOD-80)")
-  (tags "Zener Diode")
-  (attr smd)
-  (fp_text reference Z** (at 0.000 -0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0.000 -0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "BAQ33GS08" (at 0.000 -0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.75 0.75) (end 1.75 0.75) (layer F.Fab) (width 0.2))
-  (fp_line (start 1.75 0.75) (end 1.75 -0.75) (layer F.Fab) (width 0.2))
-  (fp_line (start 1.75 -0.75) (end -1.75 -0.75) (layer F.Fab) (width 0.2))
-  (fp_line (start -1.75 -0.75) (end -1.75 0.75) (layer F.Fab) (width 0.2))
-  (fp_line (start -3.5 -2) (end 3.5 -2) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 3.5 -2) (end 3.5 2) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 3.5 2) (end -3.5 2) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -3.5 2) (end -3.5 -2) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -0.75 -0.75) (end 0.75 -0.75) (layer F.SilkS) (width 0.1))
-  (fp_line (start -0.75 0.75) (end 0.75 0.75) (layer F.SilkS) (width 0.1))
-  (fp_line (start -1.5 -0.75) (end -1.5 0.75) (layer F.Fab) (width 0.1))
-  (fp_line (start -2.938 -0) (end -2.938 -0) (layer F.SilkS) (width 0.125))
-  (fp_line (start -3.063 -0) (end -3.063 -0) (layer F.SilkS) (width 0.125))
-  (fp_arc (start -3.0005 0.0005) (end -2.938 -0) (angle -180) (layer F.SilkS) (width 0.125))
-  (fp_arc (start -3.0005 -0.0005) (end -3.063 -0) (angle -180) (layer F.SilkS) (width 0.125))
-  (pad 1 smd rect (at -1.875 -0 0) (size 1.250 2.000) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.875 -0 0) (size 1.250 2.000) (layers F.Cu F.Paste F.Mask))
-  (model TZM5224B-GS08.stp
-    (at (xyz 0 0 0.031496063461454))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "BAQ33GS08"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "MiniMELF (SOD-80)")
+	(tags "Zener Diode")
+	(property "Reference" "Z**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "08a0c0d4-5d4d-40ab-bd5d-5692d5aef185")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "BAQ33GS08"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0826e6a3-51d6-4c3a-84b3-9f3234282d5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" "BAQ33GS08"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64d427f5-00ba-4949-af8d-3ae7e6e9d63b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "682277be-e596-44e5-ac11-30416eeb551e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6704217c-c6b5-42f9-8bf4-6309f6c55be5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.063 0)
+		(end -3.063 0)
+		(stroke
+			(width 0.125)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "569e5c3a-ead9-4075-a425-50f05648bc6c")
+	)
+	(fp_line
+		(start -2.938 0)
+		(end -2.938 0)
+		(stroke
+			(width 0.125)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "734940e6-3ba7-41db-86a4-bf0c97246a7f")
+	)
+	(fp_line
+		(start -0.75 -0.75)
+		(end 0.75 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c22f6bc-a907-4b5f-ad26-2a4f90fb69f9")
+	)
+	(fp_line
+		(start -0.75 0.75)
+		(end 0.75 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbb647ad-6f23-488e-9bb3-d24cbc0854bb")
+	)
+	(fp_arc
+		(start -3.063 0.001)
+		(mid -3.001 -0.062)
+		(end -2.938 0)
+		(stroke
+			(width 0.125)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "743f3e5b-fc26-4984-98da-73aee9d50e9d")
+	)
+	(fp_arc
+		(start -2.938 -0.001)
+		(mid -3 0.062)
+		(end -3.063 0)
+		(stroke
+			(width 0.125)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6d83ef66-75b1-42c0-8073-f6a9c6b607c4")
+	)
+	(fp_line
+		(start -3.5 -2)
+		(end 3.5 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5a94ee47-624f-43ae-be5c-fb8b6086fcca")
+	)
+	(fp_line
+		(start -3.5 2)
+		(end -3.5 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "86ccf3eb-1660-4799-81a2-0935dc16c4ab")
+	)
+	(fp_line
+		(start 3.5 -2)
+		(end 3.5 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5aa760bf-5b87-49f0-aef3-a4d2066db738")
+	)
+	(fp_line
+		(start 3.5 2)
+		(end -3.5 2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "02495d43-2a1d-4174-b1da-c5500282752a")
+	)
+	(fp_line
+		(start -1.75 -0.75)
+		(end -1.75 0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "24547c53-0c99-4f91-a2e7-d86efaa019e8")
+	)
+	(fp_line
+		(start -1.75 0.75)
+		(end 1.75 0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7a25388-c931-4b05-8058-f98da04b4bb2")
+	)
+	(fp_line
+		(start -1.5 -0.75)
+		(end -1.5 0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5801ef9f-e234-4eaf-aa8d-1632366dff1b")
+	)
+	(fp_line
+		(start 1.75 -0.75)
+		(end -1.75 -0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0814b5f-b8e0-4772-990f-ae020f218449")
+	)
+	(fp_line
+		(start 1.75 0.75)
+		(end 1.75 -0.75)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d007d292-dc32-4aa9-9242-ae348c433aae")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1eb72e66-b54d-423b-bd59-8784bdcc8cb0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.875 0)
+		(size 1.25 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "307eda6d-ac33-451f-9fa0-7c07a7e92236")
+	)
+	(pad "2" smd rect
+		(at 1.875 0)
+		(size 1.25 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b9e4358f-63b3-41c7-af89-2aa79b3dad31")
+	)
+	(model "${EPSA3D}/TZM5224B-GS08.stp"
+		(offset
+			(xyz 0 0 0.7999999999)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

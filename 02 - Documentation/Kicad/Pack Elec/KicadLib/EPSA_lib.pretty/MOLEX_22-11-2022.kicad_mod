@@ -25,7 +25,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "MOLEX_22-11-2022"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -220,7 +220,7 @@
 		(remove_unused_layers no)
 		(uuid "2c4bc1d0-cd3f-4dea-953e-f13aaf836b17")
 	)
-	(model "${EPSA}/3Dmodel/22-11-2022.step"
+	(model "${EPSA3D}/22-11-2022.step"
 		(offset
 			(xyz 1.25 0 1.5)
 		)
