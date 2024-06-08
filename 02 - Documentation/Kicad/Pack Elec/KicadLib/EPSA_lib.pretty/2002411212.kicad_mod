@@ -313,4 +313,15 @@
 		(remove_unused_layers no)
 		(uuid "4ef7f29f-cd0d-4be7-baa2-d14a87b3a777")
 	)
+	(model "${EPSA3D}/200241-1212.stp"
+		(offset
+			(xyz -2.9 -15.8 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

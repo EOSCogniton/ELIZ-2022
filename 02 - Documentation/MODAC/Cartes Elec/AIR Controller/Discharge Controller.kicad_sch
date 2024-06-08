@@ -141,314 +141,6 @@
 				)
 			)
 		)
-		(symbol "EPSA_Lib:Comparator_Dual"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CP"
-				(at 7.62 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Comparator_Dual"
-				(at 10.16 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
-				(at -1.27 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/lmv339"
-				(at 16.51 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual comparator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at -2.54 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "LMV393IPWR"
-				(at -2.54 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "595-LMV393IPWR"
-				(at -1.27 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Sim.Library" "${SP_BASIC}\\Comp_lm393lv.lib"
-				(at -34.29 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Name" "LM393LV_Dual"
-				(at -43.18 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "SUBCKT"
-				(at -46.99 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=OUT1 2=IN1- 3=IN1+ 4=GND 5=IN2+ 6=IN2- 7=OUT2 8=V+"
-				(at -17.78 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SSOP*2.95x2.8mm*P0.65mm* TSSOP*3x3mm*P0.65mm* VSSOP*P0.5mm* TO?99*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Comparator_Dual_1_1"
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -1.27 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 1.27 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Comparator_Dual_2_1"
-				(polyline
-					(pts
-						(xy 0 3.81) (xy 7.62 0) (xy 0 -3.81) (xy 0 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -2.54 1.27 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -1.27 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Comparator_Dual_3_1"
-				(pin power_in line
-					(at 0 -6.35 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 6.35 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "EPSA_Lib:NMOS SQ2348ES-T1_GE3"
 			(pin_names
 				(offset 0.762)
@@ -778,6 +470,214 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+		)
+		(symbol "EPSA_Lib:Opamp"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "${SIM.PARAMS}"
+				(at 18.034 7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering"
+				(at 45.466 0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9064-q1"
+				(at 37.846 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-"
+				(at 52.832 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 17.78 5.588 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TLV9061QDCKRQ1 "
+				(at 18.288 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" " 595-TLV9061QDCKRQ1 "
+				(at 17.272 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SC?70*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Opamp_0_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -2.54 3.81) (xy -2.54 -3.81) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Opamp_1_1"
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 6.35 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -1542,13 +1442,13 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U1"
-				(at 12.065 -3.81 90)
+			(property "Reference" "U"
+				(at 20.32 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left)
 				)
 			)
 			(property "Value" "Alim LP TSR_0.5-2450"
@@ -1592,7 +1492,7 @@
 				)
 			)
 			(property "Sim.Pins" "1=1 2=2 3=3"
-				(at -0.254 -1.778 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1611,7 +1511,7 @@
 				)
 			)
 			(property "Sim.Params" "type=\"R\" model=\"Alim LP TSR_0.5-2450\" lib=\"\""
-				(at -0.762 -4.064 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1709,16 +1609,43 @@
 					(hide yes)
 				)
 			)
-			(property "Render Name" "Alim LP"
-				(at 9.525 -3.81 90)
+			(property "Sim.Enable" "0"
+				(at 21.59 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "Alim LP"
+				(at 11.43 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "Alim LP TSR_0.5-2450_0_0"
+				(pin passive line
+					(at -1.27 5.08 0)
+					(length 5.08)
+					(name "+VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at -1.27 2.54 0)
 					(length 5.08)
@@ -1730,6 +1657,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 0 0)
+					(length 5.08)
+					(name "+VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1752,11 +1697,157 @@
 					)
 				)
 			)
-			(symbol "Alim LP TSR_0.5-2450_1_0"
-				(pin power_in line
-					(at -1.27 5.08 0)
-					(length 5.08)
-					(name "+VIN"
+		)
+		(symbol "EPSA_lib:Comparator_Dual"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CP"
+				(at 7.62 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Comparator_Dual"
+				(at 10.16 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
+				(at -1.27 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/lmv339"
+				(at 16.51 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual comparator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at -2.54 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "LMV393IPWR"
+				(at -2.54 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-LMV393IPWR"
+				(at -1.27 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Library" "${SP_BASIC}\\Comp_lm393lv.lib"
+				(at -34.29 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Name" "LM393LV_Dual"
+				(at -43.18 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "SUBCKT"
+				(at -46.99 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=OUT1 2=IN1- 3=IN1+ 4=GND 5=IN2+ 6=IN2- 7=OUT2 8=V+"
+				(at -17.78 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SSOP*2.95x2.8mm*P0.65mm* TSSOP*3x3mm*P0.65mm* VSSOP*P0.5mm* TO?99*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Comparator_Dual_1_1"
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 -3.81) (xy 7.62 0) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1771,10 +1862,28 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -1.27 0 0)
-					(length 5.08)
-					(name "+VOUT"
+				(pin input line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 1.27 0)
+					(length 2.54)
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1782,6 +1891,112 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Comparator_Dual_2_1"
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 7.62 0) (xy 0 -3.81) (xy 0 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -2.54 1.27 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Comparator_Dual_3_1"
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 6.35 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2292,23 +2507,84 @@
 				)
 			)
 		)
-		(symbol "EPSA_lib:Opamp"
+		(symbol "EPSA_lib:Gate NAND SN74AHCT1G00DBVR"
 			(pin_names
-				(offset 0.254)
+				(offset 0.762)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U2"
-				(at 13.97 4.1909 0)
+			(property "Reference" "G"
+				(at 2.54 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "${SIM.PARAMS}"
-				(at 13.97 1.6509 0)
+			(property "Value" "Gate NAND SN74AHCT1G00DBVR"
+				(at 35.56 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "EPSA_lib:SOT95P280X145-5N"
+				(at 35.56 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahct1g00"
+				(at 35.56 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single 2-Input Positive-NAND Gate"
+				(at 35.56 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "4=1 1=2 2=3 5=4 3=5"
+				(at 55.88 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "SPICE"
+				(at 39.37 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Params" "type=\"X\" model=\"SN74AHCT1G00\" lib=\"${EPSA_lib}\\SpiceModel\\NAND_SN74AHCT1G00.lib\""
+				(at 78.74 19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2316,35 +2592,18 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering"
-				(at 35.56 -15.24 0)
+			(property "Height" "1.45"
+				(at 35.56 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9064-q1"
-				(at 29.21 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify left)
 					(hide yes)
 				)
 			)
 			(property "Manufacturer_Name" "Texas Instruments"
-				(at 10.16 -10.16 0)
+				(at 35.56 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2353,8 +2612,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "TLV9061QDCKRQ1 "
-				(at 8.89 -21.59 0)
+			(property "Manufacturer_Part_Number" "SN74AHCT1G00DBVR"
+				(at 35.56 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2363,8 +2622,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" " 595-TLV9061QDCKRQ1 "
-				(at 8.89 -19.05 0)
+			(property "Mouser Part Number" "595-SN74AHCT1G00DBVR"
+				(at 35.56 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2373,43 +2632,73 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G00DBVR?qs=w32V8uFkMxnwwXcMH%2F61Dg%3D%3D"
+				(at 35.56 -13.97 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*SC?70*"
-				(at 0 0 0)
+			(property "Arrow Part Number" "SN74AHCT1G00DBVR"
+				(at 35.56 -16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(symbol "Opamp_0_1"
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahct1g00dbvr/texas-instruments"
+				(at 35.56 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "Gate NAND"
+				(at -2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Gate NAND SN74AHCT1G00DBVR_1_1"
 				(polyline
 					(pts
-						(xy 5.08 0) (xy -2.54 3.81) (xy -2.54 -3.81) (xy 5.08 0)
+						(xy 5.08 -2.54) (xy 0 -2.54) (xy 0 2.54) (xy 5.08 2.54)
 					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-			)
-			(symbol "Opamp_1_1"
+				(arc
+					(start 5.1025 -2.54)
+					(mid 7.6201 0)
+					(end 5.1025 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin input line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "+"
+					(at -3.81 1.27 0)
+					(length 3.81)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2425,9 +2714,9 @@
 					)
 				)
 				(pin input line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "-"
+					(at -3.81 -1.27 0)
+					(length 3.81)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2442,10 +2731,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin power_in line
+					(at 1.27 -5.08 90)
 					(length 2.54)
-					(name "~"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2460,13 +2749,13 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 6.35 270)
+				(pin output inverted
+					(at 11.43 0 180)
 					(length 3.81)
-					(name "V+"
+					(name "~"
 						(effects
 							(font
-								(size 1 1)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2479,12 +2768,12 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -6.35 90)
-					(length 3.81)
-					(name "V-"
+					(at 5.08 5.08 270)
+					(length 2.54)
+					(name "VCC"
 						(effects
 							(font
-								(size 1 1)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -4988,7 +5277,7 @@
 		(uuid "fadb61eb-b310-44f6-93c2-c05631ef0b2d")
 	)
 	(rectangle
-		(start 66.04 48.26)
+		(start 64.516 48.26)
 		(end 110.49 66.04)
 		(stroke
 			(width 0)
@@ -5089,7 +5378,7 @@
 		)
 		(uuid "a528cf27-ea57-4183-94bb-faf97563d98a")
 	)
-	(text "Controlling a NO Relay"
+	(text "Controlling a NC Relay"
 		(exclude_from_sim no)
 		(at 245.872 106.172 0)
 		(effects
@@ -5098,6 +5387,17 @@
 			)
 		)
 		(uuid "af33612a-add9-47c4-9274-876027dd3249")
+	)
+	(label "SC in"
+		(at 82.55 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "18ece836-badf-4665-a38c-82e09dd9c7ba")
 	)
 	(label "Relay_Closed"
 		(at 88.9 90.17 180)
@@ -5198,7 +5498,7 @@
 		)
 		(uuid "593c51c5-d7b7-4a04-bb00-f75e7e553b37")
 	)
-	(label "Raw_Relay_On"
+	(label "Raw_Relay_Closed"
 		(at 48.26 166.37 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5230,6 +5530,17 @@
 			(justify right bottom)
 		)
 		(uuid "918b112f-fa96-4050-b54b-73deb5d05cd0")
+	)
+	(label "Raw_Relay_Closed"
+		(at 82.55 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b82369be-0b8f-409a-a083-de07c01227a8")
 	)
 	(label "Raw_Relay_Closed"
 		(at 43.18 93.98 180)
@@ -5264,17 +5575,6 @@
 		)
 		(uuid "db1e523f-b323-45cd-84b6-face1ebdc4d5")
 	)
-	(label "SC in"
-		(at 82.55 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ec4c32c5-f5d9-4985-94cc-f56e27e4aed6")
-	)
 	(label "SC out"
 		(at 254 101.6 0)
 		(fields_autoplaced yes)
@@ -5296,17 +5596,6 @@
 			(justify left bottom)
 		)
 		(uuid "fd98713e-a094-4281-b42a-33d65d84031b")
-	)
-	(label "Raw_Relay_On"
-		(at 82.55 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ffdf7a1b-8eb1-4db4-914c-fbac8e5349d7")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5372,7 +5661,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#GND02")
 					(unit 1)
@@ -5438,7 +5727,7 @@
 			(uuid "6a7dd5fd-6fcb-4113-9685-c274e96b3a52")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#GND010")
 					(unit 1)
@@ -5505,7 +5794,7 @@
 			(uuid "95ce0b7b-db91-429a-8ecf-bb77ec830d88")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#PWR017")
 					(unit 1)
@@ -5577,197 +5866,9 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#GND08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EPSA_lib:Gate AND SN74AHCT1G08DBVR")
-		(at 156.21 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "086cd5cd-eaa7-4da8-93ba-a3ce81cd2574")
-		(property "Reference" "G2"
-			(at 160.02 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Gate AND SN74AHCT1G08DBVR"
-			(at 190.5 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "EPSA_lib:SOT95P280X145-5N"
-			(at 190.5 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-6/sf-000128638.pdf"
-			(at 190.5 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "SN74AHCT1G08DBVR, Logic Gate 2 Input AND, AHCT, 8mA 5V 5-Pin SOT-23"
-			(at 190.5 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "4=1 1=2 2=3 5=4 3=5"
-			(at 200.66 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SPICE"
-			(at 193.04 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "type=\"X\" model=\"SN74AHC1G08\" lib=\"${EPSA_lib}\\SpiceModel\\AND_SN74AHC1G08.lib\""
-			(at 231.14 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 190.5 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 190.5 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SN74AHCT1G08DBVR"
-			(at 190.5 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-SN74AHCT1G08DBVR"
-			(at 190.5 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G08DBVR?qs=8Pd2FuFSoMGY9AK%2Ftqwbcw%3D%3D"
-			(at 190.5 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "SN74AHCT1G08DBVR"
-			(at 190.5 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahct1g08dbvr/texas-instruments?region=nac"
-			(at 190.5 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Render Name" "Gate AND"
-			(at 153.67 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0fc41ba2-2266-4298-8792-059a58a4bd4b")
-		)
-		(pin "5"
-			(uuid "feaf7d1e-39e2-4bf7-8309-a3cb3ff45834")
-		)
-		(pin "4"
-			(uuid "ea7b1721-c8ce-4b27-9c4f-d1fa7c50e6cf")
-		)
-		(pin "3"
-			(uuid "0772c0bf-e0f1-4266-abfa-fa414c23853b")
-		)
-		(pin "2"
-			(uuid "364beb58-80e2-473b-8bd8-67c4a405f316")
-		)
-		(instances
-			(project "AIR Controller"
-				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
-					(reference "G2")
 					(unit 1)
 				)
 			)
@@ -5832,7 +5933,7 @@
 			(uuid "e19da4b2-31b0-431c-968b-856421236d22")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#GND012")
 					(unit 1)
@@ -5841,7 +5942,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EPSA_Lib:Comparator_Dual")
+		(lib_id "EPSA_lib:Comparator_Dual")
 		(at 91.44 102.87 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -5990,7 +6091,7 @@
 					(unit 2)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "U3")
 					(unit 2)
@@ -6057,7 +6158,7 @@
 			(uuid "9e8540c7-6a74-459c-832b-2aed0f3d8d7a")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#PWR04")
 					(unit 1)
@@ -6267,7 +6368,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "R1")
 					(unit 1)
@@ -6339,7 +6440,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#PWR03")
 					(unit 1)
@@ -6545,7 +6646,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "R7")
 					(unit 1)
@@ -6751,7 +6852,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "R5")
 					(unit 1)
@@ -6817,7 +6918,7 @@
 			(uuid "17d58a01-2c3a-4e66-ae5a-15ffcfca1872")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#GND09")
 					(unit 1)
@@ -6921,7 +7022,7 @@
 			(uuid "4de11810-ee40-41e9-9f50-5f24d75e7124")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "V1")
 					(unit 1)
@@ -6988,7 +7089,7 @@
 			(uuid "a260ce17-8e60-4ae4-ac28-287ba916e055")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#PWR09")
 					(unit 1)
@@ -7055,7 +7156,7 @@
 			(uuid "ace75eef-61f8-41e9-87ae-a6ce77993e19")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#PWR02")
 					(unit 1)
@@ -7126,7 +7227,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#PWR013")
 					(unit 1)
@@ -7193,7 +7294,7 @@
 			(uuid "41224966-69fd-4d11-86e6-ccae63100499")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#PWR01")
 					(unit 1)
@@ -7265,7 +7366,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#PWR012")
 					(unit 1)
@@ -7337,7 +7438,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#PWR07")
 					(unit 1)
@@ -7487,7 +7588,7 @@
 			(uuid "3559eef0-7be8-40d9-b534-0a5fe7168969")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "C5")
 					(unit 1)
@@ -7553,7 +7654,7 @@
 			(uuid "6c40bf8a-c759-4134-bea0-83065ed4873d")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#FLG04")
 					(unit 1)
@@ -7626,7 +7727,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#GND06")
 					(unit 1)
@@ -7776,7 +7877,7 @@
 			(uuid "2643ff03-75b1-499c-87e8-775fbc441738")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "C3")
 					(unit 1)
@@ -7848,7 +7949,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#GND07")
 					(unit 1)
@@ -7978,7 +8079,7 @@
 			(uuid "dd8abad6-892b-42bf-b53b-dfecfa54bdb5")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "K2")
 					(unit 1)
@@ -8140,7 +8241,7 @@
 			(uuid "bd268dcd-5db7-4b09-9d56-ac5e565dc53d")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "Q1")
 					(unit 1)
@@ -8149,7 +8250,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EPSA_lib:Opamp")
+		(lib_id "EPSA_Lib:Opamp")
 		(at 48.26 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8159,7 +8260,7 @@
 		(fields_autoplaced yes)
 		(uuid "716d16bb-18fa-4e91-96c7-5001a7534022")
 		(property "Reference" "U5"
-			(at 62.23 91.0591 0)
+			(at 55.88 93.599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8176,7 +8277,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5_Handsoldering"
-			(at 83.82 110.49 0)
+			(at 93.726 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8185,7 +8286,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tlv9064-q1"
-			(at 77.47 107.95 0)
+			(at 86.106 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8193,8 +8294,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 48.26 95.25 0)
+		(property "Description" "Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-"
+			(at 101.092 84.836 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8203,7 +8304,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 58.42 105.41 0)
+			(at 66.04 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8213,7 +8314,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TLV9061QDCKRQ1 "
-			(at 57.15 116.84 0)
+			(at 66.548 98.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8223,7 +8324,7 @@
 			)
 		)
 		(property "Mouser Part Number" " 595-TLV9061QDCKRQ1 "
-			(at 57.15 114.3 0)
+			(at 65.532 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8254,7 +8355,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "U2")
 					(unit 1)
@@ -8263,7 +8364,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EPSA_Lib:Comparator_Dual")
+		(lib_id "EPSA_lib:Comparator_Dual")
 		(at 91.44 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8412,7 +8513,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "U3")
 					(unit 1)
@@ -8485,7 +8586,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "C1")
 					(unit 1)
@@ -8673,7 +8774,7 @@
 			(uuid "e78ab2d4-3089-4da6-9a90-48d565588459")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "G1")
 					(unit 1)
@@ -8808,7 +8909,7 @@
 			(uuid "f79044b6-98d5-4ffa-9090-97ba6c5f876d")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "J1")
 					(unit 1)
@@ -8880,7 +8981,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#PWR014")
 					(unit 1)
@@ -8952,7 +9053,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#GND01")
 					(unit 1)
@@ -9158,7 +9259,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "R6")
 					(unit 1)
@@ -9231,7 +9332,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#PWR05")
 					(unit 1)
@@ -9381,7 +9482,7 @@
 			(uuid "34c76217-4296-41b7-9c04-1ef8ae4bd6e7")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "C2")
 					(unit 1)
@@ -9453,7 +9554,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#GND03")
 					(unit 1)
@@ -9462,7 +9563,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EPSA_Lib:Comparator_Dual")
+		(lib_id "EPSA_lib:Comparator_Dual")
 		(at 99.06 111.76 90)
 		(unit 3)
 		(exclude_from_sim no)
@@ -9613,7 +9714,7 @@
 					(unit 3)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "U3")
 					(unit 3)
@@ -9823,7 +9924,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "R3")
 					(unit 1)
@@ -9889,9 +9990,218 @@
 			(uuid "5ce30845-3c43-427e-a357-9868417651e1")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#GND011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:Gate NAND SN74AHCT1G00DBVR")
+		(at 156.21 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7c18b5f-1dba-44f1-887c-699fa7edd016")
+		(property "Reference" "PorteNAND1"
+			(at 168.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Gate NAND SN74AHCT1G00DBVR"
+			(at 191.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P280X145-5N"
+			(at 191.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahct1g00"
+			(at 191.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single 2-Input Positive-NAND Gate"
+			(at 191.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "4=1 1=2 2=3 5=4 3=5"
+			(at 212.09 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 195.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"SN74AHCT1G00\" lib=\"${EPSA_lib}\\SpiceModel\\NAND_SN74AHCT1G00.lib\""
+			(at 156.21 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 191.77 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 191.77 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHCT1G00DBVR"
+			(at 191.77 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AHCT1G00DBVR"
+			(at 191.77 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G00DBVR?qs=w32V8uFkMxnwwXcMH%2F61Dg%3D%3D"
+			(at 191.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SN74AHCT1G00DBVR"
+			(at 191.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahct1g00dbvr/texas-instruments"
+			(at 191.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 177.8 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 177.8 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Gate NAND"
+			(at 153.67 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40c99e7c-0c3f-4bd7-9a12-0e463fd29e3b")
+		)
+		(pin "2"
+			(uuid "50777c34-7c84-452d-8960-14d8222a9a71")
+		)
+		(pin "3"
+			(uuid "17d59ecf-ed35-4505-b33b-04de8e6ccbb0")
+		)
+		(pin "4"
+			(uuid "f40d0927-4085-4105-9b24-53d1a2be4470")
+		)
+		(pin "5"
+			(uuid "b205d7d5-5912-4b88-bf53-521d9798510b")
+		)
+		(instances
+			(project "Discharge Controller"
+				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
+					(reference "PorteNAND1")
 					(unit 1)
 				)
 			)
@@ -9957,7 +10267,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3"
-			(at 179.578 45.974 0)
+			(at 177.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9976,7 +10286,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"R\" model=\"Alim LP TSR_0.5-2450\" lib=\"\""
-			(at 181.864 46.482 0)
+			(at 177.8 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10099,7 +10409,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "U1")
 					(unit 1)
@@ -10165,7 +10475,7 @@
 			(uuid "3ca73aac-b0c5-4464-a484-93252414f605")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#FLG01")
 					(unit 1)
@@ -10232,7 +10542,7 @@
 			(uuid "f3383dda-aceb-453f-88d5-9889375e9037")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#PWR015")
 					(unit 1)
@@ -10382,7 +10692,7 @@
 			(uuid "08204b26-7a2d-4d81-acc5-31de3b7e580e")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "C4")
 					(unit 1)
@@ -10449,7 +10759,7 @@
 			(uuid "837c78fc-a8eb-4da2-a2cf-6827d017788f")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#PWR08")
 					(unit 1)
@@ -10521,7 +10831,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#PWR06")
 					(unit 1)
@@ -10588,7 +10898,7 @@
 			(uuid "8b2bca7b-850e-485b-bac0-31643e047ed1")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#PWR016")
 					(unit 1)
@@ -10660,7 +10970,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#GND05")
 					(unit 1)
@@ -10732,7 +11042,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#GND04")
 					(unit 1)
@@ -10888,7 +11198,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "J3")
 					(unit 1)
@@ -11001,7 +11311,7 @@
 			(uuid "4cea197c-d117-489f-b8ab-15fcf3df9d48")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "V2")
 					(unit 1)
@@ -11114,7 +11424,7 @@
 			(uuid "4e284f50-1ad3-4a80-bd85-30124090450f")
 		)
 		(instances
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "V3")
 					(unit 1)
@@ -11186,7 +11496,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#PWR011")
 					(unit 1)
@@ -11392,7 +11702,7 @@
 					(unit 1)
 				)
 			)
-			(project "AIR Controller"
+			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "R2")
 					(unit 1)
