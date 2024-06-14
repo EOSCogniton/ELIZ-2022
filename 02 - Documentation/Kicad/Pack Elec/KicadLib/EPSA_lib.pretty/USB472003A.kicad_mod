@@ -842,7 +842,7 @@
 	)
 	(pad "MH1" thru_hole circle
 		(at -4.1 -4.05)
-		(size 0.8 0.8)
+		(size 0.6 0.6)
 		(drill 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -850,7 +850,7 @@
 	)
 	(pad "MH2" thru_hole circle
 		(at 4.1 -4.05)
-		(size 0.8 0.8)
+		(size 0.6 0.6)
 		(drill 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -858,7 +858,7 @@
 	)
 	(pad "MH3" thru_hole circle
 		(at -5.65 -3.75)
-		(size 2.1 2.1)
+		(size 1.9 1.9)
 		(drill 1.72)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -866,7 +866,7 @@
 	)
 	(pad "MH4" thru_hole circle
 		(at 5.65 -3.75)
-		(size 2.1 2.1)
+		(size 1.9 1.9)
 		(drill 1.72)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)

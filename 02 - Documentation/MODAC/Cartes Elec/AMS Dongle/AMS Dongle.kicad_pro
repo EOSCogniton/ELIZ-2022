@@ -59,7 +59,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "unconnected_items|108370000|46230000|61dcb4d5-65d6-4c15-a076-74597f3f586c|7d87a509-c008-44c1-a03d-528ddb19ed3d",
+        "unconnected_items|108370000|48770000|81b9e1ca-635b-41f9-8de6-d7544a5d882a|d2cd2847-7a9d-4897-82ac-b596e6b04123"
+      ],
       "meta": {
         "version": 2
       },
@@ -183,7 +186,8 @@
       "track_widths": [
         0.0,
         0.1,
-        0.5
+        0.5,
+        0.7
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {

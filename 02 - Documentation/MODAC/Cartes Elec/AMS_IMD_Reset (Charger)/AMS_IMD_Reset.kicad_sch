@@ -4767,7 +4767,7 @@
 		(uuid "456f7c93-4007-4fef-9826-301d2a531e14")
 	)
 	(junction
-		(at 228.6 124.46)
+		(at 257.81 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4570fe1d-63ed-4c74-8362-e9b4b1bd1b15")
@@ -4797,7 +4797,7 @@
 		(uuid "6c480399-2442-46d1-aa12-229aba064938")
 	)
 	(junction
-		(at 220.98 116.84)
+		(at 250.19 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f2fc3a9-47f1-4b8d-9cb0-da5b98db448b")
@@ -4893,7 +4893,7 @@
 		(uuid "d5b02962-4a57-4e59-bb58-f3867458895a")
 	)
 	(junction
-		(at 224.79 99.06)
+		(at 254 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e56a8c3f-c99d-4355-a4a4-127b9706600a")
@@ -4918,7 +4918,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 104.14) (xy 132.08 104.14)
+			(xy 173.99 120.65) (xy 176.53 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4938,7 +4938,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 134.62) (xy 180.34 134.62)
+			(xy 220.98 162.56) (xy 213.36 162.56)
 		)
 		(stroke
 			(width 0)
@@ -4965,6 +4965,16 @@
 			(type default)
 		)
 		(uuid "0780fdba-dc36-4dc5-af38-888f5cf3daad")
+	)
+	(wire
+		(pts
+			(xy 184.15 139.7) (xy 181.61 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d891df-efea-4f7c-a049-0dcc63de0e6e")
 	)
 	(wire
 		(pts
@@ -4998,6 +5008,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 99.06) (xy 199.39 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b16644b-50ce-4922-8408-4803c1312c9d")
+	)
+	(wire
+		(pts
 			(xy 71.12 92.71) (xy 60.96 92.71)
 		)
 		(stroke
@@ -5005,16 +5025,6 @@
 			(type default)
 		)
 		(uuid "0cfa668d-e2fb-49c8-a92c-20a2fb87bbc8")
-	)
-	(wire
-		(pts
-			(xy 132.08 133.35) (xy 132.08 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0de9e62f-6533-416e-976d-5e5f746aff30")
 	)
 	(wire
 		(pts
@@ -5028,7 +5038,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 105.41) (xy 209.55 105.41)
+			(xy 228.6 96.52) (xy 238.76 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5045,6 +5055,16 @@
 			(type default)
 		)
 		(uuid "13278058-e3d2-4edb-a3d6-8c44f01c14d8")
+	)
+	(wire
+		(pts
+			(xy 181.61 107.95) (xy 181.61 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13cd0672-a3dc-4b69-aff9-4b569b123782")
 	)
 	(wire
 		(pts
@@ -5136,6 +5156,16 @@
 		)
 		(uuid "1d092e15-280b-4c51-bf64-710052e37230")
 	)
+	(wire
+		(pts
+			(xy 250.19 123.19) (xy 250.19 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f41b634-aeb7-44d2-9825-8edf432bbc21")
+	)
 	(polyline
 		(pts
 			(xy 15.24 60.96) (xy 15.24 97.79)
@@ -5148,7 +5178,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 125.73) (xy 160.02 125.73)
+			(xy 191.77 153.67) (xy 193.04 153.67)
 		)
 		(stroke
 			(width 0)
@@ -5208,7 +5238,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 111.76) (xy 148.59 111.76)
+			(xy 167.64 128.27) (xy 194.31 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5256,16 +5286,6 @@
 		)
 		(uuid "3353c2a4-b107-4ae7-9ef6-f752f4c16781")
 	)
-	(polyline
-		(pts
-			(xy 124.46 136.906) (xy 194.564 136.906)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "351f6bea-3b68-417d-95aa-c31983d4f62f")
-	)
 	(wire
 		(pts
 			(xy 58.42 110.49) (xy 58.42 118.11)
@@ -5285,16 +5305,6 @@
 			(type default)
 		)
 		(uuid "36c35760-69eb-4720-8dc5-9a7d05e77bcc")
-	)
-	(wire
-		(pts
-			(xy 209.55 121.92) (xy 209.55 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c3a22cb-7893-469e-9c7b-2ecb2f1368e1")
 	)
 	(polyline
 		(pts
@@ -5348,7 +5358,17 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 132.08) (xy 204.47 132.08)
+			(xy 167.64 128.27) (xy 167.64 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f513ee-5efc-4c57-b9b3-8abbb4766b42")
+	)
+	(wire
+		(pts
+			(xy 232.41 157.48) (xy 233.68 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5428,7 +5448,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 99.06) (xy 228.6 101.6)
+			(xy 257.81 99.06) (xy 257.81 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5458,7 +5478,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 132.08) (xy 222.25 132.08)
+			(xy 248.92 157.48) (xy 251.46 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5498,7 +5518,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 104.14) (xy 168.91 104.14)
+			(xy 215.9 120.65) (xy 214.63 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5515,6 +5535,16 @@
 			(type default)
 		)
 		(uuid "5e859198-8b39-4808-aade-1ac087738abf")
+	)
+	(wire
+		(pts
+			(xy 191.77 153.67) (xy 191.77 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e8826a6-2360-4820-be58-b8e7628911e4")
 	)
 	(polyline
 		(pts
@@ -5568,6 +5598,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 134.62) (xy 201.93 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dcc6f3b-8fdd-4fe7-bfd5-7500cd4be61a")
+	)
+	(wire
+		(pts
 			(xy 46.99 27.94) (xy 46.99 22.86)
 		)
 		(stroke
@@ -5575,16 +5615,6 @@
 			(type default)
 		)
 		(uuid "6e8e4ce3-dfe4-446b-8a13-a26c1cbd201c")
-	)
-	(wire
-		(pts
-			(xy 209.55 105.41) (xy 209.55 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72a2f0c9-fcdd-4e00-a955-0933869823d4")
 	)
 	(wire
 		(pts
@@ -5605,6 +5635,16 @@
 			(type default)
 		)
 		(uuid "7429298a-bd56-422f-a8ba-4772a4863475")
+	)
+	(wire
+		(pts
+			(xy 182.88 99.06) (xy 199.39 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d9d655-2cd3-4288-ae9d-d6dabd2a774d")
 	)
 	(wire
 		(pts
@@ -5708,16 +5748,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 104.14) (xy 148.59 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82e94b19-99a1-4b14-99c7-817bab60e3a7")
-	)
-	(wire
-		(pts
 			(xy 31.75 27.94) (xy 46.99 27.94)
 		)
 		(stroke
@@ -5818,7 +5848,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 124.46) (xy 228.6 119.38)
+			(xy 257.81 124.46) (xy 257.81 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5868,13 +5898,23 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 124.46) (xy 222.25 132.08)
+			(xy 251.46 124.46) (xy 251.46 157.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "97d637ac-cf59-41f9-abbb-02f9daac7276")
+	)
+	(wire
+		(pts
+			(xy 187.96 134.62) (xy 201.93 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "991d18fc-7f58-460d-8b47-615ff21bebf1")
 	)
 	(wire
 		(pts
@@ -5888,7 +5928,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 113.03) (xy 168.91 113.03)
+			(xy 220.98 129.54) (xy 214.63 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5918,7 +5958,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 133.35) (xy 132.08 133.35)
+			(xy 193.04 161.29) (xy 167.64 161.29)
 		)
 		(stroke
 			(width 0)
@@ -5938,6 +5978,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 139.7) (xy 181.61 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a27dc0f1-f4ff-4a3f-98cb-5c5f9905b63d")
+	)
+	(wire
+		(pts
 			(xy 55.88 43.18) (xy 55.88 36.83)
 		)
 		(stroke
@@ -5948,7 +5998,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 124.46) (xy 236.22 124.46)
+			(xy 257.81 124.46) (xy 265.43 124.46)
 		)
 		(stroke
 			(width 0)
@@ -5968,7 +6018,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 116.84) (xy 236.22 116.84)
+			(xy 250.19 116.84) (xy 265.43 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5998,16 +6048,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 118.11) (xy 148.59 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af62bb0c-c009-48d5-a6d2-1914e0eb8aa6")
-	)
-	(wire
-		(pts
 			(xy 36.83 86.36) (xy 52.07 86.36)
 		)
 		(stroke
@@ -6015,16 +6055,6 @@
 			(type default)
 		)
 		(uuid "afaa4fad-6867-450e-9788-600303afa39a")
-	)
-	(polyline
-		(pts
-			(xy 124.46 92.71) (xy 124.46 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2fb2ab7-106d-4b66-9d5f-8b3259bfb5a3")
 	)
 	(polyline
 		(pts
@@ -6078,7 +6108,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 116.84) (xy 204.47 116.84)
+			(xy 232.41 123.19) (xy 233.68 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6098,7 +6128,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 124.46) (xy 228.6 124.46)
+			(xy 251.46 124.46) (xy 257.81 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6138,7 +6168,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 99.06) (xy 228.6 99.06)
+			(xy 254 99.06) (xy 257.81 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6188,17 +6218,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 96.52) (xy 127 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8483703-7f53-41ae-be9c-9e0803c65096")
-	)
-	(wire
-		(pts
-			(xy 220.98 116.84) (xy 219.71 116.84)
+			(xy 250.19 123.19) (xy 248.92 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6236,16 +6256,6 @@
 		)
 		(uuid "ce9fdb16-952d-4eae-897f-6202f77e02bb")
 	)
-	(polyline
-		(pts
-			(xy 194.564 136.906) (xy 194.564 92.456)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1bf4b72-1b9e-4734-bae6-ce3f4a2bd4b4")
-	)
 	(wire
 		(pts
 			(xy 38.1 173.99) (xy 40.64 173.99)
@@ -6258,7 +6268,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 99.06) (xy 224.79 99.06)
+			(xy 250.19 99.06) (xy 254 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6325,6 +6335,16 @@
 			(type default)
 		)
 		(uuid "dcf76816-c6ec-4bd6-90c5-cbc594278ab7")
+	)
+	(wire
+		(pts
+			(xy 238.76 96.52) (xy 238.76 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df685e14-0972-4236-9da5-08eac1d09dba")
 	)
 	(wire
 		(pts
@@ -6408,7 +6428,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 125.73) (xy 182.88 125.73)
+			(xy 213.36 153.67) (xy 215.9 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6418,7 +6438,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 121.92) (xy 209.55 121.92)
+			(xy 228.6 132.08) (xy 238.76 132.08)
 		)
 		(stroke
 			(width 0)
@@ -6488,7 +6508,17 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 125.73) (xy 143.51 125.73)
+			(xy 191.77 120.65) (xy 194.31 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e85638-19c7-4538-8162-191deb108553")
+	)
+	(wire
+		(pts
+			(xy 175.26 149.86) (xy 176.53 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6526,16 +6556,6 @@
 		)
 		(uuid "faf7a92b-aa0c-4261-a47b-4cfff3a0d5ec")
 	)
-	(polyline
-		(pts
-			(xy 194.564 92.456) (xy 124.46 92.456)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb9b499e-d055-4e6b-9669-fe0b83d9e92b")
-	)
 	(wire
 		(pts
 			(xy 110.49 31.75) (xy 114.3 31.75)
@@ -6567,8 +6587,20 @@
 		(uuid "ff599728-3c79-4238-824f-69b776a61328")
 	)
 	(rectangle
-		(start 198.12 93.98)
-		(end 252.73 137.16)
+		(start 166.37 92.71)
+		(end 226.06 163.83)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 148e1c18-1dec-4cc0-9f67-4e704f5eb26e)
+	)
+	(rectangle
+		(start 227.33 93.98)
+		(end 281.94 165.1)
 		(stroke
 			(width 0)
 			(type default)
@@ -6649,7 +6681,7 @@
 	)
 	(text "LED Management"
 		(exclude_from_sim no)
-		(at 234.442 97.79 0)
+		(at 263.652 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6660,7 +6692,7 @@
 	)
 	(text "AMS V+\n"
 		(exclude_from_sim no)
-		(at 240.538 122.428 0)
+		(at 269.748 122.428 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6671,7 +6703,7 @@
 	)
 	(text "SC Management"
 		(exclude_from_sim no)
-		(at 177.038 95.504 0)
+		(at 209.296 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6682,7 +6714,7 @@
 	)
 	(text "IMD V+\n"
 		(exclude_from_sim no)
-		(at 240.538 119.634 0)
+		(at 269.748 119.634 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6779,7 +6811,7 @@
 		(uuid "212dad02-464c-431b-b715-ca6b5e3050aa")
 	)
 	(label "SC_Closed_IMD"
-		(at 200.66 105.41 0)
+		(at 228.6 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6801,7 +6833,7 @@
 		(uuid "24b51bf1-2cfb-411f-83f4-7e7933271399")
 	)
 	(label "SC in"
-		(at 175.26 113.03 180)
+		(at 220.98 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6856,7 +6888,7 @@
 		(uuid "3a3d7af6-26d5-4734-b183-d5f4ac9fe8b1")
 	)
 	(label "SC out"
-		(at 187.96 134.62 180)
+		(at 220.98 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7021,7 +7053,7 @@
 		(uuid "994d8367-f905-4df4-86a7-0c6653ef66f6")
 	)
 	(label "SC_Closed_AMS"
-		(at 138.43 118.11 0)
+		(at 187.96 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7164,7 +7196,7 @@
 		(uuid "d9186e3e-1c0c-4d4d-97e1-c493fdefd71c")
 	)
 	(label "SC_Closed_IMD"
-		(at 127 96.52 0)
+		(at 182.88 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7175,7 +7207,7 @@
 		(uuid "dc11c159-7634-4d7b-90d5-315fa7be8785")
 	)
 	(label "SC_Closed_AMS"
-		(at 199.39 121.92 0)
+		(at 228.6 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7206,6 +7238,205 @@
 			(justify left bottom)
 		)
 		(uuid "f5486aec-fe16-494d-a758-2ce35cc5d082")
+	)
+	(symbol
+		(lib_id "EPSA_Lib:Résistance RK73H2BLTDD2152F")
+		(at 238.76 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0141475c-1de4-4c3a-baad-9f01e1122ff2")
+		(property "Reference" "R19"
+			(at 238.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 241.554 139.192 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EPSA_lib:RESC3216X70N"
+			(at 238.76 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 236.22 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 233.68 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 231.14 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 228.6 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 226.06 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 223.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 220.98 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 219.71 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 217.17 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 214.63 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 212.09 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 243.84 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"10k\" lib=\"\""
+			(at 63.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 241.3 162.306 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 245.364 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5767de51-321b-4381-9587-40daffc4db2e")
+		)
+		(pin "2"
+			(uuid "2cc7e57d-7ab3-4aa3-94c6-2aefbd740a85")
+		)
+		(instances
+			(project "AMS_IMD_Reset"
+				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -7756,7 +7987,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 104.14 270)
+		(at 173.99 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7765,7 +7996,7 @@
 		(fields_autoplaced yes)
 		(uuid "121e0705-6880-4ac7-abc3-bfa44a9abd81")
 		(property "Reference" "#GND01"
-			(at 128.27 104.14 0)
+			(at 171.45 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7774,7 +8005,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 104.14 0)
+			(at 176.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7783,7 +8014,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 104.14 0)
+			(at 173.99 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7792,7 +8023,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 104.14 0)
+			(at 173.99 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7801,7 +8032,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 104.14 0)
+			(at 173.99 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9480,7 +9711,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 132.08 270)
+		(at 232.41 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9489,7 +9720,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b08d907-869f-4d5d-a23c-c9ebea7ae438")
 		(property "Reference" "#GND035"
-			(at 200.66 132.08 0)
+			(at 229.87 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9498,7 +9729,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 132.08 0)
+			(at 234.95 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9507,7 +9738,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 132.08 0)
+			(at 232.41 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9516,7 +9747,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 132.08 0)
+			(at 232.41 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9525,7 +9756,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 132.08 0)
+			(at 232.41 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10025,7 +10256,7 @@
 	(symbol
 		(lib_name "NMOS SQ2348ES-T1_GE3_1")
 		(lib_id "EPSA_Lib:NMOS SQ2348ES-T1_GE3")
-		(at 143.51 125.73 0)
+		(at 176.53 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10034,7 +10265,7 @@
 		(fields_autoplaced yes)
 		(uuid "33c4de9a-f9c2-4345-aedd-a0774adfc7c1")
 		(property "Reference" "Q6"
-			(at 151.13 130.175 0)
+			(at 184.15 154.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10042,7 +10273,7 @@
 			)
 		)
 		(property "Value" "NMOS SQ2348ES-T1_GE3"
-			(at 185.42 115.57 0)
+			(at 218.44 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10052,7 +10283,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
-			(at 185.42 118.11 0)
+			(at 218.44 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10062,7 +10293,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/63706/sq2348es.pdf"
-			(at 185.42 120.65 0)
+			(at 218.44 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10072,7 +10303,7 @@
 			)
 		)
 		(property "Description" "VISHAY - SQ2348ES-T1_GE3 - MOSFET, AEC-Q101, N-CH, 30V, SOT-23"
-			(at 185.42 123.19 0)
+			(at 218.44 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10082,7 +10313,7 @@
 			)
 		)
 		(property "Sim.Pins" "3=1 1=2 2=3"
-			(at 207.01 110.49 0)
+			(at 240.03 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10092,7 +10323,7 @@
 			)
 		)
 		(property "Sim.Device" "SPICE"
-			(at 187.96 113.03 0)
+			(at 220.98 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10102,7 +10333,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"X\" model=\"SQ2348ES\" lib=\"${EPSA_lib}\\SpiceModel\\NMOS_SQ2348ES_PS Rev A.LIB\""
-			(at 229.87 138.43 0)
+			(at 262.89 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10111,7 +10342,7 @@
 			)
 		)
 		(property "Height" "1.12"
-			(at 185.42 125.73 0)
+			(at 218.44 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10121,7 +10352,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 185.42 128.27 0)
+			(at 218.44 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10131,7 +10362,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SQ2348ES-T1_GE3"
-			(at 185.42 130.81 0)
+			(at 218.44 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10141,7 +10372,7 @@
 			)
 		)
 		(property "Mouser Part Number" "781-SQ2348ES-T1_GE3"
-			(at 185.42 133.35 0)
+			(at 218.44 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10151,7 +10382,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQ2348ES-T1_GE3?qs=jHkklCh7amgC88blremf%252Bw%3D%3D"
-			(at 185.42 135.89 0)
+			(at 218.44 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10161,7 +10392,7 @@
 			)
 		)
 		(property "Render Name" "NMOS"
-			(at 151.13 132.715 0)
+			(at 184.15 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11379,7 +11610,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 224.79 99.06 0)
+		(at 254 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11387,7 +11618,7 @@
 		(dnp no)
 		(uuid "50556a3c-f443-4f70-ae3e-af0f19a76000")
 		(property "Reference" "#PWR026"
-			(at 224.79 102.87 0)
+			(at 254 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11396,7 +11627,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 225.044 95.504 0)
+			(at 254.254 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11404,7 +11635,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 99.06 0)
+			(at 254 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11413,7 +11644,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 99.06 0)
+			(at 254 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11422,7 +11653,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 224.79 99.06 0)
+			(at 254 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11577,7 +11808,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 170.18 104.14 270)
+		(at 215.9 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11586,7 +11817,7 @@
 		(fields_autoplaced yes)
 		(uuid "55ffb6e0-56aa-43db-a6dc-5c06f99a1ae6")
 		(property "Reference" "#PWR029"
-			(at 166.37 104.14 0)
+			(at 212.09 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11595,7 +11826,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 173.99 104.1399 90)
+			(at 219.71 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11604,7 +11835,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 104.14 0)
+			(at 215.9 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11613,7 +11844,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 104.14 0)
+			(at 215.9 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11622,7 +11853,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 170.18 104.14 0)
+			(at 215.9 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12261,7 +12492,7 @@
 	)
 	(symbol
 		(lib_id "EPSA_Lib:2P Droit 2-11-2022")
-		(at 246.38 116.84 0)
+		(at 275.59 116.84 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12270,7 +12501,7 @@
 		(dnp no)
 		(uuid "67047a27-417e-4f82-b5ba-0cd96998b3e3")
 		(property "Reference" "J6"
-			(at 246.38 114.3 0)
+			(at 275.59 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12279,7 +12510,7 @@
 			)
 		)
 		(property "Value" "2P Droit 2-11-2022"
-			(at 252.73 124.46 0)
+			(at 281.94 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12289,7 +12520,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:MOLEX_22-11-2022"
-			(at 252.73 114.3 0)
+			(at 281.94 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12299,7 +12530,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112022?display=pdf"
-			(at 252.73 116.84 0)
+			(at 281.94 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12309,7 +12540,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 246.38 116.84 0)
+			(at 275.59 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12318,7 +12549,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2"
-			(at 246.38 116.84 0)
+			(at 275.59 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12327,7 +12558,7 @@
 			)
 		)
 		(property "Sim.Device" "SPICE"
-			(at 252.73 121.92 0)
+			(at 281.94 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12337,7 +12568,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"J\" model=\"22-11-2022\" lib=\"\""
-			(at 246.38 116.84 0)
+			(at 275.59 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12346,7 +12577,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "10.66mm"
-			(at 252.73 109.22 0)
+			(at 281.94 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12356,7 +12587,7 @@
 			)
 		)
 		(property "PARTREV" "BD8"
-			(at 252.73 119.38 0)
+			(at 281.94 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12366,7 +12597,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 252.73 116.84 0)
+			(at 281.94 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12376,7 +12607,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 252.73 111.76 0)
+			(at 281.94 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12386,7 +12617,7 @@
 			)
 		)
 		(property "Render Name" "2P Droit"
-			(at 246.38 120.65 0)
+			(at 275.59 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12395,7 +12626,7 @@
 			)
 		)
 		(property "Height" "10.66mm"
-			(at 252.73 111.76 0)
+			(at 281.94 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12405,7 +12636,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 252.73 119.38 0)
+			(at 281.94 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12415,7 +12646,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "22-11-2022"
-			(at 252.73 107.95 0)
+			(at 281.94 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12425,7 +12656,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-22-11-2022"
-			(at 252.73 105.41 0)
+			(at 281.94 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12435,7 +12666,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2022?qs=mrPiglD9aYLq1NGrfjXTJg%3D%3D"
-			(at 252.73 110.49 0)
+			(at 281.94 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12454,6 +12685,404 @@
 			(project "AMS_IMD_Reset"
 				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_Lib:Résistance RK73H2BLTDD2152F")
+		(at 201.93 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b8ea0c5-3751-4a59-a64b-843907d4abd0")
+		(property "Reference" "R21"
+			(at 194.31 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 194.818 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EPSA_lib:RESC3216X70N"
+			(at 176.53 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 176.53 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 176.53 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 176.53 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 176.53 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 176.53 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 176.53 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 187.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 187.96 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 187.96 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 187.96 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 176.53 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"10k\" lib=\"\""
+			(at 233.68 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 171.704 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 193.04 146.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c473371c-9a77-4e46-8f7b-96c61d531771")
+		)
+		(pin "2"
+			(uuid "8422e776-62ef-4ce8-ae69-61bac1196e61")
+		)
+		(instances
+			(project "AMS_IMD_Reset"
+				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_Lib:Résistance RK73H2BLTDD2152F")
+		(at 199.39 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f362f16-0500-40f0-8831-1978b299db97")
+		(property "Reference" "R22"
+			(at 191.77 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 192.278 110.744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EPSA_lib:RESC3216X70N"
+			(at 173.99 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 173.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 173.99 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 173.99 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 173.99 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 173.99 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 173.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 173.99 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 185.42 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 185.42 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 185.42 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 185.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 173.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"10k\" lib=\"\""
+			(at 231.14 -67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 169.164 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 190.5 114.554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4cf0db76-d51d-4da5-aea1-e9c96ce360f5")
+		)
+		(pin "2"
+			(uuid "608d10e6-7e9e-429a-9a08-925022eb74a7")
+		)
+		(instances
+			(project "AMS_IMD_Reset"
+				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -13082,7 +13711,7 @@
 	)
 	(symbol
 		(lib_id "EPSA_Lib:NMOS SQ2348ES-T1_GE3")
-		(at 196.215 121.285 0)
+		(at 225.425 127.635 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13090,7 +13719,7 @@
 		(dnp no)
 		(uuid "795b03c2-2e06-4c74-95c3-5b45dbb01593")
 		(property "Reference" "Q7"
-			(at 215.392 111.506 0)
+			(at 244.602 117.856 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13098,7 +13727,7 @@
 			)
 		)
 		(property "Value" "NMOS SQ2348ES-T1_GE3"
-			(at 238.125 111.125 0)
+			(at 267.335 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13108,7 +13737,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
-			(at 238.125 113.665 0)
+			(at 267.335 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13118,7 +13747,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/63706/sq2348es.pdf"
-			(at 238.125 116.205 0)
+			(at 267.335 122.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13128,7 +13757,7 @@
 			)
 		)
 		(property "Description" "VISHAY - SQ2348ES-T1_GE3 - MOSFET, AEC-Q101, N-CH, 30V, SOT-23"
-			(at 238.125 118.745 0)
+			(at 267.335 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13138,7 +13767,7 @@
 			)
 		)
 		(property "Sim.Pins" "3=1 1=2 2=3"
-			(at 259.715 106.045 0)
+			(at 288.925 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13148,7 +13777,7 @@
 			)
 		)
 		(property "Sim.Device" "SPICE"
-			(at 240.665 108.585 0)
+			(at 269.875 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13158,7 +13787,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"X\" model=\"SQ2348ES\" lib=\"${EPSA_lib}\\SpiceModel\\NMOS_SQ2348ES_PS Rev A.LIB\""
-			(at 282.575 133.985 0)
+			(at 311.785 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13167,7 +13796,7 @@
 			)
 		)
 		(property "Height" "1.12"
-			(at 238.125 121.285 0)
+			(at 267.335 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13177,7 +13806,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 238.125 123.825 0)
+			(at 267.335 130.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13187,7 +13816,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SQ2348ES-T1_GE3"
-			(at 238.125 126.365 0)
+			(at 267.335 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13197,7 +13826,7 @@
 			)
 		)
 		(property "Mouser Part Number" "781-SQ2348ES-T1_GE3"
-			(at 238.125 128.905 0)
+			(at 267.335 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13207,7 +13836,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQ2348ES-T1_GE3?qs=jHkklCh7amgC88blremf%252Bw%3D%3D"
-			(at 238.125 131.445 0)
+			(at 267.335 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13217,7 +13846,7 @@
 			)
 		)
 		(property "Render Name" "NMOS"
-			(at 204.978 112.776 0)
+			(at 234.188 119.126 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14165,6 +14794,205 @@
 		)
 	)
 	(symbol
+		(lib_id "EPSA_Lib:Résistance RK73H2BLTDD2152F")
+		(at 238.76 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "853adb81-5a7b-4804-8f0c-51eb25ed0aba")
+		(property "Reference" "R20"
+			(at 238.76 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 241.554 104.902 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EPSA_lib:RESC3216X70N"
+			(at 238.76 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 236.22 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 233.68 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 231.14 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 228.6 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 226.06 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 223.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 220.98 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 219.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 217.17 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 214.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 212.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 243.84 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"10k\" lib=\"\""
+			(at 63.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 241.3 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 245.364 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4716f13b-1f3b-4e40-9f8c-10bc61cede14")
+		)
+		(pin "2"
+			(uuid "5792eedd-09a4-4e4e-a157-7b81b366010c")
+		)
+		(instances
+			(project "AMS_IMD_Reset"
+				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EPSA_Lib:4P Droit 22-11-2042")
 		(at 119.38 190.5 270)
 		(unit 1)
@@ -14427,7 +15255,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 127 270)
+		(at 265.43 127 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14436,7 +15264,7 @@
 		(fields_autoplaced yes)
 		(uuid "88939d2c-f154-4440-a0f3-107b996bf235")
 		(property "Reference" "#GND037"
-			(at 233.68 127 0)
+			(at 262.89 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14445,7 +15273,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 127 0)
+			(at 267.97 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14454,7 +15282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 127 0)
+			(at 265.43 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14463,7 +15291,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 127 0)
+			(at 265.43 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14472,7 +15300,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 127 0)
+			(at 265.43 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14678,7 +15506,7 @@
 	)
 	(symbol
 		(lib_id "EPSA_Lib:Résistance RK73H2BLTDD2152F")
-		(at 228.6 101.6 270)
+		(at 257.81 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14686,7 +15514,7 @@
 		(dnp no)
 		(uuid "90908ea9-0a03-4d98-a171-c61c092f3210")
 		(property "Reference" "R14"
-			(at 228.6 109.22 0)
+			(at 257.81 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14695,7 +15523,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 231.394 108.712 0)
+			(at 260.604 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14704,7 +15532,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:RESC3216X70N"
-			(at 228.6 127 0)
+			(at 257.81 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14714,7 +15542,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at 226.06 127 0)
+			(at 255.27 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14724,7 +15552,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD"
-			(at 223.52 127 0)
+			(at 252.73 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14734,7 +15562,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 220.98 127 0)
+			(at 250.19 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14744,7 +15572,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at 218.44 127 0)
+			(at 247.65 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14754,7 +15582,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
-			(at 215.9 127 0)
+			(at 245.11 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14764,7 +15592,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 213.36 127 0)
+			(at 242.57 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14774,7 +15602,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
-			(at 210.82 127 0)
+			(at 240.03 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14784,7 +15612,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 209.55 115.57 0)
+			(at 238.76 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14794,7 +15622,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 207.01 115.57 0)
+			(at 236.22 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14804,7 +15632,7 @@
 			)
 		)
 		(property "Mouser Testing Part Number" ""
-			(at 204.47 115.57 0)
+			(at 233.68 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14814,7 +15642,7 @@
 			)
 		)
 		(property "Mouser Testing Price/Stock" ""
-			(at 201.93 115.57 0)
+			(at 231.14 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14824,7 +15652,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 233.68 127 0)
+			(at 262.89 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14834,7 +15662,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"R\" model=\"10k\" lib=\"\""
-			(at 53.34 69.85 0)
+			(at 82.55 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14843,7 +15671,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 231.14 131.826 0)
+			(at 260.35 131.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14852,7 +15680,7 @@
 			)
 		)
 		(property "Render Name" "Résistance"
-			(at 235.204 110.49 0)
+			(at 264.414 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15682,7 +16510,7 @@
 	)
 	(symbol
 		(lib_id "EPSA_Lib:Résistance RK73H2BLTDD2152F")
-		(at 220.98 99.06 270)
+		(at 250.19 99.06 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15690,7 +16518,7 @@
 		(dnp no)
 		(uuid "9f11d0fc-e287-4fca-a1ea-99536aa5b0ad")
 		(property "Reference" "R13"
-			(at 220.98 106.68 0)
+			(at 250.19 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15699,7 +16527,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 223.774 106.172 0)
+			(at 252.984 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15708,7 +16536,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:RESC3216X70N"
-			(at 220.98 124.46 0)
+			(at 250.19 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15718,7 +16546,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at 218.44 124.46 0)
+			(at 247.65 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15728,7 +16556,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD"
-			(at 215.9 124.46 0)
+			(at 245.11 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15738,7 +16566,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 213.36 124.46 0)
+			(at 242.57 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15748,7 +16576,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at 210.82 124.46 0)
+			(at 240.03 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15758,7 +16586,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
-			(at 208.28 124.46 0)
+			(at 237.49 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15768,7 +16596,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 205.74 124.46 0)
+			(at 234.95 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15778,7 +16606,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
-			(at 203.2 124.46 0)
+			(at 232.41 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15788,7 +16616,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 201.93 113.03 0)
+			(at 231.14 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15798,7 +16626,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 199.39 113.03 0)
+			(at 228.6 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15808,7 +16636,7 @@
 			)
 		)
 		(property "Mouser Testing Part Number" ""
-			(at 196.85 113.03 0)
+			(at 226.06 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15818,7 +16646,7 @@
 			)
 		)
 		(property "Mouser Testing Price/Stock" ""
-			(at 194.31 113.03 0)
+			(at 223.52 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15828,7 +16656,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 226.06 124.46 0)
+			(at 255.27 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15838,7 +16666,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"R\" model=\"10k\" lib=\"\""
-			(at 45.72 67.31 0)
+			(at 74.93 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15847,7 +16675,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 223.52 129.286 0)
+			(at 252.73 129.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15856,7 +16684,7 @@
 			)
 		)
 		(property "Render Name" "Résistance"
-			(at 227.584 107.95 0)
+			(at 256.794 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16763,7 +17591,7 @@
 	)
 	(symbol
 		(lib_id "EPSA_Lib:2P Droit 2-11-2022")
-		(at 246.38 127 0)
+		(at 275.59 127 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16772,7 +17600,7 @@
 		(dnp no)
 		(uuid "ad230d2b-3032-47f5-ad46-6e604425a7e8")
 		(property "Reference" "J8"
-			(at 246.38 124.46 0)
+			(at 275.59 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16781,7 +17609,7 @@
 			)
 		)
 		(property "Value" "2P Droit 2-11-2022"
-			(at 252.73 134.62 0)
+			(at 281.94 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16791,7 +17619,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:MOLEX_22-11-2022"
-			(at 252.73 124.46 0)
+			(at 281.94 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16801,7 +17629,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112022?display=pdf"
-			(at 252.73 127 0)
+			(at 281.94 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16811,7 +17639,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 246.38 127 0)
+			(at 275.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16820,7 +17648,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2"
-			(at 246.38 127 0)
+			(at 275.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16829,7 +17657,7 @@
 			)
 		)
 		(property "Sim.Device" "SPICE"
-			(at 252.73 132.08 0)
+			(at 281.94 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16839,7 +17667,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"J\" model=\"22-11-2022\" lib=\"\""
-			(at 246.38 127 0)
+			(at 275.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16848,7 +17676,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "10.66mm"
-			(at 252.73 119.38 0)
+			(at 281.94 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16858,7 +17686,7 @@
 			)
 		)
 		(property "PARTREV" "BD8"
-			(at 252.73 129.54 0)
+			(at 281.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16868,7 +17696,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 252.73 127 0)
+			(at 281.94 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16878,7 +17706,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Molex"
-			(at 252.73 121.92 0)
+			(at 281.94 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16888,7 +17716,7 @@
 			)
 		)
 		(property "Render Name" "2P Droit"
-			(at 246.38 130.81 0)
+			(at 275.59 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16897,7 +17725,7 @@
 			)
 		)
 		(property "Height" "10.66mm"
-			(at 252.73 121.92 0)
+			(at 281.94 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16907,7 +17735,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 252.73 129.54 0)
+			(at 281.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16917,7 +17745,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "22-11-2022"
-			(at 252.73 118.11 0)
+			(at 281.94 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16927,7 +17755,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-22-11-2022"
-			(at 252.73 115.57 0)
+			(at 281.94 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16937,7 +17765,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2022?qs=mrPiglD9aYLq1NGrfjXTJg%3D%3D"
-			(at 252.73 120.65 0)
+			(at 281.94 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17341,7 +18169,7 @@
 	(symbol
 		(lib_name "NMOS SQ2348ES-T1_GE3_1")
 		(lib_id "EPSA_Lib:NMOS SQ2348ES-T1_GE3")
-		(at 204.47 132.08 0)
+		(at 233.68 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17349,7 +18177,7 @@
 		(dnp no)
 		(uuid "b53b6c55-d7c7-46bb-8265-354e36e93dd3")
 		(property "Reference" "Q8"
-			(at 212.09 136.525 0)
+			(at 241.3 161.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17357,7 +18185,7 @@
 			)
 		)
 		(property "Value" "NMOS SQ2348ES-T1_GE3"
-			(at 246.38 121.92 0)
+			(at 275.59 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17367,7 +18195,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
-			(at 246.38 124.46 0)
+			(at 275.59 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17377,7 +18205,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/63706/sq2348es.pdf"
-			(at 246.38 127 0)
+			(at 275.59 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17387,7 +18215,7 @@
 			)
 		)
 		(property "Description" "VISHAY - SQ2348ES-T1_GE3 - MOSFET, AEC-Q101, N-CH, 30V, SOT-23"
-			(at 246.38 129.54 0)
+			(at 275.59 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17397,7 +18225,7 @@
 			)
 		)
 		(property "Sim.Pins" "3=1 1=2 2=3"
-			(at 267.97 116.84 0)
+			(at 297.18 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17407,7 +18235,7 @@
 			)
 		)
 		(property "Sim.Device" "SPICE"
-			(at 248.92 119.38 0)
+			(at 278.13 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17417,7 +18245,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"X\" model=\"SQ2348ES\" lib=\"${EPSA_lib}\\SpiceModel\\NMOS_SQ2348ES_PS Rev A.LIB\""
-			(at 290.83 144.78 0)
+			(at 320.04 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17426,7 +18254,7 @@
 			)
 		)
 		(property "Height" "1.12"
-			(at 246.38 132.08 0)
+			(at 275.59 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17436,7 +18264,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 246.38 134.62 0)
+			(at 275.59 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17446,7 +18274,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SQ2348ES-T1_GE3"
-			(at 246.38 137.16 0)
+			(at 275.59 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17456,7 +18284,7 @@
 			)
 		)
 		(property "Mouser Part Number" "781-SQ2348ES-T1_GE3"
-			(at 246.38 139.7 0)
+			(at 275.59 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17466,7 +18294,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQ2348ES-T1_GE3?qs=jHkklCh7amgC88blremf%252Bw%3D%3D"
-			(at 246.38 142.24 0)
+			(at 275.59 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17476,7 +18304,7 @@
 			)
 		)
 		(property "Render Name" "NMOS"
-			(at 206.756 136.144 0)
+			(at 235.966 161.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17503,7 +18331,7 @@
 	)
 	(symbol
 		(lib_id "EPSA_Lib:Relais PCB")
-		(at 157.48 129.54 0)
+		(at 190.5 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17512,7 +18340,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7392f00-4638-49b2-8366-57078c8fceb9")
 		(property "Reference" "K3"
-			(at 170.18 116.84 0)
+			(at 203.2 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17520,7 +18348,7 @@
 			)
 		)
 		(property "Value" "Relais PCB"
-			(at 170.18 119.38 0)
+			(at 203.2 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17528,7 +18356,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:CP112V"
-			(at 193.04 117.602 0)
+			(at 226.06 145.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17538,7 +18366,7 @@
 			)
 		)
 		(property "Datasheet" "https://www3.panasonic.biz/ac/e/uacs/download/index.jsp?c=vehicle_download"
-			(at 193.04 120.142 0)
+			(at 226.06 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17548,7 +18376,7 @@
 			)
 		)
 		(property "Description" "PANASONIC ELECTRIC WORKS - CP1-12V - RELAY, AUTOMOTIVE, SPDT, 14VDC, 20A"
-			(at 193.04 122.682 0)
+			(at 226.06 150.622 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17558,7 +18386,7 @@
 			)
 		)
 		(property "Height" "9.5"
-			(at 193.04 125.222 0)
+			(at 226.06 153.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17568,7 +18396,7 @@
 			)
 		)
 		(property "Mouser Part Number" "769-CP1-12V"
-			(at 193.04 127.762 0)
+			(at 226.06 155.702 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17578,7 +18406,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/CP1-12V?qs=mTeSeKeuVA7dPPafy7M16g%3D%3D"
-			(at 193.04 130.302 0)
+			(at 226.06 158.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17588,7 +18416,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 193.04 132.842 0)
+			(at 226.06 160.782 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17598,7 +18426,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CP1-12V"
-			(at 193.04 135.382 0)
+			(at 226.06 163.322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19353,7 +20181,7 @@
 	)
 	(symbol
 		(lib_id "EPSA_Lib:NMOS SQ2348ES-T1_GE3")
-		(at 123.825 108.585 0)
+		(at 168.275 125.095 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19361,7 +20189,7 @@
 		(dnp no)
 		(uuid "d1a9b43a-6562-4326-ad59-53e2f409b531")
 		(property "Reference" "Q5"
-			(at 143.002 98.806 0)
+			(at 187.452 115.316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19369,7 +20197,7 @@
 			)
 		)
 		(property "Value" "NMOS SQ2348ES-T1_GE3"
-			(at 165.735 98.425 0)
+			(at 210.185 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19379,7 +20207,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
-			(at 165.735 100.965 0)
+			(at 210.185 117.475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19389,7 +20217,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/63706/sq2348es.pdf"
-			(at 165.735 103.505 0)
+			(at 210.185 120.015 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19399,7 +20227,7 @@
 			)
 		)
 		(property "Description" "VISHAY - SQ2348ES-T1_GE3 - MOSFET, AEC-Q101, N-CH, 30V, SOT-23"
-			(at 165.735 106.045 0)
+			(at 210.185 122.555 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19409,7 +20237,7 @@
 			)
 		)
 		(property "Sim.Pins" "3=1 1=2 2=3"
-			(at 187.325 93.345 0)
+			(at 231.775 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19419,7 +20247,7 @@
 			)
 		)
 		(property "Sim.Device" "SPICE"
-			(at 168.275 95.885 0)
+			(at 212.725 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19429,7 +20257,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"X\" model=\"SQ2348ES\" lib=\"${EPSA_lib}\\SpiceModel\\NMOS_SQ2348ES_PS Rev A.LIB\""
-			(at 210.185 121.285 0)
+			(at 254.635 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19438,7 +20266,7 @@
 			)
 		)
 		(property "Height" "1.12"
-			(at 165.735 108.585 0)
+			(at 210.185 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19448,7 +20276,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 165.735 111.125 0)
+			(at 210.185 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19458,7 +20286,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SQ2348ES-T1_GE3"
-			(at 165.735 113.665 0)
+			(at 210.185 130.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19468,7 +20296,7 @@
 			)
 		)
 		(property "Mouser Part Number" "781-SQ2348ES-T1_GE3"
-			(at 165.735 116.205 0)
+			(at 210.185 132.715 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19478,7 +20306,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQ2348ES-T1_GE3?qs=jHkklCh7amgC88blremf%252Bw%3D%3D"
-			(at 165.735 118.745 0)
+			(at 210.185 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19488,7 +20316,7 @@
 			)
 		)
 		(property "Render Name" "NMOS"
-			(at 146.558 101.092 0)
+			(at 191.008 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19782,7 +20610,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 236.22 114.3 270)
+		(at 265.43 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19791,7 +20619,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4fd400e-29f6-4a0e-a023-57fb8fd57799")
 		(property "Reference" "#GND036"
-			(at 233.68 114.3 0)
+			(at 262.89 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19800,7 +20628,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 114.3 0)
+			(at 267.97 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19809,7 +20637,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 114.3 0)
+			(at 265.43 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19818,7 +20646,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 236.22 114.3 0)
+			(at 265.43 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19827,7 +20655,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 114.3 0)
+			(at 265.43 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20054,7 +20882,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 125.73 270)
+		(at 175.26 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20063,7 +20891,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8ed9f78-0cdc-4567-960f-c02c84e1b76d")
 		(property "Reference" "#GND02"
-			(at 139.7 125.73 0)
+			(at 172.72 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20072,7 +20900,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 125.73 0)
+			(at 177.8 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20081,7 +20909,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 125.73 0)
+			(at 175.26 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20090,7 +20918,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 142.24 125.73 0)
+			(at 175.26 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20099,7 +20927,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 125.73 0)
+			(at 175.26 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20121,7 +20949,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 116.84 270)
+		(at 232.41 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20130,7 +20958,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8f4078a-58af-4de2-beec-a7d479233742")
 		(property "Reference" "#GND034"
-			(at 200.66 116.84 0)
+			(at 229.87 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20139,7 +20967,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 116.84 0)
+			(at 234.95 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20148,7 +20976,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 116.84 0)
+			(at 232.41 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20157,7 +20985,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 116.84 0)
+			(at 232.41 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20166,7 +20994,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 116.84 0)
+			(at 232.41 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20587,7 +21415,7 @@
 	)
 	(symbol
 		(lib_id "EPSA_Lib:Relais PCB")
-		(at 146.05 107.95 0)
+		(at 191.77 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20596,7 +21424,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3c7e7c0-7fd1-4237-9321-2857b847cad2")
 		(property "Reference" "K1"
-			(at 158.75 95.25 0)
+			(at 204.47 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20604,7 +21432,7 @@
 			)
 		)
 		(property "Value" "Relais PCB"
-			(at 158.75 97.79 0)
+			(at 204.47 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20612,7 +21440,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:CP112V"
-			(at 181.61 96.012 0)
+			(at 227.33 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20622,7 +21450,7 @@
 			)
 		)
 		(property "Datasheet" "https://www3.panasonic.biz/ac/e/uacs/download/index.jsp?c=vehicle_download"
-			(at 181.61 98.552 0)
+			(at 227.33 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20632,7 +21460,7 @@
 			)
 		)
 		(property "Description" "PANASONIC ELECTRIC WORKS - CP1-12V - RELAY, AUTOMOTIVE, SPDT, 14VDC, 20A"
-			(at 181.61 101.092 0)
+			(at 227.33 117.602 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20642,7 +21470,7 @@
 			)
 		)
 		(property "Height" "9.5"
-			(at 181.61 103.632 0)
+			(at 227.33 120.142 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20652,7 +21480,7 @@
 			)
 		)
 		(property "Mouser Part Number" "769-CP1-12V"
-			(at 181.61 106.172 0)
+			(at 227.33 122.682 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20662,7 +21490,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/CP1-12V?qs=mTeSeKeuVA7dPPafy7M16g%3D%3D"
-			(at 181.61 108.712 0)
+			(at 227.33 125.222 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20672,7 +21500,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 181.61 111.252 0)
+			(at 227.33 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20682,7 +21510,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CP1-12V"
-			(at 181.61 113.792 0)
+			(at 227.33 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21876,7 +22704,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 182.88 125.73 270)
+		(at 215.9 153.67 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21885,7 +22713,7 @@
 		(fields_autoplaced yes)
 		(uuid "f441ddab-e7a2-4046-b1ff-ff3be2f4d0b0")
 		(property "Reference" "#PWR030"
-			(at 179.07 125.73 0)
+			(at 212.09 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21894,7 +22722,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 186.69 125.7299 90)
+			(at 219.71 153.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21903,7 +22731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 125.73 0)
+			(at 215.9 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21912,7 +22740,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 125.73 0)
+			(at 215.9 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21921,7 +22749,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 182.88 125.73 0)
+			(at 215.9 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
