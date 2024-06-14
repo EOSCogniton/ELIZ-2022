@@ -22417,7 +22417,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R6"
-			(at 0 -1.82 0)
+			(at -3.5 0 0)
 			(layer "F.SilkS")
 			(uuid "2fe4ff36-fc41-4484-9b47-93eeaca941ed")
 			(effects
@@ -25730,6 +25730,19 @@
 		(layer "User.1")
 		(uuid "9f6cb2ca-4f65-4eac-ab20-2f832bcad888")
 	)
+	(gr_text "T4"
+		(at 187.5 102.5 0)
+		(layer "F.SilkS")
+		(uuid "046b857e-70a8-4366-bf3b-0083e064b563")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "IM"
 		(at 165.5 65 0)
 		(layer "F.SilkS")
@@ -25742,6 +25755,32 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "T3"
+		(at 190 102.5 0)
+		(layer "F.SilkS")
+		(uuid "082376b6-cc10-44c1-866a-ae0729979ba4")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "T13"
+		(at 187.063923 80.285286 0)
+		(layer "F.SilkS")
+		(uuid "12946453-fcad-4bda-b212-8b08024d9dc7")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "10\n"
 		(at 86.5 102.5 0)
 		(layer "F.SilkS")
@@ -25752,6 +25791,19 @@
 				(thickness 0.15)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "T2"
+		(at 192.5 102.5 0)
+		(layer "F.SilkS")
+		(uuid "1f3e53b1-78b4-47d5-bd48-9e748d3cbc8f")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "4"
@@ -25790,6 +25842,19 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "T1"
+		(at 195 102.5 0)
+		(layer "F.SilkS")
+		(uuid "3ba73153-7860-41eb-87cd-cfb188ea6fc4")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Mandolule"
 		(at 136 116 0)
 		(layer "F.SilkS")
@@ -25814,6 +25879,32 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "T11"
+		(at 182.063923 80.285286 0)
+		(layer "F.SilkS")
+		(uuid "51f91e29-3193-449e-8bc8-66cc4dea1367")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "T10"
+		(at 179.563923 80.285286 0)
+		(layer "F.SilkS")
+		(uuid "542fe411-d4f0-4158-b8ac-68ba4cded53a")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "IP"
 		(at 163 65 0)
 		(layer "F.SilkS")
@@ -25836,6 +25927,19 @@
 				(thickness 0.15)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "T9"
+		(at 177.563923 80.285286 0)
+		(layer "F.SilkS")
+		(uuid "77ad5daa-3c67-4984-8a20-57f589a7f40f")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "5"
@@ -25886,6 +25990,19 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "T16"
+		(at 195.063923 80.285286 0)
+		(layer "F.SilkS")
+		(uuid "8fe40c30-ae55-4891-b02e-d9b53cb1b100")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "B"
 		(at 159 65.5 0)
 		(layer "F.SilkS")
@@ -25910,6 +26027,19 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "T7"
+		(at 180 102.5 0)
+		(layer "F.SilkS")
+		(uuid "a8b11691-f15e-4466-a164-44f1d7425050")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "11"
 		(at 77 80.5 0)
 		(layer "F.SilkS")
@@ -25920,6 +26050,45 @@
 				(thickness 0.15)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "T8"
+		(at 177.5 102.5 0)
+		(layer "F.SilkS")
+		(uuid "ad36d675-7160-47da-b8ce-5c6f0f28d3fc")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "T12"
+		(at 184.563923 80.285286 0)
+		(layer "F.SilkS")
+		(uuid "b66d204a-1816-45e7-afe7-0c98c5ba2f8a")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "T15"
+		(at 192.063923 80.285286 0)
+		(layer "F.SilkS")
+		(uuid "bad14def-c966-4a96-afcc-fc03d3e26a63")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "8"
@@ -25970,6 +26139,19 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "T14"
+		(at 189.563923 80.285286 0)
+		(layer "F.SilkS")
+		(uuid "d2a67c32-6f1f-431c-9d7e-a0507b50d82b")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "+V\n"
 		(at 89 102.5 0)
 		(layer "F.SilkS")
@@ -26006,6 +26188,19 @@
 			(justify bottom)
 		)
 	)
+	(gr_text "T5"
+		(at 185 102.5 0)
+		(layer "F.SilkS")
+		(uuid "e4069465-3a23-4fc7-aa03-3de4ad4457bc")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "A"
 		(at 168.5 65.5 0)
 		(layer "F.SilkS")
@@ -26016,6 +26211,19 @@
 				(thickness 0.15)
 			)
 			(justify bottom)
+		)
+	)
+	(gr_text "T6"
+		(at 182.5 102.5 0)
+		(layer "F.SilkS")
+		(uuid "efc2d10a-24ac-4c10-8169-bc23ed88cef5")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(segment

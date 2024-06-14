@@ -8393,7 +8393,7 @@
 		(descr "0805-ren3")
 		(tags "Capacitor")
 		(property "Reference" "C2"
-			(at 3 0 360)
+			(at 3 0 0)
 			(layer "F.SilkS")
 			(uuid "db869e94-3425-47b6-9acc-81511f85b5cd")
 			(effects
@@ -8404,7 +8404,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 2.54 360)
+			(at 0 2.54 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c8d7a112-984d-44ba-83c7-c70999749baa")
@@ -8640,7 +8640,7 @@
 			(uuid "5a7acd18-0a39-47fd-95ce-312bf86608bb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -4 -5.5 360)
+			(at -4 -5.5 0)
 			(layer "F.Fab")
 			(uuid "20b16742-6d97-439c-93ee-f191d1df9441")
 			(effects
