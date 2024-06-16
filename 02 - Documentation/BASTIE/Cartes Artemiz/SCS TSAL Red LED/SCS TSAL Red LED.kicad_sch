@@ -1124,7 +1124,7 @@
 				)
 			)
 		)
-		(symbol "EPSA_lib:Gate OR SN74AHCT1G32DBVR"
+		(symbol "EPSA_lib:Gate AND SN74AHCT1G08DBVR"
 			(pin_names
 				(offset 0.762)
 			)
@@ -1132,7 +1132,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "G"
-				(at 34.29 8.89 0)
+				(at 2.54 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1140,8 +1140,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Gate OR SN74AHCT1G32DBVR"
-				(at 34.29 6.35 0)
+			(property "Value" "Gate AND SN74AHCT1G08DBVR"
+				(at 34.29 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1151,7 +1151,7 @@
 				)
 			)
 			(property "Footprint" "EPSA_lib:SOT95P280X145-5N"
-				(at 34.29 3.81 0)
+				(at 34.29 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1160,8 +1160,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ahct1g32.pdf"
-				(at 34.29 1.27 0)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-6/sf-000128638.pdf"
+				(at 34.29 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1170,8 +1170,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "2-Input Positive-OR Gate SN74AHCT1G32DBV"
-				(at 34.29 -1.27 0)
+			(property "Description" "SN74AHCT1G08DBVR, Logic Gate 2 Input AND, AHCT, 8mA 5V 5-Pin SOT-23"
+				(at 34.29 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1181,7 +1181,7 @@
 				)
 			)
 			(property "Sim.Pins" "4=1 1=2 2=3 5=4 3=5"
-				(at 55.88 11.43 0)
+				(at 44.45 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1191,7 +1191,7 @@
 				)
 			)
 			(property "Sim.Device" "SPICE"
-				(at 38.1 8.89 0)
+				(at 36.83 8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1200,8 +1200,8 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Params" "type=\"X\" model=\"SN74AHCT1G32\" lib=\"${EPSA}\\SpiceModel\\OR_SN74AHCT1G32.lib\""
-				(at 0 0 0)
+			(property "Sim.Params" "type=\"X\" model=\"SN74AHC1G08\" lib=\"${EPSA_lib}\\SpiceModel\\AND_SN74AHC1G08.lib\""
+				(at 74.93 16.51 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1210,7 +1210,7 @@
 				)
 			)
 			(property "Height" "1.45"
-				(at 34.29 -3.81 0)
+				(at 34.29 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1220,7 +1220,7 @@
 				)
 			)
 			(property "Manufacturer_Name" "Texas Instruments"
-				(at 34.29 -6.35 0)
+				(at 34.29 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1229,8 +1229,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "SN74AHCT1G32DBVR"
-				(at 34.29 -8.89 0)
+			(property "Manufacturer_Part_Number" "SN74AHCT1G08DBVR"
+				(at 34.29 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1239,8 +1239,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "595-SN74AHCT1G32DBVR"
-				(at 34.29 -11.43 0)
+			(property "Mouser Part Number" "595-SN74AHCT1G08DBVR"
+				(at 34.29 -12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1249,8 +1249,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G32DBVR?qs=0le1rQK8zxpIB8pUTaKa9Q%3D%3D"
-				(at 34.29 -13.97 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G08DBVR?qs=8Pd2FuFSoMGY9AK%2Ftqwbcw%3D%3D"
+				(at 34.29 -15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1259,8 +1259,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "SN74AHCT1G32DBVR"
-				(at 34.29 -16.51 0)
+			(property "Arrow Part Number" "SN74AHCT1G08DBVR"
+				(at 34.29 -17.78 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1269,8 +1269,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahct1g32dbvr/texas-instruments"
-				(at 34.29 -19.05 0)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahct1g08dbvr/texas-instruments?region=nac"
+				(at 34.29 -20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1279,39 +1279,44 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Testing Part Number" ""
-				(at 21.59 -22.86 0)
+			(property "Render Name" "Gate AND"
+				(at -1.27 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Mouser Testing Price/Stock" ""
-				(at 21.59 -25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "Gate AND SN74AHCT1G08DBVR_1_1"
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 0 -2.54) (xy 0 2.54) (xy 5.08 2.54)
 					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Render Name" "Gate OR"
-				(at 12.7 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
-			)
-			(symbol "Gate OR SN74AHCT1G32DBVR_0_0"
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "A"
+				(arc
+					(start 5.1025 -2.54)
+					(mid 7.6201 0)
+					(end 5.1025 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 1.27 0)
+					(length 3.81)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1326,10 +1331,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "B"
+				(pin input line
+					(at -3.81 -1.27 0)
+					(length 3.81)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1344,13 +1349,13 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
+				(pin power_in line
+					(at 1.27 -5.08 90)
+					(length 2.54)
 					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
@@ -1362,10 +1367,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "Y"
+				(pin output line
+					(at 11.43 0 180)
+					(length 3.81)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1380,13 +1385,13 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
+				(pin power_in line
+					(at 5.08 5.08 270)
+					(length 2.54)
 					(name "VCC"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
@@ -1396,20 +1401,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "Gate OR SN74AHCT1G32DBVR_0_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 20.32 2.54) (xy 20.32 -7.62) (xy 5.08 -7.62) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -3424,6 +3415,12 @@
 		(uuid "033adb1d-dfbb-447b-b1ad-eab8c7b2b15e")
 	)
 	(junction
+		(at 99.06 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22098b08-ff7f-4fd9-a3cb-9e5181b18cff")
+	)
+	(junction
 		(at 146.05 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3460,6 +3457,12 @@
 		(uuid "b26c9ab1-0914-498d-8d7b-0be69d927e11")
 	)
 	(junction
+		(at 116.84 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b81dd287-b522-4622-aed3-3bb7e953cbb6")
+	)
+	(junction
 		(at 140.97 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3476,6 +3479,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f04164e0-5a01-4a5f-8421-f8f0b5bbe122")
+	)
+	(wire
+		(pts
+			(xy 111.76 97.79) (xy 128.27 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07cf2a65-fe41-4190-a5e6-a57d07fd09cc")
 	)
 	(polyline
 		(pts
@@ -3527,6 +3540,16 @@
 		)
 		(uuid "25cfd245-c91e-4d86-865a-76fba23b5212")
 	)
+	(wire
+		(pts
+			(xy 215.9 93.98) (xy 226.06 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2645e815-b3f1-4609-9df9-c9e27dbab799")
+	)
 	(polyline
 		(pts
 			(xy 105.41 107.95) (xy 72.39 107.95)
@@ -3556,16 +3579,6 @@
 			(type default)
 		)
 		(uuid "312f09a3-e02f-4080-8ac5-9e944b501207")
-	)
-	(polyline
-		(pts
-			(xy 173.99 152.4) (xy 267.97 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3364a6f6-451f-42a1-9f93-25d5e7eb798d")
 	)
 	(wire
 		(pts
@@ -3619,13 +3632,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 86.36) (xy 170.18 95.25)
+			(xy 242.57 133.35) (xy 248.92 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ecbc6af-c780-437e-929d-d212faceeba0")
+		(uuid "4bb80b50-829a-4244-a225-67c01d612444")
 	)
 	(wire
 		(pts
@@ -3659,7 +3672,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 86.36) (xy 172.72 86.36)
+			(xy 172.72 96.52) (xy 175.26 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3677,16 +3690,6 @@
 		)
 		(uuid "7683065b-4ec3-4a9e-bab7-04bd67196dc3")
 	)
-	(polyline
-		(pts
-			(xy 173.99 109.22) (xy 173.99 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a8dd7b2-029d-43ef-8ce2-8b06c4768deb")
-	)
 	(wire
 		(pts
 			(xy 186.69 133.35) (xy 193.04 133.35)
@@ -3696,6 +3699,26 @@
 			(type default)
 		)
 		(uuid "7f9586c6-7a79-4477-a898-035aa23790c1")
+	)
+	(wire
+		(pts
+			(xy 99.06 129.54) (xy 116.84 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80080a54-1d18-44d8-ae68-a47a27bfc865")
+	)
+	(wire
+		(pts
+			(xy 128.27 124.46) (xy 116.84 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82a756b2-b4ab-4dac-8edc-f24258582d68")
 	)
 	(wire
 		(pts
@@ -3787,6 +3810,16 @@
 		)
 		(uuid "a7ceff75-3ecf-412f-bc7e-14da598ea2f3")
 	)
+	(wire
+		(pts
+			(xy 143.51 96.52) (xy 154.94 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97883a0-4313-4d7b-b44c-3d4ea3b57681")
+	)
 	(polyline
 		(pts
 			(xy 105.41 52.07) (xy 105.41 107.95)
@@ -3807,16 +3840,6 @@
 		)
 		(uuid "aa4688e5-f9f6-4cdf-a72d-40ede40514bc")
 	)
-	(polyline
-		(pts
-			(xy 267.97 152.4) (xy 267.97 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab1b3d03-8063-4dde-8006-9a94a8e75316")
-	)
 	(wire
 		(pts
 			(xy 199.39 139.7) (xy 199.39 133.35)
@@ -3829,13 +3852,23 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 133.35) (xy 252.73 133.35)
+			(xy 116.84 124.46) (xy 116.84 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "afe57815-df05-408a-bd42-948d9178b802")
+		(uuid "b1fce71a-5500-4c9b-afd4-9070095d473a")
+	)
+	(wire
+		(pts
+			(xy 128.27 138.43) (xy 116.84 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ff5a12-3dbf-4141-8214-931b36ae6a8e")
 	)
 	(wire
 		(pts
@@ -3887,26 +3920,6 @@
 		)
 		(uuid "cae523f7-b459-4782-a775-96e4f9defd6a")
 	)
-	(polyline
-		(pts
-			(xy 267.97 109.22) (xy 173.99 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbb3b0bd-44ef-485b-b2d4-1039413d93f9")
-	)
-	(wire
-		(pts
-			(xy 149.86 95.25) (xy 152.4 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d91e4068-6e58-4d5c-b0f3-2c1bd03bc94f")
-	)
 	(wire
 		(pts
 			(xy 93.98 82.55) (xy 95.25 82.55)
@@ -3916,6 +3929,16 @@
 			(type default)
 		)
 		(uuid "d9315565-6c5b-454a-87ef-fa2f79f41941")
+	)
+	(wire
+		(pts
+			(xy 111.76 95.25) (xy 128.27 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc12cfde-ab35-48b9-8e49-2d90050be4d8")
 	)
 	(wire
 		(pts
@@ -3946,6 +3969,16 @@
 			(type default)
 		)
 		(uuid "e794bf9c-d370-4d42-8bde-e65b264dab07")
+	)
+	(wire
+		(pts
+			(xy 116.84 138.43) (xy 116.84 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f1a6cb-370f-46ff-9b35-90f644db3562")
 	)
 	(wire
 		(pts
@@ -3998,6 +4031,18 @@
 		(uuid "fc9f3ac6-beb7-49a6-96c9-a111df2c21e1")
 	)
 	(rectangle
+		(start 173.482 109.22)
+		(end 260.096 152.146)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 863a4ebe-156d-4bbf-bf9b-611e88c44c0b)
+	)
+	(rectangle
 		(start 109.22 52.07)
 		(end 142.24 69.85)
 		(stroke
@@ -4011,7 +4056,7 @@
 	)
 	(rectangle
 		(start 109.22 72.39)
-		(end 226.06 105.41)
+		(end 228.6 105.41)
 		(stroke
 			(width 0)
 			(type default)
@@ -4066,7 +4111,7 @@
 		(uuid "b4d460da-b4ac-4cb9-93ac-c29dca7553f6")
 	)
 	(label "LED_On"
-		(at 99.06 129.54 0)
+		(at 102.87 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4076,7 +4121,7 @@
 		)
 		(uuid "0617a3fc-9801-4aaa-a41d-288762f76a48")
 	)
-	(label "SCS_Failure"
+	(label "SCS_Compliance"
 		(at 151.13 137.16 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4086,17 +4131,6 @@
 			(justify left bottom)
 		)
 		(uuid "15082a6d-87a9-440b-bfc7-bc09ec296d8a")
-	)
-	(label "4.25V"
-		(at 128.27 138.43 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "259a0bb8-48c7-49ed-99c2-8a092cce2adf")
 	)
 	(label "4.25V"
 		(at 95.25 82.55 0)
@@ -4110,13 +4144,13 @@
 		(uuid "27d2cdc5-a6ad-49d7-952c-823115ca1c58")
 	)
 	(label "LED_Power"
-		(at 213.36 83.82 0)
+		(at 226.06 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2afb6f97-bfaa-4ad1-a74d-623a2d67f49a")
 	)
@@ -4132,17 +4166,17 @@
 		(uuid "2ea0fb67-783e-40ff-a2ef-37c1c8c0b611")
 	)
 	(label "LED_On"
-		(at 124.46 95.25 180)
+		(at 111.76 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "596bfab2-9633-4281-a797-657d5e9c6c12")
 	)
-	(label "LED_On"
+	(label "4.25V"
 		(at 128.27 135.89 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4151,16 +4185,27 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "617d1487-f62e-4adc-8813-8059719d83b8")
+		(uuid "609084d9-26a7-488e-a969-5d38a58bb9fa")
 	)
-	(label "SCS_Failure"
-		(at 124.46 97.79 180)
+	(label "0.75V"
+		(at 128.27 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
+		)
+		(uuid "7b73da2b-26aa-45ee-972f-946cb7b2bd67")
+	)
+	(label "SCS_Compliance"
+		(at 111.76 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "93082637-8a00-4222-8cb3-dd9a00a42900")
 	)
@@ -4207,28 +4252,6 @@
 			(justify left bottom)
 		)
 		(uuid "cd20f79b-aec2-4815-b61a-b44690abcaa4")
-	)
-	(label "0.75V"
-		(at 128.27 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dace62ab-8fd7-4802-aeb9-9ae9b305c280")
-	)
-	(label "LED_On"
-		(at 128.27 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f0067045-7371-427c-9e8d-406c1128cd6d")
 	)
 	(symbol
 		(lib_id "EPSA_lib:Opamp")
@@ -4330,7 +4353,7 @@
 			(uuid "2936969e-4d66-4d7f-8ed2-4f9161c1cf51")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "U1")
 					(unit 1)
@@ -4493,7 +4516,7 @@
 			(uuid "70396bc5-0c28-4263-b8e6-db4e0c10d501")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "C2")
 					(unit 1)
@@ -4644,7 +4667,7 @@
 			(uuid "821e77f4-f784-491c-ac5b-6f702356366e")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "C4")
 					(unit 1)
@@ -4795,7 +4818,7 @@
 			(uuid "0f2572f3-04ce-47dc-89cc-58ac3877f31b")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "C3")
 					(unit 1)
@@ -4805,7 +4828,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 172.72 83.82 90)
+		(at 175.26 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4814,7 +4837,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ec1fb28-2d57-4663-a190-66c5d3c3ff4d")
 		(property "Reference" "#PWR03"
-			(at 176.53 83.82 0)
+			(at 179.07 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4823,7 +4846,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 168.91 83.82 90)
+			(at 171.45 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,7 +4855,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 83.82 0)
+			(at 175.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4841,7 +4864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 83.82 0)
+			(at 175.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4850,7 +4873,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 83.82 0)
+			(at 175.26 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4862,7 +4885,7 @@
 			(uuid "2a36a9dd-e033-4607-b4bd-8c0159722bee")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR03")
 					(unit 1)
@@ -4884,7 +4907,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 124.46 100.33 270)
+		(at 133.35 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4893,7 +4916,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f1a3ea0-bacf-42b5-99d6-bc2562da6519")
 		(property "Reference" "#GND010"
-			(at 121.92 100.33 0)
+			(at 133.35 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4902,16 +4925,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 120.65 100.33 90)
+			(at 135.89 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 100.33 0)
+			(at 133.35 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4920,7 +4943,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 100.33 0)
+			(at 133.35 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4929,7 +4952,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 100.33 0)
+			(at 133.35 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4941,7 +4964,7 @@
 			(uuid "07519a0e-a422-42fb-b385-2308ff6a8a16")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND010")
 					(unit 1)
@@ -5151,7 +5174,7 @@
 			(uuid "1bcdc824-96da-47b0-99c1-cd13002c3778")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "R2")
 					(unit 1)
@@ -5235,7 +5258,7 @@
 			(uuid "cbd7e35f-d928-4cc8-9b63-650531893409")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND07")
 					(unit 1)
@@ -5307,7 +5330,7 @@
 			(uuid "bdf9766e-cf11-4297-a15f-88717625beb3")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND06")
 					(unit 1)
@@ -5385,7 +5408,7 @@
 			(uuid "bc07eaf6-489e-479d-9bf1-096ebb7cdf10")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR05")
 					(unit 1)
@@ -5463,7 +5486,7 @@
 			(uuid "b5e22630-bce2-4e20-9e34-7d003bc05ca3")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR04")
 					(unit 1)
@@ -5541,7 +5564,7 @@
 			(uuid "80787fba-c44a-4d12-b15d-a7fe6c483945")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND04")
 					(unit 1)
@@ -5619,7 +5642,7 @@
 			(uuid "6746471f-1ac8-4626-92ab-227a831e2945")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR01")
 					(unit 1)
@@ -5691,7 +5714,7 @@
 			(uuid "97b77dde-48c2-4f96-a367-b710230b0a88")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#FLG01")
 					(unit 1)
@@ -5757,7 +5780,7 @@
 			(uuid "2a716a35-764a-4ddc-8786-39f3df902d3c")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND012")
 					(unit 1)
@@ -5955,7 +5978,7 @@
 			(uuid "dffccec3-ef7f-4658-88b7-2609a64a10a0")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "R3")
 					(unit 1)
@@ -6040,7 +6063,7 @@
 			(uuid "c9ee621f-6eb9-42b9-84b3-c43791045bb2")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#FLG04")
 					(unit 1)
@@ -6240,7 +6263,7 @@
 			(uuid "e228a5bc-634b-4a11-bf93-ee40b1ab377a")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "R4")
 					(unit 1)
@@ -6446,7 +6469,7 @@
 			(uuid "9bc706ac-34f8-4e1e-9209-ce9f4ac1bc05")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "R5")
 					(unit 1)
@@ -6518,7 +6541,7 @@
 			(uuid "321f2abf-d160-4401-9d5d-39c347b5d8f6")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR06")
 					(unit 1)
@@ -6596,7 +6619,7 @@
 			(uuid "2b460d5c-3449-4eb9-a099-cc86baccde56")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND03")
 					(unit 1)
@@ -6618,7 +6641,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 86.36 90)
+		(at 215.9 96.52 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6627,7 +6650,7 @@
 		(fields_autoplaced yes)
 		(uuid "8fdc671e-bd09-4989-ab64-07e96b0cd0f1")
 		(property "Reference" "#GND09"
-			(at 215.9 86.36 0)
+			(at 218.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,7 +6659,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 86.36 90)
+			(at 219.71 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6645,7 +6668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 86.36 0)
+			(at 215.9 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6654,7 +6677,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 86.36 0)
+			(at 215.9 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6663,7 +6686,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 213.36 86.36 0)
+			(at 215.9 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6675,7 +6698,7 @@
 			(uuid "9160db38-2702-42f7-939c-b7aa9f9b58fc")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND09")
 					(unit 1)
@@ -6841,7 +6864,7 @@
 			(uuid "3323ff30-4595-4a6a-a28e-8b5a8a422c85")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "U2")
 					(unit 3)
@@ -6919,7 +6942,7 @@
 			(uuid "15e1ae43-4f2e-4883-be83-40a1172d3ece")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR02")
 					(unit 1)
@@ -7075,7 +7098,7 @@
 			(uuid "69c47d89-77b2-47bf-b726-2b7c21e3020f")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "J2")
 					(unit 1)
@@ -7153,7 +7176,7 @@
 			(uuid "b93d57cf-c957-4d2f-a12a-4e25597ebe3c")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND05")
 					(unit 1)
@@ -7365,7 +7388,7 @@
 			(uuid "9edfc231-c085-42d0-986a-181038e98866")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "R7")
 					(unit 1)
@@ -7571,7 +7594,7 @@
 			(uuid "d3c6be23-3f10-46a3-8d4d-46cf5d613ebf")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "R6")
 					(unit 1)
@@ -7588,7 +7611,7 @@
 	(symbol
 		(lib_name "Résistance RK73H2BLTDD2152F_5")
 		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
-		(at 170.18 95.25 180)
+		(at 172.72 96.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7596,7 +7619,7 @@
 		(dnp no)
 		(uuid "ac8ae53c-664a-45ac-bcab-e28bbc2d400a")
 		(property "Reference" "R1"
-			(at 160.02 95.25 0)
+			(at 162.56 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7605,7 +7628,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 162.56 97.79 0)
+			(at 165.1 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7614,7 +7637,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:RESC3216X70N"
-			(at 144.78 95.25 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7624,7 +7647,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at 144.78 92.71 0)
+			(at 147.32 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7634,7 +7657,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD"
-			(at 144.78 90.17 0)
+			(at 147.32 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7644,7 +7667,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 144.78 87.63 0)
+			(at 147.32 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7654,7 +7677,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at 144.78 85.09 0)
+			(at 147.32 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7664,7 +7687,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
-			(at 144.78 82.55 0)
+			(at 147.32 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7674,7 +7697,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 144.78 80.01 0)
+			(at 147.32 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7684,7 +7707,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
-			(at 144.78 77.47 0)
+			(at 147.32 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7694,7 +7717,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 156.21 76.2 0)
+			(at 158.75 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7704,7 +7727,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 156.21 73.66 0)
+			(at 158.75 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7714,7 +7737,7 @@
 			)
 		)
 		(property "Mouser Testing Part Number" ""
-			(at 156.21 71.12 0)
+			(at 158.75 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7724,7 +7747,7 @@
 			)
 		)
 		(property "Mouser Testing Price/Stock" ""
-			(at 156.21 68.58 0)
+			(at 158.75 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7734,16 +7757,17 @@
 			)
 		)
 		(property "Render Name" "Résistance"
-			(at 156.21 91.44 0)
+			(at 158.75 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 144.78 100.33 0)
+			(at 147.32 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7753,7 +7777,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"R\" model=\"2k\" lib=\"\""
-			(at 86.36 135.89 0)
+			(at 88.9 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7762,7 +7786,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 86.36 135.89 0)
+			(at 88.9 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7777,7 +7801,7 @@
 			(uuid "77442f0a-18e1-47c1-b351-2b0e8cd86822")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "R1")
 					(unit 1)
@@ -7792,8 +7816,197 @@
 		)
 	)
 	(symbol
+		(lib_id "EPSA_lib:Gate AND SN74AHCT1G08DBVR")
+		(at 132.08 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afad5472-75e6-4cfc-a097-757aa621abea")
+		(property "Reference" "G1"
+			(at 142.494 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Gate AND SN74AHCT1G08DBVR"
+			(at 166.37 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P280X145-5N"
+			(at 166.37 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-6/sf-000128638.pdf"
+			(at 166.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "SN74AHCT1G08DBVR, Logic Gate 2 Input AND, AHCT, 8mA 5V 5-Pin SOT-23"
+			(at 166.37 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "4=1 1=2 2=3 5=4 3=5"
+			(at 176.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 168.91 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"SN74AHC1G08\" lib=\"${EPSA_lib}\\SpiceModel\\AND_SN74AHC1G08.lib\""
+			(at 207.01 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 166.37 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 166.37 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SN74AHCT1G08DBVR"
+			(at 166.37 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-SN74AHCT1G08DBVR"
+			(at 166.37 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G08DBVR?qs=8Pd2FuFSoMGY9AK%2Ftqwbcw%3D%3D"
+			(at 166.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SN74AHCT1G08DBVR"
+			(at 166.37 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahct1g08dbvr/texas-instruments?region=nac"
+			(at 166.37 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Gate AND"
+			(at 130.81 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "0d0b77bd-9f76-48e7-9e47-e9d2042f774d")
+		)
+		(pin "1"
+			(uuid "84ec041a-f229-464a-acb3-06065281e8f3")
+		)
+		(pin "3"
+			(uuid "38cdc010-ebe1-41ae-826e-eecceaa9c6b3")
+		)
+		(pin "4"
+			(uuid "230ffa16-b8aa-41c2-9b6b-f83fa8c50779")
+		)
+		(pin "2"
+			(uuid "53fc2df6-216d-416d-a934-ec1979a588a5")
+		)
+		(instances
+			(project "SCS TSAL Green LED"
+				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
+					(reference "G1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EPSA_lib:SSR CPC1394GR")
-		(at 172.72 83.82 0)
+		(at 175.26 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7802,7 +8015,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8ebdb24-4474-4deb-b995-5c1187eb5169")
 		(property "Reference" "K1"
-			(at 193.04 76.2 0)
+			(at 195.58 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7810,7 +8023,7 @@
 			)
 		)
 		(property "Value" "SSR CPC1394GR"
-			(at 220.98 78.74 0)
+			(at 223.52 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7820,7 +8033,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:CPC1394GR"
-			(at 220.98 81.28 0)
+			(at 223.52 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7830,7 +8043,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/CPC1394GR.pdf"
-			(at 220.98 83.82 0)
+			(at 223.52 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7840,7 +8053,7 @@
 			)
 		)
 		(property "Description" "SPST-NO Solid State Relay Solder 120 mA rms/mA dc Surface Mount, DC MOSFET"
-			(at 220.98 86.36 0)
+			(at 223.52 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7850,7 +8063,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1 2=2 3=3 4=4"
-			(at 231.14 104.14 0)
+			(at 233.68 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7859,7 +8072,7 @@
 			)
 		)
 		(property "Sim.Device" "SPICE"
-			(at 232.41 73.66 0)
+			(at 234.95 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7869,7 +8082,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"X\" model=\"SWITCH\" lib=\"${EPSA_lib}\\SpiceModel\\SSR.lib\""
-			(at 252.73 101.6 0)
+			(at 255.27 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7878,7 +8091,7 @@
 			)
 		)
 		(property "Height" "3.556"
-			(at 220.98 88.9 0)
+			(at 223.52 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7888,7 +8101,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 220.98 91.44 0)
+			(at 223.52 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7898,7 +8111,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CPC1394GR"
-			(at 220.98 93.98 0)
+			(at 223.52 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7908,7 +8121,7 @@
 			)
 		)
 		(property "Mouser Part Number" "849-CPC1394GR"
-			(at 220.98 96.52 0)
+			(at 223.52 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7918,7 +8131,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/IXYS-Integrated-Circuits/CPC1394GR?qs=8uBHJDVwVqyTG8bzDwZMmA%3D%3D"
-			(at 220.98 99.06 0)
+			(at 223.52 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7928,7 +8141,7 @@
 			)
 		)
 		(property "Render Name" "SSR"
-			(at 193.04 78.74 0)
+			(at 195.58 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7948,7 +8161,7 @@
 			(uuid "d9f7fbf8-81cb-4058-afc9-436fbe0855c9")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "K1")
 					(unit 1)
@@ -8014,7 +8227,7 @@
 			(uuid "29aec38b-0c1d-4e8c-9738-8e33f140dd22")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR07")
 					(unit 1)
@@ -8092,7 +8305,7 @@
 			(uuid "28d7ef79-12ac-4e8c-a432-e7953e33f959")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND08")
 					(unit 1)
@@ -8165,7 +8378,7 @@
 			(uuid "58b833c4-d0bc-4ed6-823a-5b6862c1b49b")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "C1")
 					(unit 1)
@@ -8243,7 +8456,7 @@
 			(uuid "984c9c6d-b4ed-45d9-b762-0ccb9e80b15d")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND01")
 					(unit 1)
@@ -8321,7 +8534,7 @@
 			(uuid "6905fd37-d211-479e-baba-01bfda27039a")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND011")
 					(unit 1)
@@ -8388,7 +8601,7 @@
 			(uuid "2c69f395-4b98-41bf-9ae0-91d348c1eaec")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND02")
 					(unit 1)
@@ -8410,7 +8623,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 149.86 97.79 270)
+		(at 137.16 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8418,7 +8631,7 @@
 		(dnp no)
 		(uuid "e5257c84-5c24-4ef6-b67f-7a1c726306b9")
 		(property "Reference" "#PWR09"
-			(at 146.05 97.79 0)
+			(at 137.16 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8427,7 +8640,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 151.13 100.33 0)
+			(at 139.7 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8435,7 +8648,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 97.79 0)
+			(at 137.16 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8444,7 +8657,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 97.79 0)
+			(at 137.16 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8453,7 +8666,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 97.79 0)
+			(at 137.16 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8465,7 +8678,7 @@
 			(uuid "1f8cfce9-e282-4a0c-88cc-7f2876971a5f")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR09")
 					(unit 1)
@@ -8629,7 +8842,7 @@
 			(uuid "4538ea4d-459c-4561-9d9e-62a1c7a04c72")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "U2")
 					(unit 2)
@@ -8789,7 +9002,7 @@
 			(uuid "46b297b4-7659-41e7-a533-712a423f2b4c")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "J1")
 					(unit 1)
@@ -8804,215 +9017,6 @@
 			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EPSA_lib:Gate OR SN74AHCT1G32DBVR")
-		(at 124.46 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee5c1e8a-ec9b-443b-97d3-e6f22a80f0ae")
-		(property "Reference" "G1"
-			(at 137.16 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Gate OR SN74AHCT1G32DBVR"
-			(at 158.75 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "EPSA_lib:SOT95P280X145-5N"
-			(at 158.75 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74ahct1g32.pdf"
-			(at 158.75 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "2-Input Positive-OR Gate SN74AHCT1G32DBV"
-			(at 158.75 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "4=1 1=2 2=3 5=4 3=5"
-			(at 180.34 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SPICE"
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "type=\"X\" model=\"SN74AHCT1G32\" lib=\"${EPSA}\\SpiceModel\\OR_SN74AHCT1G32.lib\""
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 158.75 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 158.75 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SN74AHCT1G32DBVR"
-			(at 158.75 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "595-SN74AHCT1G32DBVR"
-			(at 158.75 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G32DBVR?qs=0le1rQK8zxpIB8pUTaKa9Q%3D%3D"
-			(at 158.75 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "SN74AHCT1G32DBVR"
-			(at 158.75 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahct1g32dbvr/texas-instruments"
-			(at 158.75 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Testing Part Number" ""
-			(at 146.05 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Testing Price/Stock" ""
-			(at 146.05 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Render Name" "Gate OR"
-			(at 137.16 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "92e3b633-5d0a-4079-91e7-f60a94cd7533")
-		)
-		(pin "2"
-			(uuid "0c819784-4a0d-4dd9-bc03-68eedc08acda")
-		)
-		(pin "3"
-			(uuid "25804790-7c97-4a4e-ab91-0361ae099657")
-		)
-		(pin "4"
-			(uuid "2380c308-5296-4297-8983-babfbf133b50")
-		)
-		(pin "5"
-			(uuid "32af1f11-1d69-4255-ba7e-d7206373f571")
-		)
-		(instances
-			(project "SCS LEDs"
-				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
-					(reference "G1")
 					(unit 1)
 				)
 			)
@@ -9162,7 +9166,7 @@
 			(uuid "16da0ab2-c491-4d0e-aac1-b17c4b9b6a67")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "U2")
 					(unit 1)
@@ -9184,7 +9188,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 252.73 133.35 270)
+		(at 248.92 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9192,7 +9196,7 @@
 		(dnp no)
 		(uuid "f5544cdd-043a-476f-a5f7-46a0ebe716ad")
 		(property "Reference" "#PWR08"
-			(at 248.92 133.35 0)
+			(at 245.11 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9201,7 +9205,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 254 135.89 0)
+			(at 250.19 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9209,7 +9213,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 133.35 0)
+			(at 248.92 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9218,7 +9222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 133.35 0)
+			(at 248.92 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9227,7 +9231,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 133.35 0)
+			(at 248.92 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9239,7 +9243,7 @@
 			(uuid "11dc5e4e-9762-42d8-8283-e6c211dbae93")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR08")
 					(unit 1)
@@ -9455,7 +9459,7 @@
 			(uuid "3e428355-ad8e-4c99-a1ff-3e5301390177")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS TSAL Green LED"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "U3")
 					(unit 1)
