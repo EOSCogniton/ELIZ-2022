@@ -115,7 +115,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../Cirly/AMS & IMD Reset/")
+			(outputdirectory "../../../BASTIE/Cartes Artemiz/Cirly/AMS & IMD Reset Charger/")
 		)
 	)
 	(net 0 "")
@@ -9394,7 +9394,7 @@
 		(descr "2B(1206)")
 		(tags "Resistor")
 		(property "Reference" "R21"
-			(at -0.011901 -1.701971 270)
+			(at -0.011901 -1.701971 -90)
 			(layer "F.SilkS")
 			(uuid "c93678e8-f5c5-4522-8c9b-1afc50290cda")
 			(effects
@@ -9405,7 +9405,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 2.54 270)
+			(at 0 2.54 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f96b3573-f861-4062-84eb-b64e5640a9ff")
@@ -9716,7 +9716,7 @@
 			(uuid "436b0df9-f9b6-45ac-98a5-1e2dcd26f181")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -5.08 -2.54 270)
+			(at -5.08 -2.54 -90)
 			(layer "F.Fab")
 			(uuid "24f67830-1d08-4717-a9b5-b905538dbd9f")
 			(effects
