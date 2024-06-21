@@ -465,7 +465,7 @@
 			(pintype "passive")
 			(uuid "9990162a-8b4e-40a7-b4c9-e3896c0ec530")
 		)
-		(model "5-103735-1.stp"
+		(model "${EPSA3D}/5-103735-1.stp"
 			(offset
 				(xyz 1.269999962 0.02999999888 13.62999991)
 			)
@@ -1885,7 +1885,7 @@
 			(pintype "passive")
 			(uuid "6bc09bfd-2847-47f8-920d-eb1f8d333a32")
 		)
-		(model "LTC6811IG-1#PBF.stp"
+		(model "${EPSA3D}/LTC6811IG-1#PBF.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3360,7 +3360,7 @@
 			(pintype "passive")
 			(uuid "5cca7ebc-438b-47f3-85f2-c5fa7f8d4d9f")
 		)
-		(model "ADG728BRUZ-REEL7.stp"
+		(model "${EPSA3D}/ADG728BRUZ-REEL7.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8902,7 +8902,7 @@
 			(pintype "passive")
 			(uuid "6fa59e75-2b2a-49bb-835f-10849c627858")
 		)
-		(model "5-103635-8.stp"
+		(model "${EPSA3D}/5-103635-8.step"
 			(offset
 				(xyz -10.15999969 12.66999989 2.529999933)
 			)
@@ -13934,7 +13934,7 @@
 			(pintype "passive")
 			(uuid "d2a722f5-41f3-4a4e-89f2-f39da945d176")
 		)
-		(model "5-103635-8.stp"
+		(model "${EPSA3D}/5-103635-8.step"
 			(offset
 				(xyz -10.15999969 12.66999989 2.529999933)
 			)
@@ -14212,7 +14212,7 @@
 			(pintype "passive")
 			(uuid "92e98f4d-73ec-486b-b112-e8347880cbdb")
 		)
-		(model "5-103635-6.stp"
+		(model "${EPSA3D}/5-103635-6.step"
 			(offset
 				(xyz 7.75 12.75 2.5)
 			)
@@ -14290,7 +14290,7 @@
 			)
 		)
 		(property "Height" "5"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f48a9879-dd6d-43d4-b5e6-9cabb227726d")
@@ -14302,7 +14302,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d07eeefc-68db-46a2-b89a-12cc138ac668")
@@ -14314,7 +14314,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SM91501ALE"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7e5e3a03-7b12-49b1-9c01-38941282cb36")
@@ -14326,7 +14326,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-SM91501ALE"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5e2ef159-20c8-4784-b018-f0ea124daee9")
@@ -14338,7 +14338,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/SM91501ALE?qs=qSfuJ%252Bfl%2Fd67nNHsx2b1iA%3D%3D"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d4e35ca1-1073-40cc-8d17-f89d02f520e3")
@@ -14611,7 +14611,7 @@
 			(pintype "passive")
 			(uuid "a2600eac-17c7-462e-ba97-c9ccc8d63632")
 		)
-		(model "SM91501ALE.stp"
+		(model "${EPSA3D}/SM91501ALE.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16781,7 +16781,7 @@
 			(pintype "passive")
 			(uuid "f1cfc525-ee68-43a9-a824-d6dc2372a0b1")
 		)
-		(model "5-103735-1.stp"
+		(model "${EPSA3D}/5-103735-1.stp"
 			(offset
 				(xyz 1.269999962 0.02999999888 13.62999991)
 			)
@@ -21732,7 +21732,7 @@
 			(pintype "passive")
 			(uuid "d167dbf3-aec6-411f-87fb-6a4feedfd80e")
 		)
-		(model "5-103635-6.stp"
+		(model "${EPSA3D}/5-103635-6.step"
 			(offset
 				(xyz 7.75 12.75 2.5)
 			)
@@ -23541,7 +23541,7 @@
 			(pintype "passive")
 			(uuid "18a49565-13cc-4a16-b455-b735be085f39")
 		)
-		(model "ADG728BRUZ-REEL7.stp"
+		(model "${EPSA3D}/ADG728BRUZ-REEL7.stp"
 			(offset
 				(xyz 0 0 0)
 			)
