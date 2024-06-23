@@ -4385,6 +4385,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 62.23) (xy 140.97 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68baf41c-d17a-43c3-951e-17d247e1ecc2")
+	)
+	(wire
+		(pts
 			(xy 194.31 95.25) (xy 196.85 95.25)
 		)
 		(stroke
@@ -5034,6 +5044,17 @@
 		)
 		(uuid "7b73da2b-26aa-45ee-972f-946cb7b2bd67")
 	)
+	(label "Raw_PCB_State_OK"
+		(at 140.97 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7faf5a54-c66d-4f1c-9500-333392126ed2")
+	)
 	(label "SCS_Compliance"
 		(at 111.76 97.79 0)
 		(fields_autoplaced yes)
@@ -5056,28 +5077,6 @@
 		)
 		(uuid "9fd66366-1f4b-48f5-adbb-fcaf7c7b804a")
 	)
-	(label "Raw_LED_On"
-		(at 127 62.23 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0920802-4f1d-41e5-b1d5-c9e6d76144a1")
-	)
-	(label "Raw_LED_On"
-		(at 93.98 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b388b1ee-bbf1-4aa2-ba58-22112f49b05d")
-	)
 	(label "Raw_PCB_State_OK"
 		(at 86.36 128.27 180)
 		(fields_autoplaced yes)
@@ -5099,6 +5098,17 @@
 			(justify left bottom)
 		)
 		(uuid "cd20f79b-aec2-4815-b61a-b44690abcaa4")
+	)
+	(label "Raw_PCB_State_OK"
+		(at 93.98 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f3f93a76-54d6-4c54-be6f-58b4b356eb26")
 	)
 	(symbol
 		(lib_id "EPSA_lib:Opamp")
@@ -5200,7 +5210,7 @@
 			(uuid "2936969e-4d66-4d7f-8ed2-4f9161c1cf51")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "U1")
 					(unit 1)
@@ -5277,7 +5287,7 @@
 			(uuid "47508dcf-4afa-43ca-bafc-985503529314")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR010")
 					(unit 1)
@@ -5428,7 +5438,7 @@
 			(uuid "70396bc5-0c28-4263-b8e6-db4e0c10d501")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "C2")
 					(unit 1)
@@ -5495,7 +5505,7 @@
 			(uuid "498940f7-64c7-42ae-9082-80563e7119eb")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND016")
 					(unit 1)
@@ -5646,7 +5656,7 @@
 			(uuid "821e77f4-f784-491c-ac5b-6f702356366e")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "C4")
 					(unit 1)
@@ -5797,7 +5807,7 @@
 			(uuid "0f2572f3-04ce-47dc-89cc-58ac3877f31b")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "C3")
 					(unit 1)
@@ -5864,7 +5874,7 @@
 			(uuid "2a36a9dd-e033-4607-b4bd-8c0159722bee")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR03")
 					(unit 1)
@@ -5942,7 +5952,7 @@
 			(uuid "4569b054-5ead-485b-a194-38158cee12cd")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND013")
 					(unit 1)
@@ -6009,7 +6019,7 @@
 			(uuid "07519a0e-a422-42fb-b385-2308ff6a8a16")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND010")
 					(unit 1)
@@ -6172,7 +6182,7 @@
 			(uuid "1b059149-65b7-40f3-a9c2-67ec6a7c5ef3")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "C6")
 					(unit 1)
@@ -6370,7 +6380,7 @@
 			(uuid "1bcdc824-96da-47b0-99c1-cd13002c3778")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "R2")
 					(unit 1)
@@ -6454,7 +6464,7 @@
 			(uuid "cbd7e35f-d928-4cc8-9b63-650531893409")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND07")
 					(unit 1)
@@ -6526,7 +6536,7 @@
 			(uuid "bdf9766e-cf11-4297-a15f-88717625beb3")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND06")
 					(unit 1)
@@ -6604,7 +6614,7 @@
 			(uuid "bc07eaf6-489e-479d-9bf1-096ebb7cdf10")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR05")
 					(unit 1)
@@ -6682,7 +6692,7 @@
 			(uuid "1c6c4822-408f-475e-887e-70a12a81af93")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR012")
 					(unit 1)
@@ -6749,7 +6759,7 @@
 			(uuid "31872ed2-ce40-4da5-bfa3-6f8d4662b0e0")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND017")
 					(unit 1)
@@ -6815,7 +6825,7 @@
 			(uuid "b5e22630-bce2-4e20-9e34-7d003bc05ca3")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR04")
 					(unit 1)
@@ -6893,7 +6903,7 @@
 			(uuid "80787fba-c44a-4d12-b15d-a7fe6c483945")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND04")
 					(unit 1)
@@ -6971,7 +6981,7 @@
 			(uuid "6746471f-1ac8-4626-92ab-227a831e2945")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR01")
 					(unit 1)
@@ -7175,7 +7185,7 @@
 			(uuid "9bde797b-17cd-49f4-ae8e-7d53a25fe964")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "R9")
 					(unit 1)
@@ -7241,7 +7251,7 @@
 			(uuid "97b77dde-48c2-4f96-a367-b710230b0a88")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#FLG01")
 					(unit 1)
@@ -7392,7 +7402,7 @@
 			(uuid "f52a582f-5596-4c04-bf5e-9fcc6195cfe9")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "C7")
 					(unit 1)
@@ -7457,7 +7467,7 @@
 			(uuid "b138afc3-2d8a-4901-af95-7b11574a9c04")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR011")
 					(unit 1)
@@ -7523,7 +7533,7 @@
 			(uuid "2a716a35-764a-4ddc-8786-39f3df902d3c")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND012")
 					(unit 1)
@@ -7721,7 +7731,7 @@
 			(uuid "dffccec3-ef7f-4658-88b7-2609a64a10a0")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "R3")
 					(unit 1)
@@ -7806,7 +7816,7 @@
 			(uuid "c9ee621f-6eb9-42b9-84b3-c43791045bb2")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#FLG04")
 					(unit 1)
@@ -8006,7 +8016,7 @@
 			(uuid "e228a5bc-634b-4a11-bf93-ee40b1ab377a")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "R4")
 					(unit 1)
@@ -8212,7 +8222,7 @@
 			(uuid "9bc706ac-34f8-4e1e-9209-ce9f4ac1bc05")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "R5")
 					(unit 1)
@@ -8284,7 +8294,7 @@
 			(uuid "321f2abf-d160-4401-9d5d-39c347b5d8f6")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR06")
 					(unit 1)
@@ -8362,7 +8372,7 @@
 			(uuid "2b460d5c-3449-4eb9-a099-cc86baccde56")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND03")
 					(unit 1)
@@ -8441,7 +8451,7 @@
 			(uuid "9160db38-2702-42f7-939c-b7aa9f9b58fc")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND09")
 					(unit 1)
@@ -8607,7 +8617,7 @@
 			(uuid "3323ff30-4595-4a6a-a28e-8b5a8a422c85")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "U2")
 					(unit 3)
@@ -8685,7 +8695,7 @@
 			(uuid "15e1ae43-4f2e-4883-be83-40a1172d3ece")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR02")
 					(unit 1)
@@ -8841,7 +8851,7 @@
 			(uuid "69c47d89-77b2-47bf-b726-2b7c21e3020f")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "J2")
 					(unit 1)
@@ -8919,7 +8929,7 @@
 			(uuid "b93d57cf-c957-4d2f-a12a-4e25597ebe3c")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND05")
 					(unit 1)
@@ -9131,7 +9141,7 @@
 			(uuid "9edfc231-c085-42d0-986a-181038e98866")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "R7")
 					(unit 1)
@@ -9337,7 +9347,7 @@
 			(uuid "d3c6be23-3f10-46a3-8d4d-46cf5d613ebf")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "R6")
 					(unit 1)
@@ -9544,7 +9554,7 @@
 			(uuid "77442f0a-18e1-47c1-b351-2b0e8cd86822")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "R1")
 					(unit 1)
@@ -9695,7 +9705,7 @@
 			(uuid "6c88c8ec-4ae7-42d5-9b50-cf9bea848f8e")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "CP1")
 					(unit 1)
@@ -9884,7 +9894,7 @@
 			(uuid "cf1cb499-87f0-48ce-bd5c-f1e9c3c60a8f")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "G1")
 					(unit 1)
@@ -10049,7 +10059,7 @@
 			(uuid "d9f7fbf8-81cb-4058-afc9-436fbe0855c9")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "K1")
 					(unit 1)
@@ -10115,7 +10125,7 @@
 			(uuid "29aec38b-0c1d-4e8c-9738-8e33f140dd22")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR07")
 					(unit 1)
@@ -10336,7 +10346,7 @@
 			(uuid "3e305695-3747-49c0-b7e9-fe3e6e59081b")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "G2")
 					(unit 1)
@@ -10402,7 +10412,7 @@
 			(uuid "28d7ef79-12ac-4e8c-a432-e7953e33f959")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND08")
 					(unit 1)
@@ -10475,7 +10485,7 @@
 			(uuid "58b833c4-d0bc-4ed6-823a-5b6862c1b49b")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "C1")
 					(unit 1)
@@ -10553,7 +10563,7 @@
 			(uuid "984c9c6d-b4ed-45d9-b762-0ccb9e80b15d")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND01")
 					(unit 1)
@@ -10716,7 +10726,7 @@
 			(uuid "87c9dad2-d992-41ba-bdf9-cdcb7d488a0c")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "C5")
 					(unit 1)
@@ -10782,7 +10792,7 @@
 			(uuid "6905fd37-d211-479e-baba-01bfda27039a")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND011")
 					(unit 1)
@@ -10849,7 +10859,7 @@
 			(uuid "2c69f395-4b98-41bf-9ae0-91d348c1eaec")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND02")
 					(unit 1)
@@ -10927,7 +10937,7 @@
 			(uuid "a2b2cc07-fe0f-4665-a982-ae5a4bfff4bc")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND014")
 					(unit 1)
@@ -10992,7 +11002,7 @@
 			(uuid "1f8cfce9-e282-4a0c-88cc-7f2876971a5f")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR09")
 					(unit 1)
@@ -11070,7 +11080,7 @@
 			(uuid "f404c80f-6124-42db-9388-a01dd2aaa6c6")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR013")
 					(unit 1)
@@ -11222,7 +11232,7 @@
 			(uuid "4538ea4d-459c-4561-9d9e-62a1c7a04c72")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "U2")
 					(unit 2)
@@ -11432,7 +11442,7 @@
 			(uuid "163a0f10-8d69-425a-9742-71523c118c1b")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "R10")
 					(unit 1)
@@ -11580,7 +11590,7 @@
 			(uuid "46b297b4-7659-41e7-a533-712a423f2b4c")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "J1")
 					(unit 1)
@@ -11744,7 +11754,7 @@
 			(uuid "16da0ab2-c491-4d0e-aac1-b17c4b9b6a67")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "U2")
 					(unit 1)
@@ -11821,7 +11831,7 @@
 			(uuid "11dc5e4e-9762-42d8-8283-e6c211dbae93")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#PWR08")
 					(unit 1)
@@ -12031,7 +12041,7 @@
 			(uuid "5bb69366-8fb1-47d9-a4fa-9b2936f6127c")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "R8")
 					(unit 1)
@@ -12098,7 +12108,7 @@
 			(uuid "a5c06a7c-5564-4014-b3fb-cbc66b35e816")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "#GND015")
 					(unit 1)
@@ -12302,7 +12312,7 @@
 			(uuid "3e428355-ad8e-4c99-a1ff-3e5301390177")
 		)
 		(instances
-			(project "SCS LEDs"
+			(project "SCS IMD-AMS Indicator"
 				(path "/517051b6-4db9-459f-9eb8-ac2447aa7de0"
 					(reference "U3")
 					(unit 1)
