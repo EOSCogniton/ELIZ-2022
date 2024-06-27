@@ -5,126 +5,6 @@
 	(uuid "fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3")
 	(paper "A3")
 	(lib_symbols
-		(symbol "+5V_1"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
 				(offset 1.016) hide)
@@ -6830,16 +6710,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 162.56) (xy 203.2 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f7622d7-0728-4b43-a685-707a3d64e2ff")
-	)
-	(wire
-		(pts
 			(xy 73.66 116.84) (xy 62.23 116.84)
 		)
 		(stroke
@@ -8410,16 +8280,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 149.86) (xy 201.93 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6e33be5-ba7f-46fd-87e6-109d4e2c3b76")
-	)
-	(wire
-		(pts
 			(xy 256.54 262.89) (xy 257.81 262.89)
 		)
 		(stroke
@@ -8550,16 +8410,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 161.29) (xy 209.55 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6a05cf9-c4e9-40ea-a1a2-82ac37e79b1a")
-	)
-	(wire
-		(pts
 			(xy 283.21 80.01) (xy 283.21 83.82)
 		)
 		(stroke
@@ -8627,16 +8477,6 @@
 			(type default)
 		)
 		(uuid "bed4746b-7b7f-4a3b-9e37-9627ddc41d7f")
-	)
-	(wire
-		(pts
-			(xy 201.93 162.56) (xy 201.93 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1bb6c09-af20-4f38-b09d-801872e3d2ca")
 	)
 	(polyline
 		(pts
@@ -8897,16 +8737,6 @@
 			(type default)
 		)
 		(uuid "d6b5ce8b-48df-4602-995c-b64a94f6d6ae")
-	)
-	(wire
-		(pts
-			(xy 203.2 162.56) (xy 203.2 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d92ef8a1-8ddb-4148-93c0-f0f77ffd5a53")
 	)
 	(wire
 		(pts
@@ -10114,7 +9944,7 @@
 		(uuid "7afaa0aa-f6bf-4d29-9365-a59ea462d90d")
 	)
 	(label "MISO"
-		(at 201.93 162.56 180)
+		(at 209.55 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11246,74 +11076,6 @@
 			(project "BMS"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 201.93 149.86 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0624f830-3131-4c62-9782-16b0660f9733")
-		(property "Reference" "#PWR037"
-			(at 198.12 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 205.74 149.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 201.93 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff39a6d7-e48c-46aa-99cc-145b039aa8ee")
-		)
-		(instances
-			(project "BMS"
-				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -14149,75 +13911,6 @@
 			(project "BMS"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 201.93 157.48 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c074502-1b0e-4ab9-9197-ab02746f6fac")
-		(property "Reference" "R54"
-			(at 195.58 155.956 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "5k"
-			(at 196.85 158.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 203.708 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4f31270-1b33-4072-90da-3e441c55c4e3")
-		)
-		(pin "2"
-			(uuid "acdbc4b2-15d9-4a65-a2c2-612d4736dc73")
-		)
-		(instances
-			(project "BMS"
-				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
-					(reference "R54")
 					(unit 1)
 				)
 			)

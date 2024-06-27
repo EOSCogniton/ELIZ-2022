@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.5,
-          "height": 0.6,
-          "width": 0.6
+          "drill": 1.2,
+          "height": 1.5,
+          "width": 1.5
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -60,8 +60,16 @@
         }
       ],
       "drc_exclusions": [
+        "silk_over_copper|118961500|71347500|39179da3-d005-463c-9692-45f2f75f4b72|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|132385000|85576000|74ffee09-57bc-410d-923d-07e91d2771ea|00000000-0000-0000-0000-000000000000",
+        "starved_thermal|113450000|46230000|454a4b89-a870-457d-8b59-4840a190d979|e9a825d0-c11b-4dd9-8a69-8d62f7cb672c|B.Cu",
+        "starved_thermal|118530000|48770000|454a4b89-a870-457d-8b59-4840a190d979|8f3d4f89-b779-44d9-a92e-12623ec6e2ed|B.Cu",
+        "starved_thermal|123610000|46230000|454a4b89-a870-457d-8b59-4840a190d979|cd3cd502-ec60-464d-9f41-9dddb17e5e51|B.Cu",
+        "starved_thermal|131230000|46230000|454a4b89-a870-457d-8b59-4840a190d979|4279f8c1-20ca-4133-b13b-f3aa994bd3c3|B.Cu",
+        "starved_thermal|149010000|46230000|454a4b89-a870-457d-8b59-4840a190d979|52bd276a-a47f-4ee6-a4a7-f4f759dbb274|B.Cu",
         "unconnected_items|108370000|46230000|61dcb4d5-65d6-4c15-a076-74597f3f586c|7d87a509-c008-44c1-a03d-528ddb19ed3d",
-        "unconnected_items|108370000|48770000|81b9e1ca-635b-41f9-8de6-d7544a5d882a|d2cd2847-7a9d-4897-82ac-b596e6b04123"
+        "unconnected_items|108370000|48770000|81b9e1ca-635b-41f9-8de6-d7544a5d882a|d2cd2847-7a9d-4897-82ac-b596e6b04123",
+        "unconnected_items|149010000|46230000|52bd276a-a47f-4ee6-a4a7-f4f759dbb274|2cc7dcbf-6a22-4be1-bb67-db9aaa4a9478"
       ],
       "meta": {
         "version": 2
