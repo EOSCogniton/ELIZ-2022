@@ -1454,7 +1454,7 @@
 	(footprint ""
 		(layer "F.Cu")
 		(uuid "311e971a-c5c8-4ed9-a341-a695bc508ed0")
-		(at 95.25 86.995)
+		(at 95 107.5)
 		(property "Reference" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -2316,7 +2316,7 @@
 	(footprint ""
 		(layer "F.Cu")
 		(uuid "5a509c7d-c019-4154-a8ae-c25cea3b970a")
-		(at 131.445 119.38)
+		(at 131.5 107.5)
 		(property "Reference" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -3288,7 +3288,7 @@
 	(footprint "Connector_Wire:SolderWire-2.5sqmm_1x01_D2.4mm_OD3.6mm"
 		(layer "F.Cu")
 		(uuid "ac4e7c1e-f4dc-4fd2-953c-c369760355b8")
-		(at 83.82 119.38)
+		(at 83.82 106)
 		(descr "Soldered wire connection, for a single 2.5 mm² wire, basic insulation, conductor diameter 2.4mm, outer diameter 3.6mm, size source Multi-Contact FLEXI-E 2.5 (https://ec.staubli.com/AcroFiles/Catalogues/TM_Cab-Main-11014119_(en)_hi.pdf), bend radius 3 times outer diameter, generated with kicad-footprint-generator")
 		(tags "connector wire 2.5sqmm")
 		(property "Reference" "TP1"
@@ -5856,11 +5856,11 @@
 	(footprint "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "e6ab3763-25d9-42bb-99bc-5c6d68f24daf")
-		(at 95.085306 99.757822 -90)
+		(at 95.085306 80 -90)
 		(descr "Resistor, Axial_DIN0617 series, Axial, Horizontal, pin pitch=20.32mm, 2W, length*diameter=17*6mm^2, http://www.vishay.com/docs/20128/wkxwrx.pdf")
 		(tags "Resistor Axial_DIN0617 series Axial Horizontal pin pitch 20.32mm 2W length 17mm diameter 6mm")
 		(property "Reference" "R1"
-			(at 10.16 -4.12 -90)
+			(at 10.16 -4.12 90)
 			(layer "F.SilkS")
 			(uuid "8ee129f9-1b46-4e4e-8294-8cf0027659ff")
 			(effects
@@ -5871,7 +5871,7 @@
 			)
 		)
 		(property "Value" "820k"
-			(at 10.16 4.12 -90)
+			(at 10.16 4.12 90)
 			(layer "F.Fab")
 			(uuid "600abea4-0197-4302-b55d-edd62a80d4a4")
 			(effects
@@ -5906,7 +5906,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD"
-			(at 95.085306 99.757822 0)
+			(at 95.085306 99.757822 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5cde61fc-ef8a-4e36-a9e7-5cf1e70b04f7")
@@ -5917,7 +5917,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "73b1f8fa-4060-4d9d-9e49-bb72a53b50e0")
@@ -5929,7 +5929,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "be856122-3da7-4a62-b791-ef57be5967e1")
@@ -5941,7 +5941,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ffc93f89-b196-4221-a725-18220662f4d4")
@@ -5953,7 +5953,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6f501bbb-7df5-4765-8d05-6b1aa8e06dd6")
@@ -5965,7 +5965,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "372ba0d0-28d4-4e46-a824-c5e09b9050ad")
@@ -5977,7 +5977,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "093bb556-b48a-40ba-a31e-c24586f8a30a")
@@ -5989,7 +5989,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dd9d68da-96fe-4a7e-a925-3b3c85644ea3")
@@ -6001,7 +6001,7 @@
 			)
 		)
 		(property "Mouser Testing Part Number" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aa67ecbb-49ef-4f6e-97f6-2777015a03a3")
@@ -6013,7 +6013,7 @@
 			)
 		)
 		(property "Mouser Testing Price/Stock" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f600f7e5-843b-43a8-a2fd-0bce9edea5d5")
@@ -6025,7 +6025,7 @@
 			)
 		)
 		(property "Render Name" "Résistance"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ab1ab989-23f8-4c0b-9eac-f81f3edc3804")
@@ -6240,7 +6240,7 @@
 			(uuid "bb7aa496-a099-411f-b86c-a7dcab8adb84")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 10.16 0 -90)
+			(at 10.16 0 90)
 			(layer "F.Fab")
 			(uuid "8aed0768-f4e1-46cb-901b-1393f2bf4666")
 			(effects
@@ -6741,7 +6741,7 @@
 	)
 	(gr_line
 		(start 119.38 55.88)
-		(end 119.38 124.46)
+		(end 119.38 112)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -6781,7 +6781,7 @@
 	)
 	(gr_line
 		(start 104.14 55.88)
-		(end 104.14 124.46)
+		(end 104.14 112)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -6820,8 +6820,8 @@
 		(uuid "ea036af7-a9dc-4da9-bc4f-0b130d0bc7a5")
 	)
 	(gr_rect
-		(start 76.2 55.88)
-		(end 137.16 124.46)
+		(start 76.2 56.88)
+		(end 137.16 111.96)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -6831,7 +6831,7 @@
 		(uuid "797900dd-f584-4a8d-b686-833340a5880a")
 	)
 	(gr_text "Batt+"
-		(at 78.74 119.38 90)
+		(at 78.74 106.5 90)
 		(layer "F.SilkS")
 		(uuid "3377561e-e3bc-44b8-9c27-c3e04028a1e9")
 		(effects
@@ -6842,7 +6842,7 @@
 		)
 	)
 	(gr_text "TS"
-		(at 99.06 93.98 0)
+		(at 101.5 101.5 0)
 		(layer "F.SilkS")
 		(uuid "3c9a459d-64ba-4cad-88dd-1232b5b7712e")
 		(effects
@@ -6852,8 +6852,8 @@
 			)
 		)
 	)
-	(gr_text "EPSA TSAC\nVoltage Sensor V2.0"
-		(at 120.015 111.125 0)
+	(gr_text "EPSA TSAC\nVoltage Sensor V2.1"
+		(at 113.5 107.5 0)
 		(layer "F.SilkS")
 		(uuid "5e72dab8-f429-4b5c-b750-875482e8e53c")
 		(effects
@@ -7361,20 +7361,36 @@
 		(uuid "e4851acf-580f-46bf-b7df-3c364386bb68")
 	)
 	(segment
-		(start 84.517822 120.077822)
-		(end 95.085306 120.077822)
+		(start 89.405306 106)
+		(end 95.085306 100.32)
 		(width 0.6)
 		(layer "F.Cu")
 		(net 7)
-		(uuid "952676c3-f792-4fbb-a896-9007feb2b83b")
+		(uuid "6ad63f40-c689-498c-9789-3f12ae911903")
 	)
 	(segment
-		(start 95.085306 99.757822)
+		(start 83.82 106)
+		(end 89.405306 106)
+		(width 0.6)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "fc2e2fc1-6092-4a51-ae89-4c7c66b5b6eb")
+	)
+	(segment
+		(start 83.496054 91.589252)
 		(end 83.496054 99.757822)
 		(width 0.6)
 		(layer "F.Cu")
 		(net 8)
-		(uuid "6fd6319e-e8b5-4f43-a843-7a6b33919b2b")
+		(uuid "3d7cf784-1492-4ce0-aef5-c151ac3353fa")
+	)
+	(segment
+		(start 95.085306 80)
+		(end 83.496054 91.589252)
+		(width 0.6)
+		(layer "F.Cu")
+		(net 8)
+		(uuid "5e96064a-b55a-4e6b-ab40-8cbe048542fe")
 	)
 	(segment
 		(start 88.9 72.87)
