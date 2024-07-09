@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,8.0.2*%
-%TF.CreationDate,2024-07-08T11:13:31+02:00*%
+%TF.CreationDate,2024-07-09T10:48:30+02:00*%
 %TF.ProjectId,TSAC_Voltage_Sensor,54534143-5f56-46f6-9c74-6167655f5365,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L2,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.2) date 2024-07-08 11:13:31*
+G04 Created by KiCad (PCBNEW 8.0.2) date 2024-07-09 10:48:30*
 %MOMM*%
 %LPD*%
 G01*
@@ -71,12 +71,12 @@ X132080000Y-83820000D03*
 X132080000Y-81280000D03*
 %TD*%
 D14*
-%TO.P,F1,2*%
-%TO.N,Net-(CP1-IN-)*%
-X82500000Y-67200000D03*
 %TO.P,F1,1*%
 %TO.N,Net-(F1-Pad1)*%
 X82500000Y-89800000D03*
+%TO.P,F1,2*%
+%TO.N,Net-(CP1-IN-)*%
+X82500000Y-67200000D03*
 %TD*%
 D15*
 %TO.P,R1,1*%
