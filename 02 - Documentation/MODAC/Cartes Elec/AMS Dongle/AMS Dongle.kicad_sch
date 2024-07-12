@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(date "15 nov 2012")
+		(rev "v1.2")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x20_Odd_Even"
@@ -3013,175 +3014,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "EPSA_lib:Commutateur CAS-120B"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at 21.59 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "Commutateur CAS-120B"
-				(at 21.59 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "CAS120B"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.nidec-copal-electronics.com/e/catalog/switch/cas.pdf"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "SPDT, ON-ON  Slide, 100mA @ 6V DC Gull Wing SMD Terminal, Bulk Packaging, Washable with seal tape - Bulk"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "2.5"
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "229-CAS-120B"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nidec-Copal/CAS-120B?qs=XeJtXLiO41SFQrNWr8fvAQ%3D%3D"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Nidec Copal"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "CAS-120B"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "Commutateur CAS-120B_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "NO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6436,6 +6268,12 @@
 		(uuid "a6b070b0-e3b2-4450-a45b-a2ab70322554")
 	)
 	(junction
+		(at 151.13 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b04435a0-d438-4cf8-b450-960885f7475f")
+	)
+	(junction
 		(at 57.15 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6627,6 +6465,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 90.17) (xy 151.13 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "004c80ee-1f4b-4c85-acdb-c42452c1002a")
+	)
+	(wire
+		(pts
 			(xy 58.42 58.42) (xy 58.42 76.2)
 		)
 		(stroke
@@ -6644,16 +6492,6 @@
 			(type default)
 		)
 		(uuid "0180088c-4e0c-4fc6-9497-7f9cf5c37aba")
-	)
-	(wire
-		(pts
-			(xy 238.76 99.06) (xy 238.76 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01af5095-76d9-4111-9961-99b8ab8042cc")
 	)
 	(wire
 		(pts
@@ -6934,6 +6772,16 @@
 			(type default)
 		)
 		(uuid "1dab8ae2-1eb0-425a-bdf3-9ec5e9508d84")
+	)
+	(wire
+		(pts
+			(xy 151.13 87.63) (xy 151.13 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e8024ae-7749-4dcc-8369-45e173159e37")
 	)
 	(wire
 		(pts
@@ -7937,16 +7785,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 96.52) (xy 203.2 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3b6da99-6a12-4238-bba9-61981661acc6")
-	)
-	(wire
-		(pts
 			(xy 31.75 66.04) (xy 60.96 66.04)
 		)
 		(stroke
@@ -8277,16 +8115,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 95.25) (xy 238.76 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4a57d9c-39c8-4b50-af95-4c582d05b8da")
-	)
-	(wire
-		(pts
 			(xy 76.2 182.88) (xy 76.2 185.42)
 		)
 		(stroke
@@ -8354,16 +8182,6 @@
 			(type solid)
 		)
 		(uuid "df3b4a97-babc-4be9-b107-e59b56293dde")
-	)
-	(wire
-		(pts
-			(xy 203.2 100.33) (xy 203.2 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e397c21d-633a-4b7a-8d4b-043057bfc15d")
 	)
 	(wire
 		(pts
@@ -8885,17 +8703,6 @@
 		)
 		(uuid "35a1cc8d-cefe-4fd3-8f7e-ebdbdbd072ee")
 	)
-	(label "PHA"
-		(at 264.16 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "387bdf6c-38a2-4bb9-a391-6ede2c702487")
-	)
 	(label "GPIO9{slash}SPI0.MISO"
 		(at 31.75 53.34 0)
 		(fields_autoplaced yes)
@@ -9094,17 +8901,6 @@
 		)
 		(uuid "722faa30-42f4-48f1-bae0-2236f47a08e0")
 	)
-	(label "POL"
-		(at 228.6 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "811d9f09-5732-457f-8909-9f65721aec2a")
-	)
 	(label "IP"
 		(at 265.43 72.39 0)
 		(fields_autoplaced yes)
@@ -9270,17 +9066,6 @@
 		)
 		(uuid "a9ed66d3-a7fc-4839-b265-b9a21ee7fc85")
 	)
-	(label "POL"
-		(at 151.13 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ae3123c6-84b9-4c87-a2a4-c174a108e158")
-	)
 	(label "GPIO13{slash}PWM1"
 		(at 31.75 68.58 0)
 		(fields_autoplaced yes)
@@ -9346,17 +9131,6 @@
 			(justify left bottom)
 		)
 		(uuid "bf450ab3-740c-4c4d-a3af-2b3f302b2717")
-	)
-	(label "PHA"
-		(at 151.13 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d006c042-d767-4227-8c2d-7c7658cc48d9")
 	)
 	(label "GPIO8{slash}SPI0.CE0"
 		(at 148.59 62.23 180)
@@ -12284,72 +12058,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 203.2 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a184d31-d770-486d-a48c-ba28ac948f3d")
-		(property "Reference" "#PWR08"
-			(at 203.2 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 203.2 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 203.2 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a00ba3a7-ca3f-47e4-b6f7-263389501355")
-		)
-		(instances
-			(project "AMS Dongle"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 86.36 135.89 0)
 		(unit 1)
@@ -13440,17 +13148,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 238.76 101.6 0)
+		(lib_id "power:+5V")
+		(at 151.13 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6c4ed6e3-dedf-4aed-99d1-b6fd5fa96fba")
-		(property "Reference" "#PWR011"
-			(at 238.76 107.95 0)
+		(uuid "6a825b81-0735-486d-85a4-91a653270a0e")
+		(property "Reference" "#PWR041"
+			(at 151.13 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13458,8 +13166,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 238.76 106.68 0)
+		(property "Value" "+5V"
+			(at 151.13 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13467,7 +13175,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 101.6 0)
+			(at 151.13 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13476,7 +13184,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 101.6 0)
+			(at 151.13 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13484,8 +13192,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 238.76 101.6 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 151.13 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13494,12 +13202,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "18a3288b-b663-457a-ae54-769713884650")
+			(uuid "db77278d-7e61-49bc-aef7-c58bddb7d1f0")
 		)
 		(instances
 			(project "AMS Dongle"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR011")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -14670,72 +14378,6 @@
 			(project "AMS Dongle"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 238.76 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f31fc5c-66f9-4f96-8a1b-b8ff6942fcf5")
-		(property "Reference" "#PWR010"
-			(at 238.76 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 238.76 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 238.76 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 238.76 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "49b6edd3-5484-436a-af64-a6bd10a5ee82")
-		)
-		(instances
-			(project "AMS Dongle"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -15950,149 +15592,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EPSA_lib:Commutateur CAS-120B")
-		(at 238.76 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a43ce16a-3dde-4542-875b-de8b93b9f53a")
-		(property "Reference" "S2"
-			(at 251.46 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CAS-120B"
-			(at 251.46 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CAS120B"
-			(at 260.35 191.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.nidec-copal-electronics.com/e/catalog/switch/cas.pdf"
-			(at 260.35 291.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "SPDT, ON-ON  Slide, 100mA @ 6V DC Gull Wing SMD Terminal, Bulk Packaging, Washable with seal tape - Bulk"
-			(at 238.76 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.5"
-			(at 260.35 491.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nidec Copal"
-			(at 260.35 791.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CAS-120B"
-			(at 260.35 891.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "229-CAS-120B"
-			(at 260.35 591.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nidec-Copal/CAS-120B?qs=XeJtXLiO41SFQrNWr8fvAQ%3D%3D"
-			(at 260.35 691.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 260.35 991.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 260.35 1091.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ced18aa-e936-4a93-bb58-80bf0cda96e4")
-		)
-		(pin "2"
-			(uuid "13cefc2e-728f-4bb3-ab45-d8d6b08c65ca")
-		)
-		(pin "3"
-			(uuid "81eb7d45-2895-48da-816d-d98195b5361a")
-		)
-		(instances
-			(project "AMS Dongle"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "S2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EPSA_lib:Condensateur 0805Y1000104JXT")
 		(at 182.88 91.44 270)
 		(unit 1)
@@ -16694,72 +16193,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 203.2 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b684e329-78aa-4ab2-a67b-dec6140dd08b")
-		(property "Reference" "#PWR09"
-			(at 203.2 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "777f9e9f-6998-4163-b968-309065128344")
-		)
-		(instances
-			(project "AMS Dongle"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 96.52 124.46 180)
 		(unit 1)
@@ -16886,149 +16319,6 @@
 			(project "AMS Dongle"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EPSA_lib:Commutateur CAS-120B")
-		(at 203.2 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf763714-63f4-46ae-9ee3-f5646fc29b51")
-		(property "Reference" "S1"
-			(at 215.9 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CAS-120B"
-			(at 215.9 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CAS120B"
-			(at 224.79 192.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.nidec-copal-electronics.com/e/catalog/switch/cas.pdf"
-			(at 224.79 292.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "SPDT, ON-ON  Slide, 100mA @ 6V DC Gull Wing SMD Terminal, Bulk Packaging, Washable with seal tape - Bulk"
-			(at 203.2 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.5"
-			(at 224.79 492.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nidec Copal"
-			(at 224.79 792.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CAS-120B"
-			(at 224.79 892.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "229-CAS-120B"
-			(at 224.79 592.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nidec-Copal/CAS-120B?qs=XeJtXLiO41SFQrNWr8fvAQ%3D%3D"
-			(at 224.79 692.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 224.79 992.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 224.79 1092.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e45d36f-e5d5-406a-894d-758f751736f5")
-		)
-		(pin "2"
-			(uuid "c983882f-dac6-4d1e-90ba-7648692b1bfa")
-		)
-		(pin "3"
-			(uuid "0e47a465-b070-4647-bf5b-612dac87e993")
-		)
-		(instances
-			(project "AMS Dongle"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "S1")
 					(unit 1)
 				)
 			)
