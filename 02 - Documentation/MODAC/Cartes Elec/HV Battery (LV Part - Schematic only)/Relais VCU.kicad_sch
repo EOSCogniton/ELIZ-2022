@@ -5,7 +5,7 @@
 	(uuid "52057539-d811-4e17-b387-a741efb26ad5")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "Cmd AIR+"
+	(hierarchical_label "SC Out"
 		(shape input)
 		(at 144.78 104.14 0)
 		(fields_autoplaced yes)
@@ -29,30 +29,6 @@
 		)
 		(uuid "6d0a61a8-1137-4352-9d60-bc743f5d166e")
 	)
-	(hierarchical_label "Int Pre"
-		(shape input)
-		(at 144.78 97.79 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7d847ee8-c573-4fa8-8caf-234fb9456ecb")
-	)
-	(hierarchical_label "Cmd Pre"
-		(shape input)
-		(at 144.78 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "90f9279c-1ff3-42e1-a878-2429386b3b2a")
-	)
 	(hierarchical_label "GND Elec"
 		(shape output)
 		(at 144.78 116.84 0)
@@ -65,7 +41,7 @@
 		)
 		(uuid "a222f6e5-be21-47bc-911e-7e2bfda900e3")
 	)
-	(hierarchical_label "Int AIR+"
+	(hierarchical_label "Int Relai"
 		(shape input)
 		(at 144.78 90.17 0)
 		(fields_autoplaced yes)
@@ -88,29 +64,5 @@
 			(justify left)
 		)
 		(uuid "b5a42c6f-43c7-45af-97a7-f2aab274058a")
-	)
-	(hierarchical_label "Int AIR-"
-		(shape input)
-		(at 144.78 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dfc0075f-d4c7-43ec-8150-d70f74670512")
-	)
-	(hierarchical_label "Cmd AIR-"
-		(shape input)
-		(at 144.78 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fb32384f-1f2c-4521-a6d6-868c18655666")
 	)
 )
