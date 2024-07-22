@@ -1750,7 +1750,7 @@
 		(uuid "080afe5d-7503-45d8-a4e3-16f0e85c7b80")
 	)
 	(junction
-		(at 228.6 110.49)
+		(at 254 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "108d5b23-b7b7-4ba3-bcca-99dac9a89c86")
@@ -1762,19 +1762,19 @@
 		(uuid "12fd6ea3-2b70-434f-93c8-b966470d6831")
 	)
 	(junction
-		(at 228.6 55.88)
+		(at 254 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "212595f7-9bcd-4034-b14a-756c8de03da6")
 	)
 	(junction
-		(at 269.24 110.49)
+		(at 294.64 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "390618bf-fb17-4cdf-aada-0638694c6fa5")
 	)
 	(junction
-		(at 269.24 55.88)
+		(at 294.64 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ab6610e-a474-4b1e-90f7-ed49bdda9e28")
@@ -1850,8 +1850,20 @@
 		(uuid "00fc55c2-2cbc-426a-8f32-114445b70b72")
 	)
 	(no_connect
+		(at 293.37 41.91)
+		(uuid "1209721e-3a74-4a4b-a7b8-f49b91865780")
+	)
+	(no_connect
+		(at 299.72 41.91)
+		(uuid "2f04ffe5-1943-48f9-a4ea-fd3d534437b8")
+	)
+	(no_connect
 		(at 331.47 21.59)
 		(uuid "3219a992-828d-4ff0-9471-03978dfb044b")
+	)
+	(no_connect
+		(at 293.37 44.45)
+		(uuid "52b3bd1e-6274-47a1-b13d-84e709b9b50c")
 	)
 	(no_connect
 		(at 337.82 24.13)
@@ -1860,6 +1872,10 @@
 	(no_connect
 		(at 331.47 24.13)
 		(uuid "7ebf8927-6580-40cc-9d91-424bbe477b41")
+	)
+	(no_connect
+		(at 299.72 44.45)
+		(uuid "c5971bfb-2698-4076-ac16-b94cc72a6d18")
 	)
 	(no_connect
 		(at 337.82 21.59)
@@ -1941,7 +1957,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 80.01) (xy 269.24 55.88)
+			(xy 294.64 80.01) (xy 294.64 55.88)
 		)
 		(stroke
 			(width 1)
@@ -1962,7 +1978,7 @@
 	)
 	(polyline
 		(pts
-			(xy 262.89 116.84) (xy 264.16 116.84)
+			(xy 288.29 116.84) (xy 289.56 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1972,7 +1988,7 @@
 	)
 	(polyline
 		(pts
-			(xy 339.09 116.84) (xy 339.09 48.26)
+			(xy 364.49 116.84) (xy 364.49 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2000,6 +2016,16 @@
 		)
 		(uuid "33ef0cc9-6c99-45f2-baa0-cd09bb3c6f20")
 	)
+	(wire
+		(pts
+			(xy 293.37 44.45) (xy 299.72 44.45)
+		)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(uuid "3483276e-f582-4241-87ee-41967bba11c4")
+	)
 	(polyline
 		(pts
 			(xy 54.61 149.86) (xy 341.63 149.86)
@@ -2012,7 +2038,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 55.88) (xy 269.24 55.88)
+			(xy 254 55.88) (xy 294.64 55.88)
 		)
 		(stroke
 			(width 1)
@@ -2042,7 +2068,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 92.71) (xy 356.87 92.71)
+			(xy 372.11 92.71) (xy 382.27 92.71)
 		)
 		(stroke
 			(width 1)
@@ -2082,7 +2108,7 @@
 	)
 	(polyline
 		(pts
-			(xy 262.89 48.26) (xy 262.89 116.84)
+			(xy 288.29 48.26) (xy 288.29 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2092,7 +2118,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 105.41) (xy 228.6 110.49)
+			(xy 254 105.41) (xy 254 110.49)
 		)
 		(stroke
 			(width 0.5)
@@ -2162,7 +2188,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 110.49) (xy 269.24 87.63)
+			(xy 294.64 110.49) (xy 294.64 87.63)
 		)
 		(stroke
 			(width 1)
@@ -2172,7 +2198,18 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 73.66) (xy 356.87 73.66)
+			(xy 293.37 41.91) (xy 299.72 41.91)
+		)
+		(stroke
+			(width 1.016)
+			(type default)
+			(color 255 142 26 1)
+		)
+		(uuid "55b50b22-754b-4f51-9841-072867ef9d3c")
+	)
+	(wire
+		(pts
+			(xy 372.11 73.66) (xy 382.27 73.66)
 		)
 		(stroke
 			(width 1)
@@ -2192,7 +2229,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 95.25) (xy 346.71 95.25)
+			(xy 359.41 95.25) (xy 372.11 95.25)
 		)
 		(stroke
 			(width 1)
@@ -2252,7 +2289,7 @@
 	)
 	(polyline
 		(pts
-			(xy 337.82 48.26) (xy 339.09 48.26)
+			(xy 363.22 48.26) (xy 364.49 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2302,6 +2339,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 66.04) (xy 243.84 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7001a709-3333-4a9f-8fd6-7eb95ae1dfa5")
+	)
+	(wire
+		(pts
 			(xy 193.04 55.88) (xy 193.04 54.61)
 		)
 		(stroke
@@ -2332,7 +2379,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 110.49) (xy 228.6 110.49)
+			(xy 193.04 110.49) (xy 254 110.49)
 		)
 		(stroke
 			(width 1.016)
@@ -2363,7 +2410,17 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 95.25) (xy 346.71 92.71)
+			(xy 243.84 82.55) (xy 243.84 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d1f1dc7-fb9b-4b80-a987-cd8b18a7d6c2")
+	)
+	(wire
+		(pts
+			(xy 372.11 95.25) (xy 372.11 92.71)
 		)
 		(stroke
 			(width 1)
@@ -2383,7 +2440,7 @@
 	)
 	(polyline
 		(pts
-			(xy 262.89 48.26) (xy 337.82 48.26)
+			(xy 288.29 48.26) (xy 363.22 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2403,7 +2460,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 107.95) (xy 299.72 110.49)
+			(xy 325.12 107.95) (xy 325.12 110.49)
 		)
 		(stroke
 			(width 1)
@@ -2413,7 +2470,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 110.49) (xy 237.49 110.49)
+			(xy 254 110.49) (xy 262.89 110.49)
 		)
 		(stroke
 			(width 1)
@@ -2443,7 +2500,7 @@
 	)
 	(polyline
 		(pts
-			(xy 259.08 121.92) (xy 167.64 121.92)
+			(xy 284.48 121.92) (xy 167.64 121.92)
 		)
 		(stroke
 			(width 0.3)
@@ -2454,7 +2511,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 110.49) (xy 269.24 110.49)
+			(xy 273.05 110.49) (xy 294.64 110.49)
 		)
 		(stroke
 			(width 1)
@@ -2484,7 +2541,7 @@
 	)
 	(polyline
 		(pts
-			(xy 168.91 44.45) (xy 259.08 44.45)
+			(xy 168.91 44.45) (xy 284.48 44.45)
 		)
 		(stroke
 			(width 0.3)
@@ -2515,7 +2572,7 @@
 	)
 	(polyline
 		(pts
-			(xy 259.08 44.45) (xy 259.08 121.92)
+			(xy 284.48 44.45) (xy 284.48 121.92)
 		)
 		(stroke
 			(width 0.3)
@@ -2566,7 +2623,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 82.55) (xy 356.87 82.55)
+			(xy 359.41 82.55) (xy 382.27 82.55)
 		)
 		(stroke
 			(width 1)
@@ -2586,7 +2643,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 67.31) (xy 228.6 55.88)
+			(xy 254 67.31) (xy 254 55.88)
 		)
 		(stroke
 			(width 0.5)
@@ -2606,7 +2663,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 71.12) (xy 346.71 71.12)
+			(xy 359.41 71.12) (xy 372.11 71.12)
 		)
 		(stroke
 			(width 1)
@@ -2646,7 +2703,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 110.49) (xy 299.72 110.49)
+			(xy 294.64 110.49) (xy 325.12 110.49)
 		)
 		(stroke
 			(width 1)
@@ -2676,7 +2733,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 55.88) (xy 299.72 55.88)
+			(xy 294.64 55.88) (xy 325.12 55.88)
 		)
 		(stroke
 			(width 1)
@@ -2707,7 +2764,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 82.55) (xy 228.6 97.79)
+			(xy 254 82.55) (xy 254 97.79)
 		)
 		(stroke
 			(width 0.5)
@@ -2798,7 +2855,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 71.12) (xy 346.71 73.66)
+			(xy 372.11 71.12) (xy 372.11 73.66)
 		)
 		(stroke
 			(width 1)
@@ -2816,16 +2873,6 @@
 		)
 		(uuid "f40f3b60-f5a2-49cf-b0c8-6db2be97d9ce")
 	)
-	(wire
-		(pts
-			(xy 218.44 85.09) (xy 218.44 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f77f6e17-add0-42cd-baf3-0f694b04f30b")
-	)
 	(polyline
 		(pts
 			(xy 160.02 121.92) (xy 168.91 121.92)
@@ -2839,7 +2886,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 55.88) (xy 228.6 55.88)
+			(xy 193.04 55.88) (xy 254 55.88)
 		)
 		(stroke
 			(width 1.016)
@@ -2850,7 +2897,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 55.88) (xy 299.72 58.42)
+			(xy 325.12 55.88) (xy 325.12 58.42)
 		)
 		(stroke
 			(width 1)
@@ -2890,7 +2937,7 @@
 	)
 	(polyline
 		(pts
-			(xy 264.16 116.84) (xy 339.09 116.84)
+			(xy 289.56 116.84) (xy 364.49 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2913,8 +2960,8 @@
 		(uuid 02ca7882-46cb-4177-ade0-8c9e6a7da428)
 	)
 	(rectangle
-		(start 257.81 54.61)
-		(end 260.35 57.15)
+		(start 283.21 54.61)
+		(end 285.75 57.15)
 		(stroke
 			(width 0)
 			(type default)
@@ -2927,8 +2974,8 @@
 		(uuid 22b68622-6279-49c1-b618-c037efdf80d3)
 	)
 	(rectangle
-		(start 261.62 109.22)
-		(end 264.16 111.76)
+		(start 287.02 109.22)
+		(end 289.56 111.76)
 		(stroke
 			(width 0)
 			(type default)
@@ -3025,8 +3072,8 @@
 		(uuid 624fadb7-eafe-4135-9dca-2c2bb1d5228d)
 	)
 	(rectangle
-		(start 261.62 54.61)
-		(end 264.16 57.15)
+		(start 287.02 54.61)
+		(end 289.56 57.15)
 		(stroke
 			(width 0)
 			(type default)
@@ -3135,8 +3182,8 @@
 		(uuid c0fb9c2f-5f4e-4821-b89e-25b9b3cd4369)
 	)
 	(rectangle
-		(start 257.81 109.22)
-		(end 260.35 111.76)
+		(start 283.21 109.22)
+		(end 285.75 111.76)
 		(stroke
 			(width 0)
 			(type default)
@@ -3158,6 +3205,28 @@
 			(justify left bottom)
 		)
 		(uuid "0c4119c9-6da8-49f3-a791-2822acadb74b")
+	)
+	(text "Cooling radiator is in contact to the air at the outside, \nand to the discharge resistor in the inside of the aluminium enclosure."
+		(exclude_from_sim no)
+		(at 265.938 125.222 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+		)
+		(uuid "1aca8cf2-276b-460f-b07b-a855d32686a6")
+	)
+	(text "25mm² > 136A - MULTICOMP PRO PP001278\n"
+		(exclude_from_sim no)
+		(at 300.99 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "204c440d-0bf2-4e81-b575-95f5317bd22f")
 	)
 	(text "Cable gland"
 		(exclude_from_sim no)
@@ -3183,7 +3252,7 @@
 	)
 	(text "Cable gland"
 		(exclude_from_sim no)
-		(at 261.62 53.34 0)
+		(at 287.02 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3282,7 +3351,7 @@
 	)
 	(text "Cable gland"
 		(exclude_from_sim no)
-		(at 261.62 114.3 0)
+		(at 287.02 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3301,6 +3370,17 @@
 			(justify left bottom)
 		)
 		(uuid "a7cb4806-1adc-490f-bd93-07df325d15cd")
+	)
+	(text "25mmx4mm busbars >> 136A"
+		(exclude_from_sim no)
+		(at 300.99 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b13f2bd4-0b7f-417b-822c-6d73c5e23019")
 	)
 	(text "Maintenance plug + receptacle\n"
 		(exclude_from_sim no)
@@ -3324,6 +3404,18 @@
 		)
 		(uuid "b9cc5d04-9b54-44a0-9dfc-8340ac912fd6")
 	)
+	(text "TS-"
+		(exclude_from_sim no)
+		(at 243.84 108.966 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "bf7335b0-f713-4078-a991-b420678943fb")
+	)
 	(text "Maintenance plug + receptacle\n"
 		(exclude_from_sim no)
 		(at 71.12 198.12 0)
@@ -3337,7 +3429,7 @@
 	)
 	(text "Aluminum enclosure"
 		(exclude_from_sim no)
-		(at 237.49 48.26 0)
+		(at 262.89 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3348,7 +3440,7 @@
 	)
 	(text "Inverter enclosure"
 		(exclude_from_sim no)
-		(at 264.16 52.07 0)
+		(at 289.56 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3368,6 +3460,18 @@
 		)
 		(uuid "e4abf2d2-7b96-45d2-b5eb-f0eecccb205e")
 	)
+	(text "TS+"
+		(exclude_from_sim no)
+		(at 242.824 53.594 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "e61a73e1-aa4b-43c0-ba34-64c323902915")
+	)
 	(text "Maintenance plug + receptacle\n"
 		(exclude_from_sim no)
 		(at 71.12 187.96 0)
@@ -3378,6 +3482,28 @@
 			)
 		)
 		(uuid "fada3fa0-7234-4a40-b33e-207e2551613d")
+	)
+	(label "Gnd"
+		(at 243.84 83.82 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "19c89c22-e7c1-440e-ad36-10c5872555b5")
+	)
+	(label "SC in"
+		(at 243.84 66.04 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d338971-2d9f-4864-8949-224368514583")
 	)
 	(global_label "Accumulator-"
 		(shape input)
@@ -3513,15 +3639,15 @@
 	)
 	(symbol
 		(lib_id "EPSA_lib:NC relays")
-		(at 223.52 74.93 0)
+		(at 248.92 74.93 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "09c500ba-cce5-4c15-a5b1-3cf789388c28")
 		(property "Reference" "K2"
-			(at 236.728 71.374 0)
+			(at 261.874 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3529,7 +3655,7 @@
 			)
 		)
 		(property "Value" "CYNERGY3 DBR71275U"
-			(at 245.364 73.152 0)
+			(at 270.764 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3538,7 +3664,7 @@
 			)
 		)
 		(property "Footprint" "Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT"
-			(at 233.68 58.42 0)
+			(at 259.08 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3547,7 +3673,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.panasonic-electric-works.com/pew/es/downloads/ds_dw_hl_en.pdf"
-			(at 223.52 55.88 0)
+			(at 248.92 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +3682,7 @@
 			)
 		)
 		(property "Description" "CYNERGY3 DBR71275U"
-			(at 246.38 73.406 0)
+			(at 271.526 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3564,21 +3690,12 @@
 			)
 		)
 		(property "Current rating" "3A"
-			(at 244.094 75.184 0)
+			(at 269.24 75.946 0)
 			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Sim.Enable" "0"
-			(at 243.586 66.548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3604,7 +3721,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 228.6 101.6 180)
+		(at 254 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3612,7 +3729,7 @@
 		(dnp no)
 		(uuid "0b4eb0d9-a864-4d75-a9a5-9d4857528db4")
 		(property "Reference" "R3"
-			(at 230.124 99.314 0)
+			(at 255.524 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3621,7 +3738,7 @@
 			)
 		)
 		(property "Value" "4k7Ω 100W"
-			(at 230.124 101.346 0)
+			(at 255.524 101.346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3630,7 +3747,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 230.378 101.6 90)
+			(at 255.778 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3639,7 +3756,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 228.6 101.6 0)
+			(at 254 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3648,7 +3765,7 @@
 			)
 		)
 		(property "Description" "Ohmite HS100 4K 7F"
-			(at 240.538 103.378 0)
+			(at 265.938 103.378 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3656,7 +3773,7 @@
 			)
 		)
 		(property "Current rating" "0.14A @ 600V"
-			(at 244.602 105.156 0)
+			(at 270.002 105.156 0)
 			(show_name yes)
 			(effects
 				(font
@@ -3756,7 +3873,7 @@
 	)
 	(symbol
 		(lib_id "Device:Ammeter_DC")
-		(at 242.57 110.49 270)
+		(at 267.97 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3764,7 +3881,7 @@
 		(dnp no)
 		(uuid "2aea3f10-0bca-4be2-800f-41b4507c013a")
 		(property "Reference" "MES1"
-			(at 242.57 115.824 90)
+			(at 267.97 115.824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3772,7 +3889,7 @@
 			)
 		)
 		(property "Value" "to BSPD"
-			(at 243.078 118.11 90)
+			(at 268.478 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3780,7 +3897,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 110.49 90)
+			(at 270.51 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3789,7 +3906,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 110.49 90)
+			(at 270.51 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3798,7 +3915,7 @@
 			)
 		)
 		(property "Description" "DC ammeter"
-			(at 242.57 110.49 0)
+			(at 267.97 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3823,7 +3940,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 269.24 83.82 0)
+		(at 294.64 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3831,7 +3948,7 @@
 		(dnp no)
 		(uuid "3097f252-c36e-4dbd-9608-70415e26e6ce")
 		(property "Reference" "C1"
-			(at 271.78 80.01 0)
+			(at 297.18 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3840,7 +3957,7 @@
 			)
 		)
 		(property "Value" "320 uF"
-			(at 271.78 81.788 0)
+			(at 297.18 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,7 +3966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.2052 87.63 0)
+			(at 295.6052 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +3975,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 269.24 83.82 0)
+			(at 294.64 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,7 +3984,7 @@
 			)
 		)
 		(property "Description" "BAMOCAR DC link capa"
-			(at 282.956 83.82 0)
+			(at 308.356 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,7 +3992,7 @@
 			)
 		)
 		(property "Current rating" "250A"
-			(at 281.686 85.852 0)
+			(at 307.086 85.852 0)
 			(show_name yes)
 			(effects
 				(font
@@ -4997,7 +5114,7 @@
 		)
 	)
 	(sheet
-		(at 356.87 69.85)
+		(at 382.27 69.85)
 		(size 12.7 25.4)
 		(stroke
 			(width 2)
@@ -5009,7 +5126,7 @@
 		)
 		(uuid "78572d83-00fb-4687-93fc-6f81a18c7745")
 		(property "Sheetname" "Motor Emrax 228 - Medium Voltage"
-			(at 346.456 65.786 0)
+			(at 371.856 65.786 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5018,7 +5135,7 @@
 			)
 		)
 		(property "Sheetfile" "Motor Emrax.kicad_sch"
-			(at 356.87 96.7584 0)
+			(at 382.27 96.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5028,7 +5145,7 @@
 			)
 		)
 		(property "Current rating" "340A"
-			(at 363.22 67.564 0)
+			(at 388.62 67.564 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5037,7 +5154,7 @@
 			)
 		)
 		(pin "U" input
-			(at 356.87 73.66 180)
+			(at 382.27 73.66 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +5164,7 @@
 			(uuid "89ba2e9e-a82e-4962-88f2-70a1ebe1cb28")
 		)
 		(pin "V" input
-			(at 356.87 82.55 180)
+			(at 382.27 82.55 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5057,7 +5174,7 @@
 			(uuid "c4c2d7cf-48b9-4e16-8369-e92fbbae4555")
 		)
 		(pin "W" input
-			(at 356.87 92.71 180)
+			(at 382.27 92.71 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5171,7 +5288,7 @@
 		)
 	)
 	(sheet
-		(at 295.91 58.42)
+		(at 321.31 58.42)
 		(size 38.1 49.53)
 		(stroke
 			(width 1)
@@ -5183,7 +5300,7 @@
 		)
 		(uuid "8c32ef01-fd56-4407-bf2c-81e02cccfc77")
 		(property "Sheetname" "Inverter Unitek BAMOCAR D3 700-400"
-			(at 297.688 52.832 0)
+			(at 323.088 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5192,7 +5309,7 @@
 			)
 		)
 		(property "Sheetfile" "Inverter.kicad_sch"
-			(at 311.15 110.49 0)
+			(at 336.55 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5202,7 +5319,7 @@
 			)
 		)
 		(property "Current rating" "250A"
-			(at 313.436 55.372 0)
+			(at 338.836 55.372 0)
 			(show_name yes)
 			(effects
 				(font
@@ -5211,7 +5328,7 @@
 			)
 		)
 		(pin "HV +" input
-			(at 299.72 58.42 90)
+			(at 325.12 58.42 90)
 			(effects
 				(font
 					(size 2 2)
@@ -5221,7 +5338,7 @@
 			(uuid "14fbef2f-6194-438d-a902-2cb8bc916d38")
 		)
 		(pin "HV -" input
-			(at 299.72 107.95 270)
+			(at 325.12 107.95 270)
 			(effects
 				(font
 					(size 2 2)
@@ -5231,7 +5348,7 @@
 			(uuid "938dcdd2-63f2-45ec-956a-8b5785f0f068")
 		)
 		(pin "U" output
-			(at 334.01 71.12 0)
+			(at 359.41 71.12 0)
 			(effects
 				(font
 					(size 2 2)
@@ -5241,7 +5358,7 @@
 			(uuid "f628b24f-04fa-4657-b8fc-87ba63735469")
 		)
 		(pin "V" output
-			(at 334.01 82.55 0)
+			(at 359.41 82.55 0)
 			(effects
 				(font
 					(size 2 2)
@@ -5251,7 +5368,7 @@
 			(uuid "eae83d49-4292-4908-8fc3-3ffd5599ec1f")
 		)
 		(pin "W" output
-			(at 334.01 95.25 0)
+			(at 359.41 95.25 0)
 			(effects
 				(font
 					(size 2 2)
@@ -5261,7 +5378,7 @@
 			(uuid "070938e6-3a14-4a5a-8ff4-07a782d1fd4f")
 		)
 		(pin "BSPD Power signal" output
-			(at 323.85 107.95 270)
+			(at 349.25 107.95 270)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5271,7 +5388,7 @@
 			(uuid "ff008115-b2e1-44a3-88d0-0691fb7a75be")
 		)
 		(pin "TSAL inverter Voltage" output
-			(at 320.04 107.95 270)
+			(at 345.44 107.95 270)
 			(effects
 				(font
 					(size 1.27 1.27)
