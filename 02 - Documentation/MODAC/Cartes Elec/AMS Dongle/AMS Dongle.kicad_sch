@@ -9,6 +9,477 @@
 		(rev "v1.2")
 	)
 	(lib_symbols
+		(symbol "ATA6563-GBQW1:ATA6563-GBQW1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ATA6563-GBQW1"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SON65P300X300X90-9N-D"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-39/8187.pdf"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAN Interface IC CAN TRX with VIO PIN (DFN8)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.9"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "579-ATA6563-GBQW1"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATA6563-GBQW1?qs=byeeYqUIh0OFDnqHLfeuvg%3D%3D"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Microchip"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ATA6563-GBQW1"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "ATA6563-GBQW1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -7.62 180)
+					(length 5.08)
+					(name "VIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -5.08 180)
+					(length 5.08)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "STBY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -20.32 90)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "CB3LV-3C-20M0000:CB3LV-3C-20M0000"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CB3LV-3C-20M0000"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "CB3LV3C20M0000"
+				(at 26.67 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ctscorp.com/wp-content/uploads/2015/11/008-0256-0.pdf"
+				(at 26.67 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Oscillator XO 20MHz +/-50ppm 50pF HCMOS/TTL 55% 3.3V 4-Pin SMD T/R"
+				(at 26.67 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.8"
+				(at 26.67 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "774-CB3LV-3C-20M0"
+				(at 26.67 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CTS-Electronic-Components/CB3LV-3C-20M0000?qs=HL%252BYNjdyZ0vv%2FN1pDU3ADQ%3D%3D"
+				(at 26.67 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "CTS"
+				(at 26.67 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "CB3LV-3C-20M0000"
+				(at 26.67 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "CB3LV-3C-20M0000_0_0"
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "EOH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CB3LV-3C-20M0000_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 25.4 2.54) (xy 25.4 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_02x20_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
@@ -1507,74 +1978,82 @@
 				)
 			)
 		)
-		(symbol "EPSA_lib:2P Angle 171857-4002"
+		(symbol "EPSA_lib:2P Droit 2-11-2022"
 			(pin_names
-				(offset 0.762)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 11.43 -1.27 0)
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "2P Angle 171857-4002"
-				(at 16.51 1.27 0)
+			(property "Value" "2P Droit 2-11-2022"
+				(at 6.35 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Footprint" "EPSA_lib:1718574002"
-				(at 16.51 -1.27 0)
+			(property "Footprint" "EPSA_lib:MOLEX_22-11-2022"
+				(at 6.35 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/171857-4002.pdf"
-				(at 16.51 -3.81 0)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112022?display=pdf"
+				(at 6.35 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Description" "Headers & Wire Housings KK RPC 254 Hdr FrLk R/A 02 Ckt 15Au T&R"
-				(at 16.51 -6.35 0)
+			(property "Description" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Height" "6.6"
-				(at 16.51 -8.89 0)
+			(property "Height" "10.66mm"
+				(at 6.35 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "2P Droit"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 					(hide yes)
 				)
 			)
 			(property "Manufacturer_Name" "Molex"
-				(at 16.51 -11.43 0)
+				(at 6.35 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1583,8 +2062,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "171857-4002"
-				(at 16.51 -13.97 0)
+			(property "Manufacturer_Part_Number" "22-11-2022"
+				(at 6.35 -8.89 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1593,8 +2072,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "538-171857-4002"
-				(at 16.51 -16.51 0)
+			(property "Mouser Part Number" "538-22-11-2022"
+				(at 6.35 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1603,8 +2082,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/171857-4002?qs=v0t%252BUMfTP8OkFsdOsfcitg%3D%3D"
-				(at 16.51 -19.05 0)
+			(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2022?qs=mrPiglD9aYLq1NGrfjXTJg%3D%3D"
+				(at 6.35 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1613,268 +2092,242 @@
 					(hide yes)
 				)
 			)
-			(property "Render Name " "2P Angle"
-				(at 10.16 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "2P Droit 2-11-2022_0_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
 					)
-					(hide yes)
+					(fill
+						(type background)
+					)
 				)
-			)
-			(symbol "2P Angle 171857-4002_0_0"
 				(pin passive line
-					(at 0 0 0)
+					(at -10.16 0 0)
 					(length 5.08)
 					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at -10.16 -2.54 0)
 					(length 5.08)
 					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 			)
-			(symbol "2P Angle 171857-4002_0_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -5.08) (xy 5.08 -5.08) (xy 5.08 2.54)
+		)
+		(symbol "EPSA_lib:4P Droit 22-11-2042"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "4P Droit 22-11-2042"
+				(at 6.35 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "EPSA_lib:MOLEX_22-11-2042"
+				(at 6.35 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112042?display=pdf"
+				(at 6.35 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "4P Droit"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 6.35 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "22-11-2042"
+				(at 6.35 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "538-22-11-2042"
+				(at 6.35 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2042?qs=mrPiglD9aYJfi57%2FgjU4lw%3D%3D"
+				(at 6.35 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "4P Droit 22-11-2042_0_0"
+				(rectangle
+					(start -2.54 -7.62)
+					(end 5.08 5.08)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-		)
-		(symbol "EPSA_lib:4P Angle 171857-4004"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 10.16 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "4P Angle 171857-4004"
-				(at 16.51 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "EPSA_lib:HDRRA4W66P0X254_1X4_762X818X635P"
-				(at 16.51 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/1718573005_sd.pdf"
-				(at 16.51 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Headers & Wire Housings KK RPC 254 Hdr FrLk R/A 04 Ckt 15Au T&R"
-				(at 16.51 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "6.35"
-				(at 16.51 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Molex"
-				(at 16.51 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "171857-4004"
-				(at 16.51 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "538-171857-4004"
-				(at 16.51 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/171857-4004?qs=v0t%252BUMfTP8MMewSk%252BpG0KA%3D%3D"
-				(at 16.51 -16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Render Name" "4P Angle"
-				(at 10.16 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "4P Angle 171857-4004_0_0"
 				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
+					(at -5.08 2.54 0)
+					(length 2.54)
 					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
+					(at -5.08 0 0)
+					(length 2.54)
 					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
+					(at -5.08 -2.54 0)
+					(length 2.54)
 					(name "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
+					(at -5.08 -5.08 0)
+					(length 2.54)
 					(name "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
-					)
-				)
-			)
-			(symbol "4P Angle 171857-4004_0_1"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -2764,265 +3217,6 @@
 				)
 			)
 		)
-		(symbol "EPSA_lib:CAN Transceiver BD41041FJ-CE2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 24.13 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "CAN Transceiver BD41041FJ-CE2"
-				(at 24.13 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOIC127P600X165-8N"
-				(at 24.13 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/414644ee1dc91df04c2a44596c540576.pdf"
-				(at 24.13 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "ROHM Semiconductor CAN Transceiver for Automotive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.65"
-				(at 24.13 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "755-BD41041FJ-CE2"
-				(at 24.13 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/BD41041FJ-CE2?qs=%252BEew9%252B0nqrCizAYMbF4Vxg%3D%3D"
-				(at 24.13 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "ROHM Semiconductor"
-				(at 24.13 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "BD41041FJ-CE2"
-				(at 24.13 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "CAN Transceiver BD41041FJ-CE2_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 22.86 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -7.62 180)
-					(length 5.08)
-					(name "SPLIT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -5.08 180)
-					(length 5.08)
-					(name "CANL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -2.54 180)
-					(length 5.08)
-					(name "CANH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 0 180)
-					(length 5.08)
-					(name "STB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "EPSA_lib:Condensateur 0805Y1000104JXT"
 			(pin_names
 				(offset 0.762)
@@ -3651,193 +3845,6 @@
 						)
 					)
 					(number "MH6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "EPSA_lib:Oscillateur CB3-3C-20M0000"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 26.67 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "Oscillateur CB3-3C-20M0000"
-				(at 26.67 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "CB33C20M0000"
-				(at 26.67 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/CB3-3C-20M0000.pdf"
-				(at 26.67 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Oscillator XO 20MHz +/-50ppm 50pF HCMOS/TTL 55% 5V 4-Pin SMD T/R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.8"
-				(at 26.67 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "774-CB3-3C-20M0"
-				(at 26.67 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CTS-Electronic-Components/CB3-3C-20M0000?qs=HL%252BYNjdyZ0siopZOWdAAcw%3D%3D"
-				(at 26.67 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "CTS"
-				(at 26.67 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "CB3-3C-20M0000"
-				(at 26.67 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "Oscillateur CB3-3C-20M0000_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 25.4 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "EOH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -2.54 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 0 180)
-					(length 5.08)
-					(name "OUTPUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6184,6 +6191,12 @@
 		(uuid "711deee8-2a13-4845-8085-5e9fcd854449")
 	)
 	(junction
+		(at 251.46 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "730e9667-dfcf-45aa-8007-458a3e82dd00")
+	)
+	(junction
 		(at 262.89 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6316,6 +6329,12 @@
 		(uuid "ce83728b-bebd-48c2-8734-b6a50d837931")
 	)
 	(junction
+		(at 129.54 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0653536-6ee5-4bf4-9e40-db67adef5b0e")
+	)
+	(junction
 		(at 96.52 175.26)
 		(diameter 1.016)
 		(color 0 0 0 0)
@@ -6386,10 +6405,6 @@
 		(uuid "05adeb49-d7fd-4bf3-b031-d3998b56e224")
 	)
 	(no_connect
-		(at 248.92 143.51)
-		(uuid "0a6a12e0-b7fd-4a78-af4f-1a51f5ccb1fe")
-	)
-	(no_connect
 		(at 265.43 74.93)
 		(uuid "127e3e10-a8c0-4737-b8bc-bfc9a246a07c")
 	)
@@ -6398,8 +6413,8 @@
 		(uuid "16b8dd86-e4eb-4684-8923-efd33a7963d4")
 	)
 	(no_connect
-		(at 276.86 31.75)
-		(uuid "3d569a01-6f22-4e0b-aa9e-8554cd8618ec")
+		(at 276.86 34.29)
+		(uuid "2ba9b4aa-d0e8-4be8-bacc-0e9a0636087e")
 	)
 	(no_connect
 		(at 134.62 130.81)
@@ -6408,6 +6423,10 @@
 	(no_connect
 		(at 147.32 30.48)
 		(uuid "3e1bd63f-4a5c-478a-982a-6f4e4ffdae9c")
+	)
+	(no_connect
+		(at 236.22 156.21)
+		(uuid "4f2929a9-d80b-4133-b743-5a65b85eb22f")
 	)
 	(no_connect
 		(at 147.32 25.4)
@@ -6481,6 +6500,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 138.43) (xy 259.08 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00a78118-6d63-4317-924f-cbed36a8f285")
+	)
+	(wire
+		(pts
 			(xy 58.42 58.42) (xy 58.42 76.2)
 		)
 		(stroke
@@ -6538,6 +6567,16 @@
 			(type default)
 		)
 		(uuid "04dd9861-ed10-4dbe-ae92-c04f30f05032")
+	)
+	(wire
+		(pts
+			(xy 129.54 143.51) (xy 134.62 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05559c8e-645b-4d15-a00b-731fcce086dd")
 	)
 	(wire
 		(pts
@@ -6701,7 +6740,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 140.97) (xy 256.54 154.94)
+			(xy 259.08 140.97) (xy 259.08 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6791,7 +6830,17 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 138.43) (xy 256.54 115.57)
+			(xy 191.77 27.94) (xy 196.85 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ed24605-75ac-409b-aee5-39e1d077d493")
+	)
+	(wire
+		(pts
+			(xy 259.08 138.43) (xy 259.08 115.57)
 		)
 		(stroke
 			(width 0)
@@ -6818,16 +6867,6 @@
 			(type default)
 		)
 		(uuid "21b3d21f-d050-45ef-bd59-40b058862253")
-	)
-	(wire
-		(pts
-			(xy 248.92 140.97) (xy 256.54 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22fd9ae0-0a1f-4976-a86f-1a205f31afd9")
 	)
 	(wire
 		(pts
@@ -6901,6 +6940,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 140.97) (xy 129.54 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c820c17-59cb-4c90-83d8-4dd8e2872049")
+	)
+	(wire
+		(pts
 			(xy 90.17 148.59) (xy 82.55 148.59)
 		)
 		(stroke
@@ -6938,6 +6987,16 @@
 			(type default)
 		)
 		(uuid "3196dcfe-d036-454e-8fed-cb2e9440e1a2")
+	)
+	(wire
+		(pts
+			(xy 191.77 26.67) (xy 191.77 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3232e99f-1c10-4244-b814-4790f2a35c22")
 	)
 	(wire
 		(pts
@@ -7098,6 +7157,16 @@
 			(type default)
 		)
 		(uuid "487a32a0-cca6-4748-b489-1ab5bb63a5c7")
+	)
+	(wire
+		(pts
+			(xy 129.54 133.35) (xy 129.54 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49376168-6757-4861-8044-374c9a59812e")
 	)
 	(wire
 		(pts
@@ -7371,6 +7440,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 154.94) (xy 251.46 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69110d25-2bdf-48a7-8e27-0cbbe268e232")
+	)
+	(wire
+		(pts
 			(xy 128.27 96.52) (xy 128.27 99.06)
 		)
 		(stroke
@@ -7378,6 +7457,16 @@
 			(type default)
 		)
 		(uuid "6a24af36-671c-41dc-91f2-3a78b1ae3af4")
+	)
+	(wire
+		(pts
+			(xy 128.27 133.35) (xy 129.54 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b119540-3f55-47ac-b4d0-0aff5444746d")
 	)
 	(wire
 		(pts
@@ -7421,6 +7510,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 128.27) (xy 132.08 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "718ded29-b62e-4d3b-94b3-6cfaa10d6561")
+	)
+	(wire
+		(pts
 			(xy 203.2 151.13) (xy 212.09 151.13)
 		)
 		(stroke
@@ -7451,6 +7550,26 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 138.43) (xy 134.62 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79f27e6f-d922-43f9-b03c-cc2c7ba81714")
+	)
+	(wire
+		(pts
+			(xy 120.65 146.05) (xy 120.65 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab9c2a5-f0bd-428d-a5e9-6b7d2293622c")
+	)
+	(wire
+		(pts
 			(xy 76.2 43.18) (xy 76.2 50.8)
 		)
 		(stroke
@@ -7458,6 +7577,16 @@
 			(type solid)
 		)
 		(uuid "7aed86fe-31d5-4139-a0b1-020ce61800b6")
+	)
+	(wire
+		(pts
+			(xy 133.35 125.73) (xy 133.35 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b4df3da-db63-4e9f-af1b-8d0f6a29a1c3")
 	)
 	(wire
 		(pts
@@ -7471,7 +7600,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 115.57) (xy 262.89 115.57)
+			(xy 259.08 115.57) (xy 262.89 115.57)
 		)
 		(stroke
 			(width 0)
@@ -7508,16 +7637,6 @@
 			(type solid)
 		)
 		(uuid "7dd33798-d6eb-48c4-8355-bbeae3353a44")
-	)
-	(wire
-		(pts
-			(xy 248.92 138.43) (xy 256.54 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f1672ba-12d2-4377-8c26-461086e30e91")
 	)
 	(wire
 		(pts
@@ -7588,6 +7707,16 @@
 			(type default)
 		)
 		(uuid "871c09b1-a995-480d-9332-b82370527a43")
+	)
+	(wire
+		(pts
+			(xy 133.35 135.89) (xy 134.62 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "875ef9c4-7e6e-4e91-a0c4-3f8cc5d1bd81")
 	)
 	(wire
 		(pts
@@ -7681,6 +7810,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 130.81) (xy 130.81 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8efbdae6-952c-46be-b12b-8a62eca62d36")
+	)
+	(wire
+		(pts
 			(xy 125.73 85.09) (xy 128.27 85.09)
 		)
 		(stroke
@@ -7741,6 +7880,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 146.05) (xy 130.81 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9887fc4e-2c6f-4c04-b14d-9f14e80b62db")
+	)
+	(wire
+		(pts
 			(xy 31.75 53.34) (xy 60.96 53.34)
 		)
 		(stroke
@@ -7778,6 +7927,16 @@
 			(type default)
 		)
 		(uuid "9d953e9d-8878-46f2-b667-f6428dfccb3f")
+	)
+	(wire
+		(pts
+			(xy 196.85 27.94) (xy 196.85 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1153a0f-b397-4b49-8445-5c02b4994b6d")
 	)
 	(wire
 		(pts
@@ -7828,16 +7987,6 @@
 			(type default)
 		)
 		(uuid "a67262a8-d7db-47d9-b02a-bf4c3a8092fc")
-	)
-	(wire
-		(pts
-			(xy 127 146.05) (xy 130.81 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7203d7c-8314-42cd-9080-dbf1d9eb3604")
 	)
 	(wire
 		(pts
@@ -8021,6 +8170,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 156.21) (xy 251.46 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c997be21-d4b3-439f-b064-c6e034558007")
+	)
+	(wire
+		(pts
 			(xy 198.12 125.73) (xy 198.12 133.35)
 		)
 		(stroke
@@ -8098,6 +8257,16 @@
 			(type default)
 		)
 		(uuid "d2ee267d-1de0-4455-b9e4-e9f9d26ca7fb")
+	)
+	(wire
+		(pts
+			(xy 130.81 140.97) (xy 134.62 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d40e7038-9a1b-4b01-92a3-7ae5ca534e97")
 	)
 	(wire
 		(pts
@@ -8238,6 +8407,16 @@
 			(type default)
 		)
 		(uuid "ea59256b-1136-4900-8740-37fa6602783e")
+	)
+	(wire
+		(pts
+			(xy 251.46 140.97) (xy 259.08 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb19a522-fc9a-4db9-bdaf-6573bf26fd67")
 	)
 	(wire
 		(pts
@@ -8391,7 +8570,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 154.94) (xy 262.89 154.94)
+			(xy 259.08 154.94) (xy 262.89 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8458,8 +8637,8 @@
 		(uuid 8cd47ec8-eeff-4f10-bd32-c5d14076c53e)
 	)
 	(rectangle
-		(start 105.41 111.76)
-		(end 279.4 161.29)
+		(start 101.6 113.03)
+		(end 279.4 162.56)
 		(stroke
 			(width 0)
 			(type default)
@@ -8576,7 +8755,7 @@
 		(uuid "01a6cb5b-a9b4-43df-a85d-fc59fdd75d72")
 	)
 	(label "PDU"
-		(at 196.85 30.48 90)
+		(at 191.77 26.67 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8587,7 +8766,7 @@
 		(uuid "02b6595d-7381-40b6-ad10-b9af06b55264")
 	)
 	(label "GPIO18{slash}PCM.CLK{slash}SPI1.CE0"
-		(at 134.62 143.51 180)
+		(at 128.27 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8653,7 +8832,7 @@
 		(uuid "13d2784c-a318-409c-af89-c63f2697996f")
 	)
 	(label "GPIO24"
-		(at 248.92 135.89 0)
+		(at 251.46 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8928,7 +9107,7 @@
 		(uuid "6ae3279b-5fa6-4906-a6de-ef72ce900bd3")
 	)
 	(label "GPIO20{slash}PCM.DIN{slash}SPI1.MOSI"
-		(at 134.62 138.43 180)
+		(at 132.08 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9092,6 +9271,17 @@
 		)
 		(uuid "a4ea18c0-875f-43e7-bc38-79eed0d7f74f")
 	)
+	(label "GPIO26"
+		(at 195.58 27.94 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a54598ea-09f3-4d9a-a73e-24636c0d391e")
+	)
 	(label "GPIO27"
 		(at 35.56 127 270)
 		(fields_autoplaced yes)
@@ -9214,7 +9404,7 @@
 		(uuid "e285088b-e30d-4016-9e04-14625e95ca25")
 	)
 	(label "GPIO19{slash}PCM.FS{slash}SPI1.MISO"
-		(at 134.62 140.97 180)
+		(at 130.81 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9225,7 +9415,7 @@
 		(uuid "e45700b9-c645-42fa-88a1-2d14c4fb9e29")
 	)
 	(label "GPIO21{slash}PCM.DOUT{slash}SPI1.SCLK"
-		(at 134.62 135.89 180)
+		(at 133.35 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10122,6 +10312,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 240.03 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10c1babc-d5b0-4362-a1fd-a701097f8cd6")
+		(property "Reference" "#PWR033"
+			(at 240.03 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bdcfc936-918e-49f4-9485-a18d9f8f15b0")
+		)
+		(instances
+			(project "AMS Dongle"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 184.15 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10628,6 +10884,69 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 144.78 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1aa3fcde-2e99-47b8-adf7-f67c48ca53f3")
+		(property "Reference" "#PWR011"
+			(at 148.59 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 140.4556 120.2817 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 144.78 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "763a0aea-4111-45c4-8fdf-3a33d5abaaa4")
+		)
+		(instances
+			(project "AMS Dongle"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 182.88 102.87 0)
 		(unit 1)
@@ -10694,71 +11013,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 276.86 34.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b75cec6-f4c6-4390-a9e4-45f7e65bf922")
-		(property "Reference" "#PWR033"
-			(at 283.21 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 281.1844 34.1757 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 276.86 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 276.86 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf3d95c4-7a8e-4803-90b5-f40590d65e4e")
-		)
-		(instances
-			(project "AMS Dongle"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EPSA_lib:4P Angle 171857-4004")
-		(at 165.1 30.48 270)
+		(lib_id "EPSA_lib:4P Droit 22-11-2042")
+		(at 162.56 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10767,7 +11023,7 @@
 		(fields_autoplaced yes)
 		(uuid "219d61d7-1921-408a-b4e5-5fc7cdd418ec")
 		(property "Reference" "J2"
-			(at 168.91 40.6399 90)
+			(at 168.91 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10776,7 +11032,7 @@
 			)
 		)
 		(property "Value" "4P Angle 171857-4004"
-			(at 168.91 46.99 0)
+			(at 166.37 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10785,38 +11041,37 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EPSA_lib:HDRRA4W66P0X254_1X4_762X818X635P"
-			(at 166.37 46.99 0)
+		(property "Footprint" "EPSA_lib:MOLEX_22-11-2042"
+			(at 160.02 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/1718573005_sd.pdf"
-			(at 163.83 46.99 0)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112042?display=pdf"
+			(at 167.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Description" "Headers & Wire Housings KK RPC 254 Hdr FrLk R/A 04 Ckt 15Au T&R"
-			(at 161.29 46.99 0)
+			(at 162.56 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Height" "6.35"
-			(at 158.75 46.99 0)
+			(at 156.21 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10826,7 +11081,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 156.21 46.99 0)
+			(at 163.83 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10835,8 +11090,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "171857-4004"
-			(at 153.67 46.99 0)
+		(property "Manufacturer_Part_Number" "22-11-2042"
+			(at 162.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10845,8 +11100,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "538-171857-4004"
-			(at 151.13 46.99 0)
+		(property "Mouser Part Number" "538-22-11-2042"
+			(at 165.1 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10855,8 +11110,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/171857-4004?qs=v0t%252BUMfTP8MMewSk%252BpG0KA%3D%3D"
-			(at 148.59 46.99 0)
+		(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2042?qs=mrPiglD9aYJfi57%2FgjU4lw%3D%3D"
+			(at 166.37 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10865,8 +11120,8 @@
 				(hide yes)
 			)
 		)
-		(property "Render Name" "4P Angle"
-			(at 168.91 40.64 0)
+		(property "Render Name" "4P Droit"
+			(at 168.91 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10896,8 +11151,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EPSA_lib:4P Angle 171857-4004")
-		(at 201.93 30.48 270)
+		(lib_id "EPSA_lib:4P Droit 22-11-2042")
+		(at 199.39 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10906,7 +11161,7 @@
 		(fields_autoplaced yes)
 		(uuid "239c0b0d-72c8-410f-b9a9-5d9c024e928a")
 		(property "Reference" "J4"
-			(at 205.74 40.6399 90)
+			(at 205.74 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10915,7 +11170,7 @@
 			)
 		)
 		(property "Value" "4P Angle 171857-4004"
-			(at 205.74 46.99 0)
+			(at 203.2 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10924,38 +11179,37 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EPSA_lib:HDRRA4W66P0X254_1X4_762X818X635P"
-			(at 203.2 46.99 0)
+		(property "Footprint" "EPSA_lib:MOLEX_22-11-2042"
+			(at 196.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/1718573005_sd.pdf"
-			(at 200.66 46.99 0)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112042?display=pdf"
+			(at 204.47 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Description" "Headers & Wire Housings KK RPC 254 Hdr FrLk R/A 04 Ckt 15Au T&R"
-			(at 198.12 46.99 0)
+			(at 199.39 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Height" "6.35"
-			(at 195.58 46.99 0)
+			(at 193.04 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10965,7 +11219,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 193.04 46.99 0)
+			(at 200.66 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10974,8 +11228,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "171857-4004"
-			(at 190.5 46.99 0)
+		(property "Manufacturer_Part_Number" "22-11-2042"
+			(at 199.39 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10984,8 +11238,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "538-171857-4004"
-			(at 187.96 46.99 0)
+		(property "Mouser Part Number" "538-22-11-2042"
+			(at 201.93 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10994,8 +11248,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/171857-4004?qs=v0t%252BUMfTP8MMewSk%252BpG0KA%3D%3D"
-			(at 185.42 46.99 0)
+		(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2042?qs=mrPiglD9aYJfi57%2FgjU4lw%3D%3D"
+			(at 203.2 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11004,8 +11258,8 @@
 				(hide yes)
 			)
 		)
-		(property "Render Name" "4P Angle"
-			(at 205.74 40.64 0)
+		(property "Render Name" "4P Droit"
+			(at 205.74 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11552,140 +11806,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 127 146.05 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3aed7d35-9465-45a3-a900-b46800867d49")
-		(property "Reference" "#PWR026"
-			(at 130.81 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 123.19 146.0499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 127 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "333e10e0-c858-4cbb-919e-0446f8dc6d5b")
-		)
-		(instances
-			(project "AMS Dongle"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 144.78 120.65 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d6c6361-0b91-48c1-99c4-f3fc94a023ff")
-		(property "Reference" "#PWR031"
-			(at 148.59 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 140.97 120.6499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 144.78 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f917170c-5c85-42b2-8b88-2f34b0bba606")
-		)
-		(instances
-			(project "AMS Dongle"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 134.62 85.09 0)
 		(unit 1)
@@ -11818,8 +11938,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EPSA_lib:2P Angle 171857-4002")
-		(at 180.34 30.48 270)
+		(lib_id "EPSA_lib:2P Droit 2-11-2022")
+		(at 180.34 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11837,7 +11957,7 @@
 			)
 		)
 		(property "Value" "2P Angle 171857-4002"
-			(at 181.61 46.99 0)
+			(at 181.61 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11846,28 +11966,47 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EPSA_lib:1718574002"
-			(at 179.07 46.99 0)
+		(property "Footprint" "EPSA_lib:MOLEX_22-11-2022"
+			(at 177.8 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/171857-4002.pdf"
-			(at 176.53 46.99 0)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112022?display=pdf"
+			(at 180.34 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Description" "Headers & Wire Housings KK RPC 254 Hdr FrLk R/A 02 Ckt 15Au T&R"
-			(at 173.99 46.99 0)
+			(at 180.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.66mm"
+			(at 175.26 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 182.88 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11876,7 +12015,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "6.6"
+		(property "Manufacturer_Part_Number" "22-11-2022"
 			(at 171.45 46.99 0)
 			(effects
 				(font
@@ -11886,7 +12025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Molex"
+		(property "Mouser Part Number" "538-22-11-2022"
 			(at 168.91 46.99 0)
 			(effects
 				(font
@@ -11896,28 +12035,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "171857-4002"
-			(at 166.37 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "538-171857-4002"
-			(at 163.83 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/171857-4002?qs=v0t%252BUMfTP8OkFsdOsfcitg%3D%3D"
-			(at 161.29 46.99 0)
+		(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2022?qs=mrPiglD9aYLq1NGrfjXTJg%3D%3D"
+			(at 173.99 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11927,6 +12046,15 @@
 			)
 		)
 		(property "Render Name " "2P Angle"
+			(at 184.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "2P Droit"
 			(at 184.15 40.64 0)
 			(effects
 				(font
@@ -13654,6 +13782,154 @@
 		)
 	)
 	(symbol
+		(lib_id "EPSA_lib:Condensateur 0805Y1000104JXT")
+		(at 251.46 154.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7386af88-698e-457f-b885-3079e9b13b09")
+		(property "Reference" "C11"
+			(at 248.412 150.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 245.618 159.766 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EPSA_lib:CAPC2012X130N"
+			(at 231.14 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/119d/0900766b8119d7bc.pdf"
+			(at 231.14 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Syfer 0805 Ceramic Chip Capacitors"
+			(at 231.14 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 226.314 157.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 231.14 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.3"
+			(at 231.14 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Syfer"
+			(at 231.14 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805Y1000104JXT"
+			(at 231.14 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 242.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 231.14 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Condensateur"
+			(at 244.856 159.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee906c54-8cb1-4cfd-8b59-2925b6d0e8c8")
+		)
+		(pin "2"
+			(uuid "ca7cabd2-2582-4cb6-b3c5-34775e2d7f92")
+		)
+		(instances
+			(project "AMS Dongle"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 203.2 138.43 270)
 		(unit 1)
@@ -13721,17 +13997,83 @@
 		)
 	)
 	(symbol
-		(lib_id "EPSA_lib:Oscillateur CB3-3C-20M0000")
-		(at 144.78 120.65 0)
+		(lib_id "power:GND")
+		(at 111.76 140.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "82023e7e-9d8f-4d5f-8cdf-d00b87f58a34")
+		(property "Reference" "#PWR010"
+			(at 105.41 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.95 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "969c50bd-0a66-41d9-97ad-266ca3f6a98a")
+		)
+		(instances
+			(project "AMS Dongle"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CB3LV-3C-20M0000:CB3LV-3C-20M0000")
+		(at 144.78 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(uuid "878b130a-6dc1-4058-a96d-85972cf8c483")
 		(property "Reference" "Y1"
-			(at 160.02 113.03 0)
+			(at 160.02 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13739,89 +14081,90 @@
 			)
 		)
 		(property "Value" "Oscillateur CB3-3C-20M0000"
-			(at 160.02 115.57 0)
+			(at 160.02 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "CB33C20M0000"
-			(at 171.45 215.57 0)
+		(property "Footprint" "CB3LV3C20M0000"
+			(at 171.45 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/CB3-3C-20M0000.pdf"
-			(at 171.45 315.57 0)
+		(property "Datasheet" "https://www.ctscorp.com/wp-content/uploads/2015/11/008-0256-0.pdf"
+			(at 171.45 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Oscillator XO 20MHz +/-50ppm 50pF HCMOS/TTL 55% 5V 4-Pin SMD T/R"
-			(at 144.78 120.65 0)
+		(property "Description" "Oscillator XO 20MHz +/-50ppm 50pF HCMOS/TTL 55% 3.3V 4-Pin SMD T/R"
+			(at 171.45 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Height" "1.8"
-			(at 171.45 515.57 0)
+			(at 171.45 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "774-CB3-3C-20M0"
-			(at 171.45 615.57 0)
+		(property "Mouser Part Number" "774-CB3LV-3C-20M0"
+			(at 171.45 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CTS-Electronic-Components/CB3-3C-20M0000?qs=HL%252BYNjdyZ0siopZOWdAAcw%3D%3D"
-			(at 171.45 715.57 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CTS-Electronic-Components/CB3LV-3C-20M0000?qs=HL%252BYNjdyZ0vv%2FN1pDU3ADQ%3D%3D"
+			(at 171.45 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "CTS"
-			(at 171.45 815.57 0)
+			(at 171.45 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CB3-3C-20M0000"
-			(at 171.45 915.57 0)
+		(property "Manufacturer_Part_Number" "CB3LV-3C-20M0000"
+			(at 171.45 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -14471,6 +14814,196 @@
 			(project "AMS Dongle"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
+		(at 129.54 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "908542dd-88fb-41d3-86f5-4e66a325110f")
+		(property "Reference" "R19"
+			(at 119.126 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "360"
+			(at 118.618 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EPSA_lib:RESC3216X70N"
+			(at 104.14 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 104.14 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 104.14 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 99.314 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 104.14 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 104.14 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 104.14 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 104.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 104.14 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 104.14 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 115.57 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 115.57 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 115.57 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 115.57 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 120.65 147.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bac1212c-2128-4426-a1e1-e4beeec9cc56")
+		)
+		(pin "2"
+			(uuid "2abf0ebe-35b4-4682-920b-983b6b1b9f2c")
+		)
+		(instances
+			(project "AMS Dongle"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -16608,6 +17141,69 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 276.86 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c43a254d-68dc-4d8c-a381-ffe9532662ab")
+		(property "Reference" "#PWR09"
+			(at 283.21 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 281.1844 31.6357 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 276.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d16c7cb7-58fa-4c5b-9a1a-1f0fad782d45")
+		)
+		(instances
+			(project "AMS Dongle"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EPSA_lib:Condensateur 0805Y1000104JXT")
 		(at 262.89 134.62 0)
 		(unit 1)
@@ -16757,6 +17353,69 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 251.46 156.21 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d60edab0-0bd5-4d32-96a3-f5962f5eb8e3")
+		(property "Reference" "#PWR031"
+			(at 251.46 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 251.206 160.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 251.46 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb0d43bf-befa-4069-9899-c5137f037d20")
+		)
+		(instances
+			(project "AMS Dongle"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 96.52 177.8 270)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -16883,6 +17542,69 @@
 			(project "AMS Dongle"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 120.65 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dda152cc-6fdd-41cc-92df-4b6f433d42ab")
+		(property "Reference" "#PWR026"
+			(at 120.65 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 120.2817 152.9144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 120.65 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41899d2a-bb07-4b3a-9986-b054d9e0f412")
+		)
+		(instances
+			(project "AMS Dongle"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -17545,8 +18267,8 @@
 		)
 	)
 	(symbol
-		(lib_id "EPSA_lib:2P Angle 171857-4002")
-		(at 217.17 30.48 270)
+		(lib_id "EPSA_lib:2P Droit 2-11-2022")
+		(at 217.17 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17564,7 +18286,7 @@
 			)
 		)
 		(property "Value" "2P Angle 171857-4002"
-			(at 218.44 46.99 0)
+			(at 218.44 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17573,28 +18295,47 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "EPSA_lib:1718574002"
-			(at 215.9 46.99 0)
+		(property "Footprint" "EPSA_lib:MOLEX_22-11-2022"
+			(at 214.63 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/171857-4002.pdf"
-			(at 213.36 46.99 0)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112022?display=pdf"
+			(at 217.17 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 				(hide yes)
 			)
 		)
 		(property "Description" "Headers & Wire Housings KK RPC 254 Hdr FrLk R/A 02 Ckt 15Au T&R"
-			(at 210.82 46.99 0)
+			(at 217.17 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.66mm"
+			(at 212.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 219.71 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17603,7 +18344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "6.6"
+		(property "Manufacturer_Part_Number" "22-11-2022"
 			(at 208.28 46.99 0)
 			(effects
 				(font
@@ -17613,7 +18354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Molex"
+		(property "Mouser Part Number" "538-22-11-2022"
 			(at 205.74 46.99 0)
 			(effects
 				(font
@@ -17623,28 +18364,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "171857-4002"
-			(at 203.2 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "538-171857-4002"
-			(at 200.66 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/171857-4002?qs=v0t%252BUMfTP8OkFsdOsfcitg%3D%3D"
-			(at 198.12 46.99 0)
+		(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2022?qs=mrPiglD9aYLq1NGrfjXTJg%3D%3D"
+			(at 210.82 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17654,6 +18375,15 @@
 			)
 		)
 		(property "Render Name " "2P Angle"
+			(at 220.98 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "2P Droit"
 			(at 220.98 40.64 0)
 			(effects
 				(font
@@ -17868,7 +18598,7 @@
 		)
 	)
 	(symbol
-		(lib_id "EPSA_lib:CAN Transceiver BD41041FJ-CE2")
+		(lib_id "ATA6563-GBQW1:ATA6563-GBQW1")
 		(at 220.98 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17878,7 +18608,7 @@
 		(fields_autoplaced yes)
 		(uuid "ebfa49e0-fdb3-49b3-8fa0-de7c254505ba")
 		(property "Reference" "IC4"
-			(at 234.95 128.27 0)
+			(at 236.22 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17886,25 +18616,15 @@
 			)
 		)
 		(property "Value" "CAN Transceiver BD41041FJ-CE2"
-			(at 234.95 130.81 0)
+			(at 236.22 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X165-8N"
-			(at 245.11 230.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/414644ee1dc91df04c2a44596c540576.pdf"
-			(at 245.11 330.81 0)
+		(property "Footprint" "SON65P300X300X90-9N-D"
+			(at 247.65 230.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17913,7 +18633,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ROHM Semiconductor CAN Transceiver for Automotive"
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/DKDS-39/8187.pdf"
+			(at 247.65 330.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAN Interface IC CAN TRX with VIO PIN (DFN8)"
 			(at 220.98 135.89 0)
 			(effects
 				(font
@@ -17922,8 +18652,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.65"
-			(at 245.11 530.81 0)
+		(property "Height" "0.9"
+			(at 247.65 530.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17932,8 +18662,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "755-BD41041FJ-CE2"
-			(at 245.11 630.81 0)
+		(property "Mouser Part Number" "579-ATA6563-GBQW1"
+			(at 247.65 630.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17942,8 +18672,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/BD41041FJ-CE2?qs=%252BEew9%252B0nqrCizAYMbF4Vxg%3D%3D"
-			(at 245.11 730.81 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATA6563-GBQW1?qs=byeeYqUIh0OFDnqHLfeuvg%3D%3D"
+			(at 247.65 730.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17952,8 +18682,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
-			(at 245.11 830.81 0)
+		(property "Manufacturer_Name" "Microchip"
+			(at 247.65 830.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17962,8 +18692,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "BD41041FJ-CE2"
-			(at 245.11 930.81 0)
+		(property "Manufacturer_Part_Number" "ATA6563-GBQW1"
+			(at 247.65 930.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17995,6 +18725,9 @@
 		)
 		(pin "2"
 			(uuid "5c079452-0786-43f8-9731-985ca8813379")
+		)
+		(pin "9"
+			(uuid "61d3ef77-c0b3-4bd9-a82c-3810e9aab788")
 		)
 		(instances
 			(project "AMS Dongle"
