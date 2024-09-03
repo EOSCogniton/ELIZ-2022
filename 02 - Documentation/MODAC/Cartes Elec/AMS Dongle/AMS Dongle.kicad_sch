@@ -6161,6 +6161,12 @@
 		(uuid "42dd0b2f-5ce7-4d52-ac3b-65aba547e6d8")
 	)
 	(junction
+		(at 201.93 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44f8dbc9-2eac-48dc-9a1a-b55576218411")
+	)
+	(junction
 		(at 143.51 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6251,6 +6257,12 @@
 		(uuid "9a818c84-6e61-499c-90f5-49484e53054b")
 	)
 	(junction
+		(at 195.58 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e589668-b661-413e-acdf-99eded58e740")
+	)
+	(junction
 		(at 181.61 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6297,12 +6309,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b367b413-7b9c-428d-a859-5b9d875bcb47")
-	)
-	(junction
-		(at 35.56 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c3a0f2a5-8d64-4d9e-b6d1-5074cb9c7ad6")
 	)
 	(junction
 		(at 76.2 63.5)
@@ -6780,6 +6786,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 24.13) (xy 214.63 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ea5c61-97ed-4f28-a613-c869ed51c1be")
+	)
+	(wire
+		(pts
 			(xy 130.81 146.05) (xy 134.62 146.05)
 		)
 		(stroke
@@ -6830,7 +6846,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 27.94) (xy 196.85 27.94)
+			(xy 177.8 27.94) (xy 196.85 27.94)
 		)
 		(stroke
 			(width 0)
@@ -6990,7 +7006,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 26.67) (xy 191.77 27.94)
+			(xy 177.8 21.59) (xy 177.8 27.94)
 		)
 		(stroke
 			(width 0)
@@ -7100,7 +7116,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 124.46) (xy 39.37 124.46)
+			(xy 34.29 124.46) (xy 39.37 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7117,6 +7133,16 @@
 			(type default)
 		)
 		(uuid "4375be7b-e033-4bb5-9269-2d3cd0c56209")
+	)
+	(wire
+		(pts
+			(xy 194.31 36.83) (xy 194.31 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43d227c2-f137-42a0-959a-608c16bb0e66")
 	)
 	(wire
 		(pts
@@ -7187,6 +7213,16 @@
 			(type solid)
 		)
 		(uuid "4caa0f28-ce0b-471d-b577-0039388b4c45")
+	)
+	(wire
+		(pts
+			(xy 190.5 19.05) (xy 195.58 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cb07af9-1b9b-4be5-986e-e29cadbdbe9c")
 	)
 	(wire
 		(pts
@@ -7540,6 +7576,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 21.59) (xy 196.85 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76225c25-96ba-424c-89c8-7c31475477b1")
+	)
+	(wire
+		(pts
 			(xy 138.43 95.25) (xy 138.43 85.09)
 		)
 		(stroke
@@ -7840,6 +7886,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 36.83) (xy 199.39 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ff817e1-ef01-46ad-a2a2-e03296d38568")
+	)
+	(wire
+		(pts
 			(xy 200.66 59.69) (xy 200.66 85.09)
 		)
 		(stroke
@@ -7847,6 +7903,16 @@
 			(type default)
 		)
 		(uuid "9048c770-f1c6-4c76-a6e3-36252161da6b")
+	)
+	(wire
+		(pts
+			(xy 209.55 35.56) (xy 201.93 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9066f6b6-f838-4619-8ee7-15225702f771")
 	)
 	(wire
 		(pts
@@ -7930,7 +7996,17 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 27.94) (xy 196.85 30.48)
+			(xy 209.55 24.13) (xy 209.55 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e49c24a-b6b0-4b86-bc99-301df04e1fd4")
+	)
+	(wire
+		(pts
+			(xy 196.85 27.94) (xy 196.85 36.83)
 		)
 		(stroke
 			(width 0)
@@ -8087,26 +8163,6 @@
 			(type solid)
 		)
 		(uuid "b8286aaf-3086-41e1-a5dc-8f8a05589eb9")
-	)
-	(wire
-		(pts
-			(xy 35.56 124.46) (xy 35.56 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9ac4b63-d0ee-4f5a-93f3-38245f832063")
-	)
-	(wire
-		(pts
-			(xy 35.56 124.46) (xy 34.29 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba8d7229-5dea-4d94-8c16-dd26181e498d")
 	)
 	(wire
 		(pts
@@ -8380,6 +8436,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 24.13) (xy 209.55 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1847405-9bf2-48a1-aa3b-a4f22b9c3ab7")
+	)
+	(wire
+		(pts
 			(xy 185.42 125.73) (xy 186.69 125.73)
 		)
 		(stroke
@@ -8540,6 +8606,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 36.83) (xy 201.93 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9c39f99-6a65-4552-ae30-66e258d7d18a")
+	)
+	(wire
+		(pts
 			(xy 73.66 60.96) (xy 100.33 60.96)
 		)
 		(stroke
@@ -8567,6 +8643,16 @@
 			(type default)
 		)
 		(uuid "fa9aa0c1-fa39-4373-8a83-df4941d8d5eb")
+	)
+	(wire
+		(pts
+			(xy 195.58 19.05) (xy 195.58 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb6b4f4f-1291-47f4-a624-d77ad42b0fc3")
 	)
 	(wire
 		(pts
@@ -8601,7 +8687,7 @@
 		(uuid 49a1e0ef-334a-4c0f-950e-8ad1d321ae50)
 	)
 	(rectangle
-		(start 107.95 17.78)
+		(start 107.95 15.24)
 		(end 224.79 53.34)
 		(stroke
 			(width 0)
@@ -8649,7 +8735,7 @@
 		(uuid 90c87a1d-cb18-4f45-bd52-f41a3cc641cb)
 	)
 	(rectangle
-		(start 227.33 17.78)
+		(start 227.33 15.24)
 		(end 283.21 53.34)
 		(stroke
 			(width 0)
@@ -8755,7 +8841,7 @@
 		(uuid "01a6cb5b-a9b4-43df-a85d-fc59fdd75d72")
 	)
 	(label "PDU"
-		(at 191.77 26.67 90)
+		(at 177.8 26.67 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8810,7 +8896,7 @@
 		(uuid "0bec16b3-1718-4967-abb5-89274b1e4c31")
 	)
 	(label "IM"
-		(at 180.34 30.48 90)
+		(at 175.26 30.48 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8931,7 +9017,7 @@
 		(uuid "3911220d-b117-4874-8479-50c0285caa70")
 	)
 	(label "IP"
-		(at 177.8 30.48 90)
+		(at 172.72 30.48 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8953,7 +9039,7 @@
 		(uuid "45550f58-81b3-4113-a98b-8910341c00d8")
 	)
 	(label "AN0"
-		(at 157.48 30.48 90)
+		(at 154.94 30.48 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8975,7 +9061,7 @@
 		(uuid "4ab37240-8d89-45e1-a040-7234d545c9f4")
 	)
 	(label "AN3"
-		(at 165.1 30.48 90)
+		(at 162.56 30.48 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9019,7 +9105,7 @@
 		(uuid "591fa762-d154-4cf7-8db7-a10b610ff12a")
 	)
 	(label "AN1"
-		(at 160.02 30.48 90)
+		(at 157.48 30.48 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9206,7 +9292,7 @@
 		(uuid "9d507609-a820-4ac3-9e87-451a1c0e6633")
 	)
 	(label "SCS Out"
-		(at 199.39 30.48 90)
+		(at 199.39 35.56 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9272,18 +9358,7 @@
 		(uuid "a4ea18c0-875f-43e7-bc38-79eed0d7f74f")
 	)
 	(label "GPIO26"
-		(at 195.58 27.94 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a54598ea-09f3-4d9a-a73e-24636c0d391e")
-	)
-	(label "GPIO27"
-		(at 35.56 127 270)
+		(at 190.5 19.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9291,7 +9366,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "a7aa94bd-d4bb-4773-9a90-cf2ff9077b2d")
+		(uuid "a7b98838-4623-4726-b6e5-665c1ee1151f")
 	)
 	(label "GPIO12{slash}PWM0"
 		(at 100.33 66.04 180)
@@ -9393,7 +9468,7 @@
 		(uuid "e1881030-c1b1-434c-9133-2f517e4d5a5a")
 	)
 	(label "AN2"
-		(at 162.56 30.48 90)
+		(at 160.02 30.48 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10176,7 +10251,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 194.31 30.48 90)
+		(at 194.31 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10185,7 +10260,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ee4eed4-da29-46a0-bef7-367cf39a1343")
 		(property "Reference" "#PWR022"
-			(at 198.12 30.48 0)
+			(at 198.12 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10194,7 +10269,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 190.5 30.4799 90)
+			(at 190.5 35.5599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10203,7 +10278,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 30.48 0)
+			(at 194.31 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10212,7 +10287,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 30.48 0)
+			(at 194.31 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10221,7 +10296,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 194.31 30.48 0)
+			(at 194.31 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11014,7 +11089,7 @@
 	)
 	(symbol
 		(lib_id "EPSA_lib:4P Droit 22-11-2042")
-		(at 162.56 35.56 270)
+		(at 160.02 35.56 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11023,7 +11098,7 @@
 		(fields_autoplaced yes)
 		(uuid "219d61d7-1921-408a-b4e5-5fc7cdd418ec")
 		(property "Reference" "J2"
-			(at 168.91 36.8299 90)
+			(at 166.37 36.8299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11032,7 +11107,7 @@
 			)
 		)
 		(property "Value" "4P Angle 171857-4004"
-			(at 166.37 52.07 0)
+			(at 163.83 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11042,7 +11117,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:MOLEX_22-11-2042"
-			(at 160.02 41.91 0)
+			(at 157.48 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11052,7 +11127,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112042?display=pdf"
-			(at 167.64 41.91 0)
+			(at 165.1 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11062,7 +11137,7 @@
 			)
 		)
 		(property "Description" "Headers & Wire Housings KK RPC 254 Hdr FrLk R/A 04 Ckt 15Au T&R"
-			(at 162.56 35.56 0)
+			(at 160.02 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11071,7 +11146,7 @@
 			)
 		)
 		(property "Height" "6.35"
-			(at 156.21 52.07 0)
+			(at 153.67 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11081,7 +11156,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 163.83 41.91 0)
+			(at 161.29 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11091,7 +11166,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "22-11-2042"
-			(at 162.56 41.91 0)
+			(at 160.02 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11101,7 +11176,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-22-11-2042"
-			(at 165.1 41.91 0)
+			(at 162.56 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11111,7 +11186,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2042?qs=mrPiglD9aYJfi57%2FgjU4lw%3D%3D"
-			(at 166.37 41.91 0)
+			(at 163.83 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11121,7 +11196,7 @@
 			)
 		)
 		(property "Render Name" "4P Droit"
-			(at 168.91 36.83 0)
+			(at 166.37 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11152,7 +11227,7 @@
 	)
 	(symbol
 		(lib_id "EPSA_lib:4P Droit 22-11-2042")
-		(at 199.39 35.56 270)
+		(at 199.39 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11161,7 +11236,7 @@
 		(fields_autoplaced yes)
 		(uuid "239c0b0d-72c8-410f-b9a9-5d9c024e928a")
 		(property "Reference" "J4"
-			(at 205.74 36.8299 90)
+			(at 205.74 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11170,7 +11245,7 @@
 			)
 		)
 		(property "Value" "4P Angle 171857-4004"
-			(at 203.2 52.07 0)
+			(at 203.2 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11180,7 +11255,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:MOLEX_22-11-2042"
-			(at 196.85 41.91 0)
+			(at 196.85 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11190,7 +11265,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112042?display=pdf"
-			(at 204.47 41.91 0)
+			(at 204.47 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11200,7 +11275,7 @@
 			)
 		)
 		(property "Description" "Headers & Wire Housings KK RPC 254 Hdr FrLk R/A 04 Ckt 15Au T&R"
-			(at 199.39 35.56 0)
+			(at 199.39 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11209,7 +11284,7 @@
 			)
 		)
 		(property "Height" "6.35"
-			(at 193.04 52.07 0)
+			(at 193.04 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11219,7 +11294,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 200.66 41.91 0)
+			(at 200.66 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11229,7 +11304,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "22-11-2042"
-			(at 199.39 41.91 0)
+			(at 199.39 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11239,7 +11314,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-22-11-2042"
-			(at 201.93 41.91 0)
+			(at 201.93 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11249,7 +11324,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2042?qs=mrPiglD9aYJfi57%2FgjU4lw%3D%3D"
-			(at 203.2 41.91 0)
+			(at 203.2 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11259,7 +11334,7 @@
 			)
 		)
 		(property "Render Name" "4P Droit"
-			(at 205.74 36.83 0)
+			(at 205.74 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11352,6 +11427,386 @@
 			(project "AMS Dongle"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
+		(at 195.58 21.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27666d55-ee1f-468c-9c64-5478f37bcf51")
+		(property "Reference" "R21"
+			(at 181.864 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 186.69 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EPSA_lib:RESC3216X70N"
+			(at 170.18 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 170.18 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 170.18 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 165.354 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 170.18 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 170.18 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 170.18 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 170.18 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 170.18 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 170.18 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 181.61 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 181.61 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 181.61 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 181.61 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 186.69 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da77857e-cdb9-41a1-908c-75bea3fec128")
+		)
+		(pin "2"
+			(uuid "ef8b6426-e769-476b-b96d-f65d5662b26a")
+		)
+		(instances
+			(project "AMS Dongle"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
+		(at 214.63 21.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "294b62f4-ad4c-4765-9d7b-38b4b7f7e219")
+		(property "Reference" "R20"
+			(at 200.914 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3.6k"
+			(at 204.978 24.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "EPSA_lib:RESC3216X70N"
+			(at 189.23 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 189.23 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 189.23 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 184.404 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 189.23 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 189.23 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 189.23 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 189.23 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 189.23 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 189.23 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 200.66 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 200.66 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 200.66 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 200.66 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 205.74 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9fba406-5180-439f-b3d1-52c37e5b71dd")
+		)
+		(pin "2"
+			(uuid "0b3a50f9-afaf-438d-926f-c54f92512ed6")
+		)
+		(instances
+			(project "AMS Dongle"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -11939,7 +12394,7 @@
 	)
 	(symbol
 		(lib_id "EPSA_lib:2P Droit 2-11-2022")
-		(at 180.34 40.64 270)
+		(at 175.26 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11948,7 +12403,7 @@
 		(fields_autoplaced yes)
 		(uuid "4130834f-e180-43e8-91ba-314feec34d76")
 		(property "Reference" "J3"
-			(at 184.15 40.6399 90)
+			(at 179.07 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11957,7 +12412,7 @@
 			)
 		)
 		(property "Value" "2P Angle 171857-4002"
-			(at 181.61 57.15 0)
+			(at 176.53 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11967,7 +12422,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:MOLEX_22-11-2022"
-			(at 177.8 46.99 0)
+			(at 172.72 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11977,25 +12432,6 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112022?display=pdf"
-			(at 180.34 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Headers & Wire Housings KK RPC 254 Hdr FrLk R/A 02 Ckt 15Au T&R"
-			(at 180.34 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "10.66mm"
 			(at 175.26 46.99 0)
 			(effects
 				(font
@@ -12005,8 +12441,27 @@
 				(hide yes)
 			)
 		)
+		(property "Description" "Headers & Wire Housings KK RPC 254 Hdr FrLk R/A 02 Ckt 15Au T&R"
+			(at 175.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.66mm"
+			(at 170.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
 		(property "Manufacturer_Name" "Molex"
-			(at 182.88 46.99 0)
+			(at 177.8 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12016,7 +12471,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "22-11-2022"
-			(at 171.45 46.99 0)
+			(at 166.37 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12026,7 +12481,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-22-11-2022"
-			(at 168.91 46.99 0)
+			(at 163.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12036,7 +12491,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2022?qs=mrPiglD9aYLq1NGrfjXTJg%3D%3D"
-			(at 173.99 46.99 0)
+			(at 168.91 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12046,7 +12501,7 @@
 			)
 		)
 		(property "Render Name " "2P Angle"
-			(at 184.15 50.8 0)
+			(at 179.07 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12055,7 +12510,7 @@
 			)
 		)
 		(property "Render Name" "2P Droit"
-			(at 184.15 40.64 0)
+			(at 179.07 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14758,7 +15213,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 30.48 90)
+		(at 201.93 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14766,7 +15221,7 @@
 		(dnp no)
 		(uuid "8b4aad88-d262-4727-bb39-faff985c4729")
 		(property "Reference" "#PWR05"
-			(at 208.28 30.48 0)
+			(at 208.28 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14775,7 +15230,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 206.2544 30.3657 0)
+			(at 206.2544 35.4457 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14783,7 +15238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 30.48 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14791,7 +15246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 30.48 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14799,7 +15254,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 30.48 0)
+			(at 201.93 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15338,8 +15793,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.8k"
-			(at 186.944 62.23 90)
+		(property "Value" "1k"
+			(at 194.31 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18889,8 +19344,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.21k"
-			(at 190.754 77.216 0)
+		(property "Value" "1k"
+			(at 184.15 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
