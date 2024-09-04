@@ -53,18 +53,6 @@
 		)
 		(uuid "4209c756-5ab1-4b1c-8464-705d28a30fab")
 	)
-	(hierarchical_label "In6"
-		(shape input)
-		(at 129.54 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a055cd85-17f9-465f-912a-4b6989b97591")
-	)
 	(hierarchical_label "Out5"
 		(shape output)
 		(at 129.54 109.22 0)
@@ -88,18 +76,6 @@
 			(justify left)
 		)
 		(uuid "b58c7a67-3380-4ff4-a8f8-26e66fe3873b")
-	)
-	(hierarchical_label "Out6"
-		(shape output)
-		(at 129.54 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b63fe449-c958-4029-b284-1b9525de80d0")
 	)
 	(hierarchical_label "Out2"
 		(shape output)

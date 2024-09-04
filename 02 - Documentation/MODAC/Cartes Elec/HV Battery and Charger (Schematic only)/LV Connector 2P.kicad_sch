@@ -2,12 +2,12 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "e363d5bc-6c8b-488c-9bfd-531fa92658ca")
+	(uuid "f7699b28-dfd0-4530-8f0c-9aa463992e8a")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "Ground"
-		(shape input)
-		(at 125.73 86.36 0)
+	(hierarchical_label "Out1"
+		(shape output)
+		(at 129.54 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15,11 +15,11 @@
 			)
 			(justify left)
 		)
-		(uuid "03db92ed-81df-4e0f-a6d9-f03f9ac4f475")
+		(uuid "0498f53c-6978-4069-9956-675b0a641e47")
 	)
-	(hierarchical_label "Vout"
-		(shape input)
-		(at 125.73 77.47 0)
+	(hierarchical_label "Out2"
+		(shape output)
+		(at 129.54 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -27,11 +27,11 @@
 			)
 			(justify left)
 		)
-		(uuid "55a3e8fd-3e0b-4deb-9af0-53f3a4581bb3")
+		(uuid "bc38bbb6-fab1-447a-a612-9a6cb9d87c43")
 	)
-	(hierarchical_label "V+"
+	(hierarchical_label "In2"
 		(shape input)
-		(at 125.73 83.82 0)
+		(at 129.54 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -39,11 +39,11 @@
 			)
 			(justify left)
 		)
-		(uuid "6bb129fa-a148-4fd0-ba2e-b3bb1cd3393f")
+		(uuid "ddb45c3a-4d68-4b40-8c86-30be270d019f")
 	)
-	(hierarchical_label "Vin"
+	(hierarchical_label "In1"
 		(shape input)
-		(at 125.73 73.66 0)
+		(at 129.54 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -51,6 +51,6 @@
 			)
 			(justify left)
 		)
-		(uuid "a9d39834-0d2a-4f45-a20e-23bc6363f36b")
+		(uuid "e44a1585-8c10-44c0-a92a-108762b14d04")
 	)
 )

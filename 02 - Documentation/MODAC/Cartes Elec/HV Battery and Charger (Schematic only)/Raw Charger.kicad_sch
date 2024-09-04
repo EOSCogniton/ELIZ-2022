@@ -5,7 +5,7 @@
 	(uuid "6b5739d9-a5e4-46c2-b5ca-f59ab3e262a4")
 	(paper "A4")
 	(lib_symbols)
-	(hierarchical_label "PE"
+	(hierarchical_label "OutLV-"
 		(shape input)
 		(at 119.38 91.44 0)
 		(fields_autoplaced yes)
@@ -16,6 +16,18 @@
 			(justify left)
 		)
 		(uuid "182b8362-075f-4633-ba9c-59ad095e6c53")
+	)
+	(hierarchical_label "CANL"
+		(shape input)
+		(at 119.38 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "398a2d26-99b4-4981-a05d-623b8c3a6ec7")
 	)
 	(hierarchical_label "OutHV-"
 		(shape input)
@@ -29,6 +41,18 @@
 		)
 		(uuid "3b6054b8-302b-49fe-99f7-f2f9427601d5")
 	)
+	(hierarchical_label "CANGND"
+		(shape input)
+		(at 119.38 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bee6ece-5238-400c-9c0c-b0442d502793")
+	)
 	(hierarchical_label "OutLV+"
 		(shape input)
 		(at 119.38 99.06 0)
@@ -40,6 +64,18 @@
 			(justify left)
 		)
 		(uuid "61525987-1f77-4564-9890-5be079a19a65")
+	)
+	(hierarchical_label "CANH"
+		(shape input)
+		(at 119.38 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7777fde7-5986-46cf-9d9d-9ade57e0c1a8")
 	)
 	(hierarchical_label "Phase"
 		(shape input)
@@ -64,6 +100,18 @@
 			(justify left)
 		)
 		(uuid "8458b13c-7d32-4a27-9f28-2cdf6b84650e")
+	)
+	(hierarchical_label "ENABLE"
+		(shape input)
+		(at 119.38 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "936f3b9a-1eb1-4066-b5cb-2f6f995c6b03")
 	)
 	(hierarchical_label "OutHV+"
 		(shape input)
