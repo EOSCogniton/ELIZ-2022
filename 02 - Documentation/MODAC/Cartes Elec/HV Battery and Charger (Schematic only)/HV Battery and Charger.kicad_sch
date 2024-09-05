@@ -1998,16 +1998,6 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 242.57) (xy 402.59 242.57)
-		)
-		(stroke
-			(width 1.016)
-			(type default)
-		)
-		(uuid "14d8965d-2512-4b62-9787-96f7c4d1c1b5")
-	)
-	(wire
-		(pts
 			(xy 78.74 190.5) (xy 114.3 190.5)
 		)
 		(stroke
@@ -2459,7 +2449,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 218.44) (xy 278.13 222.25)
+			(xy 278.13 219.71) (xy 278.13 224.79)
 		)
 		(stroke
 			(width 0.5)
@@ -2567,7 +2557,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 229.87) (xy 278.13 238.76)
+			(xy 278.13 232.41) (xy 278.13 238.76)
 		)
 		(stroke
 			(width 0.5)
@@ -2652,7 +2642,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 242.57) (xy 287.02 242.57)
+			(xy 278.13 242.57) (xy 402.59 242.57)
 		)
 		(stroke
 			(width 1.016)
@@ -3191,7 +3181,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 238.76) (xy 278.13 238.76)
+			(xy 278.13 238.76) (xy 398.78 238.76)
 		)
 		(stroke
 			(width 1.016)
@@ -3673,16 +3663,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "b170b6fb-1a37-4587-af14-155d3ab2dabd")
-	)
-	(wire
-		(pts
-			(xy 314.96 238.76) (xy 398.78 238.76)
-		)
-		(stroke
-			(width 1.016)
-			(type default)
-		)
-		(uuid "b20b9139-2783-4b53-b021-8d531e328a1f")
 	)
 	(wire
 		(pts
@@ -4175,7 +4155,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 218.44) (xy 281.94 218.44)
+			(xy 278.13 219.71) (xy 281.94 219.71)
 		)
 		(stroke
 			(width 0.5)
@@ -4632,7 +4612,7 @@
 	)
 	(text "If AMS or IMD open the SDC,\nthis board will keep it open\nuntil the release AMS/IMD\nbutton is pressed"
 		(exclude_from_sim no)
-		(at 213.106 187.198 0)
+		(at 204.47 187.706 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5291,7 +5271,7 @@
 	)
 	(global_label "TSMP +"
 		(shape input)
-		(at 281.94 218.44 0)
+		(at 281.94 219.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5301,7 +5281,7 @@
 		)
 		(uuid "fcabdbc9-1432-4761-8dba-f409824a3c32")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 292.3637 218.44 0)
+			(at 292.3637 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5627,7 +5607,7 @@
 			(uuid "f6365884-ac47-4fe6-af54-2e1f90f794ec")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(reference "AMSLED1")
 					(unit 1)
@@ -5716,7 +5696,7 @@
 			(uuid "307b3c9f-6722-4af0-8eca-7b86de4ccca6")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(reference "K3")
 					(unit 1)
@@ -5784,7 +5764,7 @@
 			(uuid "24b24e28-0341-489c-a9a7-fb18ceaddb9f")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(reference "FAN3")
 					(unit 1)
@@ -5852,7 +5832,7 @@
 			(uuid "70afa71a-38d6-4518-8857-a5b9862c1e6e")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(reference "FAN4")
 					(unit 1)
@@ -5940,7 +5920,7 @@
 			(uuid "ced6763a-3aa9-4b93-8430-16791280d2ae")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(reference "K1")
 					(unit 1)
@@ -5950,7 +5930,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 278.13 226.06 0)
+		(at 278.13 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5958,7 +5938,7 @@
 		(dnp no)
 		(uuid "46a5e684-160a-475e-88d9-64a841ffe13f")
 		(property "Reference" "R1"
-			(at 280.67 223.266 0)
+			(at 280.67 225.806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5967,7 +5947,7 @@
 			)
 		)
 		(property "Value" "10kΩ 25W"
-			(at 280.67 225.044 0)
+			(at 280.67 227.584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5976,7 +5956,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.352 226.06 90)
+			(at 276.352 228.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5985,7 +5965,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 278.13 226.06 0)
+			(at 278.13 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5994,7 +5974,7 @@
 			)
 		)
 		(property "Description" "Ohmite HS25 15K J "
-			(at 290.83 227.076 0)
+			(at 290.83 229.616 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6003,7 +5983,7 @@
 			)
 		)
 		(property "Current rating" "0.04A @ 600V"
-			(at 295.148 229.362 0)
+			(at 295.148 231.902 0)
 			(show_name yes)
 			(effects
 				(font
@@ -6019,7 +5999,7 @@
 			(uuid "fdccab35-1223-4588-a2f4-ef0a681b9535")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(reference "R1")
 					(unit 1)
@@ -6086,7 +6066,7 @@
 			(uuid "634bf0c2-2a09-4acd-9121-cbf419c0bdce")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(reference "SW1")
 					(unit 1)
@@ -6165,7 +6145,7 @@
 			(uuid "264795dd-e5c0-47a4-b9a8-4aa82402be21")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(reference "R2")
 					(unit 1)
@@ -6254,7 +6234,7 @@
 			(uuid "7efeff50-1237-403e-8111-d35db1c38966")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(reference "K2")
 					(unit 1)
@@ -6322,7 +6302,7 @@
 			(uuid "c503f074-766d-4f50-88b2-48593536b785")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(reference "FAN1")
 					(unit 1)
@@ -6418,7 +6398,7 @@
 			(uuid "c508dd96-c807-4a56-9403-908376ad789f")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(reference "IMDLED1")
 					(unit 1)
@@ -6486,7 +6466,7 @@
 			(uuid "1e458bf3-7049-4196-a2d2-f944b851c551")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(reference "FAN2")
 					(unit 1)
@@ -6582,7 +6562,7 @@
 			(uuid "78404c56-fe58-493b-9f94-e87618132143")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(reference "D1")
 					(unit 1)
@@ -6656,7 +6636,7 @@
 			(uuid "845acce7-7394-4738-85a8-2040aed86c09")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(reference "SW2")
 					(unit 1)
@@ -6746,7 +6726,7 @@
 			(uuid "f8a94c6a-74f9-45c7-a96b-c8e102d963f7")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(page "10")
 				)
@@ -6904,7 +6884,7 @@
 			(uuid "4ad64d07-f405-45b0-b0ef-0594f7d80d83")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(page "16")
 				)
@@ -7172,7 +7152,7 @@
 			(uuid "f493ef21-3beb-4c90-a448-68fe54d7ef1c")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(page "7")
 				)
@@ -7330,7 +7310,7 @@
 			(uuid "3bd2775c-9341-4826-97b2-dbbc6edac9d2")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(page "12")
 				)
@@ -7428,7 +7408,7 @@
 			(uuid "cc5949c3-2c33-42c5-ba2f-b908b3241d1c")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(page "4")
 				)
@@ -7535,107 +7515,9 @@
 			(uuid "01a47582-11f4-4470-9859-1086e25fc026")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 287.02 234.95)
-		(size 13.97 12.7)
-		(stroke
-			(width 0.381)
-			(type solid)
-			(color 255 0 4 1)
-		)
-		(fill
-			(color 255 211 0 0.3500)
-		)
-		(uuid "6ad37762-c0c7-4a81-82f5-4fdf0406d074")
-		(property "Sheetname" "HV Receptacle Charger"
-			(at 281.432 233.426 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "HV Connector.kicad_sch"
-			(at 287.02 248.3489 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Amphenol UPCR012ALS1"
-			(at 288.29 230.886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Current rating" "250A"
-			(at 286.258 232.918 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "+In" input
-			(at 300.99 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7e0d3281-6f24-49d5-a2dc-9ecf8c69257c")
-		)
-		(pin "-In" input
-			(at 300.99 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "71d074a8-0b7a-436f-a017-77dca111d4e2")
-		)
-		(pin "+Out" output
-			(at 287.02 238.76 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "da21bb85-064e-479e-913f-55dec184ad9f")
-		)
-		(pin "-Out" output
-			(at 287.02 242.57 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6dbbf14e-7823-4684-aeab-53fb769f447e")
-		)
-		(instances
-			(project "HV Battery (LV Part)"
-				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
-					(page "22")
 				)
 			)
 		)
@@ -7722,7 +7604,7 @@
 			(uuid "b50a4309-e13d-4b1e-9427-3bb560e8cd77")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(page "11")
 				)
@@ -7820,7 +7702,7 @@
 			(uuid "bd68a8e3-24e1-4bca-858b-4a71c0310341")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(page "13")
 				)
@@ -7970,7 +7852,7 @@
 			(uuid "c00b5bf8-18e5-4a5f-ae4e-dab70c379325")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(page "20")
 				)
@@ -8068,107 +7950,9 @@
 			(uuid "363a88f0-54fa-4d64-80b7-ed732b43ccff")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(page "14")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 300.99 234.95)
-		(size 13.97 12.7)
-		(stroke
-			(width 0.381)
-			(type solid)
-			(color 255 0 4 1)
-		)
-		(fill
-			(color 255 211 0 0.3500)
-		)
-		(uuid "9e493e11-10aa-428e-8cae-e5cd724c19df")
-		(property "Sheetname" "HV Plug Charger"
-			(at 304.8 232.664 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "HV Connector.kicad_sch"
-			(at 300.99 248.3489 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Amphenol UPCR012ALS1"
-			(at 302.26 230.886 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Current rating" "250A"
-			(at 300.228 232.918 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "+In" input
-			(at 300.99 238.76 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a7474bc2-fd92-4cb2-a6df-7cc352d4586e")
-		)
-		(pin "-In" input
-			(at 300.99 242.57 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "5f776595-1d66-4ea3-943e-7e6e4891b8fc")
-		)
-		(pin "+Out" output
-			(at 314.96 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b58cfd17-8929-442d-ba53-8991e498f25e")
-		)
-		(pin "-Out" output
-			(at 314.96 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "01390870-6c05-4272-84c8-4961b06f5b19")
-		)
-		(instances
-			(project "HV Battery (LV Part)"
-				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
-					(page "21")
 				)
 			)
 		)
@@ -8314,7 +8098,7 @@
 			(uuid "13e53f69-f1e7-42e0-aa80-be8cdc30bbab")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(page "19")
 				)
@@ -8421,7 +8205,7 @@
 			(uuid "cd85a16d-5478-4f42-b2e4-a1157af65a66")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(page "23")
 				)
@@ -8529,7 +8313,7 @@
 			(uuid "cf24e949-d7d9-478b-9f7c-24ec2f4a2528")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(page "3")
 				)
@@ -8627,7 +8411,7 @@
 			(uuid "b70d4f1f-0009-457e-b508-00e403f6b8a9")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(page "17")
 				)
@@ -8754,7 +8538,7 @@
 			(uuid "0504c753-fe22-42a3-9efc-9c103dd45d90")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(page "2")
 				)
@@ -8843,7 +8627,7 @@
 			(uuid "2b594938-37b3-4263-a783-a048278aea48")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(page "9")
 				)
@@ -8912,7 +8696,7 @@
 			(uuid "7f95d40b-b7c7-438d-b712-88da738a00c3")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(page "8")
 				)
@@ -9010,7 +8794,7 @@
 			(uuid "76899bbe-0b38-45a3-b5d3-885fc1448d58")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(page "18")
 				)
@@ -9188,7 +8972,7 @@
 			(uuid "a8a6c0e3-7122-4b44-acda-682ff0a3b174")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(page "6")
 				)
@@ -9346,7 +9130,7 @@
 			(uuid "213ad4dc-937f-4341-8138-e808d8c76f0c")
 		)
 		(instances
-			(project "HV Battery (LV Part)"
+			(project "HV Battery and Charger"
 				(path "/d2f972e9-89ed-487f-be6f-fc4d9e391c8a"
 					(page "15")
 				)
