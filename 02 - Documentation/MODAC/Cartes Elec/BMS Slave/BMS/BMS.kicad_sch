@@ -1675,196 +1675,6 @@
 				)
 			)
 		)
-		(symbol "EPSA_lib:4P Droit 22-11-2042"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 1.27 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "4P Droit 22-11-2042"
-				(at 6.35 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "EPSA_lib:MOLEX_22-11-2042"
-				(at 6.35 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112042?display=pdf"
-				(at 6.35 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Render Name" "4P Droit"
-				(at 1.27 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Molex"
-				(at 6.35 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "22-11-2042"
-				(at 6.35 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "538-22-11-2042"
-				(at 6.35 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2042?qs=mrPiglD9aYJfi57%2FgjU4lw%3D%3D"
-				(at 6.35 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "4P Droit 22-11-2042_0_0"
-				(rectangle
-					(start -2.54 -7.62)
-					(end 5.08 5.08)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "EPSA_lib:BMS LTC6811IG-1#PBF"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4186,175 +3996,6 @@
 				)
 			)
 		)
-		(symbol "EPSA_lib:Commutateur CAS-120B"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at 21.59 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "Commutateur CAS-120B"
-				(at 21.59 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "CAS120B"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.nidec-copal-electronics.com/e/catalog/switch/cas.pdf"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "SPDT, ON-ON  Slide, 100mA @ 6V DC Gull Wing SMD Terminal, Bulk Packaging, Washable with seal tape - Bulk"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "2.5"
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "229-CAS-120B"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nidec-Copal/CAS-120B?qs=XeJtXLiO41SFQrNWr8fvAQ%3D%3D"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Nidec Copal"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "CAS-120B"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "Commutateur CAS-120B_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "NO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "EPSA_lib:I2C Mux ADG728BRUZ-REEL7"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5877,6 +5518,12 @@
 		(uuid "051b3e55-526a-4ac2-9b46-95de13c02a1b")
 	)
 	(junction
+		(at 190.5 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e4075ec-11a0-43d7-8170-c21b0576657c")
+	)
+	(junction
 		(at 20.32 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6135,7 +5782,7 @@
 		(uuid "c96235eb-45d7-419c-8cb2-94e551876751")
 	)
 	(junction
-		(at 200.66 90.17)
+		(at 194.31 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cdeace1a-6f0d-4a68-82ce-c8e51cff7804")
@@ -6227,8 +5874,16 @@
 		(uuid "43787c41-4ee3-4262-a8ba-48f90e59cc17")
 	)
 	(no_connect
+		(at 182.88 95.25)
+		(uuid "44734de8-b4b1-4df5-aa66-83adc3b2b817")
+	)
+	(no_connect
 		(at 182.88 130.81)
 		(uuid "5003c4ee-738d-4111-a63b-26e8f962bfe3")
+	)
+	(no_connect
+		(at 182.88 92.71)
+		(uuid "53bc2a43-2655-4ffc-9123-807febdeee85")
 	)
 	(no_connect
 		(at 182.88 133.35)
@@ -6300,7 +5955,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 90.17) (xy 201.93 90.17)
+			(xy 194.31 90.17) (xy 195.58 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6420,16 +6075,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 87.63) (xy 200.66 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b38fbbf-46ed-4f7e-916f-3080e2f77292")
-	)
-	(wire
-		(pts
 			(xy 62.23 116.84) (xy 62.23 114.3)
 		)
 		(stroke
@@ -6437,16 +6082,6 @@
 			(type default)
 		)
 		(uuid "0b9eec20-87ff-484a-b0f7-0235891502db")
-	)
-	(wire
-		(pts
-			(xy 196.85 90.17) (xy 200.66 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cec36ad-e0f5-43a7-b32f-bdc954e23490")
 	)
 	(wire
 		(pts
@@ -6590,7 +6225,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 87.63) (xy 200.66 90.17)
+			(xy 194.31 87.63) (xy 194.31 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6870,16 +6505,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 102.87) (xy 217.17 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e3734a0-cd4d-430a-8c4f-407c581c9208")
-	)
-	(wire
-		(pts
 			(xy 257.81 140.97) (xy 261.62 140.97)
 		)
 		(stroke
@@ -6910,7 +6535,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 90.17) (xy 189.23 90.17)
+			(xy 182.88 90.17) (xy 185.42 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6950,7 +6575,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 90.17) (xy 212.09 90.17)
+			(xy 203.2 90.17) (xy 205.74 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6990,16 +6615,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 157.48) (xy 195.58 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b34cae6-30a3-4357-b234-382816f22199")
-	)
-	(wire
-		(pts
 			(xy 355.6 60.96) (xy 341.63 60.96)
 		)
 		(stroke
@@ -7007,16 +6622,6 @@
 			(type default)
 		)
 		(uuid "3b68809b-5433-4d03-91dd-e2c9389a8c6f")
-	)
-	(wire
-		(pts
-			(xy 209.55 170.18) (xy 209.55 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3bd4a137-12a9-49d6-bc82-b174410a6407")
 	)
 	(wire
 		(pts
@@ -7300,16 +6905,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 157.48) (xy 195.58 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5132c92c-f7bf-4056-b2d6-6efc22437e6b")
-	)
-	(wire
-		(pts
 			(xy 269.24 262.89) (xy 283.21 262.89)
 		)
 		(stroke
@@ -7367,6 +6962,16 @@
 			(type default)
 		)
 		(uuid "54d771fa-87fc-449b-894e-3e78ba78ff23")
+	)
+	(wire
+		(pts
+			(xy 190.5 110.49) (xy 190.5 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ae589c-eff3-46f2-a440-dbb4e1643203")
 	)
 	(wire
 		(pts
@@ -7627,6 +7232,16 @@
 			(type default)
 		)
 		(uuid "6d41a3cc-b4a2-4783-b299-9ce13caf4f4b")
+	)
+	(wire
+		(pts
+			(xy 182.88 102.87) (xy 190.5 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d8af2e3-a336-4466-b9df-26026747c5f5")
 	)
 	(wire
 		(pts
@@ -8070,16 +7685,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 163.83) (xy 209.55 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "943ba7fb-51df-4b5d-ad60-dc8215eb6952")
-	)
-	(wire
-		(pts
 			(xy 87.63 68.58) (xy 99.06 68.58)
 		)
 		(stroke
@@ -8257,6 +7862,16 @@
 			(type default)
 		)
 		(uuid "a0dd4913-d916-44c1-9e26-4cb4eb9afc10")
+	)
+	(wire
+		(pts
+			(xy 182.88 87.63) (xy 194.31 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f8bd13-23f4-4e1c-9ea3-3d188949ee7a")
 	)
 	(polyline
 		(pts
@@ -8510,6 +8125,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 90.17) (xy 194.31 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c33d0456-74c4-489d-a0a4-d898a6badc6a")
+	)
+	(wire
+		(pts
 			(xy 29.21 92.71) (xy 30.48 92.71)
 		)
 		(stroke
@@ -8690,16 +8315,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 170.18) (xy 209.55 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d162e913-dadc-40ee-9824-554097d6d82f")
-	)
-	(wire
-		(pts
 			(xy 182.88 127) (xy 182.88 128.27)
 		)
 		(stroke
@@ -8747,6 +8362,16 @@
 			(type default)
 		)
 		(uuid "d9c8965b-e61c-4b15-b36b-ace540afff57")
+	)
+	(wire
+		(pts
+			(xy 190.5 101.6) (xy 190.5 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db8784c5-d479-4749-acdc-2f040d185ba3")
 	)
 	(wire
 		(pts
@@ -9142,7 +8767,7 @@
 	)
 	(text "ISOMD HIGH = Two ISO-SPI output\n"
 		(exclude_from_sim no)
-		(at 191.008 104.902 0)
+		(at 191.77 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9227,17 +8852,6 @@
 			(justify left bottom)
 		)
 		(uuid "066bc104-cabd-4319-b169-5822abcb3991")
-	)
-	(label "MOSI"
-		(at 182.88 95.25 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "07785fc3-2edd-485b-81ce-fae10b01eb30")
 	)
 	(label "T15"
 		(at 22.86 180.34 0)
@@ -9624,17 +9238,6 @@
 		)
 		(uuid "4653d005-556f-417d-bd84-39f06209648b")
 	)
-	(label "IMA"
-		(at 189.23 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "466a26ae-4da8-4f87-8f0f-542e0bc45ea5")
-	)
 	(label "T16"
 		(at 60.96 139.7 0)
 		(fields_autoplaced yes)
@@ -9755,6 +9358,17 @@
 			(justify left bottom)
 		)
 		(uuid "5d9b473c-f3fd-4227-9dc2-1cf8a9949470")
+	)
+	(label "IPA"
+		(at 182.88 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5deb5597-74b4-4967-b17f-526c285d687d")
 	)
 	(label "IMB"
 		(at 336.55 43.18 180)
@@ -9942,17 +9556,6 @@
 			(justify right bottom)
 		)
 		(uuid "7afaa0aa-f6bf-4d29-9365-a59ea462d90d")
-	)
-	(label "MISO"
-		(at 209.55 161.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7b4b25d1-ffd4-4a83-8c7a-aebdbf5ff090")
 	)
 	(label "S8"
 		(at 276.86 106.68 0)
@@ -10372,28 +9975,6 @@
 		)
 		(uuid "cb660fad-398b-4270-8daa-c572bfc4c5d2")
 	)
-	(label "MISO"
-		(at 182.88 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cc5763c7-7c96-47c9-b28a-13f8af91e6ce")
-	)
-	(label "MOSI"
-		(at 209.55 158.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cfc025eb-8f55-495a-bd36-b38c3e413c8f")
-	)
 	(label "C4"
 		(at 284.48 181.61 0)
 		(fields_autoplaced yes)
@@ -10415,17 +9996,6 @@
 			(justify left bottom)
 		)
 		(uuid "d4728ca7-6f76-4921-a386-ec1bc63b289c")
-	)
-	(label "CSB_(IMA)"
-		(at 163.83 172.72 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d55407f9-72b6-4138-a067-ce99fe06c327")
 	)
 	(label "C9"
 		(at 149.86 100.33 180)
@@ -10449,17 +10019,6 @@
 		)
 		(uuid "d916eb85-3059-42ff-a98e-7965447b952b")
 	)
-	(label "IPA"
-		(at 189.23 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d9e29d03-f978-4e98-87b4-81aa2764a072")
-	)
 	(label "C8"
 		(at 149.86 105.41 180)
 		(fields_autoplaced yes)
@@ -10481,17 +10040,6 @@
 			(justify right bottom)
 		)
 		(uuid "de7cd305-1e15-40f7-b8a5-3107f09ce145")
-	)
-	(label "SCK_(IPA)"
-		(at 163.83 160.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "de8c56ce-7949-4524-8690-04f1af90e058")
 	)
 	(label "IPB"
 		(at 182.88 82.55 0)
@@ -10570,17 +10118,6 @@
 		)
 		(uuid "ed1b6002-c76c-4c18-8078-4c445b65363a")
 	)
-	(label "CSB_(IMA)"
-		(at 182.88 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "edce92b3-8acf-44d3-9388-4ded7349d131")
-	)
 	(label "S6"
 		(at 276.86 147.32 0)
 		(fields_autoplaced yes)
@@ -10603,8 +10140,8 @@
 		)
 		(uuid "f12ebcd9-2a32-427c-b494-a7139d271354")
 	)
-	(label "SCK_(IPA)"
-		(at 182.88 97.79 0)
+	(label "IMA"
+		(at 182.88 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10612,7 +10149,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "f1db8346-8f01-45e1-8f59-4e11fc7d983f")
+		(uuid "f2d000c8-6c16-4fdf-bb9f-a361a644e3a9")
 	)
 	(label "C3"
 		(at 149.86 130.81 180)
@@ -10744,7 +10281,7 @@
 			(uuid "bb4fc344-0442-4291-8462-f8880ce36b87")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "Q6")
 					(unit 1)
@@ -10811,7 +10348,7 @@
 			(uuid "4219797b-8fe6-4c27-ac53-cd5bc2415f55")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C7")
 					(unit 1)
@@ -10942,7 +10479,7 @@
 			(uuid "e5b192c9-29dc-4cc2-85b8-02e57b3e166b")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "IC2")
 					(unit 1)
@@ -11008,7 +10545,7 @@
 			(uuid "c6e2b232-def9-4968-b1b2-b942c578ffb8")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR014")
 					(unit 1)
@@ -11073,7 +10610,7 @@
 			(uuid "b1a3e8a0-6c6e-4f35-a095-bb91db18718b")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR023")
 					(unit 1)
@@ -11140,137 +10677,9 @@
 			(uuid "5c51a93d-14a0-49b7-a0c1-d63f96c325a6")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R38")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EPSA_lib:4P Droit 22-11-2042")
-		(at 214.63 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0acba5fd-bd7e-4fb4-8bc1-76125d5bb609")
-		(property "Reference" "J7"
-			(at 220.98 162.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4P Droit 22-11-2042"
-			(at 220.98 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "EPSA_lib:MOLEX_22-11-2042"
-			(at 220.98 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112042?display=pdf"
-			(at 220.98 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 214.63 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Render Name" "4P Droit"
-			(at 215.9 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 220.98 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "22-11-2042"
-			(at 220.98 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "538-22-11-2042"
-			(at 220.98 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2042?qs=mrPiglD9aYJfi57%2FgjU4lw%3D%3D"
-			(at 220.98 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41d2b367-50f1-4231-b237-e5a0847fb979")
-		)
-		(pin "3"
-			(uuid "3ee35e08-929f-4349-a24c-8b0df57bf8ac")
-		)
-		(pin "2"
-			(uuid "2dfb7593-214e-4fce-aee9-78a2429ed1aa")
-		)
-		(pin "4"
-			(uuid "adf72bf2-5402-483a-abac-acaeacdc9f21")
-		)
-		(instances
-			(project "BMS"
-				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
-					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -11337,7 +10746,7 @@
 			(uuid "54437ec0-8a3e-476b-9dad-9c188ef2c0f5")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R25")
 					(unit 1)
@@ -11404,7 +10813,7 @@
 			(uuid "40a6d869-ef1b-424d-91a0-53a8e74d8292")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R24")
 					(unit 1)
@@ -11471,7 +10880,7 @@
 			(uuid "373fb2d7-b295-4261-9586-ee8779f59f24")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R48")
 					(unit 1)
@@ -11538,7 +10947,7 @@
 			(uuid "6118f382-5c57-48b2-aad0-85a1603aae3a")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR011")
 					(unit 1)
@@ -11604,7 +11013,7 @@
 			(uuid "b1cfa44d-bb0a-41ca-965a-07ffba32325c")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR033")
 					(unit 1)
@@ -11674,7 +11083,7 @@
 			(uuid "49b10ba1-8cea-4bbc-8d9c-c4704bd6bd88")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C22")
 					(unit 1)
@@ -11741,7 +11150,7 @@
 			(uuid "c47215ce-e5c3-4b00-8866-2b824ba8d386")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R20")
 					(unit 1)
@@ -11808,7 +11217,7 @@
 			(uuid "14c9c502-cd66-4e24-8634-3db8b5830033")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R15")
 					(unit 1)
@@ -11877,7 +11286,7 @@
 			(uuid "ecc4d57b-6b9d-432b-8cd1-ec2c13292e9c")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "J1")
 					(unit 1)
@@ -11944,7 +11353,7 @@
 			(uuid "28e6e4d5-6362-49d1-8086-e082e9fbc11d")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R32")
 					(unit 1)
@@ -12011,7 +11420,7 @@
 			(uuid "6c8931ea-ff35-474d-ba33-a100a53263d1")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R41")
 					(unit 1)
@@ -12078,7 +11487,7 @@
 			(uuid "63e37fd2-7c88-4562-8c12-ab0cd5c4a415")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R45")
 					(unit 1)
@@ -12144,7 +11553,7 @@
 			(uuid "33ce7ec6-db41-49de-8e1c-2e63f9508eba")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR031")
 					(unit 1)
@@ -12214,7 +11623,7 @@
 			(uuid "23312ea0-6543-4d11-b27d-1420f4d25ef1")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R11")
 					(unit 1)
@@ -12279,7 +11688,7 @@
 			(uuid "ac9b623d-e3e3-4dbf-9cb9-00f134c0e082")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR030")
 					(unit 1)
@@ -12351,7 +11760,7 @@
 			(uuid "4375857d-2dee-4f43-bd06-7ba38f3021db")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "Q1")
 					(unit 1)
@@ -12418,7 +11827,7 @@
 			(uuid "208bfb96-f140-4b47-8e52-9b86354e2aec")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "L1")
 					(unit 1)
@@ -12485,7 +11894,7 @@
 			(uuid "399be41c-6a05-4578-8b70-8df299c344e6")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R35")
 					(unit 1)
@@ -12551,7 +11960,7 @@
 			(uuid "0c2198e5-425e-4f97-aaff-1f600e594b3d")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR015")
 					(unit 1)
@@ -12618,7 +12027,7 @@
 			(uuid "a1f2eeec-6675-4778-b746-1c52177f6dee")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C1")
 					(unit 1)
@@ -12688,7 +12097,7 @@
 			(uuid "7842a037-0225-4212-a23a-d72dd6b92bb3")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C5")
 					(unit 1)
@@ -12756,7 +12165,7 @@
 			(uuid "886c0421-8ebc-4233-9e21-675dd779a8f1")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R7")
 					(unit 1)
@@ -12823,7 +12232,7 @@
 			(uuid "587a07ba-aca7-4598-b856-ac7ce539e5fb")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R29")
 					(unit 1)
@@ -12833,7 +12242,7 @@
 	)
 	(symbol
 		(lib_id "power:-VDC")
-		(at 212.09 90.17 270)
+		(at 205.74 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12842,7 +12251,7 @@
 		(fields_autoplaced yes)
 		(uuid "27db0ffb-0c4f-41de-bb24-de6aa8481ab9")
 		(property "Reference" "#PWR027"
-			(at 209.55 90.17 0)
+			(at 203.2 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12851,7 +12260,7 @@
 			)
 		)
 		(property "Value" "-VDC"
-			(at 218.44 90.805 90)
+			(at 212.09 90.805 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12860,7 +12269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 90.17 0)
+			(at 205.74 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12869,7 +12278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 90.17 0)
+			(at 205.74 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12878,7 +12287,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 90.17 0)
+			(at 205.74 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12890,7 +12299,7 @@
 			(uuid "b3ce3766-44f3-4e0c-832a-352a65109e21")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR027")
 					(unit 1)
@@ -12959,7 +12368,7 @@
 			(uuid "44cc472e-2bc6-4e95-816e-2828b094c6de")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R22")
 					(unit 1)
@@ -13026,135 +12435,9 @@
 			(uuid "eb4321c7-e245-468c-b7a4-13d2f8ca1265")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EPSA_lib:Commutateur CAS-120B")
-		(at 189.23 160.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b272b3f-4397-44a9-89b5-26a895cdd051")
-		(property "Reference" "S1"
-			(at 176.5299 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Commutateur CAS-120B"
-			(at 177.7999 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CAS120B"
-			(at 167.64 65.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.nidec-copal-electronics.com/e/catalog/switch/cas.pdf"
-			(at 167.64 -34.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "SPDT, ON-ON  Slide, 100mA @ 6V DC Gull Wing SMD Terminal, Bulk Packaging, Washable with seal tape - Bulk"
-			(at 189.23 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.5"
-			(at 167.64 -234.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "229-CAS-120B"
-			(at 167.64 -334.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nidec-Copal/CAS-120B?qs=XeJtXLiO41SFQrNWr8fvAQ%3D%3D"
-			(at 167.64 -434.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nidec Copal"
-			(at 167.64 -534.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CAS-120B"
-			(at 167.64 -634.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "e8a06f88-9f5f-4ea9-95ce-a1c9e468f706")
-		)
-		(pin "2"
-			(uuid "05a4d37d-ef1f-41ce-a801-eabbb19ea16c")
-		)
-		(pin "1"
-			(uuid "4d957e93-5197-49f7-994c-3398b938072b")
-		)
-		(instances
-			(project "BMS"
-				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
-					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -13235,7 +12518,7 @@
 			(uuid "7ac3dbbc-bbe4-4d5b-a81a-1c25bed34b85")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "J6")
 					(unit 1)
@@ -13305,7 +12588,7 @@
 			(uuid "6390fd45-0584-4cef-bb4d-d40f0fb3a9ae")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C21")
 					(unit 1)
@@ -13370,7 +12653,7 @@
 			(uuid "db0bdd2f-349d-4841-9c29-c3a49fb0c642")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#FLG03")
 					(unit 1)
@@ -13437,7 +12720,7 @@
 			(uuid "eaa6c44c-619b-4cfa-8813-ce27986f1233")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R21")
 					(unit 1)
@@ -13506,7 +12789,7 @@
 			(uuid "b20f89db-ace9-47a7-b193-f2e6013bde51")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R34")
 					(unit 1)
@@ -13572,7 +12855,7 @@
 			(uuid "5ad2f5ef-df3c-4771-8967-40f929ecaa5f")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR013")
 					(unit 1)
@@ -13639,7 +12922,7 @@
 			(uuid "5d6f1da4-8e2c-4540-b9bd-625002230e78")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C6")
 					(unit 1)
@@ -13708,7 +12991,7 @@
 			(uuid "0d7e1b45-d9cc-4c68-be96-eeaafc100086")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C3")
 					(unit 1)
@@ -13774,7 +13057,7 @@
 			(uuid "22fa1208-aadb-4618-88d7-e4e6586eed82")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR032")
 					(unit 1)
@@ -13841,7 +13124,7 @@
 			(uuid "3b6dd301-036f-4265-ace7-e218fe623287")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R42")
 					(unit 1)
@@ -13908,7 +13191,7 @@
 			(uuid "3a263030-86e0-44f2-bed6-554a027ece64")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR09")
 					(unit 1)
@@ -13976,7 +13259,7 @@
 			(uuid "dd401d75-7e7e-478f-b6ce-c7b9d56d6785")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R4")
 					(unit 1)
@@ -14043,7 +13326,7 @@
 			(uuid "2f3c69f8-6bfd-48b9-8f23-9b9f8a321907")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R36")
 					(unit 1)
@@ -14115,7 +13398,7 @@
 			(uuid "4f08684c-9705-434f-8951-9d3dd2d22f07")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "Q5")
 					(unit 1)
@@ -14185,7 +13468,7 @@
 			(uuid "4362452e-3e3c-4c1f-a6e8-66db1609b789")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C2")
 					(unit 1)
@@ -14257,7 +13540,7 @@
 			(uuid "da244eff-8a68-462b-8796-d1dc340b7edb")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "Q7")
 					(unit 1)
@@ -14329,7 +13612,7 @@
 			(uuid "5271193a-f398-408c-b79e-040a91d03479")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "Q8")
 					(unit 1)
@@ -14398,7 +13681,7 @@
 			(uuid "570d4744-5f16-4801-92c6-3d223e7df781")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R37")
 					(unit 1)
@@ -14470,7 +13753,7 @@
 			(uuid "6ebeb4f7-e56e-427a-8d79-219850f2062e")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "Q10")
 					(unit 1)
@@ -14537,7 +13820,7 @@
 			(uuid "9154b706-b36c-4518-b4f2-30a109bcd553")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R23")
 					(unit 1)
@@ -14606,7 +13889,7 @@
 			(uuid "a242f4b8-d436-4520-90d8-c568e6e08dc1")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R31")
 					(unit 1)
@@ -14676,7 +13959,7 @@
 			(uuid "4ab8cfe2-1f5a-4072-90f5-d2e4b86bf4b6")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R10")
 					(unit 1)
@@ -14745,7 +14028,7 @@
 			(uuid "e88ef1aa-34d4-47ff-a632-ad568a3c95aa")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C10")
 					(unit 1)
@@ -14814,7 +14097,7 @@
 			(uuid "6dfe03e8-e080-4584-b832-f63ddd988fad")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R9")
 					(unit 1)
@@ -14880,7 +14163,7 @@
 			(uuid "8d57d579-e770-4310-85c7-e03e5e8449d3")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR026")
 					(unit 1)
@@ -14947,7 +14230,7 @@
 			(uuid "932e5f3a-d15e-49c7-b848-35b1536bdc73")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R30")
 					(unit 1)
@@ -15017,7 +14300,7 @@
 			(uuid "d9b21fbe-f692-4cac-8ee8-9e1eb64e52bd")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R2")
 					(unit 1)
@@ -15084,7 +14367,7 @@
 			(uuid "ae320de9-c37a-4f69-9d41-5b87564f447c")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R52")
 					(unit 1)
@@ -15151,7 +14434,7 @@
 			(uuid "d2d7527f-06f9-461d-9ae3-087515eaedce")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R47")
 					(unit 1)
@@ -15219,7 +14502,7 @@
 			(uuid "a482fdca-602e-4db6-b16f-01cbcf4edfa0")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR024")
 					(unit 1)
@@ -15307,7 +14590,7 @@
 			(uuid "3704a8c1-05c3-49a8-bf42-18dac59f0479")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "J4")
 					(unit 1)
@@ -15379,7 +14662,7 @@
 			(uuid "0b89e45f-798d-4844-8088-8ea2eab9738e")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "Q4")
 					(unit 1)
@@ -15446,7 +14729,7 @@
 			(uuid "3f5508f7-72d8-4b12-bcb8-70467627d361")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R13")
 					(unit 1)
@@ -15456,7 +14739,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 190.5 110.49 0)
+		(at 190.5 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15464,7 +14747,7 @@
 		(dnp no)
 		(uuid "6a7f56ee-83ca-4760-84f8-084bfa5cb3cb")
 		(property "Reference" "#PWR05"
-			(at 190.5 114.3 0)
+			(at 190.5 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15473,7 +14756,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 193.04 109.22 0)
+			(at 193.04 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15481,7 +14764,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 110.49 0)
+			(at 190.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15490,7 +14773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 110.49 0)
+			(at 190.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15499,7 +14782,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 190.5 110.49 0)
+			(at 190.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15511,7 +14794,7 @@
 			(uuid "8c54f427-fe58-473f-8358-c457301f3f34")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR05")
 					(unit 1)
@@ -15578,7 +14861,7 @@
 			(uuid "9a1f28fb-8554-49a8-9c0a-372eab508590")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR010")
 					(unit 1)
@@ -15645,7 +14928,7 @@
 			(uuid "eb17d4fc-05a7-449b-89fd-fa5b8a984526")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR08")
 					(unit 1)
@@ -15715,7 +14998,7 @@
 			(uuid "9be7e4a6-7c56-4562-93a4-2efd15229421")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R1")
 					(unit 1)
@@ -15785,7 +15068,7 @@
 			(uuid "d0de2d96-0172-4f6e-8869-2abb34d08fc6")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C19")
 					(unit 1)
@@ -15853,7 +15136,7 @@
 			(uuid "8f676c81-5ec5-48a0-8e1f-e287f7a74c7c")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C9")
 					(unit 1)
@@ -15922,7 +15205,7 @@
 			(uuid "40c01712-af21-4d9e-a8ae-78feeb346634")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R14")
 					(unit 1)
@@ -15991,7 +15274,7 @@
 			(uuid "6a1dac0e-1977-4d6e-bafa-34743c92b9e5")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R43")
 					(unit 1)
@@ -16056,7 +15339,7 @@
 			(uuid "a13de545-0c45-4827-bcf7-a3c75a27170c")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR018")
 					(unit 1)
@@ -16125,7 +15408,7 @@
 			(uuid "aabe2164-c3ad-4aad-b4ea-86812fddf43f")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C11")
 					(unit 1)
@@ -16195,7 +15478,7 @@
 			(uuid "c311ced7-267f-4934-9f6d-db4fdb5d8643")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R6")
 					(unit 1)
@@ -16264,7 +15547,7 @@
 			(uuid "de826f7a-ab9d-4b07-b84a-8b2c74ee3cae")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R8")
 					(unit 1)
@@ -16329,7 +15612,7 @@
 			(uuid "798c712f-2b9e-46e5-9254-fc4befaabd36")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#FLG02")
 					(unit 1)
@@ -16339,7 +15622,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 205.74 90.17 90)
+		(at 199.39 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16347,7 +15630,7 @@
 		(dnp no)
 		(uuid "7d10ebc9-43f1-43c0-bc4e-eb77f7f1f1ae")
 		(property "Reference" "R50"
-			(at 205.74 86.36 90)
+			(at 199.39 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16355,7 +15638,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 205.74 93.98 90)
+			(at 199.39 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16363,7 +15646,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 205.74 91.948 90)
+			(at 199.39 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16372,7 +15655,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 90.17 0)
+			(at 199.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16381,7 +15664,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 90.17 0)
+			(at 199.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16396,7 +15679,7 @@
 			(uuid "762a84bd-d994-4c24-9016-b8593f7d04a2")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R50")
 					(unit 1)
@@ -16461,7 +15744,7 @@
 			(uuid "8f88ad79-e801-41d0-a6d2-bbb30e79a250")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR021")
 					(unit 1)
@@ -16530,7 +15813,7 @@
 			(uuid "8b94797d-f80d-4961-b6ae-6c80a94e44e0")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "J3")
 					(unit 1)
@@ -16597,7 +15880,7 @@
 			(uuid "5238c0fc-7f54-4a54-bbef-e360ede566d6")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR012")
 					(unit 1)
@@ -16664,7 +15947,7 @@
 			(uuid "91b43ba4-4c46-4c6e-a3a3-f5182c214dc9")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R26")
 					(unit 1)
@@ -16733,7 +16016,7 @@
 			(uuid "bf1df3e5-cb7d-420b-9a58-b9f8f70851c8")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C25")
 					(unit 1)
@@ -16800,7 +16083,7 @@
 			(uuid "2fc5cef3-e8c2-4ad1-b325-fdea19b4c720")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R17")
 					(unit 1)
@@ -16869,7 +16152,7 @@
 			(uuid "ab2a0bde-b3cb-451b-b3a9-d9f5cae78f8e")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R19")
 					(unit 1)
@@ -16936,7 +16219,7 @@
 			(uuid "414c8f4f-07fe-498e-8923-08fd221f6cde")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R27")
 					(unit 1)
@@ -17006,7 +16289,7 @@
 			(uuid "1ef9432a-78ff-43b5-9427-a504dc362a37")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C20")
 					(unit 1)
@@ -17075,7 +16358,7 @@
 			(uuid "5e744bab-8e6c-44c9-905c-da915414fd4c")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R46")
 					(unit 1)
@@ -17147,7 +16430,7 @@
 			(uuid "72384c30-f7e4-4390-b56e-0ab5bb08fbe1")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "Q12")
 					(unit 1)
@@ -17213,135 +16496,9 @@
 			(uuid "c90d0f86-9c61-4d7b-8910-84eedef88320")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EPSA_lib:Commutateur CAS-120B")
-		(at 189.23 172.72 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93393f00-f7cc-45e2-aa37-f7c41bbbb0b9")
-		(property "Reference" "S2"
-			(at 176.5299 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Commutateur CAS-120B"
-			(at 177.7999 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CAS120B"
-			(at 167.64 77.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.nidec-copal-electronics.com/e/catalog/switch/cas.pdf"
-			(at 167.64 -22.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "SPDT, ON-ON  Slide, 100mA @ 6V DC Gull Wing SMD Terminal, Bulk Packaging, Washable with seal tape - Bulk"
-			(at 189.23 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.5"
-			(at 167.64 -222.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "229-CAS-120B"
-			(at 167.64 -322.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nidec-Copal/CAS-120B?qs=XeJtXLiO41SFQrNWr8fvAQ%3D%3D"
-			(at 167.64 -422.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nidec Copal"
-			(at 167.64 -522.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CAS-120B"
-			(at 167.64 -622.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "65a7a070-b2e1-495f-88ed-1ddf198070b0")
-		)
-		(pin "2"
-			(uuid "7f4cff38-41f9-4aa7-8f86-0ecc29b81324")
-		)
-		(pin "1"
-			(uuid "3c9cee10-a15e-43a3-b9b0-50befe3bb5c2")
-		)
-		(instances
-			(project "BMS"
-				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
-					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -17409,7 +16566,7 @@
 			(uuid "5d167ba8-b106-4ffc-a63b-854017a66643")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C18")
 					(unit 1)
@@ -17479,75 +16636,9 @@
 			(uuid "8eb6b8ec-4888-44cc-a028-0cedb04fa623")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-VDC")
-		(at 219.71 128.27 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9fd474c7-a6e4-4159-96d9-14d376c1ccb1")
-		(property "Reference" "#PWR036"
-			(at 219.71 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-VDC"
-			(at 219.71 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 219.71 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d140a89-9f51-4aa6-83ee-baf2c8509b6e")
-		)
-		(instances
-			(project "BMS"
-				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -17611,7 +16702,7 @@
 			(uuid "8d1e6ca3-dc0c-4539-9db3-f89a86be2e70")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR025")
 					(unit 1)
@@ -17677,135 +16768,9 @@
 			(uuid "079c877e-a417-43d2-84ea-8fd827a2e824")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EPSA_lib:Commutateur CAS-120B")
-		(at 217.17 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a594c62e-660a-4c92-9814-a351e342e9b4")
-		(property "Reference" "S3"
-			(at 223.52 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Commutateur CAS-120B"
-			(at 223.52 116.8399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "CAS120B"
-			(at 312.09 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.nidec-copal-electronics.com/e/catalog/switch/cas.pdf"
-			(at 412.09 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "SPDT, ON-ON  Slide, 100mA @ 6V DC Gull Wing SMD Terminal, Bulk Packaging, Washable with seal tape - Bulk"
-			(at 217.17 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.5"
-			(at 612.09 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "229-CAS-120B"
-			(at 712.09 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nidec-Copal/CAS-120B?qs=XeJtXLiO41SFQrNWr8fvAQ%3D%3D"
-			(at 812.09 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nidec Copal"
-			(at 912.09 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CAS-120B"
-			(at 1012.09 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "c70e9ef4-b98e-497c-acc0-247c6d4f25ae")
-		)
-		(pin "2"
-			(uuid "f1c2a278-29cc-4953-ad31-02f9a605f9ed")
-		)
-		(pin "1"
-			(uuid "f470e187-5d4c-49d1-814a-e44fe14a13a8")
-		)
-		(instances
-			(project "BMS"
-				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
-					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -17886,7 +16851,7 @@
 			(uuid "55c3e719-6728-4a7d-9808-9624a74835c8")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "J2")
 					(unit 1)
@@ -17953,7 +16918,7 @@
 			(uuid "34aee302-e772-46f5-b58f-96722d266c93")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR028")
 					(unit 1)
@@ -18115,7 +17080,7 @@
 			(uuid "4dfea67c-e24d-4257-964b-99cdd5a222c4")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "IC4")
 					(unit 1)
@@ -18185,7 +17150,7 @@
 			(uuid "5c9358b4-366a-4cd6-a23c-13bf4bb7dd8e")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C12")
 					(unit 1)
@@ -18350,7 +17315,7 @@
 			(uuid "5df228dd-4e87-40ae-88d0-8f6e16d6b4d2")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "IC1")
 					(unit 1)
@@ -18420,7 +17385,7 @@
 			(uuid "abde0383-363c-4450-b110-ece89147104b")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C14")
 					(unit 1)
@@ -18489,7 +17454,7 @@
 			(uuid "5f8e6c26-02c4-4ea6-b238-221d754bcc70")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R28")
 					(unit 1)
@@ -18555,7 +17520,7 @@
 			(uuid "d903fb6f-604d-4442-afec-e9a993be047b")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR020")
 					(unit 1)
@@ -18565,7 +17530,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 193.04 90.17 90)
+		(at 189.23 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18573,7 +17538,7 @@
 		(dnp no)
 		(uuid "af424841-74ed-4ba1-b5cb-fe89acea7c7f")
 		(property "Reference" "R49"
-			(at 193.04 86.36 90)
+			(at 189.23 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18581,7 +17546,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 193.04 93.98 90)
+			(at 189.23 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18589,7 +17554,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 193.04 91.948 90)
+			(at 189.23 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18598,7 +17563,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 193.04 90.17 0)
+			(at 189.23 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18607,7 +17572,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 90.17 0)
+			(at 189.23 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18622,7 +17587,7 @@
 			(uuid "a2cdea04-3fee-4287-9c47-d7b5952a781c")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R49")
 					(unit 1)
@@ -18694,7 +17659,7 @@
 			(uuid "26e101f1-9b40-4ade-9951-54441bbab04f")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "Q2")
 					(unit 1)
@@ -18760,7 +17725,7 @@
 			(uuid "869381d6-1156-4a10-a60f-852e0d12a50e")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR029")
 					(unit 1)
@@ -18830,7 +17795,7 @@
 			(uuid "96eb86ad-08e6-4d8c-983c-cfb26919df97")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C13")
 					(unit 1)
@@ -18899,7 +17864,7 @@
 			(uuid "f5d5e23a-7046-4078-be48-5075689e0c13")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R40")
 					(unit 1)
@@ -18966,7 +17931,7 @@
 			(uuid "ee579205-28d8-4c9b-91ad-beb45257fc2b")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R51")
 					(unit 1)
@@ -19038,7 +18003,7 @@
 			(uuid "dd927619-6844-4e91-bb5f-f6cc57828a1f")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "Q9")
 					(unit 1)
@@ -19105,7 +18070,7 @@
 			(uuid "0397b555-0e30-4866-bc35-5302dbbb502f")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R18")
 					(unit 1)
@@ -19175,7 +18140,7 @@
 			(uuid "3cc669e7-194b-441f-9d81-3fedc1def812")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C26")
 					(unit 1)
@@ -19242,7 +18207,7 @@
 			(uuid "f60ec6e2-8760-423a-b589-a4fb50190bd5")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R39")
 					(unit 1)
@@ -19311,7 +18276,7 @@
 			(uuid "0b82cd5a-de70-41b5-bb2d-afeaad53b1c7")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C4")
 					(unit 1)
@@ -19473,7 +18438,7 @@
 			(uuid "0aeb0508-93df-4eb0-8bd6-3ac916253f4a")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "IC3")
 					(unit 1)
@@ -19539,7 +18504,7 @@
 			(uuid "f9d759f1-aee4-4ced-ae19-abcf773d9090")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR01")
 					(unit 1)
@@ -19605,7 +18570,7 @@
 			(uuid "27115052-28f4-4ffa-896b-f7cd1857aea9")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR04")
 					(unit 1)
@@ -19671,7 +18636,7 @@
 			(uuid "a80dc663-d98a-42ee-b2c1-005eae6a6b54")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR03")
 					(unit 1)
@@ -19743,7 +18708,7 @@
 			(uuid "81ff8214-8d28-4264-9f6d-0ce9bdc44253")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "Q3")
 					(unit 1)
@@ -19813,7 +18778,7 @@
 			(uuid "9028590e-d240-4168-9d08-fbd187e887f8")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C17")
 					(unit 1)
@@ -20071,7 +19036,7 @@
 			(uuid "7d60ed93-b606-4752-9c8c-193d67a93fb5")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "IC6")
 					(unit 1)
@@ -20139,7 +19104,7 @@
 			(uuid "b91e49f8-b50d-429c-a138-b055b7bd4430")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C8")
 					(unit 1)
@@ -20209,7 +19174,7 @@
 			(uuid "96f92698-5f65-44fd-8814-10b2cb28ff34")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C23")
 					(unit 1)
@@ -20276,7 +19241,7 @@
 			(uuid "5df319a6-d7eb-46f4-a9bb-27d46526a859")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR06")
 					(unit 1)
@@ -20343,7 +19308,7 @@
 			(uuid "20347d87-bbfd-477b-9953-083b1e369ad8")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R12")
 					(unit 1)
@@ -20408,7 +19373,7 @@
 			(uuid "300be26e-dae1-48c4-8a40-82d3c7691342")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#FLG01")
 					(unit 1)
@@ -20476,7 +19441,7 @@
 			(uuid "c3ee5082-2aef-4bb8-92a3-17465936b390")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R3")
 					(unit 1)
@@ -20548,7 +19513,7 @@
 			(uuid "69be0480-c022-419d-8a83-a72de2a5164f")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "Q11")
 					(unit 1)
@@ -20615,7 +19580,7 @@
 			(uuid "4739fcb0-d713-44c5-be8b-05e6b380887e")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR019")
 					(unit 1)
@@ -20681,7 +19646,7 @@
 			(uuid "a7eb39a8-d58a-4614-9e7b-466927dc86fe")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR034")
 					(unit 1)
@@ -20751,7 +19716,7 @@
 			(uuid "f3c5a0ea-8d5f-40f3-9f4d-807b3840d91f")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R5")
 					(unit 1)
@@ -20820,7 +19785,7 @@
 			(uuid "baa74aeb-ec5b-4704-b478-c3b796110b1d")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R16")
 					(unit 1)
@@ -20908,74 +19873,9 @@
 			(uuid "be7801e5-c509-46c2-84da-438416b00dd7")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 217.17 128.27 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7b8cded-c52c-4aea-b8f8-c4e32431ab44")
-		(property "Reference" "#PWR035"
-			(at 217.17 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 214.63 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 217.17 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9945ec2-2959-49d3-afd2-4a63ca258039")
-		)
-		(instances
-			(project "BMS"
-				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -21040,7 +19940,7 @@
 			(uuid "b68e0735-9b47-492b-8f27-8b757e61de39")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "R33")
 					(unit 1)
@@ -21105,7 +20005,7 @@
 			(uuid "a07c1d6b-f776-413d-b73f-67639bd0e863")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR02")
 					(unit 1)
@@ -21175,7 +20075,7 @@
 			(uuid "5764a1f3-1ea8-467a-a9ba-5a5784709493")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C24")
 					(unit 1)
@@ -21245,7 +20145,7 @@
 			(uuid "8cb8b237-fd01-417b-b3de-8a40065dcc2d")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C16")
 					(unit 1)
@@ -21312,7 +20212,7 @@
 			(uuid "c859d518-6e28-496a-abfe-8e5f86c7e44e")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR022")
 					(unit 1)
@@ -21462,7 +20362,7 @@
 			(uuid "5cdb5beb-6c3f-42b7-9a42-db1be56c7a3f")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "T1")
 					(unit 1)
@@ -21528,7 +20428,7 @@
 			(uuid "993fbeb3-71ad-48d7-9cd4-83190da700ff")
 		)
 		(instances
-			(project "BMS"
+			(project "BMS V1.0"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR016")
 					(unit 1)

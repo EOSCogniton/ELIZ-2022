@@ -1,5 +1,6 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Oscillateur 20MHz")(type "KiCad")(uri "C:/Users/TP-EEA/Documents/Gitfiles/ELIZ-2022/02 - Documentation/Kicad/Construction de la librairy/AMS Dongle/Oscillateur 20MHz")(options "")(descr ""))
-  (lib (name "CAN Transceiver ATA6563-GBQW1")(type "KiCad")(uri "C:/Users/TP-EEA/Documents/Gitfiles/ELIZ-2022/02 - Documentation/Kicad/Construction de la librairy/AMS Dongle/CAN Transceiver ATA6563-GBQW1")(options "")(descr ""))
+  (lib (name "Oscillateur 20MHz")(type "KiCad")(uri "${EPSA}/../../Construction de la librairy/AMS Dongle/Oscillateur 20MHz")(options "")(descr ""))
+  (lib (name "CAN Transceiver ATA6563-GBQW1")(type "KiCad")(uri "${EPSA}/../../Construction de la librairy/AMS Dongle/CAN Transceiver ATA6563-GBQW1")(options "")(descr ""))
+  (lib (name "Connecteur USB-C")(type "KiCad")(uri "C:/Users/monti/Documents/GitFiles/ELIZ-2022/02 - Documentation/Kicad/Construction de la librairy/AMS Dongle/Connecteur USB-C")(options "")(descr ""))
 )

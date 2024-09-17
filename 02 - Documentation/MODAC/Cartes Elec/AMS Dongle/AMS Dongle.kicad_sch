@@ -3415,445 +3415,6 @@
 				)
 			)
 		)
-		(symbol "EPSA_lib:Connecteur USB-C USB4720-03-A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 26.67 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "Connecteur USB-C USB4720-03-A"
-				(at 26.67 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "USB472003A"
-				(at 26.67 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.gct.co/files/drawings/USB4720.pdf"
-				(at 26.67 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "USB Connectors USB2.0 TypeC Recpt., 3u Gold, 16P Horz Mid Mount SMT, 1.13mm O-set, IP67"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "3.9"
-				(at 26.67 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "640-USB472003A"
-				(at 26.67 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/USB4720-03-A?qs=Z%252BL2brAPG1IK%252BbxHmYg8zQ%3D%3D"
-				(at 26.67 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
-				(at 26.67 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "USB4720-03-A"
-				(at 26.67 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "Connecteur USB-C USB4720-03-A_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 25.4 -22.86)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "GND_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -17.78 0)
-					(length 5.08)
-					(name "GND_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "VBUS_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "CC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "DP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "DN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "SBU1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 0)
-					(length 5.08)
-					(name "VBUS_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -20.32 0)
-					(length 5.08)
-					(name "CC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 0 180)
-					(length 5.08)
-					(name "DP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -2.54 180)
-					(length 5.08)
-					(name "DN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -5.08 180)
-					(length 5.08)
-					(name "SBU2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -7.62 180)
-					(length 5.08)
-					(name "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -10.16 180)
-					(length 5.08)
-					(name "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -12.7 180)
-					(length 5.08)
-					(name "MH3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -15.24 180)
-					(length 5.08)
-					(name "MH4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -17.78 180)
-					(length 5.08)
-					(name "MH5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -20.32 180)
-					(length 5.08)
-					(name "MH6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "EPSA_lib:Résistance 24 Ohm 500 mW RCS120624R0FKEA"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -5415,6 +4976,488 @@
 				)
 			)
 		)
+		(symbol "UJ20-C-V-C-1-SMT-TR:UJ20-C-V-C-1-SMT-TR"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 29.21 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "UJ20-C-V-C-1-SMT-TR"
+				(at 29.21 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "UJ20CVC1SMTTR"
+				(at 29.21 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.sameskydevices.com/product/resource/uj20-c-v-c-1-smt-tr.pdf"
+				(at 29.21 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB Connectors USB Jack 2.0, Type-C, Vertical, Copper Alloy, Surface Mount, 6.5H, T&R"
+				(at 29.21 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "6.65"
+				(at 29.21 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "179-UJ20CVC1SMTTR"
+				(at 29.21 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/UJ20-C-V-C-1-SMT-TR?qs=i8QVZAFTkqRSXXSHLSIhtw%3D%3D"
+				(at 29.21 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Same Sky"
+				(at 29.21 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "UJ20-C-V-C-1-SMT-TR"
+				(at 29.21 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "UJ20-C-V-C-1-SMT-TR_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "MH3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "MH4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -2.54 180)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "VBUS_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "DP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "DN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 0 180)
+					(length 5.08)
+					(name "VBUS_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -5.08 180)
+					(length 5.08)
+					(name "GND_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -22.86 180)
+					(length 5.08)
+					(name "GND_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -7.62 180)
+					(length 5.08)
+					(name "VBUS_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -10.16 180)
+					(length 5.08)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -12.7 180)
+					(length 5.08)
+					(name "DP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -15.24 180)
+					(length 5.08)
+					(name "DN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -17.78 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 33.02 -20.32 180)
+					(length 5.08)
+					(name "VBUS_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "UJ20-C-V-C-1-SMT-TR_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 27.94 2.54) (xy 27.94 -25.4) (xy 5.08 -25.4) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -6407,92 +6450,84 @@
 		(uuid "00f1806c-4158-494e-882b-c5ac9b7a930c")
 	)
 	(no_connect
-		(at 116.84 30.48)
-		(uuid "05adeb49-d7fd-4bf3-b031-d3998b56e224")
+		(at 116.84 41.91)
+		(uuid "0680c7b1-0d53-47bb-84ea-68fd55022b87")
 	)
 	(no_connect
 		(at 265.43 74.93)
 		(uuid "127e3e10-a8c0-4737-b8bc-bfc9a246a07c")
 	)
 	(no_connect
-		(at 147.32 35.56)
-		(uuid "16b8dd86-e4eb-4684-8923-efd33a7963d4")
+		(at 116.84 44.45)
+		(uuid "2a524cd6-c108-486e-b073-f3c5c489c1c4")
 	)
 	(no_connect
 		(at 276.86 34.29)
 		(uuid "2ba9b4aa-d0e8-4be8-bacc-0e9a0636087e")
 	)
 	(no_connect
-		(at 134.62 130.81)
-		(uuid "3d90da00-9fad-4194-9a87-155dd42c9113")
+		(at 116.84 39.37)
+		(uuid "32987388-0709-4938-91ca-2baf56bac561")
 	)
 	(no_connect
-		(at 147.32 30.48)
-		(uuid "3e1bd63f-4a5c-478a-982a-6f4e4ffdae9c")
+		(at 149.86 34.29)
+		(uuid "36ede456-64ec-4c02-8a39-5c340e30cda5")
+	)
+	(no_connect
+		(at 134.62 130.81)
+		(uuid "3d90da00-9fad-4194-9a87-155dd42c9113")
 	)
 	(no_connect
 		(at 236.22 156.21)
 		(uuid "4f2929a9-d80b-4133-b743-5a65b85eb22f")
 	)
 	(no_connect
-		(at 147.32 25.4)
-		(uuid "5640cee7-e9f3-419e-8937-b86376c166f9")
-	)
-	(no_connect
-		(at 147.32 38.1)
-		(uuid "68fd769a-6f22-49e4-a076-b658a14e048f")
-	)
-	(no_connect
-		(at 147.32 27.94)
-		(uuid "7c01992c-86ee-4141-89eb-30ad61d087c2")
-	)
-	(no_connect
-		(at 147.32 45.72)
-		(uuid "82d8402a-c6d5-45d5-9b33-4a29333ae4a3")
-	)
-	(no_connect
-		(at 147.32 43.18)
-		(uuid "8e01f0ee-e912-4d0f-b1b6-1b9c6f6262c3")
+		(at 149.86 39.37)
+		(uuid "76374fe5-6929-4c6c-9399-4f455f1273b2")
 	)
 	(no_connect
 		(at 233.68 31.75)
 		(uuid "9063ebbd-fea3-4bce-9a09-7cd02fe225e6")
 	)
 	(no_connect
+		(at 116.84 24.13)
+		(uuid "9916ec01-6188-4cec-be7f-009cab870efc")
+	)
+	(no_connect
+		(at 149.86 36.83)
+		(uuid "9b5d784e-9b76-46e4-8eaf-227a768101b3")
+	)
+	(no_connect
 		(at 144.78 123.19)
 		(uuid "9c26733d-0933-45ef-9ee0-c3f97d5c28ac")
 	)
 	(no_connect
-		(at 116.84 38.1)
-		(uuid "b5c47a86-1057-4a93-97e2-e1f7b3c10c54")
+		(at 116.84 29.21)
+		(uuid "9c54c642-2384-4e46-88c7-4e89a8d7c6b7")
 	)
 	(no_connect
-		(at 116.84 45.72)
-		(uuid "bc2cbf51-66cb-4f56-99be-0475f88e32a0")
+		(at 149.86 41.91)
+		(uuid "a80f5f85-2e13-41c8-9c97-43c225beddb6")
+	)
+	(no_connect
+		(at 116.84 46.99)
+		(uuid "a8929b52-1f6d-4874-a499-903196e13b38")
 	)
 	(no_connect
 		(at 134.62 133.35)
 		(uuid "bc949605-414e-4b14-a4ee-3d88ff670d82")
 	)
 	(no_connect
-		(at 116.84 35.56)
-		(uuid "c0cc74e7-389d-43e4-b6c6-e2184b142543")
-	)
-	(no_connect
-		(at 116.84 33.02)
-		(uuid "d7c6519e-fd3a-48d1-82fc-9fec36597ca7")
-	)
-	(no_connect
-		(at 147.32 33.02)
-		(uuid "db4575e7-5c9b-4dfa-ac00-4e2575bd1ade")
+		(at 116.84 31.75)
+		(uuid "c2ae22dd-f04c-4abe-9b79-5ad399b233ac")
 	)
 	(no_connect
 		(at 185.42 135.89)
 		(uuid "e4a36036-294c-41ba-a0c9-101611dd1d15")
 	)
 	(no_connect
-		(at 147.32 40.64)
-		(uuid "eac24158-5bde-4ad0-b49b-8be7ef9334da")
+		(at 116.84 26.67)
+		(uuid "f03c14cf-ddea-4cce-b58b-27efcb240732")
 	)
 	(wire
 		(pts
@@ -8896,7 +8931,7 @@
 		(uuid "0bec16b3-1718-4967-abb5-89274b1e4c31")
 	)
 	(label "IM"
-		(at 175.26 30.48 90)
+		(at 182.88 33.02 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9017,7 +9052,7 @@
 		(uuid "3911220d-b117-4874-8479-50c0285caa70")
 	)
 	(label "IP"
-		(at 172.72 30.48 90)
+		(at 180.34 33.02 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9039,7 +9074,7 @@
 		(uuid "45550f58-81b3-4113-a98b-8910341c00d8")
 	)
 	(label "AN0"
-		(at 154.94 30.48 90)
+		(at 162.56 36.83 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9061,7 +9096,7 @@
 		(uuid "4ab37240-8d89-45e1-a040-7234d545c9f4")
 	)
 	(label "AN3"
-		(at 162.56 30.48 90)
+		(at 170.18 36.83 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9105,7 +9140,7 @@
 		(uuid "591fa762-d154-4cf7-8db7-a10b610ff12a")
 	)
 	(label "AN1"
-		(at 157.48 30.48 90)
+		(at 165.1 36.83 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9468,7 +9503,7 @@
 		(uuid "e1881030-c1b1-434c-9133-2f517e4d5a5a")
 	)
 	(label "AN2"
-		(at 160.02 30.48 90)
+		(at 167.64 36.83 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10517,6 +10552,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 116.84 34.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "165b4af5-b019-4f18-b078-f368064b7b19")
+		(property "Reference" "#PWR034"
+			(at 110.49 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f66b381-d055-4bb9-ba73-1b6db6c86e72")
+		)
+		(instances
+			(project "AMS Dongle"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EPSA_lib:ADC I2C ADS1115QNKSRQ1")
 		(at 39.37 121.92 0)
 		(unit 1)
@@ -11089,7 +11191,7 @@
 	)
 	(symbol
 		(lib_id "EPSA_lib:4P Droit 22-11-2042")
-		(at 160.02 35.56 270)
+		(at 167.64 41.91 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11098,7 +11200,7 @@
 		(fields_autoplaced yes)
 		(uuid "219d61d7-1921-408a-b4e5-5fc7cdd418ec")
 		(property "Reference" "J2"
-			(at 166.37 36.8299 90)
+			(at 173.99 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11107,7 +11209,7 @@
 			)
 		)
 		(property "Value" "4P Angle 171857-4004"
-			(at 163.83 52.07 0)
+			(at 171.45 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11117,7 +11219,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:MOLEX_22-11-2042"
-			(at 157.48 41.91 0)
+			(at 165.1 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11127,7 +11229,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112042?display=pdf"
-			(at 165.1 41.91 0)
+			(at 172.72 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11137,7 +11239,7 @@
 			)
 		)
 		(property "Description" "Headers & Wire Housings KK RPC 254 Hdr FrLk R/A 04 Ckt 15Au T&R"
-			(at 160.02 35.56 0)
+			(at 167.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11146,7 +11248,7 @@
 			)
 		)
 		(property "Height" "6.35"
-			(at 153.67 52.07 0)
+			(at 161.29 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11156,7 +11258,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 161.29 41.91 0)
+			(at 168.91 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11166,7 +11268,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "22-11-2042"
-			(at 160.02 41.91 0)
+			(at 167.64 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11176,7 +11278,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-22-11-2042"
-			(at 162.56 41.91 0)
+			(at 170.18 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11186,7 +11288,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2042?qs=mrPiglD9aYJfi57%2FgjU4lw%3D%3D"
-			(at 163.83 41.91 0)
+			(at 171.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11196,7 +11298,7 @@
 			)
 		)
 		(property "Render Name" "4P Droit"
-			(at 166.37 36.83 0)
+			(at 173.99 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12071,6 +12173,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 149.86 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33215126-0204-4c3c-84af-492e6fa90d5f")
+		(property "Reference" "#PWR046"
+			(at 146.05 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 153.67 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 149.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6f31804-0ef5-4bb0-acaa-6342739fdfd8")
+		)
+		(instances
+			(project "AMS Dongle"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
 		(at 78.74 121.92 0)
 		(unit 1)
@@ -12394,7 +12563,7 @@
 	)
 	(symbol
 		(lib_id "EPSA_lib:2P Droit 2-11-2022")
-		(at 175.26 40.64 270)
+		(at 182.88 43.18 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12403,7 +12572,7 @@
 		(fields_autoplaced yes)
 		(uuid "4130834f-e180-43e8-91ba-314feec34d76")
 		(property "Reference" "J3"
-			(at 179.07 40.6399 90)
+			(at 186.69 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12412,7 +12581,7 @@
 			)
 		)
 		(property "Value" "2P Angle 171857-4002"
-			(at 176.53 57.15 0)
+			(at 184.15 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12422,7 +12591,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:MOLEX_22-11-2022"
-			(at 172.72 46.99 0)
+			(at 180.34 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12432,7 +12601,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112022?display=pdf"
-			(at 175.26 46.99 0)
+			(at 182.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12442,7 +12611,7 @@
 			)
 		)
 		(property "Description" "Headers & Wire Housings KK RPC 254 Hdr FrLk R/A 02 Ckt 15Au T&R"
-			(at 175.26 40.64 0)
+			(at 182.88 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12451,7 +12620,7 @@
 			)
 		)
 		(property "Height" "10.66mm"
-			(at 170.18 46.99 0)
+			(at 177.8 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12461,7 +12630,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Molex"
-			(at 177.8 46.99 0)
+			(at 185.42 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12471,7 +12640,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "22-11-2022"
-			(at 166.37 46.99 0)
+			(at 173.99 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12481,7 +12650,7 @@
 			)
 		)
 		(property "Mouser Part Number" "538-22-11-2022"
-			(at 163.83 46.99 0)
+			(at 171.45 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12491,7 +12660,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2022?qs=mrPiglD9aYLq1NGrfjXTJg%3D%3D"
-			(at 168.91 46.99 0)
+			(at 176.53 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12501,7 +12670,7 @@
 			)
 		)
 		(property "Render Name " "2P Angle"
-			(at 179.07 50.8 0)
+			(at 186.69 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12510,7 +12679,7 @@
 			)
 		)
 		(property "Render Name" "2P Droit"
-			(at 179.07 40.64 0)
+			(at 186.69 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15275,6 +15444,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 116.84 36.83 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e891dbe-47d9-43ee-9f6c-52ad113eb8bd")
+		(property "Reference" "#PWR036"
+			(at 120.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 113.03 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 116.84 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "371595f5-0182-4667-98eb-f53928588a46")
+		)
+		(instances
+			(project "AMS Dongle"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
 		(at 129.54 140.97 180)
 		(unit 1)
@@ -15966,6 +16202,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 149.86 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95d705cf-7e92-4853-96d9-b12accf894c3")
+		(property "Reference" "#PWR043"
+			(at 156.21 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "861a89dd-9610-4d76-8259-00aeed22fc1d")
+		)
+		(instances
+			(project "AMS Dongle"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EPSA_lib:Transfo BMS SM91502ALE")
 		(at 265.43 77.47 180)
 		(unit 1)
@@ -16606,73 +16909,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 116.84 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b11a153-1914-4f7c-8150-9a43ce21e084")
-		(property "Reference" "#PWR035"
-			(at 120.65 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 113.03 40.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 116.84 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "085f8fc7-9dd3-4de2-a622-dff3f4cb0101")
-		)
-		(instances
-			(project "AMS Dongle"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
 		(at 57.15 105.41 90)
 		(unit 1)
@@ -17201,73 +17437,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 116.84 27.94 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a612b889-3a44-450d-b9c6-44391b38f89b")
-		(property "Reference" "#PWR034"
-			(at 120.65 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 113.03 27.9399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 116.84 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25c74863-8c6d-4c64-a946-1b01e329712a")
-		)
-		(instances
-			(project "AMS Dongle"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 274.32 134.62 0)
 		(unit 1)
@@ -17328,73 +17497,6 @@
 			(project "AMS Dongle"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 116.84 25.4 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b089cf36-dcc2-4eea-971e-a684de4714a4")
-		(property "Reference" "#PWR036"
-			(at 110.49 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 113.03 25.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3229f4a3-7127-4ce3-a070-ed57b8bc6125")
-		)
-		(instances
-			(project "AMS Dongle"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -17596,6 +17698,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 149.86 24.13 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1d87ca3-0d4b-42a1-8d63-c3d55b00180d")
+		(property "Reference" "#PWR042"
+			(at 146.05 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 153.67 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 149.86 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "578e8a19-05cf-47c0-b5c2-ce81d9ad47ca")
+		)
+		(instances
+			(project "AMS Dongle"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 276.86 31.75 90)
 		(unit 1)
@@ -17653,6 +17822,73 @@
 			(project "AMS Dongle"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 29.21 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c551609a-0c24-4171-bf83-cf3b5dd12f9e")
+		(property "Reference" "#PWR044"
+			(at 156.21 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 149.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56e354c0-e76a-4094-8ca8-d09223ac5bb2")
+		)
+		(instances
+			(project "AMS Dongle"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -19053,6 +19289,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 149.86 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb1ccac8-1e11-4e8d-998e-508ebbc06a9f")
+		(property "Reference" "#PWR045"
+			(at 146.05 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 153.67 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 149.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13548b8f-327f-4424-afa6-9af13f070c1d")
+		)
+		(instances
+			(project "AMS Dongle"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ATA6563-GBQW1:ATA6563-GBQW1")
 		(at 220.98 135.89 0)
 		(unit 1)
@@ -19260,17 +19563,192 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 116.84 43.18 270)
+		(lib_id "UJ20-C-V-C-1-SMT-TR:UJ20-C-V-C-1-SMT-TR")
+		(at 116.84 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ecc6af53-11e2-4276-9b3a-b3567a734dbe")
-		(property "Reference" "#PWR037"
-			(at 110.49 43.18 0)
+		(uuid "f159378c-752f-4548-ad12-4529550ba542")
+		(property "Reference" "J6"
+			(at 133.35 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UJ20-C-V-C-1-SMT-TR"
+			(at 133.35 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "UJ20CVC1SMTTR"
+			(at 146.05 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/uj20-c-v-c-1-smt-tr.pdf"
+			(at 146.05 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Connectors USB Jack 2.0, Type-C, Vertical, Copper Alloy, Surface Mount, 6.5H, T&R"
+			(at 146.05 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.65"
+			(at 146.05 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "179-UJ20CVC1SMTTR"
+			(at 146.05 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/UJ20-C-V-C-1-SMT-TR?qs=i8QVZAFTkqRSXXSHLSIhtw%3D%3D"
+			(at 146.05 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Same Sky"
+			(at 146.05 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "UJ20-C-V-C-1-SMT-TR"
+			(at 146.05 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "B5"
+			(uuid "8bfbd99e-eaad-4782-bbda-e874cbf77b57")
+		)
+		(pin "B9"
+			(uuid "921aaf97-9fb2-47ab-901d-c34a2845d6d0")
+		)
+		(pin "B6"
+			(uuid "d5b2052b-3873-4df9-bfc2-c89831600916")
+		)
+		(pin "2"
+			(uuid "d2a7b176-4498-47ea-a052-86d93f6a5f67")
+		)
+		(pin "A5"
+			(uuid "c47d3dda-67ed-4380-bfb4-d9dedafa1352")
+		)
+		(pin "A7"
+			(uuid "af94e4d1-5346-4b94-92fc-4eea51c4c609")
+		)
+		(pin "B1"
+			(uuid "b1122c86-0afb-4296-a1e9-75667c266d95")
+		)
+		(pin "4"
+			(uuid "8c321a15-4b7c-4bc6-bdfc-1d808fa891fb")
+		)
+		(pin "B7"
+			(uuid "4d8afce1-effc-4ce2-a12c-6c28445146d2")
+		)
+		(pin "A12"
+			(uuid "ecf9dddb-93dc-41ba-adb6-e39b7b0f1ece")
+		)
+		(pin "A9"
+			(uuid "ed6b3b0a-42ed-43bd-a460-f47c20e3aa47")
+		)
+		(pin "1"
+			(uuid "79ffc04d-def0-4654-bce0-e4223e72353f")
+		)
+		(pin "B4"
+			(uuid "c43ca072-d35b-4d79-92f2-e27653f50dcd")
+		)
+		(pin "B8"
+			(uuid "0e9d4b83-cc2c-4e3a-862b-7b897b87d083")
+		)
+		(pin "A1"
+			(uuid "434834d8-5401-4643-8626-212c294229b0")
+		)
+		(pin "3"
+			(uuid "9df68113-be4c-4008-8211-09653f7ba0da")
+		)
+		(pin "A6"
+			(uuid "7ba3a787-8552-4609-99a3-2befda5e5311")
+		)
+		(pin "A8"
+			(uuid "3080c596-7a8b-4b41-a817-5ea9d2977790")
+		)
+		(pin "A4"
+			(uuid "61cd1af4-c698-4a7f-8e67-3b671e084c6a")
+		)
+		(pin "B12"
+			(uuid "85cd914b-bc72-417f-ad79-5e766818699d")
+		)
+		(instances
+			(project "AMS Dongle"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 149.86 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2985960-638f-413c-92d5-c89c6fac94e5")
+		(property "Reference" "#PWR047"
+			(at 156.21 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19279,7 +19757,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 43.1799 90)
+			(at 153.67 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19288,7 +19766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 43.18 0)
+			(at 149.86 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19297,7 +19775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 43.18 0)
+			(at 149.86 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19306,7 +19784,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 43.18 0)
+			(at 149.86 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19315,12 +19793,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f3ce014f-0903-4b0e-b09d-936d2b6497d9")
+			(uuid "97ae212a-6845-41e7-bea3-498e322db4f0")
 		)
 		(instances
 			(project "AMS Dongle"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR037")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -19659,174 +20137,6 @@
 			(project "AMS Dongle"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EPSA_lib:Connecteur USB-C USB4720-03-A")
-		(at 116.84 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc68bbf0-b871-4dc2-ba5d-4b3ebdd6b789")
-		(property "Reference" "J6"
-			(at 132.08 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Connecteur USB-C USB4720-03-A"
-			(at 132.08 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "USB472003A"
-			(at 143.51 120.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.gct.co/files/drawings/USB4720.pdf"
-			(at 143.51 220.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB Connectors USB2.0 TypeC Recpt., 3u Gold, 16P Horz Mid Mount SMT, 1.13mm O-set, IP67"
-			(at 116.84 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "3.9"
-			(at 143.51 420.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "640-USB472003A"
-			(at 143.51 520.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/USB4720-03-A?qs=Z%252BL2brAPG1IK%252BbxHmYg8zQ%3D%3D"
-			(at 143.51 620.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
-			(at 143.51 720.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "USB4720-03-A"
-			(at 143.51 820.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "B6"
-			(uuid "ce33d7ec-9cd2-4069-b2ab-dc9840a266f8")
-		)
-		(pin "A5"
-			(uuid "a453f2b5-0bc3-405e-ab14-5a409f651748")
-		)
-		(pin "B7"
-			(uuid "cbeb8f24-6785-4089-b8be-fe5116e5d798")
-		)
-		(pin "MH6"
-			(uuid "a1007f8f-cf43-4044-a187-96b7fbc679e3")
-		)
-		(pin "A4"
-			(uuid "61bbcaca-c0b1-453a-991d-0048d8a4d5b3")
-		)
-		(pin "A6"
-			(uuid "2ff96834-cf2a-4306-8663-3ef15f7a115a")
-		)
-		(pin "A9"
-			(uuid "c3e75a73-2cea-4371-8546-e84b493bb164")
-		)
-		(pin "MH2"
-			(uuid "898f00b4-cd62-424b-b666-dd2f78f922ad")
-		)
-		(pin "MH3"
-			(uuid "403775a3-3534-4be7-8c4c-381b06b7627f")
-		)
-		(pin "A1"
-			(uuid "c36945d7-3eb3-44d0-9601-460bd3d15e92")
-		)
-		(pin "MH1"
-			(uuid "fd9e5e73-e686-4432-8cb6-52dd201d5fe1")
-		)
-		(pin "MH4"
-			(uuid "7dd20bfa-d3af-4236-a049-01b4d6ad47a2")
-		)
-		(pin "B5"
-			(uuid "c1993f6c-bbb7-4ba8-bd2f-03c3dd9be0fe")
-		)
-		(pin "B8"
-			(uuid "2cd22851-19bf-4347-b93c-72e7ef0f823d")
-		)
-		(pin "A8"
-			(uuid "9cc1acc0-11fd-40f2-a7d1-2a3643cac256")
-		)
-		(pin "MH5"
-			(uuid "6ca1e33d-5193-4d82-b266-7af95245056e")
-		)
-		(pin "A12"
-			(uuid "11d80347-87d2-4e0f-ade9-904634cf07c1")
-		)
-		(pin "A7"
-			(uuid "32867902-8acb-4d07-8d71-783c51e3291b")
-		)
-		(instances
-			(project "AMS Dongle"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "J6")
 					(unit 1)
 				)
 			)
