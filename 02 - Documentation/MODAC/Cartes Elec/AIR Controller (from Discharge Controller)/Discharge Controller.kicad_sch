@@ -4525,6 +4525,12 @@
 		)
 	)
 	(junction
+		(at 101.6 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e52fbd1-16ef-4f1d-bb1c-4631e4df4fd7")
+	)
+	(junction
 		(at 148.59 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4553,6 +4559,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad9e8e44-1db5-4a46-948e-edfa6978c056")
+	)
+	(junction
+		(at 106.68 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6304fd6-9df2-4466-ae05-5c3e8e34fe3b")
 	)
 	(junction
 		(at 26.67 187.96)
@@ -4616,7 +4628,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 93.98) (xy 186.69 93.98)
+			(xy 167.64 93.98) (xy 181.61 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4666,7 +4678,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 95.25) (xy 209.55 95.25)
+			(xy 196.85 95.25) (xy 204.47 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4696,7 +4708,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.715 92.71) (xy 259.08 92.71)
+			(xy 254.635 92.71) (xy 254 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4736,7 +4748,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 92.71) (xy 238.76 92.71)
+			(xy 232.41 92.71) (xy 233.68 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4806,7 +4818,7 @@
 	)
 	(polyline
 		(pts
-			(xy 133.35 67.31) (xy 25.4 67.31)
+			(xy 129.54 76.2) (xy 25.4 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4866,7 +4878,7 @@
 	)
 	(polyline
 		(pts
-			(xy 25.4 127) (xy 133.35 127)
+			(xy 25.4 116.84) (xy 129.54 116.84)
 		)
 		(stroke
 			(width 0)
@@ -4893,16 +4905,6 @@
 			(type default)
 		)
 		(uuid "6b500f4b-2ebb-4790-b242-1f66e7f989dc")
-	)
-	(wire
-		(pts
-			(xy 101.6 91.44) (xy 111.76 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ea3aeda-10e7-469b-bcb6-f14e798cc70f")
 	)
 	(wire
 		(pts
@@ -4934,6 +4936,16 @@
 		)
 		(uuid "7519ac5a-c45b-40c4-abb0-bfbd5dbc2ad0")
 	)
+	(wire
+		(pts
+			(xy 151.13 92.71) (xy 151.13 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7905a349-02bc-478c-9cbe-8f630587608d")
+	)
 	(polyline
 		(pts
 			(xy 138.43 25.4) (xy 138.43 68.58)
@@ -4946,7 +4958,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 102.87) (xy 111.76 102.87)
+			(xy 101.6 102.87) (xy 106.68 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4966,7 +4978,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 95.25) (xy 157.48 95.25)
+			(xy 151.13 95.25) (xy 152.4 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5026,7 +5038,7 @@
 	)
 	(polyline
 		(pts
-			(xy 133.35 127) (xy 133.35 67.31)
+			(xy 129.54 116.84) (xy 129.54 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5056,7 +5068,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 92.71) (xy 157.48 92.71)
+			(xy 151.13 92.71) (xy 152.4 92.71)
 		)
 		(stroke
 			(width 0)
@@ -5066,7 +5078,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 95.25) (xy 209.55 85.09)
+			(xy 204.47 95.25) (xy 204.47 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5116,7 +5128,7 @@
 	)
 	(polyline
 		(pts
-			(xy 25.4 67.31) (xy 25.4 127)
+			(xy 25.4 76.2) (xy 25.4 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5166,6 +5178,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 102.87) (xy 111.76 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a1f95f-62cc-4316-a086-15a54560aafa")
+	)
+	(wire
+		(pts
 			(xy 43.18 96.52) (xy 38.1 96.52)
 		)
 		(stroke
@@ -5186,6 +5208,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 91.44) (xy 101.6 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2516f26-05a2-4313-8cbc-04f7ac5e3105")
+	)
+	(wire
+		(pts
 			(xy 181.61 49.53) (xy 194.31 49.53)
 		)
 		(stroke
@@ -5196,13 +5228,23 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 92.71) (xy 222.25 92.71)
+			(xy 215.9 92.71) (xy 217.17 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ec1138d6-8a5a-44f8-bec1-f1a2e36f6c66")
+	)
+	(wire
+		(pts
+			(xy 106.68 102.87) (xy 106.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4bfa0c-6a47-42f4-a839-c339a41c89d1")
 	)
 	(wire
 		(pts
@@ -5249,8 +5291,8 @@
 		(uuid 354ab908-9803-4b9c-8be0-e2ccf36df90f)
 	)
 	(rectangle
-		(start 134.62 81.28)
-		(end 271.78 104.14)
+		(start 137.16 81.28)
+		(end 266.7 104.14)
 		(stroke
 			(width 0)
 			(type default)
@@ -5306,7 +5348,7 @@
 	)
 	(text "Main Circuit"
 		(exclude_from_sim no)
-		(at 135.382 83.82 0)
+		(at 138.43 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5328,7 +5370,7 @@
 	)
 	(text "Controlling a NC Relay"
 		(exclude_from_sim no)
-		(at 250.952 106.172 0)
+		(at 245.872 106.172 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5380,17 +5422,6 @@
 		)
 		(uuid "3a728124-567a-4d07-8ade-0cce5f78d13f")
 	)
-	(label "SCS_Compliance_075"
-		(at 111.76 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e543fd8-6615-462e-bbde-011640ad7a9a")
-	)
 	(label "0.75V"
 		(at 80.01 158.75 0)
 		(fields_autoplaced yes)
@@ -5401,17 +5432,6 @@
 			(justify left bottom)
 		)
 		(uuid "43b3ea47-8d44-4608-87c4-e7c432865af9")
-	)
-	(label "Relay_Closed"
-		(at 186.69 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "44e731e0-be3e-4d90-b186-f0d41225ef26")
 	)
 	(label "SC out"
 		(at 82.55 60.96 180)
@@ -5446,6 +5466,17 @@
 		)
 		(uuid "56408ec9-75f7-4298-b76f-c5bc3d82aa7c")
 	)
+	(label "SCS_Compliance"
+		(at 181.61 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59127746-a929-4deb-900e-723ea45d9d5e")
+	)
 	(label "4.25V"
 		(at 88.9 101.6 180)
 		(fields_autoplaced yes)
@@ -5468,7 +5499,7 @@
 		)
 		(uuid "83a19389-b09a-4c66-91ca-78ea0c39e4d2")
 	)
-	(label "SCS_Compliance_425"
+	(label "SCS_Compliance"
 		(at 111.76 102.87 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5478,6 +5509,17 @@
 			(justify left bottom)
 		)
 		(uuid "8bbaa85f-d802-4d3a-a949-4c1441c76bd8")
+	)
+	(label "Relay_Closed"
+		(at 151.13 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "918b112f-fa96-4050-b54b-73deb5d05cd0")
 	)
 	(label "Raw_Relay_Closed"
 		(at 82.55 55.88 180)
@@ -5489,17 +5531,6 @@
 			(justify right bottom)
 		)
 		(uuid "b82369be-0b8f-409a-a083-de07c01227a8")
-	)
-	(label "SCS_Compliance_425"
-		(at 156.21 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ba74e534-39f9-4afa-bea4-3ebb307d1d2f")
 	)
 	(label "Raw_Relay_Closed"
 		(at 43.18 93.98 180)
@@ -5524,7 +5555,7 @@
 		(uuid "d05f3220-6ce0-4bd4-99c6-b325252f30b0")
 	)
 	(label "SC in"
-		(at 238.76 100.33 180)
+		(at 233.68 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5534,19 +5565,8 @@
 		)
 		(uuid "db1e523f-b323-45cd-84b6-face1ebdc4d5")
 	)
-	(label "SCS_Compliance_075"
-		(at 156.21 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ebf64497-ae1b-48c2-ad39-4cabc99defab")
-	)
 	(label "SC out"
-		(at 259.08 101.6 0)
+		(at 254 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5707,7 +5727,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 259.715 92.71 270)
+		(at 254.635 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5716,7 +5736,7 @@
 		(fields_autoplaced yes)
 		(uuid "02b9a17f-c631-417c-b8af-123cd357538c")
 		(property "Reference" "#PWR017"
-			(at 255.905 92.71 0)
+			(at 250.825 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5725,7 +5745,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 263.525 92.7099 90)
+			(at 258.445 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5734,7 +5754,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.715 92.71 0)
+			(at 254.635 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5743,7 +5763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.715 92.71 0)
+			(at 254.635 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5752,7 +5772,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 259.715 92.71 0)
+			(at 254.635 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5846,7 +5866,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 92.71 270)
+		(at 215.9 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5855,7 +5875,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e802bb6-0987-4dda-bd23-1e0954a96ac7")
 		(property "Reference" "#GND012"
-			(at 218.44 92.71 0)
+			(at 213.36 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5864,7 +5884,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 223.52 92.71 0)
+			(at 218.44 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5873,7 +5893,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 92.71 0)
+			(at 215.9 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5882,7 +5902,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 92.71 0)
+			(at 215.9 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5891,7 +5911,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 92.71 0)
+			(at 215.9 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6413,270 +6433,6 @@
 			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 111.76 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23777efb-98a1-4bbd-b286-83efb4566457")
-		(property "Reference" "#PWR010"
-			(at 111.76 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 111.76 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3edca14b-0836-4727-a948-5369cb86d9f1")
-		)
-		(instances
-			(project "Discharge Controller"
-				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
-		(at 111.76 73.66 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29eff556-f7c0-4860-a9ea-da5792f111bb")
-		(property "Reference" "R3"
-			(at 109.22 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 111.76 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EPSA_lib:RESC3216X70N"
-			(at 113.03 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at 110.49 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD"
-			(at 107.95 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at 105.41 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KOA Speer"
-			(at 102.87 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
-			(at 100.33 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "N/A"
-			(at 97.79 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
-			(at 95.25 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 92.71 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 90.17 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Testing Part Number" ""
-			(at 87.63 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Testing Price/Stock" ""
-			(at 85.09 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 118.11 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "type=\"R\" model=\"10k\" lib=\"\""
-			(at -63.5 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at -63.5 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Render Name" "Résistance"
-			(at 114.3 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "09940056-3667-4123-924f-da8571947aa8")
-		)
-		(pin "2"
-			(uuid "f6c52433-241c-4b95-8d30-5532eeab2b17")
-		)
-		(instances
-			(project "Discharge Controller"
-				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
-					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7266,7 +7022,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 166.37 88.9 0)
+		(at 161.29 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7275,7 +7031,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ba81f7f-3d09-4c4b-9bb7-938a992d6dae")
 		(property "Reference" "#PWR09"
-			(at 166.37 92.71 0)
+			(at 161.29 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7284,7 +7040,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 168.91 87.63 0)
+			(at 163.83 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7293,7 +7049,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 88.9 0)
+			(at 161.29 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7302,7 +7058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 88.9 0)
+			(at 161.29 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7311,7 +7067,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 166.37 88.9 0)
+			(at 161.29 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8193,7 +7949,7 @@
 	)
 	(symbol
 		(lib_id "EPSA_Lib:Relais PCB")
-		(at 236.22 96.52 0)
+		(at 231.14 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8202,7 +7958,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b95bd59-d41c-4a6a-813b-fd6d1454c3c4")
 		(property "Reference" "K2"
-			(at 248.92 83.82 0)
+			(at 243.84 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8210,7 +7966,7 @@
 			)
 		)
 		(property "Value" "Relais PCB"
-			(at 248.92 86.36 0)
+			(at 243.84 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,7 +7974,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:CP112V"
-			(at 271.78 84.582 0)
+			(at 266.7 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8228,7 +7984,7 @@
 			)
 		)
 		(property "Datasheet" "https://www3.panasonic.biz/ac/e/uacs/download/index.jsp?c=vehicle_download"
-			(at 271.78 87.122 0)
+			(at 266.7 87.122 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8238,7 +7994,7 @@
 			)
 		)
 		(property "Description" "PANASONIC ELECTRIC WORKS - CP1-12V - RELAY, AUTOMOTIVE, SPDT, 14VDC, 20A"
-			(at 271.78 89.662 0)
+			(at 266.7 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8248,7 +8004,7 @@
 			)
 		)
 		(property "Height" "9.5"
-			(at 271.78 92.202 0)
+			(at 266.7 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8258,7 +8014,7 @@
 			)
 		)
 		(property "Mouser Part Number" "769-CP1-12V"
-			(at 271.78 94.742 0)
+			(at 266.7 94.742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8268,7 +8024,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic-Industrial-Devices/CP1-12V?qs=mTeSeKeuVA7dPPafy7M16g%3D%3D"
-			(at 271.78 97.282 0)
+			(at 266.7 97.282 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8278,7 +8034,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 271.78 99.822 0)
+			(at 266.7 99.822 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8288,7 +8044,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CP1-12V"
-			(at 271.78 102.362 0)
+			(at 266.7 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8323,7 +8079,7 @@
 	)
 	(symbol
 		(lib_id "EPSA_Lib:NMOS SQ2348ES-T1_GE3")
-		(at 213.995 97.155 0)
+		(at 208.915 97.155 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8331,7 +8087,7 @@
 		(dnp no)
 		(uuid "6e02e502-58a9-42f8-b699-3d3ce99e2441")
 		(property "Reference" "Q1"
-			(at 233.172 87.376 0)
+			(at 228.092 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8339,7 +8095,7 @@
 			)
 		)
 		(property "Value" "NMOS SQ2348ES-T1_GE3"
-			(at 255.905 86.995 0)
+			(at 250.825 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8349,7 +8105,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
-			(at 255.905 89.535 0)
+			(at 250.825 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8359,7 +8115,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/63706/sq2348es.pdf"
-			(at 255.905 92.075 0)
+			(at 250.825 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8369,7 +8125,7 @@
 			)
 		)
 		(property "Description" "VISHAY - SQ2348ES-T1_GE3 - MOSFET, AEC-Q101, N-CH, 30V, SOT-23"
-			(at 255.905 94.615 0)
+			(at 250.825 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8379,7 +8135,7 @@
 			)
 		)
 		(property "Sim.Pins" "3=1 1=2 2=3"
-			(at 277.495 81.915 0)
+			(at 272.415 81.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8389,7 +8145,7 @@
 			)
 		)
 		(property "Sim.Device" "SPICE"
-			(at 258.445 84.455 0)
+			(at 253.365 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8399,7 +8155,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"X\" model=\"SQ2348ES\" lib=\"${EPSA_lib}\\SpiceModel\\NMOS_SQ2348ES_PS Rev A.LIB\""
-			(at 300.355 109.855 0)
+			(at 295.275 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8408,7 +8164,7 @@
 			)
 		)
 		(property "Height" "1.12"
-			(at 255.905 97.155 0)
+			(at 250.825 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8418,7 +8174,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 255.905 99.695 0)
+			(at 250.825 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8428,7 +8184,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SQ2348ES-T1_GE3"
-			(at 255.905 102.235 0)
+			(at 250.825 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8438,7 +8194,7 @@
 			)
 		)
 		(property "Mouser Part Number" "781-SQ2348ES-T1_GE3"
-			(at 255.905 104.775 0)
+			(at 250.825 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8448,7 +8204,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQ2348ES-T1_GE3?qs=jHkklCh7amgC88blremf%252Bw%3D%3D"
-			(at 255.905 107.315 0)
+			(at 250.825 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8458,7 +8214,7 @@
 			)
 		)
 		(property "Render Name" "NMOS"
-			(at 236.728 89.662 0)
+			(at 231.648 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8485,7 +8241,7 @@
 	)
 	(symbol
 		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
-		(at 209.55 85.09 0)
+		(at 204.47 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8493,7 +8249,7 @@
 		(dnp no)
 		(uuid "70f98ed4-fd48-405c-a818-5e535bef462b")
 		(property "Reference" "R4"
-			(at 215.9 87.63 0)
+			(at 210.82 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8502,7 +8258,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 215.9 85.09 0)
+			(at 210.82 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8511,7 +8267,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:RESC3216X70N"
-			(at 234.95 83.82 0)
+			(at 229.87 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8521,7 +8277,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at 234.95 86.36 0)
+			(at 229.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8531,7 +8287,7 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD"
-			(at 234.95 88.9 0)
+			(at 229.87 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8541,7 +8297,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 234.95 91.44 0)
+			(at 229.87 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8551,7 +8307,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "KOA Speer"
-			(at 234.95 93.98 0)
+			(at 229.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8561,7 +8317,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
-			(at 234.95 96.52 0)
+			(at 229.87 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8571,7 +8327,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 234.95 99.06 0)
+			(at 229.87 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8581,7 +8337,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
-			(at 234.95 101.6 0)
+			(at 229.87 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8591,7 +8347,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 223.52 104.14 0)
+			(at 218.44 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8601,7 +8357,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 223.52 106.68 0)
+			(at 218.44 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8611,7 +8367,7 @@
 			)
 		)
 		(property "Mouser Testing Part Number" ""
-			(at 223.52 109.22 0)
+			(at 218.44 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8621,7 +8377,7 @@
 			)
 		)
 		(property "Mouser Testing Price/Stock" ""
-			(at 223.52 111.76 0)
+			(at 218.44 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8631,7 +8387,7 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 234.95 78.74 0)
+			(at 229.87 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8641,7 +8397,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"R\" model=\"10k\" lib=\"\""
-			(at 177.8 260.35 0)
+			(at 172.72 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8650,7 +8406,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 177.8 260.35 0)
+			(at 172.72 260.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8659,7 +8415,7 @@
 			)
 		)
 		(property "Render Name" "Résistance"
-			(at 218.44 82.55 0)
+			(at 213.36 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9028,7 +8784,7 @@
 	)
 	(symbol
 		(lib_id "EPSA_lib:Gate AND SN74AHCT1G08DBVR")
-		(at 190.5 95.25 0)
+		(at 185.42 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9036,7 +8792,7 @@
 		(dnp no)
 		(uuid "87455dad-94c7-4d8e-9958-4d623b03e21d")
 		(property "Reference" "G1"
-			(at 194.31 99.06 0)
+			(at 189.23 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9044,7 +8800,7 @@
 			)
 		)
 		(property "Value" "Gate AND SN74AHCT1G08DBVR"
-			(at 224.79 83.82 0)
+			(at 219.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9054,7 +8810,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:SOT95P280X145-5N"
-			(at 224.79 92.71 0)
+			(at 219.71 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9064,7 +8820,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-6/sf-000128638.pdf"
-			(at 224.79 95.25 0)
+			(at 219.71 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9074,7 +8830,7 @@
 			)
 		)
 		(property "Description" "SN74AHCT1G08DBVR, Logic Gate 2 Input AND, AHCT, 8mA 5V 5-Pin SOT-23"
-			(at 224.79 97.79 0)
+			(at 219.71 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9084,7 +8840,7 @@
 			)
 		)
 		(property "Sim.Pins" "4=1 1=2 2=3 5=4 3=5"
-			(at 234.95 86.36 0)
+			(at 229.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9094,7 +8850,7 @@
 			)
 		)
 		(property "Sim.Device" "SPICE"
-			(at 227.33 86.36 0)
+			(at 222.25 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9104,7 +8860,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"X\" model=\"SN74AHC1G08\" lib=\"${EPSA_lib}\\SpiceModel\\AND_SN74AHC1G08.lib\""
-			(at 265.43 78.74 0)
+			(at 260.35 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9113,7 +8869,7 @@
 			)
 		)
 		(property "Height" "1.45"
-			(at 224.79 100.33 0)
+			(at 219.71 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9123,7 +8879,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 224.79 102.87 0)
+			(at 219.71 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9133,7 +8889,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SN74AHCT1G08DBVR"
-			(at 224.79 105.41 0)
+			(at 219.71 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9143,7 +8899,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-SN74AHCT1G08DBVR"
-			(at 224.79 107.95 0)
+			(at 219.71 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9153,7 +8909,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G08DBVR?qs=8Pd2FuFSoMGY9AK%2Ftqwbcw%3D%3D"
-			(at 224.79 110.49 0)
+			(at 219.71 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9163,7 +8919,7 @@
 			)
 		)
 		(property "Arrow Part Number" "SN74AHCT1G08DBVR"
-			(at 224.79 113.03 0)
+			(at 219.71 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9173,7 +8929,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahct1g08dbvr/texas-instruments?region=nac"
-			(at 224.79 115.57 0)
+			(at 219.71 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9183,7 +8939,7 @@
 			)
 		)
 		(property "Render Name" "Gate AND"
-			(at 187.96 90.17 0)
+			(at 182.88 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9344,6 +9100,78 @@
 			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 106.68 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8de5c0e5-1178-43bb-a7fa-4e6e215fa01e")
+		(property "Reference" "#PWR018"
+			(at 106.68 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 106.68 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "802ae56e-9e79-46bd-98ce-61dc4104a7d7")
+		)
+		(instances
+			(project "AMS_IMD_Reset"
+				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+			(project "Discharge Controller"
+				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -10083,6 +9911,216 @@
 		)
 	)
 	(symbol
+		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
+		(at 106.68 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad03592c-cb55-46cb-a1ff-fcaa50c202cd")
+		(property "Reference" "R10"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 106.68 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EPSA_lib:RESC3216X70N"
+			(at 107.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD"
+			(at 102.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.7"
+			(at 100.33 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 97.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
+			(at 95.25 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 92.71 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
+			(at 90.17 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 87.63 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Part Number" ""
+			(at 82.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Testing Price/Stock" ""
+			(at 80.01 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 113.03 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"R\" model=\"10k\" lib=\"\""
+			(at -68.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at -68.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Résistance"
+			(at 109.22 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d1d90caa-588e-44b7-ba1b-511fdf90bc62")
+		)
+		(pin "2"
+			(uuid "77a3106c-1e59-477d-80bf-97d4571ec39a")
+		)
+		(instances
+			(project "Indicator_voltage"
+				(path "/54532903-b9d3-4178-837f-6df9f12dc1a2"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+			(project "AMS_IMD_Reset"
+				(path "/7d9bad3e-6cf2-4a61-8644-78bfbb2e310d"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "Discharge Controller"
+				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 219.71 62.23 0)
 		(unit 1)
@@ -10150,7 +10188,7 @@
 	)
 	(symbol
 		(lib_id "EPSA_lib:Gate NAND SN74AHCT1G00DBVR")
-		(at 161.29 93.98 0)
+		(at 156.21 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10158,7 +10196,7 @@
 		(dnp no)
 		(uuid "b7c18b5f-1dba-44f1-887c-699fa7edd016")
 		(property "Reference" "G2"
-			(at 169.418 97.536 0)
+			(at 164.338 97.536 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10166,7 +10204,7 @@
 			)
 		)
 		(property "Value" "Gate NAND SN74AHCT1G00DBVR"
-			(at 196.85 87.63 0)
+			(at 191.77 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10176,7 +10214,7 @@
 			)
 		)
 		(property "Footprint" "EPSA_lib:SOT95P280X145-5N"
-			(at 196.85 90.17 0)
+			(at 191.77 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10186,7 +10224,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ahct1g00"
-			(at 196.85 92.71 0)
+			(at 191.77 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10196,7 +10234,7 @@
 			)
 		)
 		(property "Description" "Single 2-Input Positive-NAND Gate"
-			(at 196.85 95.25 0)
+			(at 191.77 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10206,7 +10244,7 @@
 			)
 		)
 		(property "Sim.Pins" "4=1 1=2 2=3 5=4 3=5"
-			(at 217.17 82.55 0)
+			(at 212.09 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10216,7 +10254,7 @@
 			)
 		)
 		(property "Sim.Device" "SPICE"
-			(at 200.66 85.09 0)
+			(at 195.58 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10226,7 +10264,7 @@
 			)
 		)
 		(property "Sim.Params" "type=\"X\" model=\"SN74AHCT1G00\" lib=\"${EPSA_lib}\\SpiceModel\\NAND_SN74AHCT1G00.lib\""
-			(at 161.29 93.98 0)
+			(at 156.21 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10235,7 +10273,7 @@
 			)
 		)
 		(property "Height" "1.45"
-			(at 196.85 97.79 0)
+			(at 191.77 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10245,7 +10283,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 196.85 100.33 0)
+			(at 191.77 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10255,7 +10293,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SN74AHCT1G00DBVR"
-			(at 196.85 102.87 0)
+			(at 191.77 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10265,7 +10303,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-SN74AHCT1G00DBVR"
-			(at 196.85 105.41 0)
+			(at 191.77 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10275,7 +10313,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT1G00DBVR?qs=w32V8uFkMxnwwXcMH%2F61Dg%3D%3D"
-			(at 196.85 107.95 0)
+			(at 191.77 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10285,7 +10323,7 @@
 			)
 		)
 		(property "Arrow Part Number" "SN74AHCT1G00DBVR"
-			(at 196.85 110.49 0)
+			(at 191.77 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10295,7 +10333,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sn74ahct1g00dbvr/texas-instruments"
-			(at 196.85 113.03 0)
+			(at 191.77 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10305,7 +10343,7 @@
 			)
 		)
 		(property "Mouser Testing Part Number" ""
-			(at 182.88 116.84 0)
+			(at 177.8 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10315,7 +10353,7 @@
 			)
 		)
 		(property "Mouser Testing Price/Stock" ""
-			(at 182.88 119.38 0)
+			(at 177.8 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10325,7 +10363,7 @@
 			)
 		)
 		(property "Render Name" "Gate NAND"
-			(at 158.75 88.9 0)
+			(at 153.67 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10634,7 +10672,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 100.33 0)
+		(at 186.69 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10643,7 +10681,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6b4553b-2bf5-45fb-89b7-c13844e1baa6")
 		(property "Reference" "#PWR015"
-			(at 191.77 106.68 0)
+			(at 186.69 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10652,7 +10690,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 101.6 0)
+			(at 189.23 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10661,7 +10699,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 100.33 0)
+			(at 186.69 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10670,7 +10708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 100.33 0)
+			(at 186.69 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10679,7 +10717,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 100.33 0)
+			(at 186.69 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10851,7 +10889,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 99.06 0)
+		(at 157.48 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10860,7 +10898,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc8c9e4f-2f4a-4b4d-ae02-a3fa892967dc")
 		(property "Reference" "#PWR08"
-			(at 162.56 105.41 0)
+			(at 157.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10869,7 +10907,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 100.33 0)
+			(at 160.02 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10878,7 +10916,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 99.06 0)
+			(at 157.48 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10887,7 +10925,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 99.06 0)
+			(at 157.48 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10896,7 +10934,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 99.06 0)
+			(at 157.48 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10911,72 +10949,6 @@
 			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 111.76 120.65 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d61ac374-2caf-4b64-8bb4-7e1b7b1502c2")
-		(property "Reference" "#PWR014"
-			(at 111.76 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 111.76 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7297764a-764a-4225-9d8b-54ce04d594e0")
-		)
-		(instances
-			(project "Discharge Controller"
-				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11056,7 +11028,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 195.58 90.17 0)
+		(at 190.5 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11065,7 +11037,7 @@
 		(fields_autoplaced yes)
 		(uuid "e174f8ad-81ea-4998-9ccd-8c55b491b4e4")
 		(property "Reference" "#PWR016"
-			(at 195.58 93.98 0)
+			(at 190.5 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11074,7 +11046,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 198.12 88.9 0)
+			(at 193.04 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11083,7 +11055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 90.17 0)
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11092,7 +11064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 90.17 0)
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11101,7 +11073,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 195.58 90.17 0)
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11920,204 +11892,6 @@
 			(project "Discharge Controller"
 				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EPSA_lib:Résistance RK73H2BLTDD2152F")
-		(at 111.76 102.87 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ffc2d0c8-ff8b-4d30-9f4a-08f09ca5e418")
-		(property "Reference" "R8"
-			(at 109.22 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 111.76 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EPSA_lib:RESC3216X70N"
-			(at 113.03 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf"
-			(at 110.49 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD"
-			(at 107.95 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at 105.41 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KOA Speer"
-			(at 102.87 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RK73H2BLTDD2152F"
-			(at 100.33 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "N/A"
-			(at 97.79 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73H2BLTDD2152F?qs=WeIALVmW3zmyxMFsjVzMRw%3D%3D"
-			(at 95.25 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 92.71 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 90.17 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Testing Part Number" ""
-			(at 87.63 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Testing Price/Stock" ""
-			(at 85.09 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 118.11 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "type=\"R\" model=\"10k\" lib=\"\""
-			(at -63.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at -63.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Render Name" "Résistance"
-			(at 114.3 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fc84e8dc-0c18-447b-9957-067cd2d0512d")
-		)
-		(pin "2"
-			(uuid "a1235080-9f0d-4dc6-a0bb-0ec6d5324b7a")
-		)
-		(instances
-			(project "Discharge Controller"
-				(path "/aef688cc-a50d-4496-8d50-e7a8695060e9"
-					(reference "R8")
 					(unit 1)
 				)
 			)
