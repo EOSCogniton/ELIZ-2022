@@ -1487,6 +1487,12 @@
 		(uuid "5dab2f10-f7f6-41bb-bff8-5a37a97231ae")
 	)
 	(junction
+		(at 199.39 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "662651c7-64ea-4075-b2ac-c2b45b88fb5b")
+	)
+	(junction
 		(at 104.14 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1497,6 +1503,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "683312d2-e8ef-49a1-a988-7f7682bd5d7b")
+	)
+	(junction
+		(at 199.39 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72f38406-7fbc-4fb3-aa51-83509965daa1")
 	)
 	(junction
 		(at 232.41 212.09)
@@ -1557,12 +1569,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d983aaf-ab81-47d4-825e-84adab8f4d3b")
-	)
-	(junction
-		(at 195.58 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8ad8013-9a67-4817-8ae7-9d4308c148b3")
 	)
 	(junction
 		(at 104.14 93.98)
@@ -2515,7 +2521,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 109.22) (xy 195.58 132.08)
+			(xy 199.39 109.22) (xy 199.39 132.08)
 		)
 		(stroke
 			(width 0)
@@ -3161,7 +3167,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 109.22) (xy 195.58 109.22)
+			(xy 186.69 109.22) (xy 199.39 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3351,17 +3357,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "8efaf638-bb91-4d41-945c-7595be64acd9")
-	)
-	(wire
-		(pts
-			(xy 195.58 109.22) (xy 199.39 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "91d0ca9d-4ab8-46d6-bc56-85c1a0e8b423")
 	)
 	(wire
 		(pts
@@ -4135,6 +4130,17 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 132.08) (xy 199.39 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "dc86bd5c-8ae0-48bf-87e4-110c831adc6d")
+	)
+	(wire
+		(pts
 			(xy 168.91 189.23) (xy 140.97 189.23)
 		)
 		(stroke
@@ -4211,7 +4217,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 132.08) (xy 323.85 132.08)
+			(xy 199.39 132.08) (xy 323.85 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5028,28 +5034,6 @@
 			)
 		)
 	)
-	(global_label "GND TSAC1"
-		(shape output)
-		(at 195.58 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6b8cbb40-fc9d-4586-a7ab-da7394ee6e81")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.0115 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TSMP -"
 		(shape input)
 		(at 281.94 261.62 0)
@@ -5200,6 +5184,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND TSAC1"
+		(shape output)
+		(at 194.31 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8276a6a-17e8-4a2c-a782-96e971ee610a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.7415 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

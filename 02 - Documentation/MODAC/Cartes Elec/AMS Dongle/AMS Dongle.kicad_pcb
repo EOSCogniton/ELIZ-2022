@@ -14602,7 +14602,7 @@
 		(descr "3x3 mm Body [VDFN]")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC4"
-			(at 3.5 0 0)
+			(at 3.5 0 180)
 			(layer "F.SilkS")
 			(uuid "e6e5cb1e-3253-4206-ab98-2a1399688838")
 			(effects
@@ -14612,8 +14612,8 @@
 				)
 			)
 		)
-		(property "Value" "CAN Transceiver BD41041FJ-CE2"
-			(at 0 0 -90)
+		(property "Value" "CAN Transceiver ATA6563-GBQW1"
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0fe28ffb-ac72-4ec4-a58f-57f844d3f51e")
@@ -14831,7 +14831,7 @@
 			(uuid "1c5c4198-bfbd-4ce2-9d59-78364cfbe2d2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "8231f5b0-e349-461d-93f7-3f01dbec3bff")
 			(effects
