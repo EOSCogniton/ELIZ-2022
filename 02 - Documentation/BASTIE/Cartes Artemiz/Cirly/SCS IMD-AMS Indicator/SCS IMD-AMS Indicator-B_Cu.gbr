@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,8.0.0*%
-%TF.CreationDate,2024-06-23T14:11:11+02:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.5*%
+%TF.CreationDate,2024-10-12T22:57:13+02:00*%
 %TF.ProjectId,SCS IMD-AMS Indicator,53435320-494d-4442-9d41-4d5320496e64,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L2,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.0) date 2024-06-23 14:11:11*
+G04 Created by KiCad (PCBNEW 8.0.5) date 2024-10-12 22:57:13*
 %MOMM*%
 %LPD*%
 G01*
@@ -24,16 +24,13 @@ G04 APERTURE LIST*
 %ADD13C,1.530000*%
 %TD*%
 %TA.AperFunction,ComponentPad*%
-%ADD14C,3.000000*%
-%TD*%
-%TA.AperFunction,ComponentPad*%
-%ADD15C,1.440000*%
+%ADD14C,1.440000*%
 %TD*%
 %TA.AperFunction,ViaPad*%
-%ADD16C,0.800000*%
+%ADD15C,0.800000*%
 %TD*%
 %TA.AperFunction,Conductor*%
-%ADD17C,0.250000*%
+%ADD16C,0.250000*%
 %TD*%
 G04 APERTURE END LIST*
 D10*
@@ -64,11 +61,6 @@ D13*
 X96520000Y-59690000D03*
 %TD*%
 D14*
-%TO.P,,1*%
-%TO.N,N/C*%
-X96266000Y-51866800D03*
-%TD*%
-D15*
 %TO.P,U3,1,+VIN*%
 %TO.N,+12V*%
 X93948000Y-71435500D03*
@@ -79,16 +71,7 @@ X93948000Y-73975500D03*
 %TO.N,+5V*%
 X93948000Y-76515500D03*
 %TD*%
-D14*
-%TO.P,,1*%
-%TO.N,N/C*%
-X71628000Y-51308000D03*
-%TD*%
-%TO.P,,1*%
-%TO.N,N/C*%
-X71602600Y-80873600D03*
-%TD*%
-D16*
+D15*
 %TO.N,+5V*%
 X76555600Y-76403200D03*
 X82600800Y-75311000D03*
@@ -100,7 +83,7 @@ X79603600Y-77241400D03*
 X80947898Y-72874502D03*
 X77825600Y-71856600D03*
 %TD*%
-D17*
+D16*
 %TO.N,+5V*%
 X83794600Y-76504800D02*
 X82600800Y-75311000D01*

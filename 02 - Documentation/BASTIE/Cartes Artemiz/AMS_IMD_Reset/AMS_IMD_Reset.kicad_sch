@@ -2991,13 +2991,13 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "-"
+				(pin power_in line
+					(at 0 -6.35 90)
+					(length 3.81)
+					(name "V-"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
@@ -3009,10 +3009,10 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 7.62 0 180)
+				(pin input line
+					(at -5.08 -1.27 0)
 					(length 2.54)
-					(name "~"
+					(name "-"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3027,13 +3027,13 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 6.35 270)
-					(length 3.81)
-					(name "V+"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
-								(size 1 1)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3046,9 +3046,9 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -6.35 90)
+					(at 0 6.35 270)
 					(length 3.81)
-					(name "V-"
+					(name "V+"
 						(effects
 							(font
 								(size 1 1)

@@ -1,12 +1,12 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,8.0.0*%
-%TF.CreationDate,2024-06-23T14:13:46+02:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.5*%
+%TF.CreationDate,2024-10-12T23:05:05+02:00*%
 %TF.ProjectId,SCS TSAL Red LED,53435320-5453-4414-9c20-526564204c45,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L2,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.0) date 2024-06-23 14:13:46*
+G04 Created by KiCad (PCBNEW 8.0.5) date 2024-10-12 23:05:05*
 %MOMM*%
 %LPD*%
 G01*
@@ -24,16 +24,13 @@ G04 APERTURE LIST*
 %ADD13C,1.530000*%
 %TD*%
 %TA.AperFunction,ComponentPad*%
-%ADD14C,3.000000*%
-%TD*%
-%TA.AperFunction,ComponentPad*%
-%ADD15C,1.440000*%
+%ADD14C,1.440000*%
 %TD*%
 %TA.AperFunction,ViaPad*%
-%ADD16C,0.800000*%
+%ADD15C,0.800000*%
 %TD*%
 %TA.AperFunction,Conductor*%
-%ADD17C,0.250000*%
+%ADD16C,0.250000*%
 %TD*%
 G04 APERTURE END LIST*
 D10*
@@ -54,15 +51,6 @@ D13*
 %TO.N,/Raw_LED_On*%
 X86360000Y-52705000D03*
 %TD*%
-D14*
-%TO.P,,1*%
-%TO.N,N/C*%
-X71628000Y-51308000D03*
-%TD*%
-%TO.P,,1*%
-%TO.N,N/C*%
-X96266000Y-51816000D03*
-%TD*%
 D12*
 %TO.P,J2,1,1*%
 %TO.N,GND*%
@@ -72,7 +60,7 @@ D13*
 %TO.N,+12V*%
 X96520000Y-59690000D03*
 %TD*%
-D15*
+D14*
 %TO.P,U3,1,+VIN*%
 %TO.N,+12V*%
 X93948000Y-71435500D03*
@@ -83,12 +71,7 @@ X93948000Y-73975500D03*
 %TO.N,+5V*%
 X93948000Y-76515500D03*
 %TD*%
-D14*
-%TO.P,,1*%
-%TO.N,N/C*%
-X71272400Y-78536800D03*
-%TD*%
-D16*
+D15*
 %TO.N,/LED_On*%
 X80416400Y-72237600D03*
 X77825600Y-72212200D03*
@@ -96,7 +79,7 @@ X77825600Y-72212200D03*
 X81203800Y-78917800D03*
 X78486000Y-76200000D03*
 %TD*%
-D17*
+D16*
 %TO.N,/LED_On*%
 X77825600Y-72212200D02*
 X80391000Y-72212200D01*
