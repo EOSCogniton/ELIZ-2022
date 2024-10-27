@@ -1,0 +1,1 @@
+pyinstaller BOM_CHECKER.py -F --add-data=logo.ico:. --icon=logo.ico --clean --distpath result
