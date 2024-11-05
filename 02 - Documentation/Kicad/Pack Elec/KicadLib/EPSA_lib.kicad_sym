@@ -321,7 +321,7 @@
 			)
 		)
 	)
-	(symbol "2P Droit 2-11-2022"
+	(symbol "2P Droit 22-11-2022"
 		(pin_names
 			(offset 1.016)
 		)
@@ -337,7 +337,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "2P Droit 2-11-2022"
+		(property "Value" "2P Droit 22-11-2022"
 			(at 6.35 3.81 0)
 			(effects
 				(font
@@ -435,10 +435,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "2P Droit 2-11-2022_0_0"
+		(symbol "2P Droit 22-11-2022_0_0"
 			(rectangle
-				(start -5.08 -5.08)
-				(end 5.08 2.54)
+				(start -5.08 2.54)
+				(end 5.08 -5.08)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -12914,7 +12914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TLV9061QDCKRQ1 "
+		(property "Manufacturer_Part_Number" "TLV9061QDCKRQ1"
 			(at 18.288 -3.556 0)
 			(effects
 				(font

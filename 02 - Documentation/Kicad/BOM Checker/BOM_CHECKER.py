@@ -46,6 +46,7 @@ def update_sheet():
             break
         inventory[row[0]] = {"fab": row[1], "qte": int(row[4]), "ligne": k + 3}
     print("Done !")
+    print(inventory)
 
 
 update_sheet()
@@ -113,6 +114,8 @@ def update_table(lst, widgets):
             else:
                 col = widgets[str(j)]
                 col[i].configure(text=lst[i][j])
+                if j == 3 and lst[i][j] == "Manquant à l'inv.":
+                    lst_color[str(i)] = "red"
                 if j == 4 and lst[i][j] != "/" and lst[i][j] != "":
                     if lst[i][j] <= -1:
                         lst_color[str(i)] = "red"
@@ -508,7 +511,9 @@ def add_sub_multiple_bom(path, sens, var, widgets, label):
     global Frame_table_verifier
     global comp_list
     lst = comp_list
-    newlst = create_lst_from_BOM_no_ref(path)
+    newlst = create_lst_from_BOM_no_ref(
+        path
+    )  # Prend les infos du bom qu'on ajoute/soustrait
     original_var = var.get()
     if sens == "+":
         var.set(var.get() + 1)
@@ -666,9 +671,8 @@ def add_BOM_to_lst(lst: list, path):
                         ind_part = test_present[1]
                         qte = int(row[BOM_QTY_col])
                         lst[ind_part][2] += qte
-                        inv_qte = lst[ind_part][4]
-                        if type(inv_qte) == int:
-                            inv_qte -= qte
+                        if type(lst[ind_part][4]) == int:
+                            lst[ind_part][4] -= qte
                     else:
                         newrow = []
                         newrow.append(row[BOM_PART_col])
@@ -835,6 +839,7 @@ def update_table_multiple():
         width=table_width + scrollbar.winfo_width(),
         height=height,
     )
+    update_table(comp_list, table)
 
     canvas.configure(yscrollcommand=scrollbar.set)
     canvas.config(scrollregion=canvas.bbox("all"))
