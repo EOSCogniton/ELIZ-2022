@@ -1,0 +1,4422 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EPSA_lib:2P Droit 22-11-2022"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "2P Droit 22-11-2022"
+				(at 6.35 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "EPSA_lib:MOLEX_22-11-2022"
+				(at 6.35 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112022?display=pdf"
+				(at 6.35 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "10.66mm"
+				(at 6.35 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "2P Droit"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 6.35 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "22-11-2022"
+				(at 6.35 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "538-22-11-2022"
+				(at 6.35 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2022?qs=mrPiglD9aYLq1NGrfjXTJg%3D%3D"
+				(at 6.35 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "2P Droit 22-11-2022_0_0"
+				(rectangle
+					(start -5.08 2.54)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EPSA_lib:6P Droit 22-11-2062"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 10.16 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "6P Droit 22-11-2062"
+				(at 16.51 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "EPSA_lib:HDRV6W87P0X254_1X6_1509X635X1092P"
+				(at 16.51 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.molex.com/pdm_docs/sd/022112062_sd.pdf"
+				(at 16.51 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "2.54mm,header,KK,vert,Au,frictn lock,6w Molex KK Series, Series Number 6373, 2.54mm Pitch 6 Way 1 Row Straight PCB Header, Solder Termination"
+				(at 16.51 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "10.92"
+				(at 16.51 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 16.51 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "22-11-2062"
+				(at 16.51 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "538-22-11-2062"
+				(at 16.51 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/22-11-2062?qs=P7cO%252B%252BFDLzRTJGp6b0JM3g%3D%3D"
+				(at 16.51 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "6P Droit"
+				(at 10.16 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "6P Droit 22-11-2062_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "6P Droit 22-11-2062_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -15.24) (xy 5.08 -15.24) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Simulation_SPICE:0"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#GND"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "0"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "0V reference potential for simulation"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0_1_1"
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 110.0793 147.0438) (xy 110.0793 147.0464)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00ff5918-e41d-4326-925f-713a3534dea3")
+	)
+	(wire
+		(pts
+			(xy 31.0543 185.4696) (xy 44.1091 185.4696)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041031f1-c0b6-4873-abfa-9d39cf6f46fa")
+	)
+	(wire
+		(pts
+			(xy 45.1252 148.0951) (xy 46.9214 148.0951)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "059b81ff-d5e5-4275-b252-dd098ccefd55")
+	)
+	(wire
+		(pts
+			(xy 71.0139 72.9942) (xy 54.9791 72.9942)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09493239-e1e8-4a1a-8250-28a5234daef8")
+	)
+	(wire
+		(pts
+			(xy 31.3559 108.7227) (xy 44.4107 108.7227)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c7ba6c1-9611-4c4c-a47f-3cbcc04426f7")
+	)
+	(wire
+		(pts
+			(xy 107.4296 91.2455) (xy 109.2258 91.2455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "102f04f9-c226-4461-bd5a-0be3ad7bec60")
+	)
+	(wire
+		(pts
+			(xy 54.6182 185.4696) (xy 54.6182 185.4722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1341dbea-332e-4d8a-9050-4415e10ae2b4")
+	)
+	(wire
+		(pts
+			(xy 44.47 72.9968) (xy 46.2662 72.9968)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a127df5-3e9f-49f7-b179-4f82aaf4fab5")
+	)
+	(wire
+		(pts
+			(xy 109.4559 126.7809) (xy 109.4559 126.7835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23e39784-4ede-4a7c-a650-6e403754c3a2")
+	)
+	(wire
+		(pts
+			(xy 46.6349 165.9848) (xy 46.6349 165.9874)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f01c14-4c31-4985-bb84-a6abc4568fe4")
+	)
+	(wire
+		(pts
+			(xy 32.0704 148.0925) (xy 45.1252 148.0925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27062ead-d663-4d74-91c8-15fb807698c9")
+	)
+	(wire
+		(pts
+			(xy 29.6719 38.1317) (xy 30.4254 38.1317)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28192fc8-a29b-4eeb-9898-be2443049290")
+	)
+	(wire
+		(pts
+			(xy 117.4711 72.5387) (xy 117.4711 72.5413)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c5bdf27-6d7e-4bb5-88bb-5964a36efafe")
+	)
+	(wire
+		(pts
+			(xy 117.9387 91.2455) (xy 116.8458 91.2455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fe2b282-e29f-4f9a-be13-104c86199516")
+	)
+	(wire
+		(pts
+			(xy 97.0245 147.0438) (xy 110.0793 147.0438)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "303e8d8e-d719-4b88-92e6-2361a7e0b315")
+	)
+	(wire
+		(pts
+			(xy 94.6865 108.5443) (xy 107.7413 108.5443)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a78d1c1-b823-419c-9eaf-1b6c22aef8aa")
+	)
+	(wire
+		(pts
+			(xy 54.9198 108.7227) (xy 54.9198 108.7253)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd047dd-5847-48ce-97ca-1866a5b90ac4")
+	)
+	(wire
+		(pts
+			(xy 44.9823 127.66) (xy 46.7785 127.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43edc20d-866f-4820-ad02-740fb7f5d5a0")
+	)
+	(wire
+		(pts
+			(xy 45.1252 148.0925) (xy 45.1252 148.0951)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4583b3b4-ae17-4b99-9dfe-445304ea6c1d")
+	)
+	(wire
+		(pts
+			(xy 117.4711 72.5413) (xy 116.3782 72.5413)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "465177b1-bbd5-47d6-a950-802d3deb118f")
+	)
+	(wire
+		(pts
+			(xy 106.962 72.5413) (xy 108.7582 72.5413)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ae050c5-cce3-400e-a57f-5393ac8af8a2")
+	)
+	(wire
+		(pts
+			(xy 57.144 165.9874) (xy 56.0511 165.9874)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b55f7f0-f38a-4a71-851e-469c5644cc1c")
+	)
+	(wire
+		(pts
+			(xy 44.4107 108.7227) (xy 44.4107 108.7253)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c6837ca-3ec7-4209-a168-cc9544ad0c7f")
+	)
+	(wire
+		(pts
+			(xy 27.1541 38.0281) (xy 29.6719 38.0281)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5253c5de-60dd-436e-b25f-aeb01c5e1e44")
+	)
+	(wire
+		(pts
+			(xy 118.2504 108.5469) (xy 117.1575 108.5469)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f4f02e-6610-4d65-831a-8bad26b40834")
+	)
+	(wire
+		(pts
+			(xy 29.6719 38.0281) (xy 29.6719 38.1317)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52f713dd-27b8-40f3-9fa8-8623575f5313")
+	)
+	(wire
+		(pts
+			(xy 119.965 126.7835) (xy 118.8721 126.7835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544842bb-e9c5-4ab6-aa4a-6da148b61321")
+	)
+	(wire
+		(pts
+			(xy 133.5059 72.5387) (xy 117.4711 72.5387)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dcd4042-3d00-4ca0-90a4-0d9621bb9eaa")
+	)
+	(wire
+		(pts
+			(xy 71.026 90.1452) (xy 54.9912 90.1452)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60cf64e6-56c9-4d86-8054-ccaf5ffbd7ca")
+	)
+	(wire
+		(pts
+			(xy 94.3748 91.2429) (xy 107.4296 91.2429)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65c21702-0b72-4f81-a20c-948af16286e8")
+	)
+	(wire
+		(pts
+			(xy 54.9912 90.1478) (xy 53.8983 90.1478)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a23e0f9-16f9-4fa4-8250-d6d5c75d3f31")
+	)
+	(wire
+		(pts
+			(xy 44.1091 185.4696) (xy 44.1091 185.4722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6af5d70a-e546-4a10-a612-4b21ba0cf010")
+	)
+	(wire
+		(pts
+			(xy 93.9072 72.5387) (xy 106.962 72.5387)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc3dc8a-45ad-44aa-aad4-df080165e304")
+	)
+	(wire
+		(pts
+			(xy 110.0793 147.0464) (xy 111.8755 147.0464)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72e24641-c6d5-4408-ab35-13443bd0c62e")
+	)
+	(wire
+		(pts
+			(xy 73.1788 165.9848) (xy 57.144 165.9848)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d1c7b1-5574-4b9d-9822-032870c64015")
+	)
+	(wire
+		(pts
+			(xy 54.9198 108.7253) (xy 53.8269 108.7253)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eae2193-db69-41a2-ad95-321b543d71c6")
+	)
+	(wire
+		(pts
+			(xy 133.9735 91.2429) (xy 117.9387 91.2429)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f25b22e-eb76-4772-b0c4-d2cd02c77859")
+	)
+	(wire
+		(pts
+			(xy 44.4821 90.1478) (xy 46.2783 90.1478)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82387cb7-1f12-4602-9c16-f82f7c7368d2")
+	)
+	(wire
+		(pts
+			(xy 106.962 72.5387) (xy 106.962 72.5413)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "827d42d5-5402-4f05-9440-192c23c7b22a")
+	)
+	(wire
+		(pts
+			(xy 44.1091 185.4722) (xy 45.9053 185.4722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ac37aa-ef65-4bde-bd56-3442f6ee7d5e")
+	)
+	(wire
+		(pts
+			(xy 54.9791 72.9942) (xy 54.9791 72.9968)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "866c4848-4893-4006-b954-8303b4d46cba")
+	)
+	(wire
+		(pts
+			(xy 44.9823 127.6574) (xy 44.9823 127.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8940024d-3101-461f-8fee-db7717bb5031")
+	)
+	(wire
+		(pts
+			(xy 134.2852 108.5443) (xy 118.2504 108.5443)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89b6ed0e-bf4a-4303-92b4-60064f61fcf7")
+	)
+	(wire
+		(pts
+			(xy 33.5801 165.9848) (xy 46.6349 165.9848)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f7168dc-06d1-4ef5-8d75-054bbbe60ccd")
+	)
+	(wire
+		(pts
+			(xy 55.4914 127.6574) (xy 55.4914 127.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90d8456b-4d5f-46b7-93c7-fed9149bcba6")
+	)
+	(wire
+		(pts
+			(xy 55.4914 127.66) (xy 54.3985 127.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97394943-3ade-4cb2-9866-25825889ea0e")
+	)
+	(wire
+		(pts
+			(xy 44.47 72.9942) (xy 44.47 72.9968)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "998aec2e-912b-4d9a-af80-2202e79e5c33")
+	)
+	(wire
+		(pts
+			(xy 31.4152 72.9942) (xy 44.47 72.9942)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e487e25-fadd-4174-aec0-d243022e92fd")
+	)
+	(wire
+		(pts
+			(xy 135.9998 126.7809) (xy 119.965 126.7809)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a182fc8c-de7f-46be-ba01-0bd74d1b4d7c")
+	)
+	(wire
+		(pts
+			(xy 57.144 165.9848) (xy 57.144 165.9874)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6de80ad-fa66-445b-9d51-1d36f3415175")
+	)
+	(wire
+		(pts
+			(xy 107.7413 108.5443) (xy 107.7413 108.5469)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7ceaf03-1ae3-41ec-bca4-e8fad1f91814")
+	)
+	(wire
+		(pts
+			(xy 44.4107 108.7253) (xy 46.2069 108.7253)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa010fea-7ec9-446b-8c42-2c292a55a7b2")
+	)
+	(wire
+		(pts
+			(xy 71.5262 127.6574) (xy 55.4914 127.6574)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b21a8f1e-88bd-40e8-8677-1c4102015844")
+	)
+	(wire
+		(pts
+			(xy 96.4011 126.7809) (xy 109.4559 126.7809)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4ebb5cb-6bb1-4570-8e3f-b706d0d5e2bb")
+	)
+	(wire
+		(pts
+			(xy 54.9791 72.9968) (xy 53.8862 72.9968)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6506b66-a6a2-49d9-84f1-9d2283f9ebaa")
+	)
+	(wire
+		(pts
+			(xy 55.6343 148.0951) (xy 54.5414 148.0951)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b907b38d-2b8d-4c29-ab58-75e60dc1c711")
+	)
+	(wire
+		(pts
+			(xy 119.965 126.7809) (xy 119.965 126.7835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc22bd02-fcd2-493b-bb5d-105fc76c783d")
+	)
+	(wire
+		(pts
+			(xy 71.6691 148.0925) (xy 55.6343 148.0925)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc01f24-1977-4f1c-a71f-732ca8c0e5b9")
+	)
+	(wire
+		(pts
+			(xy 120.5884 147.0464) (xy 119.4955 147.0464)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0cb8ea7-0cbc-4223-8459-c82d0bad6258")
+	)
+	(wire
+		(pts
+			(xy 107.4296 91.2429) (xy 107.4296 91.2455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4cb2540-dd07-4f4b-8f69-348a1e83c2a3")
+	)
+	(wire
+		(pts
+			(xy 117.9387 91.2429) (xy 117.9387 91.2455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e6eb7d-d4ed-4fb1-9bbd-6acad11e04b4")
+	)
+	(wire
+		(pts
+			(xy 54.6182 185.4722) (xy 53.5253 185.4722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8887ab4-f6a6-4890-9e77-2f41452093f4")
+	)
+	(wire
+		(pts
+			(xy 70.653 185.4696) (xy 54.6182 185.4696)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab18a4e-3306-47e6-b95f-11ff4a7c93d1")
+	)
+	(wire
+		(pts
+			(xy 44.4821 90.1452) (xy 44.4821 90.1478)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb1aae0-ee3c-4d88-bff5-54541afb41e9")
+	)
+	(wire
+		(pts
+			(xy 109.4559 126.7835) (xy 111.2521 126.7835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3c9d317-c3ec-4f32-ba9f-2a3d862ee8da")
+	)
+	(wire
+		(pts
+			(xy 31.9275 127.6574) (xy 44.9823 127.6574)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d65dc50b-0c60-42ce-924a-34d456d45b0a")
+	)
+	(wire
+		(pts
+			(xy 55.6343 148.0925) (xy 55.6343 148.0951)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e127413c-0c56-47cc-b94b-5cbb0944a0bf")
+	)
+	(wire
+		(pts
+			(xy 120.5884 147.0438) (xy 120.5884 147.0464)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1b0be99-8210-46fb-a150-db65aa8f5740")
+	)
+	(wire
+		(pts
+			(xy 107.7413 108.5469) (xy 109.5375 108.5469)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8b00c31-cfe2-493d-98b7-db5bab40adba")
+	)
+	(wire
+		(pts
+			(xy 70.9546 108.7227) (xy 54.9198 108.7227)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec28bd66-32a6-4078-b943-3f1d08e96963")
+	)
+	(wire
+		(pts
+			(xy 54.9912 90.1452) (xy 54.9912 90.1478)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28c1fe9-e75e-41f6-9c6d-544f8a360ec9")
+	)
+	(wire
+		(pts
+			(xy 46.6349 165.9874) (xy 48.4311 165.9874)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c8e3a7-ae93-47e9-98c8-3654ea665301")
+	)
+	(wire
+		(pts
+			(xy 136.6232 147.0438) (xy 120.5884 147.0438)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f450dcb5-4528-43f5-a2fe-40ac8a5dd8bb")
+	)
+	(wire
+		(pts
+			(xy 118.2504 108.5443) (xy 118.2504 108.5469)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faea5258-04e9-42c2-964f-3bd75e25657a")
+	)
+	(wire
+		(pts
+			(xy 31.4273 90.1452) (xy 44.4821 90.1452)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feb3c03f-e056-4dcd-821e-caac5011f582")
+	)
+	(text_box "Entrées / Sorties"
+		(exclude_from_sim no)
+		(at 19.403 18.5291 0)
+		(size 126.4216 32.5488)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "060a4ab5-2465-4fd5-844d-5ff274f958b2")
+	)
+	(text_box "Simulateur des données d'entrées (T&V)"
+		(exclude_from_sim no)
+		(at 21.0541 58.8613 0)
+		(size 124.7705 135.8561)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "60e14730-53a8-4a36-938a-363533bf3057")
+	)
+	(global_label "Vcc"
+		(shape input)
+		(at 94.6865 108.5443 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00f78e0c-86e7-4a3a-8fba-3b211052e5c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.4355 108.5443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C5"
+		(shape input)
+		(at 50.7314 144.2851 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "08f3bca9-5f9d-4c49-b711-af1f25cd83fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.7314 138.8204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C9"
+		(shape input)
+		(at 85.3352 37.8697 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10fbc544-51a2-464f-897c-d25366ac8beb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 85.3352 43.3344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C11"
+		(shape input)
+		(at 90.4152 37.8697 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "11fe64b4-c1a3-4c13-a77e-dd657f27c25a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.4152 44.5439 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C3"
+		(shape input)
+		(at 50.0169 104.9153 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f6eff8f-763b-4f6c-a5bb-3f54cca45d23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.0169 99.4506 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc"
+		(shape input)
+		(at 93.9072 72.5387 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21e95384-d743-4a24-a2c2-405ae18ffa4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.6562 72.5387 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C10"
+		(shape input)
+		(at 113.3475 104.7369 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24b44bab-7801-47b2-bed1-71b3c08a384c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.3475 98.0627 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C2"
+		(shape input)
+		(at 60.8185 37.7391 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2653c428-3047-4613-8317-a04ff7d9198a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.8185 43.2038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C8"
+		(shape input)
+		(at 82.7952 37.8697 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b06a12d-763d-4d1d-952b-3cc0c69e4ceb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.7952 43.3344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc"
+		(shape input)
+		(at 31.3559 108.7227 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3839d724-a0be-4dd3-ae7e-26ba7e19c072")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.1049 108.7227 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc"
+		(shape input)
+		(at 31.4152 72.9942 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a416eef-a846-4a32-bf73-a09d3ddba68a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.1642 72.9942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C6"
+		(shape input)
+		(at 70.9785 37.7391 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42ad119c-921d-4d87-8df0-874019cd3bea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.9785 43.2038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C5"
+		(shape input)
+		(at 68.4385 37.7391 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "43520806-3a9c-451b-8820-00e0292abb1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.4385 43.2038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C11"
+		(shape input)
+		(at 115.0621 122.9735 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5032cb82-738d-4315-ae9c-4c7c63171b8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.0621 116.2993 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C7"
+		(shape input)
+		(at 80.2552 37.8697 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e956d0c-6503-439e-b814-070d0bb54183")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.2552 43.3344 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc"
+		(shape input)
+		(at 96.4011 126.7809 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ea696a9-c67d-4496-92d6-fc8c43201d21")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.1501 126.7809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C3"
+		(shape input)
+		(at 63.3585 37.7391 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5ee25a18-2118-442f-b299-87050aea21cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.3585 43.2038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc"
+		(shape input)
+		(at 32.0704 148.0925 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "615ceb67-a63d-4491-a40f-29c73500e3da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.8194 148.0925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C10"
+		(shape input)
+		(at 87.8752 37.8697 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63c3f148-aa95-42cb-ab27-3779d7cf5b37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 87.8752 44.5439 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc"
+		(shape input)
+		(at 97.0245 147.0438 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "67f73704-d8e1-412a-891c-4e01eae8f554")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 90.7735 147.0438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C12"
+		(shape input)
+		(at 115.6855 143.2364 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a1ee0d0-b25b-4cbf-a9eb-ec71ece1b9e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.6855 136.5622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C7"
+		(shape input)
+		(at 49.7153 181.6622 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d8d766a-157c-44dd-97b5-034e4ffb2142")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 49.7153 176.1975 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc"
+		(shape input)
+		(at 32.9654 38.1317 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "79797665-c433-43d6-8960-8f95150508a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.9654 44.3827 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 58.2785 37.7391 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f92196d-adb5-4577-a9b2-db763883c0b0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.2785 43.2038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C9"
+		(shape input)
+		(at 113.0358 87.4355 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c25ae27-7cf6-4c75-836a-a0c3d874e118")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.0358 81.9708 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc"
+		(shape input)
+		(at 31.9275 127.6574 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8c83c57e-982d-4ec9-9469-032d45b03dac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.6765 127.6574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C2"
+		(shape input)
+		(at 50.0883 86.3378 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d890920-ce51-418c-898a-8b9c594cfb6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.0883 80.8731 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc"
+		(shape input)
+		(at 94.3748 91.2429 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a07e953e-120b-42a0-90e5-225672ca3886")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.1238 91.2429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc"
+		(shape input)
+		(at 31.0543 185.4696 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af9da048-b8c1-442c-b910-dec5eeedc867")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.8033 185.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C4"
+		(shape input)
+		(at 65.8985 37.7391 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4508d10-33f6-40f3-a1d3-6cd4473a1a21")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.8985 43.2038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C6"
+		(shape input)
+		(at 52.2411 162.1774 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dcd0c795-3473-4d79-bd3e-b325bdcf12c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.2411 156.7127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc"
+		(shape input)
+		(at 33.5801 165.9848 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e93b8362-59fe-49a1-bd45-a17f2431626d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.3291 165.9848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C8"
+		(shape input)
+		(at 112.5682 68.7313 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec726c14-93e0-4261-ad91-34aa10dc781b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.5682 63.2666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C4"
+		(shape input)
+		(at 50.5885 123.85 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f25cd7e3-2b67-46f0-be84-386ab0d1dfcb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.5885 118.3853 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C12"
+		(shape input)
+		(at 92.9552 37.8697 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f46a5be2-db3c-45f3-b676-24f4fa6c9858")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.9552 44.5439 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 50.0762 69.1868 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fb47e165-9576-48fb-ae27-13af15865787")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.0762 63.7221 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vcc"
+		(shape input)
+		(at 31.4273 90.1452 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fedad8bf-5f8d-4401-b514-927fd9a48eb6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.1763 90.1452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 71.6691 148.0925 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "019c6f14-9f2d-474a-bd70-def1a717c474")
+		(property "Reference" "#GND06"
+			(at 76.7491 148.0925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 73.66 148.0924 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.6691 148.0925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 81.8291 148.0925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 79.2891 148.0925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41b6e0bc-5a0d-4cb0-8e4c-606bb5d860ab")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "#GND06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 50.0883 90.1478 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08317361-a1cf-4df6-a93d-b8ce77c2315f")
+		(property "Reference" "RV2"
+			(at 50.0883 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 50.0883 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.0883 90.1478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.0883 90.1478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 50.0883 90.1478 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1d412d8-0f01-478a-a174-275fa77be1ea")
+		)
+		(pin "1"
+			(uuid "cedfe960-9dfb-457a-b1e3-2f1d722c69a6")
+		)
+		(pin "3"
+			(uuid "5a631ebf-bd45-4199-b4ae-a3e728728016")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "RV2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 50.5885 127.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "121ff53c-73f1-4597-9f35-7a12ae982f39")
+		(property "Reference" "RV4"
+			(at 50.5885 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 50.5885 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.5885 127.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.5885 127.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 50.5885 127.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b61a0a2-94ba-428a-bea5-eb2783476aeb")
+		)
+		(pin "1"
+			(uuid "9176f26d-1176-4cf7-9dcb-8b666545ad87")
+		)
+		(pin "3"
+			(uuid "b161a437-57b7-4557-8ec1-df1d50785946")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "RV4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 71.5262 127.6574 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "180ac4dd-fcf1-43e2-8397-969cd9700e00")
+		(property "Reference" "#GND05"
+			(at 76.6062 127.6574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 73.66 127.6573 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.5262 127.6574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 81.6862 127.6574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 79.1462 127.6574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c93e0bfe-ee71-4f0d-8011-eeefec1f076f")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "#GND05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 71.0139 72.9942 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b5d4af3-524c-4610-a1f9-38156200824f")
+		(property "Reference" "#GND02"
+			(at 76.0939 72.9942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 73.66 72.9941 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.0139 72.9942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 81.1739 72.9942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 78.6339 72.9942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68bcea75-e30b-4a79-9bd2-4766eef07071")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "#GND02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 134.2852 108.5443 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "295d6c56-5a53-4ab1-ac66-fdfb061dfe42")
+		(property "Reference" "#GND011"
+			(at 139.3652 108.5443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 137.16 108.5442 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.2852 108.5443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 144.4452 108.5443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 141.9052 108.5443 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fc2fd86-d5ff-46ea-8f2d-380d28ecfe62")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "#GND011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 133.5059 72.5387 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31054eba-b9b9-4ceb-801c-918b623c88ed")
+		(property "Reference" "#GND09"
+			(at 138.5859 72.5387 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 135.89 72.5386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.5059 72.5387 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 143.6659 72.5387 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 141.1259 72.5387 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6e92273-c18b-481f-b8af-c2d2f735ec86")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "#GND09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 136.6232 147.0438 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a3cee17-0c2b-45c1-9ae9-0f6d4ec091cc")
+		(property "Reference" "#GND013"
+			(at 141.7032 147.0438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 139.7 147.0437 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 136.6232 147.0438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 146.7832 147.0438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 144.2432 147.0438 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a37c5b1-1a57-43a2-83ef-24c465e686a5")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "#GND013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 52.2411 165.9874 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a9ca9f0-e737-43b8-ab8e-91475f0a99a6")
+		(property "Reference" "RV6"
+			(at 52.2411 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 52.2411 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.2411 165.9874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.2411 165.9874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 52.2411 165.9874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "308ed1b2-6e66-40e0-9874-619fff9be812")
+		)
+		(pin "1"
+			(uuid "3568933e-3676-4631-8ba6-d80ea6b493fe")
+		)
+		(pin "3"
+			(uuid "d7ed8027-18a0-478c-94c1-d14beacb6a10")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "RV6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 71.026 90.1452 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f15d5da-d0d3-4007-98b1-ddb5073f2419")
+		(property "Reference" "#GND03"
+			(at 76.106 90.1452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 73.66 90.1451 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.026 90.1452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 81.186 90.1452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 78.646 90.1452 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c72483a-c2a6-4a0e-9394-ee9dd48e3fad")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "#GND03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 135.9998 126.7809 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50720350-6f93-493f-b394-2a81e166c882")
+		(property "Reference" "#GND012"
+			(at 141.0798 126.7809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 138.43 126.7808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.9998 126.7809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 146.1598 126.7809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 143.6198 126.7809 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53ead5f3-a4ec-4b9e-910a-0ab066b39f77")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "#GND012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 70.9546 108.7227 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54d763fe-6804-424a-8190-380666d35ea7")
+		(property "Reference" "#GND04"
+			(at 76.0346 108.7227 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 73.66 108.7226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 70.9546 108.7227 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 81.1146 108.7227 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 78.5746 108.7227 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e0d1673-cb08-4392-9110-bd302ed85c4e")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "#GND04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 50.0762 72.9968 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cb7cd1c-024b-4145-9550-9299c9c9b29c")
+		(property "Reference" "RV1"
+			(at 50.0762 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 50.0762 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.0762 72.9968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.0762 72.9968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 50.0762 72.9968 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5097163a-c12a-451e-b2d5-b25671e57008")
+		)
+		(pin "1"
+			(uuid "da539ad2-df17-423a-9123-ba0919574c3c")
+		)
+		(pin "3"
+			(uuid "c022d737-fc3e-4f1c-8437-9a0f2721dd0f")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 50.0169 108.7253 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5edae842-cacf-4693-9413-e56b457553c9")
+		(property "Reference" "RV3"
+			(at 50.0169 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 50.0169 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.0169 108.7253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.0169 108.7253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 50.0169 108.7253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dd56c04a-2835-4a9b-b0dd-c443e009ecc0")
+		)
+		(pin "1"
+			(uuid "bad012aa-cb9f-4caa-be7c-f7f33afcc82b")
+		)
+		(pin "3"
+			(uuid "83fcb610-de52-4339-ada8-e95465cfe251")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "RV3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 49.7153 185.4722 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66492d88-ecdb-4dfb-a965-4d368bb274e7")
+		(property "Reference" "RV7"
+			(at 49.7153 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 49.7153 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.7153 185.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.7153 185.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 49.7153 185.4722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b6fa3dbb-2a4a-4e94-8abb-3337955f56ff")
+		)
+		(pin "1"
+			(uuid "5c638374-483d-40d5-8d75-da1ed2d5bafb")
+		)
+		(pin "3"
+			(uuid "febbca3d-d886-48fd-9be5-9fc63a817673")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "RV7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 70.653 185.4696 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66d73ab0-e55f-4c07-8d11-93bc75635ff2")
+		(property "Reference" "#GND08"
+			(at 75.733 185.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 73.66 185.4695 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 70.653 185.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 80.813 185.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 78.273 185.4696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3904cd24-4d6f-4e23-8352-a3eb4eacf534")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "#GND08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:2P Droit 22-11-2022")
+		(at 30.4254 27.9717 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72a63036-32b3-4703-a0a9-e1aa429a2edc")
+		(property "Reference" "J1"
+			(at 36.5238 27.9716 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2P Droit 22-11-2022"
+			(at 26.6154 21.6217 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:MOLEX_22-11-2022"
+			(at 32.9654 21.6217 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112022?display=pdf"
+			(at 30.4254 21.6217 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.4254 27.9717 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.66mm"
+			(at 35.5054 21.6217 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "2P Droit"
+			(at 26.6154 27.9717 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 27.8854 21.6217 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "22-11-2022"
+			(at 39.3154 21.6217 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-22-11-2022"
+			(at 41.8554 21.6217 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2022?qs=mrPiglD9aYLq1NGrfjXTJg%3D%3D"
+			(at 36.7754 21.6217 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae40c5d5-389b-460d-99d4-e9945ee5f898")
+		)
+		(pin "2"
+			(uuid "981510b1-4604-460b-b0ef-3893e0f3a207")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 73.1788 165.9848 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "772e092b-a8bb-4b11-acd1-d7c12965784d")
+		(property "Reference" "#GND07"
+			(at 78.2588 165.9848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 76.2 165.9847 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.1788 165.9848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 83.3388 165.9848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 80.7988 165.9848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90cc1f06-93c1-429b-93dc-22d0598d2a7f")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "#GND07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 115.6855 147.0464 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88b96fc7-fe2d-4bbd-9eec-98ee4f0aa0cd")
+		(property "Reference" "RV12"
+			(at 115.6855 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 115.6855 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.6855 147.0464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.6855 147.0464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 115.6855 147.0464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e67e205-abf9-4e6d-91cc-b875b1766217")
+		)
+		(pin "1"
+			(uuid "7fd7fb1a-fe72-4b60-91a0-88d93caec8cd")
+		)
+		(pin "3"
+			(uuid "27d3ec07-8377-4ec8-b579-dac271565758")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "RV12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 113.0358 91.2455 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c779e30-c235-40c0-8bf9-8ff3bdd9c2e7")
+		(property "Reference" "RV9"
+			(at 113.0358 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 113.0358 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.0358 91.2455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.0358 91.2455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 113.0358 91.2455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba53ad33-acb8-4855-9589-1f856635bbae")
+		)
+		(pin "1"
+			(uuid "a3f65968-0548-4040-942f-24b0daed41f7")
+		)
+		(pin "3"
+			(uuid "c0f2e10d-907d-4068-b89a-0eb4dd3276ec")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "RV9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 133.9735 91.2429 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0c71ed2-abb6-4020-b234-7421fe19fae4")
+		(property "Reference" "#GND010"
+			(at 139.0535 91.2429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 135.89 91.2428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.9735 91.2429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 144.1335 91.2429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 141.5935 91.2429 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "133eb88b-d047-4e91-943f-a9a981827cc4")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "#GND010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:6P Droit 22-11-2062")
+		(at 80.2552 37.8697 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b348ee06-d2da-4ce0-a0d5-4e8f4fdaf6ed")
+		(property "Reference" "J3"
+			(at 96.6005 27.7096 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "6P Droit 22-11-2062"
+			(at 77.7152 21.3597 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:HDRV6W87P0X254_1X6_1509X635X1092P"
+			(at 80.2552 21.3597 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.molex.com/pdm_docs/sd/022112062_sd.pdf"
+			(at 82.7952 21.3597 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.54mm,header,KK,vert,Au,frictn lock,6w Molex KK Series, Series Number 6373, 2.54mm Pitch 6 Way 1 Row Straight PCB Header, Solder Termination"
+			(at 85.3352 21.3597 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.92"
+			(at 87.8752 21.3597 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 90.4152 21.3597 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "22-11-2062"
+			(at 92.9552 21.3597 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-22-11-2062"
+			(at 95.4952 21.3597 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/22-11-2062?qs=P7cO%252B%252BFDLzRTJGp6b0JM3g%3D%3D"
+			(at 98.0352 21.3597 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "6P Droit"
+			(at 76.4452 27.7097 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "6d10f9b2-5f2c-452c-bf92-d210862c61c5")
+		)
+		(pin "6"
+			(uuid "febe6fda-52fe-4b6e-8622-4ef53c34c59d")
+		)
+		(pin "3"
+			(uuid "0854748a-cc5a-47f6-812c-9648f76b0f2e")
+		)
+		(pin "4"
+			(uuid "05ed0746-c092-477a-bdf8-33309c6fe01c")
+		)
+		(pin "2"
+			(uuid "6fb9261e-bdf5-4a3a-a406-dca0a8aff422")
+		)
+		(pin "1"
+			(uuid "33ce2f90-415e-4895-a1ed-495ca1d29d16")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 50.7314 148.0951 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb8c5632-e350-4ece-9d61-0cc46b52a94c")
+		(property "Reference" "RV5"
+			(at 50.7314 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 50.7314 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.7314 148.0951 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.7314 148.0951 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 50.7314 148.0951 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "76be02fc-876e-41a9-bf1f-b62f5a83dc37")
+		)
+		(pin "1"
+			(uuid "61f6ffa9-8fd3-49c6-af69-d3a8b335d718")
+		)
+		(pin "3"
+			(uuid "62581706-17ec-4a4b-b587-e48fb7c9fd65")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "RV5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 113.3475 108.5469 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce4c37a5-0842-4659-aba4-ead9149b8517")
+		(property "Reference" "RV10"
+			(at 113.3475 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 113.3475 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.3475 108.5469 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.3475 108.5469 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 113.3475 108.5469 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "82881e43-eb7e-4a8d-b5be-6b3f34a227ac")
+		)
+		(pin "1"
+			(uuid "397c1ea1-86e4-48fa-98bd-c97be470194a")
+		)
+		(pin "3"
+			(uuid "c55c5e88-9ad2-47da-865b-a250fa347bf5")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "RV10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 27.1541 38.0281 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2c4d394-f308-4645-9266-7bfa334558ca")
+		(property "Reference" "#GND01"
+			(at 22.0741 38.0281 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 29.0294 38.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.1541 38.0281 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 16.9941 38.0281 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 19.5341 38.0281 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc4d8abf-ee74-447d-9d59-046a634cc180")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "#GND01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 112.5682 72.5413 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8c2b734-8a4e-446b-811a-834f161dc843")
+		(property "Reference" "RV8"
+			(at 112.5682 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 112.5682 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 112.5682 72.5413 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 112.5682 72.5413 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 112.5682 72.5413 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48496e62-2f76-403c-9faa-dd07fe4eb109")
+		)
+		(pin "1"
+			(uuid "f40e06dc-c48b-445c-957b-4851fd854353")
+		)
+		(pin "3"
+			(uuid "3b59b20f-8037-4746-b6ac-4224a1701d0f")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "RV8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:6P Droit 22-11-2062")
+		(at 58.2785 37.7391 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee714354-bb63-40a9-b993-6b84ac681a5a")
+		(property "Reference" "J2"
+			(at 74.6238 27.579 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "6P Droit 22-11-2062"
+			(at 55.7385 21.2291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:HDRV6W87P0X254_1X6_1509X635X1092P"
+			(at 58.2785 21.2291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.molex.com/pdm_docs/sd/022112062_sd.pdf"
+			(at 60.8185 21.2291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "2.54mm,header,KK,vert,Au,frictn lock,6w Molex KK Series, Series Number 6373, 2.54mm Pitch 6 Way 1 Row Straight PCB Header, Solder Termination"
+			(at 63.3585 21.2291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.92"
+			(at 65.8985 21.2291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 68.4385 21.2291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "22-11-2062"
+			(at 70.9785 21.2291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-22-11-2062"
+			(at 73.5185 21.2291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/22-11-2062?qs=P7cO%252B%252BFDLzRTJGp6b0JM3g%3D%3D"
+			(at 76.0585 21.2291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "6P Droit"
+			(at 54.4685 27.5791 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "38b8d2f3-342f-4d1f-9b89-02c9c70cab23")
+		)
+		(pin "6"
+			(uuid "c2d22ad6-1c36-4d24-a0da-260642782182")
+		)
+		(pin "3"
+			(uuid "f4b000e8-1955-45b8-81b9-94a6bc189c58")
+		)
+		(pin "4"
+			(uuid "c89cf5ef-bdc0-4e29-b9ae-505366ec5ad8")
+		)
+		(pin "2"
+			(uuid "f203995b-2258-448a-b895-245c44ab1966")
+		)
+		(pin "1"
+			(uuid "544b5c1e-7579-4f4a-84d0-a2f2e012083f")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 115.0621 126.7835 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd46458f-7249-4370-9690-9d6b5354e3d9")
+		(property "Reference" "RV11"
+			(at 115.0621 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 115.0621 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.0621 126.7835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.0621 126.7835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 115.0621 126.7835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3d2c91e0-d3c5-42a0-b2f9-2251e225424e")
+		)
+		(pin "1"
+			(uuid "efa3a08a-8de1-4f0a-be17-b717efb90337")
+		)
+		(pin "3"
+			(uuid "5624e84c-8665-41eb-bc9e-f1358ea1a83b")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "RV11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
