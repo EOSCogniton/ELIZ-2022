@@ -570,6 +570,1503 @@
 				)
 			)
 		)
+		(symbol "EPSA_lib:Condensateur 0805Y1000104JXT"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 3.048 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10u"
+				(at 10.414 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Footprint" "EPSA_lib:CAPC2012X130N"
+				(at 20.32 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/119d/0900766b8119d7bc.pdf"
+				(at 20.32 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Syfer 0805 Ceramic Chip Capacitors"
+				(at 20.32 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 25.146 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "C"
+				(at 20.32 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.3"
+				(at 20.32 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Syfer"
+				(at 20.32 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "0805Y1000104JXT"
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 8.89 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 20.32 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "Condensateur"
+				(at 6.604 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Condensateur 0805Y1000104JXT_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 2.54) (xy 6.35 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Condensateur 0805Y1000104JXT_1_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "EPSA_lib:NMOS SQ2348ES-T1_GE3"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 41.91 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NMOS SQ2348ES-T1_GE3"
+				(at 41.91 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+				(at 41.91 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/63706/sq2348es.pdf"
+				(at 41.91 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "VISHAY - SQ2348ES-T1_GE3 - MOSFET, AEC-Q101, N-CH, 30V, SOT-23"
+				(at 41.91 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "3=1 1=2 2=3"
+				(at 63.5 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "SPICE"
+				(at 44.45 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Params" "type=\"X\" model=\"SQ2348ES\" lib=\"${EPSA_lib}\\SpiceModel\\NMOS_SQ2348ES_PS Rev A.lib\""
+				(at 86.36 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.12"
+				(at 41.91 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 41.91 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SQ2348ES-T1_GE3"
+				(at 41.91 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "781-SQ2348ES-T1_GE3"
+				(at 41.91 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQ2348ES-T1_GE3?qs=jHkklCh7amgC88blremf%252Bw%3D%3D"
+				(at 41.91 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "NMOS"
+				(at 15.875 0.635 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NMOS SQ2348ES-T1_GE3_0_0"
+				(pin passive line
+					(at 13.335 12.065 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.255 4.445 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 23.495 4.445 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NMOS SQ2348ES-T1_GE3_0_1"
+				(polyline
+					(pts
+						(xy 12.827 6.223) (xy 13.843 6.223)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.335 6.223) (xy 13.335 4.445)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.367 6.223) (xy 16.383 6.223)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.875 4.445) (xy 10.795 4.445)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.875 4.445) (xy 15.875 6.223)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 18.415 4.445) (xy 18.415 6.223)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 18.415 4.445) (xy 20.955 4.445)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 18.923 6.223) (xy 17.907 6.223)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.335 9.525) (xy 13.335 6.985) (xy 18.415 6.985)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.875 6.223) (xy 16.383 5.207) (xy 15.367 5.207) (xy 15.875 6.223)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 15.875 5.715)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "EPSA_lib:PMOS SI2343CDS-T1-GE3"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "PMOS SI2343CDS-T1-GE3"
+				(at 27.94 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+				(at 27.94 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1582493.pdf"
+				(at 27.94 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Trans MOSFET P-CH 30V 4.2A 3-Pin Vishay SI2343CDS-T1-GE3 P-channel MOSFET Transistor, 4.7 A, -30 V, 3-Pin TO-236"
+				(at 27.94 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "3=1 1=2 2=3"
+				(at 52.07 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "SPICE"
+				(at 30.48 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Sim.Params" "type=\"X\" model=\"Si2343CDS\" lib=\"${EPSA_lib}\\SpiceModel\\PMOS_si2343cds_ps Rev B.lib\""
+				(at 72.39 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.12"
+				(at 27.94 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 27.94 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SI2343CDS-T1-GE3"
+				(at 27.94 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "781-SI2343CDS-T1-GE3"
+				(at 27.94 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2343CDS-T1-GE3?qs=WX95TUc1y56rXCTRPp%252BkZQ%3D%3D"
+				(at 27.94 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "PMOS"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PMOS SI2343CDS-T1-GE3_0_0"
+				(pin passive line
+					(at -1.905 10.795 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -6.985 3.175 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.255 3.175 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PMOS SI2343CDS-T1-GE3_0_1"
+				(polyline
+					(pts
+						(xy -2.413 4.953) (xy -1.397 4.953)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 4.953) (xy -1.905 3.175)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.127 4.953) (xy 1.143 4.953)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 3.175) (xy -4.445 3.175)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 3.175) (xy 0.635 4.953)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 3.175) (xy 3.175 4.953)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 3.175) (xy 5.715 3.175)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 4.953) (xy 2.667 4.953)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 8.255) (xy -1.905 5.715) (xy 3.175 5.715)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 3.175) (xy 1.143 4.191) (xy 0.127 4.191) (xy 0.635 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0.635 4.445)
+					(radius 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Multiplexer_16channels:ADG406BPZ"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 27.94 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "ADG406BPZ"
+				(at 27.94 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "P_28_ADI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "ADG406BPZ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ADG406BPZ"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "P_28_ADI P_28_ADI-M P_28_ADI-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ADG406BPZ_0_1"
+				(polyline
+					(pts
+						(xy 7.62 -38.1) (xy 48.26 -38.1)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -38.1)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 -38.1) (xy 48.26 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 48.26 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -22.86 0)
+					(length 7.62)
+					(name "S10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -25.4 0)
+					(length 7.62)
+					(name "S9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -27.94 0)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -30.48 0)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -33.02 0)
+					(length 7.62)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 55.88 -33.02 180)
+					(length 7.62)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 55.88 -30.48 180)
+					(length 7.62)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 55.88 -27.94 180)
+					(length 7.62)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 55.88 -25.4 180)
+					(length 7.62)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 55.88 -22.86 180)
+					(length 7.62)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 55.88 -20.32 180)
+					(length 7.62)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 55.88 -17.78 180)
+					(length 7.62)
+					(name "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 55.88 -15.24 180)
+					(length 7.62)
+					(name "S4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 55.88 -12.7 180)
+					(length 7.62)
+					(name "S5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 55.88 -10.16 180)
+					(length 7.62)
+					(name "S6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 55.88 -7.62 180)
+					(length 7.62)
+					(name "S7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 55.88 -5.08 180)
+					(length 7.62)
+					(name "S8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 55.88 -2.54 180)
+					(length 7.62)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 55.88 0 180)
+					(length 7.62)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "S16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "S15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "S14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "S13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "S12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -20.32 0)
+					(length 7.62)
+					(name "S11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Simulation_SPICE:0"
 			(power)
 			(pin_numbers hide)
@@ -667,35 +2164,127 @@
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 110.0793 147.0438) (xy 110.0793 147.0464)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00ff5918-e41d-4326-925f-713a3534dea3")
+	(junction
+		(at 223.2314 157.1665)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e443cdb-fa8f-4672-8bc2-f06c5de0ea52")
+	)
+	(junction
+		(at 83.8708 157.1665)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c95c0f4-dee6-49e3-8f32-87eccbe25373")
+	)
+	(junction
+		(at 81.4817 113.7656)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f29b718-0e35-44ef-8e80-5cfeecdbef5d")
+	)
+	(junction
+		(at 178.7882 113.0372)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41da6cd1-7d14-4568-808c-63776afd41fe")
+	)
+	(junction
+		(at 128.8644 112.9693)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e34ef3a-f86c-4304-b2b7-9a0eb499f5cf")
+	)
+	(junction
+		(at 131.2534 157.5647)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "596ba973-b2ee-4de2-9da5-74236ce80c2a")
+	)
+	(junction
+		(at 268.225 112.9693)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ec9553e-0db5-4af4-96eb-d37498581486")
+	)
+	(junction
+		(at 270.614 157.5647)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74b408e5-faa5-4384-9f77-e3167d78adfc")
+	)
+	(junction
+		(at 38.8217 113.1294)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80f3833a-2fc6-4948-9f8e-b5fe16b97b67")
+	)
+	(junction
+		(at 175.8488 158.361)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b66d544-f612-414d-8323-4e4596c6a66b")
+	)
+	(junction
+		(at 220.8423 113.7656)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b17793a1-86d8-4b12-9367-9ecd3b7209fa")
+	)
+	(junction
+		(at 36.4882 158.361)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f890977e-7295-4657-a924-cdeb9c9d3a71")
 	)
 	(wire
 		(pts
-			(xy 31.0543 185.4696) (xy 44.1091 185.4696)
+			(xy 69.9655 113.7656) (xy 81.4817 113.7656)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "041031f1-c0b6-4873-abfa-9d39cf6f46fa")
+		(uuid "0120c00b-de3a-48c7-a125-2013876d347b")
 	)
 	(wire
 		(pts
-			(xy 45.1252 148.0951) (xy 46.9214 148.0951)
+			(xy 256.7088 112.9693) (xy 268.225 112.9693)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "059b81ff-d5e5-4275-b252-dd098ccefd55")
+		(uuid "015c07da-455a-4ac2-b4f7-06b45c8a3d4d")
+	)
+	(wire
+		(pts
+			(xy 38.8217 119.5213) (xy 38.773 119.5213)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02c54b18-dc93-423a-87b9-ee41097375d4")
+	)
+	(bus
+		(pts
+			(xy 24.972 158.2757) (xy 24.972 158.361)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03a0c93d-5c24-486a-9cc8-53cd49840455")
+	)
+	(bus
+		(pts
+			(xy 27.3055 113.0441) (xy 27.3055 113.1294)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "080aa658-617e-445e-a8f5-4e38acd90c34")
 	)
 	(wire
 		(pts
@@ -709,33 +2298,23 @@
 	)
 	(wire
 		(pts
-			(xy 31.3559 108.7227) (xy 44.4107 108.7227)
+			(xy 36.4882 164.7529) (xy 36.4395 164.7529)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c7ba6c1-9611-4c4c-a47f-3cbcc04426f7")
+		(uuid "0cc53e74-3954-4a75-936e-fe73f5d2121c")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 107.4296 91.2455) (xy 109.2258 91.2455)
+			(xy 164.3326 158.2757) (xy 164.3326 158.361)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "102f04f9-c226-4461-bd5a-0be3ad7bec60")
-	)
-	(wire
-		(pts
-			(xy 54.6182 185.4696) (xy 54.6182 185.4722)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1341dbea-332e-4d8a-9050-4415e10ae2b4")
+		(uuid "143850c0-6cd3-4df7-b8af-44941d4937fb")
 	)
 	(wire
 		(pts
@@ -749,33 +2328,33 @@
 	)
 	(wire
 		(pts
-			(xy 109.4559 126.7809) (xy 109.4559 126.7835)
+			(xy 128.8644 112.884) (xy 128.8644 112.9693)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "23e39784-4ede-4a7c-a650-6e403754c3a2")
+		(uuid "230f46ab-c455-439d-92e2-f1e90e6a6839")
 	)
 	(wire
 		(pts
-			(xy 46.6349 165.9848) (xy 46.6349 165.9874)
+			(xy 211.7152 157.1665) (xy 223.2314 157.1665)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26f01c14-4c31-4985-bb84-a6abc4568fe4")
+		(uuid "2567be30-907b-407b-8f08-5127d6c2991f")
 	)
 	(wire
 		(pts
-			(xy 32.0704 148.0925) (xy 45.1252 148.0925)
+			(xy 193.437 112.9519) (xy 193.437 113.0441)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27062ead-d663-4d74-91c8-15fb807698c9")
+		(uuid "25d6cba0-3a80-464f-987e-d3f90aef179a")
 	)
 	(wire
 		(pts
@@ -799,63 +2378,83 @@
 	)
 	(wire
 		(pts
-			(xy 117.9387 91.2455) (xy 116.8458 91.2455)
+			(xy 223.2314 163.5584) (xy 223.1827 163.5584)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2fe2b282-e29f-4f9a-be13-104c86199516")
+		(uuid "363c026e-81c0-4d1e-9d6d-845e3031004f")
 	)
 	(wire
 		(pts
-			(xy 97.0245 147.0438) (xy 110.0793 147.0438)
+			(xy 83.8708 163.5584) (xy 83.8221 163.5584)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "303e8d8e-d719-4b88-92e6-2361a7e0b315")
+		(uuid "378eef45-6274-4506-9830-f9a9609ee939")
 	)
 	(wire
 		(pts
-			(xy 94.6865 108.5443) (xy 107.7413 108.5443)
+			(xy 131.2534 157.4794) (xy 131.2534 157.5647)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a78d1c1-b823-419c-9eaf-1b6c22aef8aa")
+		(uuid "37e2a49e-1904-49d5-9072-f06bca4d4f5e")
+	)
+	(bus
+		(pts
+			(xy 256.7088 112.884) (xy 256.7088 112.9693)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "381d79b3-e0ec-4dc6-a4ef-25bfe548d0ed")
 	)
 	(wire
 		(pts
-			(xy 54.9198 108.7227) (xy 54.9198 108.7253)
+			(xy 131.2534 157.5647) (xy 131.2534 163.9566)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3cd047dd-5847-48ce-97ca-1866a5b90ac4")
+		(uuid "3a543a5a-f14b-4611-b80a-8175801b69ec")
 	)
 	(wire
 		(pts
-			(xy 44.9823 127.66) (xy 46.7785 127.66)
+			(xy 38.8217 113.0441) (xy 38.8217 113.1294)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43edc20d-866f-4820-ad02-740fb7f5d5a0")
+		(uuid "407a0708-22c5-44c5-bace-a42875412a53")
 	)
 	(wire
 		(pts
-			(xy 45.1252 148.0925) (xy 45.1252 148.0951)
+			(xy 128.8644 112.9693) (xy 128.8644 119.3612)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4583b3b4-ae17-4b99-9dfe-445304ea6c1d")
+		(uuid "42678561-5eab-467a-957f-10245c296095")
+	)
+	(bus
+		(pts
+			(xy 69.9655 113.6803) (xy 69.9655 113.7656)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "452adc80-3603-418e-a018-7b9ba3287988")
 	)
 	(wire
 		(pts
@@ -869,6 +2468,16 @@
 	)
 	(wire
 		(pts
+			(xy 131.2534 163.9566) (xy 131.2047 163.9566)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47b82191-5861-4233-80b6-bb12cf5e43ee")
+	)
+	(wire
+		(pts
 			(xy 106.962 72.5413) (xy 108.7582 72.5413)
 		)
 		(stroke
@@ -877,25 +2486,15 @@
 		)
 		(uuid "4ae050c5-cce3-400e-a57f-5393ac8af8a2")
 	)
-	(wire
+	(bus
 		(pts
-			(xy 57.144 165.9874) (xy 56.0511 165.9874)
+			(xy 72.3546 157.0812) (xy 72.3546 157.1665)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b55f7f0-f38a-4a71-851e-469c5644cc1c")
-	)
-	(wire
-		(pts
-			(xy 44.4107 108.7227) (xy 44.4107 108.7253)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c6837ca-3ec7-4209-a168-cc9544ad0c7f")
+		(uuid "4deeff8d-3bfb-46ab-85b1-706fdc23ec76")
 	)
 	(wire
 		(pts
@@ -909,16 +2508,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.2504 108.5469) (xy 117.1575 108.5469)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52f4f02e-6610-4d65-831a-8bad26b40834")
-	)
-	(wire
-		(pts
 			(xy 29.6719 38.0281) (xy 29.6719 38.1317)
 		)
 		(stroke
@@ -929,13 +2518,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.965 126.7835) (xy 118.8721 126.7835)
+			(xy 270.614 163.9566) (xy 270.5653 163.9566)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "544842bb-e9c5-4ab6-aa4a-6da148b61321")
+		(uuid "54bd45e4-62d5-4ae7-ba85-1ea72cb513e5")
 	)
 	(wire
 		(pts
@@ -949,43 +2538,83 @@
 	)
 	(wire
 		(pts
-			(xy 71.026 90.1452) (xy 54.9912 90.1452)
+			(xy 270.614 157.5647) (xy 270.614 163.9566)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60cf64e6-56c9-4d86-8054-ccaf5ffbd7ca")
+		(uuid "6006d7cd-9cc2-43cb-9314-b2f826923616")
 	)
 	(wire
 		(pts
-			(xy 94.3748 91.2429) (xy 107.4296 91.2429)
+			(xy 178.7882 112.9519) (xy 178.7882 113.0372)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65c21702-0b72-4f81-a20c-948af16286e8")
+		(uuid "6307f250-012f-4e69-88fe-ce8b27169dc4")
+	)
+	(bus
+		(pts
+			(xy 209.3261 113.6803) (xy 209.3261 113.7656)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a23bac-372c-461e-b7cc-d7878f7a5633")
 	)
 	(wire
 		(pts
-			(xy 54.9912 90.1478) (xy 53.8983 90.1478)
+			(xy 175.8488 158.2757) (xy 175.8488 158.361)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a23e0f9-16f9-4fa4-8250-d6d5c75d3f31")
+		(uuid "644436b8-f707-4088-b97f-6f70039557c3")
 	)
 	(wire
 		(pts
-			(xy 44.1091 185.4696) (xy 44.1091 185.4722)
+			(xy 167.272 113.0372) (xy 178.7882 113.0372)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6af5d70a-e546-4a10-a612-4b21ba0cf010")
+		(uuid "69d36ffd-5cb5-470f-923b-922c35468a34")
+	)
+	(wire
+		(pts
+			(xy 36.4882 158.2757) (xy 36.4882 158.361)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b93e8cf-cb8e-4a35-8e4b-ad00387817ab")
+	)
+	(wire
+		(pts
+			(xy 178.7882 119.4291) (xy 178.7395 119.4291)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c80af6c-6365-412d-ac25-dc674242d061")
+	)
+	(wire
+		(pts
+			(xy 38.8217 113.1294) (xy 38.8217 119.5213)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cfd0547-cf15-4a4d-8623-38af39acc3a1")
 	)
 	(wire
 		(pts
@@ -999,53 +2628,23 @@
 	)
 	(wire
 		(pts
-			(xy 110.0793 147.0464) (xy 111.8755 147.0464)
+			(xy 117.3482 112.9693) (xy 128.8644 112.9693)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72e24641-c6d5-4408-ab35-13443bd0c62e")
+		(uuid "7c7638db-c663-47f9-a136-55512197b905")
 	)
 	(wire
 		(pts
-			(xy 73.1788 165.9848) (xy 57.144 165.9848)
+			(xy 83.8708 157.1665) (xy 83.8708 163.5584)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75d1c7b1-5574-4b9d-9822-032870c64015")
-	)
-	(wire
-		(pts
-			(xy 54.9198 108.7253) (xy 53.8269 108.7253)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eae2193-db69-41a2-ad95-321b543d71c6")
-	)
-	(wire
-		(pts
-			(xy 133.9735 91.2429) (xy 117.9387 91.2429)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f25b22e-eb76-4772-b0c4-d2cd02c77859")
-	)
-	(wire
-		(pts
-			(xy 44.4821 90.1478) (xy 46.2783 90.1478)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82387cb7-1f12-4602-9c16-f82f7c7368d2")
+		(uuid "7f8be3e1-c740-4ef8-b311-6b3f136f72cb")
 	)
 	(wire
 		(pts
@@ -1059,16 +2658,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.1091 185.4722) (xy 45.9053 185.4722)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84ac37aa-ef65-4bde-bd56-3442f6ee7d5e")
-	)
-	(wire
-		(pts
 			(xy 54.9791 72.9942) (xy 54.9791 72.9968)
 		)
 		(stroke
@@ -1079,53 +2668,43 @@
 	)
 	(wire
 		(pts
-			(xy 44.9823 127.6574) (xy 44.9823 127.66)
+			(xy 83.8708 157.0812) (xy 83.8708 157.1665)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8940024d-3101-461f-8fee-db7717bb5031")
+		(uuid "897a21bd-d2ab-443c-917d-d60648a934a7")
 	)
 	(wire
 		(pts
-			(xy 134.2852 108.5443) (xy 118.2504 108.5443)
+			(xy 259.0978 157.5647) (xy 270.614 157.5647)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "89b6ed0e-bf4a-4303-92b4-60064f61fcf7")
+		(uuid "8e578fda-1738-4cde-8506-df5e0ec87e56")
 	)
 	(wire
 		(pts
-			(xy 33.5801 165.9848) (xy 46.6349 165.9848)
+			(xy 24.972 158.361) (xy 36.4882 158.361)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f7168dc-06d1-4ef5-8d75-054bbbe60ccd")
+		(uuid "93242bbe-fb5e-4641-b41e-8d1ce6a641bf")
 	)
 	(wire
 		(pts
-			(xy 55.4914 127.6574) (xy 55.4914 127.66)
+			(xy 119.7372 157.5647) (xy 131.2534 157.5647)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90d8456b-4d5f-46b7-93c7-fed9149bcba6")
-	)
-	(wire
-		(pts
-			(xy 55.4914 127.66) (xy 54.3985 127.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97394943-3ade-4cb2-9866-25825889ea0e")
+		(uuid "968cfd23-9483-4a25-a9fd-441440999674")
 	)
 	(wire
 		(pts
@@ -1139,6 +2718,46 @@
 	)
 	(wire
 		(pts
+			(xy 27.3055 113.1294) (xy 38.8217 113.1294)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99afbb6a-e83e-4e0c-b75d-c6926ef021a6")
+	)
+	(wire
+		(pts
+			(xy 270.614 157.4794) (xy 270.614 157.5647)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99dfed94-4c97-4528-8178-7a90e15f5a54")
+	)
+	(wire
+		(pts
+			(xy 178.7882 113.0372) (xy 178.7882 119.4291)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9adc764a-34bc-4131-995e-aed2259e2f96")
+	)
+	(wire
+		(pts
+			(xy 209.3261 113.7656) (xy 220.8423 113.7656)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd7cd7e-ae70-4443-8c1a-a6034626dd12")
+	)
+	(wire
+		(pts
 			(xy 31.4152 72.9942) (xy 44.47 72.9942)
 		)
 		(stroke
@@ -1149,63 +2768,53 @@
 	)
 	(wire
 		(pts
-			(xy 135.9998 126.7809) (xy 119.965 126.7809)
+			(xy 220.8423 113.6803) (xy 220.8423 113.7656)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a182fc8c-de7f-46be-ba01-0bd74d1b4d7c")
+		(uuid "a8e28693-0aad-45de-b16a-241469655af7")
 	)
 	(wire
 		(pts
-			(xy 57.144 165.9848) (xy 57.144 165.9874)
+			(xy 36.4882 158.361) (xy 36.4882 164.7529)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a6de80ad-fa66-445b-9d51-1d36f3415175")
+		(uuid "ad458ed2-9906-4919-a821-80d63edb8dcc")
 	)
 	(wire
 		(pts
-			(xy 107.7413 108.5443) (xy 107.7413 108.5469)
+			(xy 268.225 112.9693) (xy 268.225 119.3612)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a7ceaf03-1ae3-41ec-bca4-e8fad1f91814")
+		(uuid "ad4ac529-15e7-4001-b970-77701edf6c5d")
 	)
 	(wire
 		(pts
-			(xy 44.4107 108.7253) (xy 46.2069 108.7253)
+			(xy 175.8488 164.7529) (xy 175.8001 164.7529)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "aa010fea-7ec9-446b-8c42-2c292a55a7b2")
+		(uuid "ad5bdb4c-a5fd-426f-9a4a-ffb3af70292b")
 	)
 	(wire
 		(pts
-			(xy 71.5262 127.6574) (xy 55.4914 127.6574)
+			(xy 81.4817 113.7656) (xy 81.4817 120.1575)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b21a8f1e-88bd-40e8-8677-1c4102015844")
-	)
-	(wire
-		(pts
-			(xy 96.4011 126.7809) (xy 109.4559 126.7809)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4ebb5cb-6bb1-4570-8e3f-b706d0d5e2bb")
+		(uuid "ada9e448-19e3-497c-858a-3634043264d8")
 	)
 	(wire
 		(pts
@@ -1219,203 +2828,193 @@
 	)
 	(wire
 		(pts
-			(xy 55.6343 148.0951) (xy 54.5414 148.0951)
+			(xy 128.8644 119.3612) (xy 128.8157 119.3612)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b907b38d-2b8d-4c29-ab58-75e60dc1c711")
+		(uuid "bc0b4e94-e692-4c59-9e42-f4458caedee9")
 	)
 	(wire
 		(pts
-			(xy 119.965 126.7809) (xy 119.965 126.7835)
+			(xy 223.2314 157.1665) (xy 223.2314 163.5584)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc22bd02-fcd2-493b-bb5d-105fc76c783d")
+		(uuid "c8e017c7-a7d3-45a6-9c4e-418019258352")
+	)
+	(bus
+		(pts
+			(xy 211.7152 157.0812) (xy 211.7152 157.1665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cad54f5c-3251-45cb-b47b-c53987a6e09c")
 	)
 	(wire
 		(pts
-			(xy 71.6691 148.0925) (xy 55.6343 148.0925)
+			(xy 175.8488 158.361) (xy 175.8488 164.7529)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bfc01f24-1977-4f1c-a71f-732ca8c0e5b9")
+		(uuid "cb804a00-bab4-458a-8da3-975be174ab99")
 	)
 	(wire
 		(pts
-			(xy 120.5884 147.0464) (xy 119.4955 147.0464)
+			(xy 223.2314 157.0812) (xy 223.2314 157.1665)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c0cb8ea7-0cbc-4223-8459-c82d0bad6258")
+		(uuid "cd1dbdd2-67f0-4a35-b4db-e24380ddf68a")
+	)
+	(bus
+		(pts
+			(xy 259.0978 157.4794) (xy 259.0978 157.5647)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9dc9ed6-2aa5-4e8b-902e-5d34d0fd05f9")
+	)
+	(bus
+		(pts
+			(xy 117.3482 112.884) (xy 117.3482 112.9693)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dab35ae6-b07e-4547-9f82-21979bf5b138")
 	)
 	(wire
 		(pts
-			(xy 107.4296 91.2429) (xy 107.4296 91.2455)
+			(xy 194.0282 112.9519) (xy 193.437 112.9519)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4cb2540-dd07-4f4b-8f69-348a1e83c2a3")
+		(uuid "e25bde27-3360-4f34-810f-1a6eb168b7b5")
 	)
 	(wire
 		(pts
-			(xy 117.9387 91.2429) (xy 117.9387 91.2455)
+			(xy 72.3546 157.1665) (xy 83.8708 157.1665)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7e6eb7d-d4ed-4fb1-9bbd-6acad11e04b4")
+		(uuid "e26e7363-871a-492d-abd4-532059c00f90")
 	)
 	(wire
 		(pts
-			(xy 54.6182 185.4722) (xy 53.5253 185.4722)
+			(xy 220.8423 113.7656) (xy 220.8423 120.1575)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8887ab4-f6a6-4890-9e77-2f41452093f4")
+		(uuid "e4c5b342-8c2c-4d64-b358-4b0aef3fe1d2")
+	)
+	(bus
+		(pts
+			(xy 167.272 112.9519) (xy 167.272 113.0372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec70eb7d-c93f-4c7c-8748-e5556770dcc2")
 	)
 	(wire
 		(pts
-			(xy 70.653 185.4696) (xy 54.6182 185.4696)
+			(xy 164.3326 158.361) (xy 175.8488 158.361)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cab18a4e-3306-47e6-b95f-11ff4a7c93d1")
+		(uuid "ed851276-40cf-48ca-bb2b-eb91fee38275")
 	)
 	(wire
 		(pts
-			(xy 44.4821 90.1452) (xy 44.4821 90.1478)
+			(xy 193.437 113.0441) (xy 193.4223 113.0441)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ccb1aae0-ee3c-4d88-bff5-54541afb41e9")
+		(uuid "eed5d106-18ad-4da6-a24f-36c3619db116")
 	)
 	(wire
 		(pts
-			(xy 109.4559 126.7835) (xy 111.2521 126.7835)
+			(xy 220.8423 120.1575) (xy 220.7936 120.1575)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3c9d317-c3ec-4f32-ba9f-2a3d862ee8da")
+		(uuid "f52fa3da-9fd3-45b1-a003-2aba197777f8")
 	)
 	(wire
 		(pts
-			(xy 31.9275 127.6574) (xy 44.9823 127.6574)
+			(xy 81.4817 120.1575) (xy 81.433 120.1575)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d65dc50b-0c60-42ce-924a-34d456d45b0a")
+		(uuid "f71b37b2-470a-4d9b-8c08-448935232a67")
 	)
 	(wire
 		(pts
-			(xy 55.6343 148.0925) (xy 55.6343 148.0951)
+			(xy 268.225 112.884) (xy 268.225 112.9693)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e127413c-0c56-47cc-b94b-5cbb0944a0bf")
+		(uuid "f7ff2b2c-8924-4399-93ae-89d99debbd20")
 	)
 	(wire
 		(pts
-			(xy 120.5884 147.0438) (xy 120.5884 147.0464)
+			(xy 268.225 119.3612) (xy 268.1763 119.3612)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1b0be99-8210-46fb-a150-db65aa8f5740")
+		(uuid "f940e935-7969-4947-87de-c53cbb79b4f5")
+	)
+	(bus
+		(pts
+			(xy 119.7372 157.4794) (xy 119.7372 157.5647)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f96f737e-85ef-461f-808d-7347ed946e8e")
 	)
 	(wire
 		(pts
-			(xy 107.7413 108.5469) (xy 109.5375 108.5469)
+			(xy 81.4817 113.6803) (xy 81.4817 113.7656)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8b00c31-cfe2-493d-98b7-db5bab40adba")
-	)
-	(wire
-		(pts
-			(xy 70.9546 108.7227) (xy 54.9198 108.7227)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec28bd66-32a6-4078-b943-3f1d08e96963")
-	)
-	(wire
-		(pts
-			(xy 54.9912 90.1452) (xy 54.9912 90.1478)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f28c1fe9-e75e-41f6-9c6d-544f8a360ec9")
-	)
-	(wire
-		(pts
-			(xy 46.6349 165.9874) (xy 48.4311 165.9874)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3c8e3a7-ae93-47e9-98c8-3654ea665301")
-	)
-	(wire
-		(pts
-			(xy 136.6232 147.0438) (xy 120.5884 147.0438)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f450dcb5-4528-43f5-a2fe-40ac8a5dd8bb")
-	)
-	(wire
-		(pts
-			(xy 118.2504 108.5443) (xy 118.2504 108.5469)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faea5258-04e9-42c2-964f-3bd75e25657a")
-	)
-	(wire
-		(pts
-			(xy 31.4273 90.1452) (xy 44.4821 90.1452)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feb3c03f-e056-4dcd-821e-caac5011f582")
+		(uuid "fd59a07a-f658-4f57-b6ea-46afe6aa8ed0")
 	)
 	(text_box "Entrées / Sorties"
 		(exclude_from_sim no)
@@ -1439,7 +3038,7 @@
 	(text_box "Simulateur des données d'entrées (T&V)"
 		(exclude_from_sim no)
 		(at 21.0541 58.8613 0)
-		(size 124.7705 135.8561)
+		(size 122.4559 31.3087)
 		(stroke
 			(width 0)
 			(type default)
@@ -1455,9 +3054,9 @@
 		)
 		(uuid "60e14730-53a8-4a36-938a-363533bf3057")
 	)
-	(global_label "Vcc"
+	(global_label "C1"
 		(shape input)
-		(at 94.6865 108.5443 180)
+		(at 164.3326 158.361 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1465,9 +3064,9 @@
 			)
 			(justify right)
 		)
-		(uuid "00f78e0c-86e7-4a3a-8fba-3b211052e5c9")
+		(uuid "0214ec7a-7a13-43db-a086-463b9373678f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.4355 108.5443 0)
+			(at 158.8679 158.361 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1477,9 +3076,31 @@
 			)
 		)
 	)
-	(global_label "C5"
+	(global_label "P1"
 		(shape input)
-		(at 50.7314 144.2851 90)
+		(at 220.7936 135.3975 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "06225e55-66fe-4a8e-9479-bf9e30238416")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.7936 140.8622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1"
+		(shape input)
+		(at 273.305 105.264 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1487,9 +3108,53 @@
 			)
 			(justify left)
 		)
-		(uuid "08f3bca9-5f9d-4c49-b711-af1f25cd83fb")
+		(uuid "09e837a2-0c1e-4806-a822-c48acca0aa65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.7314 138.8204 90)
+			(at 273.305 99.6179 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1"
+		(shape input)
+		(at 38.773 134.7613 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09fb80d0-c820-4f0d-887d-e9b303332cde")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.773 140.226 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1"
+		(shape input)
+		(at 136.3334 149.8594 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d6a2b65-728b-4f7a-bba9-055f53138051")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.3334 144.2133 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1543,24 +3208,68 @@
 			)
 		)
 	)
-	(global_label "C3"
+	(global_label "P1"
 		(shape input)
-		(at 50.0169 104.9153 90)
+		(at 131.2047 179.1966 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "1f6eff8f-763b-4f6c-a5bb-3f54cca45d23")
+		(uuid "13287828-dc3d-4c5e-bafe-5a5126fadab5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.0169 99.4506 90)
+			(at 131.2047 184.6613 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1"
+		(shape input)
+		(at 268.1763 134.6012 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "15594774-f3eb-4c25-97ae-7e655206d9ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 268.1763 140.0659 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1"
+		(shape input)
+		(at 168.1801 174.9129 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20595a93-2aa7-4a07-a217-145f1da11a74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.534 174.9129 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1587,24 +3296,24 @@
 			)
 		)
 	)
-	(global_label "C10"
+	(global_label "C1"
 		(shape input)
-		(at 113.3475 104.7369 90)
+		(at 119.7372 157.5647 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "24b44bab-7801-47b2-bed1-71b3c08a384c")
+		(uuid "2323e50e-4031-47ec-b562-766ec83cc0be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.3475 98.0627 90)
+			(at 114.2725 157.5647 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1653,9 +3362,31 @@
 			)
 		)
 	)
-	(global_label "Vcc"
+	(global_label "M1"
 		(shape input)
-		(at 31.3559 108.7227 180)
+		(at 88.9508 149.4612 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c9d9d3a-bd52-490c-92dd-7c10a6546535")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.9508 143.8151 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1"
+		(shape input)
+		(at 73.813 130.3175 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1663,9 +3394,97 @@
 			)
 			(justify right)
 		)
-		(uuid "3839d724-a0be-4dd3-ae7e-26ba7e19c072")
+		(uuid "34568312-1d2b-415b-81db-33c5975b0405")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.1049 108.7227 0)
+			(at 68.1669 130.3175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1"
+		(shape input)
+		(at 275.694 149.8594 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "353a7d6f-3ff4-4893-a77b-24cc83d0c7b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 275.694 144.2133 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2"
+		(shape input)
+		(at 283.465 112.884 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36dec739-8d94-4090-bfa4-6d85e5af8c09")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 288.9297 112.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1"
+		(shape input)
+		(at 128.8157 134.6012 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "387fe6ba-5616-46c2-bc73-5b57078e7399")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 128.8157 140.0659 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 209.3261 113.7656 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "38ee3330-68b8-4417-a550-f78cb1ececc2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.8614 113.7656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1688,6 +3507,72 @@
 		(uuid "3a416eef-a846-4a32-bf73-a09d3ddba68a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 25.1642 72.9942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2"
+		(shape input)
+		(at 191.0888 158.2757 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a653469-ef5c-41db-b837-f29690add3d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 196.5535 158.2757 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2"
+		(shape input)
+		(at 54.0617 113.0441 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b408404-6fed-4481-834c-d12360882f85")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.5264 113.0441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1"
+		(shape input)
+		(at 31.153 129.6813 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "424417e3-f839-4e15-abb9-0307df5677ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.5069 129.6813 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1741,9 +3626,9 @@
 			)
 		)
 	)
-	(global_label "C11"
+	(global_label "P2"
 		(shape input)
-		(at 115.0621 122.9735 90)
+		(at 193.4223 113.0441 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1751,14 +3636,124 @@
 			)
 			(justify left)
 		)
-		(uuid "5032cb82-738d-4315-ae9c-4c7c63171b8a")
+		(uuid "43d564e1-cc45-4551-8d00-fe2eee3a9186")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.0621 116.2993 90)
+			(at 198.887 113.0441 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1"
+		(shape input)
+		(at 81.433 135.3975 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48d0bfd1-3c36-4156-806a-92c71554c97e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.433 140.8622 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 167.272 113.0372 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b9d598f-4621-4e41-9a87-f6ffc9444f01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.8073 113.0372 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1"
+		(shape input)
+		(at 272.6358 71.172 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "501f8537-4a07-4791-91d9-95516bb7f018")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 278.2819 71.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1"
+		(shape input)
+		(at 213.1736 130.3175 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56627150-7387-4d91-a9a2-996e4d8d9578")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.5275 130.3175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 211.7152 157.1665 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5867eb5a-8d15-449c-b75b-b15bc16094ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.2505 157.1665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1776,28 +3771,6 @@
 		(uuid "5e956d0c-6503-439e-b814-070d0bb54183")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 80.2552 43.3344 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Vcc"
-		(shape input)
-		(at 96.4011 126.7809 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "5ea696a9-c67d-4496-92d6-fc8c43201d21")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.1501 126.7809 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1829,28 +3802,6 @@
 			)
 		)
 	)
-	(global_label "Vcc"
-		(shape input)
-		(at 32.0704 148.0925 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "615ceb67-a63d-4491-a40f-29c73500e3da")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.8194 148.0925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "C10"
 		(shape input)
 		(at 87.8752 37.8697 270)
@@ -1873,9 +3824,9 @@
 			)
 		)
 	)
-	(global_label "Vcc"
+	(global_label "C1"
 		(shape input)
-		(at 97.0245 147.0438 180)
+		(at 27.3055 113.1294 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1883,9 +3834,9 @@
 			)
 			(justify right)
 		)
-		(uuid "67f73704-d8e1-412a-891c-4e01eae8f554")
+		(uuid "648df71e-8ec3-4445-9164-02c284e8e71d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.7735 147.0438 0)
+			(at 21.8408 113.1294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1895,9 +3846,75 @@
 			)
 		)
 	)
-	(global_label "C12"
+	(global_label "P1"
 		(shape input)
-		(at 115.6855 143.2364 90)
+		(at 223.1827 178.7984 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65de35de-976e-47d5-862f-a587f81737c8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.1827 184.2631 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1"
+		(shape input)
+		(at 181.5788 34.9668 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "65ff36de-73bb-4ddd-a426-03905a1b9318")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 176.1141 34.9668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 69.9655 113.7656 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7230d64a-6af4-49fd-9305-38253abd0862")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.5008 113.7656 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2"
+		(shape input)
+		(at 236.0823 113.6803 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1905,9 +3922,9 @@
 			)
 			(justify left)
 		)
-		(uuid "6a1ee0d0-b25b-4cbf-a9eb-ec71ece1b9e4")
+		(uuid "73f89b51-be57-46b1-95be-ad8826948ba0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.6855 136.5622 90)
+			(at 241.547 113.6803 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,9 +3934,9 @@
 			)
 		)
 	)
-	(global_label "C7"
+	(global_label "M1"
 		(shape input)
-		(at 49.7153 181.6622 90)
+		(at 183.8682 105.3319 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1927,14 +3944,36 @@
 			)
 			(justify left)
 		)
-		(uuid "6d8d766a-157c-44dd-97b5-034e4ffb2142")
+		(uuid "765cdd8d-b1ac-4e77-a077-7e3d31a4e73e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.7153 176.1975 90)
+			(at 183.8682 99.6858 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1"
+		(shape input)
+		(at 76.2021 173.7184 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "793333ec-6b28-413d-9fd4-b1f36ef42753")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.556 173.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1983,9 +4022,9 @@
 			)
 		)
 	)
-	(global_label "C9"
+	(global_label "P2"
 		(shape input)
-		(at 113.0358 87.4355 90)
+		(at 238.4714 157.0812 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1993,9 +4032,9 @@
 			)
 			(justify left)
 		)
-		(uuid "8c25ae27-7cf6-4c75-836a-a0c3d874e118")
+		(uuid "830a3566-57ec-4b0d-ae52-5e6c9eb235e0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.0358 81.9708 90)
+			(at 243.9361 157.0812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2005,31 +4044,9 @@
 			)
 		)
 	)
-	(global_label "Vcc"
+	(global_label "P2"
 		(shape input)
-		(at 31.9275 127.6574 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8c83c57e-982d-4ec9-9469-032d45b03dac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.6765 127.6574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "C2"
-		(shape input)
-		(at 50.0883 86.3378 90)
+		(at 285.854 157.4794 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2037,9 +4054,9 @@
 			)
 			(justify left)
 		)
-		(uuid "9d890920-ce51-418c-898a-8b9c594cfb6e")
+		(uuid "8775ac86-265f-4d79-bcd4-d1f62abda540")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.0883 80.8731 90)
+			(at 291.3187 157.4794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2049,9 +4066,31 @@
 			)
 		)
 	)
-	(global_label "Vcc"
+	(global_label "M1"
 		(shape input)
-		(at 94.3748 91.2429 180)
+		(at 133.9444 105.264 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8806900c-863f-417e-8997-5c5e67dd992c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.9444 99.6179 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 259.0978 157.5647 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2059,9 +4098,9 @@
 			)
 			(justify right)
 		)
-		(uuid "a07e953e-120b-42a0-90e5-225672ca3886")
+		(uuid "88bd5e3b-2fa3-4d97-9838-601d5d429d90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.1238 91.2429 0)
+			(at 253.6331 157.5647 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2071,9 +4110,9 @@
 			)
 		)
 	)
-	(global_label "Vcc"
+	(global_label "M1"
 		(shape input)
-		(at 31.0543 185.4696 180)
+		(at 28.8195 174.9129 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2081,14 +4120,366 @@
 			)
 			(justify right)
 		)
-		(uuid "af9da048-b8c1-442c-b910-dec5eeedc867")
+		(uuid "93b7d288-ff7d-4c92-8119-41d219b94471")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.8033 185.4696 0)
+			(at 23.1734 174.9129 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1"
+		(shape input)
+		(at 260.5563 129.5212 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95621b23-1007-4320-893b-d6e7ce232c37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.9102 129.5212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1"
+		(shape input)
+		(at 180.9288 150.6557 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95edfabd-6b4d-417e-83ca-4661f28c201e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.9288 145.0096 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 72.3546 157.1665 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9e76d0a1-c81c-4aed-98e7-58df1d30ca29")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.8899 157.1665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 256.7088 112.9693 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a57b1c63-a3e1-4784-8727-cd888e1edfaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.2441 112.9693 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1"
+		(shape input)
+		(at 43.9017 105.4241 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa008f17-cb99-4be1-9c3c-e00241395808")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.9017 99.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1"
+		(shape input)
+		(at 270.5653 179.1966 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ade8d93e-07c7-483f-b9f9-15dc69560cc4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.5653 184.6613 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1"
+		(shape input)
+		(at 171.1195 129.5891 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0002ed3-b278-4f66-81f0-ff429807d04c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.4734 129.5891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1"
+		(shape input)
+		(at 36.4395 179.9929 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b213ec2d-bc25-4492-b2b3-c791fe32a813")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.4395 185.4576 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1"
+		(shape input)
+		(at 262.9453 174.1166 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b39151ce-fb8e-471d-99f5-a390df8ebf65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.2992 174.1166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2"
+		(shape input)
+		(at 208.9548 35.2433 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b5c96893-057a-469f-8c46-784cd426b59d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.4901 35.2433 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1"
+		(shape input)
+		(at 215.5627 173.7184 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bddfd78a-7fea-4bf7-aad5-eab963cddf58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.9166 173.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 24.972 158.361 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "be588e80-826d-4168-82de-31291d5a41c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.5073 158.361 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2"
+		(shape input)
+		(at 96.7217 113.6803 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c14a6a2b-5ffe-44c8-9cb4-252ee932bfaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.1864 113.6803 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2"
+		(shape input)
+		(at 51.7282 158.2757 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3ce8d7f-3434-4ded-986e-c6b48d22cf8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.1929 158.2757 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1"
+		(shape input)
+		(at 178.7395 134.6691 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd62b1f1-9f23-4b92-b1cc-727a1a509969")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 178.7395 140.1338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1"
+		(shape input)
+		(at 228.3114 149.4612 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3db6147-0b6f-47c1-87f0-e90a7937dae5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.3114 143.8151 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2115,9 +4506,9 @@
 			)
 		)
 	)
-	(global_label "C6"
+	(global_label "M1"
 		(shape input)
-		(at 52.2411 162.1774 90)
+		(at 86.5617 106.0603 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2125,9 +4516,9 @@
 			)
 			(justify left)
 		)
-		(uuid "dcd0c795-3473-4d79-bd3e-b325bdcf12c4")
+		(uuid "dc07935d-bbd0-4a0e-b916-1d338b806a77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.2411 156.7127 90)
+			(at 86.5617 100.4142 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2137,9 +4528,9 @@
 			)
 		)
 	)
-	(global_label "Vcc"
+	(global_label "P1"
 		(shape input)
-		(at 33.5801 165.9848 180)
+		(at 175.8001 179.9929 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2147,9 +4538,141 @@
 			)
 			(justify right)
 		)
-		(uuid "e93b8362-59fe-49a1-bd45-a17f2431626d")
+		(uuid "df2b98d3-a982-4cbd-86a9-bd5641d5170b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.3291 165.9848 0)
+			(at 175.8001 185.4576 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1"
+		(shape input)
+		(at 121.1957 129.5212 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e02b50d5-ce8e-4b60-94a7-3f3c5e9a297b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.5496 129.5212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1"
+		(shape input)
+		(at 225.9223 106.0603 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0435252-71fe-4dff-9232-87fa564f596d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.9223 100.4142 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P2"
+		(shape input)
+		(at 144.1044 112.884 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e52e83e2-101b-4f14-94d4-047552c11d81")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.5691 112.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1"
+		(shape input)
+		(at 123.5847 174.1166 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e53f3883-e5e4-44aa-9d94-cf92c6e506f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.9386 174.1166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "M1"
+		(shape input)
+		(at 41.5682 150.6557 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e6214da2-0090-4b90-9f4b-b3ba6d9fa358")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 41.5682 145.0096 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C1"
+		(shape input)
+		(at 117.3482 112.9693 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6c6ba68-0ac6-4b1e-b027-a34aaf542219")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.8835 112.9693 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2181,9 +4704,9 @@
 			)
 		)
 	)
-	(global_label "C4"
+	(global_label "P2"
 		(shape input)
-		(at 50.5885 123.85 90)
+		(at 146.4934 157.4794 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2191,14 +4714,36 @@
 			)
 			(justify left)
 		)
-		(uuid "f25cd7e3-2b67-46f0-be84-386ab0d1dfcb")
+		(uuid "efb8c339-e8c2-4da7-b297-18bf17a64526")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.5885 118.3853 90)
+			(at 151.9581 157.4794 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "P1"
+		(shape input)
+		(at 83.8221 178.7984 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f04910b0-6d3f-4c3b-bdba-fec173110ef9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.8221 184.2631 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2247,49 +4792,40 @@
 			)
 		)
 	)
-	(global_label "Vcc"
+	(global_label "P2"
 		(shape input)
-		(at 31.4273 90.1452 180)
+		(at 99.1108 157.0812 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "fedad8bf-5f8d-4401-b514-927fd9a48eb6")
+		(uuid "fc052e09-1ef9-456f-a71a-094a13007875")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.1763 90.1452 0)
+			(at 104.5755 157.0812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 71.6691 148.0925 90)
+		(lib_id "EPSA_lib:PMOS SI2343CDS-T1-GE3")
+		(at 84.608 128.4125 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "019c6f14-9f2d-474a-bd70-def1a717c474")
-		(property "Reference" "#GND06"
-			(at 76.7491 148.0925 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 73.66 148.0924 90)
+		(uuid "0051a0a3-64d3-46fa-83c6-b11bd82e9290")
+		(property "Reference" "Q4"
+			(at 85.5721 126.5074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2297,8 +4833,68 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 71.6691 148.0925 0)
+		(property "Value" "PMOS SI2343CDS-T1-GE3"
+			(at 74.448 100.4725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 76.988 100.4725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1582493.pdf"
+			(at 79.528 100.4725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trans MOSFET P-CH 30V 4.2A 3-Pin Vishay SI2343CDS-T1-GE3 P-channel MOSFET Transistor, 4.7 A, -30 V, 3-Pin TO-236"
+			(at 82.068 100.4725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 69.368 76.3425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 71.908 97.9325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"Si2343CDS\" lib=\"${EPSA_lib}\\SpiceModel\\PMOS_si2343cds_ps Rev B.lib\""
+			(at 97.308 56.0225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,64 +4902,163 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 81.8291 148.0925 0)
+		(property "Height" "1.12"
+			(at 84.608 100.4725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "0V reference potential for simulation"
-			(at 79.2891 148.0925 0)
+		(property "Manufacturer_Name" "Vishay"
+			(at 87.148 100.4725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI2343CDS-T1-GE3"
+			(at 89.688 100.4725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SI2343CDS-T1-GE3"
+			(at 92.228 100.4725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2343CDS-T1-GE3?qs=WX95TUc1y56rXCTRPp%252BkZQ%3D%3D"
+			(at 94.768 100.4725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "PMOS"
+			(at 85.5721 129.0474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "1"
-			(uuid "41b6e0bc-5a0d-4cb0-8e4c-606bb5d860ab")
+			(uuid "0d5c75a0-d3d5-4648-8dcc-287d2d40877c")
+		)
+		(pin "2"
+			(uuid "753fc226-059d-46b0-943d-fde3d8bdb191")
+		)
+		(pin "3"
+			(uuid "47c35052-ccb6-4722-8cf7-36054a2095be")
 		)
 		(instances
 			(project "BMS_testboard"
 				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
-					(reference "#GND06")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 50.0883 90.1478 90)
+		(lib_id "EPSA_lib:NMOS SQ2348ES-T1_GE3")
+		(at 122.9984 161.9244 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "08317361-a1cf-4df6-a93d-b8ce77c2315f")
-		(property "Reference" "RV2"
-			(at 50.0883 93.98 90)
+		(uuid "07369ab6-0bc4-4fec-8ab6-a2f741022068")
+		(property "Reference" "Q11"
+			(at 138.8734 162.1554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_Potentiometer"
-			(at 50.0883 96.52 90)
+		(property "Value" "NMOS SQ2348ES-T1_GE3"
+			(at 164.9084 151.7644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 50.0883 90.1478 0)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 164.9084 154.3044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/63706/sq2348es.pdf"
+			(at 164.9084 156.8444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - SQ2348ES-T1_GE3 - MOSFET, AEC-Q101, N-CH, 30V, SOT-23"
+			(at 164.9084 159.3844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 186.4984 146.6844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 167.4484 149.2244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"SQ2348ES\" lib=\"${EPSA_lib}\\SpiceModel\\NMOS_SQ2348ES_PS Rev A.lib\""
+			(at 209.3584 174.6244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2371,8 +5066,163 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 50.0883 90.1478 0)
+		(property "Height" "1.12"
+			(at 164.9084 161.9244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 164.9084 164.4644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SQ2348ES-T1_GE3"
+			(at 164.9084 167.0044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SQ2348ES-T1_GE3"
+			(at 164.9084 169.5444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQ2348ES-T1_GE3?qs=jHkklCh7amgC88blremf%252Bw%3D%3D"
+			(at 164.9084 172.0844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "NMOS"
+			(at 138.8734 164.6954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "75365aa3-9ffd-43ba-bde7-dc63867d2b56")
+		)
+		(pin "2"
+			(uuid "ed7451ad-dd62-4c7b-bc07-e8127484f48e")
+		)
+		(pin "1"
+			(uuid "cd5b2a90-8f3e-44ed-877e-ec2d28f13e20")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:PMOS SI2343CDS-T1-GE3")
+		(at 223.9686 128.4125 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f637456-4fa4-47e2-921b-a6bcafa63823")
+		(property "Reference" "Q19"
+			(at 224.9327 126.5074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PMOS SI2343CDS-T1-GE3"
+			(at 213.8086 100.4725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 216.3486 100.4725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1582493.pdf"
+			(at 218.8886 100.4725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trans MOSFET P-CH 30V 4.2A 3-Pin Vishay SI2343CDS-T1-GE3 P-channel MOSFET Transistor, 4.7 A, -30 V, 3-Pin TO-236"
+			(at 221.4286 100.4725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 208.7286 76.3425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 211.2686 97.9325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"Si2343CDS\" lib=\"${EPSA_lib}\\SpiceModel\\PMOS_si2343cds_ps Rev B.lib\""
+			(at 236.6686 56.0225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2380,8 +5230,210 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 50.0883 90.1478 0)
+		(property "Height" "1.12"
+			(at 223.9686 100.4725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 226.5086 100.4725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI2343CDS-T1-GE3"
+			(at 229.0486 100.4725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SI2343CDS-T1-GE3"
+			(at 231.5886 100.4725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2343CDS-T1-GE3?qs=WX95TUc1y56rXCTRPp%252BkZQ%3D%3D"
+			(at 234.1286 100.4725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "PMOS"
+			(at 224.9327 129.0474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "875ac242-1c0f-4781-a511-d224d416ad76")
+		)
+		(pin "2"
+			(uuid "8a80a0ef-4a6b-4e4f-b49d-a2e039ac8135")
+		)
+		(pin "3"
+			(uuid "28c98855-1b25-4d8c-9884-30d6cd3bd7ff")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "Q19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:Condensateur 0805Y1000104JXT")
+		(at 208.9548 35.2433 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "146fd71b-8208-43d7-9770-222798939754")
+		(property "Reference" "C2"
+			(at 214.6698 28.2165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 214.6698 30.7565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EPSA_lib:CAPC2012X130N"
+			(at 229.2748 35.2433 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/119d/0900766b8119d7bc.pdf"
+			(at 229.2748 37.7833 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Syfer 0805 Ceramic Chip Capacitors"
+			(at 229.2748 40.3233 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 234.1008 32.9573 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 229.2748 30.1633 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.3"
+			(at 229.2748 42.8633 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Syfer"
+			(at 229.2748 45.4033 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805Y1000104JXT"
+			(at 229.2748 47.9433 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 217.8448 49.2133 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 229.2748 47.9433 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Condensateur"
+			(at 215.5588 31.1793 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,51 +5442,100 @@
 			)
 		)
 		(pin "2"
-			(uuid "d1d412d8-0f01-478a-a174-275fa77be1ea")
+			(uuid "66e588cc-0715-4351-8bbe-dac495cacee8")
 		)
 		(pin "1"
-			(uuid "cedfe960-9dfb-457a-b1e3-2f1d722c69a6")
-		)
-		(pin "3"
-			(uuid "5a631ebf-bd45-4199-b4ae-a3e728728016")
+			(uuid "cc2a1997-dd52-4dfc-8361-9500379fa304")
 		)
 		(instances
 			(project "BMS_testboard"
 				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
-					(reference "RV2")
+					(reference "C2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 50.5885 127.66 90)
+		(lib_id "EPSA_lib:NMOS SQ2348ES-T1_GE3")
+		(at 28.2332 162.7207 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "121ff53c-73f1-4597-9f35-7a12ae982f39")
-		(property "Reference" "RV4"
-			(at 50.5885 130.81 90)
+		(uuid "18367cc5-9ccd-4e98-a327-26a6244f1400")
+		(property "Reference" "Q7"
+			(at 44.1082 162.9517 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_Potentiometer"
-			(at 50.5885 133.35 90)
+		(property "Value" "NMOS SQ2348ES-T1_GE3"
+			(at 70.1432 152.5607 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 50.5885 127.66 0)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 70.1432 155.1007 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/63706/sq2348es.pdf"
+			(at 70.1432 157.6407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - SQ2348ES-T1_GE3 - MOSFET, AEC-Q101, N-CH, 30V, SOT-23"
+			(at 70.1432 160.1807 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 91.7332 147.4807 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 72.6832 150.0207 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"SQ2348ES\" lib=\"${EPSA_lib}\\SpiceModel\\NMOS_SQ2348ES_PS Rev A.lib\""
+			(at 114.5932 175.4207 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2442,104 +5543,77 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 50.5885 127.66 0)
+		(property "Height" "1.12"
+			(at 70.1432 162.7207 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 50.5885 127.66 0)
+		(property "Manufacturer_Name" "Vishay"
+			(at 70.1432 165.2607 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
+		)
+		(property "Manufacturer_Part_Number" "SQ2348ES-T1_GE3"
+			(at 70.1432 167.8007 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SQ2348ES-T1_GE3"
+			(at 70.1432 170.3407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQ2348ES-T1_GE3?qs=jHkklCh7amgC88blremf%252Bw%3D%3D"
+			(at 70.1432 172.8807 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "NMOS"
+			(at 44.1082 165.4917 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "81adc503-c96b-462e-a456-9c2241342773")
 		)
 		(pin "2"
-			(uuid "3b61a0a2-94ba-428a-bea5-eb2783476aeb")
+			(uuid "a51693a1-a6c9-42dd-b5ad-36e7e8df462d")
 		)
 		(pin "1"
-			(uuid "9176f26d-1176-4cf7-9dcb-8b666545ad87")
-		)
-		(pin "3"
-			(uuid "b161a437-57b7-4557-8ec1-df1d50785946")
+			(uuid "37426794-bf77-44f2-9550-d33175bd9a32")
 		)
 		(instances
 			(project "BMS_testboard"
 				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
-					(reference "RV4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 71.5262 127.6574 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "180ac4dd-fcf1-43e2-8397-969cd9700e00")
-		(property "Reference" "#GND05"
-			(at 76.6062 127.6574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 73.66 127.6573 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.5262 127.6574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 81.6862 127.6574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0V reference potential for simulation"
-			(at 79.1462 127.6574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c93e0bfe-ee71-4f0d-8011-eeefec1f076f")
-		)
-		(instances
-			(project "BMS_testboard"
-				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
-					(reference "#GND05")
+					(reference "Q7")
 					(unit 1)
 				)
 			)
@@ -2614,73 +5688,6 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 134.2852 108.5443 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "295d6c56-5a53-4ab1-ac66-fdfb061dfe42")
-		(property "Reference" "#GND011"
-			(at 139.3652 108.5443 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 137.16 108.5442 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.2852 108.5443 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 144.4452 108.5443 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0V reference potential for simulation"
-			(at 141.9052 108.5443 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7fc2fd86-d5ff-46ea-8f2d-380d28ecfe62")
-		)
-		(instances
-			(project "BMS_testboard"
-				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
-					(reference "#GND011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:0")
 		(at 133.5059 72.5387 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2747,17 +5754,85 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 136.6232 147.0438 90)
+		(lib_id "EPSA_lib:NMOS SQ2348ES-T1_GE3")
+		(at 212.5873 118.1253 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3a3cee17-0c2b-45c1-9ae9-0f6d4ec091cc")
-		(property "Reference" "#GND013"
-			(at 141.7032 147.0438 0)
+		(uuid "45a2e773-e080-4b3a-8731-e6567551d88b")
+		(property "Reference" "Q17"
+			(at 228.4623 118.3563 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NMOS SQ2348ES-T1_GE3"
+			(at 254.4973 107.9653 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 254.4973 110.5053 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/63706/sq2348es.pdf"
+			(at 254.4973 113.0453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - SQ2348ES-T1_GE3 - MOSFET, AEC-Q101, N-CH, 30V, SOT-23"
+			(at 254.4973 115.5853 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 276.0873 102.8853 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 257.0373 105.4253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"SQ2348ES\" lib=\"${EPSA_lib}\\SpiceModel\\NMOS_SQ2348ES_PS Rev A.lib\""
+			(at 298.9473 130.8253 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2765,146 +5840,94 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "0"
-			(at 139.7 147.0437 90)
+		(property "Height" "1.12"
+			(at 254.4973 118.1253 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 136.6232 147.0438 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 146.7832 147.0438 0)
+		(property "Manufacturer_Name" "Vishay"
+			(at 254.4973 120.6653 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "0V reference potential for simulation"
-			(at 144.2432 147.0438 0)
+		(property "Manufacturer_Part_Number" "SQ2348ES-T1_GE3"
+			(at 254.4973 123.2053 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "6a37c5b1-1a57-43a2-83ef-24c465e686a5")
-		)
-		(instances
-			(project "BMS_testboard"
-				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
-					(reference "#GND013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 52.2411 165.9874 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a9ca9f0-e737-43b8-ab8e-91475f0a99a6")
-		(property "Reference" "RV6"
-			(at 52.2411 168.91 90)
+		(property "Mouser Part Number" "781-SQ2348ES-T1_GE3"
+			(at 254.4973 125.7453 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Value" "R_Potentiometer"
-			(at 52.2411 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.2411 165.9874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 52.2411 165.9874 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQ2348ES-T1_GE3?qs=jHkklCh7amgC88blremf%252Bw%3D%3D"
+			(at 254.4973 128.2853 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 52.2411 165.9874 0)
+		(property "Render Name" "NMOS"
+			(at 228.4623 120.8963 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "308ed1b2-6e66-40e0-9874-619fff9be812")
-		)
-		(pin "1"
-			(uuid "3568933e-3676-4631-8ba6-d80ea6b493fe")
 		)
 		(pin "3"
-			(uuid "d7ed8027-18a0-478c-94c1-d14beacb6a10")
+			(uuid "1b3c322d-2281-4b0a-a5ff-d3a362bd20c0")
+		)
+		(pin "2"
+			(uuid "4d1928e4-17e7-4e5d-b9db-dfb97c2b25ef")
+		)
+		(pin "1"
+			(uuid "ff6720b5-ae02-43ff-906f-8e4faa11f616")
 		)
 		(instances
 			(project "BMS_testboard"
 				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
-					(reference "RV6")
+					(reference "Q17")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 71.026 90.1452 90)
+		(lib_id "EPSA_lib:PMOS SI2343CDS-T1-GE3")
+		(at 134.3797 172.2116 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4f15d5da-d0d3-4007-98b1-ddb5073f2419")
-		(property "Reference" "#GND03"
-			(at 76.106 90.1452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 73.66 90.1451 90)
+		(uuid "47aac7a9-72bf-4d22-950f-6bcaf984660d")
+		(property "Reference" "Q12"
+			(at 135.3438 170.3065 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,8 +5935,68 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 71.026 90.1452 0)
+		(property "Value" "PMOS SI2343CDS-T1-GE3"
+			(at 124.2197 144.2716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 126.7597 144.2716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1582493.pdf"
+			(at 129.2997 144.2716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trans MOSFET P-CH 30V 4.2A 3-Pin Vishay SI2343CDS-T1-GE3 P-channel MOSFET Transistor, 4.7 A, -30 V, 3-Pin TO-236"
+			(at 131.8397 144.2716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 119.1397 120.1416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 121.6797 141.7316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"Si2343CDS\" lib=\"${EPSA_lib}\\SpiceModel\\PMOS_si2343cds_ps Rev B.lib\""
+			(at 147.0797 99.8216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2921,57 +6004,58 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 81.186 90.1452 0)
+		(property "Height" "1.12"
+			(at 134.3797 144.2716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "0V reference potential for simulation"
-			(at 78.646 90.1452 0)
+		(property "Manufacturer_Name" "Vishay"
+			(at 136.9197 144.2716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "1c72483a-c2a6-4a0e-9394-ee9dd48e3fad")
-		)
-		(instances
-			(project "BMS_testboard"
-				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
-					(reference "#GND03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 135.9998 126.7809 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "50720350-6f93-493f-b394-2a81e166c882")
-		(property "Reference" "#GND012"
-			(at 141.0798 126.7809 0)
+		(property "Manufacturer_Part_Number" "SI2343CDS-T1-GE3"
+			(at 139.4597 144.2716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Value" "0"
-			(at 138.43 126.7808 90)
+		(property "Mouser Part Number" "781-SI2343CDS-T1-GE3"
+			(at 141.9997 144.2716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2343CDS-T1-GE3?qs=WX95TUc1y56rXCTRPp%252BkZQ%3D%3D"
+			(at 144.5397 144.2716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "PMOS"
+			(at 135.3438 172.8465 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2979,57 +6063,104 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 135.9998 126.7809 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 146.1598 126.7809 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0V reference potential for simulation"
-			(at 143.6198 126.7809 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
-			(uuid "53ead5f3-a4ec-4b9e-910a-0ab066b39f77")
+			(uuid "da9004bb-6670-4267-9e94-770e9e0a8c41")
+		)
+		(pin "2"
+			(uuid "8bf2c7b0-bb9b-4280-a1c5-d3add345c4ae")
+		)
+		(pin "3"
+			(uuid "e7558820-e68b-4f32-974b-5b0cff2d4358")
 		)
 		(instances
 			(project "BMS_testboard"
 				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
-					(reference "#GND012")
+					(reference "Q12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 70.9546 108.7227 90)
+		(lib_id "EPSA_lib:NMOS SQ2348ES-T1_GE3")
+		(at 262.359 161.9244 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "54d763fe-6804-424a-8190-380666d35ea7")
-		(property "Reference" "#GND04"
-			(at 76.0346 108.7227 0)
+		(uuid "50e06e3d-1ac2-4651-a6db-0bb0b1303108")
+		(property "Reference" "Q22"
+			(at 278.234 162.1554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NMOS SQ2348ES-T1_GE3"
+			(at 304.269 151.7644 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 304.269 154.3044 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/63706/sq2348es.pdf"
+			(at 304.269 156.8444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - SQ2348ES-T1_GE3 - MOSFET, AEC-Q101, N-CH, 30V, SOT-23"
+			(at 304.269 159.3844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 325.859 146.6844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 306.809 149.2244 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"SQ2348ES\" lib=\"${EPSA_lib}\\SpiceModel\\NMOS_SQ2348ES_PS Rev A.lib\""
+			(at 348.719 174.6244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3037,49 +6168,388 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "0"
-			(at 73.66 108.7226 90)
+		(property "Height" "1.12"
+			(at 304.269 161.9244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 70.9546 108.7227 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 81.1146 108.7227 0)
+		(property "Manufacturer_Name" "Vishay"
+			(at 304.269 164.4644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "0V reference potential for simulation"
-			(at 78.5746 108.7227 0)
+		(property "Manufacturer_Part_Number" "SQ2348ES-T1_GE3"
+			(at 304.269 167.0044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
+		)
+		(property "Mouser Part Number" "781-SQ2348ES-T1_GE3"
+			(at 304.269 169.5444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQ2348ES-T1_GE3?qs=jHkklCh7amgC88blremf%252Bw%3D%3D"
+			(at 304.269 172.0844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "NMOS"
+			(at 278.234 164.6954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "84d53dc1-4cc1-46a6-8782-d2d5d752c2ae")
+		)
+		(pin "2"
+			(uuid "7967767e-9d50-481e-baaf-814080ffaf59")
 		)
 		(pin "1"
-			(uuid "2e0d1673-cb08-4392-9110-bd302ed85c4e")
+			(uuid "df741759-b0b9-4017-8cfb-a52b1247b7a7")
 		)
 		(instances
 			(project "BMS_testboard"
 				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
-					(reference "#GND04")
+					(reference "Q22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Multiplexer_16channels:ADG406BPZ")
+		(at 216.7558 48.312 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53786f5b-f4a8-4314-a708-9ce6ae4e1fa0")
+		(property "Reference" "U1"
+			(at 244.6958 38.0393 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "ADG406BPZ"
+			(at 244.6958 40.5793 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "P_28_ADI"
+			(at 216.7558 48.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "ADG406BPZ"
+			(at 216.7558 48.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 216.7558 48.312 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "9"
+			(uuid "40357dc5-1e83-4afb-ac9c-34a7e4888bb8")
+		)
+		(pin "28"
+			(uuid "4d755656-1d5a-4ef2-a8ed-1e23a4bdffd8")
+		)
+		(pin "6"
+			(uuid "ccbb7186-eb8f-422d-894d-96062e2e78d5")
+		)
+		(pin "23"
+			(uuid "314c127c-bd60-4a7e-82fa-35f0a7da9693")
+		)
+		(pin "3"
+			(uuid "698bc779-e9f0-46ff-8f3c-a4da99bd3b4f")
+		)
+		(pin "8"
+			(uuid "afa18ec3-52f1-4bd2-9d71-63f9a8a823df")
+		)
+		(pin "17"
+			(uuid "6e41070f-4b81-4d0f-a2ef-e54f59031206")
+		)
+		(pin "4"
+			(uuid "f11d81b8-fe54-4f92-8135-b6468c08c325")
+		)
+		(pin "13"
+			(uuid "10d274f9-71d9-4486-835b-5d6aa37e69e1")
+		)
+		(pin "2"
+			(uuid "4f766096-ccf6-4ec8-a13d-0e54a510a484")
+		)
+		(pin "14"
+			(uuid "c37b2a1f-05ae-43ac-a9a2-139b9820336f")
+		)
+		(pin "22"
+			(uuid "2ec5ed44-be3a-404c-bc14-b68a50b0efe9")
+		)
+		(pin "18"
+			(uuid "4c13004a-72f8-4dbb-b0d3-b15e7d18780d")
+		)
+		(pin "21"
+			(uuid "2f8e376b-ae80-4265-a686-139fa21694d8")
+		)
+		(pin "15"
+			(uuid "145126c0-bda0-48f4-9970-c9a37cf37173")
+		)
+		(pin "5"
+			(uuid "e83b7ded-2db7-407a-ab59-a1b2f676d687")
+		)
+		(pin "27"
+			(uuid "fb843480-86b8-4049-8010-1cc2887dd2dc")
+		)
+		(pin "24"
+			(uuid "dc39e631-399f-4bb0-92be-fab88818498d")
+		)
+		(pin "12"
+			(uuid "463f71df-4680-4f54-a0f5-790b866adad6")
+		)
+		(pin "16"
+			(uuid "fc16eaee-3a9e-4d63-b72f-d9e1cf5b57db")
+		)
+		(pin "11"
+			(uuid "92408d10-41f5-4ef2-a2b3-9993a7fa12ee")
+		)
+		(pin "20"
+			(uuid "19fa6818-994d-42ca-9fb4-49aa27ab6be0")
+		)
+		(pin "10"
+			(uuid "5c9d499d-df87-4c10-9066-fdd2efea3415")
+		)
+		(pin "7"
+			(uuid "26ef13c3-591d-477e-b886-b646b2f64e2a")
+		)
+		(pin "25"
+			(uuid "166ae9f7-f644-41a6-949c-2a00cd10b30e")
+		)
+		(pin "1"
+			(uuid "68686686-3d26-4c3c-af0d-7e60797d24b5")
+		)
+		(pin "26"
+			(uuid "d8c0090d-5615-4579-9048-b269b833ed78")
+		)
+		(pin "19"
+			(uuid "51a6a932-bec2-47d4-a03a-143dc93a7398")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:NMOS SQ2348ES-T1_GE3")
+		(at 214.9764 161.5262 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59b16166-fb44-40d4-8329-fbba98aac47a")
+		(property "Reference" "Q18"
+			(at 230.8514 161.7572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NMOS SQ2348ES-T1_GE3"
+			(at 256.8864 151.3662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 256.8864 153.9062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/63706/sq2348es.pdf"
+			(at 256.8864 156.4462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - SQ2348ES-T1_GE3 - MOSFET, AEC-Q101, N-CH, 30V, SOT-23"
+			(at 256.8864 158.9862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 278.4764 146.2862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 259.4264 148.8262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"SQ2348ES\" lib=\"${EPSA_lib}\\SpiceModel\\NMOS_SQ2348ES_PS Rev A.lib\""
+			(at 301.3364 174.2262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.12"
+			(at 256.8864 161.5262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 256.8864 164.0662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SQ2348ES-T1_GE3"
+			(at 256.8864 166.6062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SQ2348ES-T1_GE3"
+			(at 256.8864 169.1462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQ2348ES-T1_GE3?qs=jHkklCh7amgC88blremf%252Bw%3D%3D"
+			(at 256.8864 171.6862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "NMOS"
+			(at 230.8514 164.2972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ae7c5adc-0074-4210-9cd4-467b9bd02c2c")
+		)
+		(pin "2"
+			(uuid "3bbb7b2f-a5ec-49ed-bd34-c6a755bbf773")
+		)
+		(pin "1"
+			(uuid "c922fbeb-825c-4651-93ee-c580155024b0")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "Q18")
 					(unit 1)
 				)
 			)
@@ -3157,168 +6627,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 50.0169 108.7253 90)
+		(lib_id "EPSA_lib:PMOS SI2343CDS-T1-GE3")
+		(at 86.9971 171.8134 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5edae842-cacf-4693-9413-e56b457553c9")
-		(property "Reference" "RV3"
-			(at 50.0169 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Potentiometer"
-			(at 50.0169 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.0169 108.7253 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 50.0169 108.7253 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 50.0169 108.7253 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dd56c04a-2835-4a9b-b0dd-c443e009ecc0")
-		)
-		(pin "1"
-			(uuid "bad012aa-cb9f-4caa-be7c-f7f33afcc82b")
-		)
-		(pin "3"
-			(uuid "83fcb610-de52-4339-ada8-e95465cfe251")
-		)
-		(instances
-			(project "BMS_testboard"
-				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
-					(reference "RV3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 49.7153 185.4722 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66492d88-ecdb-4dfb-a965-4d368bb274e7")
-		(property "Reference" "RV7"
-			(at 49.7153 189.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Potentiometer"
-			(at 49.7153 191.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.7153 185.4722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.7153 185.4722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 49.7153 185.4722 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b6fa3dbb-2a4a-4e94-8abb-3337955f56ff")
-		)
-		(pin "1"
-			(uuid "5c638374-483d-40d5-8d75-da1ed2d5bafb")
-		)
-		(pin "3"
-			(uuid "febbca3d-d886-48fd-9be5-9fc63a817673")
-		)
-		(instances
-			(project "BMS_testboard"
-				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
-					(reference "RV7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 70.653 185.4696 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66d73ab0-e55f-4c07-8d11-93bc75635ff2")
-		(property "Reference" "#GND08"
-			(at 75.733 185.4696 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 73.66 185.4695 90)
+		(uuid "61f20699-aae4-4ba7-bdb0-03ca27739b63")
+		(property "Reference" "Q10"
+			(at 87.9612 169.9083 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3326,8 +6645,68 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 70.653 185.4696 0)
+		(property "Value" "PMOS SI2343CDS-T1-GE3"
+			(at 76.8371 143.8734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 79.3771 143.8734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1582493.pdf"
+			(at 81.9171 143.8734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trans MOSFET P-CH 30V 4.2A 3-Pin Vishay SI2343CDS-T1-GE3 P-channel MOSFET Transistor, 4.7 A, -30 V, 3-Pin TO-236"
+			(at 84.4571 143.8734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 71.7571 119.7434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 74.2971 141.3334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"Si2343CDS\" lib=\"${EPSA_lib}\\SpiceModel\\PMOS_si2343cds_ps Rev B.lib\""
+			(at 99.6971 99.4234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3335,31 +6714,241 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 80.813 185.4696 0)
+		(property "Height" "1.12"
+			(at 86.9971 143.8734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "0V reference potential for simulation"
-			(at 78.273 185.4696 0)
+		(property "Manufacturer_Name" "Vishay"
+			(at 89.5371 143.8734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI2343CDS-T1-GE3"
+			(at 92.0771 143.8734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SI2343CDS-T1-GE3"
+			(at 94.6171 143.8734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2343CDS-T1-GE3?qs=WX95TUc1y56rXCTRPp%252BkZQ%3D%3D"
+			(at 97.1571 143.8734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "PMOS"
+			(at 87.9612 172.4483 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(pin "1"
-			(uuid "3904cd24-4d6f-4e23-8352-a3eb4eacf534")
+			(uuid "3e0ccfdf-844b-449a-abaf-c712d8a4553e")
+		)
+		(pin "2"
+			(uuid "9a9617c0-4a73-422c-ad64-05b0b932bbf2")
+		)
+		(pin "3"
+			(uuid "601414bf-a4f1-4f63-a1ac-0756c753599d")
 		)
 		(instances
 			(project "BMS_testboard"
 				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
-					(reference "#GND08")
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:NMOS SQ2348ES-T1_GE3")
+		(at 259.97 117.329 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c857f3c-32d1-41af-8044-365777804083")
+		(property "Reference" "Q21"
+			(at 275.845 117.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NMOS SQ2348ES-T1_GE3"
+			(at 301.88 107.169 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 301.88 109.709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/63706/sq2348es.pdf"
+			(at 301.88 112.249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - SQ2348ES-T1_GE3 - MOSFET, AEC-Q101, N-CH, 30V, SOT-23"
+			(at 301.88 114.789 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 323.47 102.089 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 304.42 104.629 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"SQ2348ES\" lib=\"${EPSA_lib}\\SpiceModel\\NMOS_SQ2348ES_PS Rev A.lib\""
+			(at 346.33 130.029 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.12"
+			(at 301.88 117.329 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 301.88 119.869 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SQ2348ES-T1_GE3"
+			(at 301.88 122.409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SQ2348ES-T1_GE3"
+			(at 301.88 124.949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQ2348ES-T1_GE3?qs=jHkklCh7amgC88blremf%252Bw%3D%3D"
+			(at 301.88 127.489 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "NMOS"
+			(at 275.845 120.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "9a00ef22-c18f-4f8c-be30-f697c8362e3a")
+		)
+		(pin "2"
+			(uuid "ea1321ce-f87a-4a81-b7ef-f6f0b1483284")
+		)
+		(pin "1"
+			(uuid "6a2d8616-6b59-4d3a-af44-babdcaa71ffb")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "Q21")
 					(unit 1)
 				)
 			)
@@ -3498,26 +7087,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 73.1788 165.9848 90)
+		(lib_id "EPSA_lib:PMOS SI2343CDS-T1-GE3")
+		(at 226.3577 171.8134 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "772e092b-a8bb-4b11-acd1-d7c12965784d")
-		(property "Reference" "#GND07"
-			(at 78.2588 165.9848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 76.2 165.9847 90)
+		(uuid "7569689f-5a20-4b8c-b5a1-14c8f3931d85")
+		(property "Reference" "Q20"
+			(at 227.3218 169.9083 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3525,8 +7105,68 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 73.1788 165.9848 0)
+		(property "Value" "PMOS SI2343CDS-T1-GE3"
+			(at 216.1977 143.8734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 218.7377 143.8734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1582493.pdf"
+			(at 221.2777 143.8734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trans MOSFET P-CH 30V 4.2A 3-Pin Vishay SI2343CDS-T1-GE3 P-channel MOSFET Transistor, 4.7 A, -30 V, 3-Pin TO-236"
+			(at 223.8177 143.8734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 211.1177 119.7434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 213.6577 141.3334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"Si2343CDS\" lib=\"${EPSA_lib}\\SpiceModel\\PMOS_si2343cds_ps Rev B.lib\""
+			(at 239.0577 99.4234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3534,199 +7174,58 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 83.3388 165.9848 0)
+		(property "Height" "1.12"
+			(at 226.3577 143.8734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "0V reference potential for simulation"
-			(at 80.7988 165.9848 0)
+		(property "Manufacturer_Name" "Vishay"
+			(at 228.8977 143.8734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "90cc1f06-93c1-429b-93dc-22d0598d2a7f")
-		)
-		(instances
-			(project "BMS_testboard"
-				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
-					(reference "#GND07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 115.6855 147.0464 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "88b96fc7-fe2d-4bbd-9eec-98ee4f0aa0cd")
-		(property "Reference" "RV12"
-			(at 115.6855 149.86 90)
+		(property "Manufacturer_Part_Number" "SI2343CDS-T1-GE3"
+			(at 231.4377 143.8734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "Value" "R_Potentiometer"
-			(at 115.6855 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.6855 147.0464 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 115.6855 147.0464 0)
+		(property "Mouser Part Number" "781-SI2343CDS-T1-GE3"
+			(at 233.9777 143.8734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 115.6855 147.0464 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2343CDS-T1-GE3?qs=WX95TUc1y56rXCTRPp%252BkZQ%3D%3D"
+			(at 236.5177 143.8734 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "2e67e205-abf9-4e6d-91cc-b875b1766217")
-		)
-		(pin "1"
-			(uuid "7fd7fb1a-fe72-4b60-91a0-88d93caec8cd")
-		)
-		(pin "3"
-			(uuid "27d3ec07-8377-4ec8-b579-dac271565758")
-		)
-		(instances
-			(project "BMS_testboard"
-				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
-					(reference "RV12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 113.0358 91.2455 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c779e30-c235-40c0-8bf9-8ff3bdd9c2e7")
-		(property "Reference" "RV9"
-			(at 113.0358 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Potentiometer"
-			(at 113.0358 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.0358 91.2455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.0358 91.2455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 113.0358 91.2455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ba53ad33-acb8-4855-9589-1f856635bbae")
-		)
-		(pin "1"
-			(uuid "a3f65968-0548-4040-942f-24b0daed41f7")
-		)
-		(pin "3"
-			(uuid "c0f2e10d-907d-4068-b89a-0eb4dd3276ec")
-		)
-		(instances
-			(project "BMS_testboard"
-				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
-					(reference "RV9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 133.9735 91.2429 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0c71ed2-abb6-4020-b234-7421fe19fae4")
-		(property "Reference" "#GND010"
-			(at 139.0535 91.2429 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 135.89 91.2428 90)
+		(property "Render Name" "PMOS"
+			(at 227.3218 172.4483 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3734,40 +7233,1136 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 133.9735 91.2429 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 144.1335 91.2429 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0V reference potential for simulation"
-			(at 141.5935 91.2429 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
-			(uuid "133eb88b-d047-4e91-943f-a9a981827cc4")
+			(uuid "516f82a0-bc1a-4425-8b19-5c66755bd967")
+		)
+		(pin "2"
+			(uuid "12506367-97ef-473b-864a-5db53e8b8774")
+		)
+		(pin "3"
+			(uuid "e0a8d282-0c34-43da-bea9-28d3f88c3540")
 		)
 		(instances
 			(project "BMS_testboard"
 				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
-					(reference "#GND010")
+					(reference "Q20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:PMOS SI2343CDS-T1-GE3")
+		(at 181.9145 127.6841 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8805a820-51be-49ca-a8d9-75f7808c519b")
+		(property "Reference" "Q16"
+			(at 182.8786 125.779 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PMOS SI2343CDS-T1-GE3"
+			(at 171.7545 99.7441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 174.2945 99.7441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1582493.pdf"
+			(at 176.8345 99.7441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trans MOSFET P-CH 30V 4.2A 3-Pin Vishay SI2343CDS-T1-GE3 P-channel MOSFET Transistor, 4.7 A, -30 V, 3-Pin TO-236"
+			(at 179.3745 99.7441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 166.6745 75.6141 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 169.2145 97.2041 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"Si2343CDS\" lib=\"${EPSA_lib}\\SpiceModel\\PMOS_si2343cds_ps Rev B.lib\""
+			(at 194.6145 55.2941 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.12"
+			(at 181.9145 99.7441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 184.4545 99.7441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI2343CDS-T1-GE3"
+			(at 186.9945 99.7441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SI2343CDS-T1-GE3"
+			(at 189.5345 99.7441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2343CDS-T1-GE3?qs=WX95TUc1y56rXCTRPp%252BkZQ%3D%3D"
+			(at 192.0745 99.7441 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "PMOS"
+			(at 182.8786 128.319 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "8d83973d-3ef7-4915-8a04-12c48163d58d")
+		)
+		(pin "2"
+			(uuid "c7931e6d-2d7e-488f-a879-761d6aca62d7")
+		)
+		(pin "3"
+			(uuid "43dc9028-9b35-4e16-ad07-1fa2149e8f09")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "Q16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:NMOS SQ2348ES-T1_GE3")
+		(at 170.5332 117.3969 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b08c433-8b3c-4a1a-b5df-1a43a0cd2be1")
+		(property "Reference" "Q14"
+			(at 186.4082 117.6279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NMOS SQ2348ES-T1_GE3"
+			(at 212.4432 107.2369 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 212.4432 109.7769 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/63706/sq2348es.pdf"
+			(at 212.4432 112.3169 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - SQ2348ES-T1_GE3 - MOSFET, AEC-Q101, N-CH, 30V, SOT-23"
+			(at 212.4432 114.8569 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 234.0332 102.1569 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 214.9832 104.6969 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"SQ2348ES\" lib=\"${EPSA_lib}\\SpiceModel\\NMOS_SQ2348ES_PS Rev A.lib\""
+			(at 256.8932 130.0969 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.12"
+			(at 212.4432 117.3969 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 212.4432 119.9369 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SQ2348ES-T1_GE3"
+			(at 212.4432 122.4769 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SQ2348ES-T1_GE3"
+			(at 212.4432 125.0169 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQ2348ES-T1_GE3?qs=jHkklCh7amgC88blremf%252Bw%3D%3D"
+			(at 212.4432 127.5569 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "NMOS"
+			(at 186.4082 120.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ec882a01-ab7f-47c1-84d4-e71b0ec5dac1")
+		)
+		(pin "2"
+			(uuid "50e64077-92dc-4c3c-9dbb-54b1317fa8c3")
+		)
+		(pin "1"
+			(uuid "cca989a0-376a-4356-a984-0dcfc634d3c5")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:NMOS SQ2348ES-T1_GE3")
+		(at 75.6158 161.5262 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f61a656-ebac-48d5-ab46-0f0391572b33")
+		(property "Reference" "Q9"
+			(at 91.4908 161.7572 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NMOS SQ2348ES-T1_GE3"
+			(at 117.5258 151.3662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 117.5258 153.9062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/63706/sq2348es.pdf"
+			(at 117.5258 156.4462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - SQ2348ES-T1_GE3 - MOSFET, AEC-Q101, N-CH, 30V, SOT-23"
+			(at 117.5258 158.9862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 139.1158 146.2862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 120.0658 148.8262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"SQ2348ES\" lib=\"${EPSA_lib}\\SpiceModel\\NMOS_SQ2348ES_PS Rev A.lib\""
+			(at 161.9758 174.2262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.12"
+			(at 117.5258 161.5262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 117.5258 164.0662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SQ2348ES-T1_GE3"
+			(at 117.5258 166.6062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SQ2348ES-T1_GE3"
+			(at 117.5258 169.1462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQ2348ES-T1_GE3?qs=jHkklCh7amgC88blremf%252Bw%3D%3D"
+			(at 117.5258 171.6862 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "NMOS"
+			(at 91.4908 164.2972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "082e2808-5454-4c9e-936a-7fb2991dc8e8")
+		)
+		(pin "2"
+			(uuid "a2578e20-7cbf-46e6-a8f5-d506b6e90598")
+		)
+		(pin "1"
+			(uuid "c53738d5-5fff-402f-ac91-afeacf1a0646")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:PMOS SI2343CDS-T1-GE3")
+		(at 131.9907 127.6162 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "910d384d-c2ce-4297-ab42-16333136b00f")
+		(property "Reference" "Q6"
+			(at 132.9548 125.7111 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PMOS SI2343CDS-T1-GE3"
+			(at 121.8307 99.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 124.3707 99.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1582493.pdf"
+			(at 126.9107 99.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trans MOSFET P-CH 30V 4.2A 3-Pin Vishay SI2343CDS-T1-GE3 P-channel MOSFET Transistor, 4.7 A, -30 V, 3-Pin TO-236"
+			(at 129.4507 99.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 116.7507 75.5462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 119.2907 97.1362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"Si2343CDS\" lib=\"${EPSA_lib}\\SpiceModel\\PMOS_si2343cds_ps Rev B.lib\""
+			(at 144.6907 55.2262 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.12"
+			(at 131.9907 99.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 134.5307 99.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI2343CDS-T1-GE3"
+			(at 137.0707 99.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SI2343CDS-T1-GE3"
+			(at 139.6107 99.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2343CDS-T1-GE3?qs=WX95TUc1y56rXCTRPp%252BkZQ%3D%3D"
+			(at 142.1507 99.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "PMOS"
+			(at 132.9548 128.2511 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "1aec8704-881a-435b-ba76-202001037273")
+		)
+		(pin "2"
+			(uuid "6a209b2b-d5e2-47ce-b347-9627dfaa7fdd")
+		)
+		(pin "3"
+			(uuid "2c3d7df2-a6c6-4aa9-a3bf-ddc42f088ff6")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:PMOS SI2343CDS-T1-GE3")
+		(at 178.9751 173.0079 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a27baf53-87b2-43bc-9d50-006ae5c11c66")
+		(property "Reference" "Q15"
+			(at 179.9392 171.1028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PMOS SI2343CDS-T1-GE3"
+			(at 168.8151 145.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 171.3551 145.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1582493.pdf"
+			(at 173.8951 145.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trans MOSFET P-CH 30V 4.2A 3-Pin Vishay SI2343CDS-T1-GE3 P-channel MOSFET Transistor, 4.7 A, -30 V, 3-Pin TO-236"
+			(at 176.4351 145.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 163.7351 120.9379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 166.2751 142.5279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"Si2343CDS\" lib=\"${EPSA_lib}\\SpiceModel\\PMOS_si2343cds_ps Rev B.lib\""
+			(at 191.6751 100.6179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.12"
+			(at 178.9751 145.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 181.5151 145.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI2343CDS-T1-GE3"
+			(at 184.0551 145.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SI2343CDS-T1-GE3"
+			(at 186.5951 145.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2343CDS-T1-GE3?qs=WX95TUc1y56rXCTRPp%252BkZQ%3D%3D"
+			(at 189.1351 145.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "PMOS"
+			(at 179.9392 173.6428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "c0cce338-af03-403c-9d0d-713fd13e6460")
+		)
+		(pin "2"
+			(uuid "a5beb683-4f55-42b0-a847-78a90730a901")
+		)
+		(pin "3"
+			(uuid "9bb139ab-c967-41e1-91ad-d75ac1bea24b")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "Q15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:2P Droit 22-11-2022")
+		(at 112.533 27.2376 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a83128cb-7220-41b2-bf22-e5f41dd38906")
+		(property "Reference" "J4"
+			(at 118.6314 27.2375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "2P Droit 22-11-2022"
+			(at 108.723 20.8876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:MOLEX_22-11-2022"
+			(at 115.073 20.8876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112022?display=pdf"
+			(at 112.533 20.8876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 112.533 27.2376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.66mm"
+			(at 117.613 20.8876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "2P Droit"
+			(at 108.723 27.2376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 109.993 20.8876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "22-11-2022"
+			(at 121.423 20.8876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-22-11-2022"
+			(at 123.963 20.8876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2022?qs=mrPiglD9aYLq1NGrfjXTJg%3D%3D"
+			(at 118.883 20.8876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "148e662f-eee6-470f-a097-45991d26cb49")
+		)
+		(pin "2"
+			(uuid "f0eb83c7-d2aa-4410-81c7-0955eaf1027a")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:NMOS SQ2348ES-T1_GE3")
+		(at 73.2267 118.1253 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac49f0da-7acd-4d76-b14a-a1700b6506f5")
+		(property "Reference" "Q3"
+			(at 89.1017 118.3563 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NMOS SQ2348ES-T1_GE3"
+			(at 115.1367 107.9653 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 115.1367 110.5053 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/63706/sq2348es.pdf"
+			(at 115.1367 113.0453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - SQ2348ES-T1_GE3 - MOSFET, AEC-Q101, N-CH, 30V, SOT-23"
+			(at 115.1367 115.5853 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 136.7267 102.8853 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 117.6767 105.4253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"SQ2348ES\" lib=\"${EPSA_lib}\\SpiceModel\\NMOS_SQ2348ES_PS Rev A.lib\""
+			(at 159.5867 130.8253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.12"
+			(at 115.1367 118.1253 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 115.1367 120.6653 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SQ2348ES-T1_GE3"
+			(at 115.1367 123.2053 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SQ2348ES-T1_GE3"
+			(at 115.1367 125.7453 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQ2348ES-T1_GE3?qs=jHkklCh7amgC88blremf%252Bw%3D%3D"
+			(at 115.1367 128.2853 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "NMOS"
+			(at 89.1017 120.8963 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "d84bc47b-a25a-4d0b-8263-cfcba290c32e")
+		)
+		(pin "2"
+			(uuid "05ff9f1d-5960-4f03-8afe-20e386e0deae")
+		)
+		(pin "1"
+			(uuid "f21e73d6-07e5-4dd5-b321-df5ab581a765")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -3919,33 +8514,85 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 50.7314 148.0951 90)
+		(lib_id "EPSA_lib:NMOS SQ2348ES-T1_GE3")
+		(at 167.5938 162.7207 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cb8c5632-e350-4ece-9d61-0cc46b52a94c")
-		(property "Reference" "RV5"
-			(at 50.7314 151.13 90)
+		(uuid "bee97c28-123e-47d4-815a-b4ce4eede6db")
+		(property "Reference" "Q13"
+			(at 183.4688 162.9517 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_Potentiometer"
-			(at 50.7314 153.67 90)
+		(property "Value" "NMOS SQ2348ES-T1_GE3"
+			(at 209.5038 152.5607 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 50.7314 148.0951 0)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 209.5038 155.1007 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/63706/sq2348es.pdf"
+			(at 209.5038 157.6407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - SQ2348ES-T1_GE3 - MOSFET, AEC-Q101, N-CH, 30V, SOT-23"
+			(at 209.5038 160.1807 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 231.0938 147.4807 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 212.0438 150.0207 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"SQ2348ES\" lib=\"${EPSA_lib}\\SpiceModel\\NMOS_SQ2348ES_PS Rev A.lib\""
+			(at 253.9538 175.4207 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,70 +8600,163 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 50.7314 148.0951 0)
+		(property "Height" "1.12"
+			(at 209.5038 162.7207 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 50.7314 148.0951 0)
+		(property "Manufacturer_Name" "Vishay"
+			(at 209.5038 165.2607 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "76be02fc-876e-41a9-bf1f-b62f5a83dc37")
+		(property "Manufacturer_Part_Number" "SQ2348ES-T1_GE3"
+			(at 209.5038 167.8007 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
 		)
-		(pin "1"
-			(uuid "61f6ffa9-8fd3-49c6-af69-d3a8b335d718")
+		(property "Mouser Part Number" "781-SQ2348ES-T1_GE3"
+			(at 209.5038 170.3407 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQ2348ES-T1_GE3?qs=jHkklCh7amgC88blremf%252Bw%3D%3D"
+			(at 209.5038 172.8807 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "NMOS"
+			(at 183.4688 165.4917 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "3"
-			(uuid "62581706-17ec-4a4b-b587-e48fb7c9fd65")
+			(uuid "dcb4035a-2a73-4cc4-8196-78be31711bfa")
+		)
+		(pin "2"
+			(uuid "e77abd9d-09f8-4638-8c8b-ef01472ac1d9")
+		)
+		(pin "1"
+			(uuid "c4396962-9dc4-4bef-8621-113dad765bbe")
 		)
 		(instances
 			(project "BMS_testboard"
 				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
-					(reference "RV5")
+					(reference "Q13")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 113.3475 108.5469 90)
+		(lib_id "EPSA_lib:PMOS SI2343CDS-T1-GE3")
+		(at 271.3513 127.6162 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ce4c37a5-0842-4659-aba4-ead9149b8517")
-		(property "Reference" "RV10"
-			(at 113.3475 111.76 90)
+		(uuid "c2c75fae-699a-475b-91e7-6796825f1c0c")
+		(property "Reference" "Q23"
+			(at 272.3154 125.7111 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer"
-			(at 113.3475 114.3 90)
+		(property "Value" "PMOS SI2343CDS-T1-GE3"
+			(at 261.1913 99.6762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 113.3475 108.5469 0)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 263.7313 99.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1582493.pdf"
+			(at 266.2713 99.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trans MOSFET P-CH 30V 4.2A 3-Pin Vishay SI2343CDS-T1-GE3 P-channel MOSFET Transistor, 4.7 A, -30 V, 3-Pin TO-236"
+			(at 268.8113 99.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 256.1113 75.5462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 258.6513 97.1362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"Si2343CDS\" lib=\"${EPSA_lib}\\SpiceModel\\PMOS_si2343cds_ps Rev B.lib\""
+			(at 284.0513 55.2262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4024,8 +8764,164 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 113.3475 108.5469 0)
+		(property "Height" "1.12"
+			(at 271.3513 99.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 273.8913 99.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI2343CDS-T1-GE3"
+			(at 276.4313 99.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SI2343CDS-T1-GE3"
+			(at 278.9713 99.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2343CDS-T1-GE3?qs=WX95TUc1y56rXCTRPp%252BkZQ%3D%3D"
+			(at 281.5113 99.6762 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "PMOS"
+			(at 272.3154 128.2511 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "b47508ee-10d3-4537-b132-19d2fa3d2c43")
+		)
+		(pin "2"
+			(uuid "8f38a628-8f14-47d7-8738-baa6e660157c")
+		)
+		(pin "3"
+			(uuid "4ad11bb7-e90c-49bb-9e2e-7a322a2ffde8")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "Q23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:PMOS SI2343CDS-T1-GE3")
+		(at 39.6145 173.0079 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c76f8800-f3df-4500-bc2b-e7753fc6ae6f")
+		(property "Reference" "Q8"
+			(at 40.5786 171.1028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PMOS SI2343CDS-T1-GE3"
+			(at 29.4545 145.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 31.9945 145.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1582493.pdf"
+			(at 34.5345 145.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trans MOSFET P-CH 30V 4.2A 3-Pin Vishay SI2343CDS-T1-GE3 P-channel MOSFET Transistor, 4.7 A, -30 V, 3-Pin TO-236"
+			(at 37.0745 145.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 24.3745 120.9379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 26.9145 142.5279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"Si2343CDS\" lib=\"${EPSA_lib}\\SpiceModel\\PMOS_si2343cds_ps Rev B.lib\""
+			(at 52.3145 100.6179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,8 +8929,375 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Potentiometer"
-			(at 113.3475 108.5469 0)
+		(property "Height" "1.12"
+			(at 39.6145 145.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 42.1545 145.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI2343CDS-T1-GE3"
+			(at 44.6945 145.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SI2343CDS-T1-GE3"
+			(at 47.2345 145.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2343CDS-T1-GE3?qs=WX95TUc1y56rXCTRPp%252BkZQ%3D%3D"
+			(at 49.7745 145.0679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "PMOS"
+			(at 40.5786 173.6428 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "006a3857-2106-44b4-a442-8fb9c2fbeee8")
+		)
+		(pin "2"
+			(uuid "0f64752b-9d1d-4c77-a4d4-9df8004407f2")
+		)
+		(pin "3"
+			(uuid "a1a781ce-e792-4a23-bd33-c7569d831f21")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:PMOS SI2343CDS-T1-GE3")
+		(at 41.948 127.7763 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdc230a1-e770-4357-8085-ff6c38fe4873")
+		(property "Reference" "Q2"
+			(at 42.9121 125.8712 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PMOS SI2343CDS-T1-GE3"
+			(at 31.788 99.8363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 34.328 99.8363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1582493.pdf"
+			(at 36.868 99.8363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trans MOSFET P-CH 30V 4.2A 3-Pin Vishay SI2343CDS-T1-GE3 P-channel MOSFET Transistor, 4.7 A, -30 V, 3-Pin TO-236"
+			(at 39.408 99.8363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 26.708 75.7063 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 29.248 97.2963 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"Si2343CDS\" lib=\"${EPSA_lib}\\SpiceModel\\PMOS_si2343cds_ps Rev B.lib\""
+			(at 54.648 55.3863 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.12"
+			(at 41.948 99.8363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 44.488 99.8363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI2343CDS-T1-GE3"
+			(at 47.028 99.8363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SI2343CDS-T1-GE3"
+			(at 49.568 99.8363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2343CDS-T1-GE3?qs=WX95TUc1y56rXCTRPp%252BkZQ%3D%3D"
+			(at 52.108 99.8363 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "PMOS"
+			(at 42.9121 128.4112 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "e3afa6e7-098a-40e3-9e1c-0f09c8fdaa5a")
+		)
+		(pin "2"
+			(uuid "b5462b3e-9b5d-40c0-84f9-4b70da86a6c5")
+		)
+		(pin "3"
+			(uuid "56dae1a8-4df7-40ff-ba7f-eb34a9219bfd")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:Condensateur 0805Y1000104JXT")
+		(at 181.5788 34.9668 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ceb97686-dca4-4677-ae0d-9b3832acc2b0")
+		(property "Reference" "C1"
+			(at 187.2938 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 187.2938 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EPSA_lib:CAPC2012X130N"
+			(at 201.8988 34.9668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://docs-europe.electrocomponents.com/webdocs/119d/0900766b8119d7bc.pdf"
+			(at 201.8988 37.5068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Syfer 0805 Ceramic Chip Capacitors"
+			(at 201.8988 40.0468 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 206.7248 32.6808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 201.8988 29.8868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.3"
+			(at 201.8988 42.5868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Syfer"
+			(at 201.8988 45.1268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805Y1000104JXT"
+			(at 201.8988 47.6668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 190.4688 48.9368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 201.8988 47.6668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "Condensateur"
+			(at 188.1828 30.9028 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,18 +9306,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "82881e43-eb7e-4a8d-b5be-6b3f34a227ac")
+			(uuid "a4066076-34b4-425f-9dbb-3b79851b5e9b")
 		)
 		(pin "1"
-			(uuid "397c1ea1-86e4-48fa-98bd-c97be470194a")
-		)
-		(pin "3"
-			(uuid "c55c5e88-9ad2-47da-865b-a250fa347bf5")
+			(uuid "ba7b5c5d-cf6e-4e24-9a05-bde4db06fd4d")
 		)
 		(instances
 			(project "BMS_testboard"
 				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
-					(reference "RV10")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4128,6 +9388,334 @@
 		)
 	)
 	(symbol
+		(lib_id "EPSA_lib:NMOS SQ2348ES-T1_GE3")
+		(at 120.6094 117.329 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4a032bc-b020-442c-90c0-0535ae663d01")
+		(property "Reference" "Q5"
+			(at 136.4844 117.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NMOS SQ2348ES-T1_GE3"
+			(at 162.5194 107.169 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 162.5194 109.709 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/63706/sq2348es.pdf"
+			(at 162.5194 112.249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - SQ2348ES-T1_GE3 - MOSFET, AEC-Q101, N-CH, 30V, SOT-23"
+			(at 162.5194 114.789 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 184.1094 102.089 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 165.0594 104.629 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"SQ2348ES\" lib=\"${EPSA_lib}\\SpiceModel\\NMOS_SQ2348ES_PS Rev A.lib\""
+			(at 206.9694 130.029 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.12"
+			(at 162.5194 117.329 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 162.5194 119.869 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SQ2348ES-T1_GE3"
+			(at 162.5194 122.409 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SQ2348ES-T1_GE3"
+			(at 162.5194 124.949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQ2348ES-T1_GE3?qs=jHkklCh7amgC88blremf%252Bw%3D%3D"
+			(at 162.5194 127.489 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "NMOS"
+			(at 136.4844 120.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "94c0356d-ee54-4d4e-b9ef-7dff3fc59e64")
+		)
+		(pin "2"
+			(uuid "0fd277ca-04c5-4ac3-bfb2-c3c54f0c9e33")
+		)
+		(pin "1"
+			(uuid "5bfc914f-7bcc-410a-9fc2-59184b6a4e53")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:PMOS SI2343CDS-T1-GE3")
+		(at 273.7403 172.2116 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5a98f25-cdeb-4566-bedb-65428d6eabf4")
+		(property "Reference" "Q24"
+			(at 274.7044 170.3065 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PMOS SI2343CDS-T1-GE3"
+			(at 263.5803 144.2716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 266.1203 144.2716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA23/1582493.pdf"
+			(at 268.6603 144.2716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trans MOSFET P-CH 30V 4.2A 3-Pin Vishay SI2343CDS-T1-GE3 P-channel MOSFET Transistor, 4.7 A, -30 V, 3-Pin TO-236"
+			(at 271.2003 144.2716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 258.5003 120.1416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 261.0403 141.7316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"Si2343CDS\" lib=\"${EPSA_lib}\\SpiceModel\\PMOS_si2343cds_ps Rev B.lib\""
+			(at 286.4403 99.8216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.12"
+			(at 273.7403 144.2716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 276.2803 144.2716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SI2343CDS-T1-GE3"
+			(at 278.8203 144.2716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SI2343CDS-T1-GE3"
+			(at 281.3603 144.2716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI2343CDS-T1-GE3?qs=WX95TUc1y56rXCTRPp%252BkZQ%3D%3D"
+			(at 283.9003 144.2716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "PMOS"
+			(at 274.7044 172.8465 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "d2045f86-f60a-459a-bbbd-b29e0bbbbc32")
+		)
+		(pin "2"
+			(uuid "5ecd37df-2eea-423e-be19-49ee843f5962")
+		)
+		(pin "3"
+			(uuid "6741a897-d56c-4eee-ac36-3b0ba40e4b8c")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "Q24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 112.5682 72.5413 90)
 		(unit 1)
@@ -4193,6 +9781,169 @@
 			(project "BMS_testboard"
 				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
 					(reference "RV8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:NMOS SQ2348ES-T1_GE3")
+		(at 30.5667 117.4891 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9280991-0167-41f2-a204-7879bb525f3c")
+		(property "Reference" "Q1"
+			(at 46.4417 117.7201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NMOS SQ2348ES-T1_GE3"
+			(at 72.4767 107.3291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:SOT95P237X112-3N"
+			(at 72.4767 109.8691 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/63706/sq2348es.pdf"
+			(at 72.4767 112.4091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "VISHAY - SQ2348ES-T1_GE3 - MOSFET, AEC-Q101, N-CH, 30V, SOT-23"
+			(at 72.4767 114.9491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "3=1 1=2 2=3"
+			(at 94.0667 102.2491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 75.0167 104.7891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"X\" model=\"SQ2348ES\" lib=\"${EPSA_lib}\\SpiceModel\\NMOS_SQ2348ES_PS Rev A.lib\""
+			(at 116.9267 130.1891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.12"
+			(at 72.4767 117.4891 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 72.4767 120.0291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SQ2348ES-T1_GE3"
+			(at 72.4767 122.5691 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "781-SQ2348ES-T1_GE3"
+			(at 72.4767 125.1091 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SQ2348ES-T1_GE3?qs=jHkklCh7amgC88blremf%252Bw%3D%3D"
+			(at 72.4767 127.6491 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "NMOS"
+			(at 46.4417 120.2601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "18c2d320-a924-4a7e-b91c-07b63960b5b3")
+		)
+		(pin "2"
+			(uuid "dfbb87f6-4f0b-4fea-acc4-a9e675cf4605")
+		)
+		(pin "1"
+			(uuid "37f33560-2fd7-4f37-9312-d525c70c275e")
+		)
+		(instances
+			(project "BMS_testboard"
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -4338,77 +10089,6 @@
 			(project "BMS_testboard"
 				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 115.0621 126.7835 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd46458f-7249-4370-9690-9d6b5354e3d9")
-		(property "Reference" "RV11"
-			(at 115.0621 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "R_Potentiometer"
-			(at 115.0621 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.0621 126.7835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.0621 126.7835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Potentiometer"
-			(at 115.0621 126.7835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3d2c91e0-d3c5-42a0-b2f9-2251e225424e")
-		)
-		(pin "1"
-			(uuid "efa3a08a-8de1-4f0a-be17-b717efb90337")
-		)
-		(pin "3"
-			(uuid "5624e84c-8665-41eb-bc9e-f1358ea1a83b")
-		)
-		(instances
-			(project "BMS_testboard"
-				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
-					(reference "RV11")
 					(unit 1)
 				)
 			)
