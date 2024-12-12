@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 5747844-6
+#/192675/1357958/2.50/11/2/Connector
+DEF 5747844-6 J 0 30 Y Y 1 F N
+F0 "J" 850 500 50 H V L CNN
+F1 "5747844-6" 850 400 50 H V L CNN
+F2 "57478446" 850 300 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82068_AMPLIMITE_Right-Angle_Posted_Conn&DocType=Catalog%20Section&DocLang=English&PartCntxt=5747844-6&DocFormat=pdf" 850 200 50 H I L CNN
+F4 "Body Features: Connector Profile Standard | Mating Feature Material Zinc | Assembly Process Feature Material Copper Alloy | Mating Feature Plating Material Clear Chromate | Primary Product Color Black | Shell Plating Material Tin | Insert Material Zinc | Configuration Features: Number of Rows 2 | Number of Positions 9 | PCB Mount Orientation Right Angle | Contact Features: Contact Base Material Phosphor Bronze | Contact Mating Area Plating Material Thickness 30 MICIN | Contact Mating Area Plating Material G" 850 100 50 H I L CNN "Description"
+F5 "12" 850 0 50 H I L CNN "Height"
+F6 "571-5747844-6" 850 -100 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5747844-6?qs=x6EjVpvqMVNBaI3EeeZZVw%3D%3D" 850 -200 50 H I L CNN "Mouser Price/Stock"
+F8 "TE Connectivity" 850 -300 50 H I L CNN "Manufacturer_Name"
+F9 "5747844-6" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 700 500 200 D 50 50 0 0 P
+X 2 2 600 500 200 D 50 50 0 0 P
+X 3 3 500 500 200 D 50 50 0 0 P
+X 4 4 400 500 200 D 50 50 0 0 P
+X 5 5 300 500 200 D 50 50 0 0 P
+X 6 6 600 -500 200 U 50 50 0 0 P
+X 7 7 500 -500 200 U 50 50 0 0 P
+X 8 8 400 -500 200 U 50 50 0 0 P
+X 9 9 300 -500 200 U 50 50 0 0 P
+X 10 10 0 0 200 R 50 50 0 0 P
+X 11 11 1000 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 300 800 300 800 -300 200 -300 200 300 N
+ENDDRAW
+ENDDEF
+#
+#End Library
