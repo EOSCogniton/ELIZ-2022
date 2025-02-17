@@ -6061,6 +6061,12 @@
 		(uuid "b37401ab-391d-4297-82bd-3e98efcdceac")
 	)
 	(junction
+		(at 218.44 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7a38570-cbfe-45bb-9988-56473d38417a")
+	)
+	(junction
 		(at 283.21 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6385,6 +6391,16 @@
 			(type default)
 		)
 		(uuid "04c4ba53-cecf-40d8-b615-7e1c394ac74a")
+	)
+	(wire
+		(pts
+			(xy 218.44 185.42) (xy 218.44 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04dd942f-5e01-4f89-ad3e-b47a551753a1")
 	)
 	(wire
 		(pts
@@ -6818,6 +6834,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 185.42) (xy 218.44 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2651543b-524b-4d13-82c4-67b8e36d2650")
+	)
+	(wire
+		(pts
 			(xy 257.81 132.08) (xy 257.81 133.35)
 		)
 		(stroke
@@ -7035,16 +7061,6 @@
 			(type default)
 		)
 		(uuid "3d4523ed-095b-41ac-baa6-d55af85022ae")
-	)
-	(wire
-		(pts
-			(xy 232.41 185.42) (xy 189.23 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dd74562-0114-4796-859b-4600a97cba7f")
 	)
 	(wire
 		(pts
@@ -8315,6 +8331,16 @@
 			(type default)
 		)
 		(uuid "9d047c5e-47ae-4318-a07f-6c47c88145be")
+	)
+	(wire
+		(pts
+			(xy 218.44 185.42) (xy 232.41 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc8ca67-89f4-469a-b3c5-610fd45d8c0c")
 	)
 	(wire
 		(pts
@@ -9852,6 +9878,17 @@
 			(justify left bottom)
 		)
 		(uuid "33e22fe9-0a1d-4391-9b01-c67567febe89")
+	)
+	(label "VREF2"
+		(at 218.44 187.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "352a3207-fe6c-4d84-9658-613605f2e137")
 	)
 	(label "Cell 1"
 		(at 54.61 189.23 0)
