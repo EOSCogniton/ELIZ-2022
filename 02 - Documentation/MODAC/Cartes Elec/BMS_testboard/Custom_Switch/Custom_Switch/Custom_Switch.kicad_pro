@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BMS_testboard.kicad_pro",
+    "filename": "Custom_Switch.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -370,14 +370,6 @@
       "version": 1
     },
     "net_format_name": "",
-    "ngspice": {
-      "fix_include_paths": true,
-      "meta": {
-        "version": 0
-      },
-      "model_mode": 4,
-      "workbook_filename": ""
-    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -389,11 +381,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74",
-      "Root"
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }
