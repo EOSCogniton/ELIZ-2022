@@ -760,6 +760,211 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EPSA_Lib:4P Angle 171857-4004"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 10.16 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "4P Angle 171857-4004"
+				(at 16.51 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "EPSA_lib:HDRRA4W66P0X254_1X4_762X818X635P"
+				(at 16.51 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/pdm_docs/sd/1718573005_sd.pdf"
+				(at 16.51 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Headers & Wire Housings KK RPC 254 Hdr FrLk R/A 04 Ckt 15Au T&R"
+				(at 16.51 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "6.35"
+				(at 16.51 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 16.51 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "171857-4004"
+				(at 16.51 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "538-171857-4004"
+				(at 16.51 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/171857-4004?qs=v0t%252BUMfTP8MMewSk%252BpG0KA%3D%3D"
+				(at 16.51 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "4P Angle"
+				(at 10.16 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "4P Angle 171857-4004_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "4P Angle 171857-4004_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 15.24 2.54) (xy 15.24 -10.16) (xy 5.08 -10.16) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EPSA_Lib:Gate NAND SN74AHCT1G00DBVR"
 			(pin_names
 				(offset 0.762)
@@ -2732,7 +2937,7 @@
 	)
 	(rectangle
 		(start 96.6447 69.3535)
-		(end 135.0863 101.6717)
+		(end 135.0863 104.2359)
 		(stroke
 			(width 0)
 			(type default)
@@ -2917,6 +3122,12 @@
 		(uuid "04187fdf-5005-41dc-8118-69fffc1819cb")
 	)
 	(junction
+		(at 221.2366 77.5019)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f096022-dfa0-4dfc-8c24-89e71eb1b3f2")
+	)
+	(junction
 		(at 210.6263 101.3955)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2999,12 +3210,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af9d0170-0aac-467e-a8bf-74bdde24d85b")
-	)
-	(junction
-		(at 217.9307 63.0062)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb3d2eb7-580d-4816-bdee-ca7aef4aee3e")
 	)
 	(junction
 		(at 27.2205 87.4265)
@@ -3131,16 +3336,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.8926 91.9474) (xy 116.8926 92.1204)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09a2caa8-4a30-4838-8102-5166beb51924")
-	)
-	(wire
-		(pts
 			(xy 265.2262 109.4957) (xy 265.7968 109.4957)
 		)
 		(stroke
@@ -3221,16 +3416,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.0107 63.0062) (xy 198.0107 93.6069)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a02e0e0-3250-4e9d-b543-ee5fabfea81d")
-	)
-	(wire
-		(pts
 			(xy 229.5657 47.7786) (xy 229.5657 47.79)
 		)
 		(stroke
@@ -3301,6 +3486,16 @@
 	)
 	(wire
 		(pts
+			(xy 221.2366 83.7057) (xy 221.2366 84.8028)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "203e6815-edaa-41b0-a8c9-4e695fa815ad")
+	)
+	(wire
+		(pts
 			(xy 213.7888 103.7576) (xy 213.7888 101.3955)
 		)
 		(stroke
@@ -3331,13 +3526,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.0107 63.0062) (xy 217.9307 63.0062)
+			(xy 198.0107 77.5019) (xy 198.0107 93.6069)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2967b6de-8a18-4a86-b2d3-e813ab1ebc95")
+		(uuid "2cd43e27-78b1-4d4d-bc74-d13f7b7ce11a")
 	)
 	(wire
 		(pts
@@ -3371,16 +3566,6 @@
 	)
 	(wire
 		(pts
-			(xy 221.2366 77.5019) (xy 221.2366 83.7057)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34f1772e-f878-4670-9024-da5f8d978e73")
-	)
-	(wire
-		(pts
 			(xy 246.2547 119.4118) (xy 243.5628 119.4118)
 		)
 		(stroke
@@ -3388,6 +3573,16 @@
 			(type default)
 		)
 		(uuid "3850ab6a-b21b-457d-bae2-12449326ce17")
+	)
+	(wire
+		(pts
+			(xy 221.2366 77.5019) (xy 221.2366 83.7057)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "394ae1c6-13c0-4428-9e09-075923cad2c4")
 	)
 	(wire
 		(pts
@@ -3401,13 +3596,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.7363 97.0274) (xy 116.8926 97.0274)
+			(xy 73.1136 142.5917) (xy 71.5926 142.5917)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3cb4ab7d-78c9-4867-bab7-a281cadc381a")
+		(uuid "3d6ddcad-e5eb-46c9-ad7d-1b476a41609a")
 	)
 	(wire
 		(pts
@@ -3421,7 +3616,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.3301 104.4605) (xy 71.9915 104.4605)
+			(xy 64.3301 104.4605) (xy 73.1136 104.4605)
 		)
 		(stroke
 			(width 0)
@@ -3451,13 +3646,13 @@
 	)
 	(wire
 		(pts
-			(xy 114.7363 94.4874) (xy 116.8926 94.4874)
+			(xy 221.2366 77.5019) (xy 198.0107 77.5019)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40c57975-c89e-45ae-bf5b-a83c7baca945")
+		(uuid "410e58e8-3f3c-4b47-8051-3cb8d7b059b3")
 	)
 	(wire
 		(pts
@@ -3621,7 +3816,7 @@
 	)
 	(wire
 		(pts
-			(xy 47.7961 142.5917) (xy 51.6715 142.5917)
+			(xy 47.7961 142.5917) (xy 51.2726 142.5917)
 		)
 		(stroke
 			(width 0)
@@ -3631,7 +3826,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.8315 124.8117) (xy 61.8315 116.1192)
+			(xy 61.4326 124.8117) (xy 61.4326 116.1192)
 		)
 		(stroke
 			(width 0)
@@ -3701,16 +3896,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.8926 94.4874) (xy 116.8926 94.6604)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7287e6db-69af-420f-bc49-20b1bd21746f")
-	)
-	(wire
-		(pts
 			(xy 59.3661 91.7605) (xy 59.3661 88.7691)
 		)
 		(stroke
@@ -3771,16 +3956,6 @@
 	)
 	(wire
 		(pts
-			(xy 221.2366 83.7057) (xy 221.2366 84.8028)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87f2eda0-9628-43c2-9927-b6b0d454bcaa")
-	)
-	(wire
-		(pts
 			(xy 217.9383 26.7752) (xy 217.9383 29.1706)
 		)
 		(stroke
@@ -3818,16 +3993,6 @@
 			(type default)
 		)
 		(uuid "8d974aa7-52ca-4742-88be-b6b821c2cb98")
-	)
-	(wire
-		(pts
-			(xy 116.8926 97.0274) (xy 116.8926 97.2004)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e454247-0cea-4e15-93a9-17e6ce418fbc")
 	)
 	(wire
 		(pts
@@ -3871,7 +4036,7 @@
 	)
 	(wire
 		(pts
-			(xy 61.8315 116.1192) (xy 60.5201 116.1192)
+			(xy 61.4326 116.1192) (xy 60.5201 116.1192)
 		)
 		(stroke
 			(width 0)
@@ -4281,23 +4446,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.7363 91.9474) (xy 116.8926 91.9474)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6e0d193-f965-4ca4-9d6f-3bf08c71bdf4")
-	)
-	(wire
-		(pts
-			(xy 71.9915 142.5917) (xy 71.9915 104.4605)
+			(xy 73.1136 142.5917) (xy 73.1136 104.4605)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e6fa65e6-f3bf-449b-b8cc-2f8867dbbba4")
+	)
+	(wire
+		(pts
+			(xy 61.4326 152.7517) (xy 61.4326 155.2246)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7c9f249-7afa-444d-9e5c-97fd34620240")
 	)
 	(wire
 		(pts
@@ -4399,28 +4564,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BMS"
-		(shape input)
-		(at 116.8926 97.2004 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "22a14599-cf61-434a-92bd-ec8099cb7da7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.8087 97.2004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4579,6 +4722,28 @@
 			)
 		)
 	)
+	(global_label "C_Up"
+		(shape input)
+		(at 115.0707 93.5947 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "537c3174-1f53-47cd-82c7-951e7e6cb0eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.773 93.5947 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "A2"
 		(shape input)
 		(at 25.8953 87.5456 180)
@@ -4645,7 +4810,7 @@
 			)
 		)
 	)
-	(global_label "C2"
+	(global_label "C_Up"
 		(shape input)
 		(at 254.1587 111.5205 180)
 		(fields_autoplaced yes)
@@ -4657,12 +4822,34 @@
 		)
 		(uuid "7b455a3d-2f8d-458e-a11f-055f989fa9c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.694 111.5205 0)
+			(at 246.4564 111.5205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "C_Down"
+		(shape input)
+		(at 115.0707 91.0547 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e586a75-f447-46eb-8a52-5c51d31cebed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.192 91.0547 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4711,29 +4898,7 @@
 			)
 		)
 	)
-	(global_label "Up"
-		(shape input)
-		(at 116.8926 92.1204 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8f5e0261-e3e8-4fec-b5c5-0f305979a36a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.3573 92.1204 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "C1"
+	(global_label "C_Down"
 		(shape input)
 		(at 176.7579 93.6505 180)
 		(fields_autoplaced yes)
@@ -4745,7 +4910,7 @@
 		)
 		(uuid "9860278f-2996-48bb-9d03-b05610a038a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.2932 93.6505 0)
+			(at 166.6366 93.6505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4821,28 +4986,6 @@
 			)
 		)
 	)
-	(global_label "Down"
-		(shape input)
-		(at 116.8926 94.6604 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "abdc41ff-6bca-4e4d-bfab-7c29d4e9956b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.7763 94.6604 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "+5V"
 		(shape input)
 		(at 217.9383 26.7752 90)
@@ -4905,6 +5048,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_cap-"
+		(shape input)
+		(at 115.0707 98.6747 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b65a1ed6-3b52-4a1c-823e-028cbb290aeb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.0711 98.6747 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5019,6 +5184,28 @@
 			)
 		)
 	)
+	(global_label "V_cap+"
+		(shape input)
+		(at 115.0707 96.1347 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "da049764-5a1b-442f-b0c4-a5780af12d41")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.0711 96.1347 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "A1"
 		(shape input)
 		(at 263.0127 109.5259 180)
@@ -5087,7 +5274,7 @@
 	)
 	(global_label "A1"
 		(shape input)
-		(at 61.8315 152.7517 270)
+		(at 61.4326 155.2246 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5097,7 +5284,7 @@
 		)
 		(uuid "e722f066-bfbe-4426-a932-a6ff1d19cfab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.8315 158.035 90)
+			(at 61.4326 160.5079 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5312,16 +5499,15 @@
 	)
 	(symbol
 		(lib_id "74xGxx:74LVC1GU04DRL")
-		(at 61.8315 142.5917 90)
+		(at 61.4326 142.5917 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "31f4040b-6ea0-42ac-a505-42817e980738")
 		(property "Reference" "U2"
-			(at 55.4113 120.2327 0)
+			(at 55.6947 134.1661 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5329,7 +5515,7 @@
 			)
 		)
 		(property "Value" "74LVC1GU04DRL"
-			(at 57.9513 120.2327 0)
+			(at 57.5524 120.2327 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5338,7 +5524,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-553"
-			(at 74.5315 142.5917 0)
+			(at 74.1326 142.5917 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5347,7 +5533,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1gu04.pdf"
-			(at 61.8315 146.4017 0)
+			(at 61.4326 146.4017 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5356,7 +5542,7 @@
 			)
 		)
 		(property "Description" "Single Inverter Gate, SOT-553"
-			(at 61.8315 142.5917 0)
+			(at 61.4326 142.5917 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,7 +5551,7 @@
 			)
 		)
 		(property "Sim.Library" "/Users/salimelouahdani/Downloads/SN74LVC1GU04.cir"
-			(at 61.8315 142.5917 0)
+			(at 61.4326 142.5917 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5374,7 +5560,7 @@
 			)
 		)
 		(property "Sim.Name" "SN74LVC1GU04"
-			(at 61.8315 142.5917 0)
+			(at 61.4326 142.5917 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +5569,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 61.8315 142.5917 0)
+			(at 61.4326 142.5917 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,7 +5578,7 @@
 			)
 		)
 		(property "Sim.Pins" "2=A 3=AGND 4=Y 5=VCC"
-			(at 61.8315 142.5917 0)
+			(at 61.4326 142.5917 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7027,6 +7213,144 @@
 		)
 	)
 	(symbol
+		(lib_id "EPSA_Lib:4P Angle 171857-4004")
+		(at 115.0707 98.6747 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9606587c-87ff-426c-855d-31db34871368")
+		(property "Reference" "J1"
+			(at 104.9107 86.1911 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4P Angle 171857-4004"
+			(at 98.5607 102.4847 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:HDRRA4W66P0X254_1X4_762X818X635P"
+			(at 98.5607 99.9447 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/1718573005_sd.pdf"
+			(at 98.5607 97.4047 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Headers & Wire Housings KK RPC 254 Hdr FrLk R/A 04 Ckt 15Au T&R"
+			(at 98.5607 94.8647 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "6.35"
+			(at 98.5607 92.3247 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 98.5607 89.7847 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "171857-4004"
+			(at 98.5607 87.2447 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-171857-4004"
+			(at 98.5607 84.7047 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/171857-4004?qs=v0t%252BUMfTP8MMewSk%252BpG0KA%3D%3D"
+			(at 98.5607 82.1647 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "4P Angle"
+			(at 104.9107 102.4847 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b168173-40f3-4dda-88b7-34b86ef45a9a")
+		)
+		(pin "3"
+			(uuid "86567cf8-55b5-4dc4-b668-72afbd6d72fb")
+		)
+		(pin "4"
+			(uuid "d05d65d9-57b7-429c-8c6f-26e00c5d4a39")
+		)
+		(pin "1"
+			(uuid "95d7cef2-0c94-42cd-85dc-bcf5aab11d88")
+		)
+		(instances
+			(project ""
+				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EPSA_Lib:PMOS SI2343CDS-T1-GE3")
 		(at 187.7749 116.6916 90)
 		(unit 1)
@@ -7445,140 +7769,6 @@
 			(project ""
 				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
 					(reference "G1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EPSA_Lib:3P Droit 22-11-2032")
-		(at 104.5763 94.4874 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec8fd443-2e35-4497-8fbc-caed88a76cb1")
-		(property "Reference" "J3"
-			(at 104.5763 87.2858 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3P Droit 22-11-2032"
-			(at 98.2263 85.5974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "EPSA_lib:MOLEX_22-11-2032"
-			(at 98.2263 88.1374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112032?display=pdf"
-			(at 98.2263 99.5674 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.5763 94.4874 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "10.66mm"
-			(at 98.2263 90.6774 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Render Name" "3P Droit"
-			(at 104.5763 100.8374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 98.2263 95.7574 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "22-11-2032"
-			(at 98.2263 98.2974 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "538-22-11-2032"
-			(at 98.2263 93.2174 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2032?qs=KHty%2FoMxDPke3knj%252BlB5Gw%3D%3D"
-			(at 98.2263 102.1074 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a2da8bb-cf90-4397-b9f2-0fea9734631f")
-		)
-		(pin "2"
-			(uuid "b1b707cd-80b8-4699-a4b7-a2cbb87d0ff0")
-		)
-		(pin "3"
-			(uuid "441ed8f2-cabd-4366-83ed-db4cd9f62711")
-		)
-		(instances
-			(project "BMS_testboard"
-				(path "/9ee197f8-82c1-46ec-8c7f-5ed36ccc7f74"
-					(reference "J3")
 					(unit 1)
 				)
 			)
