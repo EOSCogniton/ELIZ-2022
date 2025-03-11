@@ -2,7 +2,6 @@ function send_data(data_id,value,dlc,bamocar_receive_id)
     canch1 = canChannel('PEAK-System','PCAN_USBBUS1');
     configBusSpeed(canch1,500000);
     start(canch1)
-
     Defaults={"0x00",0,3,"0x201"};
     if nargin>=1
         Defaults{1}=data_id;
@@ -37,7 +36,6 @@ function send_data(data_id,value,dlc,bamocar_receive_id)
     end
     out_dec=bin2dec(strout);
 
-    pack(messageout,uint64(out_dec),0,dlc_f*8,'LittleEndian');
+    pack(messageout,uint64(out_dec),0,dlc_f*8,'LittleEndian')
+
     transmit(canch1,messageout);
-    stop(canch1)
-end
