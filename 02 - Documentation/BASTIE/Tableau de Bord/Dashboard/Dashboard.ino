@@ -43,33 +43,33 @@ int timer=0;
 int latence=5; // Temps entre chaque maj en unité inconnue
 
 //Variables CAN
-//static uint8_t hex[17] = "0123456789abcdef"; //Nécessaire pour hexDump
+static uint8_t hex[17] = "0123456789abcdef"; //Nécessaire pour hexDump
 
 // CAN functions-------------------------------------------------------------
-// static void hexDump(uint8_t dumpLen, uint8_t *bytePtr) //Permet d'afficher dans le Serial Menitor le message Hex reçu
-// {
-//   uint8_t working;
-//   while( dumpLen-- ) {
-//     working = *bytePtr++;
-//     Serial.write( hex[ working>>4 ] );
-//     Serial.write( hex[ working&15 ] );
-//   }
-//   Serial.write('\r');
-//   Serial.write('\n');
-// }
+static void hexDump(uint8_t dumpLen, uint8_t *bytePtr) //Permet d'afficher dans le Serial Menitor le message Hex reçu
+ {
+   uint8_t working;
+   while( dumpLen-- ) {
+     working = *bytePtr++;
+     Serial.write( hex[ working>>4 ] );
+     Serial.write( hex[ working&15 ] );
+   }
+   Serial.write('\r');
+   Serial.write('\n');
+}
 
-// static String hex2msg(uint8_t dumpLen, uint8_t *bytePtr) //Avoir tous les messages de la tram can
-// {
-//   uint8_t working;
-//   String hextomsg;
-//   while( dumpLen-- ) {
-//     working = *bytePtr++;
-//     hextomsg+=String((working>>4),HEX);
-//     hextomsg+=String(working&15,HEX) ;
-//     hextomsg+= " ";
-//   }
-//   return hextomsg;
-// }
+ static String hex2msg(uint8_t dumpLen, uint8_t *bytePtr) //Avoir tous les messages de la tram can
+ {
+   uint8_t working;
+   String hextomsg;
+   while( dumpLen-- ) {
+     working = *bytePtr++;
+     hextomsg+=String((working>>4),HEX);
+     hextomsg+=String(working&15,HEX) ;
+     hextomsg+= " ";
+   }
+   return hextomsg;
+ }
 
 static String hex2msgpoint(uint8_t dumpLen, uint8_t *bytePtr, int i)//avoir seulement le ieme message de la tram can
 {
@@ -150,6 +150,8 @@ void setup(void)
   delay(1500);
 
   Can0.begin(500000);// On lance la communication CAN à 500000 baud
+  digitalWrite(ledPin,HIGH);
+
 }
 
 
@@ -163,39 +165,35 @@ void loop() {
   int nmsg;
 
   // Affichage en boucle du msg can
-  // while (Can0.available()) 
-  // {
-  //   Can0.read(inMsg);
-  //   // msgread = hex2msg(8, inMsg.buf);
-  //   Serial.print(inMsg.id,HEX);
-  //   Serial.print('\n');
-  //   hexDump(1, inMsg.buf);
-  //   // Serial.print("CAN bus 0: "+msgread+'\n');
-  //   Serial.println(F("Receiver is alive"));
-  // }
-
+  while (Can0.available()) 
+  {
+     Can0.read(inMsg);
+     msgread = hex2msg(8, inMsg.buf);
+     Serial.print(inMsg.id,HEX);
+     Serial.print('\n');
+     hexDump(1, inMsg.buf);
+     Serial.print("CAN bus 0: "+msgread+'\n');
+     Serial.println(F("Receiver is alive"));
+  }
+/*
   //Affichage de parties du msg
-  // String pct_HVstr=msgread[3];
-  // pct_HVstr+=msgread[4];
-  // Serial.print("String : "+pct_HVstr+"\n");
-  // char* pct_HVchar=const_cast<char*>( pct_HVstr.c_str() );
-  // Serial.print("Char : ");
-  // Serial.print(pct_HVchar);
-  // Serial.print("\n");
-  // pct_HV=StrToHex(pct_HVchar);
-  // Serial.print("value : ");
-  // Serial.print(pct_HV);
-  // Serial.print("\n");
-
-  // Si on veut de la lumière LOL
-  // Serial.println(F("Teensy running !"));
-  // digitalWrite(ledPin,HIGH);
-  // delay(100);
-  // digitalWrite(ledPin,LOW);
-  // delay(100);
+  String pct_HVstr=msgread[3];
+  pct_HVstr+=msgread[4];
+  Serial.print("String : "+pct_HVstr+"\n");
+  char* pct_HVchar=const_cast<char*>( pct_HVstr.c_str() );
+  Serial.print("Char : ");
+  Serial.print(pct_HVchar);
+  Serial.print("\n");
+  pct_HV=StrToHex(pct_HVchar);
+  Serial.print("value : ");
+  Serial.print(pct_HV);
+  Serial.print("\n");
+  */
+  
 
 // Mise à jour des valeurs si Message Can disponible
   if(Can0.available()){
+    digitalWrite(ledPin,LOW);
     Can0.read(inMsg);
     if (timer<latence){
       delay(1);
@@ -261,7 +259,7 @@ void loop() {
             }
           }
         }
-        //Serial.print("CAN bus 0: ID= "+String(inMsg.id,HEX)+" -- Hex= "+msgread+'\n');
+        Serial.print("CAN bus 0: ID= "+String(inMsg.id,HEX)+" -- Hex= "+msgread+'\n');
       }
     }
     else{
@@ -389,6 +387,8 @@ void loop() {
       }
 
       noPb=APPS_FAULT_not_active && T_HV_high_not_active && lvl_HV_low_not_active && lvl_LV_low_not_active;
+    
     }
+    digitalWrite(ledPin,HIGH);
   }
 }

@@ -1,0 +1,2944 @@
+/******************************************************************************
+ *
+ *  ASAP2 file:     VCU_2023.a2l
+ *
+ * Academic License - for use in teaching, academic research, and meeting
+ * course requirements at degree granting institutions only.  Not for
+ * government, commercial, or other organizational use. 
+ * 
+ * Code generation for model "VCU_2023".
+ *
+ * Model version              : 1.1566
+ * Simulink Coder version : 9.3 (R2020a) 18-Nov-2019
+ * C source code generated on : Wed Apr 23 15:22:41 2025
+ * 
+ * Target selection: MPC5644A.tlc
+ * Embedded hardware selection: Freescale->MPC55xx
+ * Code generation objectives: Unspecified
+ * Validation result: Not run
+ *
+ * (add additional file header information here)
+ *
+ ******************************************************************************/
+
+ASAP2_VERSION 1 31 /* Version 1.31 */
+
+/begin PROJECT ProjectName "Project Comment Goes Here"
+
+  /begin HEADER "Header Comments go here"
+
+  /end HEADER
+
+
+  /begin MODULE ModuleName "Module Comment Goes Here"
+
+      /* EcoCoder V2.9.5 R2 Target:EV2274A verCalTool:0.0*/
+      /* XCP-En:0 XCPCalTool:EcoCAL INCA CANape XCP-CAN:CAN_CTRL_C XCP-CAN-Baud:500kbps*/
+      /* CCP-En:1 CCP-TYPE:Configurable CCPCalTool:EcoCAL INCA CCP-CAN:CAN_CTRL_C CCP-CAN-Baud:500kbps*/
+      /*PGCANAEn:NoUse PGCANAStation:NoUse PGCANABaud:500kbps PGCANACRO:NoUse PGCANADTO:NoUse*/
+      /*PGCANBEn:NoUse PGCANBStation:NoUse PGCANBBaud:NoUsekbps PGCANBCRO:NoUse PGCANBDTO:NoUse*/
+      /*PGCANCEn:NoUse PGCANCStation:NoUse PGCANCBaud:500kbps PGCANCCRO:NoUse PGCANCDTO:NoUse*/
+      /*PGCANDEn:NoUse PGCANDStation:NoUse PGCANDBaud:NoUsekbps PGCANDCRO:NoUse PGCANDDTO:NoUse*/
+    /begin A2ML
+      /************************************************************************************/
+      /*                                                                                  */
+      /*   ASAP2 meta language for XCP protocol layer V1.0                                */
+      /*                                                                                  */
+      /*   2019-01-04                                                                     */
+      /*                                                                                  */
+      /*   Ecotrons hxl                                                                   */
+      /*                                                                                  */
+      /*   Datatypes:                                                                     */
+      /*                                                                                  */
+      /*   A2ML       ASAP2             Windows      description                          */
+      /*   -------------------------------------------------------------------------------*/
+      /*   uchar      UBYTE             BYTE         unsigned 8 Bit                       */
+      /*   char       SBYTE             char         signed 8 Bit                         */
+      /*   uint       UWORD             WORD         unsigned integer 16 Bit              */
+      /*   int        SWORD             int          signed integer 16 Bit                */
+      /*   ulong      ULONG             DWORD        unsigned integer 32 Bit              */
+      /*   long       SLONG             LONG         signed integer 32 Bit                */
+      /*   float      FLOAT32_IEEE                   float 32 Bit                         */
+      /*                                                                                  */
+      /************************************************************************************/
+      /*ECO_XCP_Note_Start
+       struct Protocol_Layer {
+       uint;
+       uint;
+       uint;
+       uint;
+       uint;
+       uint;
+       uint;
+       uint;
+       uchar;
+       uint;
+       enum {
+       "BYTE_ORDER_MSB_LAST" = 0,
+       "BYTE_ORDER_MSB_FIRST" = 1
+       }; 
+       enum {
+       "ADDRESS_GRANULARITY_BYTE" = 1,
+       "ADDRESS_GRANULARITY_WORD" = 2,
+       "ADDRESS_GRANULARITY_DWORD" = 4
+       };
+       taggedstruct {
+       ("OPTIONAL_CMD" enum {
+       "GET_COMM_MODE_INFO" = 251,
+       "GET_ID" = 250,
+       "SET_REQUEST" = 249,
+       "GET_SEED" = 248,
+       "UNLOCK" = 247,
+       "SET_MTA" = 246,
+       "UPLOAD" = 245,
+       "SHORT_UPLOAD" = 244,
+       "BUILD_CHECKSUM" = 243,
+       "TRANSPORT_LAYER_CMD" = 242,
+       "USER_CMD" = 241,
+       "DOWNLOAD" = 240,
+       "DOWNLOAD_NEXT" = 239,
+       "DOWNLOAD_MAX" = 238,
+       "SHORT_DOWNLOAD" = 237,
+       "MODIFY_BITS" = 236,
+       "SET_CAL_PAGE" = 235,
+       "GET_CAL_PAGE" = 234,
+       "GET_PAG_PROCESSOR_INFO" = 233,
+       "GET_SEGMENT_INFO" = 232,
+       "GET_PAGE_INFO" = 231,
+       "SET_SEGMENT_MODE" = 230,
+       "GET_SEGMENT_MODE" = 229,
+       "COPY_CAL_PAGE" = 228,
+       "CLEAR_DAQ_LIST" = 227,
+       "SET_DAQ_PTR" = 226,
+       "WRITE_DAQ" = 225,
+       "SET_DAQ_LIST_MODE" = 224,
+       "GET_DAQ_LIST_MODE" = 223,
+       "START_STOP_DAQ_LIST" = 222,
+       "START_STOP_SYNCH" = 221,
+       "GET_DAQ_CLOCK" = 220,
+       "READ_DAQ" = 219,
+       "GET_DAQ_PROCESSOR_INFO" = 218,
+       "GET_DAQ_RESOLUTION_INFO" = 217,
+       "GET_DAQ_LIST_INFO" = 216,
+       "GET_DAQ_EVENT_INFO" = 215,
+       "FREE_DAQ" = 214,
+       "ALLOC_DAQ" = 213,
+       "ALLOC_ODT" = 212,
+       "ALLOC_ODT_ENTRY" = 211,
+       "PROGRAM_START" = 210,
+       "PROGRAM_CLEAR" = 209,
+       "PROGRAM" = 208,
+       "PROGRAM_RESET" = 207,
+       "GET_PGM_PROCESSOR_INFO" = 206,
+       "GET_SECTOR_INFO" = 205,
+       "PROGRAM_PREPARE" = 204,
+       "PROGRAM_FORMAT" = 203,
+       "PROGRAM_NEXT" = 202,
+       "PROGRAM_MAX" = 201,
+       "PROGRAM_VERIFY" = 200
+       })*;
+       "COMMUNICATION_MODE_SUPPORTED" taggedunion {
+       "BLOCK" taggedstruct {
+       "SLAVE" ;
+       "MASTER" struct {
+       uchar;
+       uchar;
+       };
+       };
+       "INTERLEAVED" uchar;
+       };
+       "SEED_AND_KEY_EXTERNAL_FUNCTION" char[256];
+       };
+       };
+       
+       struct Daq {
+       enum {
+       "STATIC" = 0,
+       "DYNAMIC" = 1
+       };
+       uint;
+       uint;
+       uchar;
+       enum {
+       "OPTIMISATION_TYPE_DEFAULT" = 0,
+       "OPTIMISATION_TYPE_ODT_TYPE_16" = 1,
+       "OPTIMISATION_TYPE_ODT_TYPE_32" = 2,
+       "OPTIMISATION_TYPE_ODT_TYPE_64" = 3,
+       "OPTIMISATION_TYPE_ODT_TYPE_ALIGNMENT" = 4,
+       "OPTIMISATION_TYPE_MAX_ENTRY_SIZE" = 5
+       };
+       enum {
+       "ADDRESS_EXTENSION_FREE" = 0,
+       "ADDRESS_EXTENSION_ODT" = 1,
+       "ADDRESS_EXTENSION_DAQ" = 3
+       };
+       enum {
+       "IDENTIFICATION_FIELD_TYPE_ABSOLUTE" = 0,
+       "IDENTIFICATION_FIELD_TYPE_RELATIVE_BYTE" = 1,
+       "IDENTIFICATION_FIELD_TYPE_RELATIVE_WORD" = 2,
+       "IDENTIFICATION_FIELD_TYPE_RELATIVE_WORD_ALIGNED" = 3
+       };
+       enum {
+       "GRANULARITY_ODT_ENTRY_SIZE_DAQ_BYTE" = 1,
+       "GRANULARITY_ODT_ENTRY_SIZE_DAQ_WORD" = 2,
+       "GRANULARITY_ODT_ENTRY_SIZE_DAQ_DWORD" = 4,
+       "GRANULARITY_ODT_ENTRY_SIZE_DAQ_DLONG" = 8
+       };
+       uchar;
+       enum {
+       "NO_OVERLOAD_INDICATION" = 0,
+       "OVERLOAD_INDICATION_PID" = 1,
+       "OVERLOAD_INDICATION_EVENT" = 2
+       };
+       taggedstruct {
+       "PRESCALER_SUPPORTED" ;
+       "RESUME_SUPPORTED" ;
+       block "STIM" struct {
+       enum {
+       "GRANULARITY_ODT_ENTRY_SIZE_STIM_BYTE" = 1,
+       "GRANULARITY_ODT_ENTRY_SIZE_STIM_WORD" = 2,
+       "GRANULARITY_ODT_ENTRY_SIZE_STIM_DWORD" = 4,
+       "GRANULARITY_ODT_ENTRY_SIZE_STIM_DLONG" = 8
+       };
+       uchar;
+       taggedstruct {
+       "BIT_STIM_SUPPORTED" ;
+       };
+       };
+       block "TIMESTAMP_SUPPORTED" struct {
+       uint;
+       enum {
+       "NO_TIME_STAMP" = 0,
+       "SIZE_BYTE" = 1,
+       "SIZE_WORD" = 2,
+       "SIZE_DWORD" = 4
+       };
+       enum {
+       "UNIT_1NS" = 0,
+       "UNIT_10NS" = 1,
+       "UNIT_100NS" = 2,
+       "UNIT_1US" = 3,
+       "UNIT_10US" = 4,
+       "UNIT_100US" = 5,
+       "UNIT_1MS" = 6,
+       "UNIT_10MS" = 7,
+       "UNIT_100MS" = 8,
+       "UNIT_1S" = 9
+       };
+       taggedstruct {
+       "TIMESTAMP_FIXED" ;
+       };
+       };
+       "PID_OFF_SUPPORTED" ;
+       (block "DAQ_LIST" struct {
+       uint;
+       taggedstruct {
+       "DAQ_LIST_TYPE" enum {
+       "DAQ" = 1,
+       "STIM" = 2,
+       "DAQ_STIM" = 3
+       };
+       "MAX_ODT" uchar;
+       "MAX_ODT_ENTRIES" uchar;
+       "FIRST_PID" uchar;
+       "EVENT_FIXED" uint;
+       block "PREDEFINED" taggedstruct {
+       (block "ODT" struct {
+       uchar;
+       taggedstruct {
+       ("ODT_ENTRY" struct {
+       uchar;
+       ulong;
+       uchar;
+       uchar;
+       uchar;
+       })*;
+       };
+       })*;
+       };
+       };
+       })*;
+       (block "EVENT" struct {
+       char[101];
+       char[9];
+       uint;
+       enum {
+       "DAQ" = 1,
+       "STIM" = 2,
+       "DAQ_STIM" = 3
+       };
+       uchar;
+       uchar;
+       uchar;
+       uchar;
+       })*;
+       };
+       };
+       
+       taggedunion Daq_Event {
+       "FIXED_EVENT_LIST" taggedstruct {
+       ("EVENT" uint)*;
+       };
+       "VARIABLE" taggedstruct {
+       block "AVAILABLE_EVENT_LIST" taggedstruct {
+       ("EVENT" uint)*;
+       };
+       block "DEFAULT_EVENT_LIST" taggedstruct {
+       ("EVENT" uint)*;
+       };
+       };
+       };
+       
+       struct Pag {
+       uchar;
+       taggedstruct {
+       "FREEZE_SUPPORTED" ;
+       };
+       };
+       
+       struct Pgm {
+       enum {
+       "PGM_MODE_ABSOLUTE" = 1,
+       "PGM_MODE_FUNCTIONAL" = 2,
+       "PGM_MODE_ABSOLUTE_AND_FUNCTIONAL" = 3
+       };
+       uchar;
+       uchar;
+       taggedstruct {
+       (block "SECTOR" struct {
+       char[101];
+       uchar;
+       ulong;
+       ulong;
+       uchar;
+       uchar;
+       uchar;
+       })*;
+       "COMMUNICATION_MODE_SUPPORTED" taggedunion {
+       "BLOCK" taggedstruct {
+       "SLAVE" ;
+       "MASTER" struct {
+       uchar;
+       uchar;
+       };
+       };
+       "INTERLEAVED" uchar;
+       };
+       };
+       };
+       
+       struct Segment {
+       uchar;
+       uchar;
+       uchar;
+       uchar;
+       uchar;
+       taggedstruct {
+       block "CHECKSUM" struct {
+       enum {
+       "XCP_ADD_11" = 1,
+       "XCP_ADD_12" = 2,
+       "XCP_ADD_14" = 3,
+       "XCP_ADD_22" = 4,
+       "XCP_ADD_24" = 5,
+       "XCP_ADD_44" = 6,
+       "XCP_CRC_16" = 7,
+       "XCP_CRC_16_CITT" = 8,
+       "XCP_CRC_32" = 9,
+       "XCP_USER_DEFINED" = 255
+       };
+       taggedstruct {
+       "MAX_BLOCK_SIZE" ulong;
+       "EXTERNAL_FUNCTION" char[256];
+       };
+       };
+       (block "PAGE" struct {
+       uchar;
+       enum {
+       "ECU_ACCESS_NOT_ALLOWED" = 0,
+       "ECU_ACCESS_WITHOUT_XCP_ONLY" = 1,
+       "ECU_ACCESS_WITH_XCP_ONLY" = 2,
+       "ECU_ACCESS_DONT_CARE" = 3
+       };
+       enum {
+       "XCP_READ_ACCESS_NOT_ALLOWED" = 0,
+       "XCP_READ_ACCESS_WITHOUT_ECU_ONLY" = 1,
+       "XCP_READ_ACCESS_WITH_ECU_ONLY" = 2,
+       "XCP_READ_ACCESS_DONT_CARE" = 3
+       };
+       enum {
+       "XCP_WRITE_ACCESS_NOT_ALLOWED" = 0,
+       "XCP_WRITE_ACCESS_WITHOUT_ECU_ONLY" = 1,
+       "XCP_WRITE_ACCESS_WITH_ECU_ONLY" = 2,
+       "XCP_WRITE_ACCESS_DONT_CARE" = 3
+       };
+       taggedstruct {
+       "INIT_SEGMENT" uchar;
+       };
+       })*;
+       (block "ADDRESS_MAPPING" struct {
+       ulong;
+       ulong;
+       ulong;
+       })*;
+       "PGM_VERIFY" ulong;
+       };
+       };
+       
+       taggedstruct Common_Parameters {
+       block "PROTOCOL_LAYER" struct Protocol_Layer;
+       block "SEGMENT" struct Segment;
+       block "DAQ" struct Daq;
+       block "PAG" struct Pag;
+       block "PGM" struct Pgm;
+       block "DAQ_EVENT" taggedunion Daq_Event;
+       };
+       
+       struct CAN_Parameters {
+       uint;
+       taggedstruct {
+       "CAN_ID_BROADCAST" ulong;
+       "CAN_ID_MASTER" ulong;
+       "CAN_ID_SLAVE" ulong;
+       "BAUDRATE" ulong;
+       "SAMPLE_POINT" uchar;
+       "SAMPLE_RATE" enum {
+       "SINGLE" = 1,
+       "TRIPLE" = 3
+       };
+       "BTL_CYCLES" uchar;
+       "SJW" uchar;
+       "SYNC_EDGE" enum {
+       "SINGLE" = 1,
+       "DUAL" = 2
+       };
+       "MAX_DLC_REQUIRED" ;
+       (block "DAQ_LIST_CAN_ID" struct {
+       uint;
+       taggedstruct {
+       "VARIABLE" ;
+       "FIXED" ulong;
+       };
+       })*;
+       };
+       };
+       
+       struct SxI_Parameters {
+       uint;
+       ulong;
+       taggedstruct {
+       "ASYNCH_FULL_DUPLEX_MODE" struct {
+       enum {
+       "PARITY_NONE" = 0,
+       "PARITY_ODD" = 1,
+       "PARITY_EVEN" = 2
+       };
+       enum {
+       "ONE_STOP_BIT" = 1,
+       "TWO_STOP_BITS" = 2
+       };
+       };
+       "SYNCH_FULL_DUPLEX_MODE_BYTE" ;
+       "SYNCH_FULL_DUPLEX_MODE_WORD" ;
+       "SYNCH_FULL_DUPLEX_MODE_DWORD" ;
+       "SYNCH_MASTER_SLAVE_MODE_BYTE" ;
+       "SYNCH_MASTER_SLAVE_MODE_WORD" ;
+       "SYNCH_MASTER_SLAVE_MODE_DWORD" ;
+       };
+       enum {
+       "HEADER_LEN_BYTE" = 0,
+       "HEADER_LEN_CTR_BYTE" = 1,
+       "HEADER_LEN_FILL_BYTE" = 2,
+       "HEADER_LEN_WORD" = 3,
+       "HEADER_LEN_CTR_WORD" = 4,
+       "HEADER_LEN_FILL_WORD" = 5
+       };
+       enum {
+       "NO_CHECKSUM" = 0,
+       "CHECKSUM_BYTE" = 1,
+       "CHECKSUM_WORD" = 2
+       };
+       };
+       
+       struct TCP_IP_Parameters {
+       uint;
+       uint;
+       taggedunion {
+       "HOST_NAME" char[256];
+       "ADDRESS" char[15];
+       };
+       };
+       
+       struct UDP_IP_Parameters {
+       uint;
+       uint;
+       taggedunion {
+       "HOST_NAME" char[256];
+       "ADDRESS" char[15];
+       };
+       };
+       
+       struct ep_parameters {
+       uchar;
+       enum {
+       "BULK_TRANSFER" = 2,
+       "INTERRUPT_TRANSFER" = 3
+       };
+       uint;
+       uchar;
+       enum {
+       "MESSAGE_PACKING_SINGLE" = 0,
+       "MESSAGE_PACKING_MULTIPLE" = 1,
+       "MESSAGE_PACKING_STREAMING" = 2
+       };
+       enum {
+       "ALIGNMENT_8_BIT" = 0,
+       "ALIGNMENT_16_BIT" = 1,
+       "ALIGNMENT_32_BIT" = 2,
+       "ALIGNMENT_64_BIT" = 3
+       };
+       taggedstruct {
+       "RECOMMENDED_HOST_BUFSIZE" uint;
+       };
+       };
+       
+       struct USB_Parameters {
+       uint;
+       uint;
+       uint;
+       uchar;
+       enum {
+       "HEADER_LEN_BYTE" = 0,
+       "HEADER_LEN_CTR_BYTE" = 1,
+       "HEADER_LEN_FILL_BYTE" = 2,
+       "HEADER_LEN_WORD" = 3,
+       "HEADER_LEN_CTR_WORD" = 4,
+       "HEADER_LEN_FILL_WORD" = 5
+       }; 
+       taggedunion {
+       block "OUT_EP_CMD_STIM" struct ep_parameters;
+       };
+       taggedunion {
+       block "IN_EP_RESERR_DAQ_EVSERV" struct ep_parameters;
+       };
+       taggedstruct {
+       "ALTERNATE_SETTING_NO" uchar;
+       "INTERFACE_STRING_DESCRIPTOR" char[101];
+       (block "OUT_EP_ONLY_STIM" struct ep_parameters)*;
+       (block "IN_EP_ONLY_DAQ" struct ep_parameters)*;
+       block "IN_EP_ONLY_EVSERV" struct ep_parameters;
+       (block "DAQ_LIST_USB_ENDPOINT" struct {
+       uint;
+       taggedstruct {
+       "FIXED_IN" uchar;
+       "FIXED_OUT" uchar;
+       };
+       })*;
+       };
+       };
+       
+       enum packet_assignment_type {
+       "NOT_ALLOWED" = 0,
+       "FIXED" = 1,
+       "VARIABLE_INITIALISED" = 2,
+       "VARIABLE" = 3
+       };
+       
+       struct buffer {
+       uchar;
+       taggedstruct {
+       "MAX_FLX_LEN_BUF" taggedunion {
+       "FIXED" uchar;
+       "VARIABLE" uchar;
+       };
+       block "LPDU_ID" taggedstruct {
+       "FLX_SLOT_ID" taggedunion {
+       "FIXED" uint;
+       "VARIABLE" taggedstruct {
+       "INITIAL_VALUE" uint;
+       };
+       }; 
+       "OFFSET" taggedunion {
+       "FIXED" uchar;
+       "VARIABLE" taggedstruct {
+       "INITIAL_VALUE" uchar;
+       };
+       };
+       "CYCLE_REPETITION" taggedunion {
+       "FIXED" uchar;
+       "VARIABLE" taggedstruct {
+       "INITIAL_VALUE" uchar;
+       };
+       };
+       "CHANNEL" taggedunion {
+       "FIXED" enum {
+       "A" = 0,
+       "B" = 1
+       };
+       "VARIABLE" taggedstruct {
+       "INITIAL_VALUE" enum {
+       "A" = 0,
+       "B" = 1
+       };
+       };
+       };
+       };
+       block "XCP_PACKET" taggedstruct {
+       "CMD" enum packet_assignment_type;
+       "RES_ERR" enum packet_assignment_type;
+       "EV_SERV" enum packet_assignment_type;
+       "DAQ" enum packet_assignment_type;
+       "STIM" enum packet_assignment_type;
+       };
+       };
+       };
+       
+       struct FLX_Parameters {
+       uint;
+       uint;
+       char[256];
+       char[256];
+       uchar;
+       enum {
+       "HEADER_NAX" = 0,
+       "HEADER_NAX_FILL" = 1,
+       "HEADER_NAX_CTR" = 2,
+       "HEADER_NAX_FILL3" = 3,
+       "HEADER_NAX_CTR_FILL2" = 4,
+       "HEADER_NAX_LEN" = 5,
+       "HEADER_NAX_CTR_LEN" = 6,
+       "HEADER_NAX_FILL2_LEN" = 7,
+       "HEADER_NAX_CTR_FILL_LEN" = 8
+       };
+       enum {
+       "PACKET_ALIGNMENT_8" = 0,
+       "PACKET_ALIGNMENT_16" = 1,
+       "PACKET_ALIGNMENT_32" = 2
+       };
+       taggedunion {
+       block "INITIAL_CMD_BUFFER" struct buffer;
+       };
+       taggedunion {
+       block "INITIAL_RES_ERR_BUFFER" struct buffer;
+       };
+       taggedstruct {
+       (block "POOL_BUFFER" struct buffer)*;
+       };
+       };
+       
+       block "IF_DATA" taggedunion if_data {
+       
+       "CANAPE_EXT" struct {
+       int;
+       taggedstruct {
+       "LINK_MAP" struct {
+       char[256];
+       long;
+       uint;
+       uint;
+       long;
+       uint;
+       uint;
+       uint;
+       };
+       "DISPLAY" struct {
+       long;
+       double;
+       double;
+       };
+       "VIRTUAL_CONVERSION" struct {
+       char[256];
+       };
+       };
+       };
+       "CANAPE_MODULE" struct {
+       taggedstruct {
+       ("RECORD_LAYOUT_STEPSIZE" struct {
+       char[256];
+       uint;
+       uint;
+       uint;
+       uint;
+       uint;
+       uint;
+       })*;
+       };
+       };
+       "CANAPE_ADDRESS_UPDATE" taggedstruct {
+       ("EPK_ADDRESS" struct {
+       char[1024]; 
+       long;
+       })*;
+       "ECU_CALIBRATION_OFFSET" struct {
+       char[1024];
+       long;
+       };
+       (block "CALIBRATION_METHOD" taggedunion {
+       "AUTOSAR_SINGLE_POINTERED" struct {
+       char[1024];
+       long;
+       taggedstruct {
+       "ORIGINAL_POINTER_TABLE" struct {
+       char[1024]; 
+       long;
+       };
+       };
+       };
+       "InCircuit2" struct {
+       char[1024];
+       long;
+       taggedstruct {
+       "ORIGINAL_POINTER_TABLE" struct {
+       char[1024];
+       long;
+       };
+       "FLASH_SECTION" struct {
+       ulong;
+       ulong;
+       };
+       };
+       };
+       })*;
+       block "MAP_SYMBOL" taggedstruct {
+       "FIRST" struct {
+       char[1024]; 
+       long; 
+       };
+       "LAST" struct {
+       char[1024]; 
+       long; 
+       };
+       ("ADDRESS_MAPPING_XCP" struct {
+       char[1024]; 
+       char[1024]; 
+       })*;
+       };
+       (block "MEMORY_SEGMENT" struct {
+       char[1024];  
+       taggedstruct {
+       "FIRST" struct {
+       char[1024]; 
+       long; 
+       };
+       "LAST" struct {
+       char[1024]; 
+       long; 
+       };
+       ("ADDRESS_MAPPING_XCP" struct {
+       char[1024]; 
+       char[1024]; 
+       })*;
+       };
+       })*;
+       };
+       "CANAPE_GROUP" taggedstruct {
+       block "STRUCTURE_LIST" (char[1024])*;
+       };
+       
+       "XCP" struct {
+       taggedstruct Common_Parameters; 
+       taggedstruct {
+       block "XCP_ON_CAN" struct {
+       struct CAN_Parameters; 
+       taggedstruct Common_Parameters; 
+       };
+       block "XCP_ON_SxI" struct {
+       struct SxI_Parameters; 
+       taggedstruct Common_Parameters; 
+       };
+       block "XCP_ON_TCP_IP" struct {
+       struct TCP_IP_Parameters; 
+       taggedstruct Common_Parameters; 
+       };
+       block "XCP_ON_UDP_IP" struct {
+       struct UDP_IP_Parameters; 
+       taggedstruct Common_Parameters; 
+       };
+       block "XCP_ON_USB" struct {
+       struct USB_Parameters; 
+       taggedstruct Common_Parameters; 
+       };
+       block "XCP_ON_FLX" struct {
+       struct FLX_Parameters; 
+       taggedstruct Common_Parameters;
+       };
+       }; 
+       };
+       };
+       ECO_XCP_Note_End*/
+
+      /****************************************************************************/
+      /*   ASAP2 Meta Language for CCP CAN Calibration Protocol V2.1              */
+      /*   Assumes ASAP2 V1.3 or later                                            */
+      /*                                                                          */
+      /*   AML Version V2.4, 27.04.1999                                           */
+      /*                                                                          */
+      /*   Vector Informatik, Zaiser                                              */
+      /*   Hewlett Packard, Krueger                                               */
+      /*   ETAS, Maier                                                            */
+      /*   SIEMENS Automotive, Stuhler                                            */
+      /*                                                                          */
+      /*   Datatypes:                                                             */
+      /*                                                                          */
+      /*   A2ML       ASAP2          Windows  Erlaeuuterung                       */
+      /*   ----------------------------------------------------------------       */
+      /*   uchar      UBYTE          BYTE     unsigned 8 Bit                      */
+      /*   char       SBYTE          char     signed 8 Bit                        */
+      /*   uint       UWORD          WORD     unsigned integer 16 Bit             */
+      /*   int        SWORD          int      signed integer 16 Bit               */
+      /*   ulong      ULONG          DWORD    unsigned integer 32 Bit             */
+      /*   long       SLONG          LONG     signed integer 32 Bit               */
+      /*   float      FLOAT32_IEEE            float 32 Bit                        */
+      /*                                                                          */
+      /****************************************************************************/
+      /*ECO_CCP_Note_Start*/
+      block "IF_DATA" taggedunion if_data {
+        "ASAP1B_CCP" taggedstruct {
+
+          (block "SOURCE" struct {
+
+            struct {
+              char[101];
+              int;
+              long;
+            };
+
+
+            taggedstruct {
+
+              "DISPLAY_IDENTIFIER" char[32];
+
+              block "QP_BLOB" struct {
+
+                uint;
+
+                taggedstruct {
+                  "LENGTH" uint;
+
+                  "CAN_ID_VARIABLE";
+
+                  "CAN_ID_FIXED" ulong;
+
+                  ("RASTER" uchar)*;
+
+                  ("EXCLUSIVE" int)*;
+
+                  "REDUCTION_ALLOWED";
+
+                  "FIRST_PID" uchar;
+                };
+              };
+            };
+          })*;
+
+          (block "RASTER" struct {
+
+            char[101];
+            char[9];
+            uchar;
+            int;
+            long;
+            taggedstruct {
+              ("EXCLUSIVE" uchar)*;
+            };
+
+          })*;
+
+
+          (block "EVENT_GROUP" struct {
+
+            char[101];
+            char[9];
+            taggedstruct {
+              ("RASTER" uchar)*;
+            };
+
+          })*;
+
+
+          block "SEED_KEY" struct {
+            char[256];
+            char[256];
+            char[256];
+          };
+
+          block "CHECKSUM" struct {
+            char[256];
+          };
+
+
+          block "TP_BLOB" struct {
+
+            uint;
+            uint;
+            ulong;
+            ulong;
+            uint;
+            uint;
+            taggedstruct {
+
+              block "CAN_PARAM" struct {
+                uint;
+                uchar;
+                uchar;
+              };
+
+              "BAUDRATE" ulong;
+              "SAMPLE_POINT" uchar;
+              "SAMPLE_RATE" uchar;
+              "BTL_CYCLES" uchar;
+              "SJW" uchar;
+              "SYNC_EDGE" enum {
+                "SINGLE" = 0,
+                "DUAL" = 1
+              };
+
+              "DAQ_MODE" enum {
+                "ALTERNATING" = 0,
+                "BURST" = 1
+              };
+
+              "BYTES_ONLY";
+
+              "RESUME_SUPPORTED";
+
+              "STORE_SUPPORTED";
+
+              "CONSISTENCY" enum {
+                "DAQ" = 0,
+                "ODT" = 1
+              };
+
+              "ADDRESS_EXTENSION" enum {
+                "DAQ" = 0,
+                "ODT" = 1
+              };
+
+              block "CHECKSUM_PARAM" struct {
+                uint;
+
+                ulong;
+
+                taggedstruct {
+                  "CHECKSUM_CALCULATION" enum {
+                    "ACTIVE_PAGE" = 0,
+                    "BIT_OR_WITH_OPT_PAGE" = 1
+                  };
+                };
+              };
+
+              (block "DEFINED_PAGES" struct {
+                struct {
+                  uint;
+                  char[101];
+                  uint;
+                  ulong;
+                  ulong;
+                };
+                taggedstruct {
+                  "RAM";
+                  "ROM";
+                  "FLASH";
+                  "EEPROM";
+                  "RAM_INIT_BY_ECU";
+                  "RAM_INIT_BY_TOOL";
+                  "AUTO_FLASH_BACK";
+                  "FLASH_BACK";
+                  "DEFAULT";
+                };
+              })*;
+
+              ("OPTIONAL_CMD" uint)*;
+            };
+          };
+            /*EcoCoderINCAStart*/
+          ("ADDRESS_MAPPING" struct
+          {
+            ulong;
+            ulong;
+            ulong;
+          })*;
+            /*EcoCoderINCAEnd*/
+            /*EcoCoderCANapeStart
+       ("ADDR_MAPPING" struct 
+       {
+       ulong;
+       ulong;
+       ulong;
+       })*;
+       EcoCoderCANapeEnd*/
+          "DP_BLOB" struct {
+            uint;
+            ulong;
+            ulong;
+          };
+
+          "KP_BLOB" struct {
+            uint;
+            ulong;
+            ulong;
+            taggedstruct {
+              ("RASTER" uchar)*;
+
+            };
+          };
+        };
+      };
+        /*ECO_CCP_Note_End*/
+    /end A2ML
+
+    /*ECO_XCP_Note_Start
+     /begin IF_DATA XCP
+       /begin PROTOCOL_LAYER
+         0x0100
+         0x07D0
+         0x2710
+         0x3E8
+         0x2710
+         0x3E8
+         0x19
+         0x19
+         0x08
+         0x08
+         BYTE_ORDER_MSB_FIRST
+         ADDRESS_GRANULARITY_BYTE
+         OPTIONAL_CMD ALLOC_ODT_ENTRY
+         OPTIONAL_CMD ALLOC_ODT
+         OPTIONAL_CMD ALLOC_DAQ
+         OPTIONAL_CMD FREE_DAQ
+         OPTIONAL_CMD GET_DAQ_EVENT_INFO
+         OPTIONAL_CMD GET_DAQ_RESOLUTION_INFO
+         OPTIONAL_CMD GET_DAQ_PROCESSOR_INFO
+         OPTIONAL_CMD START_STOP_SYNCH
+         OPTIONAL_CMD START_STOP_DAQ_LIST
+         OPTIONAL_CMD GET_DAQ_LIST_MODE
+         OPTIONAL_CMD SET_DAQ_LIST_MODE
+         OPTIONAL_CMD WRITE_DAQ
+         OPTIONAL_CMD SET_DAQ_PTR
+         OPTIONAL_CMD CLEAR_DAQ_LIST
+         OPTIONAL_CMD DOWNLOAD
+         OPTIONAL_CMD SHORT_UPLOAD
+         OPTIONAL_CMD UPLOAD
+         OPTIONAL_CMD SET_MTA
+         OPTIONAL_CMD UNLOCK
+         OPTIONAL_CMD GET_SEED
+         OPTIONAL_CMD GET_ID
+         OPTIONAL_CMD GET_COMM_MODE_INFO
+         OPTIONAL_CMD BUILD_CHECKSUM
+         SEED_AND_KEY_EXTERNAL_FUNCTION ""
+       /end PROTOCOL_LAYER
+       /begin DAQ
+         DYNAMIC
+         0x00
+         0x05
+         0x00
+         OPTIMISATION_TYPE_DEFAULT
+         ADDRESS_EXTENSION_FREE
+         IDENTIFICATION_FIELD_TYPE_ABSOLUTE
+         GRANULARITY_ODT_ENTRY_SIZE_DAQ_BYTE
+         0x07
+         OVERLOAD_INDICATION_PID
+         /begin STIM
+           GRANULARITY_ODT_ENTRY_SIZE_STIM_BYTE
+           0x07
+         /end STIM
+         /begin EVENT
+           "5ms"
+           "5ms"
+           0x00
+           DAQ
+           0x01
+           0x05
+           0x06
+           0x00
+         /end EVENT
+         /begin EVENT
+           "20ms"
+           "20ms"
+           0x01
+           DAQ
+           0x01
+           0x02
+           0x07
+           0x00
+         /end EVENT
+         /begin EVENT
+           "50ms"
+           "50ms"
+           0x02
+           DAQ
+           0x01
+           0x05
+           0x07
+           0x00
+         /end EVENT
+         /begin EVENT
+           "100ms"
+           "100ms"
+           0x03
+           DAQ
+           0x01
+           0x01
+           0x08
+           0x00
+         /end EVENT
+         /begin EVENT
+           "200ms"
+           "200m"
+           0x04
+           DAQ
+           0x01
+           0x02
+           0x08
+           0x00
+         /end EVENT
+       /end DAQ
+       /begin PAG
+         0x00
+       /end PAG
+       /begin PGM
+         PGM_MODE_ABSOLUTE
+         0x00
+         0x00
+       /end PGM
+       
+       /begin XCP_ON_CAN
+         0x0100
+         CAN_ID_MASTER 0x100
+         CAN_ID_SLAVE 0x101
+         BAUDRATE 500000
+         SAMPLE_POINT 0x4B
+         SAMPLE_RATE SINGLE
+         BTL_CYCLES 0x08
+         SJW 0x02
+         SYNC_EDGE SINGLE
+       /end XCP_ON_CAN
+     /end IF_DATA
+     
+     /begin IF_DATA CANAPE_ADDRESS_UPDATE
+     /end IF_DATA
+     
+     /begin MOD_PAR "_default_ModParComment"
+       /begin MEMORY_SEGMENT _ROMCAL
+         "calibration_rom"
+         DATA
+         FLASH
+         INTERN
+         0x00FD0000
+         0x8000
+         -1 -1 -1 -1 -1
+         /begin IF_DATA XCP
+           /begin SEGMENT
+             0x00
+             0x01
+             0x00
+             0x00
+             0x00
+             /begin CHECKSUM
+               XCP_CRC_16_CITT
+               MAX_BLOCK_SIZE 0xFFFF
+               EXTERNAL_FUNCTION "String.Empty"
+             /end CHECKSUM
+             /begin PAGE
+               0x00
+               ECU_ACCESS_DONT_CARE
+               XCP_READ_ACCESS_DONT_CARE
+               XCP_WRITE_ACCESS_DONT_CARE
+               INIT_SEGMENT 0x00
+             /end PAGE
+             /begin ADDRESS_MAPPING
+               0x00FD0000
+               0x40000000
+               0x8000
+             /end ADDRESS_MAPPING
+           /end SEGMENT
+         /end IF_DATA    
+       /end MEMORY_SEGMENT
+       
+       /begin MEMORY_SEGMENT _CODE
+         "ecu_code"
+         CODE
+         FLASH
+         INTERN
+         0x01000200
+         0x1FFA00
+         -1 -1 -1 -1 -1
+       /end MEMORY_SEGMENT
+     /end MOD_PAR
+     ECO_XCP_Note_End*/
+
+
+    /*ECO_CCP_Note_Start*/
+    /begin MOD_PAR "_default_ModParComment"
+      ADDR_EPK 0x01000100
+      EPK "2025-04-23 15:22:42"
+
+        /*EcoCoderINCAStart*/
+      /begin MEMORY_SEGMENT _RAMCAL
+        "calibration_ram"
+        DATA
+        RAM
+        INTERN
+        0x40000000
+        0x8000
+        -1 -1 -1 -1 -1
+      /end MEMORY_SEGMENT
+      /*EcoCoderINCAEnd*/
+
+      /begin MEMORY_SEGMENT _ROMCAL
+        "calibration_rom"
+        DATA
+        FLASH
+        INTERN
+        0x00FD0000
+        0x8000
+        -1 -1 -1 -1 -1
+        /begin IF_DATA ASAP1B_CCP
+            /*EcoCoderINCAStart*/
+            ADDRESS_MAPPING 0x00FD0000 0x40000000 0x8000
+                /*EcoCoderINCAEnd*/
+                /*EcoCoderCANapeStart
+           ADDR_MAPPING  0x00FD0000 0x40000000 0x8000
+           EcoCoderCANapeEnd*/
+        /end IF_DATA
+      /end MEMORY_SEGMENT
+      /begin MEMORY_SEGMENT _epk_data
+        "epk_data"
+        DATA
+        FLASH
+        INTERN
+        0x01000100
+        0xFF
+        -1 -1 -1 -1 -1
+        /begin IF_DATA ASAP1B_CCP
+            /*EcoCoderINCAStart*/
+            ADDRESS_MAPPING 0x01000100 0x01000100 0xFF
+                /*EcoCoderINCAEnd*/
+                /*EcoCoderCANapeStart
+           ADDR_MAPPING  0x01000100 0x01000100 0xFF
+           EcoCoderCANapeEnd*/
+        /end IF_DATA
+      /end MEMORY_SEGMENT
+      /begin MEMORY_SEGMENT _CODE
+        "ecu_code"
+        CODE
+        FLASH
+        INTERN
+        0x01000200
+        0x1FFA00
+        -1 -1 -1 -1 -1
+      /end MEMORY_SEGMENT
+    /end MOD_PAR
+
+    /begin IF_DATA ASAP1B_CCP
+        /begin SOURCE
+          "20ms"
+          3
+          20
+          DISPLAY_IDENTIFIER DAQ2
+          /begin QP_BLOB
+            1
+            LENGTH 0x20
+            CAN_ID_FIXED 0x101
+            RASTER 1
+            REDUCTION_ALLOWED
+            FIRST_PID 0x3C
+          /end QP_BLOB
+        /end SOURCE
+        /begin SOURCE
+          "100ms"
+          3
+          100
+          DISPLAY_IDENTIFIER DAQ3
+          /begin QP_BLOB
+            2
+            LENGTH 0x30
+            CAN_ID_FIXED 0x101
+            RASTER 2
+            REDUCTION_ALLOWED
+            FIRST_PID 0x78
+          /end QP_BLOB
+        /end SOURCE
+        /begin RASTER
+          "20ms"
+          "20ms"
+          1
+          3
+          20
+        /end RASTER
+        /begin RASTER
+          "100ms"
+          "100ms"
+          2
+          3
+          100
+        /end RASTER
+        /begin SEED_KEY
+          ""
+          ""
+          ""
+        /end SEED_KEY
+
+        /begin CHECKSUM
+          "CRC16.dll"
+        /end CHECKSUM
+
+        /begin TP_BLOB
+          0x0201
+          0x0204
+          0x100
+          0x101
+          0x112
+          1
+          BAUDRATE 500000
+          SAMPLE_POINT 70
+          SAMPLE_RATE 1
+          BTL_CYCLES 10
+          SJW 1
+          SYNC_EDGE SINGLE
+          DAQ_MODE 0
+          CONSISTENCY 1
+          ADDRESS_EXTENSION 0
+          RESUME_SUPPORTED
+          STORE_SUPPORTED
+
+          /begin CHECKSUM_PARAM
+            /*EcoCoderINCAStart*/
+            0x9001
+              /*EcoCoderINCAEnd*/
+              /*EcoCoderCANapeStart
+           0x0C
+           EcoCoderCANapeEnd*/
+            0xffffffff
+            CHECKSUM_CALCULATION ACTIVE_PAGE
+          /end CHECKSUM_PARAM
+
+          /begin DEFINED_PAGES
+            0x00
+            "RAM_PAGE"
+            0x00
+            0x40000000
+            0x8000
+            RAM
+            RAM_INIT_BY_ECU
+          /end DEFINED_PAGES
+
+          OPTIONAL_CMD 0X5
+          OPTIONAL_CMD 0X8
+          OPTIONAL_CMD 0X9
+          OPTIONAL_CMD 0XC
+          OPTIONAL_CMD 0XD
+          OPTIONAL_CMD 0XE
+          OPTIONAL_CMD 0XF
+          OPTIONAL_CMD 0X10
+          OPTIONAL_CMD 0X11
+          OPTIONAL_CMD 0X12
+          OPTIONAL_CMD 0X13
+          OPTIONAL_CMD 0X18
+          OPTIONAL_CMD 0X19
+          OPTIONAL_CMD 0X20
+          OPTIONAL_CMD 0X21
+          OPTIONAL_CMD 0X22
+          OPTIONAL_CMD 0X23
+        /end TP_BLOB
+    /end IF_DATA
+    /*ECO_CCP_Note_End*/
+
+    /begin MOD_COMMON
+      "" /* Comment */
+      ALIGNMENT_BYTE 1
+      ALIGNMENT_WORD 1
+      ALIGNMENT_LONG 1
+      ALIGNMENT_FLOAT32_IEEE 1
+      ALIGNMENT_FLOAT64_IEEE 1
+      BYTE_ORDER MSB_FIRST
+      DEPOSIT ABSOLUTE
+    /end MOD_COMMON
+
+    /begin RECORD_LAYOUT Scalar_BOOLEAN
+      FNC_VALUES 1 UBYTE COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Scalar_UBYTE
+      FNC_VALUES 1 UBYTE COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Scalar_BYTE
+      FNC_VALUES 1 SBYTE COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Scalar_UWORD
+      FNC_VALUES 1 UWORD COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Scalar_SWORD
+      FNC_VALUES 1 SWORD COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Scalar_ULONG
+      FNC_VALUES 1 ULONG COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Scalar_LONG
+      FNC_VALUES 1 SLONG COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Scalar_FLOAT32_IEEE
+      FNC_VALUES 1 FLOAT32_IEEE COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Scalar_FLOAT64_IEEE
+      FNC_VALUES 1 FLOAT64_IEEE COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup1D_BOOLEAN
+      FNC_VALUES 1 UBYTE COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup1D_X_BOOLEAN
+      AXIS_PTS_X 1 UBYTE INDEX_INCR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup1D_BYTE
+      FNC_VALUES 1 SBYTE COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup1D_X_BYTE
+      AXIS_PTS_X 1 SBYTE INDEX_INCR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup1D_UBYTE
+      FNC_VALUES 1 UBYTE COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup1D_X_UBYTE
+      AXIS_PTS_X 1 UBYTE INDEX_INCR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup1D_UWORD
+      FNC_VALUES 1 UWORD COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup1D_X_UWORD
+      AXIS_PTS_X 1 UWORD INDEX_INCR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup1D_WORD
+      FNC_VALUES 1 SWORD COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup1D_X_WORD
+      AXIS_PTS_X 1 SWORD INDEX_INCR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup1D_ULONG
+      FNC_VALUES 1 ULONG COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup1D_X_ULONG
+      AXIS_PTS_X 1 ULONG INDEX_INCR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup1D_SLONG
+      FNC_VALUES 1 SLONG COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup1D_X_LONG
+      AXIS_PTS_X 1 SLONG INDEX_INCR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup1D_FLOAT32_IEEE
+      FNC_VALUES 1 FLOAT32_IEEE COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup1D_X_FLOAT32_IEEE
+      AXIS_PTS_X 1 FLOAT32_IEEE INDEX_INCR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup1D_FLOAT64_IEEE
+      FNC_VALUES 1 FLOAT64_IEEE COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup1D_X_FLOAT64_IEEE
+      AXIS_PTS_X 1 FLOAT64_IEEE INDEX_INCR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup2D_BOOLEAN
+      FNC_VALUES 1 UBYTE COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup2D_X_BOOLEAN
+      AXIS_PTS_X 1 UBYTE INDEX_INCR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup2D_UBYTE
+      FNC_VALUES 1 UBYTE COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup2D_X_UBYTE
+      AXIS_PTS_X 1 UBYTE INDEX_INCR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup2D_BYTE
+      FNC_VALUES 1 SBYTE COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup2D_X_BYTE
+      AXIS_PTS_X 1 SBYTE INDEX_INCR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup2D_UWORD
+      FNC_VALUES 1 UWORD COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup2D_X_UWORD
+      AXIS_PTS_X 1 UWORD INDEX_INCR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup2D_WORD
+      FNC_VALUES 1 SWORD COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup2D_X_WORD
+      AXIS_PTS_X 1 SWORD INDEX_INCR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup2D_ULONG
+      FNC_VALUES 1 ULONG COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup2D_X_ULONG
+      AXIS_PTS_X 1 ULONG INDEX_INCR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup2D_LONG
+      FNC_VALUES 1 SLONG COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup2D_X_LONG
+      AXIS_PTS_X 1 SLONG INDEX_INCR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup2D_FLOAT32_IEEE
+      FNC_VALUES 1 FLOAT32_IEEE COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup2D_X_FLOAT32_IEEE
+      AXIS_PTS_X 1 FLOAT32_IEEE INDEX_INCR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup2D_FLOAT64_IEEE
+      FNC_VALUES 1 FLOAT64_IEEE COLUMN_DIR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin RECORD_LAYOUT Lookup2D_X_FLOAT64_IEEE
+      AXIS_PTS_X 1 FLOAT64_IEEE INDEX_INCR DIRECT
+    /end RECORD_LAYOUT
+
+    /begin CHARACTERISTIC
+      /* Name                   */ SOC_cur
+      /* Long Identifier        */ ""
+      /* Characteristic Type    */ CURVE
+      /* ECU Address            */ 0xfd0330 /* @ECU_Address@SOC_cur@ */
+      /* Record Layout          */ Lookup1D_UWORD
+      /* Maxdiff                */ 0
+      /* Conversion Method      */ VCU_2023_CM_uint16
+      /* Lower Limit            */ 0
+      /* Upper Limit            */ 65535
+      /begin AXIS_DESCR
+        /* Description of X-Axis Points */
+        /* Axis Type            */ COM_AXIS
+        /* Reference to Input   */ NO_INPUT_QUANTITY
+        /* Conversion Method    */ VCU_2023_CM_single
+        /* Number of Axis Pts   */ 201
+        /* Lower Limit          */ -3.4E+38
+        /* Upper Limit          */ 3.4E+38
+        AXIS_PTS_REF SOC_bp
+      /end AXIS_DESCR
+    /end CHARACTERISTIC
+
+    /begin CHARACTERISTIC
+      /* Name                   */ Vdc_bus_V_cur
+      /* Long Identifier        */ ""
+      /* Characteristic Type    */ CURVE
+      /* ECU Address            */ 0xfd06c2 /* @ECU_Address@Vdc_bus_V_cur@ */
+      /* Record Layout          */ Lookup1D_WORD
+      /* Maxdiff                */ 0
+      /* Conversion Method      */ VCU_2023_CM_int16
+      /* Lower Limit            */ -32768
+      /* Upper Limit            */ 32767
+      /begin AXIS_DESCR
+        /* Description of X-Axis Points */
+        /* Axis Type            */ COM_AXIS
+        /* Reference to Input   */ NO_INPUT_QUANTITY
+        /* Conversion Method    */ VCU_2023_CM_int16
+        /* Number of Axis Pts   */ 42
+        /* Lower Limit          */ -32768
+        /* Upper Limit          */ 32767
+        AXIS_PTS_REF Vdc_bus_V_bp
+      /end AXIS_DESCR
+    /end CHARACTERISTIC
+
+    /begin CHARACTERISTIC
+      /* Name                   */ T_IGBT_conversion_cur
+      /* Long Identifier        */ ""
+      /* Characteristic Type    */ CURVE
+      /* ECU Address            */ 0xfd0510 /* @ECU_Address@T_IGBT_conversion_cur@ */
+      /* Record Layout          */ Lookup1D_WORD
+      /* Maxdiff                */ 0
+      /* Conversion Method      */ VCU_2023_CM_int16
+      /* Lower Limit            */ -32768
+      /* Upper Limit            */ 32767
+      /begin AXIS_DESCR
+        /* Description of X-Axis Points */
+        /* Axis Type            */ COM_AXIS
+        /* Reference to Input   */ NO_INPUT_QUANTITY
+        /* Conversion Method    */ VCU_2023_CM_int16
+        /* Number of Axis Pts   */ 39
+        /* Lower Limit          */ -32768
+        /* Upper Limit          */ 32767
+        AXIS_PTS_REF T_IGBT_conversion_bp
+      /end AXIS_DESCR
+    /end CHARACTERISTIC
+
+    /begin CHARACTERISTIC
+      /* Name                   */ T_motor_conversion_cur
+      /* Long Identifier        */ ""
+      /* Characteristic Type    */ CURVE
+      /* ECU Address            */ 0xfd0620 /* @ECU_Address@T_motor_conversion_cur@ */
+      /* Record Layout          */ Lookup1D_WORD
+      /* Maxdiff                */ 0
+      /* Conversion Method      */ VCU_2023_CM_int16
+      /* Lower Limit            */ -32768
+      /* Upper Limit            */ 32767
+      /begin AXIS_DESCR
+        /* Description of X-Axis Points */
+        /* Axis Type            */ COM_AXIS
+        /* Reference to Input   */ NO_INPUT_QUANTITY
+        /* Conversion Method    */ VCU_2023_CM_int16
+        /* Number of Axis Pts   */ 39
+        /* Lower Limit          */ -32768
+        /* Upper Limit          */ 32767
+        AXIS_PTS_REF T_motor_conversion_bp
+      /end AXIS_DESCR
+    /end CHARACTERISTIC
+
+    /begin CHARACTERISTIC
+      /* Name                   */ T_air_conversion_cur
+      /* Long Identifier        */ ""
+      /* Characteristic Type    */ CURVE
+      /* ECU Address            */ 0xfd0598 /* @ECU_Address@T_air_conversion_cur@ */
+      /* Record Layout          */ Lookup1D_WORD
+      /* Maxdiff                */ 0
+      /* Conversion Method      */ VCU_2023_CM_int16
+      /* Lower Limit            */ -32768
+      /* Upper Limit            */ 32767
+      /begin AXIS_DESCR
+        /* Description of X-Axis Points */
+        /* Axis Type            */ COM_AXIS
+        /* Reference to Input   */ NO_INPUT_QUANTITY
+        /* Conversion Method    */ VCU_2023_CM_int16
+        /* Number of Axis Pts   */ 29
+        /* Lower Limit          */ -32768
+        /* Upper Limit          */ 32767
+        AXIS_PTS_REF T_air_conversion_bp
+      /end AXIS_DESCR
+    /end CHARACTERISTIC
+
+    /begin CHARACTERISTIC
+      /* Name                   */ APPS1_max
+      /* Long Identifier        */ ""
+      /* Type                   */ VALUE
+      /* ECU Address            */ 0xfd0000 /* @ECU_Address@APPS1_max@ */
+      /* Record Layout          */ Scalar_SWORD
+      /* Maximum Difference     */ 0
+      /* Conversion Method      */ VCU_2023_CM_int16
+      /* Lower Limit            */ -32768
+      /* Upper Limit            */ 32767
+    /end CHARACTERISTIC
+
+    /begin CHARACTERISTIC
+      /* Name                   */ APPS1_min
+      /* Long Identifier        */ ""
+      /* Type                   */ VALUE
+      /* ECU Address            */ 0xfd0002 /* @ECU_Address@APPS1_min@ */
+      /* Record Layout          */ Scalar_SWORD
+      /* Maximum Difference     */ 0
+      /* Conversion Method      */ VCU_2023_CM_int16
+      /* Lower Limit            */ -32768
+      /* Upper Limit            */ 32767
+    /end CHARACTERISTIC
+
+    /begin CHARACTERISTIC
+      /* Name                   */ APPS2_max
+      /* Long Identifier        */ ""
+      /* Type                   */ VALUE
+      /* ECU Address            */ 0xfd0004 /* @ECU_Address@APPS2_max@ */
+      /* Record Layout          */ Scalar_SWORD
+      /* Maximum Difference     */ 0
+      /* Conversion Method      */ VCU_2023_CM_int16
+      /* Lower Limit            */ -32768
+      /* Upper Limit            */ 32767
+    /end CHARACTERISTIC
+
+    /begin CHARACTERISTIC
+      /* Name                   */ APPS2_min
+      /* Long Identifier        */ ""
+      /* Type                   */ VALUE
+      /* ECU Address            */ 0xfd0006 /* @ECU_Address@APPS2_min@ */
+      /* Record Layout          */ Scalar_SWORD
+      /* Maximum Difference     */ 0
+      /* Conversion Method      */ VCU_2023_CM_int16
+      /* Lower Limit            */ -32768
+      /* Upper Limit            */ 32767
+    /end CHARACTERISTIC
+
+    /begin CHARACTERISTIC
+      /* Name                   */ BRK_TH
+      /* Long Identifier        */ ""
+      /* Type                   */ VALUE
+      /* ECU Address            */ 0xfd0008 /* @ECU_Address@BRK_TH@ */
+      /* Record Layout          */ Scalar_SWORD
+      /* Maximum Difference     */ 0
+      /* Conversion Method      */ VCU_2023_CM_int16
+      /* Lower Limit            */ -32768
+      /* Upper Limit            */ 32767
+    /end CHARACTERISTIC
+
+    /begin AXIS_PTS
+      /* Name                   */ SOC_bp
+      /* Long Identifier        */ ""
+      /* ECU Address            */ 0xfd000c /* @ECU_Address@SOC_bp@ */
+      /* Input Quantity         */ NO_INPUT_QUANTITY
+      /* Record Layout          */ Lookup1D_X_FLOAT32_IEEE
+      /* Maximum Difference     */ 0
+      /* Conversion Method      */ VCU_2023_CM_single
+      /* Number of Axis Pts     */ 201
+      /* Lower Limit            */ -3.4E+38
+      /* Upper Limit            */ 3.4E+38
+    /end AXIS_PTS
+
+    /begin AXIS_PTS
+      /* Name                   */ Vdc_bus_V_bp
+      /* Long Identifier        */ ""
+      /* ECU Address            */ 0xfd066e /* @ECU_Address@Vdc_bus_V_bp@ */
+      /* Input Quantity         */ NO_INPUT_QUANTITY
+      /* Record Layout          */ Lookup1D_X_WORD
+      /* Maximum Difference     */ 0
+      /* Conversion Method      */ VCU_2023_CM_int16
+      /* Number of Axis Pts     */ 42
+      /* Lower Limit            */ -32768
+      /* Upper Limit            */ 32767
+    /end AXIS_PTS
+
+    /begin AXIS_PTS
+      /* Name                   */ T_IGBT_conversion_bp
+      /* Long Identifier        */ ""
+      /* ECU Address            */ 0xfd04c2 /* @ECU_Address@T_IGBT_conversion_bp@ */
+      /* Input Quantity         */ NO_INPUT_QUANTITY
+      /* Record Layout          */ Lookup1D_X_WORD
+      /* Maximum Difference     */ 0
+      /* Conversion Method      */ VCU_2023_CM_int16
+      /* Number of Axis Pts     */ 39
+      /* Lower Limit            */ -32768
+      /* Upper Limit            */ 32767
+    /end AXIS_PTS
+
+    /begin AXIS_PTS
+      /* Name                   */ T_motor_conversion_bp
+      /* Long Identifier        */ ""
+      /* ECU Address            */ 0xfd05d2 /* @ECU_Address@T_motor_conversion_bp@ */
+      /* Input Quantity         */ NO_INPUT_QUANTITY
+      /* Record Layout          */ Lookup1D_X_WORD
+      /* Maximum Difference     */ 0
+      /* Conversion Method      */ VCU_2023_CM_int16
+      /* Number of Axis Pts     */ 39
+      /* Lower Limit            */ -32768
+      /* Upper Limit            */ 32767
+    /end AXIS_PTS
+
+    /begin AXIS_PTS
+      /* Name                   */ T_air_conversion_bp
+      /* Long Identifier        */ ""
+      /* ECU Address            */ 0xfd055e /* @ECU_Address@T_air_conversion_bp@ */
+      /* Input Quantity         */ NO_INPUT_QUANTITY
+      /* Record Layout          */ Lookup1D_X_WORD
+      /* Maximum Difference     */ 0
+      /* Conversion Method      */ VCU_2023_CM_int16
+      /* Number of Axis Pts     */ 29
+      /* Lower Limit            */ -32768
+      /* Upper Limit            */ 32767
+    /end AXIS_PTS
+
+    /begin MEASUREMENT
+      /* Name                   */ DATA
+      /* Long identifier        */ ""
+      /* Data type              */ ULONG
+      /* Conversion method      */ VCU_2023_CM_uint32
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ 0
+      /* Upper limit            */ 4294967295
+      ECU_ADDRESS 0x40018010 /* @ECU_Address@DATA@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ APPS_1
+      /* Long identifier        */ ""
+      /* Data type              */ UWORD
+      /* Conversion method      */ VCU_2023_CM_uint16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ 0
+      /* Upper limit            */ 65535
+      ECU_ADDRESS 0x40018004 /* @ECU_Address@APPS_1@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ APPS1_calib
+      /* Long identifier        */ ""
+      /* Data type              */ UWORD
+      /* Conversion method      */ VCU_2023_CM_uint16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ 0
+      /* Upper limit            */ 65535
+      ECU_ADDRESS 0x40018000 /* @ECU_Address@APPS1_calib@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ APPS_2
+      /* Long identifier        */ ""
+      /* Data type              */ UWORD
+      /* Conversion method      */ VCU_2023_CM_uint16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ 0
+      /* Upper limit            */ 65535
+      ECU_ADDRESS 0x40018006 /* @ECU_Address@APPS_2@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ APPS2_calib
+      /* Long identifier        */ ""
+      /* Data type              */ UWORD
+      /* Conversion method      */ VCU_2023_CM_uint16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ 0
+      /* Upper limit            */ 65535
+      ECU_ADDRESS 0x40018002 /* @ECU_Address@APPS2_calib@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ TRQ_CMD_BAMOCAR
+      /* Long identifier        */ ""
+      /* Data type              */ UWORD
+      /* Conversion method      */ VCU_2023_CM_uint16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ 0
+      /* Upper limit            */ 65535
+      ECU_ADDRESS 0x40018042 /* @ECU_Address@TRQ_CMD_BAMOCAR@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ BRK_PRESSURE
+      /* Long identifier        */ ""
+      /* Data type              */ UWORD
+      /* Conversion method      */ VCU_2023_CM_uint16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ 0
+      /* Upper limit            */ 65535
+      ECU_ADDRESS 0x4001800a /* @ECU_Address@BRK_PRESSURE@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ N_lim
+      /* Long identifier        */ ""
+      /* Data type              */ UWORD
+      /* Conversion method      */ VCU_2023_CM_uint16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ 0
+      /* Upper limit            */ 65535
+      ECU_ADDRESS 0x40018034 /* @ECU_Address@N_lim@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ N_100
+      /* Long identifier        */ ""
+      /* Data type              */ UWORD
+      /* Conversion method      */ VCU_2023_CM_uint16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ 0
+      /* Upper limit            */ 65535
+      ECU_ADDRESS 0x4001802c /* @ECU_Address@N_100@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ Vdc_bus_V
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16_V
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x40018056 /* @ECU_Address@Vdc_bus_V@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ I_act_filt_A
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16_A
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x4001801a /* @ECU_Address@I_act_filt_A@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ T_air_deg
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16__C
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x4001804c /* @ECU_Address@T_air_deg@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ T_motor_deg
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16__C
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x40018050 /* @ECU_Address@T_motor_deg@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ T_IGBT_deg
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16__C
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x40018048 /* @ECU_Address@T_IGBT_deg@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ N_R_Dec
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x40018030 /* @ECU_Address@N_R_Dec@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ M_R_Dec
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x4001802a /* @ECU_Address@M_R_Dec@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ N_R_Acc
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x4001802e /* @ECU_Address@N_R_Acc@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ M_R_Acc
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x40018028 /* @ECU_Address@M_R_Acc@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ REGID
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x4001803e /* @ECU_Address@REGID@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ T_air
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x4001804a /* @ECU_Address@T_air@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ T_motor
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x4001804e /* @ECU_Address@T_motor@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ T_IGBT
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x40018046 /* @ECU_Address@T_IGBT@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ I_cmd
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x4001801c /* @ECU_Address@I_cmd@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ I_act_filt
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x40018018 /* @ECU_Address@I_act_filt@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ Vdc_bus
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x40018054 /* @ECU_Address@Vdc_bus@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ I_200
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x40018016 /* @ECU_Address@I_200@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ I_device
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x4001801e /* @ECU_Address@I_device@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ I_max_pk
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x40018022 /* @ECU_Address@I_max_pk@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ I_nom_eff
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x40018024 /* @ECU_Address@I_nom_eff@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ I_max_eff
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x40018020 /* @ECU_Address@I_max_eff@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ N_act_filt
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x40018032 /* @ECU_Address@N_act_filt@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ SpeedRPMmax
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x40018040 /* @ECU_Address@SpeedRPMmax@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ N_lim_neg
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x40018036 /* @ECU_Address@N_lim_neg@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ N_lim_pos
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x40018038 /* @ECU_Address@N_lim_pos@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ Tension
+      /* Long identifier        */ ""
+      /* Data type              */ SWORD
+      /* Conversion method      */ VCU_2023_CM_int16
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ -32768
+      /* Upper limit            */ 32767
+      ECU_ADDRESS 0x40018052 /* @ECU_Address@Tension@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ stErrroaerazg
+      /* Long identifier        */ ""
+      /* Data type              */ UBYTE
+      /* Conversion method      */ VCU_2023_CM_uint8
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ 0
+      /* Upper limit            */ 255
+      ECU_ADDRESS 0x40018058 /* @ECU_Address@stErrroaerazg@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ LVS_PERCENT
+      /* Long identifier        */ ""
+      /* Data type              */ UBYTE
+      /* Conversion method      */ VCU_2023_CM_uint8
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ 0
+      /* Upper limit            */ 255
+      ECU_ADDRESS 0x40018026 /* @ECU_Address@LVS_PERCENT@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ PwrM_flgKeyOnDelay
+      /* Long identifier        */ ""
+      /* Data type              */ UBYTE
+      /* Conversion method      */ VCU_2023_CM_boolean
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ 0
+      /* Upper limit            */ 1
+      ECU_ADDRESS 0x4001803a /* @ECU_Address@PwrM_flgKeyOnDelay@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ PwrM_flgKeyOnRaw
+      /* Long identifier        */ ""
+      /* Data type              */ UBYTE
+      /* Conversion method      */ VCU_2023_CM_boolean
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ 0
+      /* Upper limit            */ 1
+      ECU_ADDRESS 0x4001803b /* @ECU_Address@PwrM_flgKeyOnRaw@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ APPS_implausibility
+      /* Long identifier        */ ""
+      /* Data type              */ UBYTE
+      /* Conversion method      */ VCU_2023_CM_boolean
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ 0
+      /* Upper limit            */ 1
+      ECU_ADDRESS 0x40018009 /* @ECU_Address@APPS_implausibility@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ APPS_PBM
+      /* Long identifier        */ ""
+      /* Data type              */ UBYTE
+      /* Conversion method      */ VCU_2023_CM_boolean
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ 0
+      /* Upper limit            */ 1
+      ECU_ADDRESS 0x40018008 /* @ECU_Address@APPS_PBM@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ TSBTN
+      /* Long identifier        */ ""
+      /* Data type              */ UBYTE
+      /* Conversion method      */ VCU_2023_CM_boolean
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ 0
+      /* Upper limit            */ 1
+      ECU_ADDRESS 0x40018045 /* @ECU_Address@TSBTN@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ R2D_btn
+      /* Long identifier        */ ""
+      /* Data type              */ UBYTE
+      /* Conversion method      */ VCU_2023_CM_boolean
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ 0
+      /* Upper limit            */ 1
+      ECU_ADDRESS 0x4001803d /* @ECU_Address@R2D_btn@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ BUZZ
+      /* Long identifier        */ ""
+      /* Data type              */ UBYTE
+      /* Conversion method      */ VCU_2023_CM_boolean
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ 0
+      /* Upper limit            */ 1
+      ECU_ADDRESS 0x4001800c /* @ECU_Address@BUZZ@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ FRGRUN
+      /* Long identifier        */ ""
+      /* Data type              */ UBYTE
+      /* Conversion method      */ VCU_2023_CM_boolean
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ 0
+      /* Upper limit            */ 1
+      ECU_ADDRESS 0x40018014 /* @ECU_Address@FRGRUN@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ TS
+      /* Long identifier        */ ""
+      /* Data type              */ UBYTE
+      /* Conversion method      */ VCU_2023_CM_boolean
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ 0
+      /* Upper limit            */ 1
+      ECU_ADDRESS 0x40018044 /* @ECU_Address@TS@ */
+    /end MEASUREMENT
+
+
+    /begin MEASUREMENT
+      /* Name                   */ R2D
+      /* Long identifier        */ ""
+      /* Data type              */ UBYTE
+      /* Conversion method      */ VCU_2023_CM_boolean
+      /* Resolution (Not used)  */ 0
+      /* Accuracy (Not used)    */ 0
+      /* Lower limit            */ 0
+      /* Upper limit            */ 1
+      ECU_ADDRESS 0x4001803c /* @ECU_Address@R2D@ */
+    /end MEASUREMENT
+
+
+    /begin COMPU_METHOD
+      /* Name of CompuMethod    */ VCU_2023_CM_uint16
+      /* Long identifier        */ "Q = V"
+      /* Conversion Type        */ RAT_FUNC
+      /* Format                 */ "%5.0"
+      /* Units                  */ ""
+      /* Coefficients           */ COEFFS 0 1 0 0 0 1
+    /end COMPU_METHOD
+
+    /begin COMPU_METHOD
+      /* Name of CompuMethod    */ VCU_2023_CM_single
+      /* Long identifier        */ "Q = V"
+      /* Conversion Type        */ RAT_FUNC
+      /* Format                 */ "%8.6"
+      /* Units                  */ ""
+      /* Coefficients           */ COEFFS 0 1 0 0 0 1
+    /end COMPU_METHOD
+
+    /begin COMPU_METHOD
+      /* Name of CompuMethod    */ VCU_2023_CM_int16
+      /* Long identifier        */ "Q = V"
+      /* Conversion Type        */ RAT_FUNC
+      /* Format                 */ "%5.0"
+      /* Units                  */ ""
+      /* Coefficients           */ COEFFS 0 1 0 0 0 1
+    /end COMPU_METHOD
+
+    /begin COMPU_METHOD
+      /* Name of CompuMethod    */ VCU_2023_CM_uint32
+      /* Long identifier        */ "Q = V"
+      /* Conversion Type        */ RAT_FUNC
+      /* Format                 */ "%10.0"
+      /* Units                  */ ""
+      /* Coefficients           */ COEFFS 0 1 0 0 0 1
+    /end COMPU_METHOD
+
+    /begin COMPU_METHOD
+      /* Name of CompuMethod    */ VCU_2023_CM_int16_V
+      /* Long identifier        */ "Q = V"
+      /* Conversion Type        */ RAT_FUNC
+      /* Format                 */ "%5.0"
+      /* Units                  */ "V"
+      /* Coefficients           */ COEFFS 0 1 0 0 0 1
+    /end COMPU_METHOD
+
+    /begin COMPU_METHOD
+      /* Name of CompuMethod    */ VCU_2023_CM_int16_A
+      /* Long identifier        */ "Q = V"
+      /* Conversion Type        */ RAT_FUNC
+      /* Format                 */ "%5.0"
+      /* Units                  */ "A"
+      /* Coefficients           */ COEFFS 0 1 0 0 0 1
+    /end COMPU_METHOD
+
+    /begin COMPU_METHOD
+      /* Name of CompuMethod    */ VCU_2023_CM_int16__C
+      /* Long identifier        */ "Q = V"
+      /* Conversion Type        */ RAT_FUNC
+      /* Format                 */ "%5.0"
+      /* Units                  */ "°C"
+      /* Coefficients           */ COEFFS 0 1 0 0 0 1
+    /end COMPU_METHOD
+
+    /begin COMPU_METHOD
+      /* Name of CompuMethod    */ VCU_2023_CM_uint8
+      /* Long identifier        */ "Q = V"
+      /* Conversion Type        */ RAT_FUNC
+      /* Format                 */ "%3.0"
+      /* Units                  */ ""
+      /* Coefficients           */ COEFFS 0 1 0 0 0 1
+    /end COMPU_METHOD
+
+    /begin COMPU_METHOD
+      /* Name of CompuMethod    */ VCU_2023_CM_boolean
+      /* Long identifier        */ "Q = V"
+      /* Conversion Type        */ RAT_FUNC
+      /* Format                 */ "%1.0"
+      /* Units                  */ ""
+      /* Coefficients           */ COEFFS 0 1 0 0 0 1
+    /end COMPU_METHOD
+
+    /begin GROUP
+      /* Name                   */ VCU_2023
+      /* Long identifier        */ "VCU_2023"
+      /* Root                    */ ROOT
+      /begin SUB_GROUP
+      Root_Main
+      Root_Power_Management_Example
+      /end SUB_GROUP
+      /begin REF_MEASUREMENT
+      nvmAPPS1_max
+      nvmAPPS1_min
+      nvmAPPS2_max
+      nvmAPPS2_min
+      nvmAPPS_PBM
+      nvmBRK_TH
+      nvmI_200
+      nvmI_act_filt
+      nvmI_act_filt_A
+      nvmI_cmd
+      nvmI_device
+      nvmI_max_eff
+      nvmI_max_pk
+      nvmI_nom_eff
+      nvmM_R_Acc
+      nvmM_R_Dec
+      nvmN_100
+      nvmN_R_Acc
+      nvmN_R_Dec
+      nvmN_act_filt
+      nvmN_lim
+      nvmN_lim_neg
+      nvmN_lim_pos
+      nvmSpeedRPMmax
+      nvmT_IGBT
+      nvmT_IGBT_deg
+      nvmT_air
+      nvmT_air_deg
+      nvmT_motor
+      nvmT_motor_deg
+      nvmVdc_bus
+      nvmVdc_bus_V
+      nvm_R2D
+      nvm_TS_ON
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ Root_Main
+      /* Long identifier        */ "VCU_2023/Main"
+      /begin SUB_GROUP
+      S2_CANbus_Management
+      S2_Data_processing
+      S2_Main_Functionalities
+      /end SUB_GROUP
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ Root_Power_Management_Example
+      /* Long identifier        */ "VCU_2023/Power Management Example"
+      /begin SUB_GROUP
+      S3_Power_Off_Management
+      /end SUB_GROUP
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S2_CANbus_Management
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management"
+      /begin SUB_GROUP
+      S5_Can_treatment_if_len_4_or_5
+      S5_Can_treatment_if_len_6
+      S5_Send_to_Dashboard
+      /end SUB_GROUP
+      /begin REF_MEASUREMENT
+      DATA
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S2_Data_processing
+      /* Long identifier        */ "VCU_2023/Main/Data processing"
+      /begin SUB_GROUP
+      S6_Electrical
+      S6_Temperature
+      /end SUB_GROUP
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S2_Main_Functionalities
+      /* Long identifier        */ "VCU_2023/Main/Main Functionalities"
+      /begin SUB_GROUP
+      S7_Acceleration_Pedal_Position_Sensors
+      S7_Brake_Pressure_Sensor
+      S7_Ready_to_drive
+      S7_Tractive_System
+      /end SUB_GROUP
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S3_Power_Off_Management
+      /* Long identifier        */ "VCU_2023/Power Management Example/Power Off Management"
+      /begin SUB_GROUP
+      S145_Get_flgKeyOn
+      S145_TOfD_xxxx1
+      /end SUB_GROUP
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S5_Can_treatment_if_len_4_or_5
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Can treatment if len=4 or 5"
+      /begin SUB_GROUP
+      S9_I_200
+      S9_I_act_filt
+      S9_I_cmd
+      S9_I_device
+      S9_I_max_eff
+      S9_I_max_pk
+      S9_I_nom_eff
+      S9_N_100
+      S9_N_Lim
+      S9_N_Lim_neg
+      S9_N_Lim_pos
+      S9_N_act_filt
+      S9_SpeedRPMmax
+      S9_T_IGBT
+      S9_T_air
+      S9_T_motor
+      S9_Vdc_bus
+      /end SUB_GROUP
+      /begin REF_MEASUREMENT
+      REGID
+      stErrroaerazg
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S5_Can_treatment_if_len_6
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Can treatment if len=6"
+      /begin SUB_GROUP
+      S10_N_R_Acc___M_R_Acc
+      S10_N_R_Dec___M_R_Dec
+      /end SUB_GROUP
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S5_Send_to_Dashboard
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Send to Dashboard"
+      /begin REF_CHARACTERISTIC
+      SOC_cur
+      /end REF_CHARACTERISTIC
+      /begin REF_MEASUREMENT
+      LVS_PERCENT
+      Tension
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S6_Electrical
+      /* Long identifier        */ "VCU_2023/Main/Data processing/Electrical"
+      /begin REF_CHARACTERISTIC
+      Vdc_bus_V_cur
+      /end REF_CHARACTERISTIC
+      /begin REF_MEASUREMENT
+      I_act_filt_A
+      Vdc_bus_V
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S6_Temperature
+      /* Long identifier        */ "VCU_2023/Main/Data processing/Temperature"
+      /begin REF_CHARACTERISTIC
+      T_IGBT_conversion_cur
+      T_air_conversion_cur
+      T_motor_conversion_cur
+      /end REF_CHARACTERISTIC
+      /begin REF_MEASUREMENT
+      T_IGBT_deg
+      T_air_deg
+      T_motor_deg
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S7_Acceleration_Pedal_Position_Sensors
+      /* Long identifier        */ "VCU_2023/Main/Main Functionalities/Acceleration Pedal Position Sensors"
+      /begin SUB_GROUP
+      S106_APPS_reading_and_calibration
+      S106_Check_APPS_Implausibility
+      S106_Send_Torque_Command
+      /end SUB_GROUP
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S7_Brake_Pressure_Sensor
+      /* Long identifier        */ "VCU_2023/Main/Main Functionalities/Brake Pressure Sensor"
+      /begin REF_CHARACTERISTIC
+      BRK_TH
+      /end REF_CHARACTERISTIC
+      /begin REF_MEASUREMENT
+      BRK_PRESSURE
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S7_Ready_to_drive
+      /* Long identifier        */ "VCU_2023/Main/Main Functionalities/Ready to drive"
+      /begin SUB_GROUP
+      S108_Subsystem
+      S108_Subsystem1
+      /end SUB_GROUP
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S7_Tractive_System
+      /* Long identifier        */ "VCU_2023/Main/Main Functionalities/Tractive System"
+      /begin SUB_GROUP
+      S109_Subsystem
+      /end SUB_GROUP
+      /begin REF_MEASUREMENT
+      FRGRUN
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S145_Get_flgKeyOn
+      /* Long identifier        */ "VCU_2023/Power Management Example/Power Off Management/Get flgKeyOn"
+      /begin REF_MEASUREMENT
+      PwrM_flgKeyOnRaw
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S145_TOfD_xxxx1
+      /* Long identifier        */ "VCU_2023/Power Management Example/Power Off Management/TOfD_xxxx1"
+      /begin REF_MEASUREMENT
+      PwrM_flgKeyOnDelay
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S9_I_200
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Can treatment if len=4 or 5/I_200"
+      /begin REF_MEASUREMENT
+      I_200
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S9_I_act_filt
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Can treatment if len=4 or 5/I_act_filt"
+      /begin REF_MEASUREMENT
+      I_act_filt
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S9_I_cmd
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Can treatment if len=4 or 5/I_cmd"
+      /begin REF_MEASUREMENT
+      I_cmd
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S9_I_device
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Can treatment if len=4 or 5/I_device"
+      /begin REF_MEASUREMENT
+      I_device
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S9_I_max_eff
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Can treatment if len=4 or 5/I_max_eff"
+      /begin REF_MEASUREMENT
+      I_max_eff
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S9_I_max_pk
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Can treatment if len=4 or 5/I_max_pk"
+      /begin REF_MEASUREMENT
+      I_max_pk
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S9_I_nom_eff
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Can treatment if len=4 or 5/I_nom_eff"
+      /begin REF_MEASUREMENT
+      I_nom_eff
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S9_N_100
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Can treatment if len=4 or 5/N_100"
+      /begin REF_MEASUREMENT
+      N_100
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S9_N_Lim
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Can treatment if len=4 or 5/N_Lim"
+      /begin REF_MEASUREMENT
+      N_lim
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S9_N_Lim_neg
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Can treatment if len=4 or 5/N_Lim_neg"
+      /begin REF_MEASUREMENT
+      N_lim_neg
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S9_N_Lim_pos
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Can treatment if len=4 or 5/N_Lim_pos"
+      /begin REF_MEASUREMENT
+      N_lim_pos
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S9_N_act_filt
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Can treatment if len=4 or 5/N_act_filt"
+      /begin REF_MEASUREMENT
+      N_act_filt
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S9_SpeedRPMmax
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Can treatment if len=4 or 5/SpeedRPMmax"
+      /begin REF_MEASUREMENT
+      SpeedRPMmax
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S9_T_IGBT
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Can treatment if len=4 or 5/T_IGBT"
+      /begin REF_MEASUREMENT
+      T_IGBT
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S9_T_air
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Can treatment if len=4 or 5/T_air"
+      /begin REF_MEASUREMENT
+      T_air
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S9_T_motor
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Can treatment if len=4 or 5/T_motor"
+      /begin REF_MEASUREMENT
+      T_motor
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S9_Vdc_bus
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Can treatment if len=4 or 5/Vdc_bus"
+      /begin REF_MEASUREMENT
+      Vdc_bus
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S10_N_R_Acc___M_R_Acc
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Can treatment if len=6/N_R_Acc | M R_Acc"
+      /begin REF_MEASUREMENT
+      M_R_Acc
+      N_R_Acc
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S10_N_R_Dec___M_R_Dec
+      /* Long identifier        */ "VCU_2023/Main/CANbus Management/Can treatment if len=6/N_R_Dec | M_R_Dec"
+      /begin REF_MEASUREMENT
+      M_R_Dec
+      N_R_Dec
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S106_APPS_reading_and_calibration
+      /* Long identifier        */ "VCU_2023/Main/Main Functionalities/Acceleration Pedal Position Sensors/APPS reading and calibration"
+      /begin REF_CHARACTERISTIC
+      APPS1_max
+      APPS1_min
+      APPS2_max
+      APPS2_min
+      /end REF_CHARACTERISTIC
+      /begin REF_MEASUREMENT
+      APPS1_calib
+      APPS2_calib
+      APPS_1
+      APPS_2
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S106_Check_APPS_Implausibility
+      /* Long identifier        */ "VCU_2023/Main/Main Functionalities/Acceleration Pedal Position Sensors/Check APPS Implausibility"
+      /begin REF_MEASUREMENT
+      APPS_PBM
+      APPS_implausibility
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S106_Send_Torque_Command
+      /* Long identifier        */ "VCU_2023/Main/Main Functionalities/Acceleration Pedal Position Sensors/Send Torque Command"
+      /begin REF_MEASUREMENT
+      TRQ_CMD_BAMOCAR
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S108_Subsystem
+      /* Long identifier        */ "VCU_2023/Main/Main Functionalities/Ready to drive/Subsystem"
+      /begin REF_MEASUREMENT
+      R2D_btn
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S108_Subsystem1
+      /* Long identifier        */ "VCU_2023/Main/Main Functionalities/Ready to drive/Subsystem1"
+      /begin SUB_GROUP
+      S125_Enter_R2D_Mode
+      /end SUB_GROUP
+      /begin REF_MEASUREMENT
+      BUZZ
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S109_Subsystem
+      /* Long identifier        */ "VCU_2023/Main/Main Functionalities/Tractive System/Subsystem"
+      /begin SUB_GROUP
+      S133_Subsystem
+      /end SUB_GROUP
+      /begin REF_MEASUREMENT
+      TSBTN
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S125_Enter_R2D_Mode
+      /* Long identifier        */ "VCU_2023/Main/Main Functionalities/Ready to drive/Subsystem1/Enter R2D Mode"
+      /begin REF_MEASUREMENT
+      R2D
+      /end REF_MEASUREMENT
+    /end GROUP
+
+    /begin GROUP
+      /* Name                   */ S133_Subsystem
+      /* Long identifier        */ "VCU_2023/Main/Main Functionalities/Tractive System/Subsystem/Subsystem"
+      /begin REF_MEASUREMENT
+      TS
+      /end REF_MEASUREMENT
+    /end GROUP
+
+  /end MODULE
+
+
+/end PROJECT
+/* (add any file trailer comments here) */
+/* EOF VCU_2023.a2l */
+

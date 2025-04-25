@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.1559"
+    ComputedModelVersion    "1.1570"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -1499,325 +1499,61 @@ Model {
 	Dimension		110
 	Object {
 	  $ObjectID		  5
-	  IsActive		  [0]
+	  IsActive		  [1]
 	  IsTabbed		  [1]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "2976"
-	  Extents		  [1920.0, 899.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-582.0, -446.0]
-	  SceneRectInView	  [-582.0, -446.0, 1536.0, 719.0]
+	  LoadSaveID		  "3400"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [1.25]
+	  Offset		  [-182.01734257830515, -170.15725714285875]
+	  SceneRectInView	  [-182.01734257830515, -170.15725714285875, 1200.0, 460.16]
 	}
 	Object {
 	  $ObjectID		  6
 	  IsActive		  [0]
 	  IsTabbed		  [1]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "4487"
+	  LoadSaveID		  "4490"
 	  Extents		  [1920.0, 899.0]
-	  ZoomFactor		  [1.8790481920000002]
-	  Offset		  [205.1971428571436, -94.204008047921377]
-	  SceneRectInView	  [205.1971428571436, -94.204008047921377, 817.43512834821422, 382.64053208487371]
+	  ZoomFactor		  [1.536]
+	  Offset		  [-5.566666666666606, -123.32281250000034]
+	  SceneRectInView	  [-5.566666666666606, -123.32281250000034, 1000.0, 468.09895833333337]
 	}
 	Object {
 	  $ObjectID		  7
-	  IsActive		  [1]
+	  IsActive		  [0]
 	  IsTabbed		  [1]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "3379"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [1.25]
-	  Offset		  [25.605545206532724, -165.31610026894822]
-	  SceneRectInView	  [25.605545206532724, -165.31610026894822, 1200.0, 460.16]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [1920.0, 899.0]
+	  ZoomFactor		  [0.54975581388799988]
+	  Offset		  [-340.81547619048092, -748.65310927303108]
+	  SceneRectInView	  [-340.81547619048092, -748.65310927303108, 2793.967723846436, 1307.853381149471]
 	}
 	Object {
 	  $ObjectID		  8
 	  IsActive		  [0]
 	  IsTabbed		  [1]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "2980"
-	  Extents		  [1920.0, 899.0]
-	  ZoomFactor		  [0.8388608]
-	  Offset		  [-288.59425363155322, -148.06678591643043]
-	  SceneRectInView	  [-288.59425363155322, -148.06678591643043, 1831.0546875, 857.11479187011719]
+	  LoadSaveID		  "2976"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [0.59999999999999987]
+	  Offset		  [-1040.8761599999996, -725.406026666671]
+	  SceneRectInView	  [-1040.8761599999996, -725.406026666671, 2500.0000000000009, 958.666666666667]
 	}
 	Object {
 	  $ObjectID		  9
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "3352"
+	  LoadSaveID		  "3089"
 	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-157.44179594777756, -63.808360452021475]
-	  SceneRectInView	  [-157.44179594777756, -63.808360452021475, 1500.0, 575.2]
+	  ZoomFactor		  [0.4]
+	  Offset		  [129.7029464286245, -486.87794084822588]
+	  SceneRectInView	  [129.7029464286245, -486.87794084822588, 3750.0, 1438.0]
 	}
 	Object {
 	  $ObjectID		  10
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "3400"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [0.6]
-	  Offset		  [-1501.988694959266, -607.98026666666806]
-	  SceneRectInView	  [-1501.988694959266, -607.98026666666806, 2500.0, 958.66666666666663]
-	}
-	Object {
-	  $ObjectID		  11
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "3350"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [2.0971519999999995]
-	  Offset		  [-232.83229872113165, -259.96730738401436]
-	  SceneRectInView	  [-232.83229872113165, -259.96730738401436, 715.25573730468773, 274.27673339843756]
-	}
-	Object {
-	  $ObjectID		  12
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "4472"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [1.25]
-	  Offset		  [-132.39999999999986, -175.73333333333372]
-	  SceneRectInView	  [-132.39999999999986, -175.73333333333372, 1200.0, 460.16]
-	}
-	Object {
-	  $ObjectID		  13
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "4521"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [0.8]
-	  Offset		  [211.46297105371514, -293.967073925235]
-	  SceneRectInView	  [211.46297105371514, -293.967073925235, 1875.0, 719.0]
-	}
-	Object {
-	  $ObjectID		  14
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "4316"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [1.25]
-	  Offset		  [-201.22586658321399, -48.300948208422085]
-	  SceneRectInView	  [-201.22586658321399, -48.300948208422085, 1200.0, 460.16]
-	}
-	Object {
-	  $ObjectID		  15
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "3043"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [1.34217728]
-	  Offset		  [-296.36598214285675, -129.77282751952757]
-	  SceneRectInView	  [-296.36598214285675, -129.77282751952757, 1117.5870895385742, 428.55739593505859]
-	}
-	Object {
-	  $ObjectID		  16
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "4300"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-81.830476190480226, -142.39428571428908]
-	  SceneRectInView	  [-81.830476190480226, -142.39428571428908, 1500.0, 575.2]
-	}
-	Object {
-	  $ObjectID		  17
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "4525"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [1.75]
-	  Offset		  [-11.581866666662108, -54.378159069283612]
-	  SceneRectInView	  [-11.581866666662108, -54.378159069283612, 857.14285714285711, 328.68571428571431]
-	}
-	Object {
-	  $ObjectID		  18
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "4490"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [1.5]
-	  Offset		  [-5.566666666666606, -81.006666666666973]
-	  SceneRectInView	  [-5.566666666666606, -81.006666666666973, 1000.0, 383.46666666666664]
-	}
-	Object {
-	  $ObjectID		  19
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "4494"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-95.5, -261.5]
-	  SceneRectInView	  [-95.5, -261.5, 1500.0, 575.2]
-	}
-	Object {
-	  $ObjectID		  20
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "3089"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [0.6]
-	  Offset		  [-789.58229166662591, -291.37990513393487]
-	  SceneRectInView	  [-789.58229166662591, -291.37990513393487, 2500.0, 958.66666666666663]
-	}
-	Object {
-	  $ObjectID		  21
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkTopLevel"
-	  LoadSaveID		  "0"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [0.53687091199999992]
-	  Offset		  [-340.81547619048092, -630.42316361711892]
-	  SceneRectInView	  [-340.81547619048092, -630.42316361711892, 2793.967723846436, 1071.3934898376467]
-	}
-	Object {
-	  $ObjectID		  22
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "4214"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-233.3333333333353, 315.89999999999748]
-	  SceneRectInView	  [-233.3333333333353, 315.89999999999748, 1500.0, 575.2]
-	}
-	Object {
-	  $ObjectID		  23
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "3229"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [1.75]
-	  Offset		  [-512.53904761904653, 86.201532866894638]
-	  SceneRectInView	  [-512.53904761904653, 86.201532866894638, 857.14285714285711, 328.68571428571431]
-	}
-	Object {
-	  $ObjectID		  24
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "3094"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [0.8]
-	  Offset		  [33.059766939216843, 986.31291551554864]
-	  SceneRectInView	  [33.059766939216843, 986.31291551554864, 1875.0, 719.0]
-	}
-	Object {
-	  $ObjectID		  25
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "4253"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [0.89999999999999991]
-	  Offset		  [-557.88888888888891, -209.11111111111126]
-	  SceneRectInView	  [-557.88888888888891, -209.11111111111126, 1666.6666666666667, 639.11111111111109]
-	}
-	Object {
-	  $ObjectID		  26
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "3223"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-379.59999999999991, -224.20000000000005]
-	  SceneRectInView	  [-379.59999999999991, -224.20000000000005, 1500.0, 575.2]
-	}
-	Object {
-	  $ObjectID		  27
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "4112"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-24.701677232145244, 251.58480041632652]
-	  SceneRectInView	  [-24.701677232145244, 251.58480041632652, 1500.0, 575.2]
-	}
-	Object {
-	  $ObjectID		  28
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "4640"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [1.25]
-	  Offset		  [-539.68, -194.36]
-	  SceneRectInView	  [-539.68, -194.36, 1200.0, 460.16]
-	}
-	Object {
-	  $ObjectID		  29
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "4466"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [1.75]
-	  Offset		  [-193.211763392858, -15.040000000000646]
-	  SceneRectInView	  [-193.211763392858, -15.040000000000646, 857.14285714285711, 328.68571428571431]
-	}
-	Object {
-	  $ObjectID		  30
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "4463"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [1.5]
-	  Offset		  [-28.627708333333885, -50.849523809524555]
-	  SceneRectInView	  [-28.627708333333885, -50.849523809524555, 1000.0, 383.46666666666664]
-	}
-	Object {
-	  $ObjectID		  31
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "4450"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [1.5]
-	  Offset		  [632.36532023809264, -95.9771200000018]
-	  SceneRectInView	  [632.36532023809264, -95.9771200000018, 1000.0, 383.46666666666664]
-	}
-	Object {
-	  $ObjectID		  32
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "4564"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [1.5]
-	  Offset		  [-324.73333333333329, -102.96666666666678]
-	  SceneRectInView	  [-324.73333333333329, -102.96666666666678, 1000.0, 383.46666666666664]
-	}
-	Object {
-	  $ObjectID		  33
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "4418"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [1.5]
-	  Offset		  [78.114285714287689, -141.45333122571751]
-	  SceneRectInView	  [78.114285714287689, -141.45333122571751, 1000.0, 383.46666666666664]
-	}
-	Object {
-	  $ObjectID		  34
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1828,7 +1564,282 @@ Model {
 	  SceneRectInView	  [303.13333333333344, -292.66666666666674, 750.0, 287.6]
 	}
 	Object {
+	  $ObjectID		  11
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "4112"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-24.701677232144789, 251.58480041632663]
+	  SceneRectInView	  [-24.701677232144789, 251.58480041632663, 1500.0, 575.2]
+	}
+	Object {
+	  $ObjectID		  12
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "3730"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [1.75]
+	  Offset		  [-140.86142857142352, -121.63961309524879]
+	  SceneRectInView	  [-140.86142857142352, -121.63961309524879, 857.14285714285711, 328.68571428571431]
+	}
+	Object {
+	  $ObjectID		  13
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "3229"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [1.75]
+	  Offset		  [-512.53904761904653, 86.201532866894638]
+	  SceneRectInView	  [-512.53904761904653, 86.201532866894638, 857.14285714285711, 328.68571428571431]
+	}
+	Object {
+	  $ObjectID		  14
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "4214"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [0.5]
+	  Offset		  [-835.33333333333621, 188.69999999999709]
+	  SceneRectInView	  [-835.33333333333621, 188.69999999999709, 3000.0, 1150.4]
+	}
+	Object {
+	  $ObjectID		  15
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "4418"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [0.6]
+	  Offset		  [-1330.5657142857119, -371.5733312257185]
+	  SceneRectInView	  [-1330.5657142857119, -371.5733312257185, 2500.0, 958.66666666666663]
+	}
+	Object {
+	  $ObjectID		  16
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "4466"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [1.75]
+	  Offset		  [-193.211763392858, -15.040000000000646]
+	  SceneRectInView	  [-193.211763392858, -15.040000000000646, 857.14285714285711, 328.68571428571431]
+	}
+	Object {
+	  $ObjectID		  17
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "2980"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [0.5]
+	  Offset		  [-957.84022124222633, -524.37523470793826]
+	  SceneRectInView	  [-957.84022124222633, -524.37523470793826, 3000.0, 1150.4]
+	}
+	Object {
+	  $ObjectID		  18
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "3350"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [4.0]
+	  Offset		  [-102.57409559613157, -72.323943126202423]
+	  SceneRectInView	  [-102.57409559613157, -72.323943126202423, 375.0, 143.8]
+	}
+	Object {
+	  $ObjectID		  19
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "4472"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [1.25]
+	  Offset		  [-132.39999999999986, -175.73333333333372]
+	  SceneRectInView	  [-132.39999999999986, -175.73333333333372, 1200.0, 460.16]
+	}
+	Object {
+	  $ObjectID		  20
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "4494"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-95.5, -261.5]
+	  SceneRectInView	  [-95.5, -261.5, 1500.0, 575.2]
+	}
+	Object {
+	  $ObjectID		  21
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "4525"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-221.21996190475579, -208.05434954547502]
+	  SceneRectInView	  [-221.21996190475579, -208.05434954547502, 1500.0, 575.2]
+	}
+	Object {
+	  $ObjectID		  22
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "4316"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [1.25]
+	  Offset		  [-201.22586658321399, -48.300948208422085]
+	  SceneRectInView	  [-201.22586658321399, -48.300948208422085, 1200.0, 460.16]
+	}
+	Object {
+	  $ObjectID		  23
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "4300"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-81.830476190480226, -142.39428571428908]
+	  SceneRectInView	  [-81.830476190480226, -142.39428571428908, 1500.0, 575.2]
+	}
+	Object {
+	  $ObjectID		  24
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "4450"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [248.36532023809264, -199.71045333333484]
+	  SceneRectInView	  [248.36532023809264, -199.71045333333484, 1500.0, 575.2]
+	}
+	Object {
+	  $ObjectID		  25
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "4463"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [1.5]
+	  Offset		  [-28.627708333333885, -50.849523809524584]
+	  SceneRectInView	  [-28.627708333333885, -50.849523809524584, 1000.0, 383.46666666666664]
+	}
+	Object {
+	  $ObjectID		  26
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "4487"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [0.5]
+	  Offset		  [-603.79391505649642, -863.61198558807382]
+	  SceneRectInView	  [-603.79391505649642, -863.61198558807382, 3000.0, 1150.4]
+	}
+	Object {
+	  $ObjectID		  27
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "3352"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-157.44179594777756, -63.808360452021475]
+	  SceneRectInView	  [-157.44179594777756, -63.808360452021475, 1500.0, 575.2]
+	}
+	Object {
+	  $ObjectID		  28
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "3379"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-159.83445479346722, -192.19610026894821]
+	  SceneRectInView	  [-159.83445479346722, -192.19610026894821, 1500.0, 575.2]
+	}
+	Object {
+	  $ObjectID		  29
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "4521"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [0.8]
+	  Offset		  [211.46297105371514, -293.967073925235]
+	  SceneRectInView	  [211.46297105371514, -293.967073925235, 1875.0, 719.0]
+	}
+	Object {
+	  $ObjectID		  30
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "3043"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [1.34217728]
+	  Offset		  [-296.36598214285675, -129.77282751952757]
+	  SceneRectInView	  [-296.36598214285675, -129.77282751952757, 1117.5870895385742, 428.55739593505859]
+	}
+	Object {
+	  $ObjectID		  31
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "3094"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [0.8]
+	  Offset		  [33.059766939216843, 986.31291551554864]
+	  SceneRectInView	  [33.059766939216843, 986.31291551554864, 1875.0, 719.0]
+	}
+	Object {
+	  $ObjectID		  32
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "4253"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [0.89999999999999991]
+	  Offset		  [-557.88888888888891, -209.11111111111126]
+	  SceneRectInView	  [-557.88888888888891, -209.11111111111126, 1666.6666666666667, 639.11111111111109]
+	}
+	Object {
+	  $ObjectID		  33
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "3223"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-379.59999999999991, -224.20000000000005]
+	  SceneRectInView	  [-379.59999999999991, -224.20000000000005, 1500.0, 575.2]
+	}
+	Object {
+	  $ObjectID		  34
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "4640"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [1.25]
+	  Offset		  [-539.68, -194.36]
+	  SceneRectInView	  [-539.68, -194.36, 1200.0, 460.16]
+	}
+	Object {
 	  $ObjectID		  35
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "4564"
+	  Extents		  [1875.0, 719.0]
+	  ZoomFactor		  [1.5]
+	  Offset		  [-324.73333333333329, -102.96666666666678]
+	  SceneRectInView	  [-324.73333333333329, -102.96666666666678, 1000.0, 383.46666666666664]
+	}
+	Object {
+	  $ObjectID		  36
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1839,7 +1850,7 @@ Model {
 	  SceneRectInView	  [-570.76562499999989, 27.799999999999955, 1500.0, 575.2]
 	}
 	Object {
-	  $ObjectID		  36
+	  $ObjectID		  37
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1850,7 +1861,7 @@ Model {
 	  SceneRectInView	  [-572.09999999999991, -111.20000000000005, 1500.0, 575.2]
 	}
 	Object {
-	  $ObjectID		  37
+	  $ObjectID		  38
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1861,7 +1872,7 @@ Model {
 	  SceneRectInView	  [362.72915624999985, -11.272133333333329, 1457.0, 558.7109333333334]
 	}
 	Object {
-	  $ObjectID		  38
+	  $ObjectID		  39
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1872,7 +1883,7 @@ Model {
 	  SceneRectInView	  [-147.9, -65.671883222222277, 510.25354166666682, 195.66522477777784]
 	}
 	Object {
-	  $ObjectID		  39
+	  $ObjectID		  40
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1883,7 +1894,7 @@ Model {
 	  SceneRectInView	  [-20.31707317073176, -30.621951219512539, 914.63414634146329, 350.73170731707313]
 	}
 	Object {
-	  $ObjectID		  40
+	  $ObjectID		  41
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1894,7 +1905,7 @@ Model {
 	  SceneRectInView	  [207.54873302868032, 188.63619047619022, 1183.3101529902642, 453.75999999999993]
 	}
 	Object {
-	  $ObjectID		  41
+	  $ObjectID		  42
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1905,7 +1916,7 @@ Model {
 	  SceneRectInView	  [-142.72571428571393, -67.310476190476493, 750.0, 287.6]
 	}
 	Object {
-	  $ObjectID		  42
+	  $ObjectID		  43
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1916,7 +1927,7 @@ Model {
 	  SceneRectInView	  [-20.95703125, 30.983333333333277, 500.0, 191.73333333333332]
 	}
 	Object {
-	  $ObjectID		  43
+	  $ObjectID		  44
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1927,7 +1938,7 @@ Model {
 	  SceneRectInView	  [-136.21333333333266, -17.013330368996748, 750.0, 287.6]
 	}
 	Object {
-	  $ObjectID		  44
+	  $ObjectID		  45
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1938,7 +1949,7 @@ Model {
 	  SceneRectInView	  [-115.53333333333319, -247.33528645833366, 976.5625, 549.31640625]
 	}
 	Object {
-	  $ObjectID		  45
+	  $ObjectID		  46
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1949,7 +1960,7 @@ Model {
 	  SceneRectInView	  [-280.06970226822364, -33.121341023018715, 1171.875, 449.375]
 	}
 	Object {
-	  $ObjectID		  46
+	  $ObjectID		  47
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1960,7 +1971,7 @@ Model {
 	  SceneRectInView	  [-85.36000000000007, -24.360000000000113, 750.0, 287.6]
 	}
 	Object {
-	  $ObjectID		  47
+	  $ObjectID		  48
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1971,7 +1982,7 @@ Model {
 	  SceneRectInView	  [-557.88888888888891, -209.11111111111114, 1666.6666666666667, 639.11111111111109]
 	}
 	Object {
-	  $ObjectID		  48
+	  $ObjectID		  49
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1982,7 +1993,7 @@ Model {
 	  SceneRectInView	  [-546.30489877916841, -214.17284809148504, 1643.486323597589, 630.22222222222217]
 	}
 	Object {
-	  $ObjectID		  49
+	  $ObjectID		  50
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -1993,7 +2004,7 @@ Model {
 	  SceneRectInView	  [-548.73626373626371, -207.60439560439568, 1648.3516483516485, 632.08791208791206]
 	}
 	Object {
-	  $ObjectID		  50
+	  $ObjectID		  51
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -2004,7 +2015,7 @@ Model {
 	  SceneRectInView	  [-459.90196078431393, -171.5686274509805, 1470.588235294118, 563.92156862745117]
 	}
 	Object {
-	  $ObjectID		  51
+	  $ObjectID		  52
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -2015,7 +2026,7 @@ Model {
 	  SceneRectInView	  [-153.3428571428571, -54.114285714285728, 857.14285714285711, 328.68571428571431]
 	}
 	Object {
-	  $ObjectID		  52
+	  $ObjectID		  53
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -2026,7 +2037,7 @@ Model {
 	  SceneRectInView	  [-238.24444444444413, -33.466666666667038, 1000.0, 383.46666666666664]
 	}
 	Object {
-	  $ObjectID		  53
+	  $ObjectID		  54
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -2037,7 +2048,7 @@ Model {
 	  SceneRectInView	  [-224.73333333333329, -81.4666666666667, 1000.0, 383.46666666666664]
 	}
 	Object {
-	  $ObjectID		  54
+	  $ObjectID		  55
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -2048,7 +2059,7 @@ Model {
 	  SceneRectInView	  [-238.99999999999994, -110.88000000000017, 1200.0, 460.16]
 	}
 	Object {
-	  $ObjectID		  55
+	  $ObjectID		  56
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -2059,7 +2070,7 @@ Model {
 	  SceneRectInView	  [-548.73626373626371, -215.10439560439568, 1648.3516483516485, 632.08791208791206]
 	}
 	Object {
-	  $ObjectID		  56
+	  $ObjectID		  57
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -2070,7 +2081,7 @@ Model {
 	  SceneRectInView	  [-557.88888888888891, -216.11111111111114, 1666.6666666666667, 639.11111111111109]
 	}
 	Object {
-	  $ObjectID		  57
+	  $ObjectID		  58
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -2081,7 +2092,7 @@ Model {
 	  SceneRectInView	  [-557.88888888888891, -213.61111111111114, 1666.6666666666667, 639.11111111111109]
 	}
 	Object {
-	  $ObjectID		  58
+	  $ObjectID		  59
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -2092,7 +2103,7 @@ Model {
 	  SceneRectInView	  [-224.73333333333329, -90.9666666666667, 1000.0, 383.46666666666664]
 	}
 	Object {
-	  $ObjectID		  59
+	  $ObjectID		  60
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -2103,7 +2114,7 @@ Model {
 	  SceneRectInView	  [-156.73333333333323, -60.666666666666714, 750.0, 287.6]
 	}
 	Object {
-	  $ObjectID		  60
+	  $ObjectID		  61
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -2114,7 +2125,7 @@ Model {
 	  SceneRectInView	  [-662.0, -258.5, 1875.0, 719.0]
 	}
 	Object {
-	  $ObjectID		  61
+	  $ObjectID		  62
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -2125,7 +2136,7 @@ Model {
 	  SceneRectInView	  [-324.67999999999995, -134.26000000000002, 1200.0, 460.16]
 	}
 	Object {
-	  $ObjectID		  62
+	  $ObjectID		  63
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -2136,7 +2147,7 @@ Model {
 	  SceneRectInView	  [-153.3428571428571, -58.614285714285728, 857.14285714285711, 328.68571428571431]
 	}
 	Object {
-	  $ObjectID		  63
+	  $ObjectID		  64
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -2147,7 +2158,7 @@ Model {
 	  SceneRectInView	  [-224.73333333333329, -85.9666666666667, 1000.0, 383.46666666666664]
 	}
 	Object {
-	  $ObjectID		  64
+	  $ObjectID		  65
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -2158,7 +2169,7 @@ Model {
 	  SceneRectInView	  [-517.32432432432438, -207.10000000000019, 1500.0, 575.2]
 	}
 	Object {
-	  $ObjectID		  65
+	  $ObjectID		  66
 	  IsActive		  [0]
 	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkSubsys"
@@ -2167,17 +2178,6 @@ Model {
 	  ZoomFactor		  [1.75]
 	  Offset		  [-155.4649029982362, -128.7077601410935]
 	  SceneRectInView	  [-155.4649029982362, -128.7077601410935, 857.14285714285711, 328.68571428571431]
-	}
-	Object {
-	  $ObjectID		  66
-	  IsActive		  [0]
-	  IsTabbed		  [0]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "3730"
-	  Extents		  [1875.0, 719.0]
-	  ZoomFactor		  [1.75]
-	  Offset		  [-140.86142857142352, -121.63961309524879]
-	  SceneRectInView	  [-140.86142857142352, -121.63961309524879, 857.14285714285711, 328.68571428571431]
 	}
 	Object {
 	  $ObjectID		  67
@@ -2714,19 +2714,6 @@ Model {
 	Dimension		2
 	Object {
 	  $ObjectID		  115
-	  Type			  "GLUE2:PropertyInspector"
-	  ID			  "Property Inspector"
-	  Visible		  [0]
-	  CreateCallback	  ""
-	  UserData		  ""
-	  Floating		  [0]
-	  DockPosition		  "Right"
-	  Width			  [512]
-	  Height		  [384]
-	  Minimized		  "Unset"
-	}
-	Object {
-	  $ObjectID		  116
 	  Type			  "GLUE2:SpreadSheet"
 	  ID			  "ModelData"
 	  Visible		  [0]
@@ -2734,6 +2721,19 @@ Model {
 	  UserData		  ""
 	  Floating		  [0]
 	  DockPosition		  "Bottom"
+	  Width			  [512]
+	  Height		  [384]
+	  Minimized		  "Unset"
+	}
+	Object {
+	  $ObjectID		  116
+	  Type			  "GLUE2:PropertyInspector"
+	  ID			  "Property Inspector"
+	  Visible		  [0]
+	  CreateCallback	  ""
+	  UserData		  ""
+	  Floating		  [0]
+	  DockPosition		  "Right"
 	  Width			  [512]
 	  Height		  [384]
 	  Minimized		  "Unset"
@@ -2763,9 +2763,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "ecuri"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Wed Mar 13 15:57:59 2024"
-  RTWModifiedTimeStamp	  632246190
-  ModelVersionFormat	  "1.%<AutoIncrement:1559>"
+  LastModifiedDate	  "Fri Apr 25 17:07:21 2025"
+  RTWModifiedTimeStamp	  667492088
+  ModelVersionFormat	  "1.%<AutoIncrement:1570>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -4219,7 +4219,7 @@ Model {
   System {
     Name		    "VCU_2023"
     Location		    [-7, -7, 1543, 823]
-    Open		    off
+    Open		    on
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
     ExecutionDomainType	    "Deduce"
@@ -4233,7 +4233,7 @@ Model {
     TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
     TiledPageScale	    1
     ShowPageBoundaries	    off
-    ZoomFactor		    "54"
+    ZoomFactor		    "55"
     ReportName		    "simulink-default.rpt"
     SIDHighWatermark	    "4653"
     SimulinkSubDomain	    "Simulink"
@@ -4376,7 +4376,7 @@ Model {
 	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 	TiledPageScale		1
 	ShowPageBoundaries	off
-	ZoomFactor		"100"
+	ZoomFactor		"60"
 	SimulinkSubDomain	"Simulink"
 	Block {
 	  BlockType		  SubSystem
@@ -4404,7 +4404,7 @@ Model {
 	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "60"
+	    ZoomFactor		    "40"
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      SubSystem
@@ -6437,7 +6437,7 @@ Model {
 		    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 		    TiledPageScale	    1
 		    ShowPageBoundaries	    off
-		    ZoomFactor		    "100"
+		    ZoomFactor		    "50"
 		    SimulinkSubDomain	    "Simulink"
 		    Block {
 		    BlockType		    TriggerPort
@@ -11452,7 +11452,7 @@ Model {
 	      System {
 		Name			"Send to Dashboard"
 		Location		[-7, -7, 1543, 823]
-		Open			off
+		Open			on
 		PortBlocksUseCompactNotation off
 		SetExecutionDomain	off
 		ExecutionDomainType	"Deduce"
@@ -11466,7 +11466,7 @@ Model {
 		TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 		TiledPageScale		1
 		ShowPageBoundaries	off
-		ZoomFactor		"60"
+		ZoomFactor		"125"
 		SimulinkSubDomain	"Simulink"
 		Block {
 		  BlockType		  TriggerPort
@@ -11586,7 +11586,7 @@ Model {
 		  RTWMemSecDataInternal	  "Inherit from model"
 		  RTWMemSecDataParameters "Inherit from model"
 		  ContentPreviewEnabled	  on
-		  channel		  "3"
+		  channel		  "18"
 		  voltType		  "Custom Voltage Ratio"
 		  adType		  "12Bit"
 		  ratioV		  "(22+3.48)/3.48"
@@ -11676,7 +11676,7 @@ Model {
 		  SourceBlock		  "CoderSF_BSW_Libs/Digital I//O/Switch Input"
 		  SourceType		  "Switch Input"
 		  MultiThreadCoSim	  "auto"
-		  portNum		  "DI04"
+		  portNum		  "DI08"
 		}
 		Block {
 		  BlockType		  Reference
@@ -12333,7 +12333,7 @@ Model {
 	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "210"
+	    ZoomFactor		    "400"
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      TriggerPort
@@ -12698,7 +12698,7 @@ Model {
 	      System {
 		Name			"Temperature"
 		Location		[-7, -7, 1543, 823]
-		Open			on
+		Open			off
 		PortBlocksUseCompactNotation off
 		SetExecutionDomain	off
 		ExecutionDomainType	"Deduce"
@@ -12712,7 +12712,7 @@ Model {
 		TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 		TiledPageScale		1
 		ShowPageBoundaries	off
-		ZoomFactor		"125"
+		ZoomFactor		"100"
 		SimulinkSubDomain	"Simulink"
 		Block {
 		  BlockType		  Reference
@@ -13094,7 +13094,7 @@ Model {
 	  System {
 	    Name		    "Main Functionalities"
 	    Location		    [-7, -7, 1543, 823]
-	    Open		    on
+	    Open		    off
 	    PortBlocksUseCompactNotation off
 	    SetExecutionDomain	    off
 	    ExecutionDomainType	    "Deduce"
@@ -13108,7 +13108,7 @@ Model {
 	    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 	    TiledPageScale	    1
 	    ShowPageBoundaries	    off
-	    ZoomFactor		    "84"
+	    ZoomFactor		    "50"
 	    SimulinkSubDomain	    "Simulink"
 	    Block {
 	      BlockType		      TriggerPort
@@ -13198,7 +13198,7 @@ Model {
 		    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 		    TiledPageScale	    1
 		    ShowPageBoundaries	    off
-		    ZoomFactor		    "150"
+		    ZoomFactor		    "60"
 		    SimulinkSubDomain	    "Simulink"
 		    Block {
 		    BlockType		    Reference
@@ -13211,7 +13211,7 @@ Model {
 		    SourceBlock		    "CoderSF_BSW_Libs/ADC/Read ADC Value"
 		    SourceType		    "Read ADC Value"
 		    MultiThreadCoSim	    "auto"
-		    channel		    "19"
+		    channel		    "3"
 		    }
 		    Block {
 		    BlockType		    Reference
@@ -13224,7 +13224,7 @@ Model {
 		    SourceBlock		    "CoderSF_BSW_Libs/ADC/Read ADC Value"
 		    SourceType		    "Read ADC Value"
 		    MultiThreadCoSim	    "auto"
-		    channel		    "15"
+		    channel		    "4"
 		    }
 		    Block {
 		    BlockType		    Sum
@@ -13547,7 +13547,7 @@ Model {
 		    SourceBlock		    "CoderSF_BSW_Libs/Calibration & Measurement/Read Calibration"
 		    SourceType		    "Read Calibration"
 		    variable_name	    "APPS1_min"
-		    variable_value	    "1000"
+		    variable_value	    "1085"
 		    variable_type	    "int16"
 		    variable_min	    "[]"
 		    variable_max	    "[]"
@@ -13567,7 +13567,7 @@ Model {
 		    SourceBlock		    "CoderSF_BSW_Libs/Calibration & Measurement/Read Calibration"
 		    SourceType		    "Read Calibration"
 		    variable_name	    "APPS1_max"
-		    variable_value	    "3800"
+		    variable_value	    "1410"
 		    variable_type	    "int16"
 		    variable_min	    "[]"
 		    variable_max	    "[]"
@@ -13587,7 +13587,7 @@ Model {
 		    SourceBlock		    "CoderSF_BSW_Libs/Calibration & Measurement/Read Calibration"
 		    SourceType		    "Read Calibration"
 		    variable_name	    "APPS2_min"
-		    variable_value	    "1100"
+		    variable_value	    "605"
 		    variable_type	    "int16"
 		    variable_min	    "[]"
 		    variable_max	    "[]"
@@ -13607,7 +13607,7 @@ Model {
 		    SourceBlock		    "CoderSF_BSW_Libs/Calibration & Measurement/Read Calibration"
 		    SourceType		    "Read Calibration"
 		    variable_name	    "APPS2_max"
-		    variable_value	    "3900"
+		    variable_value	    "1077"
 		    variable_type	    "int16"
 		    variable_min	    "[]"
 		    variable_max	    "[]"
@@ -13851,7 +13851,7 @@ Model {
 		    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 		    TiledPageScale	    1
 		    ShowPageBoundaries	    off
-		    ZoomFactor		    "150"
+		    ZoomFactor		    "100"
 		    SimulinkSubDomain	    "Simulink"
 		    Block {
 		    BlockType		    Inport
@@ -14511,7 +14511,7 @@ Model {
 		  SourceBlock		  "CoderSF_BSW_Libs/Digital I//O/Switch Output"
 		  SourceType		  "Switch Output"
 		  MultiThreadCoSim	  "auto"
-		  channel		  "HSO04"
+		  channel		  "LSO07"
 		}
 		Block {
 		  BlockType		  Reference
@@ -14524,7 +14524,7 @@ Model {
 		  SourceBlock		  "CoderSF_BSW_Libs/ADC/Read ADC Value"
 		  SourceType		  "Read ADC Value"
 		  MultiThreadCoSim	  "auto"
-		  channel		  "8"
+		  channel		  "15"
 		}
 		Block {
 		  BlockType		  Reference
@@ -14630,7 +14630,7 @@ Model {
 		  SourceBlock		  "CoderSF_BSW_Libs/Calibration & Measurement/Read Calibration"
 		  SourceType		  "Read Calibration"
 		  variable_name		  "BRK_TH"
-		  variable_value	  "40"
+		  variable_value	  "90"
 		  variable_type		  "int16"
 		  variable_min		  "[]"
 		  variable_max		  "[]"
@@ -14705,7 +14705,7 @@ Model {
 	      System {
 		Name			"Ready to drive"
 		Location		[-7, -7, 1543, 823]
-		Open			on
+		Open			off
 		PortBlocksUseCompactNotation off
 		SetExecutionDomain	off
 		ExecutionDomainType	"Deduce"
@@ -14719,7 +14719,7 @@ Model {
 		TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
 		TiledPageScale		1
 		ShowPageBoundaries	off
-		ZoomFactor		"188"
+		ZoomFactor		"50"
 		SimulinkSubDomain	"Simulink"
 		Block {
 		  BlockType		  From
@@ -14822,7 +14822,7 @@ Model {
 		  System {
 		    Name		    "Subsystem"
 		    Location		    [-7, -7, 1543, 823]
-		    Open		    off
+		    Open		    on
 		    PortBlocksUseCompactNotation off
 		    SetExecutionDomain	    off
 		    ExecutionDomainType	    "Deduce"
@@ -14836,7 +14836,7 @@ Model {
 		    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 		    TiledPageScale	    1
 		    ShowPageBoundaries	    off
-		    ZoomFactor		    "150"
+		    ZoomFactor		    "154"
 		    SimulinkSubDomain	    "Simulink"
 		    Block {
 		    BlockType		    Reference
@@ -14918,7 +14918,7 @@ Model {
 		    SourceBlock		    "CoderSF_BSW_Libs/Digital I//O/Switch Input"
 		    SourceType		    "Switch Input"
 		    MultiThreadCoSim	    "auto"
-		    portNum		    "DI01"
+		    portNum		    "DI13"
 		    }
 		    Block {
 		    BlockType		    Reference
@@ -15324,7 +15324,7 @@ Model {
 		    SourceBlock		    "CoderSF_BSW_Libs/Digital I//O/Switch Output"
 		    SourceType		    "Switch Output"
 		    MultiThreadCoSim	    "auto"
-		    channel		    "LSO08"
+		    channel		    "LSO03"
 		    }
 		    Block {
 		    BlockType		    Reference
@@ -15337,7 +15337,7 @@ Model {
 		    SourceBlock		    "CoderSF_BSW_Libs/Digital I//O/Switch Output"
 		    SourceType		    "Switch Output"
 		    MultiThreadCoSim	    "auto"
-		    channel		    "HSO03"
+		    channel		    "LSO01"
 		    }
 		    Block {
 		    BlockType		    Reference
@@ -15739,7 +15739,7 @@ Model {
 		    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
 		    TiledPageScale	    1
 		    ShowPageBoundaries	    off
-		    ZoomFactor		    "175"
+		    ZoomFactor		    "100"
 		    SimulinkSubDomain	    "Simulink"
 		    Block {
 		    BlockType		    Reference
@@ -15930,7 +15930,7 @@ Model {
 		    SourceBlock		    "CoderSF_BSW_Libs/Digital I//O/Switch Input"
 		    SourceType		    "Switch Input"
 		    MultiThreadCoSim	    "auto"
-		    portNum		    "DI08"
+		    portNum		    "DI07"
 		    }
 		    Block {
 		    BlockType		    Reference
@@ -16185,7 +16185,7 @@ Model {
 		    SourceBlock		    "CoderSF_BSW_Libs/Digital I//O/Switch Output"
 		    SourceType		    "Switch Output"
 		    MultiThreadCoSim	    "auto"
-		    channel		    "LSO04"
+		    channel		    "HSO03"
 		    }
 		    Block {
 		    BlockType		    Reference
@@ -16198,7 +16198,7 @@ Model {
 		    SourceBlock		    "CoderSF_BSW_Libs/Digital I//O/Switch Output"
 		    SourceType		    "Switch Output"
 		    MultiThreadCoSim	    "auto"
-		    channel		    "LSO02"
+		    channel		    "HSO04"
 		    }
 		    Block {
 		    BlockType		    Reference
@@ -16296,7 +16296,7 @@ Model {
 		    SourceBlock		    "CoderSF_BSW_Libs/Digital I//O/Switch Output"
 		    SourceType		    "Switch Output"
 		    MultiThreadCoSim	    "auto"
-		    channel		    "LSO09"
+		    channel		    "HSO05"
 		    }
 		    Block {
 		    BlockType		    Reference
@@ -16495,7 +16495,7 @@ Model {
 		    SourceBlock		    "CoderSF_BSW_Libs/Digital I//O/Switch Output"
 		    SourceType		    "Switch Output"
 		    MultiThreadCoSim	    "auto"
-		    channel		    "LSO04"
+		    channel		    "HSO03"
 		    }
 		    Block {
 		    BlockType		    Reference
@@ -16508,7 +16508,7 @@ Model {
 		    SourceBlock		    "CoderSF_BSW_Libs/Digital I//O/Switch Output"
 		    SourceType		    "Switch Output"
 		    MultiThreadCoSim	    "auto"
-		    channel		    "LSO02"
+		    channel		    "HSO04"
 		    }
 		    Block {
 		    BlockType		    Reference
@@ -16521,7 +16521,7 @@ Model {
 		    SourceBlock		    "CoderSF_BSW_Libs/Digital I//O/Switch Output"
 		    SourceType		    "Switch Output"
 		    MultiThreadCoSim	    "auto"
-		    channel		    "LSO09"
+		    channel		    "HSO05"
 		    }
 		    Block {
 		    BlockType		    Reference
@@ -16886,7 +16886,7 @@ Model {
 	  BackgroundColor	  "[0.901961, 0.901961, 1.000000]"
 	  DropShadow		  on
 	  AnnotationType	  "area_annotation"
-	  ZOrder		  22
+	  ZOrder		  24
 	  FontSize		  12
 	}
       }
