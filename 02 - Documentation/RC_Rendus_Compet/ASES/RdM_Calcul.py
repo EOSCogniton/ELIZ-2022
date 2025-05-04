@@ -2,9 +2,9 @@
 
 import math
 def bending_rectangular():
-    a  = 0.321
-    b = 0.356
-    e = 0.002
+    a  = 0.156
+    b = 0.248
+    e = 0.001
     I = e*b**3/12
     n = 4
     q = n *2.6*20*9.8/(a*b)
