@@ -1,14 +1,14 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer": 25,
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
-      "images": 0.6,
+      "images": 0.5199999809265137,
       "pads": 1.0,
       "shapes": 1.0,
       "tracks": 1.0,
@@ -49,17 +49,16 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0fffffff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
-    "repo_password": "",
     "repo_type": "",
     "repo_username": "",
     "ssh_key": ""
   },
   "meta": {
-    "filename": "SCS Red Led.kicad_prl",
+    "filename": "Temp_Sensor_Circuit_Side2.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -88,16 +87,16 @@
       9
     ],
     "col_widths": [
-      162,
-      147,
-      91,
-      67,
-      91,
-      91,
-      91,
+      156,
+      141,
+      103,
       71,
-      91,
-      91
+      103,
+      103,
+      103,
+      74,
+      103,
+      103
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
