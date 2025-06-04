@@ -13,24 +13,26 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 12.7 0)
+			(property "Reference" "J1"
+				(at -1.5323 -1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Value" "Conn_01x09_Pin"
-				(at 0 -12.7 0)
+				(at -1.5323 1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
+			(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x09_P1.27mm_Vertical_SMD_Pin1Left"
+				(at -14.224 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -54,14 +56,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -708,14 +702,24 @@
 		(uuid "d690800b-c281-4ec4-a0f1-1ff807fa0a8b")
 	)
 	(junction
-		(at 144.5177 105.2077)
+		(at 147.32 105.2077)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ff85c297-0f5d-4de4-a67a-ada32cc57dff")
+		(uuid "f9eb2e99-79c1-4cf9-b6ff-95c90b503b3b")
 	)
 	(wire
 		(pts
-			(xy 126.6805 106.68) (xy 126.6805 89.4477)
+			(xy 147.32 105.2077) (xy 144.5177 105.2077)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02a7aa08-b051-4174-b3b7-ee0c47dc26b2")
+	)
+	(wire
+		(pts
+			(xy 126.6805 106.68) (xy 126.6805 90.17)
 		)
 		(stroke
 			(width 0)
@@ -725,7 +729,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.8028 84.3677) (xy 144.5177 84.3677)
+			(xy 118.8028 85.09) (xy 147.32 85.09)
 		)
 		(stroke
 			(width 0)
@@ -765,7 +769,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.8028 87.63) (xy 118.8028 84.3677)
+			(xy 118.8028 87.63) (xy 118.8028 85.09)
 		)
 		(stroke
 			(width 0)
@@ -782,16 +786,6 @@
 			(type default)
 		)
 		(uuid "39389c60-5724-4a42-8138-487964204e49")
-	)
-	(wire
-		(pts
-			(xy 144.5177 105.2077) (xy 153.6479 105.2077)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "432b737f-3c5a-45db-8882-01dcf83f604b")
 	)
 	(wire
 		(pts
@@ -815,7 +809,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.6347 79.2877) (xy 144.5177 79.2877)
+			(xy 129.6347 80.01) (xy 147.32 80.01)
 		)
 		(stroke
 			(width 0)
@@ -825,7 +819,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.5177 97.0677) (xy 144.5177 105.2077)
+			(xy 147.32 97.79) (xy 147.32 105.2077)
 		)
 		(stroke
 			(width 0)
@@ -845,7 +839,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.364 76.7477) (xy 144.5177 76.7477)
+			(xy 135.364 77.47) (xy 147.32 77.47)
 		)
 		(stroke
 			(width 0)
@@ -895,7 +889,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.5168 81.8277) (xy 144.5177 81.8277)
+			(xy 125.5168 82.55) (xy 147.32 82.55)
 		)
 		(stroke
 			(width 0)
@@ -905,7 +899,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.947 91.9877) (xy 144.5177 91.9877)
+			(xy 132.947 92.71) (xy 147.32 92.71)
 		)
 		(stroke
 			(width 0)
@@ -915,7 +909,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.5125 94.5277) (xy 144.5177 94.5277)
+			(xy 137.5125 95.25) (xy 147.32 95.25)
 		)
 		(stroke
 			(width 0)
@@ -955,7 +949,7 @@
 	)
 	(wire
 		(pts
-			(xy 126.6805 89.4477) (xy 144.5177 89.4477)
+			(xy 126.6805 90.17) (xy 147.32 90.17)
 		)
 		(stroke
 			(width 0)
@@ -965,7 +959,7 @@
 	)
 	(wire
 		(pts
-			(xy 122.5626 86.9077) (xy 144.5177 86.9077)
+			(xy 122.5626 87.63) (xy 147.32 87.63)
 		)
 		(stroke
 			(width 0)
@@ -975,7 +969,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.5168 77.47) (xy 125.5168 81.8277)
+			(xy 125.5168 77.47) (xy 125.5168 82.55)
 		)
 		(stroke
 			(width 0)
@@ -995,7 +989,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.6347 68.58) (xy 129.6347 79.2877)
+			(xy 129.6347 68.58) (xy 129.6347 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1005,7 +999,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.364 58.42) (xy 135.364 76.7477)
+			(xy 135.364 58.42) (xy 135.364 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1015,7 +1009,7 @@
 	)
 	(wire
 		(pts
-			(xy 122.5626 96.52) (xy 122.5626 86.9077)
+			(xy 122.5626 96.52) (xy 122.5626 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1025,13 +1019,23 @@
 	)
 	(wire
 		(pts
-			(xy 132.947 116.84) (xy 132.947 91.9877)
+			(xy 132.947 116.84) (xy 132.947 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dcbf5d38-67a8-4d01-b8a2-54f3067c52b9")
+	)
+	(wire
+		(pts
+			(xy 147.32 105.2077) (xy 153.6479 105.2077)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df491458-3b51-4d6a-a734-489641629018")
 	)
 	(wire
 		(pts
@@ -1095,7 +1099,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.5125 127.0838) (xy 137.5125 94.5277)
+			(xy 137.5125 127.0838) (xy 137.5125 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1112,6 +1116,94 @@
 			(type default)
 		)
 		(uuid "fda937c7-ea06-4f3f-b934-7387bfde5aff")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x09_Pin")
+		(at 152.4 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "160d4023-27cd-4c8e-9c16-d092374e18e0")
+		(property "Reference" "J2"
+			(at 151.765 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x09_Pin"
+			(at 151.765 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x09_P1.27mm_Vertical_SMD_Pin1Left"
+			(at 166.624 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x09, script generated"
+			(at 152.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "62bba850-4551-40c7-b864-56048cf653d7")
+		)
+		(pin "4"
+			(uuid "d08769a6-8c8b-44c1-9cb7-54234b58dcb1")
+		)
+		(pin "7"
+			(uuid "65008620-bb01-44a6-838c-20c1dc999871")
+		)
+		(pin "8"
+			(uuid "0a92d2db-6513-4079-a5f4-25f86d19a5df")
+		)
+		(pin "9"
+			(uuid "acbec88c-028a-4220-89f0-4592ab74db45")
+		)
+		(pin "6"
+			(uuid "d46dc2bd-92a7-4c67-8fa2-f52be3eed0bc")
+		)
+		(pin "1"
+			(uuid "4d24fc7e-681a-457f-a395-b4a9b3d3571d")
+		)
+		(pin "2"
+			(uuid "add71404-e6eb-4e0e-b4c9-87a9b00c0bae")
+		)
+		(pin "3"
+			(uuid "2f015a3c-e614-48a3-b1ca-17bb8e53449f")
+		)
+		(instances
+			(project ""
+				(path "/706ac685-deb1-495b-9eb2-05b5f41532cb"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "EPSA_Lib:NTC_B3380")
@@ -1139,7 +1231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EPSA_lib:NTC_B3380"
+		(property "Footprint" "therm2:therm"
 			(at 101.6 102.87 0)
 			(effects
 				(font
@@ -1207,7 +1299,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EPSA_lib:NTC_B3380"
+		(property "Footprint" "therm2:therm"
 			(at 101.6 73.66 0)
 			(effects
 				(font
@@ -1274,7 +1366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EPSA_lib:NTC_B3380"
+		(property "Footprint" "therm2:therm"
 			(at 101.8408 123.2738 0)
 			(effects
 				(font
@@ -1342,7 +1434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EPSA_lib:NTC_B3380"
+		(property "Footprint" "therm2:therm"
 			(at 101.6 92.71 0)
 			(effects
 				(font
@@ -1410,7 +1502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EPSA_lib:NTC_B3380"
+		(property "Footprint" "therm2:therm"
 			(at 101.6 54.61 0)
 			(effects
 				(font
@@ -1478,7 +1570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EPSA_lib:NTC_B3380"
+		(property "Footprint" "therm2:therm"
 			(at 101.6 83.82 0)
 			(effects
 				(font
@@ -1546,7 +1638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EPSA_lib:NTC_B3380"
+		(property "Footprint" "therm:therm"
 			(at 101.6 64.77 0)
 			(effects
 				(font
@@ -1614,7 +1706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EPSA_lib:NTC_B3380"
+		(property "Footprint" "therm2:therm"
 			(at 101.6 113.03 0)
 			(effects
 				(font
@@ -1651,97 +1743,6 @@
 			(project "Temp_Sensor_Circuit"
 				(path "/706ac685-deb1-495b-9eb2-05b5f41532cb"
 					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x09_Pin")
-		(at 149.5977 86.9077 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd3377b4-a948-4455-a2c7-5d65c3420944")
-		(property "Reference" "J1"
-			(at 151.13 85.6376 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x09_Pin"
-			(at 151.13 88.1776 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "5-1049359:51049359"
-			(at 149.5977 86.9077 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.5977 86.9077 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x09, script generated"
-			(at 149.5977 86.9077 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b1a4d8a-0306-4a1f-9652-9c1f61e05a91")
-		)
-		(pin "2"
-			(uuid "e5c2b882-4350-4313-9c4a-3915c9212588")
-		)
-		(pin "4"
-			(uuid "1e4ce32a-800b-488f-988a-575567535373")
-		)
-		(pin "3"
-			(uuid "57eeb2d0-1aac-4352-8b96-8fb0a12cb501")
-		)
-		(pin "6"
-			(uuid "fb6e22da-4aae-4db7-89f0-3dfe1b9d0468")
-		)
-		(pin "5"
-			(uuid "a3fbf0b5-2f07-4949-8492-a8f771916aac")
-		)
-		(pin "7"
-			(uuid "93905c57-52d9-4f1c-a4e3-aa60a61a1b4d")
-		)
-		(pin "8"
-			(uuid "0f737051-53ef-42c4-885c-b5faffca6468")
-		)
-		(pin "9"
-			(uuid "78701cb6-86e9-4c11-a9de-4849df9da2f4")
-		)
-		(instances
-			(project ""
-				(path "/706ac685-deb1-495b-9eb2-05b5f41532cb"
-					(reference "J1")
 					(unit 1)
 				)
 			)
