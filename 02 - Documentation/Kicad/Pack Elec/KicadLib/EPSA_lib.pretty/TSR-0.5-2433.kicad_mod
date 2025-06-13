@@ -1,7 +1,7 @@
 (footprint "TSR-0.5-2433"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "TSR-0.5-2433")
 	(tags "Undefined or Miscellaneous")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" "TSR-0.5-2433"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8bc3b945-be14-49b8-ae05-994984c07587")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -112,9 +102,20 @@
 			(width 0.254)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "93936896-1af6-4165-9d2f-3eacd15235b1")
+	)
+	(fp_rect
+		(start -0.754734 -8.233286)
+		(end 12.682835 0.996202)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "36b5d480-206a-43c1-8013-49ee7cabec88")
 	)
 	(fp_line
 		(start 0 -7.55)
@@ -191,6 +192,7 @@
 		(remove_unused_layers no)
 		(uuid "37a3ffdd-32c6-4a2f-9ba5-646e710d1d9f")
 	)
+	(embedded_fonts no)
 	(model "${EPSA3D}/TSR_0.5-2450.stp"
 		(offset
 			(xyz -21.61000029 17.88999912 10.24999985)
