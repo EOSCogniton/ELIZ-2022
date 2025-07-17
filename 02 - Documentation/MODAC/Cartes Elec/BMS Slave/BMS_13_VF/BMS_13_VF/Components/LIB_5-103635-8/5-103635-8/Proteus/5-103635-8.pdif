@@ -1,0 +1,147 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "5-103635-8"
+   (description "Body Features: Primary Product Color Black | Configuration Features: Number of Positions 9 | Number of Rows 1 | PCB Mount Orientation Right Angle | Contact Features: Contact Base Material Brass | Mating Square Post Dimension .025 INCH | PCB Contact Termination Area Plating Material Thickness 100 MICIN | PCB Contact Termination Area Plating Material Tin | PCB Contact Termination Area Plating Material Finish Matte | Contact Mating Area Plating Material Gold | Contact Mating Area Length .23 INCH | Contact Mati")
+   (family "CON")
+   (package "SHDRRA9W69P0X254_1X9_2527X1359X741P")
+   (attribute "Datasheet Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=4-1773458-0_AMPMODU_MTE_INTERCONNECT_SYS&DocType=Data%20Sheet&DocLang=English&PartCntxt=5-103635-8&DocFormat=pdf")
+   (attribute "Geometry.Height" "7.41mm")
+   (attribute "Manufacturer_Name" "TE Connectivity")
+   (attribute "Manufacturer_Part_Number" "5-103635-8")
+   (attribute "Mouser Part Number" "571-5-103635-8")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5-103635-8?qs=zx8qD9ablb1%252BATHUe9YhqA%3D%3D")
+   (attribute "Arrow Part Number" "5-103635-8")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/5-103635-8/te-connectivity")
+   (gate
+    (symbol "5-103635-8")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+    (pin "6" 6 PS)
+    (pin "7" 7 PS)
+    (pin "8" 8 PS)
+    (pin "9" 9 PS)
+   )
+  )
+  (symbol "5-103635-8"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -900) (pt 200 -900) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -700) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -800) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SHDRRA9W69P0X254_1X9_2527X1359X741P"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt 2.725 -1.27)
+      (pt -23.045 -1.27)
+      (pt -23.045 13.02)
+      (pt 2.725 13.02)
+      (pt 2.725 -1.27))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 2.475 -1.02)
+      (pt -22.795 -1.02)
+      (pt -22.795 12.77)
+      (pt 2.475 12.77)
+      (pt 2.475 -1.02))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 2.475 0)
+      (pt 2.475 12.77)
+      (pt -22.795 12.77)
+      (pt -22.795 -1.02))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt -2.54 0) (padstack 0))
+   (leg 3 (pt -5.08 0) (padstack 0))
+   (leg 4 (pt -7.62 0) (padstack 0))
+   (leg 5 (pt -10.16 0) (padstack 0))
+   (leg 6 (pt -12.7 0) (padstack 0))
+   (leg 7 (pt -15.24 0) (padstack 0))
+   (leg 8 (pt -17.78 0) (padstack 0))
+   (leg 9 (pt -20.32 0) (padstack 0))
+   (padstack 0
+    (hole 1.2)
+    (plated true)
+    (pad (layer TCOP) (round 1.8))
+    (pad (layer INNER) (round 1.8))
+    (pad (layer BCOP) (round 1.8))
+   )
+   (padstack 1
+    (hole 1.2)
+    (plated true)
+    (pad (layer TCOP) (square 1.8))
+    (pad (layer INNER) (round 1.8))
+    (pad (layer BCOP) (square 1.8))
+   )
+   (model "5-103635-8.stp"
+    (euler 90 0 180)
+    (offset -10.15999984741211 12.670000076293945 2.5299999713897705)
+   )
+  )
+ )
+)

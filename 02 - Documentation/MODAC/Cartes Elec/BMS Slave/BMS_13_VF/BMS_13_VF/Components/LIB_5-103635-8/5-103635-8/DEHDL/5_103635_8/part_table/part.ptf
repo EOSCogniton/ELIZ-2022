@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '5_103635_8'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "5-103635-8" (!) = "", "SHDRRA9W69P0X254_1X9_2527X1359X741P", "Header, Shrouded - Right Angle PTH Box", "571-5-103635-8", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5-103635-8?qs=zx8qD9ablb1%252BATHUe9YhqA%3D%3D", "5-103635-8", "https://www.arrow.com/en/products/5-103635-8/te-connectivity", "Body Features: Primary Product Color Black | Configuration Features: Number of Positions 9 | Number of Rows 1 | PCB Mount Orientation Right Angle | Contact Features: Contact Base Material Brass | Mating Square Post Dimension .025 INCH | PCB Contact Termination Area Plating Material Thickness 100 MICIN | PCB Contact Termination Area Plating Material Tin | PCB Contact Termination Area Plating Material Finish Matte | Contact Mating Area Plating Material Gold | Contact Mating Area Length .23 INCH | Contact Mati", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=4-1773458-0_AMPMODU_MTE_INTERCONNECT_SYS&DocType=Data%20Sheet&DocLang=English&PartCntxt=5-103635-8&DocFormat=pdf", "7.41 mm"
+END_PART
+
+END.
