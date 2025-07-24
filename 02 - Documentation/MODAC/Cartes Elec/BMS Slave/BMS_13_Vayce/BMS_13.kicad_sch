@@ -3063,54 +3063,6 @@
 			)
 			(symbol "BMS Transf SM91501ALE_0_1"
 				(arc
-					(start 11.43 36.83)
-					(mid 11.0455 35.9504)
-					(end 10.16 35.5854)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 11.43 34.29)
-					(mid 11.0455 33.4104)
-					(end 10.16 33.0454)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 11.43 31.75)
-					(mid 11.0455 30.8704)
-					(end 10.16 30.5054)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 11.43 29.21)
-					(mid 11.0455 28.3304)
-					(end 10.16 27.9654)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
 					(start 11.43 19.05)
 					(mid 11.0422 18.1766)
 					(end 10.16 17.8054)
@@ -3150,6 +3102,54 @@
 					(start 11.43 11.43)
 					(mid 11.0422 10.5566)
 					(end 10.16 10.1854)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 11.43 36.83)
+					(mid 11.0455 35.9504)
+					(end 10.16 35.5854)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 11.43 34.29)
+					(mid 11.0455 33.4104)
+					(end 10.16 33.0454)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 11.43 31.75)
+					(mid 11.0455 30.8704)
+					(end 10.16 30.5054)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 11.43 29.21)
+					(mid 11.0455 28.3304)
+					(end 10.16 27.9654)
 					(stroke
 						(width 0)
 						(type default)
@@ -3735,9 +3735,9 @@
 					)
 				)
 				(arc
-					(start 22.479 16.5354)
-					(mid 21.5769 16.8864)
-					(end 21.209 17.78)
+					(start 22.479 34.3154)
+					(mid 21.5786 34.6669)
+					(end 21.209 35.56)
 					(stroke
 						(width 0)
 						(type default)
@@ -3747,9 +3747,9 @@
 					)
 				)
 				(arc
-					(start 22.479 34.3154)
-					(mid 21.5786 34.6669)
-					(end 21.209 35.56)
+					(start 22.479 16.5354)
+					(mid 21.5769 16.8864)
+					(end 21.209 17.78)
 					(stroke
 						(width 0)
 						(type default)
@@ -3831,9 +3831,9 @@
 					)
 				)
 				(arc
-					(start 25.019 16.5354)
-					(mid 24.1169 16.8864)
-					(end 23.749 17.78)
+					(start 25.019 34.3154)
+					(mid 24.1186 34.6669)
+					(end 23.749 35.56)
 					(stroke
 						(width 0)
 						(type default)
@@ -3843,9 +3843,9 @@
 					)
 				)
 				(arc
-					(start 25.019 34.3154)
-					(mid 24.1186 34.6669)
-					(end 23.749 35.56)
+					(start 25.019 16.5354)
+					(mid 24.1169 16.8864)
+					(end 23.749 17.78)
 					(stroke
 						(width 0)
 						(type default)
@@ -3903,33 +3903,21 @@
 					)
 				)
 				(arc
-					(start 27.559 31.75)
-					(mid 28.433 31.3625)
-					(end 28.8036 30.48)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 27.559 13.97)
-					(mid 28.433 13.5825)
-					(end 28.8036 12.7)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
 					(start 27.559 34.3408)
 					(mid 26.6559 34.6895)
 					(end 26.289 35.5854)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 27.559 31.75)
+					(mid 28.433 31.3625)
+					(end 28.8036 30.48)
 					(stroke
 						(width 0)
 						(type default)
@@ -3951,9 +3939,9 @@
 					)
 				)
 				(arc
-					(start 28.8036 35.5854)
-					(mid 28.4409 34.7022)
-					(end 27.559 34.3408)
+					(start 27.559 13.97)
+					(mid 28.433 13.5825)
+					(end 28.8036 12.7)
 					(stroke
 						(width 0)
 						(type default)
@@ -3975,9 +3963,9 @@
 					)
 				)
 				(arc
-					(start 28.8036 17.8054)
-					(mid 28.4409 16.9222)
-					(end 27.559 16.5608)
+					(start 26.289 12.7)
+					(mid 26.6609 13.5984)
+					(end 27.559 13.97)
 					(stroke
 						(width 0)
 						(type default)
@@ -3987,9 +3975,21 @@
 					)
 				)
 				(arc
-					(start 26.289 12.7)
-					(mid 26.6609 13.5984)
-					(end 27.559 13.97)
+					(start 28.8036 35.5854)
+					(mid 28.4409 34.7022)
+					(end 27.559 34.3408)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 28.8036 17.8054)
+					(mid 28.4409 16.9222)
+					(end 27.559 16.5608)
 					(stroke
 						(width 0)
 						(type default)
@@ -10130,7 +10130,7 @@
 		)
 		(uuid "51f2e748-f75c-4729-ac0e-525e61b2cb55")
 	)
-	(label "S12"
+	(label "S13"
 		(at 388.62 180.34 0)
 		(effects
 			(font

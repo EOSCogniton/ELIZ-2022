@@ -253,6 +253,202 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Amplifier_Operational:MAX4239AUT"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MAX4239AUT"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX4238-MAX4239.pdf"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ultra-Low Offset/Drift, Low-Noise, Precision Amplifiers, SOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "single opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MAX4239AUT_0_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MAX4239AUT_1_1"
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "~{SHDN}"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "BMS:ADBMS1818ASWZ"
 			(pin_names
 				(offset 0.254)
@@ -5417,230 +5613,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EPSA_lib:LTC6255IS6#TRMPBF"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 24.13 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "LTC6255IS6#TRMPBF"
-				(at 24.13 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOT95P280X100-6N"
-				(at 24.13 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.analog.com/media/en/technical-documentation/data-sheets/625567fd.pdf"
-				(at 24.13 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Precision Amplifiers Single 6.5MHz, 65uA, 1.8V to 5.25V, RRIO Op Amps"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1"
-				(at 24.13 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "584-LTC6255IS6TRMPBF"
-				(at 24.13 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC6255IS6TRMPBF?qs=hVkxg5c3xu%252BM0aXXLk0hVA%3D%3D"
-				(at 24.13 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Analog Devices"
-				(at 24.13 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "LTC6255IS6#TRMPBF"
-				(at 24.13 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "LTC6255IS6#TRMPBF_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 22.86 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "+IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 0 180)
-					(length 5.08)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -2.54 180)
-					(length 5.08)
-					(name "~{SHDN}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 -5.08 180)
-					(length 5.08)
-					(name "-IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -6466,12 +6438,6 @@
 		(uuid "37db9dab-3003-4510-a754-69315eedf629")
 	)
 	(junction
-		(at 106.68 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c0aa653-fb44-4d15-8bb6-b744ae1a926a")
-	)
-	(junction
 		(at 257.81 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6560,6 +6526,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e20562f-12dd-4ffb-95fa-7ec3fcb47ec9")
+	)
+	(junction
+		(at 104.14 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99520d08-2c12-44d9-9b50-33bf6f191e58")
 	)
 	(junction
 		(at 341.63 52.07)
@@ -6845,10 +6817,6 @@
 		(at 71.12 48.26)
 		(uuid "fdeae853-85f1-4a8d-bdd9-5ba9a86abdfa")
 	)
-	(no_connect
-		(at 101.6 114.3)
-		(uuid "fee53ffe-c7a8-482d-9246-30e7b243f22f")
-	)
 	(wire
 		(pts
 			(xy 388.62 54.61) (xy 386.08 54.61)
@@ -6908,16 +6876,6 @@
 			(type default)
 		)
 		(uuid "027fe246-c49b-4c2e-a532-aaac6e351d75")
-	)
-	(wire
-		(pts
-			(xy 72.39 114.3) (xy 73.66 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03457cc5-bf92-40e3-84cc-850310c1b90f")
 	)
 	(wire
 		(pts
@@ -7001,7 +6959,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 124.46) (xy 92.71 125.73)
+			(xy 102.87 127) (xy 102.87 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7301,7 +7259,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 116.84) (xy 62.23 116.84)
+			(xy 62.23 116.84) (xy 78.74 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7581,6 +7539,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 104.14) (xy 104.14 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3380684b-6d04-4d81-94a4-f1fc6589106b")
+	)
+	(wire
+		(pts
 			(xy 209.55 167.64) (xy 210.82 167.64)
 		)
 		(stroke
@@ -7591,13 +7559,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 116.84) (xy 106.68 116.84)
+			(xy 78.74 101.6) (xy 80.01 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "357a53c9-7b44-46f9-ac52-dedc16e37173")
+		(uuid "376af987-f222-423e-9604-cd0e804d70e6")
 	)
 	(wire
 		(pts
@@ -7831,6 +7799,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 104.14) (xy 104.14 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c1ae2f-2188-477d-a7ba-88aac187dcd3")
+	)
+	(wire
+		(pts
 			(xy 257.81 243.84) (xy 257.81 242.57)
 		)
 		(stroke
@@ -7868,6 +7846,16 @@
 			(type default)
 		)
 		(uuid "4bf99f46-35cd-4f3e-91d3-cae748b76c7e")
+	)
+	(wire
+		(pts
+			(xy 80.01 119.38) (xy 104.14 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ceb9dae-bfb1-4911-8cb6-a78c8dcdbbbc")
 	)
 	(wire
 		(pts
@@ -8128,6 +8116,16 @@
 			(type default)
 		)
 		(uuid "5dee6f4c-b2a7-45aa-b1fc-cd060b266b1f")
+	)
+	(wire
+		(pts
+			(xy 104.14 119.38) (xy 106.68 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e3d07a0-41b0-4daa-86e4-7ff5f8494c74")
 	)
 	(wire
 		(pts
@@ -8431,6 +8429,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 116.84) (xy 78.74 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e84eb4-06a3-471b-ad8e-c07a892f75eb")
+	)
+	(wire
+		(pts
 			(xy 257.81 152.4) (xy 257.81 153.67)
 		)
 		(stroke
@@ -8588,16 +8596,6 @@
 			(type default)
 		)
 		(uuid "8308800e-1f41-4a7c-986b-3b324b444ded")
-	)
-	(wire
-		(pts
-			(xy 71.12 101.6) (xy 71.12 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "831f54f3-6165-4540-adaf-6c83be995152")
 	)
 	(wire
 		(pts
@@ -8861,16 +8859,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 111.76) (xy 73.66 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95aafa4c-e675-4eee-99c6-0bdf3c1dac51")
-	)
-	(wire
-		(pts
 			(xy 81.28 33.02) (xy 82.55 33.02)
 		)
 		(stroke
@@ -8951,16 +8939,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 101.6) (xy 71.12 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cd03318-d08f-4b83-815b-5ccde91c7cd3")
-	)
-	(wire
-		(pts
 			(xy 30.48 45.72) (xy 35.56 45.72)
 		)
 		(stroke
@@ -8968,6 +8946,16 @@
 			(type default)
 		)
 		(uuid "9d047c5e-47ae-4318-a07f-6c47c88145be")
+	)
+	(wire
+		(pts
+			(xy 80.01 106.68) (xy 80.01 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9da88a44-bbf5-43fc-bd4c-54d5f82ddb4f")
 	)
 	(wire
 		(pts
@@ -9081,16 +9069,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 116.84) (xy 106.68 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a378b2c2-764f-434e-ac30-05db61789c8c")
-	)
-	(wire
-		(pts
 			(xy 256.54 262.89) (xy 257.81 262.89)
 		)
 		(stroke
@@ -9111,7 +9089,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 124.46) (xy 81.28 125.73)
+			(xy 91.44 127) (xy 91.44 128.27)
 		)
 		(stroke
 			(width 0)
@@ -9401,7 +9379,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 133.35) (xy 81.28 134.62)
+			(xy 91.44 135.89) (xy 91.44 137.16)
 		)
 		(stroke
 			(width 0)
@@ -9621,16 +9599,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 111.76) (xy 102.87 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d08d8a8d-c69a-4294-ad01-446bbbf57785")
-	)
-	(wire
-		(pts
 			(xy 368.3 173.99) (xy 369.57 173.99)
 		)
 		(stroke
@@ -9801,7 +9769,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 133.35) (xy 92.71 134.62)
+			(xy 102.87 135.89) (xy 102.87 137.16)
 		)
 		(stroke
 			(width 0)
@@ -10180,7 +10148,7 @@
 		(uuid "081b8062-48ad-45fa-ac94-4d19179d7e5b")
 	)
 	(label "Therm_ADC"
-		(at 114.3 116.84 0)
+		(at 114.3 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11609,137 +11577,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EPSA_lib:LTC6255IS6#TRMPBF")
-		(at 73.66 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04876560-3261-43eb-be15-360d0185be85")
-		(property "Reference" "IC2"
-			(at 87.63 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LTC6255IS6#TRMPBF"
-			(at 87.63 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "EPSA:SOT95P280X100-6N"
-			(at 97.79 206.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.analog.com/media/en/technical-documentation/data-sheets/625567fd.pdf"
-			(at 97.79 306.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "A remplacer par MAX4239AUT+T (voir LIB)"
-			(at 73.66 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1"
-			(at 97.79 506.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "584-LTC6255IS6TRMPBF"
-			(at 97.79 606.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LTC6255IS6TRMPBF?qs=hVkxg5c3xu%252BM0aXXLk0hVA%3D%3D"
-			(at 97.79 706.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Analog Devices"
-			(at 97.79 806.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LTC6255IS6#TRMPBF"
-			(at 97.79 906.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe72395a-94f6-49e3-bd03-4dc33efe6601")
-		)
-		(pin "2"
-			(uuid "b21846fb-557d-4d07-a7a9-afad2f4bfdce")
-		)
-		(pin "3"
-			(uuid "017b159f-8990-487a-905d-3a9228303d7e")
-		)
-		(pin "4"
-			(uuid "95ca5892-9a64-4ecc-b5e3-3eacbc717ea1")
-		)
-		(pin "5"
-			(uuid "5d43328a-c6e5-469a-92b4-a3b65dc8ed5b")
-		)
-		(pin "6"
-			(uuid "e5b192c9-29dc-4cc2-85b8-02e57b3e166b")
-		)
-		(instances
-			(project "BMS_13"
-				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
-					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 29.21 92.71 90)
 		(unit 1)
@@ -12846,7 +12683,7 @@
 	)
 	(symbol
 		(lib_id "power:-VDC")
-		(at 92.71 134.62 180)
+		(at 102.87 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12854,7 +12691,7 @@
 		(dnp no)
 		(uuid "14fcfcc3-3c03-4d95-aa84-55381f727820")
 		(property "Reference" "#PWR031"
-			(at 92.71 132.08 0)
+			(at 102.87 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12863,7 +12700,7 @@
 			)
 		)
 		(property "Value" "-VDC"
-			(at 91.44 134.62 0)
+			(at 101.6 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12872,7 +12709,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 134.62 0)
+			(at 102.87 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12881,7 +12718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 134.62 0)
+			(at 102.87 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12890,7 +12727,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 134.62 0)
+			(at 102.87 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13253,7 +13090,7 @@
 	)
 	(symbol
 		(lib_id "power:-VDC")
-		(at 72.39 114.3 90)
+		(at 85.09 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13261,7 +13098,7 @@
 		(dnp no)
 		(uuid "227f5bf9-0b1d-4ac6-9d9f-f08927a6dcf3")
 		(property "Reference" "#PWR015"
-			(at 74.93 114.3 0)
+			(at 85.09 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13270,7 +13107,7 @@
 			)
 		)
 		(property "Value" "-VDC"
-			(at 67.31 113.03 90)
+			(at 82.296 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13279,7 +13116,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 114.3 0)
+			(at 85.09 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13288,7 +13125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 114.3 0)
+			(at 85.09 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13297,7 +13134,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 114.3 0)
+			(at 85.09 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13386,7 +13223,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 81.28 129.54 0)
+		(at 91.44 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13395,7 +13232,7 @@
 		(fields_autoplaced yes)
 		(uuid "230f3c5c-d6a7-464d-844c-df689a7924f4")
 		(property "Reference" "C5"
-			(at 85.09 128.27 0)
+			(at 95.25 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13404,7 +13241,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 85.09 130.81 0)
+			(at 95.25 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13413,7 +13250,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 82.2452 133.35 0)
+			(at 92.4052 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13422,7 +13259,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 129.54 0)
+			(at 91.44 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13431,7 +13268,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 129.54 0)
+			(at 91.44 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13456,7 +13293,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 110.49 116.84 90)
+		(at 110.49 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13465,14 +13302,6 @@
 		(fields_autoplaced yes)
 		(uuid "234253bc-9f06-4e47-adee-f010d5427c45")
 		(property "Reference" "R7"
-			(at 110.49 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
 			(at 110.49 113.03 90)
 			(effects
 				(font
@@ -13480,8 +13309,16 @@
 				)
 			)
 		)
+		(property "Value" "100"
+			(at 110.49 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 110.49 118.618 90)
+			(at 110.49 121.158 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13490,7 +13327,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 116.84 0)
+			(at 110.49 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13499,7 +13336,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 116.84 0)
+			(at 110.49 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14494,6 +14331,85 @@
 			(project "BMS_13"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:MAX4239AUT")
+		(at 87.63 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3d7cb075-36b2-4d3a-bef9-d7db1530d7cc")
+		(property "Reference" "U2"
+			(at 93.472 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX4239AUT"
+			(at 96.774 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 87.63 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/MAX4238-MAX4239.pdf"
+			(at 91.44 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ultra-Low Offset/Drift, Low-Noise, Precision Amplifiers, SOT-23-6"
+			(at 87.63 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "14a3909e-0863-448e-8585-b6a1d146e694")
+		)
+		(pin "5"
+			(uuid "b49f8c5d-b2e7-4b4e-9a46-da560264b952")
+		)
+		(pin "2"
+			(uuid "5ae777f1-647e-4a0f-b4bb-f855768020e9")
+		)
+		(pin "1"
+			(uuid "a5bcfc63-2977-481f-b100-e1dfa97ee41d")
+		)
+		(pin "6"
+			(uuid "c1d46260-a50c-40b0-a181-182103208937")
+		)
+		(pin "3"
+			(uuid "4d6890f6-7310-4971-97a3-27a45859be4a")
+		)
+		(instances
+			(project ""
+				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -16078,6 +15994,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 87.63 111.76 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66980f29-3b60-4c13-a475-ab1c072cf308")
+		(property "Reference" "#PWR034"
+			(at 83.82 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 91.44 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a59cbab4-e8c0-4360-98d7-2ed0a41262d4")
+		)
+		(instances
+			(project "BMS_13_VF"
+				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 383.54 180.34 90)
 		(unit 1)
@@ -17303,7 +17286,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 81.28 124.46 0)
+		(at 91.44 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17311,7 +17294,7 @@
 		(dnp no)
 		(uuid "7e2b0814-0ead-4aab-a886-71223f622038")
 		(property "Reference" "#PWR021"
-			(at 81.28 128.27 0)
+			(at 91.44 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17320,7 +17303,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 82.55 120.65 0)
+			(at 92.71 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17328,7 +17311,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 124.46 0)
+			(at 91.44 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17337,7 +17320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 124.46 0)
+			(at 91.44 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17346,7 +17329,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 124.46 0)
+			(at 91.44 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19537,7 +19520,7 @@
 	)
 	(symbol
 		(lib_id "power:-VDC")
-		(at 81.28 134.62 180)
+		(at 91.44 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19545,7 +19528,7 @@
 		(dnp no)
 		(uuid "adbe58c5-edd2-4b2a-93bc-6373ce2224e9")
 		(property "Reference" "#PWR020"
-			(at 81.28 132.08 0)
+			(at 91.44 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19554,7 +19537,7 @@
 			)
 		)
 		(property "Value" "-VDC"
-			(at 80.01 134.62 0)
+			(at 90.17 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19563,7 +19546,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 134.62 0)
+			(at 91.44 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19572,7 +19555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 134.62 0)
+			(at 91.44 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19581,7 +19564,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 81.28 134.62 0)
+			(at 91.44 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20217,7 +20200,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 92.71 129.54 0)
+		(at 102.87 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20226,7 +20209,7 @@
 		(fields_autoplaced yes)
 		(uuid "c26781c1-5172-49bd-afcc-a731ef849dea")
 		(property "Reference" "C26"
-			(at 96.52 128.27 0)
+			(at 106.68 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20235,7 +20218,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 96.52 130.81 0)
+			(at 106.68 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20244,7 +20227,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 93.6752 133.35 0)
+			(at 103.8352 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20253,7 +20236,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 92.71 129.54 0)
+			(at 102.87 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20262,7 +20245,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 129.54 0)
+			(at 102.87 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21745,7 +21728,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 92.71 124.46 0)
+		(at 102.87 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21753,7 +21736,7 @@
 		(dnp no)
 		(uuid "fbcaf93e-0c11-43bc-987d-4decf2be196e")
 		(property "Reference" "#PWR02"
-			(at 92.71 128.27 0)
+			(at 102.87 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21762,7 +21745,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 93.98 120.65 0)
+			(at 104.14 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21770,7 +21753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 92.71 124.46 0)
+			(at 102.87 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21779,7 +21762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 124.46 0)
+			(at 102.87 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21788,7 +21771,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 124.46 0)
+			(at 102.87 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22167,7 +22150,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 102.87 111.76 0)
+		(at 85.09 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22176,7 +22159,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe3ce0eb-0a2a-45ce-8525-1ff72f6f3cae")
 		(property "Reference" "#PWR016"
-			(at 102.87 115.57 0)
+			(at 85.09 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22185,7 +22168,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 102.87 106.68 0)
+			(at 85.09 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22193,7 +22176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 111.76 0)
+			(at 85.09 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22202,7 +22185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 111.76 0)
+			(at 85.09 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22211,7 +22194,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 111.76 0)
+			(at 85.09 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
