@@ -3442,6 +3442,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "EPSA_lib:2P Droit 22-11-2022"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "2P Droit 22-11-2022"
+				(at 6.35 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "EPSA_lib:MOLEX_22-11-2022"
+				(at 6.35 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112022?display=pdf"
+				(at 6.35 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "10.66mm"
+				(at 6.35 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Render Name" "2P Droit"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 6.35 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "22-11-2022"
+				(at 6.35 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "538-22-11-2022"
+				(at 6.35 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2022?qs=mrPiglD9aYLq1NGrfjXTJg%3D%3D"
+				(at 6.35 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "2P Droit 22-11-2022_0_0"
+				(rectangle
+					(start -5.08 2.54)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EPSA_lib:BMS Transf SM91501ALE"
 			(pin_names
 				(hide yes)
@@ -6275,7 +6440,7 @@
 	)
 	(text "5-103635-8\n"
 		(exclude_from_sim no)
-		(at 14.224 204.47 0)
+		(at 53.594 186.944 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6297,7 +6462,7 @@
 	)
 	(text "5-103635-6\n"
 		(exclude_from_sim no)
-		(at 46.99 195.58 0)
+		(at 91.44 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7019,7 +7184,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 180.34) (xy 22.86 180.34)
+			(xy 64.77 200.66) (xy 59.69 200.66)
 		)
 		(stroke
 			(width 0)
@@ -7069,7 +7234,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 187.96) (xy 22.86 187.96)
+			(xy 64.77 208.28) (xy 59.69 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7276,6 +7441,16 @@
 			(type default)
 		)
 		(uuid "206b3ad8-0d9a-4d02-8a12-9e67960ed8d7")
+	)
+	(wire
+		(pts
+			(xy 40.64 163.83) (xy 40.64 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20a25379-9274-420b-a707-92b5f63aa345")
 	)
 	(wire
 		(pts
@@ -7499,7 +7674,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 185.42) (xy 24.13 185.42)
+			(xy 59.69 205.74) (xy 64.77 205.74)
 		)
 		(stroke
 			(width 0)
@@ -7746,6 +7921,16 @@
 			(type default)
 		)
 		(uuid "47242195-caae-49f3-bbb7-da8585bf80ff")
+	)
+	(wire
+		(pts
+			(xy 58.42 181.61) (xy 59.69 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d421dc-1557-486c-b9fc-81ab10bbb4a3")
 	)
 	(wire
 		(pts
@@ -8279,7 +8464,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 166.37) (xy 22.86 166.37)
+			(xy 59.69 179.07) (xy 55.88 179.07)
 		)
 		(stroke
 			(width 0)
@@ -8447,16 +8632,6 @@
 		)
 		(uuid "78e3785c-75f2-4633-aa4a-45f80efecd57")
 	)
-	(wire
-		(pts
-			(xy 26.67 168.91) (xy 22.86 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79b4e1d5-f3e6-4cf8-b2c0-387d6042bf6d")
-	)
 	(polyline
 		(pts
 			(xy 403.86 15.24) (xy 318.77 15.24)
@@ -8556,6 +8731,16 @@
 			(type default)
 		)
 		(uuid "817abfe0-75bd-4645-b60e-93a21ec89472")
+	)
+	(wire
+		(pts
+			(xy 78.74 203.2) (xy 78.74 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ff019a-2c03-4f53-8890-04ec0cb2e731")
 	)
 	(wire
 		(pts
@@ -8797,16 +8982,6 @@
 		)
 		(uuid "92012da8-c9f6-4cef-8ae5-3cb2136f2d15")
 	)
-	(wire
-		(pts
-			(xy 26.67 185.42) (xy 27.94 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "927ab735-7801-4f4e-bb4d-3ad7d2b56ede")
-	)
 	(polyline
 		(pts
 			(xy 347.98 67.31) (xy 347.98 204.47)
@@ -8919,13 +9094,23 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 158.75) (xy 22.86 158.75)
+			(xy 59.69 171.45) (xy 55.88 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "99d5b6f2-1354-42ca-82b4-99a255660f8a")
+	)
+	(wire
+		(pts
+			(xy 81.28 195.58) (xy 81.28 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9c1c3a-65aa-489c-9e04-2abf16be60a5")
 	)
 	(wire
 		(pts
@@ -8969,7 +9154,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 190.5) (xy 22.86 190.5)
+			(xy 64.77 210.82) (xy 59.69 210.82)
 		)
 		(stroke
 			(width 0)
@@ -9059,7 +9244,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 153.67) (xy 22.86 153.67)
+			(xy 59.69 166.37) (xy 55.88 166.37)
 		)
 		(stroke
 			(width 0)
@@ -9079,7 +9264,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 163.83) (xy 22.86 163.83)
+			(xy 59.69 176.53) (xy 55.88 176.53)
 		)
 		(stroke
 			(width 0)
@@ -9119,7 +9304,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 156.21) (xy 22.86 156.21)
+			(xy 59.69 168.91) (xy 55.88 168.91)
 		)
 		(stroke
 			(width 0)
@@ -9139,7 +9324,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 193.04) (xy 22.86 193.04)
+			(xy 64.77 213.36) (xy 59.69 213.36)
 		)
 		(stroke
 			(width 0)
@@ -9259,7 +9444,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 182.88) (xy 22.86 182.88)
+			(xy 64.77 203.2) (xy 59.69 203.2)
 		)
 		(stroke
 			(width 0)
@@ -9269,7 +9454,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 198.12) (xy 22.86 198.12)
+			(xy 64.77 218.44) (xy 59.69 218.44)
 		)
 		(stroke
 			(width 0)
@@ -9549,7 +9734,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 151.13) (xy 22.86 151.13)
+			(xy 43.18 163.83) (xy 59.69 163.83)
 		)
 		(stroke
 			(width 0)
@@ -9609,7 +9794,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 161.29) (xy 22.86 161.29)
+			(xy 59.69 173.99) (xy 55.88 173.99)
 		)
 		(stroke
 			(width 0)
@@ -9679,7 +9864,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 195.58) (xy 27.94 195.58)
+			(xy 59.69 215.9) (xy 64.77 215.9)
 		)
 		(stroke
 			(width 0)
@@ -9696,6 +9881,16 @@
 			(type dash)
 		)
 		(uuid "d912ed16-e3bb-4e4e-96fe-688f6eb01cf3")
+	)
+	(wire
+		(pts
+			(xy 81.28 196.85) (xy 99.06 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d98288a5-032e-4b6a-bc30-533206602865")
 	)
 	(wire
 		(pts
@@ -9719,7 +9914,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 153.67) (xy 64.77 153.67)
+			(xy 101.6 177.8) (xy 91.44 177.8)
 		)
 		(stroke
 			(width 0)
@@ -10068,7 +10263,7 @@
 		(uuid "ff9fb90e-3aa7-4bc9-81f8-88dec8c157fc")
 	)
 	(label "T4"
-		(at 22.86 158.75 0)
+		(at 55.88 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10168,22 +10363,22 @@
 		(uuid "0a4555fc-06fd-42a3-bc02-e4554139d099")
 	)
 	(label "Cell 3"
-		(at 54.61 186.69 0)
+		(at 99.06 199.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0a54997d-2753-4923-8531-7d6969e5c19b")
 	)
 	(label "Cell 9"
-		(at 54.61 179.07 0)
+		(at 99.06 207.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0b1a192f-1f52-475d-bf36-667cf9464d90")
 	)
@@ -10248,12 +10443,12 @@
 		(uuid "13938bfc-29a0-47f4-b83b-36f0c9c6e910")
 	)
 	(label "Cell 6"
-		(at 54.61 163.83 0)
+		(at 101.6 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "187f93c4-96cf-464d-be63-7a6280a9bea2")
 	)
@@ -10408,7 +10603,7 @@
 		(uuid "352a3207-fe6c-4d84-9658-613605f2e137")
 	)
 	(label "Cell 1"
-		(at 54.61 189.23 0)
+		(at 78.74 203.2 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10418,12 +10613,12 @@
 		(uuid "376fee67-ad5d-4df9-9225-4ad3227faae3")
 	)
 	(label "Cell 8"
-		(at 54.61 161.29 0)
+		(at 101.6 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3837c5d7-f455-4331-b845-b856e5c93fdd")
 	)
@@ -10458,12 +10653,12 @@
 		(uuid "40cb701a-1eb4-4ea2-bf3b-b1573f6e5676")
 	)
 	(label "Cell 5"
-		(at 54.61 184.15 0)
+		(at 99.06 201.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "420f2fab-3436-4fd7-b78d-b5a9fa6ca621")
 	)
@@ -10488,12 +10683,12 @@
 		(uuid "4328ac52-b017-4542-848d-8122bc12ad5b")
 	)
 	(label "Cell 4"
-		(at 54.61 166.37 0)
+		(at 101.6 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4653d005-556f-417d-bd84-39f06209648b")
 	)
@@ -10598,12 +10793,12 @@
 		(uuid "5a65e872-cba4-4367-97e3-1c297d7166a7")
 	)
 	(label "Cell 10"
-		(at 54.61 158.75 0)
+		(at 101.6 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "5cadeda6-9745-4382-8e6a-77f369b08ebf")
 	)
@@ -10638,7 +10833,7 @@
 		(uuid "5deb5597-74b4-4967-b17f-526c285d687d")
 	)
 	(label "T3"
-		(at 22.86 156.21 0)
+		(at 55.88 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10678,7 +10873,7 @@
 		(uuid "67872d69-9c65-43ff-a2c7-f0f868733bee")
 	)
 	(label "T1"
-		(at 22.86 151.13 0)
+		(at 40.64 166.37 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10738,7 +10933,7 @@
 		(uuid "6d821f91-69bb-478e-857f-8793a93e624c")
 	)
 	(label "T6"
-		(at 22.86 163.83 0)
+		(at 55.88 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10788,12 +10983,12 @@
 		(uuid "76802c08-253f-4aed-ae0c-52545e8bd89c")
 	)
 	(label "Cell 12"
-		(at 54.61 156.21 0)
+		(at 101.6 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "771b1a0b-6eac-46cf-913b-44b0a8deefb2")
 	)
@@ -10838,12 +11033,12 @@
 		(uuid "7b754902-d378-4e5d-82c2-9b822851d051")
 	)
 	(label "Cell 11"
-		(at 54.61 176.53 0)
+		(at 99.06 209.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "7c8270fd-cef0-4d9d-80b2-86c110268d14")
 	)
@@ -10938,7 +11133,7 @@
 		(uuid "8eaab135-03bf-4c30-9dd2-823722929e0a")
 	)
 	(label "T5"
-		(at 22.86 161.29 0)
+		(at 55.88 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10998,7 +11193,7 @@
 		(uuid "96bc1fde-9259-45b6-a39c-9cd3a9ead17f")
 	)
 	(label "T2"
-		(at 22.86 153.67 0)
+		(at 55.88 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11008,7 +11203,7 @@
 		(uuid "9940f309-f9f2-4a2d-955a-e485db46dee9")
 	)
 	(label "T7"
-		(at 22.86 166.37 0)
+		(at 55.88 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11048,12 +11243,12 @@
 		(uuid "9b7c5d84-f6e2-4d71-b6a6-8681a9c8661f")
 	)
 	(label "Cell 13"
-		(at 54.61 191.77 0)
+		(at 99.06 194.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9c78dd88-aa12-4afe-a30b-beb8c0ab996a")
 	)
@@ -11068,12 +11263,12 @@
 		(uuid "9dc503cb-bce8-4486-921e-6d0280c604f8")
 	)
 	(label "T8"
-		(at 22.86 168.91 0)
+		(at 58.42 181.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ae18ef70-a7ba-4bb5-80db-863434b92cb1")
 	)
@@ -11108,7 +11303,7 @@
 		(uuid "b6e7734d-1cd3-4469-8c3b-987cc91a5604")
 	)
 	(label "T12"
-		(at 22.86 187.96 0)
+		(at 59.69 208.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11138,7 +11333,7 @@
 		(uuid "c05ff6a6-e21a-4ea3-b22b-277e6f2d24f4")
 	)
 	(label "T15"
-		(at 22.86 195.58 0)
+		(at 59.69 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11168,12 +11363,12 @@
 		(uuid "c8d9e8b2-443a-424b-9ca1-0a32f437a86f")
 	)
 	(label "Cell 7"
-		(at 54.61 181.61 0)
+		(at 99.06 204.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "caa974f4-47f3-49fd-a758-ee60d7e273c5")
 	)
@@ -11198,7 +11393,7 @@
 		(uuid "cb660fad-398b-4270-8daa-c572bfc4c5d2")
 	)
 	(label "T9"
-		(at 22.86 180.34 0)
+		(at 59.69 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11208,7 +11403,7 @@
 		(uuid "cbddd9e4-7fa3-4660-bb08-49b0983d7c38")
 	)
 	(label "T13"
-		(at 22.86 190.5 0)
+		(at 59.69 210.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11228,17 +11423,17 @@
 		(uuid "d2266427-be1c-420a-8f6a-83e9ad106b6d")
 	)
 	(label "Cell 2"
-		(at 54.61 168.91 0)
+		(at 101.6 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d4728ca7-6f76-4921-a386-ec1bc63b289c")
 	)
 	(label "T11"
-		(at 22.86 185.42 0)
+		(at 59.69 205.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11278,7 +11473,7 @@
 		(uuid "e04d4591-32dc-40a0-8675-0b8beafdbe61")
 	)
 	(label "T14"
-		(at 22.86 193.04 0)
+		(at 59.69 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11378,7 +11573,7 @@
 		(uuid "f3da111d-ea0a-487c-b1d6-fa708495cdcd")
 	)
 	(label "T16"
-		(at 22.86 198.12 0)
+		(at 59.69 218.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11428,7 +11623,7 @@
 		(uuid "ff476c6b-b64f-4b1c-bb29-85adb00ecbcb")
 	)
 	(label "T10"
-		(at 22.86 182.88 0)
+		(at 59.69 203.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12046,16 +12241,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x09_Pin")
-		(at 33.02 187.96 180)
+		(at 69.85 208.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1037a9e4-3b37-4bc7-b35a-5135d874aba0")
 		(property "Reference" "J8"
-			(at 34.29 186.6899 0)
+			(at 51.054 193.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12064,7 +12258,7 @@
 			)
 		)
 		(property "Value" "Conn_01x09_Pin"
-			(at 34.29 189.2299 0)
+			(at 54.102 193.2941 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12073,7 +12267,7 @@
 			)
 		)
 		(property "Footprint" "Connector_BMS_Thermistor:SHDRRA9W69P0X254_1X9_2527X1359X741P"
-			(at 33.02 187.96 0)
+			(at 69.85 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12082,7 +12276,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 187.96 0)
+			(at 69.85 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12091,7 +12285,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x09, script generated"
-			(at 33.02 187.96 0)
+			(at 69.85 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13631,7 +13825,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 19.05 232.41 0)
+		(at 19.05 278.13 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -13640,7 +13834,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b529d89-7e5f-488e-a94b-f3480307b8d1")
 		(property "Reference" "H4"
-			(at 21.59 231.1399 0)
+			(at 21.59 276.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13649,7 +13843,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 21.59 233.6799 0)
+			(at 21.59 279.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13658,7 +13852,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 19.05 232.41 0)
+			(at 19.05 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13667,7 +13861,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 19.05 232.41 0)
+			(at 19.05 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13676,7 +13870,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 19.05 232.41 0)
+			(at 19.05 278.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13761,7 +13955,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x07_Pin")
-		(at 49.53 184.15 0)
+		(at 104.14 201.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13769,7 +13963,7 @@
 		(dnp no)
 		(uuid "2df3f1e3-57e3-4302-8d2b-18137cc753eb")
 		(property "Reference" "J6"
-			(at 50.165 171.45 0)
+			(at 105.918 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13777,7 +13971,7 @@
 			)
 		)
 		(property "Value" "Conn_01x07_Pin"
-			(at 59.944 171.45 0)
+			(at 96.774 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13785,7 +13979,7 @@
 			)
 		)
 		(property "Footprint" "EPSA:SHDRRA7W77P0X254_1X7_2032X1359X699P"
-			(at 49.53 184.15 0)
+			(at 104.14 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13794,7 +13988,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 184.15 0)
+			(at 104.14 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13803,7 +13997,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 184.15 0)
+			(at 104.14 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13978,16 +14172,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x09_Pin")
-		(at 31.75 158.75 180)
+		(at 64.77 171.45 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "327ec6bf-7c9d-4bf3-93da-e5a591e92b3f")
 		(property "Reference" "J7"
-			(at 33.02 157.4799 0)
+			(at 49.022 157.2259 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13996,7 +14189,7 @@
 			)
 		)
 		(property "Value" "Conn_01x09_Pin"
-			(at 33.02 160.0199 0)
+			(at 52.578 157.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14005,7 +14198,7 @@
 			)
 		)
 		(property "Footprint" "Connector_BMS_Thermistor:SHDRRA9W69P0X254_1X9_2527X1359X741P"
-			(at 31.75 158.75 0)
+			(at 64.77 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14014,7 +14207,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 158.75 0)
+			(at 64.77 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14023,7 +14216,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x09, script generated"
-			(at 31.75 158.75 0)
+			(at 64.77 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14485,8 +14678,208 @@
 		)
 	)
 	(symbol
+		(lib_id "EPSA_lib:2P Droit 22-11-2022")
+		(at 78.74 185.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41787ea8-4ff1-4372-a31d-9ec77400720a")
+		(property "Reference" "J4"
+			(at 85.09 185.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2P Droit 22-11-2022"
+			(at 71.12 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:MOLEX_22-11-2022"
+			(at 81.28 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112022?display=pdf"
+			(at 78.74 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 78.74 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2"
+			(at 78.74 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 73.66 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"J\" model=\"22-11-2022\" lib=\"\""
+			(at 78.74 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "10.66mm"
+			(at 86.36 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "BD8"
+			(at 76.2 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 78.74 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Molex"
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "2P Droit"
+			(at 74.93 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.66mm"
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 76.2 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "22-11-2022"
+			(at 87.63 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-22-11-2022"
+			(at 90.17 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2022?qs=mrPiglD9aYLq1NGrfjXTJg%3D%3D"
+			(at 85.09 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d2d64c5-52f9-4ee4-bc2d-b04378df5e6d")
+		)
+		(pin "2"
+			(uuid "f4fdf1b8-0d70-4639-a1af-17ecd38cf31e")
+		)
+		(instances
+			(project "BMS_13_VF"
+				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-VDC")
-		(at 64.77 153.67 270)
+		(at 91.44 177.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14494,7 +14887,7 @@
 		(dnp no)
 		(uuid "450604ea-ce39-4674-9150-34dd5e89ed4f")
 		(property "Reference" "#PWR032"
-			(at 62.23 153.67 0)
+			(at 93.98 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14503,7 +14896,7 @@
 			)
 		)
 		(property "Value" "-VDC"
-			(at 64.77 154.94 0)
+			(at 91.44 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14512,7 +14905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 153.67 0)
+			(at 91.44 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14521,7 +14914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 153.67 0)
+			(at 91.44 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14530,7 +14923,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 153.67 0)
+			(at 91.44 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14686,7 +15079,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 19.05 226.06 0)
+		(at 19.05 271.78 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -14695,7 +15088,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d3c3407-ad5b-49d3-bf88-165f27127b1d")
 		(property "Reference" "H3"
-			(at 21.59 224.7899 0)
+			(at 21.59 270.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14704,7 +15097,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 21.59 227.3299 0)
+			(at 21.59 273.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14713,7 +15106,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 19.05 226.06 0)
+			(at 19.05 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14722,7 +15115,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 19.05 226.06 0)
+			(at 19.05 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14731,7 +15124,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 19.05 226.06 0)
+			(at 19.05 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16948,7 +17341,7 @@
 	(symbol
 		(lib_name "-VDC_2")
 		(lib_id "power:-VDC")
-		(at 27.94 177.8 90)
+		(at 64.77 198.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16957,7 +17350,7 @@
 		(fields_autoplaced yes)
 		(uuid "76863f3b-3bdb-4b90-9357-46a5b875802b")
 		(property "Reference" "#PWR033"
-			(at 30.48 177.8 0)
+			(at 67.31 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16966,7 +17359,7 @@
 			)
 		)
 		(property "Value" "-VDC"
-			(at 21.59 177.7999 90)
+			(at 58.42 198.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16975,7 +17368,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 177.8 0)
+			(at 64.77 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16984,7 +17377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 177.8 0)
+			(at 64.77 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16993,7 +17386,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-VDC\""
-			(at 27.94 177.8 0)
+			(at 64.77 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18705,7 +19098,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 19.05 213.36 0)
+		(at 19.05 259.08 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -18714,7 +19107,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1295e6e-ee8b-46cc-b97e-44c863f704f1")
 		(property "Reference" "H1"
-			(at 21.59 212.0899 0)
+			(at 21.59 257.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18723,7 +19116,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 21.59 214.6299 0)
+			(at 21.59 260.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18732,7 +19125,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 19.05 213.36 0)
+			(at 19.05 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18741,7 +19134,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 19.05 213.36 0)
+			(at 19.05 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18750,7 +19143,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 19.05 213.36 0)
+			(at 19.05 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18835,16 +19228,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x07_Pin")
-		(at 49.53 161.29 0)
+		(at 106.68 170.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a75d86f8-0724-45b0-b310-5bdf45935f5f")
 		(property "Reference" "J2"
-			(at 50.165 148.59 0)
+			(at 106.934 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18852,7 +19244,7 @@
 			)
 		)
 		(property "Value" "Conn_01x07_Pin"
-			(at 50.165 151.13 0)
+			(at 97.536 157.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18860,7 +19252,7 @@
 			)
 		)
 		(property "Footprint" "EPSA:SHDRRA7W77P0X254_1X7_2032X1359X699P"
-			(at 49.53 161.29 0)
+			(at 106.68 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18869,7 +19261,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 161.29 0)
+			(at 106.68 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18878,7 +19270,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 161.29 0)
+			(at 106.68 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19653,7 +20045,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 19.05 219.71 0)
+		(at 19.05 265.43 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -19662,7 +20054,7 @@
 		(fields_autoplaced yes)
 		(uuid "b409c74d-50dc-439b-8237-36e21a8e782c")
 		(property "Reference" "H2"
-			(at 21.59 218.4399 0)
+			(at 21.59 264.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19671,7 +20063,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 21.59 220.9799 0)
+			(at 21.59 266.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19680,7 +20072,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 19.05 219.71 0)
+			(at 19.05 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19689,7 +20081,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 19.05 219.71 0)
+			(at 19.05 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19698,7 +20090,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 19.05 219.71 0)
+			(at 19.05 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19848,6 +20240,206 @@
 			(project "BMS_13"
 				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EPSA_lib:2P Droit 22-11-2022")
+		(at 40.64 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b96ba9e4-c148-48e9-98cb-e1754a8cd4f6")
+		(property "Reference" "J5"
+			(at 46.99 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2P Droit 22-11-2022"
+			(at 33.02 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "EPSA_lib:MOLEX_22-11-2022"
+			(at 43.18 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/22112022?display=pdf"
+			(at 40.64 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 40.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2"
+			(at 40.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SPICE"
+			(at 35.56 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "type=\"J\" model=\"22-11-2022\" lib=\"\""
+			(at 40.64 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "10.66mm"
+			(at 48.26 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "BD8"
+			(at 38.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 40.64 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Molex"
+			(at 45.72 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Render Name" "2P Droit"
+			(at 36.83 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.66mm"
+			(at 45.72 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 38.1 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "22-11-2022"
+			(at 49.53 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-22-11-2022"
+			(at 52.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.fr/ProductDetail/Molex/22-11-2022?qs=mrPiglD9aYLq1NGrfjXTJg%3D%3D"
+			(at 46.99 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b70d67b-fecf-4337-8713-9e774a2bf178")
+		)
+		(pin "2"
+			(uuid "d78b5120-7a17-4a37-8c55-00b4d241bdb6")
+		)
+		(instances
+			(project "BMS_13_VF"
+				(path "/fbb3bfd2-cb0c-4aaf-a640-dea07a8873d3"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -21594,7 +22186,7 @@
 	(symbol
 		(lib_name "-VDC_1")
 		(lib_id "power:-VDC")
-		(at 26.67 148.59 90)
+		(at 59.69 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21603,7 +22195,7 @@
 		(fields_autoplaced yes)
 		(uuid "f74e0adf-5b88-4209-a486-d5e9414f8d35")
 		(property "Reference" "#PWR026"
-			(at 29.21 148.59 0)
+			(at 62.23 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21612,7 +22204,7 @@
 			)
 		)
 		(property "Value" "-VDC"
-			(at 20.32 148.5899 90)
+			(at 53.34 161.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21621,7 +22213,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 148.59 0)
+			(at 59.69 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21630,7 +22222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 148.59 0)
+			(at 59.69 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21639,7 +22231,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-VDC\""
-			(at 26.67 148.59 0)
+			(at 59.69 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
